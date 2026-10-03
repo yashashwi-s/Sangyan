@@ -24,6 +24,8 @@ const escape=value=>value.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&g
 template=template.replace(/<div class="language-tiles">[\s\S]*?<\/div>/,`<div class="language-tiles">${languages.map(([code,label,name])=>`<a href="/${code}" data-language="${code}" lang="${code}"><strong dir="${isRTL(code)?'rtl':'ltr'}">${label}</strong><span lang="en">${name}</span></a>`).join('')}</div>`);
 await writeFile(new URL('index.html',root),template);
 await mkdir(new URL('entry/',root),{recursive:true});
+// Deferred or removed languages must not leave directly addressable entry pages.
+for(const file of await readdir(new URL('entry/',root)))if(file.endsWith('.html')&&!languages.some(([code])=>file===code+'.html'))await rm(new URL('entry/'+file,root));
 for(const [language,d] of Object.entries(dictionaries)){
  const t=key=>escape(d[key]),direction=isRTL(language)?'rtl':'ltr';
  let html=template.replace('<html lang="en">',`<html lang="${language}">`).replace('<body class="language-gate">',`<body class="${isRTL(language)?'urdu':''}">`)

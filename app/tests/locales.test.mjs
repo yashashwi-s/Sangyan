@@ -37,13 +37,17 @@ test('all regional entry pages show current text, preload only their own pack an
   const html=await readFile(new URL(`../dist/entry/${language}.html`,import.meta.url),'utf8');assert.ok(html.includes(dictionaries[language].homeTitle));assert.ok(html.includes(dictionaries[language].homeIntro));assert.ok(html.includes(`href="${path}" as="fetch"`));assert.equal((html.match(/as="fetch"/g)||[]).length,1);assert.ok(html.includes('aria-busy="true"'));assert.ok(html.includes(`class="startup-retry" href="/${language}"`));assert.ok(!html.includes('input type="text"'));
  }
 });
-test('the language register contains exactly 22 scheduled languages plus English',async()=>{
- const {languageInfo,isRTL,audioLanguages}=await import('../dist/languages.js');
+test('the release contains exactly English plus 20 scheduled languages and excludes deferred languages',async()=>{
+ const {languageInfo,isRTL,audioLanguages,isKnownLanguage}=await import('../dist/languages.js');
  const codes=languageInfo.map(([code])=>code);
- assert.equal(codes.length,23);assert.equal(new Set(codes).size,23);
- assert.deepEqual(codes.filter(code=>code!=='en').sort(),['as','bn','brx','doi','gu','hi','kn','kok','ks','mai','ml','mni','mr','ne','or','pa','sa','sat','sd','ta','te','ur'].sort());
- assert.ok(['ks','sd','ur'].every(isRTL));assert.equal(isRTL('hi'),false);
+ assert.equal(codes.length,21);assert.equal(new Set(codes).size,21);
+ assert.deepEqual(codes.filter(code=>code!=='en').sort(),['as','bn','doi','gu','hi','kn','kok','mai','ml','mni','mr','ne','or','pa','sa','sat','sd','ta','te','ur'].sort());
+ assert.ok(['sd','ur'].every(isRTL));assert.equal(isRTL('hi'),false);
  assert.deepEqual(audioLanguages,['en','hi','bn','mr','ta','ur']);
+ assert.ok(['brx','ks'].every(code=>!isKnownLanguage(code)&&!Object.hasOwn(localeCatalog,code)));
+ assert.deepEqual(Object.keys(localeCatalog).sort(),codes.slice().sort());
+ const html=await readFile(new URL('../dist/index.html',import.meta.url),'utf8');
+ assert.ok(!html.includes('href="/brx"')&&!html.includes('href="/ks"'));
 });
 test('saved work can restore every registered language without changing account content',async()=>{
  const {languageInfo}=await import('../dist/languages.js');

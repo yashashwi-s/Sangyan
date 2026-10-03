@@ -22,7 +22,7 @@ These nine dictionaries each have all 364 source keys, nonempty string values, n
 
 Automated structural checks and targeted editorial changes are not independent fluent-reader validation. In particular, the Meitei, Santali, and Sindhi packs require close review of claim direction, nominee versus legal heir, financial nomination terminology, negation, account linkage, and privacy meaning. The same independent review remains necessary for the six other packs.
 
-## Bodo and Kashmiri: incomplete
+## Bodo and Kashmiri: deferred from this release
 
 No `brx.json` or `ks.json` dictionary has been created. Neither language is represented using Hindi, English, or another language as a substitute.
 
@@ -30,7 +30,7 @@ The Google public text endpoint returned HTTP 400 for Bodo (`brx`) and Kashmiri 
 
 The [official IndicTrans2 repository](https://github.com/AI4Bharat/IndicTrans2) supports `brx_Deva` and `kas_Arab`. Its [official demo](https://models.ai4bharat.org/#/nmt/v2) loaded and allowed Boro selection, but a normal translation request returned no result and logged `TypeError: Failed to fetch`. A separate connection check could not reach the demo API on port 443. The repository's official distilled Fairseq download link returned HTTP 401 Unauthorized. No gated download or access restriction was bypassed.
 
-Completing the requested 22 scheduled Indian languages still requires genuine complete Bodo and Kashmiri dictionaries plus their five coverage labels, supplied by a qualified author or an authorized available translation model. Their missing state must remain visible until that work and validation are complete.
+On 4 October 2026 the user revised the release scope to 21 text languages: English plus 20 scheduled languages, excluding Bodo and Kashmiri. They are not selectable, counted as supported, or blockers for this release. Their handoff artifacts preserve the source and terminology work for any future genuine translation; no substitute language is published.
 
 ## Additional six draft packs
 

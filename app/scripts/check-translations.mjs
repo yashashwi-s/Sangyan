@@ -5,6 +5,10 @@ import {languageInfo,audioLanguages} from '../dist/languages.js';
 import {dictionaries} from './dictionaries.mjs';
 const baseline=JSON.parse(await readFile(new URL('../translations/en.json',import.meta.url),'utf8'));
 const required=[...Object.keys(baseline),'searchLanguages','translationDraft','textOnly','audioAvailable','noLanguages'];
+const codes=languageInfo.map(([code])=>code);
+if(codes.length!==21||new Set(codes).size!==21||codes.some(code=>['brx','ks'].includes(code)))throw Error('Release scope must be English plus 20 supported scheduled languages (21 total); Bodo and Kashmiri are excluded.');
+if(JSON.stringify(Object.keys(dictionaries).sort())!==JSON.stringify(codes.slice().sort()))throw Error('Dictionary registry and release scope differ.');
+if(audioLanguages.some(code=>!codes.includes(code)))throw Error('Audio claims an unsupported language.');
 const report=[];
 for(const [code,nativeName,name] of languageInfo){
  const d=dictionaries[code];if(!d)throw Error(`Missing language ${code}`);

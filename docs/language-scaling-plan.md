@@ -1,6 +1,6 @@
 # Language coverage and expansion plan
 
-India's Constitution lists **22 languages in the Eighth Schedule**. English is retained as an additional interface language, making the intended interface coverage **23**, not “23 scheduled languages” or “22 national languages”. Source: [Department of Official Language](https://rajbhasha.gov.in/en/languages-included-eighth-schedule-indian-constitution), checked 3 October 2026.
+India's Constitution lists **22 languages in the Eighth Schedule**. The user revised this release on 4 October 2026 to **21 interface languages: English plus 20 scheduled languages**, excluding Bodo and Kashmiri. This is a release scope, not a claim to cover all scheduled languages. The excluded-language translation handoffs are retained for a possible future release. Source: [Department of Official Language](https://rajbhasha.gov.in/en/languages-included-eighth-schedule-indian-constitution), checked 3 October 2026.
 
 ## Separate text, audio and quality
 
@@ -19,7 +19,7 @@ The language register keeps native and English names, direction and audio availa
 
 ## Extending beyond this prototype
 
-- **Scripts:** Kashmiri and Sindhi need an explicit script policy and may need alternate-script packs. Manipuri/Meitei and Santali require checking native font coverage on older Android versions. A phone lacking glyphs is not supported merely because its JSON loads. Ship a small, licensed, language-specific font only when necessary; measure its download cost independently.
+- **Scripts:** Sindhi uses Arabic script in this release and may need an alternate-script pack. Kashmiri is deferred and will need an explicit script policy if added. Manipuri/Meitei and Santali require checking native font coverage on older Android versions. A phone lacking glyphs is not supported merely because its JSON loads. Ship a small, licensed, language-specific font only when necessary; measure its download cost independently.
 - **Voice service:** BHASHINI or an approved self-hosted model can be evaluated for broader voice coverage. API access, per-language availability, quality, privacy, licensing and costs must be verified before promising support. Pre-render public instructions to keep the runtime private and inexpensive. Do not introduce a live account-data translation/voice API merely to advertise AI.
 - **Content ownership:** Assign an owner and review date to each language and institution guide. Expired or changed official instructions require a content update, retranslation and new audio for the affected keys.
 - **Delivery costs:** Static hosting/CDN scales without an account database. Traffic cost is selected text plus requested clips; deployment size is not each user's download. Cache immutable revisions while keeping the entry page and worker updateable.

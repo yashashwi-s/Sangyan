@@ -23,3 +23,7 @@ Subagents stopped after usage-limit and application-network-permission errors. T
 ## Integration fixes verified by 72 automated tests
 
 Native retry labels now cover every built pack before its full dictionary loads. Saved Meitei/Santali HTML embeds its font and OFL licence. Worker activation preserves exact current cached language revisions and script assets. Changed or obsolete translations are not silently reused. These fixes require a new final-source performance run once the two missing languages are available.
+
+## Scope revision on 4 October 2026
+
+The user excluded Bodo and Kashmiri from the release. The supported registry and completeness gate now require exactly 21 text languages: English plus 20 scheduled languages. Earlier references above to a 23-language target and missing-pack blockers describe the historical checkpoint, not the current acceptance criterion. Final audits must use the current build; the interim 21-language snapshot remains evidence only for its recorded source hash.

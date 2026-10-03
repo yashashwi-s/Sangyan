@@ -3,12 +3,14 @@ import assert from 'node:assert/strict';
 import {readFile,stat} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
 import {audioCatalog} from '../dist/audio-catalog.js';
-import {dictionaries} from '../dist/i18n.js';
+import {dictionaries} from '../scripts/dictionaries.mjs';
+import {audioLanguages} from '../dist/languages.js';
 import {audioQueue} from '../dist/speech.js';
 const hash=data=>createHash('sha256').update(data).digest('hex');
-test('every released language has actual current recordings for all exported public text',async()=>{
+test('every advertised audio language has actual current recordings for all exported public text',async()=>{
  const source=JSON.parse(await readFile(new URL('../audio/public-text.json',import.meta.url)));
- assert.deepEqual(Object.keys(audioCatalog).sort(),Object.keys(dictionaries).sort());
+ assert.deepEqual(Object.keys(audioCatalog).sort(),audioLanguages.slice().sort());
+ assert.deepEqual(Object.keys(source).sort(),audioLanguages.slice().sort());
  for(const [language,copy] of Object.entries(source)){
   const report=JSON.parse(await readFile(new URL(`../audio/recordings-${language}.json`,import.meta.url))),release=audioCatalog[language];
   assert.equal(release.revision,report.revision);assert.deepEqual(release.keys.sort(),Object.keys(copy).sort());

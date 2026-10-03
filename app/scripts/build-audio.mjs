@@ -1,11 +1,16 @@
 // Validate generated recordings against the exact copy before publishing the catalog.
 import {readFile,writeFile,readdir,rm} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
-import {dictionaries} from '../dist/i18n.js';
+import {dictionaries} from './dictionaries.mjs';
+import {audioLanguages} from '../dist/languages.js';
+import {publicAudioCopy} from './audio-public-copy.mjs';
 const root=new URL('../',import.meta.url),catalog={};
-for(const lang of Object.keys(dictionaries)){
+const publicSource=JSON.parse(await readFile(new URL('audio/public-text.json',root)));
+const currentSource=publicAudioCopy(audioLanguages);
+if(JSON.stringify(publicSource)!==JSON.stringify(currentSource))throw Error('Released audio source does not match current public copy and audio-language registry.');
+for(const lang of audioLanguages){
  const report=JSON.parse(await readFile(new URL(`audio/recordings-${lang}.json`,root)));
- const source=JSON.parse(await readFile(new URL('audio/public-text.json',root)))[lang];
+ const source=publicSource[lang];
  const keys=Object.keys(source);
  if(Object.keys(report.entries).length!==keys.length)throw Error(`Incomplete audio: ${lang}`);
  for(const key of keys){
