@@ -1,0 +1,2540 @@
+{
+  "language": "ml",
+  "revision": "d94407da8c5e",
+  "model": {
+    "model": "facebook/mms-tts-mal",
+    "revision": "893b8c6442d6a630896d1d3ac0f429094ddfae82",
+    "license": "CC-BY-NC-4.0",
+    "languageCode": "ml",
+    "files": {
+      "config.json": {
+        "sha256": "c2ad5cfc8d13df056890cd345cf1956bf2d7d61082d45e55a9353d1bab032b06",
+        "bytes": 1641
+      },
+      "tokenizer_config.json": {
+        "sha256": "c98ba555d7ab56f939e24df2815f09391219c2f29981c58cf0f13178abf6e3f0",
+        "bytes": 289
+      },
+      "vocab.json": {
+        "sha256": "eb205944291c27e577ef423b29c889f61e89e984f9c4973c6b03c372cc0809bb",
+        "bytes": 1053
+      },
+      "special_tokens_map.json": {
+        "sha256": "21de02462fa930afa9d61c402e8bf9eb3af2507ff8a6ad351edceaf71a18fbb9",
+        "bytes": 49
+      },
+      "model.safetensors": {
+        "sha256": "a97a1e677ec67e05124b799dadd66630181fe9c29beb4e590454689ff8f698c5",
+        "bytes": 145262840
+      },
+      "README.md": {
+        "sha256": "6f638e015a3023bb41fc804b5f24cb04ea40f8cf54274eb09032f971a39cb432",
+        "bytes": 3984
+      }
+    }
+  },
+  "license": "CC-BY-NC-4.0",
+  "fluentReview": false,
+  "scope": "complete",
+  "entries": {
+    "nomineeYes": {
+      "textHash": "6bd54336a97fd20a7d5e689efab3bd8d5c5981b4a1900c4df0c6126910975c9b",
+      "spoken": "അതെ",
+      "bytes": 2847,
+      "seconds": 0.572,
+      "sha256": "f4ced6551b807cb7973ae9ce11ede00843dbb932ecf4a14b8423a5f7e168fb15"
+    },
+    "nomineeNo": {
+      "textHash": "7196dff844c59474822a8c97610de27b29e595662df9971ede2ae93d0ca4b2a5",
+      "spoken": "ഇല്ല",
+      "bytes": 3038,
+      "seconds": 0.615,
+      "sha256": "f783b22b34a72ea3fbc06712463f5d2a8d0dd6ab919c45751e5aa9dbee36d14f"
+    },
+    "nomineeExplain": {
+      "textHash": "71ff64aaf6904948a208beff0559f38873e34a78ccd1ca09d61c506c96cd8895",
+      "spoken": "അക്കൗണ്ട് ഉടമ മരിച്ച ശേഷം സ്ഥാപനത്തിന് ക്ലെയിം സമർപ്പിക്കാവുന്ന വ്യക്തിയാണ് നോമിനി. നോമിനേഷൻ നടപടികൾക്ക് സഹായിക്കുന്നു; നിയമപരമായി ആരാണ് അവകാശി എന്ന് അത് തീരുമാനിക്കുന്നില്ല. നിങ്ങൾ പരിശോധിച്ചിട്ടില്ലെങ്കിൽ, “ഉറപ്പില്ല” തിരഞ്ഞെടുക്കുക.",
+      "bytes": 65827,
+      "seconds": 16.302,
+      "sha256": "7f910c333c15212d95bef03db87ecbcf81ecb4b6b865209cba741fdbdb48b185"
+    },
+    "day": {
+      "textHash": "969448361ef81850e2738c9cf6b6b37f315e9c3b02f4a5c751a2fa2cb603732a",
+      "spoken": "ദിവസം",
+      "bytes": 4472,
+      "seconds": 0.96,
+      "sha256": "b20b9341201521111f634b1ddbb1b98ea1134cbc521779d47bc1a1095236163e"
+    },
+    "month": {
+      "textHash": "e9b0f134ca61b9e51e43783b9cdf61c8a7abca55c7a3735edc5e9c3e38039ab3",
+      "spoken": "മാസം",
+      "bytes": 4282,
+      "seconds": 0.921,
+      "sha256": "b02329fa297ca693a99f88f2386841c74a218ec3cb998f97b1131a9c7d741fbd"
+    },
+    "year": {
+      "textHash": "5f2bd330b6f49522b94e0cef05e4bf9fe6042127f43463a8f624633f2c055977",
+      "spoken": "വർഷം",
+      "bytes": 3513,
+      "seconds": 0.738,
+      "sha256": "7b4e00ce1aceca533e71a163c634feb957c0b5f52059169a639652bc7856dfea"
+    },
+    "dateExample": {
+      "textHash": "ec1615db95dbe6765577a420cff3241770027d21f1e8829665d0755be2c9dfd0",
+      "spoken": "ഉദാഹരണം: പതിനാല് / പൂജ്യം ഒമ്പത് / രണ്ടായിരത്തി ഇരുപത്തിയാറ് എന്നാൽ പതിനാല് സെപ്റ്റംബർ രണ്ടായിരത്തി ഇരുപത്തിയാറ് എന്നാണ് അർത്ഥമാക്കുന്നത്. നിങ്ങളുടെ റെക്കോർഡിലെ തീയതി ഉപയോഗിക്കുക.",
+      "bytes": 54592,
+      "seconds": 13.503,
+      "sha256": "42f14f430af1dc023b8a8ea65f96e8649b6a7128c73b00aef30018b679cd1f9e"
+    },
+    "submissionExample": {
+      "textHash": "2ad8161b34a9c0e8095573002c7745861f9e02c7bb2eff68a3e1804ae55b3814",
+      "spoken": "നിങ്ങൾ അഭ്യർത്ഥന അയച്ച ദിവസം ഉപയോഗിക്കുക. ഉദാഹരണം: പതിനാല്/പൂജ്യം ഒമ്പത്/രണ്ടായിരത്തി ഇരുപത്തിയാറ്.",
+      "bytes": 32710,
+      "seconds": 8.024,
+      "sha256": "b1085bed14a4214836fb17a0fc0acadec4855930bf28f7c976dc8ebfe4cc071a"
+    },
+    "statementExample": {
+      "textHash": "066da0744a93523a0752b4f9c8e05c5e96a1d8e9175967147eaaacb2e8297ecd",
+      "spoken": "നോമിനി പേരുകൾ കാണിക്കുന്ന ഒരു പ്രസ്താവന അല്ലെങ്കിൽ \"നോമിനേഷൻ: അതെ\". ഒരു ബാലൻസ് മാത്രം പോരാ.",
+      "bytes": 28485,
+      "seconds": 6.963,
+      "sha256": "da8ceb771e0328a5a14a73603d03bdf9f8fdcf94879514950186a4ada1956013"
+    },
+    "registrationExample": {
+      "textHash": "037144f65e4f3eb9ced5c17bafc43dd38d21bbd9b62e02fe43f592c954c07f7f",
+      "spoken": "ഈ അക്കൗണ്ടിൽ നോമിനേഷൻ രജിസ്റ്റർ ചെയ്തതായി സ്ഥിരീകരിക്കുന്ന ബാങ്ക്, ബ്രോക്കർ അല്ലെങ്കിൽ മ്യൂച്വൽ ഫണ്ടിന്റെ കത്ത് അല്ലെങ്കിൽ ഇമെയിൽ. അപേക്ഷയുടെ രസീത് വേറെയാണ്.",
+      "bytes": 46728,
+      "seconds": 11.521,
+      "sha256": "09137d7dd2d2c80223a63c2c6c6d71ff43468400ff9148d54b6a7014d5826fd0"
+    },
+    "requiredInstitution": {
+      "textHash": "39ef3c1113342484dd9b1c93e21913ea02f6c7f535c94052decbc8b6d034d617",
+      "spoken": "നിങ്ങളുടെ റെക്കോർഡിൽ കാണിച്ചിരിക്കുന്ന ബാങ്ക്, ബ്രോക്കർ അല്ലെങ്കിൽ ഫണ്ടിൻ്റെ പേര് നൽകുക.",
+      "bytes": 23976,
+      "seconds": 5.836,
+      "sha256": "b62f7dd3fdef2674bc0becd2750ca29e7cc05810f0d56134f5280c3a8001fec2"
+    },
+    "requiredRecord": {
+      "textHash": "3b45772dee10206eacaf4589f74a3ef0c62133372fbf93f19f301ff218dc517a",
+      "spoken": "നിങ്ങൾ പരിശോധിച്ച റെക്കോർഡ് തരം തിരഞ്ഞെടുക്കുക.",
+      "bytes": 11779,
+      "seconds": 2.803,
+      "sha256": "4acba9c292d2756bc1b3357dc2d9c120eea1700dbe80d86467961ed520767561"
+    },
+    "requiredCheck": {
+      "textHash": "446c814d1df8b8e355422a71cb7c2c6190be2675de9993dfb59e63ea3b815644",
+      "spoken": "ഈ അക്കൗണ്ടിൽ നോമിനി രജിസ്റ്റർ ചെയ്തിട്ടുണ്ട് എന്ന് നിങ്ങളുടെ രേഖ കാണിക്കുന്നുണ്ടെന്ന് ഉറപ്പാക്കുക.",
+      "bytes": 22050,
+      "seconds": 5.353,
+      "sha256": "6c9beafd508c20366aa7ce641ae1ede5e845b82664e68047f30bfe14aef5f0cb"
+    },
+    "institutionExample": {
+      "textHash": "d2698740afd14dbd89a7b1fad45af6c900dfa970af81f273c6a663c0b08bd310",
+      "spoken": "ഉദാഹരണത്തിന്: എച്ച് ഡി എഫ് സി ബാങ്ക് അല്ലെങ്കിൽ നിങ്ങളുടെ പ്രസ്താവനയിലെ പേര്.",
+      "bytes": 22535,
+      "seconds": 5.476,
+      "sha256": "8aaf6c34f0e5e19ef3162805955bc6783ea1bbf1db4816da57c906673be18f53"
+    },
+    "nicknameExample": {
+      "textHash": "ac581e1b184f8834cf074728c4496a2a34310ded8b262d9c6ad19c0257078669",
+      "spoken": "ഉദാഹരണത്തിന്: കുടുംബ സമ്പാദ്യം.",
+      "bytes": 11588,
+      "seconds": 2.742,
+      "sha256": "ae050b0d426d1b96f981a38f688a5d5ced442280615f8c55d0f6e42649225958"
+    },
+    "ownerExample": {
+      "textHash": "f30de0db504927fdcfd4ae6762a6c7b527fe3bfafe4894831ae4e1ad16de3315",
+      "spoken": "ഉദാഹരണത്തിന്: ഞാനോ മാതാപിതാക്കളോ.",
+      "bytes": 13121,
+      "seconds": 3.141,
+      "sha256": "29bddfac7301e9c8d6e7a9e515b6fcce02ec3dc2419a62cb9f56ff581f5b012e"
+    },
+    "nomineeNoteExample": {
+      "textHash": "790a7f20219edff1141a986acbff09eea85f721ba7931f1c58429e5028c1598f",
+      "spoken": "ഉദാഹരണത്തിന്: പങ്കാളി / അനു. വിളിപ്പേരോ ബന്ധമോ മാത്രം.",
+      "bytes": 18791,
+      "seconds": 4.546,
+      "sha256": "e8f04e2eee243a96eef89f7ccef24169b65a10c939ba4cc10e53e5c08f87042a"
+    },
+    "last4Example": {
+      "textHash": "58f8a621475eb6596444c1f2e73591bf1245d4de09bd040af5fc0160102d1bfd",
+      "spoken": "ഉദാഹരണത്തിന്: ഒന്ന് രണ്ട് മൂന്ന് നാല്. അവസാന നാല് അക്കങ്ങൾ മാത്രം.",
+      "bytes": 21953,
+      "seconds": 5.339,
+      "sha256": "edfd4dd8a92e850aa98e0f9bf462c1c501cea459f3e0c9bdde5c9f66ba4fb62b"
+    },
+    "recordNoteExample": {
+      "textHash": "5ab682fbbd1bf138c98279d869d0044a77e648c9bb4e96165f99155b59ddafae",
+      "spoken": "ഓപ്ഷണൽ: രസീത് അല്ലെങ്കിൽ റെക്കോർഡ് കണ്ടെത്താൻ നിങ്ങളെ സഹായിക്കുന്ന ഒരു ചെറിയ കുറിപ്പ്.",
+      "bytes": 26086,
+      "seconds": 6.368,
+      "sha256": "02b584c29914ad5cf827caf1f9d4e50fa281b8dfd7faf7f02e7e2bc813b299c8"
+    },
+    "bankLocation": {
+      "textHash": "efa95400b250732f5e94316352d9635f553520b855943fd0a217ebd1960c3b6c",
+      "spoken": "നിങ്ങളുടെ പാസ്‌ബുക്കിലോ സ്റ്റേറ്റ്‌മെൻ്റിലോ നിക്ഷേപ രസീതിലോ ബാങ്കിൻ്റെ പേര് ഉപയോഗിക്കുക.",
+      "bytes": 23681,
+      "seconds": 5.77,
+      "sha256": "007790635efbe14c00789aaaaba49c77e680c8942d03c36cc8ea76bb7ecc33cc"
+    },
+    "dematLocation": {
+      "textHash": "f54a65c8dec0bb3b4a8853b34479d483b978651701b0ac1c8b487ed8597da4a1",
+      "spoken": "നിങ്ങളുടെ ഡീമാറ്റ് സ്റ്റേറ്റ്‌മെൻ്റിൽ നിങ്ങൾ കൈവശം വച്ചിരിക്കുന്ന ഷെയറുകളേക്കാൾ ബ്രോക്കറെയോ ബാങ്കിനെയോ ഉപയോഗിക്കുക.",
+      "bytes": 29346,
+      "seconds": 7.182,
+      "sha256": "a75aa37dce21e682371d03844722dedfa4ea745efb9cf0ca856b59af72eb3ac2"
+    },
+    "mfLocation": {
+      "textHash": "37c468c0da456f36441360db232554cbf1833f48ae392a89ebe6c8f7950e5530",
+      "spoken": "നിങ്ങളുടെ ഫോളിയോ പ്രസ്താവനയിൽ മ്യൂച്വൽ ഫണ്ട് ഉപയോഗിക്കുക. അതിൻ്റെ രജിസ്ട്രാർക്ക് സഹായിക്കാനാകും; ഡീമാറ്റിലെ യൂണിറ്റുകൾ ഡീമാറ്റ് റൂട്ട് പിന്തുടരുന്നു.",
+      "bytes": 42495,
+      "seconds": 10.467,
+      "sha256": "c92f9fa32e2a49b88913a12617d2c10fe9fcf7a11bc137673bb6285fc14a064d"
+    },
+    "checkLocation": {
+      "textHash": "56d827d1b83b0c152d56ddb16082227b0cb48f13c30c5697e5aabd7a1f173278",
+      "spoken": "ഈ അക്കൗണ്ടിൻ്റെ വിശദാംശങ്ങളിലോ ഏറ്റവും പുതിയ പ്രസ്താവനയിലോ നോമിനിയുടെ പേരോ നാമനിർദ്ദേശ നിലയോ നോക്കുക.",
+      "bytes": 28962,
+      "seconds": 7.104,
+      "sha256": "8a8c5c102326f21b3741a3dc04bc3ceadff96cd7fd9bd921552f6a58a19dd0ae"
+    },
+    "askInstitution": {
+      "textHash": "ad5971ebc2046c53622ebf9427d921c42ec4c99f8a1d268c0fd5b798a11164fb",
+      "spoken": "അത് കാണിക്കുന്നില്ലെങ്കിൽ, സ്ഥാപനത്തോട് ചോദിക്കുക: \"ഈ അക്കൗണ്ടിനായി നോമിനേഷൻ രജിസ്റ്റർ ചെയ്തിട്ടുണ്ടോ? നിങ്ങൾക്ക് ഇത് രേഖാമൂലം സ്ഥിരീകരിക്കാമോ?\"",
+      "bytes": 37603,
+      "seconds": 9.264,
+      "sha256": "4eddcadea2136352685d6bd287205179d0904258d553652c6c11e2d7b24054ef"
+    },
+    "keepUnknown": {
+      "textHash": "577a1a44ab7041027af73bd3db2abab4b4cce2cb3b73e6287b43391ee7a39f78",
+      "spoken": "നിങ്ങൾക്ക് പരിശോധിക്കാൻ കഴിയുന്നതുവരെ \"ഉറപ്പില്ല\" എന്ന് സൂക്ഷിക്കുക. സ്ഥാപനം നോമിനി ഇല്ലെന്ന് സ്ഥിരീകരിക്കുകയാണെങ്കിൽ, \"ചേർത്തിട്ടില്ല\" തിരഞ്ഞെടുക്കുക.",
+      "bytes": 38752,
+      "seconds": 9.542,
+      "sha256": "20d07eec53d838122e98caf22b26bb563fef33f0aa278101a7df0177126578f4"
+    },
+    "submitKeep": {
+      "textHash": "2c960454bcec37ccda6ba5a5bc109d8c8b095499bb7dbda554e612a641e62bc8",
+      "spoken": "സ്ഥാപനത്തിൻ്റെ ഔദ്യോഗിക ചാനലിലൂടെ സമർപ്പിക്കുക. തീയതി രേഖപ്പെടുത്തിയ അംഗീകാരമോ രസീതോ സൂക്ഷിക്കുക.",
+      "bytes": 32127,
+      "seconds": 7.881,
+      "sha256": "9ddb68d32514c310aed0e24c95b52ae4ac2a36d3ade9391d08c0d2309b689486"
+    },
+    "confirmRegistration": {
+      "textHash": "9baaf34827f880fbd00c6b21d913cd84ad7b99f521b513f4cf273ad3dcd4a70c",
+      "spoken": "ഈ അക്കൗണ്ട് തിരിച്ചറിയുകയും നോമിനേഷൻ രേഖപ്പെടുത്തുകയും ചെയ്യുന്ന സ്റ്റേറ്റ്മെന്റോ രേഖാമൂലമുള്ള സ്ഥിരീകരണമോ പരിശോധിക്കുക. അപേക്ഷയുടെ രസീത് മാത്രം രജിസ്ട്രേഷൻ സ്ഥിരീകരിക്കുന്നില്ല.",
+      "bytes": 52872,
+      "seconds": 13.057,
+      "sha256": "3378d8708d1a5d03de18f8ee864618c0dcbe4185bed8e18657a31562a6761320"
+    },
+    "followRequest": {
+      "textHash": "28d71d0bcc9bfca95caf306ca72405128334550994e98b63c56f616b9aa6bbca",
+      "spoken": "നോമിനേഷൻ രജിസ്റ്റർ ചെയ്തിട്ടുണ്ടോ എന്ന് സ്ഥാപനത്തോട് ചോദിക്കാൻ അപേക്ഷ തീയതിയും രസീത് റഫറൻസും ഉപയോഗിക്കുക.",
+      "bytes": 32130,
+      "seconds": 7.894,
+      "sha256": "6a7ff70e23497976297fa91804f7ca468c2ff1065c5684106be253e4ec6a6425"
+    },
+    "waitRegistration": {
+      "textHash": "0286b5d1081b8077cbf992884513795176d3ba799c16add67a025edd172be279",
+      "spoken": "രജിസ്ട്രേഷൻ റെക്കോർഡ് ലഭ്യമാകുന്നത് വരെ സ്ഥിരീകരണത്തിനായി ഇത് കാത്തുസൂക്ഷിക്കുക.",
+      "bytes": 23877,
+      "seconds": 5.825,
+      "sha256": "dcd116382913b70997a756e7aa18bcb1488282c483761da800e3be89fa66e283"
+    },
+    "hdfcPath": {
+      "textHash": "576c3cdb5473486b72aabc7c02e71f7cef8df67ebc539fd2948c0106590228c7",
+      "spoken": "നെറ്റ്ബാങ്കിംഗ്: അക്കൗണ്ടുകൾ → നിങ്ങളുടെ അക്കൗണ്ട് → അക്കൗണ്ട് വിശദാംശങ്ങൾ → നോമിനി/ഹോൾഡർ വിശദാംശങ്ങൾ.",
+      "bytes": 32029,
+      "seconds": 7.863,
+      "sha256": "9fc00b380c44a44fc3f47d31d404c250e2312b78db5ef1ae2e0ed05cc597ccaf"
+    },
+    "hdfcHolding": {
+      "textHash": "00fb9ca9a65ffe5ad17ab6b913e4bde5fd79102a1265e10703dd97f694e3bbaa",
+      "spoken": "സോൾ ഹോൾഡർ: അവിടെ ചേർക്കുക/മാറ്റുക. ജോയിൻ്റ് ഹോൾഡർമാർക്ക്, ഒരുമിച്ച് ഒരു ബ്രാഞ്ച് സന്ദർശനം ബാങ്ക് ശുപാർശ ചെയ്യുന്നു.",
+      "bytes": 29056,
+      "seconds": 7.124,
+      "sha256": "c3ca804be29da7fe5491f93b90d9b0b693ab9a20af24301e1a0d9a2ff2cdfc39"
+    },
+    "hdfcSource": {
+      "textHash": "e1dac81f12e1bc49af23079bdf564189e0bd4cf5c300987c4667eb2f12c34037",
+      "spoken": "എച്ച് ഡി എഫ് സി ബാങ്ക് നിർദ്ദേശങ്ങൾ",
+      "bytes": 12447,
+      "seconds": 2.968,
+      "sha256": "70f66b6fecc6e760f5961b5ef527a142ce0c395a5f4d183d7f3532af0511a3fd"
+    },
+    "whatToDo": {
+      "textHash": "1e52035dc54fa8af8100c17dce5d4477b983ba6c240d46250c8782087a3fd155",
+      "spoken": "എന്ത് ചെയ്യണം",
+      "bytes": 4381,
+      "seconds": 0.956,
+      "sha256": "0b4a236e933e57dfffc9e58efeadb9580b208e8a45e99e7cb0655275222089b9"
+    },
+    "home": {
+      "textHash": "b25b2f69bc737b45680510a59ec7709b3361f16d93ebc05ca460dac9c61c910a",
+      "spoken": "വീട്",
+      "bytes": 3417,
+      "seconds": 0.698,
+      "sha256": "573865edc42dddf6f4f441141fffa0e99ca4e1f1c91927e8db55e48f9ba28368"
+    },
+    "continue": {
+      "textHash": "ef08774e2de7609835619f03f1de5e6078f8c384eea918ac91b81a07a1adbb5d",
+      "spoken": "തുടരുക",
+      "bytes": 3517,
+      "seconds": 0.731,
+      "sha256": "c6dc51567ea18e5973ab93138da0335fec6372cc6b401b1ddd1ac2bc2d531992"
+    },
+    "unfinished": {
+      "textHash": "2dd3ff416d80fd6ace94558278f215d6e78d8414f548ebed3602799f2173038d",
+      "spoken": "പൂർത്തിയാകാത്ത അക്കൗണ്ട് തുടരുക",
+      "bytes": 10335,
+      "seconds": 2.428,
+      "sha256": "b755cc29cb98520918658f96459f45cffb0a32de29051c338126faff100f0947"
+    },
+    "step": {
+      "textHash": "b8de6686eb22ccb7436364169af1253de6fef8fa67079e350dc12fe2e089c5bb",
+      "spoken": "ഘട്ടം",
+      "bytes": 3609,
+      "seconds": 0.764,
+      "sha256": "ab61ed018eb2c9786e9f781ad532a43d29a64bb6ee978397864b1c195ce8ff33"
+    },
+    "of": {
+      "textHash": "975f4f221f03ee73beaa70d7c86ca7bf0a317df2b4aed270dcbe63a4b679f337",
+      "spoken": "യുടെ",
+      "bytes": 2839,
+      "seconds": 0.57,
+      "sha256": "7d2768d16c2d385b6c872f10385fba30529ee03c3de9c281ed5acba160ebb902"
+    },
+    "homeTitle": {
+      "textHash": "0231810c454e15761aa337b69300a238636362429635a3f7aa2aebd452276922",
+      "spoken": "നിങ്ങളുടെ കുടുംബത്തിൻ്റെ അക്കൗണ്ടുകൾ കണ്ടെത്തുന്നത് എളുപ്പമാക്കുക.",
+      "bytes": 15806,
+      "seconds": 3.797,
+      "sha256": "40fc42b3201ba1ecd12766f5fb7590380009f23f23a31d5b106478741018aeb5"
+    },
+    "homeIntro": {
+      "textHash": "f2ca9dfbe2570ce09904e7c337a3e11a8ce3f70e29bf6ab9c49a66fc0ad1bbf4",
+      "spoken": "ആരെയാണ് നോമിനേറ്റ് ചെയ്തതെന്ന് പരിശോധിക്കുക. നഷ്ടപ്പെട്ടത് ശ്രദ്ധിക്കൂ. നിങ്ങളുടെ കുടുംബത്തിന് വ്യക്തമായ ഒരു റെക്കോർഡ് ഇടുക.",
+      "bytes": 32894,
+      "seconds": 8.074,
+      "sha256": "ef89ca38b145a9fc13a5e50000dcff19eb3967d5f7220795e87b4a3a1d714615"
+    },
+    "typeQuestion": {
+      "textHash": "c24369ef65a7212cba1ba5225a65d16f2ac8fe264814b02b8f4a4a58fb349ca3",
+      "spoken": "ഏത് തരത്തിലുള്ള അക്കൗണ്ടാണിത്?",
+      "bytes": 10433,
+      "seconds": 2.464,
+      "sha256": "3d218a127c66b49e8e4cecb7de83e20f400718c493d05592f5dca24001fafc54"
+    },
+    "institutionQuestion": {
+      "textHash": "b482a67859af12594f34451a3d9b5b545a5810aec9b000c11453aa9e949c57c6",
+      "spoken": "അക്കൗണ്ട് എവിടെയാണ് സൂക്ഷിച്ചിരിക്കുന്നത്?",
+      "bytes": 11496,
+      "seconds": 2.715,
+      "sha256": "5b339531817e7962c397bd162f4d5e8fcd10d171d659b2c039de9ac937dfd3f7"
+    },
+    "dematDescription": {
+      "textHash": "e50ce20577847351319d835483b95b3927eeb0ea46610f722490527ad6c5c123",
+      "spoken": "ഒരു ബ്രോക്കറിനോടോ ബാങ്കിലോ ഉള്ള ഓഹരികൾ",
+      "bytes": 12837,
+      "seconds": 3.069,
+      "sha256": "527028e935ccb00f2dd77e1c93b3347c7f03eb6cf85f5c07a260f514a0b94c57"
+    },
+    "bankDescription": {
+      "textHash": "903bed23375f34410b79ea071af6926aad1f852c884f554f61204f2f3a0d5732",
+      "spoken": "സേവിംഗ്സ് അല്ലെങ്കിൽ ബാങ്കിലെ നിക്ഷേപം",
+      "bytes": 12836,
+      "seconds": 3.061,
+      "sha256": "6a93a2119beaad0939d35d0a2e52566fd1e2b70ce85f321ade5cfc9cba6e35d3"
+    },
+    "mfDescription": {
+      "textHash": "0d88c0e4d241f8d986226cad69507cb3b261872e98abc3c1c554deb1a7b4ef35",
+      "spoken": "ഒരു മ്യൂച്വൽ ഫണ്ടിൽ സൂക്ഷിച്ചിരിക്കുന്ന ഒരു ഫോളിയോ",
+      "bytes": 16578,
+      "seconds": 3.985,
+      "sha256": "7085f9aa544577b37b78de4b5a1f65795d18cc8dce66e7c6709de3a7e39893cc"
+    },
+    "nomineeNote": {
+      "textHash": "0648d92db09f3676db21d8404d22a9a381a601a6779c09585cd156ab883420a9",
+      "spoken": "നോമിനി വിളിപ്പേര് അല്ലെങ്കിൽ ബന്ധം (ഓപ്ഷണൽ)",
+      "bytes": 13216,
+      "seconds": 3.166,
+      "sha256": "ddaffe4a7755a4ae3d2ae8da7a0aadce827954fb378bbb66f7ac7918c01f241a"
+    },
+    "nominees": {
+      "textHash": "6495b89603ffbe7b226602215e6cffa10f07b380d7ed2de65c86d3433a18a933",
+      "spoken": "നോമിനി കുറിപ്പുകൾ",
+      "bytes": 6589,
+      "seconds": 1.49,
+      "sha256": "e9068e3b51045e0e05b75be41afe91b7d58d8f90382067bb3e91cec9dbd39b56"
+    },
+    "missingGuide": {
+      "textHash": "dc039e917f912cc589ac8067f4c6d71459bfd163be72b838b0d3ecc565ba94f8",
+      "spoken": "സ്ഥാപനത്തിൻ്റെ നോമിനേഷൻ ഓപ്ഷൻ ഉപയോഗിക്കുക അല്ലെങ്കിൽ അതിൻ്റെ നിലവിലെ ഫോം ആവശ്യപ്പെടുക.",
+      "bytes": 25889,
+      "seconds": 6.329,
+      "sha256": "470822ee83e2c10bc52f3111428300108f382c6dd6554db8491f36e93360ca74"
+    },
+    "title": {
+      "textHash": "7cea4fae6c95a9ca85b3d0ffcd3f1472fff8b3aa5184b8fcc332c585343e2dcc",
+      "spoken": "നിങ്ങളുടെ കുടുംബ അക്കൗണ്ടുകൾ",
+      "bytes": 8794,
+      "seconds": 2.042,
+      "sha256": "4842f1b4b259fdb63661fec7555c6c4941ec81feabf769337bab8ffda73ba058"
+    },
+    "intro": {
+      "textHash": "10756ca668c71923d528d87f698ba6f0f88737a31e9b0825d8e20ad50b4fb220",
+      "spoken": "നോമിനികളുടെ ട്രാക്ക് സൂക്ഷിക്കുക. നഷ്‌ടമായത് ശ്രദ്ധിക്കുക.",
+      "bytes": 15514,
+      "seconds": 3.725,
+      "sha256": "e3f370e656bc7ebe508e898346c899e8dded66ac9062ada1d2da93ae87299cf7"
+    },
+    "add": {
+      "textHash": "512391a6f2189e06a7bfb8bf92fc053d32f8508857a517882cb06faccdc4d13e",
+      "spoken": "ഒരു അക്കൗണ്ട് ചേർക്കുക",
+      "bytes": 7832,
+      "seconds": 1.815,
+      "sha256": "5f7aeb8d3512915deabde0b36cd62ff121d815e09b5b29e7c4c29d456ae67775"
+    },
+    "edit": {
+      "textHash": "3e05a40e63e813b1ea500e15249d6f8c174a9c2119c0906563269eee0c2cdc7c",
+      "spoken": "അക്കൗണ്ട് എഡിറ്റ് ചെയ്യുക",
+      "bytes": 7833,
+      "seconds": 1.82,
+      "sha256": "15e1b9405bd7f7bf4b1cebe28c20ecacd8dd1beb9c8d6babb92d289c741ef038"
+    },
+    "emptyTitle": {
+      "textHash": "b317dbb4167a5035660c65694876e8bafaf5274eb356c32496569fc75dc9c038",
+      "spoken": "ഒരു അക്കൗണ്ട് ഉപയോഗിച്ച് ആരംഭിക്കുക",
+      "bytes": 10527,
+      "seconds": 2.481,
+      "sha256": "017aa356bdbbe961014b0ca4395c43ee9b4ff9ff8311be773ce35ff2ce9ae1f3"
+    },
+    "emptyIntro": {
+      "textHash": "9c1b12ae63d496f79e5a849029f831e22db0ecbdc7c311fb642c7a8209e1f2ef",
+      "spoken": "ഡിമാറ്റ്, ബാങ്ക് അല്ലെങ്കിൽ മ്യൂച്വൽ ഫണ്ട്. ആരെയാണ് നാമനിർദ്ദേശം ചെയ്തതെന്ന് പരിശോധിക്കുക, ഒരു സമയം ഒരു അക്കൗണ്ട്.",
+      "bytes": 34623,
+      "seconds": 8.503,
+      "sha256": "40d55f4641db7732f74520eaf93d0d6a22976d79cd1db61623c354a42e6b3ae4"
+    },
+    "example": {
+      "textHash": "4e8a9a1c8d3bc37625513d617efc1f5866b92fda5a548617ff1f887c10ba45df",
+      "spoken": "ഒരു ഉദാഹരണം കാണുക",
+      "bytes": 7164,
+      "seconds": 1.654,
+      "sha256": "ab15cd6490f4b3ffa43dda1573eaf71774748ae4d9d9a3eb38a5228af82da693"
+    },
+    "sample": {
+      "textHash": "2d80bbc50d00378288fa7f59d72eec2e7098cc9be9441609ce195f97e6077a68",
+      "spoken": "ഉദാഹരണം കുടുംബം · സാങ്കൽപ്പിക അക്കൗണ്ടുകൾ",
+      "bytes": 16283,
+      "seconds": 3.92,
+      "sha256": "afeea32ec50354b28ebebac9cf2f33db332829e1e3bcaf524ae95be3efceeaae"
+    },
+    "resume": {
+      "textHash": "5306108d01f0eade2cd2aeb483f1ce2c50c17c91c81fab7f09778b98f08fc069",
+      "spoken": "സംരക്ഷിച്ച ഒരു ലിസ്റ്റ് തുറക്കുക",
+      "bytes": 10043,
+      "seconds": 2.367,
+      "sha256": "ed266d77a7bfbbea07c731dc660f5a74f8675b7869269d65958d47ff11540423"
+    },
+    "accounts": {
+      "textHash": "8d0fbe9183ad6201f211e400ea4aa9c6b65d00cb1a5784433ebbc947ef4a5876",
+      "spoken": "അക്കൗണ്ടുകൾ",
+      "bytes": 5149,
+      "seconds": 1.132,
+      "sha256": "584f21f7f7c38f5b89f4c202d667006f046761d1f45d732bbab2258835da60a6"
+    },
+    "needAction": {
+      "textHash": "9e97a470ca59e82a26c2ff290087d3a9429aae5638843dfb7be0e73135f96000",
+      "spoken": "ശ്രദ്ധ വേണം",
+      "bytes": 5439,
+      "seconds": 1.21,
+      "sha256": "f67df0adca52723d4fe56986c958b2a666b086ec3c58336c780568b30e8bbaa9"
+    },
+    "next": {
+      "textHash": "c6a0865cca3b260c8023133ce26427c603bd30aca8b65338857d9874495f9296",
+      "spoken": "നിങ്ങളുടെ അടുത്ത ഘട്ടം",
+      "bytes": 7065,
+      "seconds": 1.627,
+      "sha256": "5bdda662ff4c17226aeba464e73bff11c6ccdad2bb67d61eee27118f7db7b413"
+    },
+    "allTypes": {
+      "textHash": "d5d2eb3e16ce6eac14f4636d831193b4a03869c12fbeaa19c04661999fa04c83",
+      "spoken": "എല്ലാ അക്കൗണ്ടുകളും",
+      "bytes": 6781,
+      "seconds": 1.556,
+      "sha256": "e4b47093d78f6644ed7c5f4f56f40df7da257e5e552a0010b178506d2bf8d006"
+    },
+    "allClear": {
+      "textHash": "76131155db25b27bae1218b6f9dd120f5d339cf804879bb0337dea32388fead5",
+      "spoken": "ഈ റെക്കോർഡുകൾ കാലികമായി സൂക്ഷിക്കുക",
+      "bytes": 11005,
+      "seconds": 2.612,
+      "sha256": "8ca02c250798d86351e83882ed27df3c33ee0a62c4d50de2aba6e0858c46846d"
+    },
+    "type": {
+      "textHash": "d33a96f4904be40047591782f5668d1bed039a7d739c5b4f0ee336f002ef6511",
+      "spoken": "അക്കൗണ്ട് തരം",
+      "bytes": 5433,
+      "seconds": 1.223,
+      "sha256": "df070f85bc9e146869a2c6cb9c11135d845c2b746c1a510bd71510dda9e186c4"
+    },
+    "demat": {
+      "textHash": "e513997a2484fcea7533450572118e2e7d08f56128201b1a7cb9e288bb04e275",
+      "spoken": "ഡീമാറ്റ്",
+      "bytes": 4666,
+      "seconds": 1.032,
+      "sha256": "71ccac78519a9025bc744a0d9f0e45fca6810aecfbf40181469c2e4e3d72f2de"
+    },
+    "bank": {
+      "textHash": "cc96150b9157c3ba06f36df27ffe4468c26e1ba4e23f837ff23a7008b48d892c",
+      "spoken": "ബാങ്ക് നിക്ഷേപം",
+      "bytes": 5625,
+      "seconds": 1.248,
+      "sha256": "6b0060542a7f584074f6e32e01874bcc17c5a75831242dc55f021d1173b7085e"
+    },
+    "mf": {
+      "textHash": "89883689df0feabaf293541fb1c9bfd8bf757d0577d67aee0272f370e7d0429b",
+      "spoken": "മ്യൂച്വൽ ഫണ്ട് ഫോളിയോ",
+      "bytes": 8983,
+      "seconds": 2.096,
+      "sha256": "1dbab1ad8cc2c630d19da902709733a91be0ecff076faf3627766ee02bb2abfa"
+    },
+    "institution": {
+      "textHash": "93721ebceffade83a8e9ab7f64c5245a95aa44f8217a9d84e96e4526677c3072",
+      "spoken": "ബാങ്ക്, ബ്രോക്കർ അല്ലെങ്കിൽ ഫണ്ടിൻ്റെ പേര്",
+      "bytes": 12640,
+      "seconds": 3.007,
+      "sha256": "6122f932ee776773e3c6f05b62cd377c6e5f77ea583d2dae4342fdfdb7e30151"
+    },
+    "nickname": {
+      "textHash": "a407828bec279838f543a995b778d23f3c644bfbc974951211bafd207af76981",
+      "spoken": "അക്കൗണ്ട് വിളിപ്പേര് (ഓപ്ഷണൽ)",
+      "bytes": 8221,
+      "seconds": 1.909,
+      "sha256": "f9dc645d8916ca4c6995226b0dbee5ae6bdddfc3127f668ae9522a2828833b4c"
+    },
+    "owner": {
+      "textHash": "dece79e30292713fd6e1a27c20964129180d6a200a16df38f29bc6967e0df669",
+      "spoken": "കുടുംബാംഗങ്ങളുടെ വിളിപ്പേര് (ഓപ്ഷണൽ)",
+      "bytes": 9466,
+      "seconds": 2.216,
+      "sha256": "56bfb1b3d832d2c456e830fe1ac4d0c7c714124151106b3bac1c912bd9d93e50"
+    },
+    "last4": {
+      "textHash": "a43c83f4debc2ac985998733276cccb8b471fbd367371ea2c22851a41066b91c",
+      "spoken": "അവസാന നാല് അക്കങ്ങൾ (ഓപ്ഷണൽ)",
+      "bytes": 8314,
+      "seconds": 1.933,
+      "sha256": "842fca46930d23a3e4c085afc405439f683f6e9d39f184042e8381f416c5c627"
+    },
+    "extra": {
+      "textHash": "571e54be664380ff2284bb4d353e2206ff4c45b668211bfe2fb27dc8b2be051a",
+      "spoken": "ഒരു വിളിപ്പേരോ അവസാനത്തെ നാല് അക്കങ്ങളോ ചേർക്കുക",
+      "bytes": 16282,
+      "seconds": 3.927,
+      "sha256": "05d1162bdfcfe73afff23971cb18c7edc0eaca65ef0f2b922ad73976c57e6817"
+    },
+    "noIds": {
+      "textHash": "94480769ed72f0e80c88afd8681498cfbb2f4515f9e051435b3cf733d2cb2cb8",
+      "spoken": "വിളിപ്പേരുകൾ ഉപയോഗിക്കുക. ഈ ലിസ്റ്റിൽ നിന്ന് മുഴുവൻ അക്കൗണ്ട് നമ്പറുകളും പാൻ, പാസ്‌വേഡുകളും സൂക്ഷിക്കുക.",
+      "bytes": 28570,
+      "seconds": 6.985,
+      "sha256": "6ed919d8b75f8851fca6ddf50af01066a19973afe3415ec7e4ee9a4c44b820a0"
+    },
+    "nomination": {
+      "textHash": "31697b9157d764ecc3ab2c3d08a08826a176aae9169ca14d5717d9f23df3b260",
+      "spoken": "ഒരു നോമിനി രജിസ്റ്റർ ചെയ്തിട്ടുണ്ടോ?",
+      "bytes": 9855,
+      "seconds": 2.319,
+      "sha256": "132c9dfcf516bb6ccbe84bfbf6d49e13a77a19e2a67d49b6b693283ac73f7d46"
+    },
+    "registered": {
+      "textHash": "a3e9b32cb7f7c61c6140edbbd38eb3c9e5bdd04fa2a8ebdddc716838c9468163",
+      "spoken": "രജിസ്റ്റർ ചെയ്തു",
+      "bytes": 5247,
+      "seconds": 1.161,
+      "sha256": "3a22bbb603b0754941b3080dd5b6aa88780478457ce95da1ccba8f6f0bca5739"
+    },
+    "missing": {
+      "textHash": "22db85d393de2ce7b1fb62b503bfe993ea5d5cd42bac89abb7d895172b166299",
+      "spoken": "ചേർത്തിട്ടില്ല",
+      "bytes": 5052,
+      "seconds": 1.11,
+      "sha256": "fde68c5c70629b05074295a1c26b58cd6dd818b8fdbdc162210f0322f04cfdf2"
+    },
+    "unknown": {
+      "textHash": "34bac1d110f25d56aa537b684e55c5622a7641f7ae9d4ab4bb6af35c5daa380b",
+      "spoken": "ഉറപ്പില്ല",
+      "bytes": 4572,
+      "seconds": 0.996,
+      "sha256": "81e2de9f8309fa1be1afc71ff961241d517703c0c31f6d761f20b7b982943d9c"
+    },
+    "reported": {
+      "textHash": "9f91d9855b6039462ba6ec529814be311ca0a8a8abcb39d52debfb3bdd2b4c2f",
+      "spoken": "നിങ്ങൾ റിപ്പോർട്ട് ചെയ്തത്",
+      "bytes": 7261,
+      "seconds": 1.678,
+      "sha256": "07aad4ed254a2e26ab8d995ec62ad24db91cc4f836e02767eaf839790de47ac4"
+    },
+    "submitted": {
+      "textHash": "3d0d1ec3ddf07010ca742f73894e604f0361d5f5da0b9445b2c92d15a90102e5",
+      "spoken": "അപേക്ഷ സമർപ്പിച്ചു",
+      "bytes": 6686,
+      "seconds": 1.53,
+      "sha256": "fd8642317b35f5c5b17f864bdc729733354702070d97f274bc95052859eea88c"
+    },
+    "confirmed": {
+      "textHash": "9cb71d5e531e5ffd10edbd4ef8a012399c0e17dd7327cd0edf174758e2e958a5",
+      "spoken": "ഒരു രേഖയിൽ പരിശോധിച്ചു",
+      "bytes": 8222,
+      "seconds": 1.9,
+      "sha256": "4ee450d5499a6b3fc3bf95b0536c1abac6c6ed8b7e74542c5f10c3729143df4c"
+    },
+    "review": {
+      "textHash": "5c0e7b10ad8cfc810d02b237369fb573b46acc8ca53680cca3b0068fe79fcb88",
+      "spoken": "റെക്കോർഡ് പരിശോധിക്കുക",
+      "bytes": 8315,
+      "seconds": 1.931,
+      "sha256": "330b75b5d49fce5c017c83e175f13f8b1508a3e77442fe55a1cf664f77712ade"
+    },
+    "awaiting": {
+      "textHash": "e49dab7a030356b7447a0963f9b08e411d87e43467a223db3fcd18664b1a8d96",
+      "spoken": "സ്ഥിരീകരണത്തിനായി കാത്തിരിക്കുന്നു",
+      "bytes": 10045,
+      "seconds": 2.363,
+      "sha256": "8567de38c2a78fb38454d7c3326705c5eea5a8109d5ab0fc3cfaf836f0939dc1"
+    },
+    "checkedOn": {
+      "textHash": "d30bccef26853b590019a1f294dd287a9a5e1ac3b832b13c4de306b415a69ce8",
+      "spoken": "അവസാനം പരിശോധിച്ചത്",
+      "bytes": 7358,
+      "seconds": 1.687,
+      "sha256": "4c4fb67af31a396ac4a25478495e5550bc3b841a14b56e80564a8bbae571d8f3"
+    },
+    "neverChecked": {
+      "textHash": "f650c9992abd116885e51d83eec83a680db0d1a1e85551c0a1a96dcfce41596a",
+      "spoken": "ഇതുവരെ പരിശോധിച്ചിട്ടില്ല",
+      "bytes": 7553,
+      "seconds": 1.735,
+      "sha256": "981ececf22899eb0eed319f3cc63cfd556c407126f6a8bf86b183212906c83c4"
+    },
+    "update": {
+      "textHash": "5fd5665a54b6a02a9835bc6c3f2e8bcce0d8f4880b6319c42c7c5db67af61184",
+      "spoken": "മാറ്റങ്ങൾ സംരക്ഷിക്കുക",
+      "bytes": 8219,
+      "seconds": 1.916,
+      "sha256": "8cd9b5877c0d2fd931cb9c9a63a5ebb2c478676d8fddd4de8b52df068af9064a"
+    },
+    "back": {
+      "textHash": "7af52332e60cd0647230a4c4a11bf5045eb8dad4cc14e083f6c9c18cbb1c6949",
+      "spoken": "തിരികെ",
+      "bytes": 3225,
+      "seconds": 0.666,
+      "sha256": "b7dda353fd8b8ab3c323d0f630aa432c529becd0f6600643754341c6eaae2d9e"
+    },
+    "cancel": {
+      "textHash": "fb22213d44365fa83554adc80df5c8374814ef97ead01abb8bd90b7a5f8aab35",
+      "spoken": "റദ്ദാക്കുക",
+      "bytes": 3995,
+      "seconds": 0.858,
+      "sha256": "22114d5fa6099c0bd94775335ff64bfa6b551d142946d6ce4996bb129a1355af"
+    },
+    "open": {
+      "textHash": "00732b7d19a8610366640a0309991f9466b9a298e5462724c74228d6df200cd1",
+      "spoken": "അടുത്ത ഘട്ടം കാണുക",
+      "bytes": 7929,
+      "seconds": 1.845,
+      "sha256": "de4f1b2a68bae4acae0c6fb47988467259990fdf98740364ae876b438acf7853"
+    },
+    "registerTask": {
+      "textHash": "60a5b4db92012b4c31e5a8907f4779d62e2b8d6c7ce1e15107666a4600e40cfe",
+      "spoken": "നിങ്ങളുടെ സ്ഥാപനത്തിൽ ഒരു നോമിനിയെ ചേർക്കുക",
+      "bytes": 12065,
+      "seconds": 2.86,
+      "sha256": "521e72825060276b86f9f461c4db28c3d9921f5cbf0a8f197982a243ee8272f5"
+    },
+    "checkTask": {
+      "textHash": "4b68e4589b21d9ca2197f013857ad39836bcf7cd82b35c0e3d9e1473fd016135",
+      "spoken": "നോമിനേഷൻ നില പരിശോധിക്കുക",
+      "bytes": 9854,
+      "seconds": 2.312,
+      "sha256": "cf94d79fd1d8961731e38d6b1b3bb3e5c0597cc2ccccf6858b8534095c9f8e9a"
+    },
+    "confirmTask": {
+      "textHash": "73c9abccdd63c76f36f9339b46fb6a930ba7ece54844003b52200975c71577c4",
+      "spoken": "അഭ്യർത്ഥന രജിസ്റ്റർ ചെയ്തിട്ടുണ്ടോയെന്ന് പരിശോധിക്കുക",
+      "bytes": 13504,
+      "seconds": 3.239,
+      "sha256": "c2a79d15677403862d18eb26e8ec2a3da78f5c8cc5cc0bbc7f6ac555acdfcb7a"
+    },
+    "recordTask": {
+      "textHash": "4948bd82b970555464ea04f3af5bac84fa39158583373b248ee1eaa21a07a24d",
+      "spoken": "നിങ്ങളുടെ രേഖകൾക്കൊപ്പം സ്ഥിരീകരണം സൂക്ഷിക്കുക",
+      "bytes": 12351,
+      "seconds": 2.946,
+      "sha256": "fe3a8e93b5ffa0d4fe907f8646129787e5dc4b857c8439656182356b71375346"
+    },
+    "dematGuide": {
+      "textHash": "c99ce6149ba07ed88fa738886e2437a461215d03aed3332a0ed913f29b4f5546",
+      "spoken": "ഈ ഡീമാറ്റ് അക്കൗണ്ട് നിയന്ത്രിക്കുന്ന ബ്രോക്കറെയോ ബാങ്കിനെയോ ഉപയോഗിക്കുക. നിലവിലെ നോമിനേഷൻ ഫോമോ അതിൻ്റെ ഔദ്യോഗിക ഓൺലൈൻ ഓപ്ഷനോ ആവശ്യപ്പെടുക.",
+      "bytes": 44703,
+      "seconds": 11.024,
+      "sha256": "710e6b6f4d6681be0c0173d8cf9ae92bc1b0aca740bb2a046eab33284e4b7e63"
+    },
+    "bankGuide": {
+      "textHash": "089d93b05f8ed02200b44dee61b24b9b744274fae85c0be4472c4cfc338b9bf4",
+      "spoken": "ഓൺലൈനിൽ ലഭ്യമാണെങ്കിൽ, നിങ്ങളുടെ ബാങ്കിൻ്റെ ശാഖയോ അതിൻ്റെ ഔദ്യോഗിക നാമനിർദ്ദേശ സൗകര്യമോ ഉപയോഗിക്കുക. നിലവിലെ ഡെപ്പോസിറ്റ് നാമനിർദ്ദേശ ഫോമിനായി ആവശ്യപ്പെടുക.",
+      "bytes": 49406,
+      "seconds": 12.2,
+      "sha256": "c9024642f93209052217e5a80d444135955e435cc0591eeba09f7b9509cd8572"
+    },
+    "mfGuide": {
+      "textHash": "21df58867f28cba62b39d8565425c36a08459c88f9070a1feae62e0a265cf867",
+      "spoken": "മ്യൂച്വൽ ഫണ്ടോ അതിൻ്റെ രജിസ്ട്രാറുടെ ഔദ്യോഗിക സേവന കേന്ദ്രമോ ഓൺലൈൻ ഓപ്ഷനോ ഉപയോഗിക്കുക. യൂണിറ്റുകൾ ഡീമാറ്റിലാണെങ്കിൽ, ഡീമാറ്റ് അക്കൗണ്ടിൻ്റെ നോമിനേഷൻ റൂട്ട് ഉപയോഗിക്കുക.",
+      "bytes": 53436,
+      "seconds": 13.201,
+      "sha256": "124352d4eb7bc0810028e470b2d310a41976a263754eb99659c2d4ac5588e10a"
+    },
+    "checkGuide": {
+      "textHash": "d2d8b4462be5704ce092b09d6e40e3de94ffecebe0f7488c56eae6dc9d18bb62",
+      "spoken": "ഏറ്റവും പുതിയ പ്രസ്താവന പരിശോധിക്കുക അല്ലെങ്കിൽ സ്ഥാപനത്തോട് ചോദിക്കുക. ഓർത്തിരിക്കുന്ന നാമനിർദ്ദേശത്തിന് സ്ഥിരീകരണം ആവശ്യമായി വന്നേക്കാം.",
+      "bytes": 42015,
+      "seconds": 10.357,
+      "sha256": "a5fdf5864ad218172507592149fd5d9483bd3e677bea258858d67ec15ae81d52"
+    },
+    "receiptGuide": {
+      "textHash": "e4b823a4ee687d8217de1518fa82df8bae001ab88b2a8c5c045659f2684642c2",
+      "spoken": "രസീത് സൂക്ഷിക്കുക. തുടർന്ന് നോമിനി യഥാർത്ഥത്തിൽ രജിസ്റ്റർ ചെയ്തിട്ടുണ്ടെന്ന് കാണിക്കുന്ന ഒരു പ്രസ്താവനയോ സ്ഥിരീകരണമോ പരിശോധിക്കുക.",
+      "bytes": 33761,
+      "seconds": 8.281,
+      "sha256": "9f167e60570773dc6d655e961c9ec931dc4ca2ce806d35b27da579af9a900a12"
+    },
+    "institutionOnly": {
+      "textHash": "e1c451183fdd7347dcc0ef4709a6481dd148fea3845d9031d6642172b7652eec",
+      "spoken": "വിരാസത് നിങ്ങളുടെ പുരോഗതി രേഖപ്പെടുത്തുന്നു. രജിസ്ട്രേഷൻ സ്ഥാപനത്തിലാണ് നടക്കുന്നത്.",
+      "bytes": 26180,
+      "seconds": 6.406,
+      "sha256": "380f038a9543ec37820e54a30027cd185133ae72bd4bdc82936b56469a89477c"
+    },
+    "source": {
+      "textHash": "7fd6e064fe780da4dc8322b43386d71e70861c36f0d9162a30d09d879ddbc2bc",
+      "spoken": "ഔദ്യോഗിക മാർഗനിർദേശം",
+      "bytes": 8315,
+      "seconds": 1.921,
+      "sha256": "cbd3e142d90d61f59303dce4c24e7534d1c1a157190e356ed3f2aaa5ca8dad72"
+    },
+    "sourceNote": {
+      "textHash": "08cbe6e51a745cfc0b2f6f67b536aeee2ce53d6f16ad4842016e5e4774fd4002",
+      "spoken": "നിലവിലെ ഫോമും യോഗ്യതയും: നിങ്ങളുടെ സ്ഥാപനവുമായി സ്ഥിരീകരിക്കുക.",
+      "bytes": 20511,
+      "seconds": 4.986,
+      "sha256": "dcd4030fbb3ca135a1d0a144da9c8205abd44d08cb10adec1d71dd9e320e9220"
+    },
+    "markSubmitted": {
+      "textHash": "8409bdafe26db79a8b15899ed8e0b23b29da485f5e0147ebb83dcb8f7df9bbe7",
+      "spoken": "ഞാൻ ഒരു അപേക്ഷ സമർപ്പിച്ചു",
+      "bytes": 9570,
+      "seconds": 2.241,
+      "sha256": "243919409543ff46a236609de271c67657fae8f3cac950249e90571baf352a64"
+    },
+    "markConfirmed": {
+      "textHash": "87faa3ff6616f521758107dd8a1f174c3a54fd3d5058a7507cb5875d35fe283f",
+      "spoken": "ഞാൻ സ്ഥിരീകരണം പരിശോധിച്ചു",
+      "bytes": 8898,
+      "seconds": 2.074,
+      "sha256": "eca640e137c6cdd5f2567db29bd4c494d857344585177899fdb03dc8166718fd"
+    },
+    "submissionDate": {
+      "textHash": "d3fddfe94b7dc6d360a30d4ec819b55eba0f4325a921a039a696aa7f8ffd8650",
+      "spoken": "സമർപ്പിച്ച തീയതി",
+      "bytes": 6787,
+      "seconds": 1.559,
+      "sha256": "4d78db90a266caf48f4dad5ce4602c4f2241c7c4dd7946cad5b22ef5ada8af06"
+    },
+    "confirmationDate": {
+      "textHash": "d92a5b799812b18986afcefbb00da647432758b437e2b9ca3202c8e900c8f221",
+      "spoken": "രേഖയിൽ തീയതി",
+      "bytes": 6501,
+      "seconds": 1.484,
+      "sha256": "82327357fe75e51aa84b5acb78d94c4b43b1068010c4e6fa6d89092116c63982"
+    },
+    "recordKind": {
+      "textHash": "a0dd5ded9c81b5faffe900c7eba89ab219b0d531c85901221bf9dd9984727e3e",
+      "spoken": "നിങ്ങൾ എന്താണ് പരിശോധിച്ചത്?",
+      "bytes": 7839,
+      "seconds": 1.821,
+      "sha256": "bbed0600b5daf1ae100a753b3249cf6cccf8629c4d4ca33192ac4befe583149a"
+    },
+    "choose": {
+      "textHash": "5130a17ee61f6183a1353d1843954a838bea30421e41dd61871f4c738117d667",
+      "spoken": "തിരഞ്ഞെടുക്കുക",
+      "bytes": 5147,
+      "seconds": 1.138,
+      "sha256": "208615288e59adef17a01f233ff142c7578e96babd4a3eff0556b84afb586907"
+    },
+    "statement": {
+      "textHash": "267cdca7ef47827263e4b16d0e9077d8bb86787be89928d17c82bd8ddee85753",
+      "spoken": "അക്കൗണ്ട് / ഹോൾഡിംഗ് സ്റ്റേറ്റ്മെൻ്റ്",
+      "bytes": 10910,
+      "seconds": 2.575,
+      "sha256": "29a401397e1d830d3dffd309a164bf92dd4243f279b5f90c87681bf96e40b070"
+    },
+    "registration": {
+      "textHash": "4980f9982eda2ef23fcb0ec59d5eacb9d8cb47d2907b6bc0eea382679da4f9d5",
+      "spoken": "സ്ഥാപനത്തിൻ്റെ രജിസ്ട്രേഷൻ സ്ഥിരീകരണം",
+      "bytes": 13793,
+      "seconds": 3.308,
+      "sha256": "2b6f94f3028edb1b9c6196260c2533458a2cd20857c0f2e497d2997e2cae1531"
+    },
+    "recordNote": {
+      "textHash": "8578652a3b196db0cc4fbbe4c5b29af87c049ddb398c6f48123fefc5139630fe",
+      "spoken": "ഹ്രസ്വ റെക്കോർഡ് കുറിപ്പ് (ഓപ്ഷണൽ)",
+      "bytes": 10527,
+      "seconds": 2.491,
+      "sha256": "47d15b0853c782fd3de1272663d071ae066e35c4c42abe162704d81b19c653f5"
+    },
+    "confirmationCheck": {
+      "textHash": "04326ff8330b180aa453b8fc0983abdb5cb4f2dcd529888ee602db9e2bb87b44",
+      "spoken": "അപേക്ഷ ലഭിച്ചു എന്നത് മാത്രമല്ല, നോമിനേഷൻ രജിസ്റ്റർ ചെയ്തിട്ടുണ്ട് എന്ന് രേഖ കാണിക്കുന്നു.",
+      "bytes": 25414,
+      "seconds": 6.198,
+      "sha256": "77a6e87ca44a64150a55b57991accb116dc39569d4cb2cd3b77bce6a496ee17d"
+    },
+    "progress": {
+      "textHash": "57b8ca334e8c46f447625be894b14ef0f6a24dac437358bb65067058ca066ec2",
+      "spoken": "പുരോഗതി",
+      "bytes": 3997,
+      "seconds": 0.857,
+      "sha256": "9ed7dcd8e383c749f8cdff8b8068e253c491c1c3f8c2375ce23e1b106bd89b85"
+    },
+    "evidence": {
+      "textHash": "2d0639d52daa922022c6d91952df13a6ab2c7f8aab223d6a3743bfeb781a25a4",
+      "spoken": "നിങ്ങളുടെ റെക്കോർഡ് പരിശോധന",
+      "bytes": 8605,
+      "seconds": 1.998,
+      "sha256": "51280cbdb1bece123986aca85d05f0f07071c8c69088e02f1e5cdb35f71ee8f8"
+    },
+    "selfReport": {
+      "textHash": "00b4e4be80b041c382df66b06fca2a85acde12b55aebd753ac07582329ded434",
+      "spoken": "നിങ്ങൾ നൽകിയ വിവരം. വിരാസത് സ്ഥാപനത്തിന്റെ രേഖകൾ പരിശോധിച്ചിട്ടില്ല.",
+      "bytes": 20031,
+      "seconds": 4.868,
+      "sha256": "6d378cf76b2525c14566b21e23755c02ccd8bdbd61d9a1a11646534471b8947a"
+    },
+    "remove": {
+      "textHash": "8fb48d9949d61d07b2cab679d8a5584d019bcc8bac7afa1af3b27fc274ae3190",
+      "spoken": "അക്കൗണ്ട് നീക്കം ചെയ്യുക",
+      "bytes": 7643,
+      "seconds": 1.775,
+      "sha256": "560f2503af90df2ccdf1dd9f55ed70862fca85fec221b58db718738be8f4c307"
+    },
+    "removeAsk": {
+      "textHash": "535a6c198ddbdbacaef9258384a05c6ad4bc202e26e318dc5862cd0d60c2aae2",
+      "spoken": "നിങ്ങളുടെ ലിസ്റ്റിൽ നിന്ന് ഈ അക്കൗണ്ട് നീക്കം ചെയ്യണോ?",
+      "bytes": 13886,
+      "seconds": 3.329,
+      "sha256": "32062132f25fa39638c63d85ce8f0264507508ffdbac228efcdcdf169fef18fc"
+    },
+    "summary": {
+      "textHash": "0139eb51f3cb2d2782d9b004e471878624d22aa6b9d4afd7395037326f730b77",
+      "spoken": "കുടുംബ സംഗ്രഹം",
+      "bytes": 5916,
+      "seconds": 1.331,
+      "sha256": "313aac784dfa0f3d5175c01fe4c3c907e90d113c1c1e45c24f997eb728374194"
+    },
+    "summaryIntro": {
+      "textHash": "972d0c593d564a58689e5beff5f803c8e2c2a34d1af547a9a8553b1220fa4a3c",
+      "spoken": "പങ്കിടുന്നതിന് മുമ്പ് നിങ്ങളുടെ കുടുംബത്തിന് അറിയേണ്ട കാര്യങ്ങൾ അവലോകനം ചെയ്യുക.",
+      "bytes": 19937,
+      "seconds": 4.835,
+      "sha256": "969ccc53dd087bef83ea00a16bdd43c6923bbec3c456cd8ac0d879344d629025"
+    },
+    "summaryNotice": {
+      "textHash": "6753ca8080a3dffcfe396c5c6967a7ed72957105dbfcd8a187c5d66b155c003a",
+      "spoken": "അക്കൗണ്ട് ലേബലുകൾ, കുടുംബം/നോമിനി വിളിപ്പേരുകൾ, ചേർത്താൽ അവസാന നാല് അക്കങ്ങൾ എന്നിവ ഉൾപ്പെടുന്നു. റെക്കോർഡ് കുറിപ്പുകൾ ഒഴിവാക്കിയിരിക്കുന്നു. നിങ്ങൾ വിശ്വസിക്കുന്ന ഒരാളുമായി മാത്രം പങ്കിടുക.",
+      "bytes": 55938,
+      "seconds": 13.832,
+      "sha256": "7511cacf25205b0bdcfc100c1f615821a5491077a22b34400774bd71f081b759"
+    },
+    "print": {
+      "textHash": "48f30a8e35d95b6ffba9778fa48f4fcee4faf7f341eadca189afb3fdce3f18cc",
+      "spoken": "പി ഡി എഫ് പ്രിൻ്റ് ചെയ്യുക അല്ലെങ്കിൽ സംരക്ഷിക്കുക",
+      "bytes": 16858,
+      "seconds": 4.073,
+      "sha256": "6c3a9b2a7d6e3f2b9133fff68be7a856389395423f9c3b8ea34749a127365e5a"
+    },
+    "export": {
+      "textHash": "52c6df2c10c9107aa6398f5b9f95e0ebbe09d8b5d001cd7fa8081870adf2c69f",
+      "spoken": "വായിക്കാവുന്ന പകർപ്പ് ഡൗൺലോഡ് ചെയ്യുക",
+      "bytes": 10811,
+      "seconds": 2.562,
+      "sha256": "a9cd449b3640f98a3549a309d88460972e5ab6422ce9e664ee49baabb7fb8ef9"
+    },
+    "save": {
+      "textHash": "c93d0ff956c282ccd694d9e573ec7b9efd0c27729c866eef289651dcdc9325b4",
+      "spoken": "നിങ്ങളുടെ പുരോഗതി സംരക്ഷിക്കുക",
+      "bytes": 9657,
+      "seconds": 2.263,
+      "sha256": "0d5c18b98171e7c6f72fbf15dbe0d7ec92fe07d294df11f335a33f2fc4adaaa5"
+    },
+    "saveShort": {
+      "textHash": "3334b7be813c35ff83b13f558b2f2853064d189e71b46125885307f6538db311",
+      "spoken": "പിന്നീടുള്ള കാര്യങ്ങൾക്കായി സംരക്ഷിക്കുക",
+      "bytes": 10718,
+      "seconds": 2.533,
+      "sha256": "6ffcfb08be4596733abb15171dd4bdbed1cf40969677af6cfb93aa446afee8c5"
+    },
+    "saveIntro": {
+      "textHash": "936a35bde7e98a1bed56ed54e5011bbf9891bfd7240cd05edcd41ecfc9bc4534",
+      "spoken": "ലോക്ക് ചെയ്ത ഫയൽ ഡൗൺലോഡ് ചെയ്യുക. തിരികെ വരുമ്പോൾ അതേ പാസ്‌വേഡ് ഉപയോഗിച്ച് ഇവിടെ തുറക്കുക.",
+      "bytes": 29342,
+      "seconds": 7.183,
+      "sha256": "7f31b6c4033a6a4f413128086b1891bdc9ec4925216886243450a4813767c9e3"
+    },
+    "savedFile": {
+      "textHash": "66b67712045335117966947bdf24a32af722b561aa8ccd8ab154266dbdcb682d",
+      "spoken": "നിങ്ങളുടെ .വിരാസത് ഫയൽ",
+      "bytes": 9566,
+      "seconds": 2.234,
+      "sha256": "1bebbc0730ecda7af4adaa0ee56c821cae0445f225cc26b7b11cbf9739a7cbef"
+    },
+    "password": {
+      "textHash": "31142c11d1e838e06b7cb79dacf0c14c3966a0a948c7ff2565d8338a869fb6a6",
+      "spoken": "രഹസ്യവാക്ക്",
+      "bytes": 4957,
+      "seconds": 1.082,
+      "sha256": "15d35900029c81d04bdfc47c79a737380bd4cefa79f2b85ec63ad19a8e87c21b"
+    },
+    "passwordHelp": {
+      "textHash": "d888c00e86c400608b4959eabe69818322e2cddb9295b9e42f3c203999eccb64",
+      "spoken": "കുറഞ്ഞത് പന്ത്രണ്ട് അക്ഷരങ്ങൾ വേണം. പാസ്‌വേഡ് സുരക്ഷിതമായി സൂക്ഷിക്കുക; അത് തിരിച്ചെടുക്കാൻ ഞങ്ങൾക്ക് കഴിയില്ല.",
+      "bytes": 32801,
+      "seconds": 8.042,
+      "sha256": "4d9a76c3571d9e08f9f8baa2a9b6d275579790af1145a02a158e204de81f04bc"
+    },
+    "saving": {
+      "textHash": "23119fc8013d7ee9a1b9482da1f43fb103fbf83be33c0342fa2110d3fcf87cce",
+      "spoken": "നിങ്ങളുടെ ലിസ്റ്റ് പരിരക്ഷിക്കുന്നു...",
+      "bytes": 8795,
+      "seconds": 2.053,
+      "sha256": "837574043e029529dfbb0d5065182cf6f65fd25ab3f820b3183c5a56744f5934"
+    },
+    "saved": {
+      "textHash": "c55c01954cac3d933760f6d7085d833687e5c89416abf2b05c58fa6297e59631",
+      "spoken": "എൻക്രിപ്റ്റ് ചെയ്ത ഫയൽ ഡൗൺലോഡ് ചെയ്തു. പാസ്‌വേഡ് വേറിട്ട് സൂക്ഷിക്കുക.",
+      "bytes": 19834,
+      "seconds": 4.817,
+      "sha256": "16843af603f3b7525639a88be85fca8339c58f08c4286e16a3d7c0eb2426f042"
+    },
+    "restored": {
+      "textHash": "974a27278af487ae609743ca2551bd8af243d7383cffaefd32943ab21306d788",
+      "spoken": "നിങ്ങളുടെ ലിസ്റ്റ് തുറന്നിരിക്കുന്നു.",
+      "bytes": 8125,
+      "seconds": 1.879,
+      "sha256": "cd66526b9ccf30e0ffa0d172d4eaab9a444149dfed4623fd8ab68cada04f51b7"
+    },
+    "passwordShort": {
+      "textHash": "3708c0a8173dfbef8b0a72edebf13803b2af9ca266aec60cec292aefe602f9fb",
+      "spoken": "പന്ത്രണ്ട് മുതൽ ഇരുനൂറ്റി അമ്പത്തിയാറ് വരെ പ്രതീകങ്ങളുള്ള പാസ്‌വേഡ് ഉപയോഗിക്കുക.",
+      "bytes": 19458,
+      "seconds": 4.716,
+      "sha256": "260edf66b1c683d69ea065fe77510c5b1fa5a162fcee1df6013b1a002f614705"
+    },
+    "cannotUnlock": {
+      "textHash": "42e67798e45be70f1eef16d3def7792fb4f0fefe953d95bae0fef684b6c9bb0f",
+      "spoken": "പാസ്‌വേഡോ എൻക്രിപ്റ്റ് ചെയ്ത ഫയലോ പരിശോധിക്കാൻ കഴിഞ്ഞില്ല.",
+      "bytes": 16193,
+      "seconds": 3.894,
+      "sha256": "f397f22b4e1401928cfa4421127e7d7dd63798b1f174bc8e594ac85829a43233"
+    },
+    "invalidSave": {
+      "textHash": "50d48ebaf4ce5bfe2a1bdb09056d5b1d538d1773034914a0c6a7733162d2f575",
+      "spoken": "ഈ സംരക്ഷിച്ച ലിസ്റ്റ് അസാധുവാണ് അല്ലെങ്കിൽ വളരെ വലുതാണ്.",
+      "bytes": 17632,
+      "seconds": 4.258,
+      "sha256": "005050d2e9a4841af904cb4357cf19bfcd61291b3e91e3d57e7619933b2e379e"
+    },
+    "invalidAccount": {
+      "textHash": "f623824ab2f952294cbeed36dade71984f96c8b5675da455d2e39fe2aee55b33",
+      "spoken": "സ്ഥാപനത്തിൻ്റെ പേര് നൽകുക. ഒരു റഫറൻസ് ചേർക്കുകയാണെങ്കിൽ കൃത്യമായി നാല് അക്കങ്ങൾ ഉപയോഗിക്കുക.",
+      "bytes": 27811,
+      "seconds": 6.806,
+      "sha256": "4334b7a81ec2d139f35e29297bbedebf11a137f0f45784656060104766254c15"
+    },
+    "invalidDate": {
+      "textHash": "47f48b4325c345962ee54183f15b6e83bba42ce053dd1409f9e382500bdf18e6",
+      "spoken": "ഒരു യഥാർത്ഥ തീയതി ഉപയോഗിക്കുക, ഇന്നിന് ശേഷമല്ല. സമർപ്പിക്കുന്നതിന് മുമ്പ് സ്ഥിരീകരണം സാധ്യമല്ല.",
+      "bytes": 33760,
+      "seconds": 8.281,
+      "sha256": "d4a864437a31b2b30eda163639482398da6d8dc02f4ab910c5e71c214775156a"
+    },
+    "submissionRequired": {
+      "textHash": "5ed0c34c07dfae1b0fd408c06ef1dff5be388e64378947cf98a0dcb90d59f155",
+      "spoken": "നിങ്ങൾ അഭ്യർത്ഥന സമർപ്പിച്ച തീയതി ചേർക്കുക.",
+      "bytes": 13991,
+      "seconds": 3.342,
+      "sha256": "e2bd63cbdb7ca5d1161c4b14510876b5689f7a606fb3ad655de13744c070b0fe"
+    },
+    "confirmationRequired": {
+      "textHash": "50ec35bd105f841bb931fad7f0437239a450e5a0ec71d5296e32b38d8cc7b8a1",
+      "spoken": "റെക്കോർഡ് തരവും തീയതിയും ചേർക്കുക, തുടർന്ന് അത് രജിസ്ട്രേഷൻ കാണിക്കുന്നുവെന്ന് സ്ഥിരീകരിക്കുക. ഒരു രസീത് മാത്രം പോരാ.",
+      "bytes": 35401,
+      "seconds": 8.707,
+      "sha256": "4f4cf521f6afc7ac37852fbbfbfc4ebea302261f6aaddc84f6e1f7aca0137c21"
+    },
+    "accountLimit": {
+      "textHash": "9cd3a3deec313135531d204606b23938b2f58648be604a8642503767a998852b",
+      "spoken": "ഈ ലിസ്‌റ്റിൽ അമ്പത് അക്കൗണ്ടുകൾ വരെ സൂക്ഷിക്കാം.",
+      "bytes": 12161,
+      "seconds": 2.894,
+      "sha256": "1ec01d3adc9caabc3fbfb9d3322dedf491201af9e2acad91c409350523263741"
+    },
+    "updated": {
+      "textHash": "47a27b6446b3b544d606e0e67b9bc87dbee8421405a061c0455c5a07475bed89",
+      "spoken": "നിങ്ങളുടെ ലിസ്റ്റ് അപ്ഡേറ്റ് ചെയ്തു.",
+      "bytes": 8220,
+      "seconds": 1.907,
+      "sha256": "3faa874e5e8e8c2e8da3d25ac4bf662867ee8477550fbb71bc5da212f9f85238"
+    },
+    "privacyHelp": {
+      "textHash": "a11ba71b2eaad9c26eeed0e40ab036ed300894b8c6c25113850e669ca1e21cfe",
+      "spoken": "സ്വകാര്യതയും സഹായവും",
+      "bytes": 8608,
+      "seconds": 1.993,
+      "sha256": "950831f09eb742e3ea041565d46b1b81c33894e0078d712fafa83354b8cc556b"
+    },
+    "privacyDetail": {
+      "textHash": "24d68cbfd09eb8f2bc7b4ff7e0c9f17f2bc2c107c11edce1f90c41344ca3ba0d",
+      "spoken": "നിങ്ങളുടെ പട്ടിക ബ്രൗസറിന്റെ മെമ്മറിയിൽ നിലനിൽക്കും. പേജ് വീണ്ടും ലോഡ് ചെയ്യുമ്പോൾ അത് മായും. പിന്നീട് വീണ്ടും തുറക്കാൻ എൻക്രിപ്റ്റ് ചെയ്ത ഫയൽ സൂക്ഷിക്കുക. ഡൗൺലോഡ് ചെയ്ത ഫയലുകൾ നിങ്ങളുടെ ഉപകരണത്തിൽ നിലനിൽക്കും.",
+      "bytes": 52770,
+      "seconds": 13.049,
+      "sha256": "cf8c180b8c697503bcc2847909089e4a7149682190bee44a9a84d8dacb3fabc0"
+    },
+    "translationNotice": {
+      "textHash": "ded6d9849d60c4c788dcccafbbf5fa22f0aa7ecc2c843252d23f58d8fe330cf3",
+      "spoken": "ഡ്രാഫ്റ്റ് വിവർത്തനങ്ങൾ; ഒഴുക്കുള്ള വായനക്കാരുടെ അവലോകനം തീർച്ചപ്പെടുത്തിയിട്ടില്ല. ഔദ്യോഗിക ഫോമുകൾ അവയുടെ യഥാർത്ഥ ഭാഷ നിലനിർത്തുന്നു.",
+      "bytes": 36934,
+      "seconds": 9.079,
+      "sha256": "962fa8d14aa82ce1e998e9b3536b3aaa4c3923db71b54e67cd593d8a8556bc27"
+    },
+    "boundary": {
+      "textHash": "6ae6e9cc53db93dd4d8ea6858bd0e0cfe3736c53faedec40471cd97caba752e1",
+      "spoken": "ഈ പട്ടിക അനന്തരാവകാശം നിർണ്ണയിക്കുകയോ അക്കൗണ്ടുകൾ കണ്ടെത്തുകയോ അപേക്ഷകൾ സമർപ്പിക്കുകയോ ചെയ്യുന്നില്ല.",
+      "bytes": 29341,
+      "seconds": 7.196,
+      "sha256": "cf79b6b236300ed853708ff65114d8d694aeff6c76f05e46a5179e2c7e350abd"
+    },
+    "clear": {
+      "textHash": "96a59b52016d11acc6a4348e2df2dd50589cede1d14a12c6d525e152c48954ab",
+      "spoken": "ഈ സെഷൻ മായ്ക്കുക",
+      "bytes": 6874,
+      "seconds": 1.583,
+      "sha256": "08478cb25d5f688ebda5054ce053992ecb55b5fd5653bfedefd3f078dac98fe8"
+    },
+    "clearAsk": {
+      "textHash": "30f4aa35542c645ac4cb1f86ff30ec3662909c9b7fc1decb94ff750ea6c6d141",
+      "spoken": "ഈ സെഷനിൽ നിന്ന് ലിസ്റ്റ് മായ്‌ക്കണോ? സംരക്ഷിച്ച ഡൗൺലോഡുകൾ നിലനിൽക്കും.",
+      "bytes": 22045,
+      "seconds": 5.366,
+      "sha256": "676b36643d998e947cd09e5c375c07e8bea67c4b5f100862bf328306471222f5"
+    },
+    "clearDone": {
+      "textHash": "efa6d2aeeb0d4ccabe424f4a107586503f2b0d0821acb52afa25f5b7a27d152e",
+      "spoken": "ഈ സെഷൻ മായ്ച്ചു.",
+      "bytes": 6782,
+      "seconds": 1.56,
+      "sha256": "f8d2a34739dce92dda99f0e6b1c18d779bd78e926cee940739d70ba4cede5001"
+    },
+    "language": {
+      "textHash": "facae44f7974558a6b1970fc263e4290d04573e01e9ed44a83d4238c5974b836",
+      "spoken": "ഭാഷ",
+      "bytes": 3229,
+      "seconds": 0.655,
+      "sha256": "8dda18f2211192a616dbcd0132c07414202e170cde25019747c86b89b73a67ec"
+    },
+    "access": {
+      "textHash": "2cf98d78667e327bb17abad18181ba60b570bd00515aaaf50986ff4d778f8930",
+      "spoken": "പ്രവേശനക്ഷമത",
+      "bytes": 5435,
+      "seconds": 1.212,
+      "sha256": "da9e1fc641232d1dedaac0182e79e74ad024e60cc7f0ce68ba5c9fa53912ac32"
+    },
+    "textSize": {
+      "textHash": "a6c120437642ae737543ae0829fd2cef3a6181d972b5377d2b47776af99a967a",
+      "spoken": "വാചക വലുപ്പം",
+      "bytes": 5821,
+      "seconds": 1.297,
+      "sha256": "e12c31cff594d3f43a2f2162e1ee8a3eebd336c36e93ebdeb64e37f6860fefdf"
+    },
+    "smaller": {
+      "textHash": "2fff3fc4afe07c4681c7f250b46ce2c5440e922f74e79f69d72fea6df264b97b",
+      "spoken": "ചെറിയ വാചകം",
+      "bytes": 5436,
+      "seconds": 1.201,
+      "sha256": "8db19b4f9a39a4efd589bac63837ca5247feacd805048411364229c24c4b6243"
+    },
+    "larger": {
+      "textHash": "d07c4a765394a2284ee24982438c301b5992ada7209f03b5f4bb8803511f551a",
+      "spoken": "വലിയ വാചകം",
+      "bytes": 4955,
+      "seconds": 1.09,
+      "sha256": "05a3584bcb7e9a30a9fd472c7a613b7ace61faf5a0fefd77d05430e7a4a606ff"
+    },
+    "contrast": {
+      "textHash": "a4de333e55fac12f353da74b7604c478ba3b94c6fcb6ec837f013c8b49e3b906",
+      "spoken": "ഉയർന്ന ദൃശ്യതീവ്രത",
+      "bytes": 7933,
+      "seconds": 1.829,
+      "sha256": "a37c1f48dadae9d5b7c5243e211ebb33c9650f31b4615aefe00a7ba0d2e49c0d"
+    },
+    "motion": {
+      "textHash": "192987b7238d8cbec0721ec621e2da577f07a02ab66e2c1930ed98656b2e8d1e",
+      "spoken": "ചലനം കുറയ്ക്കുക",
+      "bytes": 6107,
+      "seconds": 1.371,
+      "sha256": "91dcf18c9425991d4cbe4ca17f51627e7240953f576b70d9013aa1f24179c191"
+    },
+    "read": {
+      "textHash": "4b6e786eb7225bf98b026360f5ae84b942742e5bb70bd014a17a7acdc5c38b69",
+      "spoken": "നിർദ്ദേശങ്ങൾ ശ്രദ്ധിക്കുക",
+      "bytes": 7065,
+      "seconds": 1.614,
+      "sha256": "d798318baccd572006508db7f12434527ee7fadbfd71e497b5a1ab061f0432c2"
+    },
+    "speechUnavailable": {
+      "textHash": "2a5acbcc263d6f5f4ae3891ce2d1b4e4ed09d63b24f178a74a3ff3c40491fc0e",
+      "spoken": "ഈ നിർദ്ദേശത്തിൻ്റെ ഓഡിയോ തയ്യാറായിട്ടില്ല. എഴുതിയ നിർദ്ദേശങ്ങൾ ഇപ്പോഴും ഇവിടെയുണ്ട്.",
+      "bytes": 24262,
+      "seconds": 5.921,
+      "sha256": "a699499ad4c11b57cd17b8c692768fc607e5fa9b6f4221b13a74f54bba75c589"
+    },
+    "close": {
+      "textHash": "11ecdcf2545ec661f6ef3637c699a85f3d34f09fdcbbc56f44ee08142f89c78d",
+      "spoken": "അടയ്ക്കുക",
+      "bytes": 4570,
+      "seconds": 0.993,
+      "sha256": "309c3cd5e3f6445d4f40d8eae56b065738082fea7e5d379f49ef522236340be2"
+    },
+    "skip": {
+      "textHash": "1835bf7160e0b6ec6fd8bcfdac0ddcafaae08dd2dc5a68ca9c36a6b9d63d11c0",
+      "spoken": "പ്രധാന ഉള്ളടക്കത്തിലേക്ക് പോകുക",
+      "bytes": 10329,
+      "seconds": 2.429,
+      "sha256": "2c6c9763a07e6df4047664ab3e1c07fb252f74672c6207de48290fc29528e6c0"
+    },
+    "nothing": {
+      "textHash": "86f375364f69f6f98895ebfe40c0f1fb025b25bc2b23afd0a7a2103bed447387",
+      "spoken": "ഈ കാഴ്ചയിൽ അക്കൗണ്ടുകളൊന്നുമില്ല",
+      "bytes": 10428,
+      "seconds": 2.462,
+      "sha256": "2223fc4e5d3b9112e818273a5a433c583c19ba6ecb7fc84e91046dd859699af5"
+    },
+    "optoutNote": {
+      "textHash": "a02d295d5b8592024b3d86233a5376ab252fee75484af32b72a8cdfcfbeaee28",
+      "spoken": "ചേർക്കാത്തത് ബോധപൂർവമായ ഒഴിവാക്കലിനെ പ്രതിഫലിപ്പിച്ചേക്കാം. റെക്കോർഡ് പരിശോധിച്ച് അക്കൗണ്ട് ഉടമയെ തിരഞ്ഞെടുക്കുക.",
+      "bytes": 31167,
+      "seconds": 7.655,
+      "sha256": "1858d64b0b09dcd3127db2c2cf1ca4eac3dcfe1c640543ad0147475af63582ce"
+    },
+    "startCheck": {
+      "textHash": "7180e144852c84b1a47f3e66d547e45376193c2bcb3afecf1f49c48fb04a0ec8",
+      "spoken": "ഒരു അക്കൗണ്ട് പരിശോധിക്കുക",
+      "bytes": 8991,
+      "seconds": 2.099,
+      "sha256": "131606fab114059dc9cf0f5fc199744f4e41001c744634ce6baba0800c96815b"
+    },
+    "startHelp": {
+      "textHash": "b1049402436672d6627d2c8b3bb2dc585fd08269c3b6c1265d399ac2c815e6f0",
+      "spoken": "ഒരു പാസ്ബുക്ക്, പ്രസ്താവന അല്ലെങ്കിൽ നിങ്ങൾ ഇതിനകം ഉപയോഗിക്കുന്ന ആപ്പ് ഉപയോഗിച്ച് ആരംഭിക്കുക. തുടങ്ങാൻ ഒരു അക്കൗണ്ട് മതി.",
+      "bytes": 32990,
+      "seconds": 8.104,
+      "sha256": "d0d55b1f9936d3642545d558f74ea3b1dc9bf9d29e3ab39476e7dccf080be039"
+    },
+    "resumeTask": {
+      "textHash": "df16da710a1ed577885db55297f8b974120ee9bfb600f6335e2256530dc34169",
+      "spoken": "ഈ ദൗത്യം തുടരുക",
+      "bytes": 5919,
+      "seconds": 1.328,
+      "sha256": "64933ec1437e812c20429966ea3d592063d525b2440ddcc0c64079f4a0cdef5b"
+    },
+    "needsAttention": {
+      "textHash": "0a22b2aa6b2928b2ca0b64e62f402ab3947764a775198a442f300b36404bd831",
+      "spoken": "ഇനിയും ചെയ്യാനുണ്ട്",
+      "bytes": 5731,
+      "seconds": 1.28,
+      "sha256": "0c3c0f099861e573bc198e28cf7b2b1f74730a3ba0733f450d55e9409f65e578"
+    },
+    "checkedCount": {
+      "textHash": "83c1aeb9d50afee0973d40e59faf41252263fe83f362f5999775c4a75bb545e2",
+      "spoken": "രേഖകൾ പരിശോധിച്ചു",
+      "bytes": 6785,
+      "seconds": 1.551,
+      "sha256": "b65578853ac9258158812d55468e946bfa4885281693ed0214df767290836d47"
+    },
+    "howWorks": {
+      "textHash": "0957d93279c1d5d3a4f81f948cae76df12c301630a32e65fe9278c7fad1e741f",
+      "spoken": "ഇത് എങ്ങനെ സഹായിക്കുന്നു",
+      "bytes": 6877,
+      "seconds": 1.578,
+      "sha256": "b2a3f6ddad9a11ccbce79f50a101daa4fa6a0ce68205d9301fe1911c40aba357"
+    },
+    "howWorksText": {
+      "textHash": "b741997775c17023e9cade53b32bc86c1ea73c0efeb8124eb0db0aebb5e4b046",
+      "spoken": "ശരിയായ സ്ഥലം പരിശോധിക്കാനും നിങ്ങളുടെ അടുത്ത ഘട്ടം തയ്യാറാക്കാനും ഫലം നിലനിർത്താനും ഞങ്ങൾ നിങ്ങളെ സഹായിക്കുന്നു. നിങ്ങളുടെ ബാങ്ക്, ബ്രോക്കർ അല്ലെങ്കിൽ ഫണ്ട് യഥാർത്ഥ മാറ്റം വരുത്തുന്നു.",
+      "bytes": 49409,
+      "seconds": 12.215,
+      "sha256": "bff0bea1aa7ed6a01779ee7ab72d14b82830312f2e0fa1f63f6b857aa8ab400c"
+    },
+    "searchBank": {
+      "textHash": "063a08568a96a2a9022e43b9388ee745722e5fff63d9e86afa847f020c3eab58",
+      "spoken": "നിങ്ങളുടെ ബാങ്കിനായി തിരയുക",
+      "bytes": 8319,
+      "seconds": 1.926,
+      "sha256": "c4ae8f6c07063a2b676c0c21ac4cade0a2c6592d5f99dbea3a86465745aa3d05"
+    },
+    "searchDemat": {
+      "textHash": "79f015824bd2f8e3f5227dba0c4a2a69c7039bdc9f753e1a4f3d2a4e5b2e8e0b",
+      "spoken": "നിങ്ങളുടെ ബ്രോക്കർ അല്ലെങ്കിൽ ബാങ്കിനായി തിരയുക",
+      "bytes": 11584,
+      "seconds": 2.752,
+      "sha256": "01666061aee49cfc06ac792720f86f8a6185ae21a11241db01385781f4267e63"
+    },
+    "searchMf": {
+      "textHash": "cb95ffd994f4c1ef831dd45864b883b4518ebc0b2e4807aa0996aa02ba5996a5",
+      "spoken": "നിങ്ങളുടെ മ്യൂച്വൽ ഫണ്ടിനായി തിരയുക",
+      "bytes": 9853,
+      "seconds": 2.327,
+      "sha256": "00fbd46a8f744f62a51e16fdf06acbf583ff79bb38ccb4c87a93b0acea2a5b2c"
+    },
+    "searchHelp": {
+      "textHash": "6029ae791947bf6ed7de6f38a8c959fbf29be161ba88f3f0d015d5d1c57a60a6",
+      "spoken": "ഒരു പേരോ ചുരുക്കമോ ടൈപ്പ് ചെയ്യുക. ലിസ്‌റ്റ് ചെയ്‌തിട്ടില്ലാത്ത ഒരു സ്ഥാപനത്തിലും നിങ്ങൾക്ക് പ്രവേശിക്കാം.",
+      "bytes": 26175,
+      "seconds": 6.386,
+      "sha256": "4b6cf1b13b264f1bb8abf7e96dfe5d53efce8d389919fc0686d21c2a33a193ef"
+    },
+    "useTyped": {
+      "textHash": "876752f7ebcad36c29ba209e3491c868e6096aeeb039fc0f1bea522f2d1f84ac",
+      "spoken": "ഈ പേര് ഉപയോഗിക്കുക",
+      "bytes": 9181,
+      "seconds": 2.148,
+      "sha256": "7591cf6d2c96d8345bfe9137922d8dcd30456600284794790b577577860a5fdd"
+    },
+    "suggestions": {
+      "textHash": "3ba034891f5ae36587dceddfbdb4d3c21eb51e38e146533fadce7b8ba71d8865",
+      "spoken": "പൊരുത്തപ്പെടുന്ന സ്ഥാപനങ്ങൾ",
+      "bytes": 8512,
+      "seconds": 1.99,
+      "sha256": "ff9fea8fc261110c4002e15a785713f256405bb2bd940da73c270c3a37386911"
+    },
+    "noMatches": {
+      "textHash": "5d81d269fc6fe114527de4340cb5a4a34c0c131a68ac232aa28164e407fbb37d",
+      "spoken": "പൊരുത്തങ്ങളൊന്നുമില്ല. അക്ഷരവിന്യാസം പരിശോധിക്കുക അല്ലെങ്കിൽ നിങ്ങൾ നൽകിയ പേര് സൂക്ഷിക്കുക.",
+      "bytes": 25694,
+      "seconds": 6.272,
+      "sha256": "b9dc15d48e042e6e1f3c55f5279b72ee1a1a3ae9fd9db355c6e8ddae66387cef"
+    },
+    "accountContext": {
+      "textHash": "1bdb6fa653e183fc7c3071a4218be471a186dc77dfb0bea42d3e2accffb8e92c",
+      "spoken": "ഈ അക്കൗണ്ടിനെക്കുറിച്ച് കുറച്ച്",
+      "bytes": 8707,
+      "seconds": 2.02,
+      "sha256": "8c74a510bea75b9e31b5003b270d570c9c1176c4961a29dfbf57488165a876bf"
+    },
+    "contextHelp": {
+      "textHash": "ea3f29c8da9b989e7e2b71334d27358084ebae80be101c700175d0eebed71f46",
+      "spoken": "ശരിയായ നിർദ്ദേശങ്ങൾ കാണിക്കാൻ ഈ വിശദാംശങ്ങൾ ഞങ്ങളെ സഹായിക്കുന്നു. ഉറപ്പില്ലാത്തത് നല്ലതാണ്.",
+      "bytes": 25216,
+      "seconds": 6.163,
+      "sha256": "f18d4cc763c02f43355fcd7012790e8e37fa919e5b0b77c20e36998fcf7ac4cd"
+    },
+    "whose": {
+      "textHash": "682bc6b99992caf8633c7509f02e31ffb3a6eef984f92123f02d483f6fe11e1b",
+      "spoken": "ഇത് ആരുടെ അക്കൗണ്ടാണ്?",
+      "bytes": 8314,
+      "seconds": 1.934,
+      "sha256": "cbbb0d3966c7c713688bb68567ab49161640300c343ad9a4c0e9b630bce74134"
+    },
+    "me": {
+      "textHash": "3d65291dba9ac9e20f3fe32239641dbf270ee76001baf5bce72a45f3e0116e9e",
+      "spoken": "എൻ്റേത്",
+      "bytes": 3799,
+      "seconds": 0.799,
+      "sha256": "6c9b3646e22bf555ff3e82577c6976d7ee650ca2e822f62738f8528df6223edf"
+    },
+    "parent": {
+      "textHash": "9eca16b1398872e27b8498145917cfdde434dbc2b74760c6b9fe731e37db26c0",
+      "spoken": "ഒരു രക്ഷിതാവിൻ്റെ",
+      "bytes": 6683,
+      "seconds": 1.528,
+      "sha256": "ec56b649a3435bc324205b8210ce165c4aedd02b75f21eade75fc9f719c38c3f"
+    },
+    "familyMember": {
+      "textHash": "e0d9504acf71ced5455a6a6d05e7318400b63c43fd00da310930ec964df3cebe",
+      "spoken": "എൻ്റെ കുടുംബത്തിലെ ഒരാൾ",
+      "bytes": 8801,
+      "seconds": 2.056,
+      "sha256": "ec0c470c59cac3afcf7ae7158813eb0f70c233e7badab6e14b88d8a6c8c58d62"
+    },
+    "holderQuestion": {
+      "textHash": "901dfa8ecd26b304300ee50577f5610027771c16fd33b06f49fd086ecf08e709",
+      "spoken": "അക്കൗണ്ട് ഒറ്റയ്ക്കാണോ അതോ സംയുക്തമായാണോ ഉള്ളത്?",
+      "bytes": 16867,
+      "seconds": 4.075,
+      "sha256": "60aedf4150e4355a2e40e95d523e5089fb23b9c612a96ebf29abf402144edabc"
+    },
+    "sole": {
+      "textHash": "57538d4fbcea8103c2223b4aec4fc9076b0281b436f3aeb6a5b37f7c008513fb",
+      "spoken": "ഒരു ഹോൾഡർ",
+      "bytes": 5529,
+      "seconds": 1.246,
+      "sha256": "1f5db2e8a7e3cc4f81d5c22b845a37ff7101a7caa7d53831da697ccf1fe224a2"
+    },
+    "joint": {
+      "textHash": "0a2fa80ad3dfe3191ca15fba124df261f14b4b9e5d088ee1905b695357502cda",
+      "spoken": "ജോയിൻ്റ് ഹോൾഡർമാർ",
+      "bytes": 6970,
+      "seconds": 1.6,
+      "sha256": "da3493ded21646732e0874eb0571a407c3aa50a83b6825bfa061cba22002eb51"
+    },
+    "bankProduct": {
+      "textHash": "dfd90caa439de315c383f1159bcf4d2db48388bf80455e2b35985f7d567cb7e0",
+      "spoken": "ഏത് തരത്തിലുള്ള ബാങ്ക് അക്കൗണ്ട്?",
+      "bytes": 9376,
+      "seconds": 2.203,
+      "sha256": "794a19ee2ba3eac4ddbe7bdcf6cda580ba2b900444cade61f22649ec518dfcd6"
+    },
+    "savings": {
+      "textHash": "07fb124efb93f93b2b9a608c63d98ca3701651ba2f457dca577d8cb22d9b6022",
+      "spoken": "സേവിംഗ്സ് അക്കൗണ്ട്",
+      "bytes": 6780,
+      "seconds": 1.546,
+      "sha256": "c79d0c9ae1db63f097a907fa1254d20395e2a0f19a443a27c7bb81dd6b33be7b"
+    },
+    "deposit": {
+      "textHash": "00f8fc2275662577d2963139a864da1f8e533b222c74aa4fa395e13d762c6cb5",
+      "spoken": "സ്ഥിര അല്ലെങ്കിൽ ആവർത്തന നിക്ഷേപം",
+      "bytes": 10236,
+      "seconds": 2.418,
+      "sha256": "235c896c235068ffb1f1126cbddd2c8e2f0b8ad8502c929bba76dc1b90c60ccd"
+    },
+    "mfMode": {
+      "textHash": "76dae9a560ef932969a864d870270253a1b94711a697bd120f0d34f0b7120206",
+      "spoken": "ഈ മ്യൂച്വൽ ഫണ്ടുകൾ എങ്ങനെയാണ് സൂക്ഷിക്കുന്നത്?",
+      "bytes": 13115,
+      "seconds": 3.136,
+      "sha256": "5f9bb02c1ace204ed923900fe23f12d7f6cb9a8806c86edae9eb445d408b00b0"
+    },
+    "folioMode": {
+      "textHash": "3f14fd358dba948eb3373888a36b216a45fc9477b3049259008e193d5aad6f06",
+      "spoken": "മ്യൂച്വൽ ഫണ്ടിനൊപ്പം ഒരു ഫോളിയോ",
+      "bytes": 11678,
+      "seconds": 2.781,
+      "sha256": "7e4825943d5f5eb452651ef99a1a5b4048c9ef3df7109097932df8df469ae97b"
+    },
+    "dematMode": {
+      "textHash": "98696e32e36358dd58b3a383c7e1249ead8f4ba3b20ad41b8d7e4d788099fab0",
+      "spoken": "ഒരു ഡീമാറ്റ് അക്കൗണ്ടിനുള്ളിൽ",
+      "bytes": 8894,
+      "seconds": 2.078,
+      "sha256": "83cb741121c140da5d1421e44000a6bc905da6385fcec7d93b5db81d77e40a6a"
+    },
+    "identifyHelp": {
+      "textHash": "9929dea1acfc3b4d8706af4abffc9184a412adaa0435ba6746b6f198788772ee",
+      "spoken": "അത് തിരിച്ചറിയാൻ എന്നെ സഹായിക്കൂ",
+      "bytes": 10337,
+      "seconds": 2.434,
+      "sha256": "aa5390ca0127ac253baaf137badcfca4cb34fa9a705e26c5dc93d4ad7a8e3c0d"
+    },
+    "identifyText": {
+      "textHash": "b6482c0492ad617c89a5c03d3f12b40d34aca0ebd28543cec0e57fc77f9a50b0",
+      "spoken": "ഒരു ഫണ്ട് സ്റ്റേറ്റ്‌മെൻ്റ് സാധാരണയായി ഒരു ഫോളിയോ നമ്പറും ഫണ്ടിൻ്റെ പേരും കാണിക്കുന്നു. ഒരു ഡിമാറ്റ് സ്റ്റേറ്റ്‌മെൻ്റ് ഒരു ഡിപി ഐഡി / ക്ലയൻ്റ് ഐഡി അല്ലെങ്കിൽ ബിഒ ഐഡി കാണിക്കുന്നു. ഉറപ്പില്ലെങ്കിൽ, യൂണിറ്റുകൾ എങ്ങനെയാണ് സൂക്ഷിച്ചിരിക്കുന്നതെന്ന് ദാതാവിനോട് ചോദിക്കുക.",
+      "bytes": 75329,
+      "seconds": 18.674,
+      "sha256": "ce233da53db5429c00978728033d9bbab6c996c9d6d8875286b0c3939baff5f8"
+    },
+    "change": {
+      "textHash": "5a8dec0c800a78b34067911f44c772a2b217790c3c8a21b727de945c3f38bb46",
+      "spoken": "ഒരു അപ്ഡേറ്റ് ആവശ്യമാണ്",
+      "bytes": 8315,
+      "seconds": 1.93,
+      "sha256": "db2af940a19a7a94f18d64c6d1470b60ccdc63e3b6bf1c77703cb3b3dda2bd8d"
+    },
+    "optout": {
+      "textHash": "71738a55c92d51d96d95150e9b4c3b6e50c60f893b234f55b35c67c4f1ffa728",
+      "spoken": "നോമിനേറ്റ് ചെയ്യരുതെന്ന് തിരഞ്ഞെടുത്തു",
+      "bytes": 9083,
+      "seconds": 2.13,
+      "sha256": "71a1207db3e725057a53738e89f97756123467bb32c0e99bc1abf0e3bdacfe2a"
+    },
+    "blocked": {
+      "textHash": "b99742b47d1b92c5197df29febcf1792af10e79d70d67571d38efbfe25c23625",
+      "spoken": "സഹായം ആവശ്യമാണ്",
+      "bytes": 7068,
+      "seconds": 1.61,
+      "sha256": "2ef46c541e946126aad9cc9366b3f42a6e6801d0141bc5993946939a95af18e1"
+    },
+    "helpCheck": {
+      "textHash": "8b097b8c91018a65af6a5eb0869d0f7110bd12300f7089afc4c39e6452f5dcbe",
+      "spoken": "പരിശോധിക്കാൻ എന്നെ സഹായിക്കൂ",
+      "bytes": 8798,
+      "seconds": 2.052,
+      "sha256": "51071f4b705725e2c547897d31566381f3ceaf0284b9981626a737721d49d373"
+    },
+    "whatFound": {
+      "textHash": "488011450290952bb09b74014519acfe36f229539f4f6a53a3fc236fe7dd99e1",
+      "spoken": "നിങ്ങൾ എന്താണ് കണ്ടെത്തിയത്?",
+      "bytes": 7742,
+      "seconds": 1.782,
+      "sha256": "867cc4714377662acf7775e63feaf10b9ba40a771e0716abd1faa72ab1fb1893"
+    },
+    "foundYes": {
+      "textHash": "46e47f542723fd360954f94adf786df8f962ee7401e6fcbd6aad3aa04fc6a011",
+      "spoken": "നാമനിർദ്ദേശം രേഖപ്പെടുത്തി",
+      "bytes": 9277,
+      "seconds": 2.173,
+      "sha256": "cd5fec0327d9d921de24f886e6cf7e68622cee4125bc952172230a824244b129"
+    },
+    "foundNo": {
+      "textHash": "e92c6dcb5d06e4a4e272db7b1ace1e59e32070721264abb6457edff0e54d79cb",
+      "spoken": "ഒരു നോമിനിയും രേഖപ്പെടുത്തിയിട്ടില്ല",
+      "bytes": 9564,
+      "seconds": 2.254,
+      "sha256": "0785e9a3b2ee86e781efd712e9c8576280a59ec13fbfc1226adcf837e91e4a3b"
+    },
+    "foundChange": {
+      "textHash": "f057e3bcd889fa72ed919989c3c0e1353f0be59716258caa6d733de8cce49266",
+      "spoken": "വിശദാംശങ്ങൾ മാറ്റേണ്ടതുണ്ട്",
+      "bytes": 9088,
+      "seconds": 2.117,
+      "sha256": "e8b9fc6860e22146210ce3fc072dff2bda73bfd9db43be1976f6fae99bc9533d"
+    },
+    "foundUnknown": {
+      "textHash": "dee272e23a6b065e475cc40b0cf7d5b54f11bb51dd39145ac21e9ecd5afd1a96",
+      "spoken": "എനിക്ക് അത് കണ്ടെത്താൻ കഴിഞ്ഞില്ല",
+      "bytes": 9761,
+      "seconds": 2.288,
+      "sha256": "aa7ac95d42bfd3de104d76d33ad30072edfdaee5254a83e89bbd7d93392fca85"
+    },
+    "prepare": {
+      "textHash": "41232316cc6a457065f1c9388afb81170693157eb198994cbce9cbddeb0ef72a",
+      "spoken": "അടുത്ത ഘട്ടം തയ്യാറാക്കുക",
+      "bytes": 9564,
+      "seconds": 2.248,
+      "sha256": "62ad5ca8ecb559a6d7d8d3a7fece78e2fae16050fe9d3fb354a1fa42fec28f08"
+    },
+    "checkFirst": {
+      "textHash": "e6231277b0109645db317c8243f1d4785158f3eb769ee4d1333e3df6b49bd91b",
+      "spoken": "എന്തെങ്കിലും മാറ്റുന്നതിന് മുമ്പ് പരിശോധിക്കുക",
+      "bytes": 10815,
+      "seconds": 2.567,
+      "sha256": "73e026579e797712701fbd7ed2d9949fe97b41d1611b6dd8c130c41faf135528"
+    },
+    "openOfficial": {
+      "textHash": "d438c146ef7e7de48f47a48ea335b43ded392c2f6b90cc7d33b16800b41d1417",
+      "spoken": "ഔദ്യോഗിക നിർദ്ദേശങ്ങൾ തുറക്കുക",
+      "bytes": 10145,
+      "seconds": 2.378,
+      "sha256": "9a95237ee503eeab6728b7d578cd610e5d42c2908b1950e8c9f298e1574a98b3"
+    },
+    "prepareIntro": {
+      "textHash": "9df93f9e49ddce6f532307e2a10b339a9b4d94ac9b822013f6ef78e259a7dc4d",
+      "spoken": "സ്ഥാപനത്തിനായി ഇവ തയ്യാറാക്കുക. നിങ്ങൾ അവ ഇവിടെ നൽകേണ്ടതില്ല.",
+      "bytes": 20705,
+      "seconds": 5.023,
+      "sha256": "2241e8980cc3e5e403ebfc2f50274b5ecb27102215ea11847e3865566770508e"
+    },
+    "prepareNames": {
+      "textHash": "4e6a33b36ac618ddbff2e53aa69599d13adbce819db88dd7097000b2131f2341",
+      "spoken": "നോമിനിയുടെ പേരും ബന്ധവും, അവരുടെ രേഖകളിൽ കാണിച്ചിരിക്കുന്നത് പോലെ.",
+      "bytes": 17921,
+      "seconds": 4.328,
+      "sha256": "3203d9be75acb44d416b87317ca53bfb2b3544bf5ecd1adcad018fdc0c2f30a5"
+    },
+    "prepareMinor": {
+      "textHash": "63e849e8b74c4bc08c5fd8302ac070b696fbafab4a813fbc5b1595d2709608cb",
+      "spoken": "ഒരു നോമിനി കുട്ടിയാണെങ്കിൽ, നിലവിലെ ഫോമിലെ ജനനത്തീയതിയും രക്ഷാധികാരി വിഭാഗവും പരിശോധിക്കുക.",
+      "bytes": 29825,
+      "seconds": 7.308,
+      "sha256": "e82d124b1b31441f34d802b1718466cda230756d1f8cbafc64d0726f01df5c38"
+    },
+    "prepareAccess": {
+      "textHash": "63d41220bb9b14196edb98dc6ec6ab415c4cda99d921e566706e8cfc62df1815",
+      "spoken": "നിങ്ങളുടെ സ്വന്തം അക്കൗണ്ട് റഫറൻസും സ്ഥാപനത്തിൻ്റെ ഔദ്യോഗിക സേവനത്തിലേക്കുള്ള പ്രവേശനവും. പാസ്‌വേഡുകളും ഒടിപികളും അവിടെ മാത്രം സൂക്ഷിക്കുക.",
+      "bytes": 44610,
+      "seconds": 10.993,
+      "sha256": "7de8b0bfaf711f5ef9add521960a7bfe0a28a9ec24692ad7e4a097683834b41b"
+    },
+    "jointGuide": {
+      "textHash": "978c10a2775c9ecff3b7c72b6ae938cb62d60a516d60e8ea973b2679460cc816",
+      "spoken": "ഒരു ജോയിൻ്റ് അക്കൗണ്ടിനായി, എല്ലാ ഉടമകളെയും ഉൾപ്പെടുത്തുക. സമർപ്പിക്കുന്നതിന് മുമ്പ് ഏതൊക്കെ ഒപ്പുകളും ചാനലുകളും ആവശ്യമാണെന്ന് സ്ഥാപനത്തോട് ചോദിക്കുക.",
+      "bytes": 45087,
+      "seconds": 11.116,
+      "sha256": "c48d8aab052c2bf3cfcb0c80d88070e0f4815a47fb94a8c168de6499c2d052a7"
+    },
+    "unknownContext": {
+      "textHash": "fd0c2b046be619cbea7fe2b5f12615def070ed77043ac094005e0de6f045b560",
+      "spoken": "ഒരു ഓൺലൈൻ റൂട്ട് തിരഞ്ഞെടുക്കുന്നതിന് മുമ്പ് നിങ്ങളുടെ പ്രസ്താവനയിൽ ഉടമയുടെ പേരുകളും അക്കൗണ്ട് തരവും പരിശോധിക്കുക. അവരെ തിരിച്ചറിയാൻ സ്ഥാപനത്തിന് കഴിയും.",
+      "bytes": 42307,
+      "seconds": 10.434,
+      "sha256": "5de478d7d8804850ddcd9da3c2e151a2ff0ec3b16426faa11afa7833bf234976"
+    },
+    "hdfcSavings": {
+      "textHash": "38a87f4c5fb03dca76e97aeea7e7bf2157b524390de5b8bbdfce30b7af6f273f",
+      "spoken": "എച്ച്ഡിഎഫ്സി നെറ്റ്ബാങ്കിംഗിൽ, അക്കൗണ്ട് തുറക്കുക → അക്കൗണ്ട് → അക്കൗണ്ട് വിശദാംശങ്ങൾ → നോമിനി, അക്കൗണ്ട് ഹോൾഡർ വിശദാംശങ്ങൾ തിരഞ്ഞെടുക്കുക.",
+      "bytes": 39904,
+      "seconds": 9.828,
+      "sha256": "c8b9c82d743d1e172cb924713f2bdaca331abc2ef34080d7a0d8eaa9bb33589d"
+    },
+    "hdfcDeposit": {
+      "textHash": "769c66e91df98ee2a4484d9efee5d36a589c312c27ffc7901b886db5af88b9d1",
+      "spoken": "എച്ച്‌ഡിഎഫ്‌സി നെറ്റ്ബാങ്കിംഗിൽ, എഫ്‌ഡി/ആർഡി തുറക്കുക → ഡിപ്പോസിറ്റ് തിരഞ്ഞെടുക്കുക → നോമിനിയെ ചേർക്കുക അല്ലെങ്കിൽ നോമിനി മാറ്റുക എന്നതിനായി നോക്കുക. നിങ്ങളുടെ സേവിംഗ്സ് അക്കൗണ്ടിൽ നിന്ന് ഈ നിക്ഷേപം പ്രത്യേകം പരിശോധിക്കുക.",
+      "bytes": 55360,
+      "seconds": 13.686,
+      "sha256": "2ce6bb855b2f19d8f551a718e91ce6c9fbef068ff737fc9ae8a4b5ca7725d41d"
+    },
+    "hdfcAction": {
+      "textHash": "eb93511b82958ec7a291e4b15f02571ef6ed43d4330542cd81aa5859d2961805",
+      "spoken": "ഏക ഉടമകൾക്ക് പ്രസക്തമായ അക്കൗണ്ട് വിശദാംശങ്ങളിൽ നോമിനി ചേർക്കുകയോ നോമിനി മാറ്റുകയോ ചെയ്യാം. ജോയിൻ്റ് ഹോൾഡിംഗുകൾക്ക്, മറ്റ് ഹോൾഡർമാരുമായി ബാങ്കിൻ്റെ ബ്രാഞ്ച് റൂട്ട് ഉപയോഗിക്കുക.",
+      "bytes": 47871,
+      "seconds": 11.815,
+      "sha256": "18a6906b11600a23a7451366fd71eca223a384b99d5acbb24b20950da3f743f1"
+    },
+    "zerodhaCheck": {
+      "textHash": "693b999c85e3274b7e7c533cb7b1541c57ce52143e46c858607ced36b8d69539",
+      "spoken": "സെരോധാ കൺസോൾ → അക്കൗണ്ട് → നോമിനികൾ തുറക്കുക. ഈ നോമിനേഷനിൽ കോയിൻ ഉൾപ്പെടെയുള്ള ആ ഡീമാറ്റ് അക്കൗണ്ടിലുള്ള മ്യൂച്വൽ ഫണ്ടുകളും ഉൾപ്പെടുന്നു.",
+      "bytes": 40577,
+      "seconds": 9.997,
+      "sha256": "fa092fdba562f60b20a74434e01f76c5957306fec5bbbc7ebbcec8e4158d9fd2"
+    },
+    "zerodhaAction": {
+      "textHash": "51e2ce04c70544da0f47e44cea957357b779a32142001406a0518055d6c08be1",
+      "spoken": "കൺസോളിലെ നോമിനേഷൻ നിർദ്ദേശങ്ങൾ ഉപയോഗിക്കുക. സെരോധാ ജോയിൻ്റ് ഹോൾഡർമാരെയും ആധാർ ബന്ധിപ്പിച്ച മൊബൈൽ ഇല്ലാത്ത ആളുകളെയും അതിൻ്റെ ഓഫ്‌ലൈൻ ഫോമിലേക്ക് നയിക്കുന്നു. ലിങ്ക് ചെയ്‌ത സഹായ പേജിൽ നിലവിലെ ആവശ്യകതകൾ പരിശോധിക്കുക.",
+      "bytes": 63138,
+      "seconds": 15.638,
+      "sha256": "909bdf749767e21a76d80be1795d7792991d0234cb14be0e2b386008d0041caf"
+    },
+    "hdfcMfGuide": {
+      "textHash": "181f07f9018abd800cbde6d4902c5bd3701384cd6a63c78664045d383647c9d3",
+      "spoken": "നിലവിലെ അഭ്യർത്ഥന ഫോമിനും സമർപ്പിക്കൽ നിർദ്ദേശങ്ങൾക്കും എച്ച് ഡി എഫ് സി മ്യൂച്വൽ ഫണ്ടിൻ്റെ നോമിനി-രജിസ്ട്രേഷൻ സേവന പേജ് ഉപയോഗിക്കുക. ആരംഭിക്കുന്നതിന് മുമ്പ് നിങ്ങളുടെ പ്രസ്താവനയിലെ ഫോളിയോ പൊരുത്തപ്പെടുത്തുക.",
+      "bytes": 62752,
+      "seconds": 15.551,
+      "sha256": "f1c504e3e52cc14bd360fb4ee9e5d04d836e97884c8e7fa855ff54aa4468f59b"
+    },
+    "mfDematHelp": {
+      "textHash": "518083c24a74ff96b4e63c962a5be958090a5fd110b7724811f7b7df0f79ffa3",
+      "spoken": "ഈ യൂണിറ്റുകൾ ഡീമാറ്റ് അക്കൗണ്ടിലെ നാമനിർദ്ദേശം ഉപയോഗിക്കുന്നു. നിങ്ങളുടെ ബ്രോക്കറോ ഡിപിയോ ഉപയോഗിച്ച് ആ അക്കൗണ്ട് പരിശോധിക്കുക; ഒരു പ്രത്യേക ഫോളിയോ നോമിനേഷൻ ആവശ്യമാണെന്ന് കരുതരുത്.",
+      "bytes": 52480,
+      "seconds": 12.979,
+      "sha256": "b9f44aff4d9a934f5b7d6dd08dda1f78019995b5208f9b1190c2d56df419b473"
+    },
+    "useDemat": {
+      "textHash": "f3e3eb2e746830efe58d14e63b9cdf63bece81bd59fa7975511c525765d136fe",
+      "spoken": "ഡീമാറ്റ് അക്കൗണ്ട് പരിശോധിക്കുക",
+      "bytes": 11005,
+      "seconds": 2.606,
+      "sha256": "3d5bbefaa1e04eb912d7d82a12856e590e84fe130e4689a5c6bc66672e940282"
+    },
+    "routeFallback": {
+      "textHash": "8d7269259cc7ce2ca582adbc16ca6e62bb5dcf21fe65845c557272f175007308",
+      "spoken": "ഈ സ്ഥാപനത്തിന് ഞങ്ങൾക്ക് പൊതുവായ മാർഗ്ഗനിർദ്ദേശമുണ്ട്. കൃത്യമായ സ്‌ക്രീനോ ഫോമോ അതിൻ്റെ ഔദ്യോഗിക സേവന ടീമുമായി സ്ഥിരീകരിക്കുക.",
+      "bytes": 46914,
+      "seconds": 11.591,
+      "sha256": "a064ebdd261433f2ea5d992060fa089a3a8b787faf7cb4b24e565e35b8623a0b"
+    },
+    "offlineHelp": {
+      "textHash": "de0e213cb93b2c8244deccfdb362cf23fea7f9811d0d9002357bb9816497872e",
+      "spoken": "വ്യക്തിപരമായി സന്ദർശിക്കാൻ താൽപ്പര്യമുണ്ടോ?",
+      "bytes": 11488,
+      "seconds": 2.736,
+      "sha256": "988f44a20cab092d0ede5fd466dec462e96a2c8a69b97dac99f1f035cbfda187"
+    },
+    "offlineText": {
+      "textHash": "8e5230f640405a4641585b2db56904c2d23c237a2783274b8d15847a8a2d8677",
+      "spoken": "ബ്രാഞ്ചിലേക്കോ ഔദ്യോഗിക സേവന കേന്ദ്രത്തിലേക്കോ നിങ്ങളുടെ അക്കൗണ്ട് അല്ലെങ്കിൽ ഫോളിയോ റഫറൻസ് എടുക്കുക. നോമിനേഷൻ രജിസ്ട്രേഷനോ മാറ്റത്തിനോ, തീയതി രേഖപ്പെടുത്തിയ അംഗീകാരത്തിനോ ആവശ്യപ്പെടുക. യാത്രയ്ക്ക് മുമ്പ് ഏതൊക്കെ ഉടമകൾ പങ്കെടുക്കണമെന്ന് ചോദിക്കുക.",
+      "bytes": 78304,
+      "seconds": 19.428,
+      "sha256": "2cd441971a892306d1056e25f524945aae2ee61e87ba8aa67f453b0b2256a3f1"
+    },
+    "askHelp": {
+      "textHash": "76f39ec48f7abcd7b8bbdd7faefbb683f48fadfc5cb4a6affd0efb1af7d711a8",
+      "spoken": "നിങ്ങൾക്ക് ചോദിക്കാവുന്ന ഒരു ചോദ്യം",
+      "bytes": 8988,
+      "seconds": 2.09,
+      "sha256": "b01684fca71e04301c5272188aff815fb1e167599d9b2806f70244031f5f9dce"
+    },
+    "askText": {
+      "textHash": "66fe200048ce8cc3f51ae62fd499b3fb0c66834eb5585cda491aa02d31cc2c20",
+      "spoken": "ഈ അക്കൗണ്ടിനായി നോമിനേഷൻ രജിസ്റ്റർ ചെയ്തിട്ടുണ്ടോയെന്ന് പരിശോധിക്കുക. അത് നഷ്‌ടപ്പെടുകയോ മാറ്റുകയോ ചെയ്‌താൽ, നിലവിലുള്ള ഏത് ഫോമോ ഔദ്യോഗിക ഓൺലൈൻ ഓപ്‌ഷനോ ആണ് ഞാൻ ഉപയോഗിക്കേണ്ടത്? ഫലം രേഖാമൂലം സ്ഥിരീകരിക്കുക.",
+      "bytes": 64092,
+      "seconds": 15.87,
+      "sha256": "a38135be1042a0ee1e0ad39415b28516a1a5a5fe5449c6504568700f327b273b"
+    },
+    "copyQuestion": {
+      "textHash": "6d7036f5fff18f1702bff69d5db0175e70ff3ee36a2359f0ba7024694dcd6da9",
+      "spoken": "ഈ ചോദ്യം പകർത്തുക",
+      "bytes": 6977,
+      "seconds": 1.604,
+      "sha256": "47a786f2307f50ed5c095443d4cb2a17d72b7eb66f20f85a466e02da11c04478"
+    },
+    "copied": {
+      "textHash": "2ee587a41ff8a0482e6b52dff1e8db59d20879fead57352179f40f65ae32761a",
+      "spoken": "പകർത്തി",
+      "bytes": 3995,
+      "seconds": 0.86,
+      "sha256": "d25520d5fd17102f1145efdc2f1f3a1a10712352a4dbc08f01850850b6a83c1c"
+    },
+    "followup": {
+      "textHash": "b6a0237b09c4753de7d03eba57836a18548dd2a1677ed0a2309a747be2a28c10",
+      "spoken": "ഒരു ഫോളോ-അപ്പ് തീയതി തിരഞ്ഞെടുക്കുക",
+      "bytes": 12253,
+      "seconds": 2.912,
+      "sha256": "7675544496d290aebde2b33fef3d2adf468e8e227fa12f9a10ba66f18de1bda3"
+    },
+    "followupHelp": {
+      "textHash": "de4ea680a501f40af5cc468db3b80af11e3f34d2be691ba93384522119471236",
+      "spoken": "ഇത് നിങ്ങളുടെ സ്വന്തം ഓർമ്മപ്പെടുത്തൽ തീയതിയാണ്, ഒരു സ്ഥാപനത്തിൻ്റെ സമയപരിധിയല്ല. നിങ്ങൾക്ക് ഒരു അലേർട്ട് വേണമെങ്കിൽ അത് നിങ്ങളുടെ കലണ്ടറിലേക്ക് ഡൗൺലോഡ് ചെയ്യുക.",
+      "bytes": 43937,
+      "seconds": 10.834,
+      "sha256": "08e8822bd0275348bd9c607ad9b94701d855f6eb4d010627cc5d7a186ccbf940"
+    },
+    "calendar": {
+      "textHash": "41e7704a5f0e226dabfcf2a6087129c22f4f4a3050bc4d752547290794ea0358",
+      "spoken": "കലണ്ടർ റിമൈൻഡർ ഡൗൺലോഡ് ചെയ്യുക",
+      "bytes": 10909,
+      "seconds": 2.579,
+      "sha256": "813c005bfd7db5cd70dc74361fe07aa7ebec6b3052d1099a2e8e023e489d26a4"
+    },
+    "followDue": {
+      "textHash": "16985cebde0770e5ea2ab7a8aab2bf9ab35cf3816b492996f783d3f6bad129ba",
+      "spoken": "റിവ്യൂ നൽകണം",
+      "bytes": 5918,
+      "seconds": 1.324,
+      "sha256": "a90ef17d081ded7ee3a51ed1953dad3d5f7f8f56e140dd34608f02d18a2c4b57"
+    },
+    "requestHelp": {
+      "textHash": "17bacdb980d8cb66a75cba56d04f2cd8907db2fd78937448a6a9ba8ba2b25806",
+      "spoken": "അഭ്യർത്ഥനയ്ക്ക് സഹായം ആവശ്യമാണ്",
+      "bytes": 9568,
+      "seconds": 2.25,
+      "sha256": "250f97a0255369e2dad58c46cd6b82872f27592ec4fd3077992657756ec2b2ea"
+    },
+    "blockedHelp": {
+      "textHash": "6a34d076a9fe67fa25b56e1fc2393af07355d483e5479bad5bc760147afdf350",
+      "spoken": "സ്ഥാപനത്തിന്റെ മറുപടി സൂക്ഷിക്കുക. എന്താണ് കുറവ്, ഏത് തിരുത്തൽ വേണം, വീണ്ടും എങ്ങനെ സമർപ്പിക്കണം എന്ന് ചോദിക്കുക. നിരസിച്ചതോ അപൂർണ്ണമായതോ ആയ അപേക്ഷ രജിസ്റ്റർ ചെയ്ത നോമിനേഷൻ അല്ല.",
+      "bytes": 54304,
+      "seconds": 13.416,
+      "sha256": "2302a05b6f3d19566334b75a633937a11a6b58208fef1db7717677c55787607b"
+    },
+    "recheck": {
+      "textHash": "81b762077c771475a90e7a4aa54de471c5ac8ad25b014489429a2083a829fdcc",
+      "spoken": "വീണ്ടും പരിശോധിക്കുക",
+      "bytes": 7260,
+      "seconds": 1.657,
+      "sha256": "07526e205dfde76e6ee04af9fc82816929079f6563067ad7b0848f1b9b2c1ac8"
+    },
+    "familyRecord": {
+      "textHash": "9c92bbe08158f776a456300cdb95128a14918051533731d0e6db37e64eb56b1a",
+      "spoken": "നിങ്ങളുടെ കുടുംബ റെക്കോർഡ്",
+      "bytes": 7169,
+      "seconds": 1.652,
+      "sha256": "ee616ea1c9ba21859abda37c8a2de08aa838b52ff137fbaa109d0a6e655fd313"
+    },
+    "familyHelp": {
+      "textHash": "5d674df284f96c56a4196d3ccc187413d6e7bb799aba0bbdd4c9e3a5832f0c36",
+      "spoken": "അക്കൗണ്ട് തിരിച്ചറിയാനും അതിൻ്റെ രേഖകൾ കണ്ടെത്താനും നിങ്ങളുടെ കുടുംബത്തെ സഹായിക്കുന്നവ മാത്രം ചേർക്കുക. നിങ്ങൾക്ക് സ്വകാര്യ വിശദാംശങ്ങൾ ഉപേക്ഷിക്കാം.",
+      "bytes": 44799,
+      "seconds": 11.051,
+      "sha256": "5e45b5f7a5fa9fea154ac49fe5fd5e5bcdf726e2cee6d41af0a786ae3fced021"
+    },
+    "recordLocation": {
+      "textHash": "41632bef4819ce93f2c2d7d88df6820bdd790ece7c3f615bb941b61ca12062d4",
+      "spoken": "നിങ്ങളുടെ കുടുംബത്തിന് റെക്കോർഡ് എവിടെ കണ്ടെത്താനാകും? (ഓപ്ഷണൽ)",
+      "bytes": 17347,
+      "seconds": 4.19,
+      "sha256": "4c3707ba36c2766146b8eb025cdff1efbf37d6c4a80fcee79d55767237bf2a94"
+    },
+    "locationHelp": {
+      "textHash": "264fb8b871d1affdda3e40b9f9eb50e582b229a6a70f6df21ae9bd3c83b53b3b",
+      "spoken": "ഉദാഹരണത്തിന്: വീട്ടിലെ നീല ഫോൾഡർ. ഈ ലൊക്കേഷൻ ഫാമിലി ഷീറ്റിൽ ഉൾപ്പെടുത്തിയിട്ടുണ്ട്. പാസ്‌വേഡുകളോ മുഴുവൻ അക്കൗണ്ട് നമ്പറുകളോ ചേർക്കരുത്.",
+      "bytes": 41921,
+      "seconds": 10.334,
+      "sha256": "828e61029f076d1f2f8ad6edfec3f1f07c9a431e0783503ae2613e33b6392060"
+    },
+    "addNomineeNote": {
+      "textHash": "d482ae2d405782a065a9673156b7665fcf6ffad9ec81d32380f745bbbb1cdfb0",
+      "spoken": "മറ്റൊരു നോമിനി കുറിപ്പ് ചേർക്കുക",
+      "bytes": 10435,
+      "seconds": 2.449,
+      "sha256": "ef2e40d9f8d7d9d9ba168d43153b26bd3973b85202523004c94e49ddd57f3b04"
+    },
+    "optionalDetails": {
+      "textHash": "a998287d7f7c2aec3b324b963fc20231212af5481db12f4a1e81d2d0a1715ca1",
+      "spoken": "കുടുംബ വിശദാംശങ്ങൾ ഓപ്ഷണൽ ആണ്",
+      "bytes": 11396,
+      "seconds": 2.691,
+      "sha256": "64dc2cca8b027d9417c208c743b1c650401ee6475ea53e3fc422ba1463a24601"
+    },
+    "notProvided": {
+      "textHash": "737d46d205ae2da96a3e66759705a85ca8d8a75cba6dfa5f782c4c9977baa147",
+      "spoken": "ഈ പട്ടികയിൽ ചേർത്തിട്ടില്ല",
+      "bytes": 7936,
+      "seconds": 1.837,
+      "sha256": "85ed0846c6c08bcfa18e03a563a32f5c85f128a22f4c991bf1f436f02646756a"
+    },
+    "unsaved": {
+      "textHash": "5f42138772743f300e28b8b2c87922cd805d5a248b3746cfee2128722bbb7f9f",
+      "spoken": "മാറ്റങ്ങൾ പിന്നീട് സംരക്ഷിച്ചിട്ടില്ല",
+      "bytes": 10716,
+      "seconds": 2.521,
+      "sha256": "9f8290473e373dc7e7158cbd8b64b71a9f32d9d325676500cbd9a6345d0fc1a4"
+    },
+    "savedStatus": {
+      "textHash": "6910ee110eec90e4782d2042aea08dc7d2d25edb8cfb5ea611a7eed01d088ac4",
+      "spoken": "നിങ്ങളുടെ ഡൗൺലോഡ് ചെയ്ത ഫയലിൽ സംരക്ഷിച്ചു",
+      "bytes": 13024,
+      "seconds": 3.106,
+      "sha256": "2b2ba770636366000c3b146407c9761feb15620a2115f3badffa94ffe347229f"
+    },
+    "passwordAgain": {
+      "textHash": "b17bf35d70ef23432560596cc89764bbf11ed50a8e2d74b5ad15feb2dda88dff",
+      "spoken": "പാസ്‌വേഡ് ആവർത്തിക്കുക",
+      "bytes": 7938,
+      "seconds": 1.833,
+      "sha256": "ba71013a89c79a4da95796d5e72ac70af43f34da6114a2e2825797d0af62218a"
+    },
+    "passwordMismatch": {
+      "textHash": "7ef0c49819e200ffe378d71bbefbb83b2662e32d6c12e8080edfc0d4d986be92",
+      "spoken": "പാസ്‌വേഡുകൾ പൊരുത്തപ്പെടുന്നില്ല.",
+      "bytes": 8709,
+      "seconds": 2.021,
+      "sha256": "27ba7b3e25bf91505469f357b66f3828460c4ab9f852eeb18da091f7de9e044b"
+    },
+    "showPassword": {
+      "textHash": "880a3cfd3252a3b52bde98fa7d4bf261ee023f24875f40a719ced2fa88440c2f",
+      "spoken": "പാസ്‌വേഡ് കാണിക്കുക",
+      "bytes": 8033,
+      "seconds": 1.866,
+      "sha256": "c52395d2a2b4b4f914efb2c4dc729dd9a33892affd7711787cb48cba95abade9"
+    },
+    "saveTip": {
+      "textHash": "89879b69fd2c5899044ed991a50d834b358e7e0fa6b000b9db9c3dfd94315f2c",
+      "spoken": "ഡൗൺലോഡ് ചെയ്‌ത ശേഷം, നിങ്ങളുടെ .വിരാസത് ഫയലിനായി ഡൗൺലോഡുകൾ നോക്കുക. പാസ്‌വേഡ് പ്രത്യേകം സൂക്ഷിക്കുക. പുതിയ മാറ്റങ്ങൾക്ക് ഒരു പുതിയ സേവ് ആവശ്യമാണ്.",
+      "bytes": 44124,
+      "seconds": 10.873,
+      "sha256": "28dca6caf28b725e082749b78ed2660532b204924be3bcf229faf37b889b35c4"
+    },
+    "evidenceScope": {
+      "textHash": "f9c89482e95e1ef991fd98cf6904d8c6ed7ccd76540deabdbf48d88d0a2afa13",
+      "spoken": "റെക്കോർഡ് എന്താണ് കാണിക്കുന്നത്?",
+      "bytes": 9858,
+      "seconds": 2.314,
+      "sha256": "fe9048d7a5e7f965c3f3a4ff83eddd1b45ec4bf3396718bf0c247c01571ab69a"
+    },
+    "statusOnly": {
+      "textHash": "0e135e4c6a6e17d4b6a9b951e92597f8d3e18759683b213b9b37e3a87f310c4b",
+      "spoken": "നോമിനേഷൻ രജിസ്റ്റർ ചെയ്തതായി പറയുന്നു",
+      "bytes": 11199,
+      "seconds": 2.66,
+      "sha256": "0fdc76d5e11295c92fc6d740acbb0c64f806247bd716b05d869608536e33751d"
+    },
+    "detailsChecked": {
+      "textHash": "468e7843f36e6e4ceaa95834c868e1a87af57ea97bf66dd34acc577ed64bccbc",
+      "spoken": "നോമിനിയുടെ വിശദാംശങ്ങളും ഞാൻ പരിശോധിച്ചു",
+      "bytes": 11587,
+      "seconds": 2.752,
+      "sha256": "8be018cd6a6e9d8bddca57cc759ec74ee693d6e3180ba020064df4bbbbbda989"
+    },
+    "receiptExample": {
+      "textHash": "caa59849c7490c90795ef73d4146cc7d9883e815a0888b8537f3ae61cc56d723",
+      "spoken": "“നിങ്ങളുടെ അപേക്ഷ ലഭിച്ചു” എന്നതിനർത്ഥം അപേക്ഷ ഇനിയും പരിഗണനയിലാണ് എന്നാണ്.",
+      "bytes": 21091,
+      "seconds": 5.116,
+      "sha256": "e8e93d84e5fe7fa0a269b1d2f4be3dc14543028d4ea42bf61ff5e51b344fe2e9"
+    },
+    "registeredExample": {
+      "textHash": "fb1193c148b7bf308044a34be95262c3f90edb9a341cad2fee89e051f7271a3e",
+      "spoken": "“നോമിനേഷൻ രജിസ്റ്റർ ചെയ്തു” അല്ലെങ്കിൽ “നോമിനേഷൻ: ഉണ്ട്” എന്നത് രജിസ്ട്രേഷൻ രേഖപ്പെടുത്തുന്നു. അത് ഈ അക്കൗണ്ടിനെ തിരിച്ചറിയുന്നുണ്ടോ എന്ന് പരിശോധിക്കുക.",
+      "bytes": 45670,
+      "seconds": 11.277,
+      "sha256": "cb669fff4115c61e43f3c1199cd16aff282ddc3fedde62925eccdb871edc0501"
+    },
+    "seeEvidence": {
+      "textHash": "d735d31094e93f124dca73d2f15bbe9a769d981027ab5da0d858f2a3dabb02e1",
+      "spoken": "സ്ഥിരീകരണമായി കണക്കാക്കുന്നത് എന്താണ്?",
+      "bytes": 11872,
+      "seconds": 2.829,
+      "sha256": "ebede0af37e35676cff865cb65db55a33842197f8b979179e9f4bfb93b8ad565"
+    },
+    "fictionalExample": {
+      "textHash": "b2d5a0ec2fc13e9bdc0d5ffd55a49502ded3cadb52d6ed10d56e557323cd7dd8",
+      "spoken": "ചിത്രീകരണ വാക്കുകൾ മാത്രം",
+      "bytes": 9285,
+      "seconds": 2.18,
+      "sha256": "a9514600995fe159921cd18915b1c2fa746be19ddad6de4257dd57894eea77bb"
+    },
+    "pause": {
+      "textHash": "fa279181279529663f5a010d84840671e0f9a4ddec4aa8c52529816249c89b79",
+      "spoken": "താൽക്കാലികമായി നിർത്തുക",
+      "bytes": 7834,
+      "seconds": 1.821,
+      "sha256": "7d4790cc3c1cb57e28c003042e11a01cab49662d4255a0cccbd090dcd4523ca6"
+    },
+    "resumeAudio": {
+      "textHash": "17d3aa48b5b38960807353227b5dc1fdf3a69f8933be1bedf2ff8f6600776a43",
+      "spoken": "കേൾക്കുന്നത് തുടരുക",
+      "bytes": 6112,
+      "seconds": 1.384,
+      "sha256": "9ad7259d0c05d4c34345397bf7c6a2bdab1ccc592afb17b6ea51067178160c86"
+    },
+    "stop": {
+      "textHash": "b3b0fd0ffefb02ee1ceeeff4b28134de89c42390e91cde21106bcf860e1b2c1e",
+      "spoken": "നിർത്തുക",
+      "bytes": 3993,
+      "seconds": 0.846,
+      "sha256": "7ffd3afba18ddf0c49fb77efde035178cfe2b6c4951346f3f7305c449584ba66"
+    },
+    "listening": {
+      "textHash": "27ab2f763b9f9d1a9f2a7bf429fafd94054954389f34ff036e4caf1ae7b69c55",
+      "spoken": "പേജ് വായിക്കുന്നു",
+      "bytes": 5534,
+      "seconds": 1.24,
+      "sha256": "c02f68dcf647fb9ec774ab011217c7a9aef306f8e5966ed7528b827c81cd6728"
+    },
+    "finishedAudio": {
+      "textHash": "c400b44177762776a63708ecbfe153ce7e2ab847105882d1d7c1ed56de05b4cb",
+      "spoken": "വായിച്ചു തീർത്തു",
+      "bytes": 6018,
+      "seconds": 1.365,
+      "sha256": "6a988e40a72622aed46dcc8659a70154904687be2a1ef2709dbfa7e076c93c7d"
+    },
+    "voice": {
+      "textHash": "76a6680dacada7bcb74ab54ef8696d5a2b26507955446ac90cb6bb82117b220e",
+      "spoken": "കേൾക്കുന്നു",
+      "bytes": 4186,
+      "seconds": 0.899,
+      "sha256": "39540cf06f28fa1ab79ae96ddda9128dfee68fdb5fc1b4f8f5791a2f0cac12c6"
+    },
+    "speed": {
+      "textHash": "3bac22e64b6f728b576b855a242d76aa529821c3acb5291fff4d01026e6c5f8b",
+      "spoken": "വായന വേഗത",
+      "bytes": 7162,
+      "seconds": 1.635,
+      "sha256": "f55b36d48114e59bebb180919904afb3186d1d142084f5bfbb3cb8ca903637b7"
+    },
+    "slower": {
+      "textHash": "afa9d5d6bc5cb3f8f1252a431d39226cb07359e74729178c95af70f9c4e20a51",
+      "spoken": "പതുക്കെ",
+      "bytes": 3035,
+      "seconds": 0.618,
+      "sha256": "902ffda4042157d5a488cb751dce2482a82c4c6f14eab32a135375b10e3ef66f"
+    },
+    "normalSpeed": {
+      "textHash": "620fc40651b4db088736bc4a57f341e7b21a0eb3f9fc6db6d4c706f20147cde1",
+      "spoken": "സ്വാഭാവികം",
+      "bytes": 5440,
+      "seconds": 1.209,
+      "sha256": "3238e9867aa605e9a638b560a2d4f367fc3d09d4882265273bf53f7ab1b735fa"
+    },
+    "faster": {
+      "textHash": "65cef9be87cf622a39835b44869cade0021445d9a28f4be900a83226ef3c8538",
+      "spoken": "വേഗത്തിൽ",
+      "bytes": 4763,
+      "seconds": 1.037,
+      "sha256": "5efdb6a78d41a35ffda1c176c431b1640d606824d173bfb371d452a87bf6579f"
+    },
+    "previewVoice": {
+      "textHash": "8570132e37e326210dfac4120f1ece1d6e076dc6c792dac85c68ef71cfdca4d4",
+      "spoken": "പ്രിവ്യൂ ശബ്ദം",
+      "bytes": 6017,
+      "seconds": 1.346,
+      "sha256": "20a0742712bbfc934b383a4ef14a89dc0b884148dc32a91c492bf3f39f934580"
+    },
+    "voicePreview": {
+      "textHash": "b718f9a0587df8b06e5a1183a1ac458077c97f631328391f0a51a6430878521e",
+      "spoken": "ഞാൻ നിങ്ങളുടെ ഭാഷയിലുള്ള നിർദ്ദേശങ്ങൾ ഓരോന്നായി വായിക്കും.",
+      "bytes": 13889,
+      "seconds": 3.318,
+      "sha256": "8b1a29c12cfa67d75595f3d52a65f898b841c9383bddf2a73e32b641636bfcac"
+    },
+    "voiceHelp": {
+      "textHash": "7b66dd2d826cb6b6a65416bb2f870804bf00c990e5fc6740be0388dcf602167a",
+      "spoken": "രേഖാമൂലമുള്ള മാർഗ്ഗനിർദ്ദേശം ഈ ഭാഷയിൽ ലഭ്യമാണ്. ഓഡിയോ ലഭ്യതയ്ക്കായി ഭാഷാ സെലക്ടർ പരിശോധിക്കുക. നിങ്ങളുടെ എൻട്രികളും പാസ്‌വേഡുകളും സ്വകാര്യമായി തുടരും.",
+      "bytes": 48254,
+      "seconds": 11.919,
+      "sha256": "3b10b6d277b00a80a65c0408c7ca98004ac409747eda59c6884ecf442edde9b7"
+    },
+    "speechError": {
+      "textHash": "ec4fa1bc36fb815facecd604a45e20986af6bc59f420daa774eb2cf8db729870",
+      "spoken": "ഓഡിയോ ലോഡ് ചെയ്യാനായില്ല. നിങ്ങളുടെ കണക്ഷൻ പരിശോധിക്കുക, തുടർന്ന് വീണ്ടും ശ്രമിക്കുക ടാപ്പ് ചെയ്യുക. നിങ്ങളുടെ സ്ഥലം സൂക്ഷിച്ചിരിക്കുന്നു.",
+      "bytes": 38752,
+      "seconds": 9.537,
+      "sha256": "50fcb657e16c0f9f047b832456774006ff58518d6d7ea1be562fb9bc0a332c91"
+    },
+    "readingSettings": {
+      "textHash": "74b9b437e4e4486fdf656606fa548d6dfae548aedbf01a372d49fb2f2e6f9d6b",
+      "spoken": "വായനയും ശ്രവണവും",
+      "bytes": 6788,
+      "seconds": 1.544,
+      "sha256": "c01c32bc8a8375ea9f4f2601c64919497dae0062e8e9bde324e475c6d821add0"
+    },
+    "appearance": {
+      "textHash": "ca59e495e9ddd992cd23f135afd1d3ebf6acae049f6b3dc061631f199ee940ff",
+      "spoken": "വായന സുഖം",
+      "bytes": 6399,
+      "seconds": 1.448,
+      "sha256": "20728e5313d71079910e2a2e644bb2ebe9dd15e6caf41584d633aaa4ccf7feaa"
+    },
+    "lineSpacing": {
+      "textHash": "5301811d90273e611805b0e3e8ebdc0065c116b415e51ec51e845fa94738170e",
+      "spoken": "വരികൾക്കിടയിൽ കൂടുതൽ ഇടം",
+      "bytes": 8416,
+      "seconds": 1.95,
+      "sha256": "63c03b9cf4dbd66f04577c9f042ea9d0c530a78697f8ed82050697a144f6ebb9"
+    },
+    "resetSettings": {
+      "textHash": "6b380929652f3ca5af45d15c74f9a2cc3488e40cf480a5a4f5a44e10caeeaeb5",
+      "spoken": "വായന ക്രമീകരണങ്ങൾ പുനഃസജ്ജമാക്കുക",
+      "bytes": 12162,
+      "seconds": 2.884,
+      "sha256": "6531970f483b45e9bd4c6344b470b853d9b47cac2fc91015acdbf7629b397562"
+    },
+    "languageHelp": {
+      "textHash": "d174534b644b6357e84590f9cf59a40fbab03e73ce58a2d86aa576afd0e16e24",
+      "spoken": "ഏത് സമയത്തും ഭാഷ മാറ്റുക. നിങ്ങളുടെ ജോലി സ്ഥലത്ത് നിലനിൽക്കും.",
+      "bytes": 19841,
+      "seconds": 4.806,
+      "sha256": "65f730de37cb5f96bba54e075ac02372c50e8376984a43617f36a50fc8bc1969"
+    },
+    "removeNote": {
+      "textHash": "d6499c9d41d68308a3597fd90bffeabe07b2aa2dab472b53d0d76d95d927ea9a",
+      "spoken": "ഈ കുറിപ്പ് നീക്കം ചെയ്യുക",
+      "bytes": 7743,
+      "seconds": 1.779,
+      "sha256": "ed5a6c79d3798fc2352f093e920193671262c7343b3146fa82c4c2a7a9c62fc4"
+    },
+    "optoutHelp": {
+      "textHash": "4e1f51e26d064e83b51079eff3a712aa3a45a53995ca182cb417c73613d82628",
+      "spoken": "ഇത് ഈ ലിസ്റ്റിലെ ഉടമയുടെ തിരഞ്ഞെടുപ്പ് മാത്രം രേഖപ്പെടുത്തുന്നു. ഏതെങ്കിലും ഔപചാരിക ഒഴിവാക്കൽ സ്ഥാപനത്തിൽ പൂർത്തിയാക്കണം. തിരഞ്ഞെടുപ്പ് പിന്നീട് അവലോകനം ചെയ്യാം.",
+      "bytes": 42207,
+      "seconds": 10.395,
+      "sha256": "535e755dbc6d84c2ef33393f330880e69c243fdc8a4ea0583337fcfe7e2d445a"
+    },
+    "chooseType": {
+      "textHash": "2ddda475be66c486894dd33854da3cb9e331e6a1c50c65a25b350dab9958e3af",
+      "spoken": "തുടരാൻ ഒരു അക്കൗണ്ട് തരം തിരഞ്ഞെടുക്കുക.",
+      "bytes": 12543,
+      "seconds": 2.989,
+      "sha256": "e8ef89c16e481e78683343b7fa5b77b4df356e211de9ad607e6fc5537273fae8"
+    },
+    "currentRecord": {
+      "textHash": "90661923c2eb7131f92052f6b5cdf681980ca7f9b211e4208f2f71abb9d1770b",
+      "spoken": "എന്താണ് ഇപ്പോൾ രേഖപ്പെടുത്തിയിരിക്കുന്നത്",
+      "bytes": 11010,
+      "seconds": 2.614,
+      "sha256": "5a433efd1d2424b15fb5a4bef5504da0aabe45e8783595a9b48446840c71d191"
+    },
+    "history": {
+      "textHash": "5b6dc0f6ffd30227afd7b9b51cc5e46a06124492afb4f48ffd384060ce10b1dd",
+      "spoken": "നിങ്ങളുടെ അപ്ഡേറ്റുകൾ",
+      "bytes": 6876,
+      "seconds": 1.568,
+      "sha256": "79fbd4c3dd641b0a194cf7e7e5832d17da6bff362f809540447c0d62f5138e1e"
+    },
+    "reviewDate": {
+      "textHash": "0784794a074c5f63fba8744d6400d5c43a82111e4cffd6ae424eaf25f0fbeaf0",
+      "spoken": "അടുത്ത അവലോകനം",
+      "bytes": 7071,
+      "seconds": 1.614,
+      "sha256": "7c80501be9b75001b97b02c1a956a8b9b4aaf824891f19989b39f2c6d26469eb"
+    },
+    "shareNames": {
+      "textHash": "3b98aaaaee7d6cca4fb3bd7c0f66e825488651f0cc57480be9d218a05f8ba4d3",
+      "spoken": "ഫാമിലി, നോമിനി നോട്ടുകൾ ഉൾപ്പെടുത്തുക",
+      "bytes": 11487,
+      "seconds": 2.733,
+      "sha256": "3bd107cb8cc8d05ec861ca10a72943c38d346ba9f5cdf3f526707edbf6b2d8fa"
+    },
+    "shareLocation": {
+      "textHash": "2d01dbf4985c05a3a4a46ba1e6ccab3546c707ceec78f3c07ae02e105fbb12e6",
+      "spoken": "റെക്കോർഡ് സ്ഥാനം ഉൾപ്പെടുത്തുക",
+      "bytes": 9570,
+      "seconds": 2.241,
+      "sha256": "ff0c7185bd3b6eba6805a3635b1e2bfcedbb22f4b393c81125cc01c17252f98a"
+    },
+    "shareHelp": {
+      "textHash": "1a5bbc944914ca1e8337f73e7c0fa355aa99c62e4aebf1708243abf01e2d38e0",
+      "spoken": "ഏത് വിവരങ്ങൾ ഉൾപ്പെടുത്തണമെന്ന് തിരഞ്ഞെടുത്ത ശേഷം താഴെയുള്ള പത്രിക പരിശോധിക്കുക. ഡൗൺലോഡ് ചെയ്യുന്ന പകർപ്പിന് പാസ്‌വേഡ് സംരക്ഷണം ഇല്ല.",
+      "bytes": 39230,
+      "seconds": 9.652,
+      "sha256": "333634ed3bbe9065abe0b0203c5dcf49c6c8503df5ac6a4cddf65a5ef988afc9"
+    },
+    "helpScope": {
+      "textHash": "ad258fe8a78c78ded22a8cb6ea2d7b96446eebe2f7f139f029399d24c63a531d",
+      "spoken": "ആരെങ്കിലും മരിച്ചതിന് ശേഷം സഹായിക്കണോ?",
+      "bytes": 11102,
+      "seconds": 2.624,
+      "sha256": "63d53a02e6ed3dc4ea7d4c03727888e8c88102b5a7c98649c237b674165039a4"
+    },
+    "helpScopeText": {
+      "textHash": "3ae583981e027f3359b17bbab72581259bb97b5ca4e06b2dc2f9fd6792feffa4",
+      "spoken": "ജീവിച്ചിരിക്കുന്ന അക്കൗണ്ട് ഉടമ നോമിനേഷൻ ക്രമീകരിക്കുന്നതിനാണ് ഈ നടപടിക്രമം. ഉടമ മരിച്ചിട്ടുണ്ടെങ്കിൽ, മരണപ്പെട്ട ഉടമയുടെ ക്ലെയിം അല്ലെങ്കിൽ ആസ്തി കൈമാറ്റ നടപടിക്രമം സ്ഥാപനത്തോട് ചോദിക്കുക. അവരുടെ പേരിൽ പുതിയ നോമിനേഷൻ ആരംഭിക്കരുത്.",
+      "bytes": 65826,
+      "seconds": 16.304,
+      "sha256": "4cf1caec803db1a9222eeaff53da991892f91f4c1d0fd16d92c7ffd30704707d"
+    },
+    "openDevice": {
+      "textHash": "7e16c013f0377e254f9a00bcf8ba59f2557b3a1c08246c7a2a90e8df8e1f6e7c",
+      "spoken": "ഈ ഉപകരണത്തിൽ ലോക്ക് ചെയ്ത പകർപ്പ് തുറക്കുക",
+      "bytes": 14463,
+      "seconds": 3.463,
+      "sha256": "0a89953c501e7983f05a50dcd23166b3dd31b65b6668bafcdc27b61ac02368f9"
+    },
+    "keepDevice": {
+      "textHash": "7d7c3fceb4d0e798db481df601a29f0ea467805b9df610eed53ed239e7960c87",
+      "spoken": "ഈ ഉപകരണത്തിൽ ലോക്ക് ചെയ്ത ഒരു പകർപ്പും സൂക്ഷിക്കുക",
+      "bytes": 14367,
+      "seconds": 3.443,
+      "sha256": "7f400033df4027377f081bad46d7ab78462e006d38158035c68038f5937168b7"
+    },
+    "deviceHelp": {
+      "textHash": "5dce899a6ab0b68b08843c1c14d63e2bf3207afdf1e2d5e2be69269e2ac44c67",
+      "spoken": "ഐച്ഛികം: ഈ ബ്രൗസറിൽ പാസ്‌വേഡ് ഉപയോഗിച്ച് സംരക്ഷിച്ച പകർപ്പ് സൂക്ഷിക്കുക. മാറ്റങ്ങൾക്ക് ശേഷം വീണ്ടും സേവ് ചെയ്യണം. മറ്റുള്ളവരും ഉപയോഗിക്കുന്ന ഉപകരണത്തിൽ ഈ സൗകര്യം തിരഞ്ഞെടുക്കരുത്. നിങ്ങളുടെ പാസ്‌വേഡ് ഞങ്ങൾ ഒരിക്കലും സൂക്ഷിക്കില്ല.",
+      "bytes": 62751,
+      "seconds": 15.534,
+      "sha256": "abe73e68bea26b80b45fb2ffcc3dc173d68c0b3f20a613efb2b353c923acace4"
+    },
+    "forgetDevice": {
+      "textHash": "2492f6abf346ff4baed632b632db1b89a2b4096d60ebdc18872fa84b829d22a3",
+      "spoken": "ഈ ഉപകരണത്തിൽ നിന്ന് സംരക്ഷിച്ച പകർപ്പ് നീക്കം ചെയ്യുക",
+      "bytes": 15617,
+      "seconds": 3.746,
+      "sha256": "f0d7575985d0813395c4b3e2c75aae2e0d167c7a9683bea70c8f25c11e02aa72"
+    },
+    "forgetDeviceAsk": {
+      "textHash": "dd3f8de69081e8cade14455e9fbd88aac2f599ed6bab38590574cf0ab74f66d2",
+      "spoken": "ഈ ഉപകരണത്തിൻ്റെ ലോക്ക് ചെയ്‌ത പകർപ്പ് നീക്കം ചെയ്യണോ? ഡൗൺലോഡ് ചെയ്ത ഫയലുകൾ നിലനിൽക്കും.",
+      "bytes": 26948,
+      "seconds": 6.59,
+      "sha256": "7948ac923ac6fef6c6256739ceb53f739829fad3e432b4eaedea5d6a476380c9"
+    },
+    "deviceUnavailable": {
+      "textHash": "9fd02dc898816d8c849399a1718091c9e611c741c289fa8d3bfb9912fa829ad6",
+      "spoken": "ഫയൽ ഡൗൺലോഡ് ചെയ്‌തു, എന്നാൽ ഈ ബ്രൗസറിന് ഉപകരണത്തിൻ്റെ പകർപ്പ് സൂക്ഷിക്കാൻ കഴിഞ്ഞില്ല. തിരികെ നൽകാൻ ഡൗൺലോഡ് ചെയ്ത ഫയൽ ഉപയോഗിക്കുക.",
+      "bytes": 39046,
+      "seconds": 9.608,
+      "sha256": "abeb6a4ce88fce873b4678889a7d18f6542cc4da62a64d457d6a1e96c41fe3bc"
+    },
+    "chooseFile": {
+      "textHash": "3553ddc6ffbd5593dd3849b041eb5e91a452700a81fb54fa42c719f042488e63",
+      "spoken": "നിങ്ങളുടെ സംരക്ഷിച്ച .വിരാസത് ഫയലോ ഉപകരണ പകർപ്പോ തിരഞ്ഞെടുക്കുക.",
+      "bytes": 20511,
+      "seconds": 4.988,
+      "sha256": "5ff41d05c6a3febfc35e985e901ccc917e761f79f108ac0dca73044e3198050b"
+    },
+    "replaceDraft": {
+      "textHash": "1359bf73f9ff5ccc7953e9753da65424a4f31bdb4022ab851427aea9f5f1b132",
+      "spoken": "മറ്റൊരു അക്കൗണ്ട് തുടങ്ങണോ? നിങ്ങളുടെ പൂർത്തിയാകാത്ത അക്കൗണ്ട് മാറ്റിസ്ഥാപിക്കും.",
+      "bytes": 22625,
+      "seconds": 5.518,
+      "sha256": "0d27788f9a26e572a0eb8c5ac8e7dafde28ab4c999ef32eddc0697b97096269a"
+    },
+    "replaceList": {
+      "textHash": "8be86477139da3a8bb5316bdc2162be863a56f4f6c8a9b61b06fd56488d381c9",
+      "spoken": "മറ്റൊരു ലിസ്റ്റ് തുറക്കുന്നത് ഈ സെഷനെ മാറ്റിസ്ഥാപിക്കും. നിങ്ങൾക്ക് വേണമെങ്കിൽ ആദ്യം നിങ്ങളുടെ ജോലി സംരക്ഷിക്കുക.",
+      "bytes": 30400,
+      "seconds": 7.448,
+      "sha256": "2a9ba2142c09871c2010b7dc824917117d9b24e54caa9963c965e246df7eb8c3"
+    },
+    "validFollowup": {
+      "textHash": "855ff4479c77e3ba1d3c38aa336631ae63e0c6bf5fe23994eeb8fb32234016dd",
+      "spoken": "ഒരു യഥാർത്ഥ തീയതി നൽകുക, അല്ലെങ്കിൽ മൂന്ന് ബോക്സുകളും ശൂന്യമായി വിടുക.",
+      "bytes": 21474,
+      "seconds": 5.227,
+      "sha256": "d878c28864bde71605ec329f9cac71559e0844dec6bf5577c1c3f2b6ba161ea6"
+    },
+    "seeNext": {
+      "textHash": "99c291fec41ab72af4c181be5fa9d2522c1d8989df848a69275ef21efc4183e8",
+      "spoken": "എൻ്റെ അടുത്ത ഘട്ടം കാണുക",
+      "bytes": 8124,
+      "seconds": 1.884,
+      "sha256": "3154e07bf03d57f0cbe9fa9eb501aefd5c7cb5de88b96ff6427070b0a696380d"
+    },
+    "unfinishedChanges": {
+      "textHash": "ba274124da12cd3eda0b6578b008a2c64122c5538bed30237f999bc7ec7b1abc",
+      "spoken": "പൂർത്തിയാകാത്ത മാറ്റങ്ങൾ തുടരുക",
+      "bytes": 10534,
+      "seconds": 2.475,
+      "sha256": "cf4beac8c2fb5e3c5d6854364d41c57e44cdf80047185535192f5a0f56d261b6"
+    },
+    "linked": {
+      "textHash": "e3b0d7cfdaad06a0af5a6f28c32b226d525f785c32214b915b304b349081dc6d",
+      "spoken": "ഡീമാറ്റ് അക്കൗണ്ട് പിന്തുടരുന്നു",
+      "bytes": 8987,
+      "seconds": 2.103,
+      "sha256": "fa254f009eb14b077b7a031de53f837c846973ae7440bdf9b858e6faaa506949"
+    },
+    "linkedTo": {
+      "textHash": "3ccb8f4678ca2997c83acb390c5ac00a59ba06025cab274ee0b56ead38cd110b",
+      "spoken": "ലിങ്ക് ചെയ്‌ത ഡീമാറ്റ് അക്കൗണ്ട്",
+      "bytes": 9085,
+      "seconds": 2.124,
+      "sha256": "4ac2ccba011c3910bf56aaad5b8ab630030b2349f799d6c554b47333701aa822"
+    },
+    "privateRecord": {
+      "textHash": "24cfce7ec2ca1b43e43546d12a1c22cfe7f8b53cdebc0e7bdc9e0f5200ea1ba7",
+      "spoken": "നിങ്ങളുടെ സ്വകാര്യ റെക്കോർഡ് കുറിപ്പ്",
+      "bytes": 12738,
+      "seconds": 3.037,
+      "sha256": "1fdc59648cb74f689e9624f72f61524d3c06a83c0603935811ec28a9f0455b35"
+    },
+    "privateRecordHelp": {
+      "textHash": "98d889325ba706b44e45278a31797c9b6a7cb3a8bb695f3af74e686c0a880234",
+      "spoken": "ഈ കുറിപ്പ് പാസ്‌വേഡ് ഉപയോഗിച്ച് സംരക്ഷിച്ച നിങ്ങളുടെ സേവ് ഫയലിൽ സൂക്ഷിക്കുന്നു. കുടുംബ സംഗ്രഹത്തിലും പേജിന്റെ ഓഡിയോയിലും ഇത് ഉൾപ്പെടുത്തുന്നില്ല.",
+      "bytes": 37126,
+      "seconds": 9.121,
+      "sha256": "d87b8d4c311f953d1b66e0003a8f41020b65ab5238336efcd799f789e5f6a5e3"
+    },
+    "readRules": {
+      "textHash": "94ea89079c8e54688c163f0ecfee4628a2ab980b4955b7d760c9f11650d242bb",
+      "spoken": "ഔദ്യോഗിക നിയമങ്ങൾ വായിക്കുക",
+      "bytes": 9566,
+      "seconds": 2.234,
+      "sha256": "8dc4200370040097ae20fae982b005a93009bcfa2bfb1a94f8def1489dcb90a8"
+    },
+    "beforeContinue": {
+      "textHash": "33cf0f9ec450a3c2036ac304cb903d57b2236daed5200e0f2c4e0ba2b08b2d4a",
+      "spoken": "നിങ്ങൾ തുടരുന്നതിന് മുമ്പ്",
+      "bytes": 7363,
+      "seconds": 1.686,
+      "sha256": "183a1668e923e9805c3eb3348c57c7c67b352d3adeb2616e421d2b0f7ebf1341"
+    },
+    "checkConnection": {
+      "textHash": "28aef59aa8e781d6c03e81295bfccd79ca0224c26a296d631643bafa6f57d2a1",
+      "spoken": "ഇവ ഒന്നിച്ചാണോ എന്ന് പരിശോധിക്കുക",
+      "bytes": 12068,
+      "seconds": 2.879,
+      "sha256": "e01d2fc9c62e8cfd669bcfd9c8d0ac0642fff8d6452ea2a86bf9220ec4d7f3d5"
+    },
+    "connectionHelp": {
+      "textHash": "ae6718899cee908c109b420e901363f568a86779255ae36f134339b1eb26fbcf",
+      "spoken": "ഈ ഫണ്ട് യൂണിറ്റുകൾ ഈ കൃത്യമായ ഡീമാറ്റ് അക്കൗണ്ടിൽ, ഒരേ ഹോൾഡർമാരിൽ തന്നെയാണോ ഉള്ളതെന്ന് പരിശോധിക്കാൻ ഡീമാറ്റ് സ്റ്റേറ്റ്മെൻ്റ് ഉപയോഗിക്കുക. വ്യത്യസ്ത കുടുംബാംഗങ്ങളുടെ അക്കൗണ്ടുകൾ നോമിനേഷൻ പങ്കിടില്ല.",
+      "bytes": 56611,
+      "seconds": 14.002,
+      "sha256": "c0864eeaca3491745ecd57249b1fce0da45a53fede3a43cff830f8260bb0cbdb"
+    },
+    "sameHolders": {
+      "textHash": "2ceab171be936739f42779d903a2e7bde94b687e68f6f5b28ea2e0801793b476",
+      "spoken": "ഞാൻ പ്രസ്താവന പരിശോധിച്ചു: ഈ യൂണിറ്റുകളും ഹോൾഡറുകളും ഈ ഡീമാറ്റ് അക്കൗണ്ടുമായി പൊരുത്തപ്പെടുന്നു.",
+      "bytes": 25696,
+      "seconds": 6.282,
+      "sha256": "b868210341aff98c0ffefe2cf4199722a8cadb60317d63e6c5c42a5b0d806aea"
+    },
+    "linkAccount": {
+      "textHash": "e47c6ba16254d49a852f1e9c2702db152f553162c22930f1fa93e3514d20bbc1",
+      "spoken": "ഈ ഡീമാറ്റ് അക്കൗണ്ട് ലിങ്ക് ചെയ്യുക",
+      "bytes": 10240,
+      "seconds": 2.414,
+      "sha256": "53228a5d0888ddf57a7812673761db25f5928c464f79cec4ab10a977afcf88b5"
+    },
+    "replaceChanges": {
+      "textHash": "d10fd91325617fc62878146c1cae63d277519319a8b652f8651fecc1513dc2d3",
+      "spoken": "നിങ്ങൾക്ക് പൂർത്തിയാകാത്ത മാറ്റങ്ങളുണ്ട്. തുടരുന്നത് ആ ഡ്രാഫ്റ്റിനെ മാറ്റിസ്ഥാപിക്കുന്നു. വീട്ടിലേക്ക് മടങ്ങുന്നതിന് റദ്ദാക്കുക, ആദ്യം പൂർത്തിയാക്കുക അല്ലെങ്കിൽ സംരക്ഷിക്കുക.",
+      "bytes": 48451,
+      "seconds": 11.959,
+      "sha256": "b994329af9993f3d62d334948a3501d772ec448fb72bf226dfae4daafecf5ce5"
+    },
+    "startOwnList": {
+      "textHash": "615ef14b3133d66b5aeff2158b6ad0a7df314371a2821ea6e41cdc22e35629b2",
+      "spoken": "എൻ്റെ സ്വന്തം പട്ടിക ആരംഭിക്കുക",
+      "bytes": 9473,
+      "seconds": 2.214,
+      "sha256": "7c701d200e56c294a405a2626d99159eceef888dad1e7628ecc7e3a93039c157"
+    },
+    "startOwnHelp": {
+      "textHash": "885f801c191ae1411f1768e1fb3e280366023ab408fa562bdac05881c46154d8",
+      "spoken": "നിങ്ങളുടെ കുടുംബത്തിനായി ഒരു പുതിയ ലിസ്റ്റ് ആരംഭിക്കണോ? ഇത് ഈ സെഷനിൽ നിന്ന് സാങ്കൽപ്പിക ഉദാഹരണം നീക്കം ചെയ്യുന്നു.",
+      "bytes": 35297,
+      "seconds": 8.68,
+      "sha256": "9e056f35d3764bba33c39fa321e551c8452b70d16bb6ad5b125c65a7b444dc21"
+    },
+    "familyPending": {
+      "textHash": "4a0238e0a5f6b8eb4a71792ad1c66ed97d276dcd9039432f8809a7441c0c8787",
+      "spoken": "കുടുംബ വിശദാംശങ്ങൾ ഇതുവരെ അവലോകനം ചെയ്തിട്ടില്ല",
+      "bytes": 14562,
+      "seconds": 3.501,
+      "sha256": "1aef1b3b1f2d8b8ea361a1da31ebaf0221a9eaf22c27b2abab6eee57439c1583"
+    },
+    "familyReviewed": {
+      "textHash": "62eeb4540fea2ea1a96f596ac6233aa1d813ca025fcd950ba279d262c2a13c1e",
+      "spoken": "കുടുംബ വിശദാംശങ്ങൾ അവലോകനം ചെയ്തു",
+      "bytes": 11875,
+      "seconds": 2.815,
+      "sha256": "cd051a469e87c0a311012b07bbceb1e4b76a943ee23b83e9112a4068e7a55993"
+    },
+    "familyReviewCheck": {
+      "textHash": "32d5c6320a25b20ba962d62b6c5d828db229ae2fd0566eff9e3ef46e6c99a5f2",
+      "spoken": "എൻ്റെ കുടുംബം എന്താണ് കാണേണ്ടതെന്ന് ഞാൻ അവലോകനം ചെയ്തു. ശൂന്യമായ ഫീൽഡുകൾ ഉപേക്ഷിക്കാൻ ഞാൻ തിരഞ്ഞെടുത്തു.",
+      "bytes": 33862,
+      "seconds": 8.32,
+      "sha256": "88898ed2e221e25b27c64f2d091b24f03a9f42f138e6d8bad82961a87a2c6345"
+    },
+    "familyReviewHelp": {
+      "textHash": "c16cac18e06ad36c60ca1906c4a6037bf9bcfff282a808ccd0c50fdd201764e1",
+      "spoken": "ഇതൊരു പ്രത്യേക പരിശോധനയാണ്. രജിസ്റ്റർ ചെയ്ത നോമിനേഷൻ നിങ്ങളുടെ കുടുംബത്തോട് അക്കൗണ്ടോ അതിൻ്റെ രേഖകളോ എവിടെ കണ്ടെത്തണമെന്ന് പറയുന്നില്ല.",
+      "bytes": 35973,
+      "seconds": 8.848,
+      "sha256": "bf47a194c6d4a4d826ec3f5c96f97699fe942e77ca52ed0d6c683b3cd3215230"
+    },
+    "notIncluded": {
+      "textHash": "8aabcbfd6694a18f135f58696cfe213e3d7c590277570a763f2c48bf28b0b239",
+      "spoken": "ചോയ്സ് പ്രകാരം ഉൾപ്പെടുത്തിയിട്ടില്ല",
+      "bytes": 8416,
+      "seconds": 1.946,
+      "sha256": "77376e9e4e3ed274e1d68ff70f1cc49aa7bfa41dd8f8494c0fde6152d7888bd4"
+    },
+    "familyReadyNext": {
+      "textHash": "32a012cd30c66d47154a70f2cad8e802b78673b9f4e58bacb2bfbd44a865d3c4",
+      "spoken": "ഈ ഷീറ്റ് നിങ്ങളുടെ വിശ്വസ്ത കുടുംബാംഗങ്ങൾക്ക് കണ്ടെത്താനാകുന്നിടത്ത് സൂക്ഷിക്കുക. വിശദാംശങ്ങൾ മാറുമ്പോൾ അത് അവലോകനം ചെയ്യുക.",
+      "bytes": 37028,
+      "seconds": 9.104,
+      "sha256": "1db454fa47ab237cfad99e0443b6843454e542cd84a6d86d5bfaab0869f558ad"
+    },
+    "familyRemaining": {
+      "textHash": "ea9e7db14cebf2a18600cced23dd3b29a1373acbd3ecf92ff3e838bf390b6bff",
+      "spoken": "അവലോകനം ചെയ്യേണ്ട കുടുംബ രേഖകൾ",
+      "bytes": 10628,
+      "seconds": 2.512,
+      "sha256": "0ef5eadc1d92f48ea4703b75a32434f7b3bcef58b801467f3a5268e069b7816b"
+    },
+    "onlineRoute": {
+      "textHash": "d21fb1f95f6be9e69b38d7707fc722e27ef6c6077302625270343810eb013930",
+      "spoken": "ഓൺലൈൻ സേവനങ്ങൾ ഉപയോഗിക്കുക",
+      "bytes": 9760,
+      "seconds": 2.286,
+      "sha256": "2095f8b8bd08f83cae552c0ee36d7a2cf1b31a9c689c96220907a0226c6c4d34"
+    },
+    "offlineRoute": {
+      "textHash": "b4650ba17ccaf6739bdabf7a071fa0fd487ca0c986dfdbf67694312efddec9da",
+      "spoken": "വ്യക്തിപരമായി സഹായം നേടുക",
+      "bytes": 10625,
+      "seconds": 2.508,
+      "sha256": "9eae7887d2ceac36a65bbbfac1053f4b62be74e93f115f5287542c02fff3750b"
+    },
+    "routeChoice": {
+      "textHash": "8e8fc9539cfcaf79d40ddf650935a0b6b020d8884eca619c77046d5b7465db17",
+      "spoken": "ഇത് എങ്ങനെ ചെയ്യാൻ നിങ്ങൾ ആഗ്രഹിക്കുന്നു?",
+      "bytes": 10048,
+      "seconds": 2.375,
+      "sha256": "7966001e229eb226bde4d546f5120580c58b3db278a78718f3134d5363fa8b32"
+    },
+    "saveBeforeLeaving": {
+      "textHash": "cd08f473affa86dd8a42a95ecef1345a87d86e6f22ad63f32cd040ea00799e64",
+      "spoken": "ഔദ്യോഗിക സേവനം തുറക്കുന്നതിന് മുമ്പ് നിങ്ങളുടെ സ്ഥലം സംരക്ഷിക്കുക. എന്താണ് സംഭവിച്ചതെന്ന് രേഖപ്പെടുത്താൻ ഇവിടെ തിരികെ വരൂ.",
+      "bytes": 36838,
+      "seconds": 9.062,
+      "sha256": "8fd4ab527c0449407c21055309c68c7dfd19ea1eabdadaf44c90b1c49f2fbcde"
+    },
+    "offlineContact": {
+      "textHash": "d9da69e365eb4775ec86b5ab9dbf130698ba139773f298821e8b4f190f4ee416",
+      "spoken": "ഒരു ശാഖയോ സേവന കേന്ദ്രമോ കണ്ടെത്താൻ സ്ഥാപനത്തിൻ്റെ ഔദ്യോഗിക സഹായ പേജ് ഉപയോഗിക്കുക. യാത്ര ചെയ്യുന്നതിന് മുമ്പ് ഈ അക്കൗണ്ടിനുള്ള നോമിനേഷൻ ഇത് കൈകാര്യം ചെയ്യുന്നുണ്ടോ എന്ന് ചോദിക്കുക.",
+      "bytes": 57475,
+      "seconds": 14.209,
+      "sha256": "230ef80b11c8b64ef55f9b19eedeb2db4786c800fc0ddc78b364b2f73ae9cb2b"
+    },
+    "offlineBring": {
+      "textHash": "9b97df12a6e8a34e0269577b46d8a099e0c0273851611b4a12407cb1e675698c",
+      "spoken": "ഏത് ഫോമും ഉടമയുടെ ഒപ്പും രേഖകളും ആവശ്യമാണെന്ന് ചോദിക്കുക. അക്കൗണ്ട് തിരിച്ചറിയാൻ ഒരു പ്രസ്താവനയോ പാസ്ബുക്കോ എടുക്കുക; സ്ഥാപനം ആവശ്യപ്പെടുന്നില്ലെങ്കിൽ ഒറിജിനൽ നിങ്ങളുടെ പക്കൽ സൂക്ഷിക്കുക.",
+      "bytes": 58145,
+      "seconds": 14.384,
+      "sha256": "cf304b35d42ea964954b8a24a6920cb6b2a2f375c43d0fd54212efa67e7c12a9"
+    },
+    "offlineAsk": {
+      "textHash": "6560fa4d29ae1e1bec39e6e1561013538664ebcb7d7d64a2d8ff3101992a6477",
+      "spoken": "നിലവിലുള്ള നോമിനേഷൻ ആദ്യം പരിശോധിക്കാൻ ജീവനക്കാരോട് ആവശ്യപ്പെടുക. ഒരു മാറ്റം ആവശ്യമാണെങ്കിൽ, തീയതി രേഖപ്പെടുത്തിയ ഒരു രസീതിയും അന്തിമ രജിസ്ട്രേഷൻ റെക്കോർഡ് എങ്ങനെ നേടാമെന്നും ആവശ്യപ്പെടുക.",
+      "bytes": 53631,
+      "seconds": 13.265,
+      "sha256": "2012e0b1a46c13924840880424b56fa4b2db432e239cb0736cd90fee89e243f0"
+    },
+    "scopeGeneral": {
+      "textHash": "6b0f432575a09059214aeebe2abfa388df95506e9914e0e56ae761eccf03920e",
+      "spoken": "ഈ അക്കൗണ്ട് തരത്തിനായുള്ള പൊതുവായ മാർഗ്ഗനിർദ്ദേശം. ഈ സ്ഥാപനത്തിൻ്റെ കൃത്യമായ സ്‌ക്രീനുകൾ ഞങ്ങൾ അവലോകനം ചെയ്‌തിട്ടില്ല.",
+      "bytes": 37313,
+      "seconds": 9.185,
+      "sha256": "d8afcbae1bad7937e3b42f459699ef6693dbb060008afff9fa8bb73cf1ec6fc5"
+    },
+    "scopeHdfc": {
+      "textHash": "9ab0015071acec805fe8134d617284a5c35fb82c95294980d5d8f94f484b8e24",
+      "spoken": "എച്ച് ഡി എഫ് സി ബാങ്ക്: സേവിംഗുകളും എഫ് ഡി/ആർ ഡി മാർഗ്ഗനിർദ്ദേശവും; ജോയിൻ്റ് ഹോൾഡർമാർ ബ്രാഞ്ച് റൂട്ട് ഉപയോഗിക്കുന്നു.",
+      "bytes": 38366,
+      "seconds": 9.435,
+      "sha256": "29652a77fc66fcb7a3fa66d5c25a4e27b50e12f513b1a7374ac967f11f2394e4"
+    },
+    "scopeSbi": {
+      "textHash": "c0a2525f00c28bd286429fb532fd43e28a019ed467f420c42c2483560e600af0",
+      "spoken": "എസ്ബിഐ നിക്ഷേപ അക്കൗണ്ടുകൾ. ഈ ഗൈഡ് ലഭ്യമായ ചാനലുകൾ ഉൾക്കൊള്ളുന്നു; ഇത് പരീക്ഷിച്ച ലോഗിൻ സീക്വൻസ് ക്ലെയിം ചെയ്യുന്നില്ല.",
+      "bytes": 37597,
+      "seconds": 9.253,
+      "sha256": "9fcdaa473de7e4426a2005c582b34a9ec3189f5af9acf01d07942a11710c1235"
+    },
+    "scopeAxis": {
+      "textHash": "fa00cf8e3836b0d1f880f3e21dc5406e44c0e340c4f01887860e5d818ae0170e",
+      "spoken": "ആക്സിസ് ബാങ്ക് സേവിംഗ്സ് അക്കൗണ്ടുകൾ മാത്രം. എഫ് ഡി/ആർ ഡി റൂട്ടുകൾ വ്യത്യാസപ്പെടാം.",
+      "bytes": 29246,
+      "seconds": 7.171,
+      "sha256": "efc721a63273db6249def86678c174a9d6ad2a4730c38796bf0cb81261bfa457"
+    },
+    "scopeZerodhaAdd": {
+      "textHash": "8d6e52203d1de54e08801aed5e8dba7e9542883c286ddfc6ece5b1949033fb69",
+      "spoken": "സെരോധാ: ആദ്യ നോമിനി കൂട്ടിച്ചേർക്കൽ. ജോയിൻ്റ് അക്കൗണ്ടുകൾക്കോ ​​ലഭ്യമല്ലാത്ത ആധാർ-ലിങ്ക്ഡ് മൊബൈൽ ആക്‌സസിനോ സ്ഥാപനത്തിൻ്റെ സഹായം ആവശ്യമാണ്.",
+      "bytes": 43844,
+      "seconds": 10.821,
+      "sha256": "0a084cb9e7ff97e7e67c74ed4cce5f128d8e58fa1c60f853cab5605c6350ca78"
+    },
+    "scopeZerodhaChange": {
+      "textHash": "ed91ce85e8d7ca0e4d0c9f1f734f1e25a83f124f192c497ec73e0b7c65797ded",
+      "spoken": "സെരോധാ: നിലവിലുള്ള നോമിനി വിശദാംശങ്ങൾ മാറ്റുക അല്ലെങ്കിൽ മറ്റൊരു നോമിനി ചേർക്കുക.",
+      "bytes": 26759,
+      "seconds": 6.542,
+      "sha256": "8e17b73b5cc730e8871f8f3eb6e024e7dc0cdb25a617465a9e2f597ea0fa3626"
+    },
+    "scopeGroww": {
+      "textHash": "e99380ced8d05c3b7ae3206a7f3afe6b65ab2d995bebe39d2bfbf132228fb8bd",
+      "spoken": "ഡീമാറ്റ് അക്കൗണ്ട് വളർത്തുക. നിലവിലുള്ള മ്യൂച്വൽ ഫണ്ട് ഫോളിയോകൾക്ക് ഒരു പ്രത്യേക സർവീസ് റൂട്ട് ആവശ്യമായി വന്നേക്കാം.",
+      "bytes": 32703,
+      "seconds": 8.02,
+      "sha256": "e286f542dbad6cbef710d0539f635f58a877ab74ea21545d60ddb2988cb6cf7b"
+    },
+    "scopeHdfcMf": {
+      "textHash": "ff6b271a65e44ce7e3e2bb06c7992cbd5ac391294a79910f03991f756b943a6b",
+      "spoken": "എച്ച് ഡി എഫ് സി മ്യൂച്വൽ ഫണ്ട് ഫോളിയോകൾ. ഡീമാറ്റ്-ഹെൽഡ് യൂണിറ്റുകൾ ഡീമാറ്റ് അക്കൗണ്ടിൻ്റെ നാമനിർദ്ദേശത്തെ പിന്തുടരുന്നു.",
+      "bytes": 36736,
+      "seconds": 9.045,
+      "sha256": "843685cf88c5bce2a4ea908e65c4f4fba03dbbeb1b7597459c8a32a32b6d14e9"
+    },
+    "scopeDematFunds": {
+      "textHash": "b8a0f7f1e8e0f90ec55bed3cf9f8bce0b9544e32a30e9e961544918a98a6441a",
+      "spoken": "ആദ്യം ഈ യൂണിറ്റുകൾ കൈവശമുള്ള ഡീമാറ്റ് അക്കൗണ്ട് തിരിച്ചറിയുകയും പരിശോധിക്കുക.",
+      "bytes": 23492,
+      "seconds": 5.718,
+      "sha256": "1977d6070813a076a199f0a4c213e70a29ef56f10fced69b8b16f669274b9be7"
+    },
+    "scopeUnknownFunds": {
+      "textHash": "377da034384edcb53690e1b39d175fb2bde907877837639aa176dd32be72cf25",
+      "spoken": "ഒരു നോമിനേഷൻ റൂട്ട് തിരഞ്ഞെടുക്കുന്നതിന് മുമ്പ് ഹോൾഡിംഗ് ഫോർമാറ്റ് തിരിച്ചറിയണം.",
+      "bytes": 23206,
+      "seconds": 5.664,
+      "sha256": "121c0c8f3b0e2c3e23ae130e4ab4aaf7fc87ec91ae41966b3440f9b4cabd9923"
+    },
+    "sbiAction": {
+      "textHash": "692e05ea306c97f36f1c80cfcdb2f508288987410101e2eb8a384a9e1dfc1e4e",
+      "spoken": "യോനോ, ഇൻ്റർനെറ്റ് ബാങ്കിംഗ്, ശാഖകൾ എന്നിവയിലൂടെ എസ്ബിഐ ഡെപ്പോസിറ്റ് അക്കൗണ്ട് നോമിനേഷൻ വാഗ്ദാനം ചെയ്യുന്നു. നിർദ്ദിഷ്ട അക്കൗണ്ട് തിരഞ്ഞെടുക്കുക. നിങ്ങൾക്ക് ആവശ്യമുള്ള ഓപ്ഷൻ ലഭ്യമല്ലെങ്കിൽ, നിലവിലുള്ള ഫോം ഉപയോഗിച്ച് രജിസ്റ്റർ ചെയ്യാനോ മാറ്റാനോ ഒരു ബ്രാഞ്ചിനോട് ആവശ്യപ്പെടുക.",
+      "bytes": 78782,
+      "seconds": 19.559,
+      "sha256": "e08683bbc9435d8bbec79aae9787ea9cec893987ff281e05ca1897b65b7bccb0"
+    },
+    "axisStart": {
+      "textHash": "5eef83b0849e2388b083075968ec0dcd79a374bade22ad336ab7a799914b7f66",
+      "spoken": "ആക്സിസ് ഇൻ്റർനെറ്റ് ബാങ്കിംഗിൽ, സേവനങ്ങൾ → അക്കൗണ്ട് സേവനങ്ങൾ → അപ്ഡേറ്റ് നോമിനി തുറക്കുക. സേവിംഗ്സ് അക്കൗണ്ട് തിരഞ്ഞെടുക്കുക, തുടർന്ന് പുതിയ നോമിനി ചേർക്കുക അല്ലെങ്കിൽ നോമിനി മാറ്റുക.",
+      "bytes": 55358,
+      "seconds": 13.688,
+      "sha256": "b3de804a324d7c89d3e6aa2fdce3406329f9556b3682eeb77506bc56adcde6e7"
+    },
+    "axisSubmit": {
+      "textHash": "176ed01cbbfa91c1c4ce71ea427a51bfa942ccf32c12e1b68241e3a892771c55",
+      "spoken": "ആക്‌സിസിൻ്റെ സഹായ പേജ് ഒരു അഭ്യർത്ഥന ഫോം സൃഷ്ടിക്കുന്നതും പൂരിപ്പിച്ച് ഒപ്പിടുന്നതും അപ്‌ലോഡ് ചെയ്യുന്നതും നെറ്റ് സെക്യൂർ കോഡ് ഉപയോഗിച്ച് സ്ഥിരീകരിക്കുന്നതും വിവരിക്കുന്നു. നിങ്ങൾക്ക് പ്രിൻ്റ് ചെയ്യാനോ അപ്‌ലോഡ് ചെയ്യാനോ കഴിയുന്നില്ലെങ്കിൽ, ഒരു ബ്രാഞ്ച് ഉപയോഗിക്കുക.",
+      "bytes": 67743,
+      "seconds": 16.784,
+      "sha256": "c6f70b0a0709ab92eb6f5f5a8c85779cbbe356f3f8ae5b173f6bf27a38d76053"
+    },
+    "zerodhaChangeForms": {
+      "textHash": "2f69c6f266f00e7f3fad54e5bf4a7e52c90d5805fa744f2f4eb786c73e3d9c32",
+      "spoken": "സെരോധാ-ൻ്റെ മാറ്റ നിർദ്ദേശങ്ങൾ തുറക്കുക. നിലവിലെ നാമനിർദ്ദേശവും അക്കൗണ്ട് പരിഷ്ക്കരണ ഫോമുകളും നേടുക; നിർദ്ദേശിച്ച പ്രകാരം നിലവിലുള്ളതും നിർദ്ദേശിക്കപ്പെട്ടതുമായ നോമിനി വിശദാംശങ്ങൾ നൽകുക.",
+      "bytes": 59495,
+      "seconds": 14.72,
+      "sha256": "e3b7bd140da5d583a29d839fa930afd840ecbc24980c2daf1bf5beb2dd9082e7"
+    },
+    "zerodhaChangeSubmit": {
+      "textHash": "842f3cef0a3abfed7b5f939e8a9af841125d413995503d0ef09705e7114fb3e2",
+      "spoken": "രണ്ട് ഫോമുകളും കൈകൊണ്ട് ഒപ്പിടുന്നതും ഇ-സൈൻ ചെയ്യുന്നതും ഒരു പിന്തുണാ ടിക്കറ്റിൽ അറ്റാച്ചുചെയ്യുന്നതും സീറോദ വിവരിക്കുന്നു. നിലവിലെ നിർദ്ദേശങ്ങൾ പാലിക്കുക; നിങ്ങൾക്ക് ഇ-സൈൻ ചെയ്യാൻ കഴിയുന്നില്ലെങ്കിൽ ഒരു ബദലിന് പിന്തുണ ചോദിക്കുക.",
+      "bytes": 57768,
+      "seconds": 14.287,
+      "sha256": "44d848de9c2c154fa98238bfc30315228efef57fc4ebe00fb5220e884b0a430a"
+    },
+    "growwCheck": {
+      "textHash": "3033e0848ca7f84067b05ade1a36c9a7c278bb8ced951b63e92611305e4e5fd3",
+      "spoken": "ഗ്രോ-ൽ, പ്രൊഫൈൽ → അക്കൗണ്ട് വിശദാംശങ്ങൾ → നോമിനി വിശദാംശങ്ങൾ തുറക്കുക. പ്രദർശിപ്പിച്ച നാമനിർദ്ദേശം ഏത് നിക്ഷേപത്തിനോ അക്കൗണ്ടിനോ ബാധകമാണെന്ന് പരിശോധിക്കുക.",
+      "bytes": 46335,
+      "seconds": 11.441,
+      "sha256": "afe21053d87436344306018f3ba09eb08613ca34386fac212cc9f1585bb87847"
+    },
+    "growwAction": {
+      "textHash": "3efd323a60063618c1427217577ae48b25dd68a803440863748d9047ee1da878",
+      "spoken": "യോഗ്യമായ ഡീമാറ്റ് നിക്ഷേപങ്ങൾക്ക് എഡിറ്റ് നോമിനി ഉപയോഗിക്കുക, ഗ്രോ-ൻ്റെ പരിശോധന പിന്തുടരുക. പ്രൊഫൈൽ അപ്‌ഡേറ്റ് ചെയ്യുന്നത് നിലവിലുള്ള എല്ലാ മ്യൂച്വൽ ഫണ്ട് ഫോളിയോയും മാറിയെന്ന് സ്ഥാപിക്കുന്നില്ല; ആ ഫോളിയോകൾ പ്രത്യേകം പരിശോധിക്കുക.",
+      "bytes": 61696,
+      "seconds": 15.285,
+      "sha256": "a7ffe39c364a36efaa817b194bb8452f64c9bffee086d917257ebdabf25f5cd5"
+    },
+    "readingNow": {
+      "textHash": "ad8baa8991678f64442454ccb270770b3f2c79e96771708d6746d218604c523b",
+      "spoken": "ഇപ്പോൾ വായിക്കുന്നു",
+      "bytes": 6015,
+      "seconds": 1.361,
+      "sha256": "3ea8f60b53ebd3c3ac8671d74d1b35b98ffed0a251dcc5cca9878e7463d24adb"
+    },
+    "repeatSentence": {
+      "textHash": "f5372da50b35c9e5782fb6a7a82ce96afec1b1e583dfaf9d85edae39840fff35",
+      "spoken": "ഇത് വീണ്ടും പ്ലേ ചെയ്യുക",
+      "bytes": 7363,
+      "seconds": 1.69,
+      "sha256": "41ef2398113d58d35d25fa71f0360330bb8a5602063e56dacb82cb0b756991d0"
+    },
+    "nextSentence": {
+      "textHash": "af06d42c24ed04aeb44540712f8b2c727aab2728bbeabd840e0a871af0bb9e25",
+      "spoken": "അടുത്ത ഭാഗം",
+      "bytes": 5729,
+      "seconds": 1.275,
+      "sha256": "8d86af07aa5a24f3e9907b4e579de762423ee822dd561c6e5ccec96260af65a9"
+    },
+    "previousSentence": {
+      "textHash": "3ebbd94b23ace8ad49de8cb952e6f3aaabf7e0fc459a6543fbb293e8158e83e1",
+      "spoken": "മുൻ ഭാഗം",
+      "bytes": 5445,
+      "seconds": 1.203,
+      "sha256": "00e30bd525ea7a5bf115e76c0d4fbe6fa4b59ccb0a382396fe26608f57bba869"
+    },
+    "readingPreferences": {
+      "textHash": "4a7443caad108dca715981bc9f92cfc63ff59eb5cb213744ca7f19f0f8215178",
+      "spoken": "ഈ ഉപകരണത്തിൽ വായനാ ക്രമീകരണങ്ങൾ ഓർമ്മിക്കപ്പെടുന്നു. നിങ്ങൾ സേവ് തിരഞ്ഞെടുക്കുമ്പോൾ മാത്രമേ അക്കൗണ്ട് വിശദാംശങ്ങൾ സംരക്ഷിക്കുകയുള്ളൂ. റീസെറ്റ് ഈ വായനാ മുൻഗണനകളെ മായ്‌ക്കുന്നു.",
+      "bytes": 49703,
+      "seconds": 12.265,
+      "sha256": "1826309a6bd1a656c5d41082e7e24ed9ac8f3b803b2bbe1971a0536a7a7d7033"
+    },
+    "stepType": {
+      "textHash": "d33a96f4904be40047591782f5668d1bed039a7d739c5b4f0ee336f002ef6511",
+      "spoken": "അക്കൗണ്ട് തരം",
+      "bytes": 5437,
+      "seconds": 1.223,
+      "sha256": "a4bc090940eee549aaafb768545c9fcdb056689f7537e3150a97a166fc0b271a"
+    },
+    "stepInstitution": {
+      "textHash": "694128bc86ba506aa12046b5cfb4b4234a354940b7ce5fd6a867a802569603c8",
+      "spoken": "സ്ഥാപനം",
+      "bytes": 4388,
+      "seconds": 0.953,
+      "sha256": "b7429c1214508c7b1cf6019b2c932b9bafc7a64ce1cb049918ee0ff15a919948"
+    },
+    "stepContext": {
+      "textHash": "565df39f4ad2da9ae60708bbef0aa1f028d5dee8d40426584805c5b5ed26c5c7",
+      "spoken": "അക്കൗണ്ട് വിശദാംശങ്ങൾ",
+      "bytes": 7744,
+      "seconds": 1.79,
+      "sha256": "d19d82c1a058b14b2226711d433ac02cf40edf02066c78a04a63c69bb05f463b"
+    },
+    "stepNomination": {
+      "textHash": "fac2d64eeedc2a3792697cc3bf01008aef637a5f7e09a3fb2e8b7f6a566da256",
+      "spoken": "നാമനിർദ്ദേശം",
+      "bytes": 5923,
+      "seconds": 1.321,
+      "sha256": "9db57c71a70e010c75ba155228ddea0e233f2d5e605359caf263c45543028c44"
+    },
+    "savedNext": {
+      "textHash": "426e9b80c5475baf0d16959fef8da3b812e4ace670345e66006432d5076feabf",
+      "spoken": "നിങ്ങളുടെ ലോക്ക് ചെയ്ത കോപ്പി തയ്യാറാണ്. ഫയലും പാസ്‌വേഡും നിങ്ങൾക്ക് വീണ്ടും കണ്ടെത്താൻ കഴിയുന്ന എവിടെയെങ്കിലും സൂക്ഷിക്കുക. നിങ്ങൾ തയ്യാറാകുമ്പോൾ നിങ്ങളുടെ ടാസ്ക്കിലേക്ക് മടങ്ങുക.",
+      "bytes": 48158,
+      "seconds": 11.903,
+      "sha256": "f9180d59290b4fa2bfcdfbc1d7038004bde4026e21c984547f03953fd010efec"
+    },
+    "returnTask": {
+      "textHash": "9d14254c30447b4a68da8107952ed8e5092412802e24e61ca56914a7e74b7038",
+      "spoken": "എൻ്റെ ചുമതലയിലേക്ക് മടങ്ങുക",
+      "bytes": 8607,
+      "seconds": 2.009,
+      "sha256": "9f5e978254b21940a7e650526ba9494693e11ab349a952eea0bec2d47fdc42c2"
+    },
+    "olderDeviceCopy": {
+      "textHash": "37e4f97f77d072058f51df2bc9613a980f6f995d9cf88b33363dd4ecea3a867a",
+      "spoken": "ഉപകരണത്തിൻ്റെ പകർപ്പ് അപ്‌ഡേറ്റ് ചെയ്‌തിട്ടില്ല. നിങ്ങളുടെ ഏറ്റവും പുതിയ മാറ്റങ്ങൾക്കായി ഡൗൺലോഡ് ചെയ്‌ത ഫയൽ തുറക്കുക, അല്ലെങ്കിൽ തിരഞ്ഞെടുത്ത ഉപകരണ ഓപ്‌ഷൻ ഉപയോഗിച്ച് വീണ്ടും സംരക്ഷിക്കുക.",
+      "bytes": 52292,
+      "seconds": 12.936,
+      "sha256": "e55f4e10bb54987ecebc60ff1cba2d90084cb51df2cc6deb368321b685914b21"
+    },
+    "haveReady": {
+      "textHash": "6052c5999eca31405b9e9d27b5ee693cb407d12566846a248a94f73346ed0e5e",
+      "spoken": "ഇവ റെഡിയാക്കുക",
+      "bytes": 6206,
+      "seconds": 1.414,
+      "sha256": "4af529df1c98a018114d6c227b60b7ffd85812c7c8bbe5e0b64cbd9524c8b435"
+    },
+    "audioLoading": {
+      "textHash": "7b1c964d7ef47adb534dcfc131b1097def888350f78ba7a459dcde85c065dbe4",
+      "spoken": "ഓഡിയോ ലോഡ് ചെയ്യുന്നു...",
+      "bytes": 7265,
+      "seconds": 1.677,
+      "sha256": "54774261c7abfe46231c3a50b705e46eebb24eccfe77caa6e75c25bad88d005b"
+    },
+    "audioRetry": {
+      "textHash": "57ef929c83382693656acffd56f6e8ee2ccb250e4d265238e7d3772ad8b6c048",
+      "spoken": "വീണ്ടും ശ്രമിക്കുക",
+      "bytes": 7455,
+      "seconds": 1.713,
+      "sha256": "4b3c03fc5d0d645b0a68d7f385234aa3653bbfa7e3ad3ec77aaaf389cc6980c9"
+    },
+    "audioBlocked": {
+      "textHash": "247e4e564e3d2ce02300acb46d1b9b7ce099f7d97c7f61f418d7fbbcd8c1f72e",
+      "spoken": "അടുത്ത ഭാഗം പ്ലേ ചെയ്യാൻ കേൾക്കുന്നത് തുടരുക ടാപ്പ് ചെയ്യുക.",
+      "bytes": 18305,
+      "seconds": 4.417,
+      "sha256": "77d80453df0414e99676f619b3cfe7a4115e9051fff842c2c1b6f27999e781a1"
+    },
+    "audioData": {
+      "textHash": "e85037c635c00cd0b0c8ec2df0f9354fe90b0425c815114a426a884c375a763e",
+      "spoken": "കേൾക്കുമ്പോൾ മാത്രം ഓഡിയോ ലോഡ് ആകും. അടുത്തിടെ പ്ലേ ചെയ്‌ത നിർദ്ദേശങ്ങൾ പിന്തുണയ്‌ക്കുന്ന ബ്രൗസറുകളിൽ ഓഫ്‌ലൈനായി പ്രവർത്തിക്കും. ആദ്യമായി കേൾക്കുമ്പോൾ ഇൻ്റർനെറ്റ് ആവശ്യമാണ്.",
+      "bytes": 47390,
+      "seconds": 11.699,
+      "sha256": "b433f1df18bb582cd2ae9fa9a4ffb9ccf29c47e76ee7baa6523b4c509955da4b"
+    },
+    "audioDraft": {
+      "textHash": "628a0a65b3eae0cb1b6e8681a1a70cdba6fdcc32fa690929989da0b605efa054",
+      "spoken": "ഇവ കമ്പ്യൂട്ടർ നിർമ്മിത ശബ്ദങ്ങളാണ്. ഉച്ചാരണം ഇപ്പോഴും അവലോകനത്തിലാണ്. നിങ്ങൾ ഒരു വ്യത്യാസം കേൾക്കുകയാണെങ്കിൽ എഴുതിയ നിർദ്ദേശങ്ങൾ പാലിക്കുക.",
+      "bytes": 42207,
+      "seconds": 10.395,
+      "sha256": "b86b90b8018918815ceac47d744d071679a4627264bb21cc43d53d5942b997e3"
+    },
+    "audioStart": {
+      "textHash": "3f6704f1d724f23d854867a0e321319f8be93fde4ecb9f0a3873ff6c1ae41ddd",
+      "spoken": "കേൾക്കുക",
+      "bytes": 4479,
+      "seconds": 0.982,
+      "sha256": "8ec1e3751bac84339dcbb92e36e1b14599e32461ef59073666c11cec3eef4f1b"
+    },
+    "audioCache": {
+      "textHash": "99a8618fa61bd3fcd2fd1d94e3737017d403c4af7673837ac1151e193e41bd9d",
+      "spoken": "അടുത്തിടെ പ്ലേ ചെയ്‌ത ഓഡിയോ",
+      "bytes": 8415,
+      "seconds": 1.957,
+      "sha256": "746f2b289c20b4052fdb6cbecb9bf8ee6fb880cff25986e298b8227f6dbb9058"
+    },
+    "clearAudio": {
+      "textHash": "76dc1a364a0fd14c0e11966ac9b6c76e5bdc7cc2e0a543dbff56a4f6c5ab24bd",
+      "spoken": "സംരക്ഷിച്ച ഓഡിയോ നീക്കം ചെയ്യുക",
+      "bytes": 10623,
+      "seconds": 2.512,
+      "sha256": "01ca3b7585a789013b54790e6ccce12a6647b736e9b31621cad841810009236d"
+    },
+    "audioCleared": {
+      "textHash": "807a199137ab2f6b163ec95adae36f0dc8205dac7f9a3521502f2c410c1cc9c1",
+      "spoken": "സംരക്ഷിച്ച ഓഡിയോ നീക്കം ചെയ്തു. നിങ്ങളുടെ അക്കൗണ്ട് ലിസ്റ്റ് മാറ്റമില്ല.",
+      "bytes": 21185,
+      "seconds": 5.141,
+      "sha256": "fb9596d327486256e4d53b9b88742d7cc396beb6ed504d9c2de83dc4f9f91d85"
+    },
+    "audioPrivacy": {
+      "textHash": "7214dd7390252eb57f7695241eb7a9d5538131e512347fee7d385ffb39edd4b8",
+      "spoken": "വീണ്ടും കേൾക്കുന്നതിനായി പൊതു നിർദ്ദേശങ്ങൾ മാത്രമേ സംരക്ഷിച്ചിട്ടുള്ളൂ. ഓഡിയോ അഭ്യർത്ഥനകൾ ഈ വെബ്സൈറ്റ് ഉപയോഗിക്കുന്നു; ഒരു വോയ്‌സ് സേവനത്തിലേക്ക് എൻട്രികളൊന്നും അയച്ചിട്ടില്ല. ഹോസ്റ്റിംഗ് ലോഗുകളിൽ നിങ്ങളുടെ ഐ പി വിലാസവും അഭ്യർത്ഥിച്ച ഓഡിയോ ഫയലുകളും ഉൾപ്പെടുത്താം.",
+      "bytes": 73409,
+      "seconds": 18.207,
+      "sha256": "d584589649db1db8fc14ac1ea4b4e79dbc9c40967fb96227391337c7b8504655"
+    }
+  }
+}

@@ -4,7 +4,7 @@ India's Constitution lists **22 languages in the Eighth Schedule**. The user rev
 
 ## Separate text, audio and quality
 
-A language has three independent release states: complete interface text, playable bundled recordings, and human review. A translated interface does not prove usable pronunciation, fluent comprehension or institutional/legal accuracy. New translations are visibly labelled drafts. Missing recordings must be explained without offering an unusable Listen control. Existing six recordings remain synthetic drafts and need fluent pronunciation review.
+A language has three independent release states: complete interface text, playable bundled recordings, and human review. A translated interface does not prove usable pronunciation, fluent comprehension or institutional/legal accuracy. New translations are visibly labelled drafts. Missing recordings must be explained without offering an unusable Listen control. Every bundled recording remains a synthetic draft and needs fluent pronunciation review. The actual audio registry and generated model credits determine coverage; see the dated [audio expansion evidence](audio-expansion-plan-2026-10-04.md).
 
 The language register keeps native and English names, direction and audio availability separate. Users search either name. Only the selected text pack downloads; adding languages increases the catalogue slightly, rather than downloading every translation to every phone. Saved work stores the language code, and restoring it retains a usable current language if its pack cannot download. Existing account data is never sent for translation or speech generation.
 

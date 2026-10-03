@@ -1,0 +1,2540 @@
+{
+  "language": "mai",
+  "revision": "e57945c1c874",
+  "model": {
+    "model": "facebook/mms-tts-mai",
+    "revision": "8607c3059206ed4c1991521e80c2b1df07b7c80e",
+    "license": "CC-BY-NC-4.0",
+    "languageCode": "mai",
+    "files": {
+      "config.json": {
+        "sha256": "b9c234cee6a668db5c83a7358f40e9fa1a2d4ad7d6a5a904f0d6531d3e658bf1",
+        "bytes": 1641
+      },
+      "tokenizer_config.json": {
+        "sha256": "c6528b929a1fc29f1b1cbef46937e64a7d6b638508a55037a6c97ed2b551f225",
+        "bytes": 287
+      },
+      "vocab.json": {
+        "sha256": "415d9e1e801c3f277dfbd1393fbd681244cc70047f9cb2c22fc4ad5cbe544d2d",
+        "bytes": 843
+      },
+      "special_tokens_map.json": {
+        "sha256": "845f635933c404f060a1d7a2f4c4494bf4a91f8ebec99a41108778d026426dfc",
+        "bytes": 47
+      },
+      "model.safetensors": {
+        "sha256": "af00259d232e39186086b4bc8c4b61384560def7db5ba196aae7d96410d05304",
+        "bytes": 145249016
+      },
+      "README.md": {
+        "sha256": "5dfd86dbc7a54ce2454315e3b4ba0453ac01fdd6c4bc32a8fb93fcf756b4ef6d",
+        "bytes": 3981
+      }
+    }
+  },
+  "license": "CC-BY-NC-4.0",
+  "fluentReview": false,
+  "scope": "complete",
+  "entries": {
+    "nomineeYes": {
+      "textHash": "4a3daa901d0a9a1e593e2cc45889df2a1765d4a6f9f05461ac5a12ceb9ed0755",
+      "spoken": "हाँ",
+      "bytes": 3999,
+      "seconds": 0.863,
+      "sha256": "ea05fd2a5ba8a56c04d0a674997ddef8ba36c8061080fe356f4d6566f35a279a"
+    },
+    "nomineeNo": {
+      "textHash": "d31e81b17208709fa658ce65df4566f1098bbaea331db8da34094706e521908b",
+      "spoken": "सं",
+      "bytes": 3518,
+      "seconds": 0.728,
+      "sha256": "0db114f3cc157720027986b9ee26a30788eb4e9cdc0a01723c38a2eebf365f69"
+    },
+    "nomineeExplain": {
+      "textHash": "b093128d3593c4b2321e5f7cdf3d85f4df88918fe58604dad7f34ceac4f942ba",
+      "spoken": "धारकक मृत्यु भेलाक बाद संस्थाक समक्ष दावा प्रस्तुत कऽ सकनिहार व्यक्तिकेँ नामांकित व्यक्ति कहल जाइत अछि। नामांकन प्रक्रियामे सहायता करैत अछि; कानूनक अनुसार वारिस के होयत, से नहि निर्धारित करैत अछि। जँ अहाँ जाँच नहि केने छी तँ “निश्चित नहि” चुनू।",
+      "bytes": 92611,
+      "seconds": 22.999,
+      "sha256": "0eebf265e3223be3057123bb7fd0f6701a70ccb0a354b7aaa8f1daf762e66885"
+    },
+    "day": {
+      "textHash": "08265901178f7714da4bf3cc71db693fe2accedbdbc44cac18e0d3e283347db8",
+      "spoken": "दिन",
+      "bytes": 3512,
+      "seconds": 0.73,
+      "sha256": "cdf5c594adb42b59448ba8cc4269eef0c1e8290b2bbf6a911e68f3bbf73775aa"
+    },
+    "month": {
+      "textHash": "1fbf70d615ce06ecfa6bcbceeab76fa64e87b7bc6295cc48855d9d5f3613edb4",
+      "spoken": "मास",
+      "bytes": 3898,
+      "seconds": 0.819,
+      "sha256": "f85d80a75925fca6d8a9ee3e3ab3fa8c7da34b341d2d1a606bfe8cd3113bbfc9"
+    },
+    "year": {
+      "textHash": "e24544bdad94e9262ab9b36018d40e72d8050c84d60bc95575c7339ba1236ca4",
+      "spoken": "वर्ष",
+      "bytes": 3609,
+      "seconds": 0.746,
+      "sha256": "180fc83f447724df453539acade4192c93b2ea90c75295cc7d438f050577206c"
+    },
+    "dateExample": {
+      "textHash": "dd21b6445753011448c07fa8331783fc167ab9f41713a3f455645b838cdcc2df",
+      "spoken": "जेना : चौदह / शून्य नौ / दुइ हजार छब्बीस के मतलब अछि चौदह सितम्बर दुइ हजार छब्बीस. अपन रिकोर्ड पर देल गेल तारीख के प्रयोग करू।",
+      "bytes": 55648,
+      "seconds": 13.765,
+      "sha256": "e769f835aded0e91da233d0271b825480ce91da3f99e82fb134f91bd28bdc009"
+    },
+    "submissionExample": {
+      "textHash": "272bd5dc5caae92388fc790a0d137843a6bea0cbc193471ce974254f38d10d32",
+      "spoken": "जाहि दिन अहाँ अनुरोध पठेने रही ओकर उपयोग करू। जेना : चौदह / शून्य नौ / दुइ हजार छब्बीस।",
+      "bytes": 36742,
+      "seconds": 9.033,
+      "sha256": "aad893bf1a3bcbdecff5242c79d243ceae8440fde507b6980822cb2c6a4699a4"
+    },
+    "statementExample": {
+      "textHash": "d9683ac7171bb8fb6d3dd91d06485d55e530019e355602b1f96b4478993eed01",
+      "spoken": "नामांकितक कें नाम या “नामांकन: हाँ” कें दर्शाबय वाला एकटा बयान. असगर संतुलन पर्याप्त नहि।",
+      "bytes": 38373,
+      "seconds": 9.447,
+      "sha256": "3f05147c058bc93bc1e3105cbd933def827d34c44b86fd8058947043decf52fe"
+    },
+    "registrationExample": {
+      "textHash": "a4a341a616378e9b74e833c59fc3278abdae08186efd3e00915b0e1b123d5118",
+      "spoken": "एहि खाताक नामांकन पंजीकृत होयबाक पुष्टि करैत बैंक, ब्रोकर वा म्यूचुअल फंडक पत्र अथवा ईमेल। अनुरोधक रसीद एकरासँ भिन्न अछि।",
+      "bytes": 48648,
+      "seconds": 12.008,
+      "sha256": "71d706a5143d83f9baa7654c87ca8e3afd493f4e5e6e32f397170101b9989f21"
+    },
+    "requiredInstitution": {
+      "textHash": "213be144a058deee0d2c40df1213d54278aa743569983a5fcdd74964a4f29b51",
+      "spoken": "अपन रिकोर्ड मे देखाओल गेल बैंक, ब्रोकर या फंड के नाम दर्ज करू.",
+      "bytes": 22056,
+      "seconds": 5.372,
+      "sha256": "20148cc5cce7061b1297a9f3f54363987db55fa27d7248cae4410ef566bd6ba5"
+    },
+    "requiredRecord": {
+      "textHash": "f536fceec5fde71fca42a22457794dcba9044c8cfda6a859f143ad6de894c8c0",
+      "spoken": "अहाँ जे रिकोर्ड चेक केने रही ओकर प्रकार चुनू।",
+      "bytes": 16291,
+      "seconds": 3.928,
+      "sha256": "3c539b6872bfddefcaaf03885fe6b2a000d979aa9795a5debb2866d3dcd45632"
+    },
+    "requiredCheck": {
+      "textHash": "3e180c26a74ca974978b61ec62a00dc342e89661ebc80b234d84777a094ab4f5",
+      "spoken": "सुनिश्चित करू जे अहाँक अभिलेख वास्तवमे एहि खाताक लेल नामांकित व्यक्ति पंजीकृत होयबाक पुष्टि करैत अछि।",
+      "bytes": 35394,
+      "seconds": 8.703,
+      "sha256": "a81aa250482b8e528a842ce686f344c112447bf0e75cb0a59db0d7209d23bf6f"
+    },
+    "institutionExample": {
+      "textHash": "df2f05174ae4bd1b29f3b71927610ad22545950308473aed81e617e767ce7f43",
+      "spoken": "जेना: एचडीएफसी बैंक, या अहां कें स्टेटमेंट पर नाम.",
+      "bytes": 21287,
+      "seconds": 5.166,
+      "sha256": "31f41ce470501bd7cd9c3d91b16cba3e76661e2cdb0a644c029b3b017e8a5b4a"
+    },
+    "nicknameExample": {
+      "textHash": "ee76e5ea0dbc93f2e99bd88e4027472f79c9773b5f1a894feca9f3f068061d7e",
+      "spoken": "जेना : पारिवारिक बचत।",
+      "bytes": 10052,
+      "seconds": 2.373,
+      "sha256": "e61565ed234377ec64afa987d975f289bcfaf6a8cf9452a96d065c37c6f73c23"
+    },
+    "ownerExample": {
+      "textHash": "7426c428af1e48f0c8eb2a6a888bd6468ab9484459a1021ad446f516ec9c5059",
+      "spoken": "जेना : हम वा माता-पिता।",
+      "bytes": 11009,
+      "seconds": 2.609,
+      "sha256": "f30160a74dd5e9279101673bc62805437ba610eb2604c99f433cea36938ee951"
+    },
+    "nomineeNoteExample": {
+      "textHash": "ed40a1ff739dd660b85dbc1dd790499f6cf0a1943ece2990a7202089891b73c7",
+      "spoken": "जेना : जीवनसाथी / अनु। उपनाम या रिश्ता मात्र।",
+      "bytes": 21287,
+      "seconds": 5.172,
+      "sha256": "34890b9b9ee60ee370ef5e0a22b7caf4438380d277bdfc7ba7c3bf120136724c"
+    },
+    "last4Example": {
+      "textHash": "df9f5a4341d23976c0048c3b1a83a37381820d04b4c00b55feecb0580a8e7e78",
+      "spoken": "जेना : एक दुइ तीन चारि. अंतिम चारि अंक मात्र।",
+      "bytes": 21857,
+      "seconds": 5.312,
+      "sha256": "880954d6fac24e709e25bdcd813bdc3ee688bbbc59032392e082fe0474f73273"
+    },
+    "recordNoteExample": {
+      "textHash": "6101bc7908c07ddaa8fb9e40a9fea89cfc1cd5f97e230b0dfbc97b6a116b8e85",
+      "spoken": "वैकल्पिक: एकटा छोट नोट जे अहां कें रसीद या रिकोर्ड कें खोजय मे मदद करतय.",
+      "bytes": 34438,
+      "seconds": 8.459,
+      "sha256": "391febb82090879cb2b816c6c5456d835e2356b785f7f3273c1f0ca4b43ecc54"
+    },
+    "bankLocation": {
+      "textHash": "53863e5f05e5350e39a0c843c9132090f2b4dab68462a12f9808a6d4387e3445",
+      "spoken": "अपन पासबुक, स्टेटमेंट या जमा रसीद पर बैंक कें नाम कें उपयोग करूं.",
+      "bytes": 23297,
+      "seconds": 5.687,
+      "sha256": "5adc112010dafa73e1f681caea03385bb848db5e586088d406f85f47ce0f2004"
+    },
+    "dematLocation": {
+      "textHash": "c195d8565a8c3cb8f1d3eecc0b7a4632425fbdb082cd893560593ec76ace454e",
+      "spoken": "अपन डिमैट स्टेटमेंट पर दलाल या बैंक के उपयोग करू, नहि कि ओहि कंपनी के जेकर शेयर अहां के पास अछि.",
+      "bytes": 36642,
+      "seconds": 9.018,
+      "sha256": "aa00468ef4813ee89544e5d3ce924db147e1db6dc071160b3d491b7b4f5370d8"
+    },
+    "mfLocation": {
+      "textHash": "7ae5543383ac4fd0677026a81f96a67dd90ae77151a1e53e64738d22696c277f",
+      "spoken": "अपन फोलियो स्टेटमेंट पर म्यूचुअल फंड के उपयोग करू। एकर रजिस्ट्रार मदद क सकैत छथि; डिमैट मे इकाइ डिमैट मार्ग के पालन करैत अछि।",
+      "bytes": 43743,
+      "seconds": 10.783,
+      "sha256": "0897cf66d25abdc69f226e7120f6f77930b75e7461d44b8c36e4cbe015528724"
+    },
+    "checkLocation": {
+      "textHash": "13fb5719ebe49852d2d60ce9b63a7ff6340f639c7db047a3ba88b8612874bcbd",
+      "spoken": "एहि खाता के विवरण या नवीनतम बयान मे नामांकित के नाम या नामांकन के स्थिति देखू.",
+      "bytes": 34626,
+      "seconds": 8.517,
+      "sha256": "b50e70bde116f6072ee7f72862d0daea2968f880b5f3698815b4784b89c04dde"
+    },
+    "askInstitution": {
+      "textHash": "e09c0c9a13c978a0e9d58c22644e9b70ac38f88c6c9c6723173948b6589b2222",
+      "spoken": "जँ नहि देखाओल गेल त’ संस्था सँ पूछू: “की एहि खाता लेल नामांकन पंजीकृत अछि? की अहाँ एकर लिखित रूप मे पुष्टि क’ सकैत छी?”",
+      "bytes": 42787,
+      "seconds": 10.558,
+      "sha256": "6586fad6f38128f44fad8b9a6ea5d0165187de1b055a5ed45908b9484677a84b"
+    },
+    "keepUnknown": {
+      "textHash": "739e34e06a0907efd340f428d3de473516588e27d7c6a93a292c2fb2b1cff4de",
+      "spoken": "जा धरि अहाँ जाँच नहि क’ सकब ता धरि “निश्चित नहि” राखू। यदि संस्था कोनों नामांकित कें पुष्टि नहि करएयत छै, त “जोड़ल नहि गेल” चुनू.",
+      "bytes": 45760,
+      "seconds": 11.298,
+      "sha256": "279e845c2980e2d43156dc7449262f91cbd0edd6e8d20274a6206685ed2d5152"
+    },
+    "submitKeep": {
+      "textHash": "493f928062f7eeab0380155ed6c7825ebf30d44f72a141c3bc68b0ec5b93928d",
+      "spoken": "संस्था के आधिकारिक चैनल के माध्यम स सबमिट करू। दिनांकित पावती या रसीद राखू।",
+      "bytes": 30495,
+      "seconds": 7.465,
+      "sha256": "6bee8d80b568242fb38658713ec2478163a4942c0f9b4714c9745e947090d149"
+    },
+    "confirmRegistration": {
+      "textHash": "f4042245f8b9cb932e9dd652f5b0b9b5b82ca39ac113eec5fbd5e76963ac292f",
+      "spoken": "खाताक पहचान आ नामांकनक पंजीकरण देखबैत विवरण वा लिखित पुष्टि जाँचू। केवल अनुरोधक रसीद पंजीकरणक पुष्टि नहि करैत अछि।",
+      "bytes": 47112,
+      "seconds": 11.632,
+      "sha256": "0b8312cf17cf1930d47123724373eda81f5ef363b28de5fc4a082061e5c95c1d"
+    },
+    "followRequest": {
+      "textHash": "86d3539070d56b6b7d35734cac875bd5baf0d3fb216e28f12674204167a914d0",
+      "spoken": "संस्था सं पूछय कें लेल अनुरोध कें तिथि आ रसीद संदर्भ कें उपयोग करूं की नामांकन पंजीकृत छै या नहि.",
+      "bytes": 39042,
+      "seconds": 9.6,
+      "sha256": "f8748355d318a44fb95d28684fe42b46c203647274d739276c3cd4a0cbdd1b20"
+    },
+    "waitRegistration": {
+      "textHash": "4e0cfaecaacf0490c864c0a46d042432c6c579334fafd54acad4675d501929d9",
+      "spoken": "एकरा पुष्टि कें इंतजार कें रूप मे राखूं जाबे तइक पंजीकरण रिकोर्ड उपलब्ध नहि भ जायत.",
+      "bytes": 28005,
+      "seconds": 6.857,
+      "sha256": "124b1fb1452f10b6b455b40ffbd4bbbe4a5984cb9b7e5a5b4f5fda2a5bebe326"
+    },
+    "hdfcPath": {
+      "textHash": "aa122fcdf8e418b2f5f80c6debac11cc0cbfe68bacdc16f9072cd330feeb144a",
+      "spoken": "नेटबैंकिंग: खाता → अपन खाता → खाता विवरण → नामांकित/धारक विवरण.",
+      "bytes": 30109,
+      "seconds": 7.376,
+      "sha256": "69308be9771f88386629b820859c684c7d4aeab3d4ad5564e9d151bd9dd7f549"
+    },
+    "hdfcHolding": {
+      "textHash": "e0f0c22971ddc83e5c6c26f8d4527459f81814e9391b6b2d9739ed510f7e5099",
+      "spoken": "एकमात्र धारक : ओतय जोड़ब/बदलब। संयुक्त धारक कें लेल बैंक एक संग शाखा कें दौरा करय कें सिफारिश करय छै.",
+      "bytes": 43840,
+      "seconds": 10.813,
+      "sha256": "199e670f56dadab08b8d3de3cd27c42463e84b2ced78a0a15a7be713e4116a4b"
+    },
+    "hdfcSource": {
+      "textHash": "09b5e24bc740c809e39a4a8df22bb9faef3fe9cc8ee8ed20e9d3148c62dcba42",
+      "spoken": "एचडीएफसी बैंक के निर्देश",
+      "bytes": 9951,
+      "seconds": 2.345,
+      "sha256": "a327641e02cb2f3b0e77ed80113402db2cf8f44cc3b3ccbdb90c88da81f0e842"
+    },
+    "whatToDo": {
+      "textHash": "e7ab6de0e965e5d03e83b0ccbbd294def7df7ec200dc816d5e18bb4bf83534ed",
+      "spoken": "की करब",
+      "bytes": 5053,
+      "seconds": 1.123,
+      "sha256": "f967a71eab79208110c3d71d40bcb5c398df4db2f30488d938b53fb5de979f35"
+    },
+    "home": {
+      "textHash": "51a6de05d6b276d51e4e14bc937073624db39d1ae695e84123c245bc4c7cb1e3",
+      "spoken": "घर",
+      "bytes": 3417,
+      "seconds": 0.698,
+      "sha256": "ea730c120dec350d3b19def0404ac7232714f34b6455373c39656906c7d28a9d"
+    },
+    "continue": {
+      "textHash": "c3814bfca6b30f266fa8a4c39ce68d8881b8ae1626afa6293d61d1d9fab2de57",
+      "spoken": "जारी राखू",
+      "bytes": 5725,
+      "seconds": 1.279,
+      "sha256": "b2b2c84aa6c680de28d690c3da9f0b0655b29e5d84ab0d10b30580f2b9dfa851"
+    },
+    "unfinished": {
+      "textHash": "470d8d1bb37244c19100a80f9fb1a87ddc31d6b4dc16f5cb0c5df5ca8c9be4fc",
+      "spoken": "अधूरा खाता जारी राखू",
+      "bytes": 9087,
+      "seconds": 2.135,
+      "sha256": "ca95ee263baa3f9a1aaf0273a7a314386218b5300f6fc9c4ad0f9ec7c1de76b7"
+    },
+    "step": {
+      "textHash": "4b67a4c7d95a6438545cc763a57718e45171a0f097f2d24bfc24e7af6eeeabfb",
+      "spoken": "स्टेप",
+      "bytes": 3993,
+      "seconds": 0.852,
+      "sha256": "0647ce9212c398abf0f087b173d95c0b58bef8575182786184b86b854237455e"
+    },
+    "of": {
+      "textHash": "48866249afb5994cb083242512556c0b3c25f71916a26978fec740e76bae1780",
+      "spoken": "के",
+      "bytes": 3703,
+      "seconds": 0.786,
+      "sha256": "58815352a7edecb88b37ab9d0ab091b8ce521f4edd8605fea66dc263dc89c653"
+    },
+    "homeTitle": {
+      "textHash": "9fb325c2319bd4f0a0bf6c9a19a3f4cec9486fe06330c5cfbe1c2949211c7485",
+      "spoken": "अपन परिवार’क खाता खोजब आसान बनाउ.",
+      "bytes": 14654,
+      "seconds": 3.505,
+      "sha256": "32ce5aa55230fc672b4a954523b80df704e0c2e598de72454d63ad6639e4a6b4"
+    },
+    "homeIntro": {
+      "textHash": "69500c044bdb448d7f0c97d1d32729ea029b481fa4055f6ee024e0db3fbf1776",
+      "spoken": "केकरा नामांकित कयल गेल अछि से जाँच करू। जे कमी अछि ओकर ध्यान राखू। अपन परिवार के लेल एकटा स्पष्ट रिकोर्ड छोड़ू।",
+      "bytes": 43550,
+      "seconds": 10.732,
+      "sha256": "8896530cf0d75567a97e7abcf02325295e43cd298f0c779cccf2128b93dd620a"
+    },
+    "typeQuestion": {
+      "textHash": "b098421d9cd35261f725dde3b63dc44fc4edbd2a56efcf7dc3ee6b897b16ef4d",
+      "spoken": "केहन हिसाब-किताब अछि?",
+      "bytes": 8513,
+      "seconds": 1.978,
+      "sha256": "91e4b4d99cb2ba8fe9aee0425c9fb26619d59f740c800831d273aa3008aca743"
+    },
+    "institutionQuestion": {
+      "textHash": "e10ba65412735b560d232f705cbe20177716c2bb79fb70ae95bf35e24daacacd",
+      "spoken": "हिसाब कतय अछि ?",
+      "bytes": 7368,
+      "seconds": 1.685,
+      "sha256": "bc0314df64e01771a58b3f242bc9c673d18def5b81e2b71450d0907c474b45f5"
+    },
+    "dematDescription": {
+      "textHash": "15b9690096f3ad18864cd4530f64381341bfb3a31ba937f76ec94819ef6367fd",
+      "spoken": "दलाल या बैंक मे राखल गेल शेयर",
+      "bytes": 13029,
+      "seconds": 3.119,
+      "sha256": "2356412e584f1ce520569a680147809a2b4da2f2730fb02b7b38e2b748f0e1c3"
+    },
+    "bankDescription": {
+      "textHash": "3187191923a74cd08685158373649b8c9a7dc265a81c61b378ae777bc1e6190c",
+      "spoken": "बचत या बैंक मे जमा राशि",
+      "bytes": 12740,
+      "seconds": 3.046,
+      "sha256": "8aa4c4c42c79f8b736420dff398c6344f4e37431edf6b00269fcc15308966e9c"
+    },
+    "mfDescription": {
+      "textHash": "ba732cbf41b41d240caeeeda0185e707123226492c0c94832fd5e6ac1a1fa2c2",
+      "spoken": "म्यूचुअल फंड के साथ आयोजित एक फोलियो",
+      "bytes": 18978,
+      "seconds": 4.597,
+      "sha256": "d4cfd22a5e5b4a1ffde56fbbceca2a6a0a281d6e585dcb914c1d3b216ade8773"
+    },
+    "nomineeNote": {
+      "textHash": "eb959d6d3c20ab79f26650bd8a6cc82594d384c83b8fc983544c5dfd9b3d63bc",
+      "spoken": "नामांकित उपनाम या सम्बन्ध (वैकल्पिक)",
+      "bytes": 15136,
+      "seconds": 3.632,
+      "sha256": "ce2536eef0b44c69db82d844cf9d93819dca704b17749f709057c2c1aba2798e"
+    },
+    "nominees": {
+      "textHash": "f24aeea6407927626e90e900ae22f0e767fd3de1a18ea27434031762c2182aa7",
+      "spoken": "नामांकित नोट",
+      "bytes": 8605,
+      "seconds": 1.993,
+      "sha256": "d9569bb6f3f0a1188f502bce9dcdb44a2eca8e9951d9ae03308b31dbafb51507"
+    },
+    "missingGuide": {
+      "textHash": "4759399bbc1e229e68f72e3280bff7311467a8ce1fcf19f46eadbc330be5dc0e",
+      "spoken": "संस्था के नामांकन विकल्प के उपयोग करू या ओकर वर्तमान फोर्म पूछू.",
+      "bytes": 29441,
+      "seconds": 7.202,
+      "sha256": "4941799ac90c0585bdeb4e15edfea953705f701e841f25a53694ba7ab83ac833"
+    },
+    "title": {
+      "textHash": "ca694d3a8425b6b5d11472773e1b7ebaab29d8ae4d2d8cea1706b4f25cc3a215",
+      "spoken": "अहाँक परिवारक हिसाब-किताब",
+      "bytes": 12346,
+      "seconds": 2.949,
+      "sha256": "ccf7103af99ec45dd808457860433553b1243757cfdad7a4b6b6e871a742c282"
+    },
+    "intro": {
+      "textHash": "67ac24f4ef88d350503143031af59d7c117b1d27935047fdbd4b529338bb81e1",
+      "spoken": "नामांकित के ट्रैक रखे | जे कमी अछि ओकर ध्यान राखब।",
+      "bytes": 20218,
+      "seconds": 4.914,
+      "sha256": "7294d20994e7cc6248670164f10cb1a08685789beb94db8edc89ccb76f37c15f"
+    },
+    "add": {
+      "textHash": "563759b0b2f15934635f13e21c39c1cb2b9760532d85b983c2a4c125a35f92d9",
+      "spoken": "एकटा खाता जोड़ू",
+      "bytes": 9560,
+      "seconds": 2.245,
+      "sha256": "569068efd4289ec5a50a40f02405c9cd2be8ef761324d5ccf711aedb3b5aabb8"
+    },
+    "edit": {
+      "textHash": "0b5bfecfadb6a40144afa5f435b4600d7d7b06e05bcde7c73f89bece570a6f13",
+      "spoken": "खाता संपादित करू",
+      "bytes": 8121,
+      "seconds": 1.891,
+      "sha256": "d4be7f693cb386daab0b386cdaee8cbd32d6e5a2a0a8747dae7e8b37f97c7c87"
+    },
+    "emptyTitle": {
+      "textHash": "f1e007b71796a5b58e5cf29ef7c86690fcd71a72bbd392916e18c8e7450ab140",
+      "spoken": "एकटा खाता स शुरू करू",
+      "bytes": 10623,
+      "seconds": 2.518,
+      "sha256": "2bdfdcf523c8d4a3850c495abd16f310ee9aca31a1f3c292eae917ffeea1d0bd"
+    },
+    "emptyIntro": {
+      "textHash": "4ae7382ee2ca60c4f47354ea9fc66af594103697a080fd8ac721f6917641a0ad",
+      "spoken": "डेमेट, बैंक या म्यूचुअल फंड। केकरा नामांकित कएल गेल अछि, एक-एकटा खाता, जाँचू।",
+      "bytes": 30207,
+      "seconds": 7.407,
+      "sha256": "6236b33a5479db4281943b8c4e243bbf61de0fe04241b1eeb358db0b8315fe0a"
+    },
+    "example": {
+      "textHash": "60a142f201e9940624270604c193c671ef72a2e5f8468802d36edb1575e26cca",
+      "spoken": "एकटा उदाहरण देखू",
+      "bytes": 8700,
+      "seconds": 2.019,
+      "sha256": "83a600766bc9f36e5e4af81ceaac302de63737793812b5442a038c441e59bd80"
+    },
+    "sample": {
+      "textHash": "d71e50ec715fa92f992a9fcb95ea339bd768a9fc5460b2e0f005c1093419a998",
+      "spoken": "उदाहरण परिवार · काल्पनिक विवरण",
+      "bytes": 12923,
+      "seconds": 3.09,
+      "sha256": "2900f2fbcc30065a6dee036e61d464858c8b426372c6a9c01e349fb24f4c640b"
+    },
+    "resume": {
+      "textHash": "01f35d59587f2b719d2fd473b0e1baf4b38aa7dcbc7b599ece2302aa6c182776",
+      "spoken": "एकटा सहेजल सूची खोलू",
+      "bytes": 10715,
+      "seconds": 2.522,
+      "sha256": "b477305eb4cf364609bc2203a0ee72471fe0c01daa369c4f96fc1916146dc141"
+    },
+    "accounts": {
+      "textHash": "33ce72362a7947bdd6b669e4c43563bb82ff84c5be6db49df283f8064ea51723",
+      "spoken": "लेखा-जोखा",
+      "bytes": 6013,
+      "seconds": 1.358,
+      "sha256": "2289a04801563a94cc280fc31967ca6d91f691064dd44f1c2e9f2ac55987b984"
+    },
+    "needAction": {
+      "textHash": "4aa3b76c43aa81bad9c0e1dc7dbe5feb69d1d466ef89437315c75bca67c2d3ec",
+      "spoken": "ध्यान देबय के जरूरत अछि",
+      "bytes": 10239,
+      "seconds": 2.422,
+      "sha256": "5112e887e11e160a325ee9af29f14bfafd3bfeb2c3c6867ea94e0d05d8ce9272"
+    },
+    "next": {
+      "textHash": "3c9975f9b3480f154f8629f1cdd394f3b3d51c6b7a419ff36c68fec889e8bbdb",
+      "spoken": "अहाँक अगिला डेग",
+      "bytes": 6777,
+      "seconds": 1.552,
+      "sha256": "32c7838fe475b49e3ab77c91a35a6397377d5f66cb2ce46f2a62ee297f1766ee"
+    },
+    "allTypes": {
+      "textHash": "16115322d57b8489004092d85a5cc61b77c4661fbf9f6e9961252a1221c63da1",
+      "spoken": "सब खाता",
+      "bytes": 5917,
+      "seconds": 1.338,
+      "sha256": "c0bfa80283ebe6222c82c476077ff3ec8f0378de756a053b2bdc4be73e2ea0d0"
+    },
+    "allClear": {
+      "textHash": "48abc93169ea500d6414876fffe49d8ea49013993e60d8bdc4e422919e7df491",
+      "spoken": "ई रिकोर्ड अद्यतन राखू",
+      "bytes": 9373,
+      "seconds": 2.192,
+      "sha256": "767db6eed13151f1fe26dbbfe9f3036c2fb5c15f1774eeac5fdd8158dd149dbd"
+    },
+    "type": {
+      "textHash": "a3e24bcf6e82eda0879ceaf69a03d856c914eb6a6b252ce06852ca3b7eaec42e",
+      "spoken": "खाता प्रकार",
+      "bytes": 6009,
+      "seconds": 1.368,
+      "sha256": "a77801ea0cb8f347ffabb94a4a80528b3bf5b13b49ae68f6e765b452651784e5"
+    },
+    "demat": {
+      "textHash": "b4d27620af355f83a091aa6bb16b9576fe9f5ad02e5e4aa1ae5305b6e5cdb633",
+      "spoken": "देमात",
+      "bytes": 4474,
+      "seconds": 0.968,
+      "sha256": "eac190ced8da1a1f038bd0785fa60f7701711dd36e9b8f3f72179c0450795d48"
+    },
+    "bank": {
+      "textHash": "bfe19c6e9b4759af8b307ddc73ba73a363708b318745378a6366c21cb4541e37",
+      "spoken": "बैंक जमा",
+      "bytes": 5721,
+      "seconds": 1.275,
+      "sha256": "25bfb8e1b1666d14047b4e993260c48ad69dda8398daf76ed21b2d9476913709"
+    },
+    "mf": {
+      "textHash": "ca698d7177891dc6c3c0fc7dd93a9772fa9b07149f5f9b48f038e2fdb15987cb",
+      "spoken": "म्यूचुअल फंड फोलियो",
+      "bytes": 9847,
+      "seconds": 2.318,
+      "sha256": "cb18f069b5caf6ff9eb27f1a6c4d4c676fe5470df39672ddc8033969862a5afd"
+    },
+    "institution": {
+      "textHash": "5830bd3baf9b9a60398d5a52e5f963a4d43b66ba4933cd3fd2262a40d8888796",
+      "spoken": "बैंक, दलाल या निधि के नाम",
+      "bytes": 11680,
+      "seconds": 2.762,
+      "sha256": "b7a10315afea4e14ab7f5aac6cff0cfc30a57df1eab056129d89d1ad132ccef8"
+    },
+    "nickname": {
+      "textHash": "94819dec12ebf2208067195e89c43b8ea795d3132c6bbf86ad70b899b6093157",
+      "spoken": "खाता उपनाम (वैकल्पिक)",
+      "bytes": 8893,
+      "seconds": 2.068,
+      "sha256": "62ded2c5d64e0742206de4c2b5c324a5d545ee7e41d81ad9097c0525f1419dd3"
+    },
+    "owner": {
+      "textHash": "098214b2d4151ec650dcebff02027516de9939a97e2bf18221f0b8c4cf06a71a",
+      "spoken": "परिवार के सदस्य उपनाम (वैकल्पिक)",
+      "bytes": 14554,
+      "seconds": 3.488,
+      "sha256": "49656e4d01aaec90becd992c69ec1325b2c652d4e19b5ff34e7d45a451ee9e35"
+    },
+    "last4": {
+      "textHash": "11e3e61f1411b9eb73dfa5edb6c9994c54d797d5c8d2f84e2d3ca35c3a286f90",
+      "spoken": "अंतिम चारि अंक (वैकल्पिक)",
+      "bytes": 12538,
+      "seconds": 2.983,
+      "sha256": "77f25bfd44df14eb124da0ace02fea4d4fc46db48585b54cb2f04d1e87fe1cab"
+    },
+    "extra": {
+      "textHash": "5d11a0290205b0fe375a3ac1e66e5249cb493c08595fd3f1efd2737cdc0bd498",
+      "spoken": "एकटा उपनाम वा अंतिम चारि अंक जोड़ू",
+      "bytes": 15034,
+      "seconds": 3.62,
+      "sha256": "2c1ec049ab437d62f29fff9dedc4870b50934c1751621750e6b40f043b8c7fc6"
+    },
+    "noIds": {
+      "textHash": "17aca48b20303697f9872bb7ff335ac11cc3c495c3e544c5eaba46fb4f2ef259",
+      "spoken": "उपनाम के प्रयोग करे | पूरा खाता नंबर... पैन आओर पासवर्ड एहि सूची सं बाहर राखू.",
+      "bytes": 30106,
+      "seconds": 7.383,
+      "sha256": "e40d815a6e6e8994b548809d6e3761feda7f156abc524f8f51d227fab7c5249f"
+    },
+    "nomination": {
+      "textHash": "c666180231b43e9300402db83daf84e6b35a0bfbf305fdacf3f6061b018e2d59",
+      "spoken": "कोनो नामांकित व्यक्ति पंजीकृत अछि की नहि?",
+      "bytes": 15999,
+      "seconds": 3.844,
+      "sha256": "4ba9bb15aa968c069b268038f3eca9e44009cf38035664a32b650e716812efcb"
+    },
+    "registered": {
+      "textHash": "aa8c8c9364d7abaecf97aded3e87e7131c60d33c1b7a0be5bf398961e70a307b",
+      "spoken": "पंजीकृत",
+      "bytes": 4959,
+      "seconds": 1.086,
+      "sha256": "b06607f923bb3daa3701534b5c2a17842e2337d61982c9620c12437576aecdb7"
+    },
+    "missing": {
+      "textHash": "e5b412897479e83c17d38d7db3602df99683255753a6d3f66bbcb84fc43583e4",
+      "spoken": "जोड़ल नहि गेल",
+      "bytes": 5916,
+      "seconds": 1.334,
+      "sha256": "ee534fb9a2e1028708550df0ad4d0066c7ac9a325328feeafb3bea4d73503f9d"
+    },
+    "unknown": {
+      "textHash": "246a53623d3d052756984e22ccc67145198f8c8fd0fd7ac8ca9eaa2047b20cf5",
+      "spoken": "निश्चित नहि",
+      "bytes": 5724,
+      "seconds": 1.289,
+      "sha256": "2d39c25da2436eb10cc92b94fb3ba47388000dccffe7899e34f5339234d64cf4"
+    },
+    "reported": {
+      "textHash": "e45641c9d8bda8730b9984489c1501684ea11b40bf64af6646b6e4cbc1aa2c89",
+      "spoken": "अहाँ द्वारा रिपोर्ट कयल गेल अछि",
+      "bytes": 9949,
+      "seconds": 2.344,
+      "sha256": "bf14eb496db607d91b7985352443f476764b8c2ff96495c0dcd0ef57e66fd3dd"
+    },
+    "submitted": {
+      "textHash": "2e41df484eabba01897ce5cfc84414125aae72489e881bd160e1757390895168",
+      "spoken": "अनुरोध प्रस्तुत",
+      "bytes": 6590,
+      "seconds": 1.506,
+      "sha256": "74398a88f28d49f7fc22d91294ca769cbd4fec7cd5914f4add876962ff6eb098"
+    },
+    "confirmed": {
+      "textHash": "ddee8fd4c21aa46a979a52add9a5e2023c8b6e02ea407bf099ee32f69c2f30d4",
+      "spoken": "एकटा रिकार्ड मे चेक कएल गेल",
+      "bytes": 11006,
+      "seconds": 2.613,
+      "sha256": "94ba2d78ce4599d557c60f6562e4b950770984ea9262ed8b83cd3bec04ba8b43"
+    },
+    "review": {
+      "textHash": "54e2c400c1b61e4ec996b62c59cba86655d5938e4bd34cde165d353f783d5d89",
+      "spoken": "रिकार्ड जाँच करू",
+      "bytes": 7451,
+      "seconds": 1.706,
+      "sha256": "9b40a8224c5b63de94bc954da024ee77c4f4779d763d0fded5708be2108337c0"
+    },
+    "awaiting": {
+      "textHash": "1f546708058363bb46c7a79a6f3b775eefce6d1366d74d81b9440dfc5f9885fc",
+      "spoken": "पुष्टि के इंतजार में",
+      "bytes": 8509,
+      "seconds": 1.979,
+      "sha256": "829760b01d97b4c76217bdced0452621313efaa81b7b96a6fc34e85ddc09057f"
+    },
+    "checkedOn": {
+      "textHash": "ae4bcc5a156dabd9fcec02628c5755bff3a8a6d17237e0f0bd6d4d51c63ed0c3",
+      "spoken": "अंतिम बेर जाँच कएल गेल",
+      "bytes": 11198,
+      "seconds": 2.65,
+      "sha256": "ec4cf970eca5f2a4fbbffeb211737aad12ff96d73a686bc51edac6d89e1b0af8"
+    },
+    "neverChecked": {
+      "textHash": "4a55dd4a225e7f7438c6b8d8c433577be977c73df2eba0b9b44b9cd46969be72",
+      "spoken": "एखन धरि चेक नहि कएल गेल अछि",
+      "bytes": 12737,
+      "seconds": 3.034,
+      "sha256": "4dde8c2cc8abf9d67287593c81504ae5d93006ce908b8fa4425214eb792760b5"
+    },
+    "update": {
+      "textHash": "cfa8acc2418b9a613b021b6f362ceb3c574f12f7cc362e0dd9f31d3251e751c1",
+      "spoken": "परिवर्तन सहेजें",
+      "bytes": 6683,
+      "seconds": 1.53,
+      "sha256": "bfe956c7029aaf5e86b6dc18f6e39f6de637a0d85378fc836f3ec0fe1f6fec22"
+    },
+    "back": {
+      "textHash": "0911e775fbc67b1abfc3649b4a1172aec0579299acb9d24ad9f41c69039a7374",
+      "spoken": "वापस",
+      "bytes": 3993,
+      "seconds": 0.842,
+      "sha256": "0a169edc40ca347dbcd7e5cffacd31e123d329e9c6bcc396644fa09d3c6b2fc3"
+    },
+    "cancel": {
+      "textHash": "1d3242821a2cbd53a4e69f0a014f3cb455c23b12bfa56ff04dcd2d24cbad30bf",
+      "spoken": "रद्द करू",
+      "bytes": 4955,
+      "seconds": 1.082,
+      "sha256": "f8b0dd135ef96546d09bf4bbe37854cd4e5789aae96107f288513889acc97853"
+    },
+    "open": {
+      "textHash": "d043488347b7f63da1ab669a301b740728036c2647088f98a7325b244f9a6a4e",
+      "spoken": "अगिला स्टेप देखू",
+      "bytes": 7353,
+      "seconds": 1.697,
+      "sha256": "da1546e86da767fe5ba3150d2be149b55702cc7a7be9acadcbfc69712589a604"
+    },
+    "registerTask": {
+      "textHash": "5b67a2874247590e85c534a7a641653998f06193e55fa897b1ba03ec38922ce4",
+      "spoken": "अपन संस्थाक संग एकटा नामांकित व्यक्ति जोड़ू",
+      "bytes": 18785,
+      "seconds": 4.557,
+      "sha256": "7f20e20aef03ee458b91c881dec20b109a307f3c61e3d1a73581598470391e3f"
+    },
+    "checkTask": {
+      "textHash": "e7cf36bef2e1bfb1f3682c0696f796d85443718157dc7718fc552837fc6b7721",
+      "spoken": "नामांकन के स्थिति जाँच करू",
+      "bytes": 12734,
+      "seconds": 3.031,
+      "sha256": "49d411020800b524909e56f68a5706a9eac6677adb3361a34644738d97038099"
+    },
+    "confirmTask": {
+      "textHash": "ba3df9e80d92d01adcebcf7f845cf6c04c1a6b49b53a9e9ecc2630e3cea808d2",
+      "spoken": "जाँचू जे अनुरोध पंजीकृत छल",
+      "bytes": 12448,
+      "seconds": 2.967,
+      "sha256": "37dea358b262bf3a9b8fa819fbdcc0e8809236129e065ae47823bb5d6a3e5337"
+    },
+    "recordTask": {
+      "textHash": "e70c8947d29e54d5b5443e8c058faf99b3cd8cd23d6ff21bcf8962c608518948",
+      "spoken": "पुष्टिकरण अपन रिकार्डक संग राखू",
+      "bytes": 14271,
+      "seconds": 3.418,
+      "sha256": "4abdacabb5a031d8162505604bb13c7ba858522dcf5bfce2c28321438c5fb873"
+    },
+    "dematGuide": {
+      "textHash": "ff0bfbc2370c4381306349cc77639726cd22613fa8280faffd8ca9bcd7d0ac9d",
+      "spoken": "एहि डिमैट खाता कें प्रबंधन करय वाला दलाल या बैंक कें उपयोग करूं. वर्तमान नामांकन फोर्म या ओकर आधिकारिक ओनलाइन विकल्प पूछू।",
+      "bytes": 47967,
+      "seconds": 11.852,
+      "sha256": "25c02c988c2232793be72483f80be12dc1cfce0de07d97956f4e2dcfb9b348cd"
+    },
+    "bankGuide": {
+      "textHash": "429c8d63787215f25653c3b0564c4a82fae096b42567168d009444fa72a19b6e",
+      "spoken": "अपन बैंक कें शाखा या ओकर आधिकारिक नामांकन सुविधा कें उपयोग करूं, अगर ओनलाइन उपलब्ध छै. वर्तमान जमा नामांकन फार्म पूछें।",
+      "bytes": 50750,
+      "seconds": 12.539,
+      "sha256": "6091deb8d5b3ba56964922983b346593fcbf56da2b19718c1fb3cf89252351ce"
+    },
+    "mfGuide": {
+      "textHash": "317bdf53ea4e89d7ec013ef037a5ddb3d82c0ceae87cfbc2f2ea5af5768d689a",
+      "spoken": "म्यूचुअल फंड या ओकर रजिस्ट्रार कें आधिकारिक सेवा केंद्र या ओनलाइन विकल्प कें उपयोग करूं. यदि इकाइयक कें डिमैट मे राखल गेल छै, त डिमैट खाता कें नामांकन मार्ग कें उपयोग करूं.",
+      "bytes": 72060,
+      "seconds": 17.859,
+      "sha256": "3c10017e18ff9ea7783994800ba3436c0f91e01ceaffd5d085eb1e2d19c74759"
+    },
+    "checkGuide": {
+      "textHash": "d1bb797ef6fb3e5838bc906575f0e48d2563e753df40ebf03c156cbefa7d1e4f",
+      "spoken": "नवीनतम बयान देखू या संस्था स पूछू। याद राखल गेल नामांकन के पुष्टि के जरूरत भ सकैत अछि.",
+      "bytes": 35583,
+      "seconds": 8.755,
+      "sha256": "fa1a9e31644c3c21f6cb25a493e25c9791dd2052ccf89b00b6029cc46d576374"
+    },
+    "receiptGuide": {
+      "textHash": "1154cf1d09bae2220301024b848a2319deccda0b2161d9e4c17ba93e553049ab",
+      "spoken": "रसीद राखि दियौक। तखन कोनों एहन बयान या पुष्टि कें जांच करूं जे इ दर्शाबय छै कि नामित व्यक्ति वास्तव मे पंजीकृत छल.",
+      "bytes": 48065,
+      "seconds": 11.859,
+      "sha256": "2e9c08626e769d009e1f3c0d5980abb16d5ef5b65888a6ff4b5e6ffc9688a123"
+    },
+    "institutionOnly": {
+      "textHash": "6fe22a8a19fc274aa54075bef5030cc294b09c36d58c7099b8c66627386beb75",
+      "spoken": "विरासत अहाँक प्रगति दर्ज करैत अछि। पंजीकरण संस्थाक माध्यमसँ होइत अछि।",
+      "bytes": 27428,
+      "seconds": 6.71,
+      "sha256": "79ae83206d4447115d8c6b9b35e639609ddbc919eeacdc179ce17681ac337d43"
+    },
+    "source": {
+      "textHash": "414a781d646199907d3a97154c1d0b15d4ac0990ae028aba7f8b1654496e471a",
+      "spoken": "आधिकारिक मार्गदर्शन",
+      "bytes": 9179,
+      "seconds": 2.156,
+      "sha256": "05d43cac366ed77974946ee0d59e9b9369971963c67b1051dcfa1b9acbad85d2"
+    },
+    "sourceNote": {
+      "textHash": "4f6232aea6ed0b3de1a66e77e09dabe4d779d3124a12aa26e35987fd2e7db59f",
+      "spoken": "वर्तमान फोर्म आ पात्रता : अपन संस्था सं पुष्टि करू.",
+      "bytes": 22239,
+      "seconds": 5.421,
+      "sha256": "2bfcd566c8ed20c109210f7c4e0f2b57d5ce24bda76b49688a385034fdf97ada"
+    },
+    "markSubmitted": {
+      "textHash": "7404ad4cb1b203a4172bf4f287cd43f9530beb473a033aabe658e148e2c94e2c",
+      "spoken": "हम एकटा आग्रह जमा केलहुं",
+      "bytes": 10626,
+      "seconds": 2.506,
+      "sha256": "4539db32ba689893f471f940fbb420d5cc342cfcb0472dda97adb96fa823c7ca"
+    },
+    "markConfirmed": {
+      "textHash": "2bc8f4782f2d967c793bcc5e8de90f1c08e626b7a8524bca84077f49c03808eb",
+      "spoken": "हम कन्फर्मेशन चेक केलहुं",
+      "bytes": 9666,
+      "seconds": 2.263,
+      "sha256": "91d8540716076fafb891953df038725e8b7d60716d597e9ada83d2f25a2ac250"
+    },
+    "submissionDate": {
+      "textHash": "8b6ccb30e6c2fd0bc863594546a82aef4c53863c6de5a30ad007a28b1f65188a",
+      "spoken": "जमा की तिथि",
+      "bytes": 6787,
+      "seconds": 1.558,
+      "sha256": "222441569b607955df16cb7ec995e658da902bbbea7ea85d8e79f345a967104c"
+    },
+    "confirmationDate": {
+      "textHash": "8350ffd7437f306c00a36cbf5df8eb4feee2f691e25f43c1e42384b0e73ba9c8",
+      "spoken": "रिकार्ड पर तिथि",
+      "bytes": 7557,
+      "seconds": 1.748,
+      "sha256": "30f1e8c1d15792dc696c9e6c1b26997e6d9abd16e343f316a918e280369e6c65"
+    },
+    "recordKind": {
+      "textHash": "5b2f45a7b17ab946ecf215eb504ee903f127112ddca1dcc85bf1ddd433000dc2",
+      "spoken": "की जाँच केलौं ?",
+      "bytes": 6879,
+      "seconds": 1.566,
+      "sha256": "5c32ee2b98d017215817d4adfd8f0ac512fa05533b6c70316ceb6a49c8ed223c"
+    },
+    "choose": {
+      "textHash": "0d3e32cd1b3e8d658c59b8af588a43af0fd83ee8859e52f28a47147ef58175e5",
+      "spoken": "चुनू",
+      "bytes": 3899,
+      "seconds": 0.826,
+      "sha256": "93076c6af6ed6f6aa0666900b0c1ad4c427d735ebf80f9d2de5ba145730a1247"
+    },
+    "statement": {
+      "textHash": "7a685da67813edcef38d79403257a2d4eafebfd9956e1b31dd04e17b27bcf3b9",
+      "spoken": "खाता / होल्डिंग स्टेटमेंट",
+      "bytes": 10238,
+      "seconds": 2.409,
+      "sha256": "05351d79220e9a21465bf31cc02ce42ed211aa50507be3ada7494240875b8304"
+    },
+    "registration": {
+      "textHash": "180a30167dc8b1f6f3cf1faec8219ee6b83b3c472dd0cbba5b4b603051a86191",
+      "spoken": "संस्था के पंजीकरण पुष्टि",
+      "bytes": 10337,
+      "seconds": 2.438,
+      "sha256": "bbe03ca2cf46b26db0ea989053b58bf2e85831ab23e4643499b88e98e0f6cff5"
+    },
+    "recordNote": {
+      "textHash": "99f68afd5f5e192cb48afe3ecd0a026ec5eb6d822e96dc47547712b20f84d980",
+      "spoken": "लघु अभिलेख नोट (वैकल्पिक)",
+      "bytes": 10335,
+      "seconds": 2.445,
+      "sha256": "cfa1a41a6a4c3bb775daad6c5e63783c341554827e3546179f1f5d9466bfaf3d"
+    },
+    "confirmationCheck": {
+      "textHash": "8fa0983c3ebc35c05461de67a98c53e96b5c5c9d7c2b0c41424f88c4f2b25e22",
+      "spoken": "अभिलेख देखबैत अछि जे नामांकन पंजीकृत अछि; केवल अनुरोध प्राप्त भेल अछि, से नहि।",
+      "bytes": 30694,
+      "seconds": 7.519,
+      "sha256": "5c45fe26ebca24abd0e66b5582e5ba0062ad5329c9eeacbb7c98dd5a03df0e26"
+    },
+    "progress": {
+      "textHash": "142675e415a422385ba7f172605e903362d3996addb74e0379746a0b3584b7cb",
+      "spoken": "प्रगति",
+      "bytes": 4669,
+      "seconds": 1.027,
+      "sha256": "cdf33532c747703f8d15e6a47f968120941b0cd8f3bbe6506f3c242383c1c161"
+    },
+    "evidence": {
+      "textHash": "ef79d1190d130b3d0cf5703254d8924251b4f46b22b10d09ac7ab7198a34db44",
+      "spoken": "अहाँक रिकार्ड चेक",
+      "bytes": 7357,
+      "seconds": 1.693,
+      "sha256": "09e11cdb42ff58126745c74f98eedeb18b0af38c359844023c57d76bee40355f"
+    },
+    "selfReport": {
+      "textHash": "999ba8bacccc8afe1c689394418caa503821f8504c5b9338a757aa55acea3860",
+      "spoken": "अहाँक देल जानकारी। विरासत संस्थाक अभिलेख नहि जाँचने अछि।",
+      "bytes": 22143,
+      "seconds": 5.386,
+      "sha256": "886b25392738c5efba814568c7c9b6d25d52520002102af9fb516e42d5a00cf0"
+    },
+    "remove": {
+      "textHash": "4f490ed73d2d009db4629302b9e8818b6fd4dbcb33a3868c7a4abe6d6a4c5ced",
+      "spoken": "खाता हटाउ",
+      "bytes": 6203,
+      "seconds": 1.415,
+      "sha256": "4f60bd91ab4f7310253e286d70689cfd484ed7714b0d1d6bd05e731487aea606"
+    },
+    "removeAsk": {
+      "textHash": "a58e871f1382c13de2c27c12be18aa164012957e99bd0a02460fc37f5f2d2c1b",
+      "spoken": "एहि खाता के अपन सूची स हटाउ?",
+      "bytes": 12542,
+      "seconds": 2.979,
+      "sha256": "d1b60ded45aaf07f4a826ae0e275345770dd39fa107e4da13dc851d82e62f716"
+    },
+    "summary": {
+      "textHash": "ce918473359b34cb78ee4f8bcf250a06afea8722c6bdc7c1fd6ca064e0d2687e",
+      "spoken": "पारिवारिक सारांश",
+      "bytes": 7932,
+      "seconds": 1.827,
+      "sha256": "9d8e5bf4eb829c51b47a4bcb3bbde60d9f62e458f360166ddbcb2bfde37bd989"
+    },
+    "summaryIntro": {
+      "textHash": "ac8aba2225eda2ea635e4a5e4d2defafd22f6f0f137bcb654be661de31c7ed1f",
+      "spoken": "शेयर करय सं पहिने अहां के परिवार के की जानय के जरूरत अछि ओकर समीक्षा करू.",
+      "bytes": 30209,
+      "seconds": 7.396,
+      "sha256": "41d5c07b51c3a3a0cf124d67d813f4b660e972a0af2926a92b8be037562dfce2"
+    },
+    "summaryNotice": {
+      "textHash": "73ed9299763ccef05b90d51e6ea60545f91b640e8404f9f06b7c469df868922c",
+      "spoken": "खाता लेबल, परिवार/नामांकित उपनाम आ अंतिम चारि अंक यदि जोड़ल गेल छै त शामिल छै. रिकार्ड नोट छोड़ि देल गेल अछि। केवल जिनका पर अहाँक भरोसा अछि हुनका संग शेयर करू।",
+      "bytes": 66978,
+      "seconds": 16.588,
+      "sha256": "45d93d1ed2139caacf943270e8bbeb8515efab5695895175c36a435eb316dae4"
+    },
+    "print": {
+      "textHash": "1187e1a383b43fd75559ff86a94e19e48eec4c61fad157efabce0919afb0a7e0",
+      "spoken": "पीडीएफ प्रिंट करू वा सेव करू",
+      "bytes": 12058,
+      "seconds": 2.873,
+      "sha256": "33d3ab8e3c9932b61fd18f983772d71ac3b6a7b82e2408fc31c1f27166c53e9f"
+    },
+    "export": {
+      "textHash": "b8c71de256f30d78f5859f7f0836b0b49ddce0414910c2f9c4428fc815c2ee66",
+      "spoken": "पठनीय प्रति डाउनलोड करू",
+      "bytes": 9467,
+      "seconds": 2.219,
+      "sha256": "4d8a21764daad1afb4992da21230f23daf4646c3507b7a9eadedd1ad836e035c"
+    },
+    "save": {
+      "textHash": "ba1f5b85885d8ed62a4f2ea70207b282ef539bfb38daee85d5bf10cb7354c77f",
+      "spoken": "अपन प्रगति बचाउ",
+      "bytes": 8313,
+      "seconds": 1.927,
+      "sha256": "6250b5ee4563198d82334200246741430c3f9d56b64227011ff0dd72beacda63"
+    },
+    "saveShort": {
+      "textHash": "c2247aebc3a2fcede161efa2c1aa7e2da94264c9822d2046afd177938298f919",
+      "spoken": "बाद मे बचाउ",
+      "bytes": 6782,
+      "seconds": 1.551,
+      "sha256": "3f98d4c2bf8c74782ef774ade182f086ec33a37d5cf8057aec3037133d038bc6"
+    },
+    "saveIntro": {
+      "textHash": "f56d7e7366b8484e98a63e5ac2dc48b61baccb959445a79baacb99f3eae49a0c",
+      "spoken": "एकटा लोक फाइल डाउनलोड करू। घुरला पर एतय ओही पासवर्ड स खोलू।",
+      "bytes": 25022,
+      "seconds": 6.109,
+      "sha256": "a4f75127c8cb963094f57125decc17912a82f958ffae871724a549f05e6c323f"
+    },
+    "savedFile": {
+      "textHash": "f5a5145fc90353ddc1eae6dfa7bfc613c7e36f95e3d856cde9f9445dfadd6bd2",
+      "spoken": "अहाँक .विरासत फाइल",
+      "bytes": 10142,
+      "seconds": 2.382,
+      "sha256": "dab7ef7c67b1bf46dc1b49edc34f1fa2451be9072df14d09c9b140df48ff12c9"
+    },
+    "password": {
+      "textHash": "dc410ce2f1688b118bd4b20e539f8ca36cb9b58f2e4ebf7166a5e116b26a325e",
+      "spoken": "पासवर्ड",
+      "bytes": 4381,
+      "seconds": 0.941,
+      "sha256": "c2014fee99ab7f5948cfe69794b7e0de684e5f9669acd6fcd52e360f6c9400d0"
+    },
+    "passwordHelp": {
+      "textHash": "16c8e22ada86607330b9d423f2cdca7544a8427f67a0ba972f74ae86813bc139",
+      "spoken": "कमसँ कम बारह अक्षरक पासवर्ड राखू। एकरा सुरक्षित राखू; हम एकरा पुनः प्राप्त नहि कऽ सकैत छी।",
+      "bytes": 35873,
+      "seconds": 8.83,
+      "sha256": "a2f998b9abac2908f50c6dad9106db43b961c1a785d1b8d905f25007be9612dd"
+    },
+    "saving": {
+      "textHash": "abf3b6eed09f7ce1320616220ed0dd54c8d35991def76070730eb64ddaf49357",
+      "spoken": "अपन सूची के रक्षा करैत...",
+      "bytes": 9947,
+      "seconds": 2.33,
+      "sha256": "95c43b83c0d58340b6352c54d5b9d8169f59ed7b1a1f5583f698a6a19681520f"
+    },
+    "saved": {
+      "textHash": "375d01389e0c30fc47a14b218bb30a79fb94ce6e135d650cdba7bc1936c74b78",
+      "spoken": "एन्क्रिप्ट कएल फाइल डाउनलोड भेल। पासवर्ड अलग राखू।",
+      "bytes": 16762,
+      "seconds": 4.032,
+      "sha256": "4722f9a781f235013b7bcf99a82b1f259062bd56315791fc2750db2be2da344c"
+    },
+    "restored": {
+      "textHash": "8a689c1a4a9688eccc0652fcb861041e2ab18017d04be5aa8ff5561c7ebe2330",
+      "spoken": "अहाँक सूची खुजल अछि।",
+      "bytes": 9181,
+      "seconds": 2.14,
+      "sha256": "da72c64defb1306c1eb4812dba76ad6f9a152b8de03d2969fc41d93cb0fb6815"
+    },
+    "passwordShort": {
+      "textHash": "76a5781a926ddebd7bf28f39927e51d269118db4d226a6551ad4e1dff5aec6e9",
+      "spoken": "बारह स दुइ सय छप्पन अक्षर क पासवर्ड क उपयोग करू।",
+      "bytes": 21378,
+      "seconds": 5.198,
+      "sha256": "666791df5ba13471f9c79feb892973ad2f8311c03629744f48c6a55f5e087455"
+    },
+    "cannotUnlock": {
+      "textHash": "236c0cf6dbdd31c5e1e77fdae3ae7739b31a5ad84d3ae4a2930f6d06a1b28cae",
+      "spoken": "पासवर्ड अथवा एन्क्रिप्टेड फाइल सत्यापित नहि कएल जा सकल.",
+      "bytes": 19745,
+      "seconds": 4.79,
+      "sha256": "0a4b1f83138622a35dcecb88dc323a326100ccc6e3502020473b63d5be42dbc2"
+    },
+    "invalidSave": {
+      "textHash": "44baabbcae1d342fad72e39a4d95bd82303be6945f3204a099b2c9ba64e200be",
+      "spoken": "ई सहेजल गेल सूची अमान्य अछि अथवा बहुत पैघ अछि.",
+      "bytes": 20320,
+      "seconds": 4.932,
+      "sha256": "e9beb02feafb43b6f7b9939d79b0d520bac0e5022f9d1783250fdcae76685a6c"
+    },
+    "invalidAccount": {
+      "textHash": "7d2bbcfd9dde30beabd94c86954b32b019186615c2ca5d409b950f3d7f64401b",
+      "spoken": "संस्था के नाम दर्ज करें। जँ कोनो संदर्भ जोड़ैत छी तँ ठीक चारि अंकक प्रयोग करू।",
+      "bytes": 29923,
+      "seconds": 7.324,
+      "sha256": "360c46c11bcaae97648375ce7803281088602aefd285ef309fca059fce443c97"
+    },
+    "invalidDate": {
+      "textHash": "6fbd274f3ddaafd3242ec262f1e0fd1767864cb43233cda56797279fcaca67c0",
+      "spoken": "असली तारीख के प्रयोग करू, आइ स बेसी नहि। सबमिशन स पहिने पुष्टि नहि भ सकैत अछि।",
+      "bytes": 31648,
+      "seconds": 7.763,
+      "sha256": "7abfd07ef389efae9102ff1f3063664e8d14be4fe0fc9700f8af268e9471016f"
+    },
+    "submissionRequired": {
+      "textHash": "14918fbeed0a2f1d660e1f0cd7f915f929483a9762abad12329290e47d953d3d",
+      "spoken": "अहाँ अनुरोध जमा करबाक तिथि जोड़ू।",
+      "bytes": 14183,
+      "seconds": 3.39,
+      "sha256": "0a3406f8912196f16521a5d17788acd9f3f15514b171b0f78441eb3641e4f375"
+    },
+    "confirmationRequired": {
+      "textHash": "0517e3216abd12bb9686441f5a1864ae6cae1a1fe577d28f893070ef6ccf94f8",
+      "spoken": "रिकोर्ड प्रकार आ तारीख जोड़ू, फेर पुष्टि करू जे एहि मे पंजीकरण देखाओल गेल अछि. एकटा रसीद मात्र पर्याप्त नहि।",
+      "bytes": 42793,
+      "seconds": 10.543,
+      "sha256": "8164017fa790b930ef98d3569cd4f4c01fbcf79f92f2c34569582b71c6a89051"
+    },
+    "accountLimit": {
+      "textHash": "dcfea7053378203971e1330f2f4e3394d5fc5ce9eee1745c7d874778e1a24b54",
+      "spoken": "एहि सूची मे पचास खाता तक राखल जा सकैत अछि।",
+      "bytes": 16961,
+      "seconds": 4.088,
+      "sha256": "99c1bbde61bb2bc8c89ce7796e4aa9b0faa6b8ebbaee81f8c6a80462564b5573"
+    },
+    "updated": {
+      "textHash": "56d976d77f70e73b542b74261f2d89226fade1f236aa120a005e681f55055ae1",
+      "spoken": "अहाँक सूची अपडेट भ' गेल।",
+      "bytes": 10908,
+      "seconds": 2.57,
+      "sha256": "c79d8dbc9212a1779d0f0cd5ae5a6c55b256845d6e2967cc54e89abb24fb9a30"
+    },
+    "privacyHelp": {
+      "textHash": "50cc1c88fc3adee4cdbaee91dcc42d74e4a62e1d30a561b5ca31853a1303ae5c",
+      "spoken": "गोपनीयता एवं मदद",
+      "bytes": 9856,
+      "seconds": 2.324,
+      "sha256": "ab41020c85317fdf6da8ff7c656c8fa85cc532a47ea2526cf5f5ec290c8c6546"
+    },
+    "privacyDetail": {
+      "textHash": "3b60dbf3bba258c134833f9772777bb2e375710ea1521b34e76368d5b43152d3",
+      "spoken": "अहाँक सूची ब्राउजरक मेमोरीमे रहैत अछि। पृष्ठ फेरसँ लोड केलासँ ई मेटा जाइत अछि। बादमे फेर खोलबाक लेल एन्क्रिप्ट कएल फाइल सहेजू। डाउनलोड कएल फाइल अहाँक उपकरण पर रहैत अछि।",
+      "bytes": 63906,
+      "seconds": 15.817,
+      "sha256": "aa404ea36181028f0c20e3e9a2b675a808ecd40fa7cec9dc8e743d8c57ed12aa"
+    },
+    "translationNotice": {
+      "textHash": "6e94210fa4234ec423154303f33d6380265a31c3f27f60a070df8b78411f7a65",
+      "spoken": "अनुवादक मसौदा; धाराप्रवाह-पाठक समीक्षा लंबित अछि। आधिकारिक रूप अपन मूल भाषा रखैत अछि।",
+      "bytes": 35974,
+      "seconds": 8.852,
+      "sha256": "50f6e7c36b3d936e1f18acd6ef4ea267c7608840f56ea842bf51fe85bf62f710"
+    },
+    "boundary": {
+      "textHash": "b5fd00f93dbf6ab8d6c4e9bf4c63c876c255a19f6c737e1a2f3b5084d7e1f7dc",
+      "spoken": "ई सूची उत्तराधिकारक अधिकार निर्धारित नहि करैत अछि, खाताक खोज नहि करैत अछि आ अनुरोध प्रस्तुत नहि करैत अछि।",
+      "bytes": 38557,
+      "seconds": 9.483,
+      "sha256": "43f7e4272a3daf197e734f259e23ad11a6111ae7a632d03ed50ad7cfc581f5cc"
+    },
+    "clear": {
+      "textHash": "065a702c63a847d7be222b5302bf8213e4a3e627f833eca271787d500f53ae84",
+      "spoken": "एहि सत्र केँ साफ करू",
+      "bytes": 8410,
+      "seconds": 1.956,
+      "sha256": "59b021af79f8b483b71b804de4a74becb60639924b311b4606268ded2759d140"
+    },
+    "clearAsk": {
+      "textHash": "24cd0d26dc648b72c77f3e8e58050f2e8bef2d02c1c20ba5c486b0e672e96c1e",
+      "spoken": "एहि सत्र स सूची साफ करब? सहेजल डाउनलोड रहबे करत।",
+      "bytes": 19741,
+      "seconds": 4.788,
+      "sha256": "afaef06247d308ae3c5333bee417bfb9330eb547207995f454c473fca6d2f4f0"
+    },
+    "clearDone": {
+      "textHash": "1d0f91b0fc54b9d5d550f517eae1d09de4e664419f38ee9081be6e3f597c5b92",
+      "spoken": "ई सत्र क्लियर भ गेल।",
+      "bytes": 7934,
+      "seconds": 1.835,
+      "sha256": "086e4def46b4d22c761df1b4c3e2e3f775039fe9f1d1f88be7808045e5547d29"
+    },
+    "language": {
+      "textHash": "360090ad87ed9d0db502d4bbbee9428afac7ac938e9b216ab369fb0d00bbaa71",
+      "spoken": "भाषा",
+      "bytes": 3901,
+      "seconds": 0.826,
+      "sha256": "060f5ee71b7628c64ec29b504dfd9fd2c3216145764ba27bfe5ed8207ad0d1c5"
+    },
+    "access": {
+      "textHash": "47c9ddb5fd25b05096d94d3aa09675708e975f632fb847fa3dc1236aae9f31b7",
+      "spoken": "सुलभता",
+      "bytes": 4571,
+      "seconds": 1.0,
+      "sha256": "0598cb4244af8cb850d1e7131524010190ba4a76d34ad2c5b0567253a7c5623d"
+    },
+    "textSize": {
+      "textHash": "ac1e2ef450fad6f2fe05b625efcc00785994e428a4ccee68eb2bac85ccd04e15",
+      "spoken": "पाठ आकार",
+      "bytes": 6109,
+      "seconds": 1.37,
+      "sha256": "f76d8d01a9a127c69214818a91569acb05466524efd73b2d451f88af16b7a711"
+    },
+    "smaller": {
+      "textHash": "ff0dc6537de21f64cbff8e76d8efad436fdaa8adad12e5b8238a6c3a8019df61",
+      "spoken": "छोट पाठ",
+      "bytes": 4956,
+      "seconds": 1.087,
+      "sha256": "956a9f667cecc09878377cd7c9eb621c4ab30986d1a87f86abb21279eb77d6ee"
+    },
+    "larger": {
+      "textHash": "2307fc913e82d3916da71259903e99f1932369aefca47c18762e7b9b29fe81c8",
+      "spoken": "पैघ पाठ",
+      "bytes": 4763,
+      "seconds": 1.047,
+      "sha256": "50d62aae021b0c3dc88f846c84560ff00349568e8d70ce09afe4f9980150f644"
+    },
+    "contrast": {
+      "textHash": "36f91e22a7d14e179f635207c3e196de865e0503d6f06ba108db5c4e82b3f5dd",
+      "spoken": "उच्च विपरीत",
+      "bytes": 5725,
+      "seconds": 1.28,
+      "sha256": "e6b7d98fea4564869d59e49d7be9593df149c4b414374df1c93a81ed29e12957"
+    },
+    "motion": {
+      "textHash": "f88565dc59a6cef0ad5241eb49b45d1a949974eeb0ce1c0e18f4896628285368",
+      "spoken": "गति कम करब",
+      "bytes": 6491,
+      "seconds": 1.479,
+      "sha256": "bf74d83c6053890c2ae8eff95ead15d44dac5ca70e1a1014a6004fc6d72b8744"
+    },
+    "read": {
+      "textHash": "39b7b66196d1f0231462d78301ff5008756405090e1c81d2c3d2081d3126bd9a",
+      "spoken": "निर्देश सुनु",
+      "bytes": 6201,
+      "seconds": 1.396,
+      "sha256": "096f9a2ee786cabaf873ea1f8e00d7a28e27211e97f5aaace1d5824ebed00b0d"
+    },
+    "speechUnavailable": {
+      "textHash": "6cc1f8beca868f374200878af9fc5d8fa182b940334dac07b329aef267427117",
+      "spoken": "एहि निर्देश’क ओडियो तैयार नहि अछि. लिखित निर्देश एखनो एतय अछि।",
+      "bytes": 24070,
+      "seconds": 5.869,
+      "sha256": "1d7864a0cd186117339c86b3f6ddf95792c49fafc3760c3edc08a8cb1b0305d5"
+    },
+    "close": {
+      "textHash": "50ce7af2c54b672f89bee125d1dde2b55dd11913a7b4bacbc2475fded5ae643e",
+      "spoken": "बंद करू",
+      "bytes": 5050,
+      "seconds": 1.115,
+      "sha256": "845b6dcd28fc996e8881a37ef1f35173dc55be85e99c5700bad0c0832bab23af"
+    },
+    "skip": {
+      "textHash": "8a1ba9f7e41020e281ded0105f19b19d403a2f9972718ee2640b157780cd8dd0",
+      "spoken": "मुख्य सामग्री पर जाउ",
+      "bytes": 8889,
+      "seconds": 2.073,
+      "sha256": "ec1f1344ff9dac934880c2a8e7ecd8aba1969aaaddd3b08b1e244d96347a8eac"
+    },
+    "nothing": {
+      "textHash": "1ddc0d78cd06f50cd4b4abe77d6703de34cd3d09267bd3c0dbe75516c3f1168a",
+      "spoken": "एहि दृष्टिकोण मे कोनो लेखा-जोखा नहि",
+      "bytes": 14268,
+      "seconds": 3.413,
+      "sha256": "10f743c67ec1be6be72c1f80fbc31290b1876f1531cb71d411137e3974ede449"
+    },
+    "optoutNote": {
+      "textHash": "3f7ee0ee2473cebc018c2644acd5df0ef15e2c77080d1c7239d2e32dfa73efd2",
+      "spoken": "नहि जोड़ल गेल अछि जे जानि-बुझि कए ओप्ट-आउट क प्रतिबिंबित क सकैत अछि। रिकोर्ड कें जांच करूं आ खाताधारक कें संग चुनूं.",
+      "bytes": 44895,
+      "seconds": 11.085,
+      "sha256": "8c66728503d76c215a1cf391793c95a51351f557f4d043a2cb7c983575f7e40b"
+    },
+    "startCheck": {
+      "textHash": "30e1ba2923c97b83148bc85e18406eeab90659f99a47f94e228c7fc0fb54c201",
+      "spoken": "कोनो खाता चेक करू",
+      "bytes": 8607,
+      "seconds": 1.994,
+      "sha256": "660bc0213d7455442c85424cd53fe111be0542e6353e0657e72da18215e1fc2a"
+    },
+    "startHelp": {
+      "textHash": "becf8063c37b1f8869c5fd03f7c959ec1d17ce0d4c1ec74380f15a99afc3f2ed",
+      "spoken": "पासबुक, स्टेटमेंट या ऐप सं शुरू करू जेकर उपयोग अहां पहिने सं करैत छी. शुरू करबा लेल एकटा खाता काफी अछि।",
+      "bytes": 40190,
+      "seconds": 9.896,
+      "sha256": "ef099003c4ffa4b03a4788581055e20df7d2199f214fa8a52865e5c7c6984dee"
+    },
+    "resumeTask": {
+      "textHash": "f572d6f7c3f3b80e724b8327b65c6e5c0851712ecdc99ccb7c045aac6e2c1336",
+      "spoken": "ई काज जारी राखू",
+      "bytes": 7935,
+      "seconds": 1.83,
+      "sha256": "63ae78e44993746070aef65f7ab9a79bbd7834e5e7c958ceb6bcde185458f743"
+    },
+    "needsAttention": {
+      "textHash": "e139606a49d71039a9b4b78fa9feab6dff8edd70ac7ce5cf5199d875f89bbd5b",
+      "spoken": "एखनो करबाक अछि",
+      "bytes": 7843,
+      "seconds": 1.809,
+      "sha256": "55f4ad909f5d615e71187b0146b0387c6c38acf404d9bfaa438565e29701cc05"
+    },
+    "checkedCount": {
+      "textHash": "57cd912f9ad2f2c5f37fbe6779d0c6dc163c54d7e7903025495a2ef617a97da2",
+      "spoken": "रिकार्ड चेक कएल गेल",
+      "bytes": 9185,
+      "seconds": 2.151,
+      "sha256": "a32906152a214e3dcc830e2734381e1b2efc56798cc64dc6df940fc2a74546fb"
+    },
+    "howWorks": {
+      "textHash": "6539032b7b6e3db63700bd9ac7666ca344cbebdc8ea43daec5e5558d9114e189",
+      "spoken": "एहि स कोना मदद भेटैत अछि",
+      "bytes": 10717,
+      "seconds": 2.521,
+      "sha256": "95eda92ecc86d041cea2dcb4825b7818fe6a2b5fc20fea6db490525bd7e6e65c"
+    },
+    "howWorksText": {
+      "textHash": "e749bfb14ee1fed24f41fd68192d382a02d06176c8e97511b818d92cccdbfee6",
+      "spoken": "हम अहां कें सही जगह कें जांच करय मे मदद करय छी, अहां कें अगिला कदम तैयार करय मे, आ परिणाम रखय मे मदद करय छी. अहां कें बैंक, दलाल या फंड वास्तविक परिवर्तन करएयत छै.",
+      "bytes": 61025,
+      "seconds": 15.114,
+      "sha256": "4a1bb0a292a5f60489e35dee03e9a4681f7f972c078be9dc4a21ebe206057abf"
+    },
+    "searchBank": {
+      "textHash": "a00ab526ebfead13400ca0f7072f3ae40797ad0a39065ebd78e765b4a7c0f3e5",
+      "spoken": "अपन बैंक खोजू",
+      "bytes": 7455,
+      "seconds": 1.713,
+      "sha256": "e07676f9ecc2cbb2e2e01cdfe6f6618c7a47200da6fb0f107701dee76b92285a"
+    },
+    "searchDemat": {
+      "textHash": "28e5a92733e157e9e90dfbfb099a0941ee399bc7173e1057a7b925743e4ff3f1",
+      "spoken": "अपन दलाल वा बैंक के खोजू",
+      "bytes": 12064,
+      "seconds": 2.874,
+      "sha256": "d26d8a0f0cd484e870900375fd0ca8a09315732f3570ec8c7aae2246a5b1f49a"
+    },
+    "searchMf": {
+      "textHash": "f37b4242f21a625d21b64b1fd9ac323e6aa1c377c868d68bb37e59b6eefa040e",
+      "spoken": "अपन म्यूचुअल फंड के खोज करू",
+      "bytes": 12829,
+      "seconds": 3.072,
+      "sha256": "69acda504e5cbe3afbd48a8e1adfa531b4ebfbc76604a16fd4d08a71267a6913"
+    },
+    "searchHelp": {
+      "textHash": "7c866f2fe6f50d55feff8a1e1eb92e67e41927168c854cf083179d0bc0eaa72a",
+      "spoken": "कोनो नाम वा संक्षिप्त नाम टाइप करू। अहां कोनो एहन संस्था मे सेहो प्रवेश क सकय छी जे सूचीबद्ध नहि अछि.",
+      "bytes": 39327,
+      "seconds": 9.679,
+      "sha256": "b622f70f006f0749b7b269dd3c4fa924e6b1f44d5da0b8123db4beca99865cd9"
+    },
+    "useTyped": {
+      "textHash": "e8d34001a94573e4eeb2b4505b8145d9698d752f7c619c07aa8e5a744c327e92",
+      "spoken": "एहि नामक प्रयोग करू",
+      "bytes": 8509,
+      "seconds": 1.987,
+      "sha256": "598ee88aae7d181cdc5dc80b4954d80c72a32ca3f6a15a5081f412efbe6663a2"
+    },
+    "suggestions": {
+      "textHash": "abe2fade324ce57b536e6432cc4c36e86083a7e144c362a0ac5c6558ea52779f",
+      "spoken": "मिलान संस्थान",
+      "bytes": 6880,
+      "seconds": 1.571,
+      "sha256": "e47680f34d6fd33a6c670154b6afc6157861b22f4bc92ef0fb8d2ec44e662151"
+    },
+    "noMatches": {
+      "textHash": "cd143e2ff8d7922b20e4dd0be1b897f23b40b729fa589ad93248207c46896fd9",
+      "spoken": "कोनो मिलान नहि। वर्तनी देखू, वा जे नाम दर्ज केने रही से राखू।",
+      "bytes": 25598,
+      "seconds": 6.254,
+      "sha256": "b4ed0b40ccc9471cfe15551df83310ddf11e86e74b5424672392a8790580cb1b"
+    },
+    "accountContext": {
+      "textHash": "d1234bc68a5fe94b2b8fb342b1db5d8af01a7fdd43f54b9c98be126d628e0680",
+      "spoken": "एहि विवरणक बारे मे कनेक",
+      "bytes": 9955,
+      "seconds": 2.339,
+      "sha256": "51165f3839e61baaac6b56a013c4de40159b517b58cb6c5477f41123c8d99242"
+    },
+    "contextHelp": {
+      "textHash": "d81cf106706c00a6722bfcdc82853a92dcefe11b75f41e7f38530a783ebacd8f",
+      "spoken": "ई विवरण सही निर्देश देखाबय मे मदद करैत अछि. अनिश्चित रहब ठीक अछि।",
+      "bytes": 24448,
+      "seconds": 5.971,
+      "sha256": "d424f328b0abe812035f417d49731dec4d52a342168949dd2debeb802823108b"
+    },
+    "whose": {
+      "textHash": "225fb3d94305275cec7b67427557fc265224008866d85a917f7fde1b080a69e2",
+      "spoken": "ई केकर लेखा-जोखा अछि?",
+      "bytes": 9274,
+      "seconds": 2.178,
+      "sha256": "76df45bbc54d96a0f1a240de5e4cb2f67f719b3f9af347f6cec7ee0d7bde255e"
+    },
+    "me": {
+      "textHash": "328645898fc8371a66ad5f736be9d5031d437dd57d3546dc0230457daafaa698",
+      "spoken": "हमर",
+      "bytes": 4183,
+      "seconds": 0.903,
+      "sha256": "fcdbff1c9bc68ed909e1e43152bf9f3433f9d46ee7f0eb6715650da1b668a0db"
+    },
+    "parent": {
+      "textHash": "1846af29493d18bcc92276e5e1a746638742ba1183f5eff38285da3b409d754c",
+      "spoken": "एकटा अभिभावक’क",
+      "bytes": 7067,
+      "seconds": 1.616,
+      "sha256": "2a6adbd48858bb0a01602fe554ab6e591d52825d097e66d36838d5c785ab814a"
+    },
+    "familyMember": {
+      "textHash": "811ec29eb2996eb828e4e97b3cf8a6a12977ee7fa4f4dcf5f3b71855d8100268",
+      "spoken": "हमर परिवार मे कियो",
+      "bytes": 8609,
+      "seconds": 2.011,
+      "sha256": "64e00f81a1ae24ff1e194f0dca9c4b74708139f887ea6f6955d0665c3274ea29"
+    },
+    "holderQuestion": {
+      "textHash": "b7a3dd9bb58d0b57b6aaf648912205ed020d2ab644a8988148cc56361695a3ff",
+      "spoken": "खाता असगरे राखल जाइत अछि आकि संयुक्त रूपेँ?",
+      "bytes": 19555,
+      "seconds": 4.736,
+      "sha256": "60d6358882ed51ee1a92a339ef8846d127679bf6d9442c9555086942be9e1c62"
+    },
+    "sole": {
+      "textHash": "c9e2287fbe486467af51d1ade37512b4fd316cd1baf266a92d3a82efbbed5fee",
+      "spoken": "एक धारक",
+      "bytes": 4953,
+      "seconds": 1.082,
+      "sha256": "ebb55ca7998c0bc42c7339164abbf8d8f3ac1fe2229c54f276df52af3784b92c"
+    },
+    "joint": {
+      "textHash": "0b7693f669d32155f7c83c568f86d9dc8b0f82fdb18dd317ac969131df095868",
+      "spoken": "संयुक्त धारक",
+      "bytes": 6394,
+      "seconds": 1.448,
+      "sha256": "c36890c4fb9b0fa85f3ebefcf41a2ec7fa9ca5b880d629b0ce452c94f4953545"
+    },
+    "bankProduct": {
+      "textHash": "300659990b2ac329841c62695352a809b6f8aa6e667da9abaa3a3f5a9410742c",
+      "spoken": "कोन तरहक बैंक खाता ?",
+      "bytes": 8896,
+      "seconds": 2.074,
+      "sha256": "77ca2e9d66c4146ace82f9369b519e48db049a783f0e0cb4b06c6e1112b8e2da"
+    },
+    "savings": {
+      "textHash": "eedfc6cae2ff51de3ad4511a24e15ee7d6f0fd81d604c0b64ce9ecdc04715164",
+      "spoken": "बचत खाता",
+      "bytes": 6300,
+      "seconds": 1.438,
+      "sha256": "00adafea4de8b2411523fd8e2970d34c874d58484cff189d45a1f03b7a67650c"
+    },
+    "deposit": {
+      "textHash": "36a76f5d10b8d1dc7e646957f6461e15d730ee38eac840f070ec63bcd8881c75",
+      "spoken": "निश्चित या आवर्ती जमा",
+      "bytes": 10524,
+      "seconds": 2.495,
+      "sha256": "fbe787d008c9861b25ffd400a59e9a7f62902d9265ec0a8e23188c29c0fd6585"
+    },
+    "mfMode": {
+      "textHash": "ba72a20b19a84f5b173af075c44df91890df432ecf9528091fd2ac80f0d593d0",
+      "spoken": "ई म्यूचुअल फंड कोना राखल जाइत अछि ?",
+      "bytes": 14843,
+      "seconds": 3.563,
+      "sha256": "20e65515b17bd4d06cc359143580bb8d4f1cebf9f1eaacd19471b8ee8040e7b3"
+    },
+    "folioMode": {
+      "textHash": "cdc26693380e9226dd23fd1cac6f98a7bd5a7e9a99b5a902a3cd1fc598f6603f",
+      "spoken": "म्यूचुअल फंड के साथ एक फोलियो",
+      "bytes": 15518,
+      "seconds": 3.728,
+      "sha256": "a0373e323b2de8fc6a78b66da156c6a4cb54396cc1493890d8fc9ce10e3bbf09"
+    },
+    "dematMode": {
+      "textHash": "e9ec091a7b5500cea28b2d108a4b9b1090aedd60e74ae843bdf8d56e86e936bc",
+      "spoken": "एकटा डिमेट खाताक भीतर",
+      "bytes": 9854,
+      "seconds": 2.326,
+      "sha256": "df1def89502124d0941e5361ff52e98ea77520fa54152dbc1cf7d1b6e74dc507"
+    },
+    "identifyHelp": {
+      "textHash": "56ec3d22992d033499f7a8a025acc54ab97738353c779d2c4e59376da472c01d",
+      "spoken": "एकरा चिन्हबा मे हमरा मदद करू",
+      "bytes": 13697,
+      "seconds": 3.281,
+      "sha256": "b71be700b0b75ce17450129a1c3b3d2fa167072806c63bf42d6a9d9fa9573bdb"
+    },
+    "identifyText": {
+      "textHash": "1445b8632acb6b36363f4151da0e1ca9d4663ec0ba8a9719ff272851ec73866a",
+      "spoken": "फंड स्टेटमेंट मे आमतौर पर फोलियो नंबर आ फंड कें नाम देखाएल जायत छै. एकटा डिमैट स्टेटमेंट डीपी आईडी / क्लाइंट आईडी या बीओ आईडी कें दर्शाबय छै. यदि अनिश्चित छी त प्रदाता सं पूछूं की यूनिट कें कोना राखल गेल छै.",
+      "bytes": 79937,
+      "seconds": 19.844,
+      "sha256": "cf0f2330440aa6e8521f45e50df72161fa3acd367d288a6ee269455d44b2ef38"
+    },
+    "change": {
+      "textHash": "44e6e43b02f37fb895cb5014dcf628b4f82ed3a0346ac93e7a642b6dd7e0a778",
+      "spoken": "एकटा अपडेट चाही",
+      "bytes": 7931,
+      "seconds": 1.836,
+      "sha256": "338c04fb6d989b5a391f5e3bc1ac783cb8a319b99061a94c3e4f5affabb62050"
+    },
+    "optout": {
+      "textHash": "cd68e2422fbb30d72cf4bc75795f2fcdcf8e490ebc5441e3769154bb37ba0f24",
+      "spoken": "नामांकन नहि करब चुनलनि",
+      "bytes": 10043,
+      "seconds": 2.357,
+      "sha256": "630b3e975a17edd8489c56609d8cb2a2fc52c3d60fefc9a330369c7e359f439b"
+    },
+    "blocked": {
+      "textHash": "2a8039998b926569935e7309d89b49384a0cd3ad5d47f9a3df8515e28f65d6c5",
+      "spoken": "मदद चाही",
+      "bytes": 5820,
+      "seconds": 1.304,
+      "sha256": "88d91b68801ad2e547ce09426ab1ca32a829c0fbdd89f067332a2cef89babbc5"
+    },
+    "helpCheck": {
+      "textHash": "8d45607b1dd45e7c8bf5c1e713a19dad7a89d61ced51efbd41413bb22724d1a2",
+      "spoken": "हमरा चेक करबा मे मदद करू",
+      "bytes": 12926,
+      "seconds": 3.096,
+      "sha256": "12798d67bb73efec43b95cf146d6458c5873fddf9f336a7b42f65a83a3dec4c5"
+    },
+    "whatFound": {
+      "textHash": "b79c2f2fbd5144d9bc84997c656edfee00a67cebf3e4b5dbd2c467f6c5c9196f",
+      "spoken": "की भेटल?",
+      "bytes": 4862,
+      "seconds": 1.071,
+      "sha256": "60063744020997813d1a802bc06cf3178ff034ec0f9f7e6b30d4a2ab54b338d7"
+    },
+    "foundYes": {
+      "textHash": "b0e21ac76ed592f348f831d9f718640fb4536aac3051c91906602377ce8ffa3a",
+      "spoken": "नामांकन दर्ज अछि",
+      "bytes": 7837,
+      "seconds": 1.809,
+      "sha256": "7b51a9b235107c42c98bda1d445a3de12795be2c3cf181c7eb8330a11e70800e"
+    },
+    "foundNo": {
+      "textHash": "00ee5c4cbaebe45d9b77010d01e347c5a2b8a32e6efc46b86a54eff7fd98dff4",
+      "spoken": "कोनो नामांकित व्यक्ति दर्ज नहि अछि",
+      "bytes": 13020,
+      "seconds": 3.102,
+      "sha256": "3b8c960f2918b60e31c12e53012c5562116cb9e7d848dd8588e3b5be2e1dc0bb"
+    },
+    "foundChange": {
+      "textHash": "c7ae7f6ce01957b6c736058856d78cc8426f6cba1365ced12fe2bb392a1d015d",
+      "spoken": "विवरण बदलबाक जरूरत अछि",
+      "bytes": 10144,
+      "seconds": 2.385,
+      "sha256": "73ee5ce4af09aa4e08f069006d050c89ab3fd1ccd2ed048a72e61b9ab4bc1316"
+    },
+    "foundUnknown": {
+      "textHash": "71dd0a336be39c94dbf0c2d16b529bdd98820e0cc39aa363fc74ec109bc6d4c7",
+      "spoken": "हमरा त’ नहि भेटल",
+      "bytes": 7457,
+      "seconds": 1.719,
+      "sha256": "860bb75da89c77a2231bc8fedb682c0f03655fd2f5d2f6938aa873b0a64150fe"
+    },
+    "prepare": {
+      "textHash": "a98b6a5872d6316b36dccd255250362c24cd893d1e25572bcb0e10aff54cfe32",
+      "spoken": "अगिला डेग तैयार करू",
+      "bytes": 9756,
+      "seconds": 2.293,
+      "sha256": "0fe5dcc24b0c3bdece45289c75783bf0c90a2b65cfd5594bfe297fd8061672c6"
+    },
+    "checkFirst": {
+      "textHash": "e464713056cf3a6dbe51b930f08667922a9ffcaab7b968b100a51524f7575ca9",
+      "spoken": "कोनो चीज बदलबा स पहिने जांच करू",
+      "bytes": 13023,
+      "seconds": 3.111,
+      "sha256": "43fc990cee0090f53d6f579aa874c5e3b1f3306139f691473921de948bb6e66d"
+    },
+    "openOfficial": {
+      "textHash": "8eac3cd4418cea5979d4dc00ffc19a7db30712cbdc03a456513b7a6c369c22af",
+      "spoken": "आधिकारिक निर्देश खुला",
+      "bytes": 9761,
+      "seconds": 2.291,
+      "sha256": "2d17f2709de931385deb5b96666a8881857b56f0f842c3dcccfce21b358f76d8"
+    },
+    "prepareIntro": {
+      "textHash": "ac86335bb7394d7445d4ed8d3a2a2823c6a088faeb513c3f34c12db00ac7d7cb",
+      "spoken": "संस्था के लेल ई सब तैयार राखू। एतय हुनका सभ के प्रवेश करय के जरूरत नहिं.",
+      "bytes": 31169,
+      "seconds": 7.635,
+      "sha256": "32ce8fdb3f2e341eef3696a3c2382af9ea81650cd4474c356434843b144e4e01"
+    },
+    "prepareNames": {
+      "textHash": "cbf0d834e75cd0890863e4b6f9791cc77828a47df2902eeb8c837bc7c6537ec2",
+      "spoken": "नामांकित व्यक्ति के नाम आ संबंध, जेना कि हुनकर रिकोर्ड में देखाओल गेल अछि |",
+      "bytes": 26465,
+      "seconds": 6.462,
+      "sha256": "7459c1958d179c830fe1701295e3ee4204f82448cd884f20a82e3a95b859e639"
+    },
+    "prepareMinor": {
+      "textHash": "51aeeb79087546af0422d90080eb3990a0b159889d810ef3906d9bd0a7006e35",
+      "spoken": "यदि कोनों नामित व्यक्ति बच्चा छै, त वर्तमान फोर्म पर जन्म तिथि आ अभिभावक खंड कें जांच करूं.",
+      "bytes": 37793,
+      "seconds": 9.303,
+      "sha256": "8b5d98a81cfc6c9bf530a849c361d08bb6eb245a812cc894e80be5891c4bbafa"
+    },
+    "prepareAccess": {
+      "textHash": "5db91a69064027f6bd1659a6a1122dff08b4bbcad5f334ecb912484666bcd572",
+      "spoken": "अपन खाता संदर्भ आ संस्था कें आधिकारिक सेवा कें पहुंच. पासवर्ड आ ओटीपी केवल ओतहि राखू।",
+      "bytes": 34530,
+      "seconds": 8.487,
+      "sha256": "9c0d2305f0eff3709ec160bc00dbbcb03507e84a77a972c565b48a416c2d2a55"
+    },
+    "jointGuide": {
+      "textHash": "ec2c939ad5e350fbf8f1ae3f84d0c55e720d38d532ac6c4f52406411bd487fe4",
+      "spoken": "संयुक्त खाता के लेल हर धारक के शामिल करू। जमा करय सं पहिने संस्था सं पूछि लिअ जे कोन हस्ताक्षर आओर चैनल के जरूरत अछि.",
+      "bytes": 49311,
+      "seconds": 12.176,
+      "sha256": "1918a7a8249a32bd0138fdd610eedbaa62a4c73a8e96c0ec29e4f2d7ba0460bb"
+    },
+    "unknownContext": {
+      "textHash": "c402d62fe393555e483c38c9a7c970b6816403e9fb7fb643ba516f59cc8160a5",
+      "spoken": "ओनलाइन मार्ग चुनय सं पहिने अपन स्टेटमेंट पर धारक कें नाम आ खाता प्रकार कें जांच करूं. संस्था हुनकर पहचान मे मदद क सकैत अछि।",
+      "bytes": 48835,
+      "seconds": 12.054,
+      "sha256": "ada6b74d30e7e86731f749c2c5e1034891f6772e5394e2ba37e4a14b4f599f84"
+    },
+    "hdfcSavings": {
+      "textHash": "0d3650075a08500aca41f31b2440d43131ec2b3daeb6591c2d581733e1bf975e",
+      "spoken": "एचडीएफसी नेटबैंकिंग मे, खाता खोलूं → खाता → खाता विवरण → नामांकित आ खाता धारक कें विवरण कें चयन करूं.",
+      "bytes": 39424,
+      "seconds": 9.704,
+      "sha256": "24fe93b316e36f09fd3aa33408e93a6711c5f3b9f7158e9cfe2316ee18085111"
+    },
+    "hdfcDeposit": {
+      "textHash": "fe9494409f9460a5f254b31803fb3253c1278c6a01ae2e6b277608490a255c68",
+      "spoken": "एचडीएफसी नेटबैंकिंग मे एफडी/आरडी खोलू → जमा चुनू → नामांकित जोड़ू या नामांकित बदलू देखू. एहि जमा राशि कें अपन बचत खाता सं अलग जांच करूं.",
+      "bytes": 60160,
+      "seconds": 14.893,
+      "sha256": "aa62fe586c95646275366d89bf48ec50dedf48494fc7cf4d968e62b3f2396f00"
+    },
+    "hdfcAction": {
+      "textHash": "a43b8aa61787c331d1719052047fcf58be9c131e6aea727b9bd15a30d5012f98",
+      "spoken": "एकल धारक संबंधित खाता विवरण मे नामांकित जोड़ू या नामांकित बदलू कें उपयोग कयर सकय छै. संयुक्त होल्डिंग कें लेल बैंक कें शाखा मार्ग कें उपयोग अन्य धारक कें संग करूं.",
+      "bytes": 67071,
+      "seconds": 16.627,
+      "sha256": "763dbe73b9afd117d5e765d67a94e7460f5169a1b46f257aa9a80c08a7c9ba62"
+    },
+    "zerodhaCheck": {
+      "textHash": "829abf90ef69b1a063f067282965b45a70c8eeda1caea3b91b4977017e8740df",
+      "spoken": "जीरोधा कंसोल → खाता → नामांकित खोलू। एहि नामांकन मे ओहि डिमैट खाता मे राखल म्यूचुअल फंड सेहो शामिल अछि, जाहि मे सिक्का सेहो शामिल अछि ।",
+      "bytes": 55841,
+      "seconds": 13.813,
+      "sha256": "1cc93bfa9f8ac648bd65fec4e3c7720eaea6b3fadc4433b3c96baaa8ed47c17e"
+    },
+    "zerodhaAction": {
+      "textHash": "261ab2186c1b75cf7ba25a92aa963055dd092360e311d9a9d5e459a741874336",
+      "spoken": "कंसोल मे नामांकन निर्देश क उपयोग करू. जीरोधा संयुक्त धारक आ बिना आधार सं जुड़ल मोबाइल के लोक के अपन ओफलाइन फोर्म पर निर्देशित करैत अछि. लिंक कएल गेल मदद पृष्ठ पर वर्तमान आवश्यकताक जाँच करू.",
+      "bytes": 78786,
+      "seconds": 19.537,
+      "sha256": "e86f32cb4e7f04ccec07ab796ccef018b6688679f844f3ee0921fe3123b54761"
+    },
+    "hdfcMfGuide": {
+      "textHash": "68cedaa598e9a1f453328b40dc2647329e41850c1cfaffbf25d8147c9b77696a",
+      "spoken": "वर्तमान अनुरोध फोर्म आ जमा करय कें निर्देशक कें लेल एचडीएफसी म्यूचुअल फंड कें नामांकित-पंजीकरण सेवा पृष्ठ कें उपयोग करूं. शुरू करबा स पहिने अपन कथन पर फोलियो मिलान करू।",
+      "bytes": 71008,
+      "seconds": 17.602,
+      "sha256": "3b55265c350e0829bda17d9b646c83d6832891228fe6adb477ee547bb76011bc"
+    },
+    "mfDematHelp": {
+      "textHash": "e3034febd538b7731c2b616bac5b625e008936ec82daae787ab94a12e46506e5",
+      "spoken": "इ इकाइयक डिमैट खाता पर नामांकन कें उपयोग करयत छै. ओहि खाता कें अपन दलाल या डीपी सं जांच करूं; अलग फोलियो नामांकन के जरूरत नहिं मानब.",
+      "bytes": 60352,
+      "seconds": 14.933,
+      "sha256": "c5b4914b2b8d8ca396c27ad6fc381b1a5372026f445979f21e25e5b64939888d"
+    },
+    "useDemat": {
+      "textHash": "0955f23ee289b23bc7508543da7188d1f52d745fd90b975845780dd3594bceb0",
+      "spoken": "डिमैट खाता चेक करू",
+      "bytes": 7933,
+      "seconds": 1.834,
+      "sha256": "27a647b0ef9f19f455585460c6dbf6ab0d55974216ce8d7cc6e2493ebb79f56b"
+    },
+    "routeFallback": {
+      "textHash": "f08008602f1561c9a826a9cd39bf72e9e27ccdbf756f719ff754dc9bc1011547",
+      "spoken": "हमरा सब लग एहि संस्था लेल सामान्य मार्गदर्शन अछि। ओकर आधिकारिक सेवा टीम सं सटीक स्क्रीन या फोर्म कें पुष्टि करूं.",
+      "bytes": 45282,
+      "seconds": 11.181,
+      "sha256": "fd0a579c4829a752c537e36643713275373bbd0abc7f21c3aa10ae0e1383e4f3"
+    },
+    "offlineHelp": {
+      "textHash": "fc62562f0b539f6711a5ed2250b3617b78f8dab36da62c7883a2442c0144fde9",
+      "spoken": "व्यक्तिगत रूप स घुमब पसंद करब?",
+      "bytes": 12160,
+      "seconds": 2.893,
+      "sha256": "e5e12705dfc8128291ad5d37c6e959750a85affd4e6febea54e4213563cd16b6"
+    },
+    "offlineText": {
+      "textHash": "cace1bdf291e85ffa051358e47aba07c182d234faefceb8ee800d9caf171d063",
+      "spoken": "अपन खाता या फोलियो संदर्भ शाखा या आधिकारिक सेवा केंद्र मे ल जाउ। नामांकन पंजीकरण या कोनों परिवर्तन, आ एकटा तिथिबद्ध स्वीकृति कें लेल कहूं. यात्रा सं पहिने पूछू जे कोन धारक कें उपस्थित हेबाक चाही.",
+      "bytes": 79072,
+      "seconds": 19.609,
+      "sha256": "24cd9f57d1a9cdcecb7ca152d8d92854054a73a189326769fc9ddd186ba8374f"
+    },
+    "askHelp": {
+      "textHash": "12e384ad03c0d5fe4f60ecd0aed631ff27bdb44442d17aac02c125bc4e174724",
+      "spoken": "एकटा प्रश्न अहाँ पूछि सकैत छी",
+      "bytes": 11580,
+      "seconds": 2.737,
+      "sha256": "cbeab35bddadd9c8a00829ff9a2fac7d6efe07a268dce910d25fa1810b9b049c"
+    },
+    "askText": {
+      "textHash": "8ca63da3a81f4603885bbce42bf734b659985c5b67607d913cd810f143b2f4d2",
+      "spoken": "कृपया जाँच करू जे एहि खाता लेल नामांकन पंजीकृत अछि कि नहि। यदि इ गायब छै या बदलय कें जरूरत छै, त हमरा कोन वर्तमान फोर्म या आधिकारिक ओनलाइन विकल्प कें उपयोग करबाक चाही? रिजल्ट के लिखित रूप में पुष्टि करब।",
+      "bytes": 76764,
+      "seconds": 19.049,
+      "sha256": "7f34abe97fd1c0e022a19db2b015f7a145659e2faa4678236efb991df35928ec"
+    },
+    "copyQuestion": {
+      "textHash": "1b733d59342fc642919324606ec1b14630d53a99ba75f9fa385bfd07f9c98a10",
+      "spoken": "एहि प्रश्नक नकल करू",
+      "bytes": 8897,
+      "seconds": 2.07,
+      "sha256": "ac4b79fd315cad3f0fbd5b05b0475ba78435e5e48f35837fc2d731be8b31a69e"
+    },
+    "copied": {
+      "textHash": "eff8027fc27481904ae7d0f7e24f54b5d21ebfc72fc524a582cc6c0d9cf9a544",
+      "spoken": "प्रतिलिपि कयल गेल",
+      "bytes": 7259,
+      "seconds": 1.662,
+      "sha256": "42bb81a9f0401e5e34aac61452febe621fdc94f0fb67727b2991118b1ff5dd7e"
+    },
+    "followup": {
+      "textHash": "92a298992756e239004614536b3e7244c7b8c82847de36d94346d880a1fd23d7",
+      "spoken": "एकटा फोलो-अप डेट चुनू",
+      "bytes": 10141,
+      "seconds": 2.377,
+      "sha256": "4f79305b91db822f6bd24b252955a4c0698f7b4076e9ea4aa877d71a06e58603"
+    },
+    "followupHelp": {
+      "textHash": "1df752417a7a8dda91a07049a7e178a0e8b1dbe6223cf2efbdf04e74584c278f",
+      "spoken": "ई अहां के अपन रिमाइंडर डेट अछि, कोनो संस्था के डेडलाइन नहिं. अगर अहां के अलर्ट चाही त एकरा अपन कैलेंडर पर डाउनलोड करू.",
+      "bytes": 43937,
+      "seconds": 10.841,
+      "sha256": "db6ad2dbb19ba1b4257b2c2bfa1355c36fe5dc46642b6ae9647a92347267e89c"
+    },
+    "calendar": {
+      "textHash": "febad931bce101c65bffa8f4db800a3da008500c45cf26d41ca946669cc387a6",
+      "spoken": "कैलेंडर स्मरण डाउनलोड करू",
+      "bytes": 12253,
+      "seconds": 2.91,
+      "sha256": "275314f6507840c4dd71b70df8f38062931d369604773314a364d38ee0b2d7da"
+    },
+    "followDue": {
+      "textHash": "7bb501e8313c8ac9caa7c30742ad508b32dbb1f953c66a2168a9529303558f10",
+      "spoken": "समीक्षा देय",
+      "bytes": 6110,
+      "seconds": 1.381,
+      "sha256": "2af2f3021707f409eb26b092fe21291a9814482051eaee9d272861b5215323ef"
+    },
+    "requestHelp": {
+      "textHash": "9add6078312d11362c5103c3c33d542da3119fa215e27ac1def64f055eec34fe",
+      "spoken": "आग्रह के मदद के जरूरत अछि",
+      "bytes": 10528,
+      "seconds": 2.49,
+      "sha256": "abd81aaca1994c27fb704a9bd4d03990e7b62543e3bb92c9d514eb9fb6ae6ac0"
+    },
+    "blockedHelp": {
+      "textHash": "ce763abec830f9eb9687a2afbb2db5f78b75142d78488be1e6d47888022fea6f",
+      "spoken": "संस्थाक उत्तर राखू। की कमी अछि, कोन सुधार जरूरी अछि आ फेरसँ कोना प्रस्तुत करब, से पूछू। अस्वीकृत अथवा अधूरा अनुरोध पंजीकृत नामांकन नहि अछि।",
+      "bytes": 59392,
+      "seconds": 14.703,
+      "sha256": "8340608b07e81b141de8121d89167b1a275eef451b10bddf13b7b9ea6b679a55"
+    },
+    "recheck": {
+      "textHash": "be640a8ff66c58607b80cfc7ccf7c4abf3f9084c38aa6868374d172c21486223",
+      "spoken": "फेरसँ जाँच करू",
+      "bytes": 7356,
+      "seconds": 1.699,
+      "sha256": "def3be52d87a526b3afed1e5843155d320d4b97e0903aab48cb83a8339d779ea"
+    },
+    "familyRecord": {
+      "textHash": "561f94a71c7ac6df23a5108b33f5773ca68c176890d2de207a76105de52b391b",
+      "spoken": "अहाँक पारिवारिक रिकार्ड",
+      "bytes": 8513,
+      "seconds": 1.98,
+      "sha256": "c3fc2c0ded815fffdb136206d315d2794f917fab85c289c53e86829c915410f4"
+    },
+    "familyHelp": {
+      "textHash": "6f36385b5bb9976bbc0e361781e580f3fe57c969c89c6ac066ae6841115b9853",
+      "spoken": "केवल ओ चीज जोड़ू जे अहां कें परिवार कें खाता कें पहचान करय मे मदद करतय आ ओकर रिकोर्ड खोजय मे मदद करतय. अहां निजी विवरण बाहर छोड़ि सकय छी.",
+      "bytes": 59871,
+      "seconds": 14.828,
+      "sha256": "64f1cdda5394b7287c8800be564b8c46af1e6dead6e06cf2047aa43cb490e9f0"
+    },
+    "recordLocation": {
+      "textHash": "7c8147f6d522f4e0d0a7f0d4613f9479b7c0ae8dacf6cf86587cf70dd21db2ca",
+      "spoken": "अहाँक परिवार के रिकोर्ड कतय भेटत? (वैकल्पिक)",
+      "bytes": 18787,
+      "seconds": 4.55,
+      "sha256": "aa0f2f2004754f713403e7b0d614b291f0feb7aeced5ff3714ea8596f60686f0"
+    },
+    "locationHelp": {
+      "textHash": "6903f18a6dc07b533f451a259e292a3b37ac048a56203b0289fae27db85ee949",
+      "spoken": "जेना : घर मे नील रंगक फोल्डर। ई स्थान परिवारक पत्रक मे शामिल अछि। पासवर्ड या पूरा खाता नंबर नहि जोड़ू.",
+      "bytes": 42497,
+      "seconds": 10.488,
+      "sha256": "73da572e886d4546ff7e9e1c2daf917bc23a0ec17c6c6d40371912fb3db7142a"
+    },
+    "addNomineeNote": {
+      "textHash": "ac8acd1b09de6a3e3488fe81270d244d2e987405d7a3e4cd21ce947e40e5ffc3",
+      "spoken": "एकटा आओर नामांकित नोट जोड़ू",
+      "bytes": 11875,
+      "seconds": 2.816,
+      "sha256": "017d2377354437171efd5ef849d9c957bc44fc501c8914c398e36767b28691b4"
+    },
+    "optionalDetails": {
+      "textHash": "9b102707d5cfc91a6f17fd5d16e14f31c362fccba7025dd19991d16ca5e114de",
+      "spoken": "पारिवारिक विवरण वैकल्पिक अछि",
+      "bytes": 12164,
+      "seconds": 2.892,
+      "sha256": "a1e78c9c0a0cb7b703e8b890f0dab54911406428d7d5fb5e85b1a81f2886c9f0"
+    },
+    "notProvided": {
+      "textHash": "b41b1c7929fc207df405ad554f79d950d6fac21abe5f5c053a50baf56457f2e8",
+      "spoken": "एहि सूची मे नहि जोडल गेल",
+      "bytes": 9760,
+      "seconds": 2.299,
+      "sha256": "e845a1ede8fcaa824cfb62a5dcdd2da6a7b2f30876ba64893d0eec30aa6e1701"
+    },
+    "unsaved": {
+      "textHash": "792fd5b2081f99b6bee081ca952988324e75ec6bbcd8b0b86b395267ebb39ffe",
+      "spoken": "परिवर्तन बादक लेल सहेजल नहि गेल",
+      "bytes": 12252,
+      "seconds": 2.912,
+      "sha256": "02aeb16607f2f340c4a85ba459ba4abbf5702e546ae0df485961d76564ce8ba7"
+    },
+    "savedStatus": {
+      "textHash": "910c0948450dd0cd676da8f2520b9f6c66b3bf6ace99efb30dafff5888bdeaf2",
+      "spoken": "अहाँक डाउनलोड फाइलमे सहेजल गेल",
+      "bytes": 13312,
+      "seconds": 3.175,
+      "sha256": "c7f67219bdb4fba29bd0806ab70ada82c3ad8078ab6f6a7499b29237f558c538"
+    },
+    "passwordAgain": {
+      "textHash": "5906b980c1feb00cce845f76f7d1b0adb6d4d4da73a6008d25a00933634ccbcc",
+      "spoken": "पासवर्ड दोहराउ",
+      "bytes": 6402,
+      "seconds": 1.455,
+      "sha256": "8650362ab47fee6c4ddd0d82d24915611b0ee74ae21182e259f1396baa329bef"
+    },
+    "passwordMismatch": {
+      "textHash": "d64c7bceb605321d75c43bab5d30bff33ff3cd3dda542eac0a6594c9521ea2e9",
+      "spoken": "पासवर्ड मेल नहि खाइत अछि।",
+      "bytes": 10149,
+      "seconds": 2.394,
+      "sha256": "e318afcc80a63cf37981adceae7d4a32930d1978deed1621d36db4f2b539ac10"
+    },
+    "showPassword": {
+      "textHash": "4292cc3921314498ddc9d91181a1c00734ff50eae56d8367cecf2653700dca2f",
+      "spoken": "पासवर्ड देखाउ",
+      "bytes": 6497,
+      "seconds": 1.469,
+      "sha256": "9643398cdba747549cc62375df3cbe9fa9dc7eec14d6ebb8c87735d060dcbca9"
+    },
+    "saveTip": {
+      "textHash": "5413e13863f8422aca2f9d48479d18c8174f856aa65f6dc97bd0ba7a6f95fc69",
+      "spoken": "डाउनलोड केलाक बाद डाउनलोड मे अपन .विरासत फाइल देखू. पासवर्ड अलग राखू। नव परिवर्तनक लेल नव सेवक आवश्यकता अछि।",
+      "bytes": 44412,
+      "seconds": 10.966,
+      "sha256": "790344712f84678787297ddea983bbbf9fdf93ffa1ceaecc8d0b4292e897d31a"
+    },
+    "evidenceScope": {
+      "textHash": "24ad89af0db18bf79ff1e0ec4af9a7d9f9f8133b2e11ed6133ab5d1b95278f29",
+      "spoken": "रिकार्ड की देखा रहल अछि?",
+      "bytes": 9090,
+      "seconds": 2.124,
+      "sha256": "a9e834b6523cae88e85b5689b0b1202f4fba3e5670d0f14f9ee0284be06d82bc"
+    },
+    "statusOnly": {
+      "textHash": "fffd9988a66856319d867652674eca42307f97bea25a60aef8dce8bd7bd3927d",
+      "spoken": "ओहि मे कहल गेल अछि जे नामांकन पंजीकृत अछि",
+      "bytes": 17439,
+      "seconds": 4.208,
+      "sha256": "cc1e0e35d7a93b72afabf144b20736b453b0a10b380712bac14d53c7e534efa9"
+    },
+    "detailsChecked": {
+      "textHash": "c5254cb912a5315f6c0b77efe5beb387a140b8e243d7c2542f5f35a3ed873628",
+      "spoken": "हम नामांकित व्यक्तिक विवरण सेहो देखलहुँ",
+      "bytes": 15139,
+      "seconds": 3.637,
+      "sha256": "4668efeb96f7424cf12949782c96816514378b03738d76d995ce489404bc1fcf"
+    },
+    "receiptExample": {
+      "textHash": "c186baf1fffa793b6f66e8d9bf481807892bc8f075fb17a7438c852ac84f634c",
+      "spoken": "“अहाँक अनुरोध प्राप्त भेल” एकर अर्थ अछि जे अनुरोध अखनो लंबित अछि।",
+      "bytes": 24835,
+      "seconds": 6.049,
+      "sha256": "8420a2e88a6b3da1994fc79810d2570f8b0bdc90a8f4b02dd539e5fc1b3be318"
+    },
+    "registeredExample": {
+      "textHash": "b21e7945d1d3f4af1a0bca8dc6da365c8e8844761389d786fae7ed465d285eca",
+      "spoken": "“नामांकन पंजीकृत” वा “नामांकन: हँ” पंजीकरणक प्रमाण देखबैत अछि। जाँचू जे ओ एहि खाताक पहचान करैत अछि।",
+      "bytes": 40390,
+      "seconds": 9.948,
+      "sha256": "e1e737ee93715b9be1f34381bef1e8eeb937b7a025ae556b802b02b2c0da2f38"
+    },
+    "seeEvidence": {
+      "textHash": "fb0bbafa6085471fe8308637f9785342228f894a889c87589815b41108b2e031",
+      "spoken": "पुष्टिक रूप मे की गिनल जाइत अछि?",
+      "bytes": 10720,
+      "seconds": 2.528,
+      "sha256": "705d8f9ee458b15f4b8033c3d2800c3675492a3f654c4171df5c4dd6646c8a68"
+    },
+    "fictionalExample": {
+      "textHash": "bca4d469c8ba5eaca68bcc6ad58ce23b5f36700d4578abc95cc6211ce810a552",
+      "spoken": "मात्र सचित्र शब्दावली",
+      "bytes": 11781,
+      "seconds": 2.791,
+      "sha256": "8103521de1231da4913f523ad8c4896e7d1947c05aae84e11ef3821decdc4168"
+    },
+    "pause": {
+      "textHash": "ee2a56739d3f7b15fe98a45d75c55f16181d7f65df5d065b0d0bc57852be016f",
+      "spoken": "विराम रहब",
+      "bytes": 5626,
+      "seconds": 1.256,
+      "sha256": "8f6f49a039a56c0bc3c550388e705ccc7b8d2f4258edfc5bc6466b713fc24a61"
+    },
+    "resumeAudio": {
+      "textHash": "9a577150f654027a7d29659ca73992fe633dc0cfa59d227578c1bc91903b0ef0",
+      "spoken": "सुनैत रहू",
+      "bytes": 5152,
+      "seconds": 1.15,
+      "sha256": "a2c6e467b98cc96fc10f0f1ff53ee1bf871b1942de89de9d5d412d7d812aacd8"
+    },
+    "stop": {
+      "textHash": "fee25a678491c9969fa4ac22ba43cafd3c2f4808c7d137e6c5c0302daf6e89e2",
+      "spoken": "रुकि जाउ",
+      "bytes": 5433,
+      "seconds": 1.203,
+      "sha256": "47a91ee10495df70d8e76c0343de7b8aa467905945641d4fb20e6aea429ddc03"
+    },
+    "listening": {
+      "textHash": "f9f53a98ac71031d4328a614100d8c0e8a244c56031e39d9cf8c343b70044260",
+      "spoken": "पृष्ठ पढ़ते हुए",
+      "bytes": 6686,
+      "seconds": 1.535,
+      "sha256": "3975f433b93c6b877387607ae067feb35ddc05560d4edd14d7cb3fa642ad3244"
+    },
+    "finishedAudio": {
+      "textHash": "8408ab80e088917d21b72f1b318e39ccd64a4210c504260bfc671f0cfdd5021e",
+      "spoken": "पढ़ना समाप्त",
+      "bytes": 5538,
+      "seconds": 1.246,
+      "sha256": "61776783e6f2ae1f93bf6a79ceff76682be1147f13d36460129720f6cb1ec9bc"
+    },
+    "voice": {
+      "textHash": "b5726b7958099a68b631701ffbd916330af14bd59928db0c9e24e5632ce7256d",
+      "spoken": "सुनते हुए",
+      "bytes": 5434,
+      "seconds": 1.221,
+      "sha256": "a78f3266adc3bd923e77a66f826235adc79e08c5dbdfba697d8beb3cc676335d"
+    },
+    "speed": {
+      "textHash": "ca4ea2002369c3722ca619779cf9c3de05649cfe40d94f875ffe2115362a6b5c",
+      "spoken": "पढ़बाक गति",
+      "bytes": 6010,
+      "seconds": 1.364,
+      "sha256": "d4ddf2a8f924849114f12711f907b1f18b4020c1713343ea830e44b645b5f9db"
+    },
+    "slower": {
+      "textHash": "ed47cb41626e8cd7906bb937c5964ee95bb5477361cae5861ec9fef182c5017c",
+      "spoken": "धीमा",
+      "bytes": 4379,
+      "seconds": 0.954,
+      "sha256": "ed8978ae8bd788ff2351d563c9aca5bee539319a00f7238139dee30cb6bd4183"
+    },
+    "normalSpeed": {
+      "textHash": "b5ba677d7799e41fee0458d58b926515fe6e36090b8351b714b9c29672f583fd",
+      "spoken": "प्राकृतिक",
+      "bytes": 5152,
+      "seconds": 1.148,
+      "sha256": "3b44d26d8a50a1d1cb1f254fcf63de47b6d0062eaca21b727c5be85d0ed7a737"
+    },
+    "faster": {
+      "textHash": "1a7e6bea10d4dd8ee2a04a98143a95e62d98fa05e91cb0575f9d869b421b1a96",
+      "spoken": "तेजीसँ",
+      "bytes": 5051,
+      "seconds": 1.125,
+      "sha256": "1bebe02e6206c30a9909bb52226a7a3eb2a621565357c9c3ac96ed813df0ff86"
+    },
+    "previewVoice": {
+      "textHash": "4b2000885c9872a63f98c25ae82bcf121d637e8b9df254adc74dad9e58e3d177",
+      "spoken": "पूर्वावलोकन आवाज",
+      "bytes": 7265,
+      "seconds": 1.657,
+      "sha256": "a8e1b871de36bbd095c89b9ba424bef420f95538c01bc25f8ee4d1c8d9c8904d"
+    },
+    "voicePreview": {
+      "textHash": "7f3a2fd2e36ba16b025a14eff53215310568d453c740d4dea02b25354e5735c2",
+      "spoken": "हम अहाँक भाषा मे निर्देश पढ़ब, एक-एक डेग।",
+      "bytes": 19457,
+      "seconds": 4.715,
+      "sha256": "9e6fe57eedb822a62cebd16fecc64a87f5246680be85aa029b518408f6ac33ad"
+    },
+    "voiceHelp": {
+      "textHash": "410cac24f432941a148f69571fafec9c8ddacf88ffc02ebc301040c9d1b1be0e",
+      "spoken": "एहि भाषा मे लिखित मार्गदर्शन उपलब्ध अछि । ओडियो उपलब्धताक लेल भाषा चयनकर्ताक जाँच करू। अहाँक प्रविष्टि आ पासवर्ड निजी रहैत अछि।",
+      "bytes": 54110,
+      "seconds": 13.374,
+      "sha256": "7303e8481160e488a9d973a7e74f5a90945181723f88e422a6a0f19d8258f06c"
+    },
+    "speechError": {
+      "textHash": "1f20bdbd7a7ffb0068eef50e5b2b61b56c7a866683dd765c1404682cad68403c",
+      "spoken": "ओडियो लोड नहि भ सकल। अपन कनेक्शन जाँचू, फेर फेरसँ प्रयास करू टैप करू. अहाँक स्थान राखल अछि।",
+      "bytes": 36352,
+      "seconds": 8.94,
+      "sha256": "aa733242232c37a2a846e017192846afae7e06904e75fe4303b9a191245cf65b"
+    },
+    "readingSettings": {
+      "textHash": "91854bea6d4725ee19201fc53b2aa24b82ebc4e5c2647f9d89edcd07aeec2a27",
+      "spoken": "पढ़ब एवं सुनना",
+      "bytes": 6980,
+      "seconds": 1.594,
+      "sha256": "a6851d36f64a742b4216613cbbed5b85d726c5768f347fac76eb728384c257c8"
+    },
+    "appearance": {
+      "textHash": "fdafa738af957fd875bfc54e46d2f2ac238b2ee2e279b95aa1ce0e83b2782d3d",
+      "spoken": "पढ़ने में आराम",
+      "bytes": 7071,
+      "seconds": 1.61,
+      "sha256": "d056901c7089a4e1a3c1d563730424042ccbccdefaf96e6d388c5b38a8ff5f84"
+    },
+    "lineSpacing": {
+      "textHash": "9ef7af720bafc284b2da3778206847effdbd865d199acf8ab72c20761928582f",
+      "spoken": "पाँतिक बीच बेसी जगह",
+      "bytes": 9856,
+      "seconds": 2.328,
+      "sha256": "bfa4319e60cc1ba2bff75aebc7b0089442b96b8bf69f64681cd0557ffbeec9db"
+    },
+    "resetSettings": {
+      "textHash": "217206d6e43efbccbfb4015bef36bab92c969f190eab29863577365714dbf157",
+      "spoken": "रीडिंग सेटिंग्स रीसेट करू",
+      "bytes": 11202,
+      "seconds": 2.643,
+      "sha256": "5eb5abe30a12571e5b4c68bc076ec83b7b21f659efd47d8d565be83e2a17c488"
+    },
+    "languageHelp": {
+      "textHash": "474e01a72133263695745494e387218d5390c75061472e33574de90df08a1951",
+      "spoken": "कोनो समय भाषा बदलू। अहाँक काज जगह पर रहैत अछि।",
+      "bytes": 18209,
+      "seconds": 4.404,
+      "sha256": "c1932d08d729b4135212b781e7daa520491b324df9c6a6db000ce2af2572b4cf"
+    },
+    "removeNote": {
+      "textHash": "19e39d4309a3ef78369ddd6538e3a6677a9be93edf6f8c5dc44e17c958ee29a7",
+      "spoken": "ई नोट हटाउ",
+      "bytes": 6399,
+      "seconds": 1.445,
+      "sha256": "da9e75a23edf7e24bdfa68b0460ada07eb1ecbd9bdd871ffedd42d2bcac27a7f"
+    },
+    "optoutHelp": {
+      "textHash": "c043525d8c9293d8473e6475c99c729cc3c24f4d4f5e32be2727262df8d22df1",
+      "spoken": "एहि सं धारक कें पसंद केवल अइ सूची मे दर्ज कैल जायत छै. कोनों औपचारिक ओप्ट-आउट संस्था कें संग पूरा करनाय आवश्यक छै. विकल्पक समीक्षा बाद मे कएल जा सकैत अछि।",
+      "bytes": 61407,
+      "seconds": 15.213,
+      "sha256": "57441bfaeb1b5263cebef382d8be507a1060af283de6fca4eee19eb9a8290051"
+    },
+    "chooseType": {
+      "textHash": "be5280be2cc0c108933c8d6e264e51301ca061aab65734ef53148cea72d1f13c",
+      "spoken": "जारी रखबाक लेल एकटा खाता प्रकार चुनू.",
+      "bytes": 16959,
+      "seconds": 4.083,
+      "sha256": "5118816cffcfab0b0fe719ce8545d69bb027f5f2b2a04cc594198dae7b936d90"
+    },
+    "currentRecord": {
+      "textHash": "47c162ce39a1df9b80f04540513538c93241ee664b41b7959cb4959ff84eb530",
+      "spoken": "आब जे रिकार्ड भ गेल अछि",
+      "bytes": 11106,
+      "seconds": 2.635,
+      "sha256": "12f92c178e6912aa01a7f7971f668307f8df501251bc55eebf4d3004ee8f0319"
+    },
+    "history": {
+      "textHash": "e0dd6af9d75feb786d40da27a63b2e65702cc4f6a5a0ae486186c36d6cb25e6b",
+      "spoken": "अपनेक अपडेट",
+      "bytes": 6588,
+      "seconds": 1.491,
+      "sha256": "965dab69486ef7c500dc2ead9298ed7728141b672626596f0892ec6e96ca8f7c"
+    },
+    "reviewDate": {
+      "textHash": "80a1b61fb2c94ba9ee8d1475c5ff1fd558912a77974ba4fec0d6893dfac78821",
+      "spoken": "अगिला समीक्षा",
+      "bytes": 6687,
+      "seconds": 1.517,
+      "sha256": "c86973338ac0c4037a28ac922cf811eb238479ce89de268c8aaee8462d7a02f9"
+    },
+    "shareNames": {
+      "textHash": "d4bf2757ee0053ec5be494cde3280109f6f4229c354258ae95d1b70a5921e63b",
+      "spoken": "परिवार आ नामांकित नोट शामिल करू",
+      "bytes": 15039,
+      "seconds": 3.623,
+      "sha256": "fcc414fe8a18a13cc8a8d104d222add359ad69af399ede220da915479cd62e1b"
+    },
+    "shareLocation": {
+      "textHash": "ca8cb5535e9ab134143a72caa51c5812802ee9ec7f7cb8b2ebab8dc79453df7b",
+      "spoken": "रिकोर्ड स्थान शामिल करू",
+      "bytes": 9762,
+      "seconds": 2.298,
+      "sha256": "f083295e307ab80cef3bb81737bb9a0bfab0d58c0afb1a856e4231a57d23f09e"
+    },
+    "shareHelp": {
+      "textHash": "4d34dcfa4fd170150672ca0270be267a04dc0e4d0468fbec2bdd32001115ba9b",
+      "spoken": "की शामिल करबाक अछि से चुनू, फेर नीचाँ देल पन्ना जाँचू। डाउनलोड कएल प्रतिलिपि पासवर्डसँ सुरक्षित नहि अछि।",
+      "bytes": 40478,
+      "seconds": 9.96,
+      "sha256": "82a4198dbb934ef017dc8696eceb732f48ef35f0199871325f31cb2021386651"
+    },
+    "helpScope": {
+      "textHash": "6693065cde939930a902a82fdebc1c9e36a1e2b0ba4883da2ceaf15cbc61954c",
+      "spoken": "ककरो मरलाक बाद मदद करब?",
+      "bytes": 11870,
+      "seconds": 2.82,
+      "sha256": "1040d7815ec6263dfcf69218ed39ab8df554fb3a56bd82be7e161163ce3f6cf6"
+    },
+    "helpScopeText": {
+      "textHash": "5f7135b396050b1201978edd142a9a9416a8a97125bdfe0b9ee1ae9bef2c8333",
+      "spoken": "ई प्रक्रिया जीवित धारकक नामांकन व्यवस्था करबाक लेल अछि। जँ धारकक मृत्यु भऽ गेल हो तँ संस्थासँ मृत धारकक दावा वा संपत्ति हस्तांतरणक प्रक्रिया पूछू। हुनका दिससँ नव नामांकन शुरू नहि करू।",
+      "bytes": 72834,
+      "seconds": 18.07,
+      "sha256": "e198e465f35647289c1431d6a19493329e6e1b51e80029c3f2ff2097ec39ba91"
+    },
+    "openDevice": {
+      "textHash": "b47e767906dd915e1a10cf1adee4e0464d0e2b382c46e1bc3b4a182e611dbb90",
+      "spoken": "एहि डिवाइस पर लोक कएल गेल कोपी खोलू",
+      "bytes": 13311,
+      "seconds": 3.188,
+      "sha256": "33cb00bddaede99bfa00627ebc4e2655ca90292958e317089d4f564102eedfb8"
+    },
+    "keepDevice": {
+      "textHash": "0e1f4ee65bc0b86dc637ce70625fb5dd9a11709dd993d236b9e7bbcb2ac429dd",
+      "spoken": "संगहि एहि डिवाइस पर एकटा लोक कोपी सेहो राखू",
+      "bytes": 22911,
+      "seconds": 5.574,
+      "sha256": "3e11710e7024eed512490afd62829f233ceecf149971a32baf67713d517792d8"
+    },
+    "deviceHelp": {
+      "textHash": "cc3045eef7b1ba57fdadde67ea9e111ca0f92a163b8486cd29b56b0ad758d1e9",
+      "spoken": "वैकल्पिक: एहि ब्राउजरमे पासवर्डसँ सुरक्षित प्रतिलिपि राखू। बदलावक बाद फेर सहेजना जरूरी अछि। साझा उपकरण पर ई विकल्प नहि चुनू। हम अहाँक पासवर्ड कहियो नहि सहेजैत छी।",
+      "bytes": 61215,
+      "seconds": 15.167,
+      "sha256": "d640ad1796d6d8dc8503ce99b507b3c0be95ad0179f6199f8bbdf0471ce51968"
+    },
+    "forgetDevice": {
+      "textHash": "23f0890f25c97310b5484c9ea8c8bf3b24f3be0795ca218af9869cbb821949df",
+      "spoken": "एहि डिवाइस सँ सहेजी गेल प्रतिलिपि हटाउ",
+      "bytes": 14081,
+      "seconds": 3.384,
+      "sha256": "c04d4761d43d65f12729110fc5d2f6d973bcb0241b9cb638df2397fd8ce3da07"
+    },
+    "forgetDeviceAsk": {
+      "textHash": "e3ee8ed1fcb5a86c7dc0168a6a879cdaf279fb84c91ad3bb5d6528319bc5819f",
+      "spoken": "एहि डिवाइस’क लोक कोपी हटाउ? डाउनलोड कएल फाइल रहि जाएत।",
+      "bytes": 20324,
+      "seconds": 4.938,
+      "sha256": "c1fadf50e6423edbdd50b4849d07215e94c462694509b2618a05a65574c3a270"
+    },
+    "deviceUnavailable": {
+      "textHash": "4f8b9c146918dacc40d05f5ebf465d54b26693c74df4336be90d5131b8dce180",
+      "spoken": "फाइल डाउनलोड भ' गेल छल, मुदा ई ब्राउज़र डिवाइस कोपी नहि राखि सकल. वापस करबाक लेल डाउनलोड कएल गेल फाइल क उपयोग करू.",
+      "bytes": 44038,
+      "seconds": 10.868,
+      "sha256": "feb510182a06ab4b76892bd754c80c4aaf282a564493ae786767ad73504af815"
+    },
+    "chooseFile": {
+      "textHash": "cc9fdf375c705e01904259c51be84b54da6b70c77615b91e2fd8ada066a54a38",
+      "spoken": "अपन सहेजल गेल .विरासत फाइल अथवा डिवाइस कोपी चुनू.",
+      "bytes": 20607,
+      "seconds": 4.999,
+      "sha256": "f36b2d876ca75477fe991823d4cce81bbdbd176752187d6cc4aadf2144b9dd61"
+    },
+    "replaceDraft": {
+      "textHash": "37c30cb8075034f5fb0ee42bc4b8ac58e3b227fdd58fe2847f3885f4c4081460",
+      "spoken": "दोसर खाता शुरू करू? अहाँक अधूरा खाता बदलल जाएत।",
+      "bytes": 19457,
+      "seconds": 4.713,
+      "sha256": "f41c6e6985d00cf928a197c12a4fd228f3168f175eb9efb4ffeb9474a9a35037"
+    },
+    "replaceList": {
+      "textHash": "1757fe8364a3517eb3d752f927019fdce7264792a90bb532f15a70ebc543bed9",
+      "spoken": "दोसर सूची खोलब एहि सत्रक स्थान लेत. जरूरत पड़ला पर पहिने अपन काज बचाउ।",
+      "bytes": 30592,
+      "seconds": 7.499,
+      "sha256": "2c1ec73d28deea91d52ebe57d116dd1f96bb8409953c00660bf81d47cbb7a477"
+    },
+    "validFollowup": {
+      "textHash": "1d6473b1fc9542c0b39adc280671c5e01df0e18b40347b4abde110812c2544e1",
+      "spoken": "असली तारीख दर्ज करू, वा तीनू बक्सा खाली छोड़ू.",
+      "bytes": 21762,
+      "seconds": 5.29,
+      "sha256": "3e1011ad3ab41a087b2ad6c04d2b5a50ffc4d6df2e4487d7ef70838866cacbde"
+    },
+    "seeNext": {
+      "textHash": "2b75fc3dff1c11de15a1f1276d1587d094a8d3269acf32a0b8d0459bb4462396",
+      "spoken": "हमर अगिला डेग देखू",
+      "bytes": 8028,
+      "seconds": 1.869,
+      "sha256": "c5689c5f39ec7ca13a4b1daf806621c8cd8a595ebfb200694c06ef5ca102fb34"
+    },
+    "unfinishedChanges": {
+      "textHash": "f9a727f2755b4dc93f92265d111a0eb602eaa848c7e2f5bb7a045f3f265d7489",
+      "spoken": "अधूरा परिवर्तन जारी राखू",
+      "bytes": 10246,
+      "seconds": 2.403,
+      "sha256": "cdfc391b32c510371a6fa11037e70b8a3dd7fdf4b5260de738cd4b1194e83a75"
+    },
+    "linked": {
+      "textHash": "f23490c58f10a747917199b6621a5696a65856e16b6313fea2fc88e35fb62574",
+      "spoken": "डिमेट खाता के पालन करैत अछि",
+      "bytes": 11099,
+      "seconds": 2.623,
+      "sha256": "c67262d3197c56cb805eb5549c12fce3e2a458ff81e83e03be35d2025b46c2be"
+    },
+    "linkedTo": {
+      "textHash": "a14ad1e40dcc6b2adbe3092d0e1cc8afe96c88e13444342a16175f7888c8c3dd",
+      "spoken": "लिंक डिमेट खाता",
+      "bytes": 7357,
+      "seconds": 1.689,
+      "sha256": "1acb93800c285b9ef473e3552ad0a5d0dd4e3fb9e9139ce6b7eb4b02c0cbbd75"
+    },
+    "privateRecord": {
+      "textHash": "94e9d65b4936b2b0295e4418a0c2145d06f72636fec7cb46c7034f924f0cc4f3",
+      "spoken": "अहाँक निजी रिकार्ड नोट",
+      "bytes": 8418,
+      "seconds": 1.957,
+      "sha256": "d0ff227930ffa6bdb682683f7132834690e4bdc77517ca1f98a15aa7ca75a86c"
+    },
+    "privateRecordHelp": {
+      "textHash": "c07330e93803d5ba0ad47d3e0a8dc0aa46cdaa6b16c929789ad8bec6c434f64a",
+      "spoken": "ई टिप्पणी अहाँक पासवर्डसँ सुरक्षित सहेजल फाइलमे रहैत अछि। एकरा पारिवारिक सारांश आ पृष्ठक ओडियोमे नहि राखल जाइत अछि।",
+      "bytes": 45574,
+      "seconds": 11.242,
+      "sha256": "6cf22bf62772e5b804b869afed75aa6975da6f061d3a3c12c7ecb6cbcebded5a"
+    },
+    "readRules": {
+      "textHash": "6891f0ea02b5e3d4af222d8d840390a52457557115bda449c462408d3870ac10",
+      "spoken": "आधिकारिक नियम पढ़ें",
+      "bytes": 9086,
+      "seconds": 2.129,
+      "sha256": "ac94fd8e2fec3bd36e39d03ce5a6c85ecb401bec1ae886942e4775d46132e10e"
+    },
+    "beforeContinue": {
+      "textHash": "804ba49a150566a5e8f26b10652d596526fc569d22a36dbd632d9faa3ae4d86e",
+      "spoken": "आगू बढ़बासँ पहिने",
+      "bytes": 8515,
+      "seconds": 1.978,
+      "sha256": "c8dd4b0abfd837653149110e35e946a821418c60d6b6a011cf172c80bf2c63ce"
+    },
+    "checkConnection": {
+      "textHash": "7486972e08d3f3e54b744cea2c59b64352e543336417a0fd09260b0cbf2071c1",
+      "spoken": "जाँचू जे ई सभ एक संग अछि",
+      "bytes": 11588,
+      "seconds": 2.744,
+      "sha256": "deae4f0fd99ace380165e58bd96127ed138685f61cb03223af2f31a54b405642"
+    },
+    "connectionHelp": {
+      "textHash": "adc5fbcab884d0c93ba05c6b5788d03058593f10af894109f81f6f328fae9a0a",
+      "spoken": "डिमैट स्टेटमेंट कें उपयोग इ जांचय कें लेल करूं की इ फंड यूनिट अइ सटीक डिमैट खाता मे राखल गेल छै, एकहि धारक कें साथ. परिवार कें विभिन्न सदस्यक कें खाताक मे कोनों नामांकन साझा नहि कैल जायत छै.",
+      "bytes": 81091,
+      "seconds": 20.114,
+      "sha256": "a34b26c675c9b10723810879fff892dfb18b85106c55c8f1de7f0702ddbf1252"
+    },
+    "sameHolders": {
+      "textHash": "feb73c091d31a8576c0006cf56dd5f73376cf90efacdfbace2cfe1d40cdb6956",
+      "spoken": "हम स्टेटमेंट चेक केलहुं: ई यूनिट आ होल्डर एहि डिमैट खाता सं मेल खाइत अछि.",
+      "bytes": 26560,
+      "seconds": 6.493,
+      "sha256": "7070b6076502cc133536701dda9257d31f7feae50dfe783dd5e81d49f73952f3"
+    },
+    "linkAccount": {
+      "textHash": "81535263ca6739d0e3464c2b7d1d352a829c003eabb9553e5bf390d9ce43c8f7",
+      "spoken": "एहि डिमेट खाता केँ लिंक करू",
+      "bytes": 11104,
+      "seconds": 2.618,
+      "sha256": "45836e18daac8e648edef98815e4f39f669e1d610821b28c0abb18f15561a3e0"
+    },
+    "replaceChanges": {
+      "textHash": "3aff27aa09e1fe51136a3ea8c22406e76c6c2fea2db5e4e4fd92a6e8d6834fbd",
+      "spoken": "अहाँक अधूरा परिवर्तन अछि। जारी रहब ओहि मसौदा के जगह लैत अछि। घर वापस आबय लेल रद्द करू आओर पहिने एकरा समाप्त करू या सेव करू.",
+      "bytes": 56515,
+      "seconds": 13.982,
+      "sha256": "d6f32dac71838896d2b9945766d8921049dc2adbefa2a8354b17950341cd5237"
+    },
+    "startOwnList": {
+      "textHash": "bb4b7e504f0e2f0b481a98b453053ab2de506dc141bc68e9520df03650264f1d",
+      "spoken": "हमर अपन लिस्ट शुरू करू",
+      "bytes": 9953,
+      "seconds": 2.347,
+      "sha256": "1d40039237369e28aed013f485f93684e361a219bf5c50c0e054c956496a91e6"
+    },
+    "startOwnHelp": {
+      "textHash": "3e636ff4ba9fee68241e320214264062f86754321ffd4089621e2fcc6dbd622b",
+      "spoken": "अपन परिवार के लेल एकटा ताजा लिस्ट शुरू करू? एहि स एहि सत्र स काल्पनिक उदाहरण दूर भ जाइत अछि।",
+      "bytes": 38945,
+      "seconds": 9.597,
+      "sha256": "5431472426f9312d87774e4237c8af46b358097241c78b0cfda7d3e53ccfce57"
+    },
+    "familyPending": {
+      "textHash": "03f0079a7ee7318a849c0ab2b6802170fe56fbabc2be787e566c4e9876be1b8d",
+      "spoken": "परिवारक विवरण एखन धरि समीक्षा नहि भेल अछि",
+      "bytes": 17730,
+      "seconds": 4.284,
+      "sha256": "4a3a7d4437ef8b9d1851177471b8c1e8adff1743e7f6228ffc3317482be30ff5"
+    },
+    "familyReviewed": {
+      "textHash": "30045927fb51ccf919123996f329a3155df14850c8428f1017bae2b461150c1e",
+      "spoken": "पारिवारिक विवरण समीक्षा",
+      "bytes": 10723,
+      "seconds": 2.528,
+      "sha256": "e539f4b4256a52bf4810012e9cffdb4d967b67fd8b27bc1ecc0029696b54228d"
+    },
+    "familyReviewCheck": {
+      "textHash": "61c02ca72db757ffd58f41df146c8aa1b06c7788101b4fe68f57000fc42af1ea",
+      "spoken": "हम समीक्षा केलहुं जे हमर परिवार के की देखबाक चाही। हम कोनो खाली खेत बाहर छोड़ब पसिन केलहुं।",
+      "bytes": 34150,
+      "seconds": 8.396,
+      "sha256": "bf44c157ba728e1374f24baa6678d6ac4daba853de9f64fd984695b663507bcb"
+    },
+    "familyReviewHelp": {
+      "textHash": "62ea08c97cd8e31d5c1b72fae68bfa48f2d50d25500d2f33ccefd710d1998976",
+      "spoken": "ई अलग चेक अछि। पंजीकृत नामांकन सं अहां के परिवार के पता नहिं चलैत अछि जे खाता या ओकर रिकोर्ड कतय सं मिलत.",
+      "bytes": 42213,
+      "seconds": 10.394,
+      "sha256": "541110b88063943ba8743e3dd0e327df192e0bda3887062864edd7da2f18ce24"
+    },
+    "notIncluded": {
+      "textHash": "37df4715ac435a619f70b4bc83bb1333b08df2a2434f58466f810cba1eab097c",
+      "spoken": "पसंद स शामिल नहि",
+      "bytes": 7552,
+      "seconds": 1.745,
+      "sha256": "8d76aaa37aa02745be311825f92ef0584f43c70fefd0c97ef945db37c9799256"
+    },
+    "familyReadyNext": {
+      "textHash": "6a559a6efe1537ca1d22afb1ede8f4f5e75bb33843dda19ff33d8382e1080f50",
+      "spoken": "एहि शीट कें कतहु राखूं जत अहां कें परिवार कें भरोसेमंद सदस्य कें भेट सकय. जखन विवरण बदलत तखन एकर समीक्षा करू।",
+      "bytes": 47780,
+      "seconds": 11.801,
+      "sha256": "136364f7857fb2e84e1969edb6d7f16da134442d39efd4d0f0a2e8c7c5083bc6"
+    },
+    "familyRemaining": {
+      "textHash": "8e1204bf8bc3ad0c75a404d71e36906013858013255b593d343ffc7adfaa8de6",
+      "spoken": "समीक्षा करबाक लेल पारिवारिक अभिलेख",
+      "bytes": 14852,
+      "seconds": 3.57,
+      "sha256": "71047d0d5f6c0b29737d2c158dc2cd0e79b1f953ab816b95c52d58060d63e29b"
+    },
+    "onlineRoute": {
+      "textHash": "a04f86399028481bb8dcf20c7d21e561a4613f610a2f8e6e3fdd1865c0f58ed3",
+      "spoken": "ओनलाइन सेवाक उपयोग करू",
+      "bytes": 10240,
+      "seconds": 2.41,
+      "sha256": "29795f8720e7b65b7c1d94012865deb22d7ee1e570c6a5d2882cfc02671a235e"
+    },
+    "offlineRoute": {
+      "textHash": "9717dc734ccc5b615e58d46afc7a81aca0897e533ded680ca5799efca50209e8",
+      "spoken": "व्यक्तिगत रूप स मदद प्राप्त करू",
+      "bytes": 11297,
+      "seconds": 2.673,
+      "sha256": "2653b92136acd401221218cce4ae8b14158ade7c91e3e92127fc94a9743764ac"
+    },
+    "routeChoice": {
+      "textHash": "3eacf9a34f5f24fa1537e27b5d307d7617d1a64e999ea4a74836906381ba60b7",
+      "spoken": "अहाँ ई कोना करय चाहब?",
+      "bytes": 9760,
+      "seconds": 2.28,
+      "sha256": "6edce3191c7505c058918fcd62bdd400375a11210ca372fce777c92edc8fa0d9"
+    },
+    "saveBeforeLeaving": {
+      "textHash": "aea50d9a9b930c0897795b9a489a23ccd499aac2e5f63843306473c8ad24d329",
+      "spoken": "आधिकारिक सेवा खोलबा स पहिने अपन जगह बचाउ। जे भेल से रिकोर्ड करय लेल एतय वापस आबि जाउ।",
+      "bytes": 37894,
+      "seconds": 9.332,
+      "sha256": "2f31add920855e90b3c97c8d7e28e6e637f787793f0bae22bf4218465eee1914"
+    },
+    "offlineContact": {
+      "textHash": "56618051f45465f649a8a7018ab78b7bcf7f30240a92a9a0cad63ca4da9d381b",
+      "spoken": "शाखा या सेवा केंद्र कें पता लगावय कें लेल संस्था कें आधिकारिक मदद पृष्ठ कें उपयोग करूं. यात्रा सं पहिने पूछू जे एहि खाता के लेल नामांकन संभालैत अछि कि नहि.",
+      "bytes": 63907,
+      "seconds": 15.828,
+      "sha256": "e469c3012d6ebc5b0de50db18186d8066628d828497041a8f3168ea02122b539"
+    },
+    "offlineBring": {
+      "textHash": "60f7a5baf5529f5ba6557d816de12647f0d64195995edf36f903127705521889",
+      "spoken": "पूछू जे कोन फोर्म, धारक के हस्ताक्षर आ दस्तावेज के जरूरत अछि. खाता कें पहचान करय कें लेल कोनों स्टेटमेंट या पासबुक लेनाय; जाबे तक संस्था के आवश्यकता नै होयत ताबे तक मूल अपन संग राखू।",
+      "bytes": 70625,
+      "seconds": 17.507,
+      "sha256": "6f6c53373b5530c486630addf85172bd6f569afeb78fa63ac18ea0b3678c55d3"
+    },
+    "offlineAsk": {
+      "textHash": "d049058df7c37bcf13ec4b666933ea6c099f125a214bdafff1b77f9746a570df",
+      "spoken": "कर्मचारी सं पहिने मौजूदा नामांकन के जांच करय लेल कहब. यदि कोनों बदलाव कें जरूरत छै, त एकटा दिनांकित रसीद आ अंतिम पंजीकरण रिकोर्ड कोना प्राप्त कैल जै कें लेल पूछूं.",
+      "bytes": 60063,
+      "seconds": 14.862,
+      "sha256": "fc277092c1c22226087ce555d9b4ccf9d2243c32c9e1370ee82ec7fb6fcde380"
+    },
+    "scopeGeneral": {
+      "textHash": "50b4b66d1a57e3a1c7f0a51861ac0044b09229248f149c3353620b337f8bcea3",
+      "spoken": "एहि खाता प्रकारक लेल सामान्य मार्गदर्शन। हम एहि संस्था क सटीक स्क्रीन क समीक्षा नहि केलहुं अछि।",
+      "bytes": 38465,
+      "seconds": 9.46,
+      "sha256": "751554dc1d09ff7290a487ca52429c7ae5cb8348b1822e7b5856e9d435cfe683"
+    },
+    "scopeHdfc": {
+      "textHash": "82bfabec963c43e48993824cf8071700b7e0b21f82438dee76b19491f4919abc",
+      "spoken": "एचडीएफसी बैंक: बचत आ एफडी/आरडी मार्गदर्शन; संयुक्त धारक शाखा मार्ग के उपयोग करैत छथि।",
+      "bytes": 36542,
+      "seconds": 8.991,
+      "sha256": "46020b01b4ea846e6cf41d24ad4b151b8cc06ad1af5f4c0319f49dd51dfb3a86"
+    },
+    "scopeSbi": {
+      "textHash": "9bebe7bb595727df2aa037af347614d8e2d649302b57be0524c202e4dc70a681",
+      "spoken": "एसबीआई जमा खाता। इ गाइड मे उपलब्ध चैनलक कें कवर कैल गेल छै; ई परीक्षण कएल गेल लोगिन अनुक्रमक दावा नहि करैत अछि.",
+      "bytes": 47293,
+      "seconds": 11.669,
+      "sha256": "c0378bd56fde970bf8a673054b4f720068993fa5c9094b822189ad0609be79a6"
+    },
+    "scopeAxis": {
+      "textHash": "31ada06317108ca678ddc503a204f8025e1fcc34283fab0216ca251949afa05e",
+      "spoken": "एक्सिस बैंक बचत खाता केवल। एफडी/आरडी मार्ग अलग-अलग भ सकैत अछि।",
+      "bytes": 30014,
+      "seconds": 7.36,
+      "sha256": "787f2be460a109b877ac5cf95c404072abe371be846f987844bb0c210bd76ebc"
+    },
+    "scopeZerodhaAdd": {
+      "textHash": "59de607134e0ce10eb3831ba840c8412f965557d3f62adcb4947c38737a774d0",
+      "spoken": "जीरोधा : प्रथम नामांकित जोड़। संयुक्त खाता या अनुपलब्ध आधार सं जुड़ल मोबाइल पहुंच कें लेल संस्थाक कें सहायता कें जरूरत छै.",
+      "bytes": 52868,
+      "seconds": 13.067,
+      "sha256": "d84c392a4dfce9f7912b69dbdf9375c91affe8b9eb094d2e4180be79e80f6072"
+    },
+    "scopeZerodhaChange": {
+      "textHash": "0b94470491746926f9f5bd32b5ad913364c3ecae0d9ae2bcacd27847078f1711",
+      "spoken": "जीरोधा : मौजूदा नामांकित विवरण बदलब या कोनो दोसर नामांकित व्यक्ति जोड़ब।",
+      "bytes": 36071,
+      "seconds": 8.86,
+      "sha256": "911a7f13ab1cfdeacd9cb4576f590d88b19ea7afb8937a55f460eb4ce956465a"
+    },
+    "scopeGroww": {
+      "textHash": "1ae9dd23ac6984fb1fc9c42c891b64ee5654b9b117793257deda028d4b327d82",
+      "spoken": "डिमेट खाता बढ़े। मौजूदा म्यूचुअल-फंड फोलियो कें लेल अलग सेवा मार्ग कें आवश्यकता भ सकय छै.",
+      "bytes": 36639,
+      "seconds": 9.024,
+      "sha256": "20dcc7d2bb6708554a311e32d08fa8f86dee6d136d302dff4df8a1fd5910ced2"
+    },
+    "scopeHdfcMf": {
+      "textHash": "f99da8486803492052bd43f4158e656b03915da5dcd33d95d8c8086e771db3af",
+      "spoken": "एचडीएफसी म्यूचुअल फंड फोलियो। डिमैट कें द्वारा आयोजित इकाइयक डिमैट खाता कें नामांकन कें बाद होयत छै.",
+      "bytes": 39232,
+      "seconds": 9.669,
+      "sha256": "4560336bee81662cc3e7a06565901311b1fe2fa9b6b6006eb520321618d42f6c"
+    },
+    "scopeDematFunds": {
+      "textHash": "8ecb3bd276d6fc059d684214768ab1c4a79dc15bf0df4a20babe398b326efe29",
+      "spoken": "पहिने इ इकाइयक कें धारक डिमैट खाता कें पहचान करूं आ ओकर जांच करूं.",
+      "bytes": 30116,
+      "seconds": 7.389,
+      "sha256": "95f482177980269a299997c330ae05366cff9b435bc16e82533b7020ae983b6b"
+    },
+    "scopeUnknownFunds": {
+      "textHash": "2846deb575c27e2b0c0748cbb57d4bb6a91b215c619d1bf71dc666de7a04fbcd",
+      "spoken": "नामांकन मार्ग चुनय सं पहिने होल्डिंग प्रारूप कें पहचान करनाय आवश्यक छै.",
+      "bytes": 26086,
+      "seconds": 6.371,
+      "sha256": "c27d0bdacf87c83667aa97a2bd884cfe6f89bfdf6604a89ca17f5641b6b813cc"
+    },
+    "sbiAction": {
+      "textHash": "96b4bcbd1fe33eac219be225e0077cd69aa6cde6888d2aec57c9f54d2d376109",
+      "spoken": "एसबीआई योनो, इंटरनेट बैंकिंग आ शाखाक कें माध्यम सं जमा-खाता नामांकन कें प्रस्ताव देयत छै. विशिष्ट खाता चुनू। यदि अहां कें जरूरत कें विकल्प अनुपलब्ध छै, त कोनों शाखा कें पंजीकरण करय कें लेल कहूं या वर्तमान फोर्म कें उपयोग करयत ओकरा बदलय कें लेल कहूं.",
+      "bytes": 97886,
+      "seconds": 24.32,
+      "sha256": "d81b675ea98fbc425ab724b7f4e7a9978a77987d1b372c39062e04ac7a0997df"
+    },
+    "axisStart": {
+      "textHash": "3d10da43d8c8ec84c6bfdd0bd8d5a67fa68e55228acd4f84284650bd92a08133",
+      "spoken": "अक्ष इंटरनेट बैंकिंग मे, सेवाएँ → खाता सेवाएँ → नामांकित को अपडेट करें खोलें | बचत खाता चुनू, फेर नव नामांकित जोड़ू वा नामांकित बदलू.",
+      "bytes": 56798,
+      "seconds": 14.056,
+      "sha256": "1d5d7bd839b5cb344b629411426f631a6bbbcdeed428758b33d284a1b1a3464a"
+    },
+    "axisSubmit": {
+      "textHash": "1a7cd5660cc03f91b2c5c8e1b07ce600e911d8bf7153fa2cbb2661efb31fd394",
+      "spoken": "एक्सिस कें मदद पृष्ठ अनुरोध फोर्म उत्पन्न करनाय, ओकरा पूरा करनाय आ हस्ताक्षर करनाय, ओकरा अपलोड करनाय, आ नेटसिक्योर कोड सं पुष्टि करनाय कें वर्णन करयत छै. जँ अहाँ प्रिंट वा अपलोड नहि क' सकैत छी तँ कोनो शाखाक प्रयोग करू।",
+      "bytes": 80703,
+      "seconds": 20.028,
+      "sha256": "7740db6c9ae2271256f845d5205e9dfb74740a1ccce5368a043657d5e592389c"
+    },
+    "zerodhaChangeForms": {
+      "textHash": "76b6a6f1b6d54f50757104c6e2cddfbf1e6563fa608cf4e4bc5feef102155556",
+      "spoken": "जीरोधा के परिवर्तन निर्देश खोलू। वर्तमान नामांकन आ खाता-संशोधन फोर्म प्राप्त करू; निर्देशक कें अनुसार मौजूदा आ प्रस्तावित नामांकित विवरण दर्ज करूं.",
+      "bytes": 61991,
+      "seconds": 15.345,
+      "sha256": "b5c597d97d0af11d5fd6313c43317c826a656abed66d97389fd208a1c9a134d0"
+    },
+    "zerodhaChangeSubmit": {
+      "textHash": "aa6db8374a6982409adb2f9e66fa476bb7b14a510791e1b7fb21a53379d5fd21",
+      "spoken": "जीरोधा दूनू फोर्म पर हाथ सं हस्ताक्षर करनाय, ओकरा ई-साइन करनाय, आ ओकरा कोनों सपोर्ट टिकट सं संलग्न करनाय कें वर्णन करय छै. वर्तमान निर्देशक पालन करू; यदि अहां ईसाइन नहि कयर सकय छी त विकल्प कें लेल समर्थन पूछूं.",
+      "bytes": 85320,
+      "seconds": 21.182,
+      "sha256": "dcd6265fb6cee0b491127731733ae85917aebcf25f273d4f75a95f2e1544b5ba"
+    },
+    "growwCheck": {
+      "textHash": "6070992b4736f95f4d0e7e66964ee9f496531ee7d382fc36dd07984ef8fd79e7",
+      "spoken": "ग्रो मे, प्रोफाइल → खाता विवरण → नामांकित विवरण खोलू. जाँच करूं की प्रदर्शित नामांकन कोन निवेश या खाता पर लागू छै.",
+      "bytes": 41631,
+      "seconds": 10.254,
+      "sha256": "06f513c7782974b1a4438b1fdd1e2233af181abb85612cbb1d17dfafac6b56fe"
+    },
+    "growwAction": {
+      "textHash": "17561be51626b4dccf9ab41366587b1b96778fc26a0549e7f1d407bbbb066e61",
+      "spoken": "पात्र डिमैट निवेश कें लेल संपादित नामांकित कें उपयोग करूं आ ग्रो कें सत्यापन कें पालन करूं. प्रोफाइल कें अपडेट करनाय इ स्थापित नहि करएयत छै की हर मौजूदा म्यूचुअल-फंड फोलियो बदलल गेल छै; ओहि फोलियो सभकेँ अलगसँ जाँच करू।",
+      "bytes": 84352,
+      "seconds": 20.937,
+      "sha256": "41a16de5a1ffe3eaa70a1bd25f7ded226bfde48a260dd5b51c3a515c255f7089"
+    },
+    "readingNow": {
+      "textHash": "c2019162396c849708cb9151ad5ecd8ee1992af2d3e11cb6decd7745e06a75ff",
+      "spoken": "आब पढ़ि रहल छी",
+      "bytes": 6879,
+      "seconds": 1.581,
+      "sha256": "a9b2f85ff9c3e93a6bae6e17f3a897af257b9a123be2df89d0222eabe78c9807"
+    },
+    "repeatSentence": {
+      "textHash": "c17373a626ab48530d7189ee34dced3bd49b0320c40f95a6cf955374ccec977f",
+      "spoken": "ई फेरसँ बजाउ",
+      "bytes": 7171,
+      "seconds": 1.636,
+      "sha256": "72ce15fcd0c2b12cb89bcae1bcf8dabc848f7534c290e8f70bcdc39ecff330c8"
+    },
+    "nextSentence": {
+      "textHash": "ffd9772dc76bcb32dd46cc957a27687a5fc7a1e54b6c784d2c69579bc43a0051",
+      "spoken": "अगिला भाग",
+      "bytes": 5825,
+      "seconds": 1.299,
+      "sha256": "504f91e61abf782147898553d3cf9e3b657bbbeb025d80d2c3617711c699fd8b"
+    },
+    "previousSentence": {
+      "textHash": "efb61ca01f169f6073ff2d52718c9f402df62dc65735cfceedf77e8a79916ab4",
+      "spoken": "पिछला भाग",
+      "bytes": 5157,
+      "seconds": 1.146,
+      "sha256": "f77a5d55e6df53f7acdf4679512797b948044c1dbb74be313d73b5fad22d9dd1"
+    },
+    "readingPreferences": {
+      "textHash": "b68576e7b5d756f4036064e4110f066591fb0887b03b08f62c2191905e288090",
+      "spoken": "एहि डिवाइस पर पढ़बाक सेटिंग याद राखल जाइत अछि. खाता कें विवरण तखनहि सहेजल जायत छै जखन अहां सहेजएय कें चयन करय छी. रीसेट एहि पढ़बाक वरीयता सभ केँ साफ क' दैत अछि.",
+      "bytes": 57575,
+      "seconds": 14.248,
+      "sha256": "f9e29e52981f905f78de5b2f89c5afaed895ebcbf68e3c1dff81e9ae03c6240f"
+    },
+    "stepType": {
+      "textHash": "a3e24bcf6e82eda0879ceaf69a03d856c914eb6a6b252ce06852ca3b7eaec42e",
+      "spoken": "खाता प्रकार",
+      "bytes": 6013,
+      "seconds": 1.368,
+      "sha256": "ca372056a0c5a126172846f0e8472682b422c1bc872f733594d404de6d4a9bde"
+    },
+    "stepInstitution": {
+      "textHash": "76282c3f2e83d07f41c9082e431d060fdb68337d59edcd35e8766e1f83cfa538",
+      "spoken": "संस्था",
+      "bytes": 5060,
+      "seconds": 1.12,
+      "sha256": "b5ab704f1c183cc8df7bcb5371b8832125de1426f0713cb4fab7748c77f7c6c8"
+    },
+    "stepContext": {
+      "textHash": "defda1fad25cf3bd932f02a2f5fc83d49dd2f3024896237eae2a198f02a3b83c",
+      "spoken": "खाता विवरण",
+      "bytes": 6112,
+      "seconds": 1.384,
+      "sha256": "2ad8e2f275429b2a52af7aff8b1250ada6b952c94f06b0bea07ec608eafa48d6"
+    },
+    "stepNomination": {
+      "textHash": "425ee31257580852cf72b380afc5d127c90fe365471b3a1c0e636ce20e7a2495",
+      "spoken": "नामांकन",
+      "bytes": 5827,
+      "seconds": 1.301,
+      "sha256": "a2aceadfd57c02a9e5203b82ca58fa9f761525fc74ec23558bea799fed30e334"
+    },
+    "savedNext": {
+      "textHash": "099131eb50d70a22790ff738775444f033ff8e37801438aa0ae8e8689d1becaa",
+      "spoken": "अहाँक लोक कोपी तैयार अछि। फाइल आ पासवर्ड कतहु राखू जे फेरसँ भेटत। जखन अहाँ तैयार भ' जायब तखन अपन काज पर वापस आबि जाउ।",
+      "bytes": 49214,
+      "seconds": 12.156,
+      "sha256": "f20cc2b5ec617963b655db2e4e3cd4f1da414809570a2ed8e1d5a4e448bb08d3"
+    },
+    "returnTask": {
+      "textHash": "2cd2a48c42541d76f79d2bad46b71415a84ef36bc3911b5dffb11f42f3d566ca",
+      "spoken": "हमर काज पर वापस आबि जाउ",
+      "bytes": 11487,
+      "seconds": 2.715,
+      "sha256": "3677a2955bd6ef334e7cf369aaf4777a22f374bcf3836a1942cedfcf37322e53"
+    },
+    "olderDeviceCopy": {
+      "textHash": "db37a581a3ca524da74a2bc947c3b58af127ccff291a8201c5480fe189ee1675",
+      "spoken": "डिवाइस कोपी अपडेट नहि कएल गेल छल. अपन नवीनतम परिवर्तनक लेल डाउनलोड कएल गेल फाइल खोलू, अथवा डिवाइस विकल्प चुनल गेल क' संग फेर सँ सहेजू.",
+      "bytes": 50468,
+      "seconds": 12.467,
+      "sha256": "cef77603304619b3b6a3edbacd66bd831522aef9d01bba6b7e03c4c44f5bd103"
+    },
+    "haveReady": {
+      "textHash": "baf03653768071fdbbbe0704cc6760863e1946efbae0ea8e31809048fdeaf503",
+      "spoken": "ई सब तैयार राखू",
+      "bytes": 8318,
+      "seconds": 1.931,
+      "sha256": "c5ac705a0a44fbe50d6af134d42f10a78c0c178dc292217521e5b26e694ce5c1"
+    },
+    "audioLoading": {
+      "textHash": "0dfed8181b4046b06e2d670ef22d3f67cf705128433fc564517d6e69622de48e",
+      "spoken": "ओडियो लोड भ रहल अछि...",
+      "bytes": 7841,
+      "seconds": 1.82,
+      "sha256": "9ca581c07d9c362cfb81dce27381ed7fbb9ed7958f1e579363d5f01d8363f7fd"
+    },
+    "audioRetry": {
+      "textHash": "36522718e268d1e98fc76dde18c2ae4dc93a7ce3dd0309257d9c0e6c83084443",
+      "spoken": "फेर कोशिश करू",
+      "bytes": 6879,
+      "seconds": 1.58,
+      "sha256": "59f2b3016d2ad5f518edfdc545b00803cb4327b2a064aeebdbee45a3b07be7a0"
+    },
+    "audioBlocked": {
+      "textHash": "78f7c1791c8c95aff259c2b6dd65cd51eab187894ec3b524f5c288945f214043",
+      "spoken": "अगिला भाग बजाबय लेल सुनब जारी राखू टैप करू.",
+      "bytes": 17729,
+      "seconds": 4.282,
+      "sha256": "b628ca753df127ecada6aa6b3daf7d8efb1d5f6d6c24693e606b0063d09c5751"
+    },
+    "audioData": {
+      "textHash": "c5f7f032bad0f36d8c7acf1ec53c10c3aefb85a74e118a7c1d571c14ec72d3e2",
+      "spoken": "ओडियो तखने लोड होइत अछि जखन अहाँ सुनब। हाल मे खेलल गेल निर्देश समर्थित ब्राउज़र पर ओफलाइन काज क सकैत अछि. पहिल बेर सुनय लेल इंटरनेट के जरूरत अछि.",
+      "bytes": 58430,
+      "seconds": 14.45,
+      "sha256": "f7e27fe00162fccc9264ef478187f44a66b9a9bc33d40895f69cb4756b4c3bb3"
+    },
+    "audioDraft": {
+      "textHash": "112591980c4aa5be26e8d3e72cdad2980484a1ba2dd07a864702ee4b31375f2b",
+      "spoken": "ई सब कम्प्यूटर द्वारा निर्मित आवाज अछि। उच्चारणक समीक्षा एखनो भ' रहल अछि। यदि कोनों अंतर सुनल जाय त लिखित निर्देशक कें पालन करूं.",
+      "bytes": 54207,
+      "seconds": 13.405,
+      "sha256": "b44103b33de26e5eac4e390a55fbd98ec43a4be543fb193c4c8176d31644592d"
+    },
+    "audioStart": {
+      "textHash": "5e3224bba3a3e5669cb7a44c043d13b14d767b9c3b5c43aa0ae1c6a87ddf256d",
+      "spoken": "सुनु",
+      "bytes": 3999,
+      "seconds": 0.858,
+      "sha256": "12b3c8eb0a3fd61e9464a0da5cef677157e51a424bb4de80827ad55bbf89f4ff"
+    },
+    "audioCache": {
+      "textHash": "39c8275b785be0b45976041c431fcef32022fc7fbe61b7df666111b6864d4692",
+      "spoken": "हालहि मे ओडियो बजाओल गेल",
+      "bytes": 11775,
+      "seconds": 2.808,
+      "sha256": "545192ffa87a160cad493b00096539ddd58ca7320eeae2605ccee68119205a60"
+    },
+    "clearAudio": {
+      "textHash": "ce1ff35cf62dfdf0af7c7c3444c1985b115d13915518a67126b6213cdb49f514",
+      "spoken": "सहेजल ओडियो हटाउ",
+      "bytes": 10335,
+      "seconds": 2.447,
+      "sha256": "4d2e781dd557fc2229e358bcff853ea7644f99c2a99ed74208ac3e5c4ce7c948"
+    },
+    "audioCleared": {
+      "textHash": "829e6f8e77890db294ee03052dee793a57fe386fe10f051497cd7d24d34aa67f",
+      "spoken": "सहेजल गेल ओडियो हटा देल गेल। अहाँक खाता सूची अपरिवर्तित अछि।",
+      "bytes": 28001,
+      "seconds": 6.843,
+      "sha256": "7def63af3cd2cc15e05cf8507ec81c492a0f819f4a368cf0fb9d2bc4d415d8d0"
+    },
+    "audioPrivacy": {
+      "textHash": "89b40e288d93ea23bb0b014f5924604689e91a6bc9a0ba1338b82400fb44db25",
+      "spoken": "पुनः सुनबाक लेल मात्र सार्वजनिक निर्देश सहेजल जाइत अछि । ओडियो अनुरोध एहि वेबसाइटक उपयोग करैत अछि; कोनो आवाज सेवा मे कोनो प्रविष्टि नहि पठाओल जाइत अछि। होस्टिंग लोग मे अहां कें आईपी पता आ अनुरोधित ओडियो फाइल शामिल भ सकय छै.",
+      "bytes": 85697,
+      "seconds": 21.275,
+      "sha256": "b1b690e94202ea5394b7164489afedfb4aef6b0d4ebca97515ba55c013492d12"
+    }
+  }
+}

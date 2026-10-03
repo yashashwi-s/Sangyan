@@ -1,6 +1,6 @@
 # Audio expansion checkpoint — 4 October 2026
 
-The current release scope is 21 written languages: English plus 20 scheduled languages, excluding Bodo and Kashmiri. The locally integrated release now has ten bundled draft recording languages: English, Hindi, Bengali, Marathi, Tamil, Urdu, Gujarati, Punjabi, Kannada and Telugu. The other five candidate packs remain staged until complete validation. Candidate model availability is not released audio coverage. All existing voices and translations remain drafts pending fluent-reader/listener review.
+The current release scope is 21 written languages: English plus 20 scheduled languages, excluding Bodo and Kashmiri. The locally integrated release now has fifteen bundled draft recording languages: English, Hindi, Bengali, Marathi, Tamil, Urdu, Gujarati, Punjabi, Kannada, Telugu, Malayalam, Assamese, Odia, Dogri and Maithili. All nine added packs are complete and technically validated; no fluent/accent/meaning approval is claimed. Candidate model availability is not released audio coverage. All existing voices and translations remain drafts pending fluent-reader/listener review.
 
 ## Concrete build changes
 
@@ -104,3 +104,10 @@ Gujarati, Punjabi, Kannada and Telugu have been copied into the local public ass
 The release command now always runs the audio integrity/provenance builder before generating the offline shell version and checking translations/tests. Candidate revisions are recalculated from exact text, pronunciation rules, pinned model metadata and generator version. Editing a pronunciation rule without rebuilding its clips therefore fails the release gate.
 
 These files are synthetic unreviewed drafts. Technical decoding is not evidence of accent, fluency or correct understanding. This assistant runtime does not support audio input, so no auditory judgment is claimed. The recorded Gujarati phonetic-alias risk remains outstanding. Publication has not occurred at this checkpoint.
+
+
+## All nine complete packs integrated
+
+The batch completed all nine candidates successfully. The complete-file validator checked all **3,213 new MP3s**, with zero failures. The final five packs then passed the current-copy promotion gate and were integrated locally. They add 34,313,888 bytes; all nine additions total **63,214,944 bytes**. The complete local release has **15 audio languages and 5,355 clips**. Public HTTP checks passed all 21 language pages and all 15 audio routes with valid media byte ranges, immutable caching and privacy headers. See [complete validation](audits/2026-10-04-audio-candidates/validation-complete.json), [actual pack metrics](audits/2026-10-04-audio-candidates/complete-pack-metrics.json), [batch phases/timing](audits/2026-10-04-audio-candidates/full-build-progress.json) and [public serving checks](audits/2026-10-04-audio-candidates/serving-all-fifteen.json).
+
+Nepali, Konkani, Meitei, Sanskrit, Santali and Sindhi remain text-only. Bodo/Kashmiri remain excluded from the 21-language release. Each added recording pack uses its verified public ungated model and pinned source metadata; all runtime dependencies and model weights stayed outside the website. Synthetic/draft, non-commercial licence, privacy, per-language coverage and pronunciation-risk disclosures remain present. This is a complete technical draft-audio checkpoint, not a listening study. No publication has occurred.
