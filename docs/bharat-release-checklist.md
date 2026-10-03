@@ -4,7 +4,7 @@ This checklist follows the user's requested scope. It is not a claim that the re
 
 | Requirement | Evidence needed | Current status |
 |---|---|---|
-| Requested 21 text languages: English plus 20 scheduled languages | 21 complete, distinct packs; native names/scripts; generated routes; source and glossary checks; Bodo/Kashmiri excluded from claims and selection | 21 packs present; scope gate and 80 automated checks passed; final integrated audit pending |
+| Requested 21 text languages: English plus 20 scheduled languages | 21 complete, distinct packs; native names/scripts; generated routes; source and glossary checks; Bodo/Kashmiri excluded from claims and selection | 21 packs present; scope gate and 81 automated checks passed; final integrated audit pending |
 | Honest text/audio support | No unsupported Listen controls; translated draft/text-only notices; public audio attribution | Implemented; Meitei → Sindhi switch observed; final all-language audit pending |
 | Low-bandwidth evidence | Frozen source hash, raw results, defined shared bandwidth/latency, readiness metric, distributions | Nine interim runs saved; final-source repetition pending |
 | Unstable connectivity | Requests visibly fail under scheduled outage; native retry restores controls; draft remains safe during language failure | Startup retry passed one CUA trial; retained-draft failure case passed (synthetic SBI draft, server stopped, Gujarati retry notice) |

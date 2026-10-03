@@ -29,3 +29,14 @@ Reviewed 3 October 2026. This is a design review of the private Virasat prototyp
 ## Review gates
 
 Do not claim measured ease of use, certified accessibility, fluent translation quality or real-device readiness from this review. Before broad public use, recruit intended users across literacy levels; record task completion, wrong turns and recovery independently of a facilitator. Review translated text and audio with fluent speakers. Test the full journey with TalkBack on actual 2 GB Android hardware, including 50 accounts and an open keyboard. Maintain dated ownership for official links, language content, translations and recordings. A service cannot stay reliable through visual polish alone.
+
+
+## 4 October integration review
+
+Re-read the [GIGW quick tips](https://guidelines.india.gov.in/quick-tips/) and [myScheme accessibility statement](https://www.myscheme.gov.in/accessibility-statement) during the 21-language release work. Their useful patterns remain keyboard operation, clear headings/skip navigation, synchronized multilingual information and explicit limitations. No government endorsement or accessibility certification is claimed.
+
+The app's help and listening settings now show availability for the selected language from the real recording registry, beside the entry-privacy and synthetic-voice notices. Help retains non-English translation-review disclosure. The audio credits builder derives the available-language list and exact pinned Meta model links from each validated recording manifest, avoiding a stale six-language claim after expansion. The service worker similarly derives listening support from that registry while retaining one shared bounded cache. The guide-route regression check now covers all 21 effective dictionaries.
+
+The same continuation re-read the current [SEBI nomination circular](https://www.sebi.gov.in/sebi_data/attachdocs/jun-2026/1780397706130.pdf), the nomination sections of [HDFC NetBanking FAQs](https://www.hdfc.bank.in/need-help/net-banking-faqs), and [Zerodha correction instructions](https://support.zerodha.com/category/your-zerodha-account/nomination-process/articles/add-modify-or-remove-nominee). Within those inspected routes, the app continues to separate a request receipt from a registration record, single from joint-holder guidance, and initial nomination from correction. This is a source check of public guidance, not a tested logged-in provider journey or legal opinion.
+
+CUA returned an empty browser/app inventory in this continuation. The current additions therefore have automated/source and media checks but no new interactive browser observation. All 81 automated release checks passed. Mobile keyboards, large-text reflow, physical low-memory devices, screen readers, fluent listening and independent task-completion studies remain separate evidence gaps.

@@ -4,7 +4,7 @@ import {readFile,stat} from 'node:fs/promises';
 import {createHash} from 'node:crypto';
 import {audioCatalog} from '../dist/audio-catalog.js';
 import {dictionaries} from '../scripts/dictionaries.mjs';
-import {audioLanguages} from '../dist/languages.js';
+import {audioLanguages,languageInfo} from '../dist/languages.js';
 import {audioQueue} from '../dist/speech.js';
 const hash=data=>createHash('sha256').update(data).digest('hex');
 test('every advertised audio language has actual current recordings for all exported public text',async()=>{
@@ -26,4 +26,17 @@ test('audio deployment permits same-origin media without exposing a synthesis en
  const config=JSON.parse(await readFile(new URL('../vercel.json',import.meta.url))),html=await readFile(new URL('../dist/index.html',import.meta.url),'utf8');
  assert.ok(html.includes("media-src 'self'"));assert.ok(config.headers[0].headers.find(h=>h.key==='Content-Security-Policy').value.includes("media-src 'self'"));
  const code=await readFile(new URL('../dist/speech.js',import.meta.url),'utf8');assert.ok(!code.includes('speechSynthesis'));assert.ok(!code.includes('SpeechSynthesisUtterance'));assert.ok(!code.includes('https://'));
+});
+test('published audio coverage and model credits match each actual language manifest',async()=>{
+ const page=await readFile(new URL('../dist/audio-credits.html',import.meta.url),'utf8');
+ const links=[...page.matchAll(/href="https:\/\/huggingface\.co\/([^"#]+)"/g)].map(m=>m[1]);
+ assert.equal(links.length,audioLanguages.length);
+ const coverage=page.match(/<p id="audio-language-coverage">(.*?)<\/p>/)[1];
+ for(const language of audioLanguages){
+  const report=JSON.parse(await readFile(new URL(`../audio/recordings-${language}.json`,import.meta.url)));
+  assert.ok(links.includes(`${report.model.model}/tree/${report.model.revision}`),language);
+  assert.ok(coverage.includes(languageInfo.find(([code])=>code===language)[2]),language);
+ }
+ assert.ok(page.includes('have not yet passed fluent-speaker checks'));
+ assert.ok(page.includes('CC BY-NC 4.0'));
 });
