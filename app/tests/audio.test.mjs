@@ -1,16 +1,17 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import {audioQueue,createReader} from '../dist/speech.js';
-import {dictionaries} from '../dist/i18n.js';
-const catalog=Object.fromEntries(Object.entries(dictionaries).map(([lang,d])=>[lang,{revision:'012345abcdef',keys:Object.keys(d)}]));
+import {dictionaries} from '../scripts/dictionaries.mjs';
+import {audioLanguages,languageInfo} from '../dist/languages.js';
+const catalog=Object.fromEntries(audioLanguages.map(lang=>[lang,{revision:'012345abcdef',keys:Object.keys(dictionaries[lang])}]));
 function setup(play=()=>Promise.resolve()){
  const events=[],audio={pause(){this.pauses=(this.pauses||0)+1;},load(){},removeAttribute(){this.src='';},play(){this.plays=(this.plays||0)+1;return play();}};
  const reader=createReader({createAudio:()=>audio,catalog,getDictionary:language=>dictionaries[language],onChange:e=>events.push(e)});
  return {audio,reader,events};
 }
-test('recorded instructions work in all six languages without a speech synthesis API',()=>{
+test('recorded instruction playback works for every advertised language without a speech synthesis API',()=>{
  assert.equal(globalThis.speechSynthesis,undefined);
- for(const lang of Object.keys(dictionaries)){
+ for(const lang of audioLanguages){
   const {reader,audio}=setup();assert.equal(reader.start(dictionaries[lang].homeTitle,{language:lang}),true);
   assert.equal(audio.src,`/audio/${lang}/012345abcdef/homeTitle.mp3`);assert.equal(reader.state,'loading');audio.onplaying();assert.equal(reader.state,'playing');reader.stop();
  }
@@ -19,6 +20,7 @@ test('private values and unknown languages never become audio URLs',()=>{
  const entries=[{text:'My account 123456789 password secret',source:1},{text:dictionaries.hi.homeIntro,source:2}];
  const queue=audioQueue(entries,'hi',catalog,dictionaries.hi);assert.equal(queue.length,1);assert.equal(queue[0].source,2);assert.ok(!queue[0].url.includes('123456789'));
  assert.deepEqual(audioQueue(entries,'xx',catalog),[]);
+ for(const [language] of languageInfo)if(!audioLanguages.includes(language))assert.deepEqual(audioQueue([{text:dictionaries[language].homeTitle}],language,catalog,dictionaries[language]),[]);
  const {reader,audio}=setup();assert.equal(reader.start(entries[0].text),false);assert.equal(audio.src,undefined);
 });
 test('pausing while loading, resuming and replaying preserve the selected part',()=>{

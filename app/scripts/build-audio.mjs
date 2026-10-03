@@ -6,10 +6,12 @@ import {audioLanguages} from '../dist/languages.js';
 import {publicAudioCopy} from './audio-public-copy.mjs';
 const root=new URL('../',import.meta.url),catalog={};
 const publicSource=JSON.parse(await readFile(new URL('audio/public-text.json',root)));
+const candidateModels=JSON.parse(await readFile(new URL('audio/candidate-model-sources.json',root)));
 const currentSource=publicAudioCopy(audioLanguages);
 if(JSON.stringify(publicSource)!==JSON.stringify(currentSource))throw Error('Released audio source does not match current public copy and audio-language registry.');
 for(const lang of audioLanguages){
  const report=JSON.parse(await readFile(new URL(`audio/recordings-${lang}.json`,root)));
+ if(candidateModels[lang]&&(report.scope!=='complete'||report.fluentReview!==false||report.license!=='CC-BY-NC-4.0'||JSON.stringify(report.model)!==JSON.stringify(candidateModels[lang])))throw Error(`Unverified candidate provenance or review claim: ${lang}`);
  const source=publicSource[lang];
  const keys=Object.keys(source);
  if(Object.keys(report.entries).length!==keys.length)throw Error(`Incomplete audio: ${lang}`);

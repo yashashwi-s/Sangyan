@@ -2,6 +2,7 @@ import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import vm from 'node:vm';
 import {readFile} from 'node:fs/promises';
+import {audioLanguages,languageInfo} from '../dist/languages.js';
 const source=await readFile(new URL('../dist/sw.js',import.meta.url),'utf8');
 function setup(audioBytes=8,network=null){
  const stores=new Map(),handlers={},calls=[];let cacheReads=0;let online=true,storageAvailable=true;
@@ -17,6 +18,16 @@ test('installation caches the public shell without preloading any audio or user 
 test('played audio is available offline, with valid media byte ranges',async()=>{
  const env=setup();const path='/audio/hi/012345abcdef/homeTitle.mp3';const first=await env.request(path);assert.equal(first.status,200);assert.equal(env.calls.length,1);env.setOffline();const again=await env.request(path,{headers:{Range:'bytes=2-5'}});assert.equal(again.status,206);assert.equal(again.headers.get('Content-Range'),'bytes 2-5/8');assert.deepEqual([...new Uint8Array(await again.arrayBuffer())],[2,3,4,5]);assert.equal(env.calls.length,1);
  const suffix=await env.request(path,{headers:{Range:'bytes=-2'}});assert.deepEqual([...new Uint8Array(await suffix.arrayBuffer())],[6,7]);const invalid=await env.request(path,{headers:{Range:'bytes=99-100'}});assert.equal(invalid.status,416);
+});
+test('offline audio support follows the checked release registry and excludes text-only languages',async()=>{
+ const env=setup();
+ for(const language of audioLanguages){
+  const path=`/audio/${language}/012345abcdef/homeTitle.mp3`;
+  assert.equal((await env.request(path)).status,200,language);
+ }
+ env.setOffline();
+ for(const language of audioLanguages)assert.equal((await env.request(`/audio/${language}/012345abcdef/homeTitle.mp3`)).status,200,language);
+ for(const [language] of languageInfo)if(!audioLanguages.includes(language))assert.equal(await env.request(`/audio/${language}/012345abcdef/homeTitle.mp3`),undefined,language);
 });
 test('cached shell supports all language entry routes without intercepting private or external requests',async()=>{
  const env=setup();await env.install();env.setOffline();assert.ok(await env.request('/main.js'));

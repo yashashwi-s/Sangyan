@@ -76,3 +76,19 @@ npm --prefix app run check:release
 ```
 
 The runner records phase results and failures in staging `progress.json`, keeps per-language logs and reuses checksum-matching clips for the same revision. `--language gu` selects one candidate without overwriting other public dictionaries. Model preparation accepts only the fixed nine public Meta repositories and rejects gated/private access, wrong licences and unsafe tensor formats. The generator rejects candidate source text that differs from the current public dictionary. These commands synthesize and validate staging assets; they do not promote coverage or deploy.
+
+
+## Integration gates added during the complete-pack build
+
+The complete nine-language batch runs sequentially, with its state in `/private/tmp/virasat-audio-stage/progress.json`. Gujarati finished its 357 clips in 194 seconds and Punjabi in 223 seconds; this is observed build time on this computer, not a playback or phone benchmark. Gujarati's independent complete-file validation recorded 5,859,328 bytes and 1,411.582 seconds of MP3 audio, with zero technical failures. Other packs must complete and pass their own checks before integration.
+
+`promote-audio-candidates.py` re-exports current public copy, rejects changed copy or incomplete manifests, decodes every real staged MP3 and checks its pinned model, licence and pronunciation revision before copying selected complete packs. Its `--check` mode leaves the website unchanged. A seven-clip sample report was deliberately rejected by this gate. Runtime packages and model weights remain outside the app. Integration is local and does not deploy.
+
+```sh
+/private/tmp/virasat-audio-env/bin/python app/scripts/promote-audio-candidates.py --staging /private/tmp/virasat-audio-stage --language gu --language pa --check
+# After all selected packs pass and release disclosures/credits are updated, omit --check.
+```
+
+The service-worker audio matcher now derives its allowed languages from the release registry instead of a hardcoded six-language expression. All played clips remain lazy and share the same 12 MiB / 256-entry cache budget, including after additional languages are enabled. Help and listening settings display the current language's checked coverage label, entry/privacy explanation and synthetic-voice notice; non-English help also shows the translation-review limit. No old `voiceHelp` count or unavailable-audio claim is rendered. The automated guide-route checks now use every effective released dictionary rather than just the original six. All 80 release tests passed after these changes.
+
+For the integrated UX audit, the CUA inventory in this continuation returned no enabled app/browser surfaces; both Chrome and in-app-browser entry attempts reported unavailable. No new interactive-browser or real-device result is claimed. The GIGW quick tips and myScheme accessibility statement were re-read on 4 October 2026 and continue to support synchronized content, keyboard access, clear headings, skip navigation and explicit limitations. This is design guidance, not government certification. Actual mobile, screen-reader, fluent-reader/listener and intended-user checks remain pending.

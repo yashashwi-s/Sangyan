@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import {emptyAccount,emptyTracker,validateAccount,transition,saveWorkspace,restoreWorkspace,attention,today} from '../dist/tracker.js';
 import {searchInstitutions,matchInstitution,INSTITUTIONS} from '../dist/institutions.js';
 import {guideFor} from '../dist/guides.js';
-import {dictionaries} from '../dist/i18n.js';
+import {dictionaries} from '../scripts/dictionaries.mjs';
 const account=()=>({...emptyAccount(),type:'bank',institution:'HDFC Bank',institutionId:'hdfc-bank',holding:'sole',product:'savings'});
 test('institution search separates related companies and permits a custom bank',()=>{
  assert.equal(searchInstitutions('bank','hdf')[0].id,'hdfc-bank');
@@ -44,7 +44,7 @@ test('saving a family edit preserves existing confirmation, without committing t
 test('drafts can be encrypted before any account type or institution is chosen',()=>{const raw={...emptyAccount(),type:''};const data=restoreWorkspace(saveWorkspace(emptyTracker(),{account:raw,step:0},null,'ur'));assert.equal(data.draft.type,'');assert.equal(data.draft.institution,'');assert.equal(data.step,0);});
 
 
-test('every guide step and important interaction is translated in all six dictionaries',()=>{
+test('every guide step and important interaction exists in all released dictionaries',()=>{
  const keys=['openDevice','keepDevice','seeNext','unfinishedChanges','chooseFile','validFollowup','foundYes','hdfcDeposit','hdfcMfGuide','zerodhaAction'];
  for(const d of Object.values(dictionaries))for(const k of keys)assert.ok(d[k]?.trim(),k);
 });

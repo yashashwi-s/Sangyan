@@ -4,12 +4,15 @@ This verifies technical media integrity; it cannot certify fluent pronunciation/
 import argparse,hashlib,json,pathlib,subprocess,sys
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 CANDIDATES=json.loads((ROOT/'audio/candidates.json').read_text());SOURCES=json.loads((ROOT/'audio/candidate-model-sources.json').read_text())
+RULES=json.loads((ROOT/'audio/pronunciation-candidates.json').read_text())
 p=argparse.ArgumentParser();p.add_argument('--staging',required=True);p.add_argument('--complete',action='store_true');p.add_argument('--language',choices=CANDIDATES,action='append');args=p.parse_args()
 stage=pathlib.Path(args.staging).resolve();source=json.loads((stage/'public-text.json').read_text());results={};errors={}
 for code in args.language or CANDIDATES:
  try:
   report=json.loads((stage/'reports'/f'recordings-{code}.json').read_text())
   if report['language']!=code or report['model']!=SOURCES[code] or report['license']!='CC-BY-NC-4.0' or report['fluentReview'] is not False:raise ValueError('Unverified model/licence/review metadata')
+  revision=hashlib.sha256(json.dumps({'text':source[code],'rules':RULES[code],'model':SOURCES[code],'generator':3},ensure_ascii=False,sort_keys=True).encode()).hexdigest()[:12]
+  if report['revision']!=revision:raise ValueError('Stale text, pronunciation rules or synthesis revision')
   expected=set(source[code]) if args.complete else {'homeTitle','nomineeExplain','receiptExample','registeredExample','helpScopeText','passwordHelp','privacyDetail'}
   if set(report['entries'])!=expected or (args.complete and report.get('scope')!='complete'):raise ValueError('Incomplete staged clip set')
   total=0;durations=[]
