@@ -1,0 +1,2540 @@
+{
+  "language": "kn",
+  "revision": "4e612b00d4c3",
+  "model": {
+    "model": "facebook/mms-tts-kan",
+    "revision": "30e3c5d533e8c559c10bf0d25637fea51b95bd7c",
+    "license": "CC-BY-NC-4.0",
+    "languageCode": "kn",
+    "files": {
+      "config.json": {
+        "sha256": "69c993ad6d7f34a8ce10834fb7d70cb300a83c0f7fae63a9ad8de9eb8243cdd3",
+        "bytes": 1641
+      },
+      "tokenizer_config.json": {
+        "sha256": "0a4c6ab042637ec5a955cba6f9422046648cc48607a6a366f3d7be1f9008c091",
+        "bytes": 287
+      },
+      "vocab.json": {
+        "sha256": "56e00b687cf6c32bc603e055fe142351c16a136584bae988f333b9dc54c0c3ce",
+        "bytes": 940
+      },
+      "special_tokens_map.json": {
+        "sha256": "7537103960690fa7b742bbdc31b7df3fdf9ab7dfd0e150690b7883abd039161d",
+        "bytes": 47
+      },
+      "model.safetensors": {
+        "sha256": "12a68748b7aeab553c8b145ab2de198617644eb89e5f0b7008a2f3a7cf91a9bd",
+        "bytes": 145255928
+      },
+      "README.md": {
+        "sha256": "edf1c71711b448ce4dc23d1d7803e1e3be2d0a79a2163a960d4bf0fcbf726c1e",
+        "bytes": 3978
+      }
+    }
+  },
+  "license": "CC-BY-NC-4.0",
+  "fluentReview": false,
+  "scope": "complete",
+  "entries": {
+    "nomineeYes": {
+      "textHash": "599a12824d56a314024e39a2f89c8d2c73d70efe8df45db1d8fab56287e8a2de",
+      "spoken": "ಹೌದು",
+      "bytes": 4287,
+      "seconds": 0.922,
+      "sha256": "312c5b1ecc05c622d28ed643e11a47a716a143aa3fbe60900d23b001ce8ee2e1"
+    },
+    "nomineeNo": {
+      "textHash": "2efc8279623f633d4abe280eb5476b4fe8e54c6860a3a2186de137609dd64948",
+      "spoken": "ಸಂ",
+      "bytes": 3614,
+      "seconds": 0.751,
+      "sha256": "c52dc73a6fa029ee382ccab5d19b06fe1917a54e03ebd0458a6118d0a1702555"
+    },
+    "nomineeExplain": {
+      "textHash": "39d1423dbfb863c62aba7d1347cd0869a63df49302fc9d581a262bc46c8dd395",
+      "spoken": "ನಾಮಿನಿ ಎಂದರೆ ಖಾತೆದಾರರು ಮೃತಪಟ್ಟ ನಂತರ ಸಂಸ್ಥೆಗೆ ಕ್ಲೇಮ್ ಸಲ್ಲಿಸಬಹುದಾದ ವ್ಯಕ್ತಿ. ನಾಮನಿರ್ದೇಶನವು ಪ್ರಕ್ರಿಯೆಗೆ ಸಹಾಯ ಮಾಡುತ್ತದೆ; ಕಾನೂನುಬದ್ಧವಾಗಿ ಆಸ್ತಿಗೆ ಯಾರು ವಾರಸುದಾರರು ಎಂಬುದನ್ನು ನಿರ್ಧರಿಸುವುದಿಲ್ಲ. ನೀವು ಪರಿಶೀಲಿಸದಿದ್ದರೆ, “ಖಚಿತವಾಗಿಲ್ಲ” ಆಯ್ಕೆಮಾಡಿ.",
+      "bytes": 95587,
+      "seconds": 23.754,
+      "sha256": "9a0e1d01379cf59af20567969b2910b7ad2204ad0d596d2e8d6c6369c369b28a"
+    },
+    "day": {
+      "textHash": "d074424f91b75358056ec625f8197f10283b52d38db054da40f4746f91822771",
+      "spoken": "ದಿನ",
+      "bytes": 3320,
+      "seconds": 0.674,
+      "sha256": "6738f340d8cf47f80fa98e9a24eb0c1072effc2f01d38e38af6e6ec80bd1545d"
+    },
+    "month": {
+      "textHash": "2d2dad071c871484b2d0c77fc7ecd4e37b4fbdd2cf02ae0fd43199d9332aef73",
+      "spoken": "ತಿಂಗಳು",
+      "bytes": 5050,
+      "seconds": 1.107,
+      "sha256": "3951edb6c2a53cc6f91ad295817fab5fff2407dbaabc8bf8309af40270863efa"
+    },
+    "year": {
+      "textHash": "14ea38d913848a803daf76164c708daa173c411e4692f88a5fc2118cbcb1f48a",
+      "spoken": "ವರ್ಷ",
+      "bytes": 3801,
+      "seconds": 0.8,
+      "sha256": "b2128b8c6e991427f8e5234cb4c2bf45b879df2160a168d9baf836036981c843"
+    },
+    "dateExample": {
+      "textHash": "bf87ea6cd9ccc8931a3f3ebca8f5864a00a370be23352169ca4a2ccfe438f34c",
+      "spoken": "ಉದಾಹರಣೆ: ಹದಿನಾಲ್ಕು / ಸೊನ್ನೆ ಒಂಬತ್ತು / ಎರಡು ಸಾವಿರ ಇಪ್ಪತ್ತಾರು ಎಂದರೆ ಹದಿನಾಲ್ಕು ಸೆಪ್ಟೆಂಬರ್ ಎರಡು ಸಾವಿರ ಇಪ್ಪತ್ತಾರು. ನಿಮ್ಮ ದಾಖಲೆಯಲ್ಲಿ ದಿನಾಂಕವನ್ನು ಬಳಸಿ.",
+      "bytes": 52768,
+      "seconds": 13.055,
+      "sha256": "6b1055c57d41aa63f5f208998a61321934a8bb926050cff03f68f4df1f33bb44"
+    },
+    "submissionExample": {
+      "textHash": "2e15f07e1a419f0b6a6f66b47b6b98c8bca8bcd012af5c5909bb47c5b076841e",
+      "spoken": "ನೀವು ವಿನಂತಿಯನ್ನು ಕಳುಹಿಸಿದ ದಿನವನ್ನು ಬಳಸಿ. ಉದಾಹರಣೆ: ಹದಿನಾಲ್ಕು/ಸೊನ್ನೆ ಒಂಬತ್ತು/ಎರಡು ಸಾವಿರ ಇಪ್ಪತ್ತಾರು.",
+      "bytes": 41926,
+      "seconds": 10.328,
+      "sha256": "5f2c3279dadbfbdefb919bd49f835af616d24a4b2d667e4f0d58872617ee497f"
+    },
+    "statementExample": {
+      "textHash": "60cefe6fca73ff39efb1ff58ede2a71b43ff9399f9a7df3aaf0d158554846756",
+      "spoken": "ನಾಮಿನಿ ಹೆಸರುಗಳನ್ನು ತೋರಿಸುವ ಹೇಳಿಕೆ ಅಥವಾ \"ನಾಮನಿರ್ದೇಶನ: ಹೌದು\". ಕೇವಲ ಸಮತೋಲನ ಸಾಕಾಗುವುದಿಲ್ಲ.",
+      "bytes": 42117,
+      "seconds": 10.376,
+      "sha256": "03457637435ebce1e79a78b5a92d69ef00032b4228f5bc82021cd5764725939d"
+    },
+    "registrationExample": {
+      "textHash": "48e851c04257afbaaff0728ff3b8773f5c352711114d395539e13d36f222e818",
+      "spoken": "ಈ ಖಾತೆಗೆ ನಾಮನಿರ್ದೇಶನ ನೋಂದಾಯಿಸಲಾಗಿದೆ ಎಂದು ದೃಢಪಡಿಸುವ ಬ್ಯಾಂಕ್, ಬ್ರೋಕರ್ ಅಥವಾ ಮ್ಯೂಚುವಲ್ ಫಂಡ್‌ನ ಪತ್ರ ಅಥವಾ ಇಮೇಲ್. ವಿನಂತಿ ಸ್ವೀಕೃತಿಯ ರಸೀದಿ ಇದಕ್ಕಿಂತ ಭಿನ್ನ.",
+      "bytes": 61512,
+      "seconds": 15.218,
+      "sha256": "32210c12605636dabcc8fa120927fa3ced2e26fe2a80d6a0746c32ff40f303e0"
+    },
+    "requiredInstitution": {
+      "textHash": "46e04409a1bb9b640a18e2c7406edcdfc88ac78972ee4661804e4696b1d03c5d",
+      "spoken": "ನಿಮ್ಮ ದಾಖಲೆಯಲ್ಲಿ ತೋರಿಸಿರುವ ಬ್ಯಾಂಕ್, ಬ್ರೋಕರ್ ಅಥವಾ ಫಂಡ್ ಹೆಸರನ್ನು ನಮೂದಿಸಿ.",
+      "bytes": 26952,
+      "seconds": 6.577,
+      "sha256": "4597f49cb41e64983fa109b4fa33399cd3a02f47a31e0a9456a99acfe629e13b"
+    },
+    "requiredRecord": {
+      "textHash": "b9ee456abacaea03357b176d5c92c503583497934e99b2ee0dba7fb368bd16d2",
+      "spoken": "ನೀವು ಪರಿಶೀಲಿಸಿದ ದಾಖಲೆಯ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ.",
+      "bytes": 18979,
+      "seconds": 4.589,
+      "sha256": "720bdd0da87efa20043588a2472a73085d6534f6a4cc762eecf4013faf5cc94d"
+    },
+    "requiredCheck": {
+      "textHash": "9bbbcc765b1e0b728dc72a06d1c16694e5ae203537f913bc996d85edd1a908ce",
+      "spoken": "ಈ ಖಾತೆಗೆ ನಾಮಿನಿ ನೋಂದಾಯಿಸಲಾಗಿದೆ ಎಂದು ನಿಮ್ಮ ದಾಖಲೆ ತೋರಿಸುತ್ತದೆಯೇ ಎಂಬುದನ್ನು ಖಚಿತಪಡಿಸಿ.",
+      "bytes": 37122,
+      "seconds": 9.132,
+      "sha256": "09829f23188018ab43df8a60ab9cb6c18ab6f712dd4c5150d71954c3d0433f99"
+    },
+    "institutionExample": {
+      "textHash": "49687b61f07c714d73ff15a37c0bb28404ccfeb148ac44e15e5947116a7ee2f0",
+      "spoken": "ಉದಾಹರಣೆಗೆ: ಎಚ್ ಡಿ ಎಫ್ ಸಿ ಬ್ಯಾಂಕ್, ಅಥವಾ ನಿಮ್ಮ ಹೇಳಿಕೆಯಲ್ಲಿರುವ ಹೆಸರು.",
+      "bytes": 28679,
+      "seconds": 7.011,
+      "sha256": "0abba655cd2b0e96b5d85aa1e0cd632930ff5a8bb338879527aa970db408a37d"
+    },
+    "nicknameExample": {
+      "textHash": "77e226ed0f7a9ef0b64a3b8228f1eed47b713431d4aa99b72a825dbc3e47a603",
+      "spoken": "ಉದಾಹರಣೆಗೆ: ಕುಟುಂಬದ ಉಳಿತಾಯ.",
+      "bytes": 13124,
+      "seconds": 3.136,
+      "sha256": "a7431a24e837f3431151f0ad3dfc48e00825d2c713145e890c5289a49ee69512"
+    },
+    "ownerExample": {
+      "textHash": "bb7493be4592593c51dee2a7b39207fe10fd2d6168ecaabfd03279b1897d45de",
+      "spoken": "ಉದಾಹರಣೆಗೆ: ನಾನು ಅಥವಾ ಪೋಷಕರು.",
+      "bytes": 15809,
+      "seconds": 3.814,
+      "sha256": "5759d6fc91e3c1e3840bf448a41d20ea6ce0b18033c9943c8ec7eb372b7e5921"
+    },
+    "nomineeNoteExample": {
+      "textHash": "c69a60499800e6988876451766845abd9d585494036249d84c5e59b2c7b6cadb",
+      "spoken": "ಉದಾಹರಣೆಗೆ: ಸಂಗಾತಿ / ಅನು. ಅಡ್ಡಹೆಸರು ಅಥವಾ ಸಂಬಂಧ ಮಾತ್ರ.",
+      "bytes": 26375,
+      "seconds": 6.446,
+      "sha256": "cfa4c1deeba2ec613c4500cab49a65624a1ed719b8e20a93633eb5d45f042bc4"
+    },
+    "last4Example": {
+      "textHash": "a64fc8b177602a8d2bbfc1504dd50aca8e76ffd662e44f9ded2e74a64a13ff05",
+      "spoken": "ಉದಾಹರಣೆಗೆ: ಒಂದು ಎರಡು ಮೂರು ನಾಲ್ಕು. ಕೊನೆಯ ನಾಲ್ಕು ಅಂಕೆಗಳು ಮಾತ್ರ.",
+      "bytes": 28577,
+      "seconds": 7.002,
+      "sha256": "14c160ae45cc6fa00bd3fcacfbab028c7e70ddfd6d585ece9cc9b1a9fe138248"
+    },
+    "recordNoteExample": {
+      "textHash": "ed78340107fc19333c1ff661980af9fa1f22c5374adc798583571a4d18745d7f",
+      "spoken": "ಐಚ್ಛಿಕ: ರಶೀದಿ ಅಥವಾ ದಾಖಲೆಯನ್ನು ಹುಡುಕಲು ನಿಮಗೆ ಸಹಾಯ ಮಾಡುವ ಕಿರು ಟಿಪ್ಪಣಿ.",
+      "bytes": 32806,
+      "seconds": 8.048,
+      "sha256": "1d46e5a90c9681226417287cb044118053151e81cacae19871a054f02a5ce950"
+    },
+    "bankLocation": {
+      "textHash": "40c0ad4b4b224316d93644ac823eead69c93a19a285d5cd88b71010113035d58",
+      "spoken": "ನಿಮ್ಮ ಪಾಸ್‌ಬುಕ್, ಸ್ಟೇಟ್‌ಮೆಂಟ್ ಅಥವಾ ಠೇವಣಿ ರಸೀದಿಯಲ್ಲಿ ಬ್ಯಾಂಕ್ ಹೆಸರನ್ನು ಬಳಸಿ.",
+      "bytes": 26657,
+      "seconds": 6.511,
+      "sha256": "7cbdc4d6fb7f19d89cbada79bdc5def21ce2cc91beb4e1fcbb52271bedecc776"
+    },
+    "dematLocation": {
+      "textHash": "e867a362c899f4b2f2a8085ca071437adafaa93d886d85a7ff1e3e0501a3d9f0",
+      "spoken": "ನೀವು ಹೊಂದಿರುವ ಷೇರುಗಳನ್ನು ಹೊಂದಿರುವ ಕಂಪನಿಯ ಬದಲಿಗೆ ನಿಮ್ಮ ಡಿಮ್ಯಾಟ್ ಸ್ಟೇಟ್‌ಮೆಂಟ್‌ನಲ್ಲಿ ಬ್ರೋಕರ್ ಅಥವಾ ಬ್ಯಾಂಕ್ ಅನ್ನು ಬಳಸಿ.",
+      "bytes": 37314,
+      "seconds": 9.183,
+      "sha256": "45036a2fce4bd1b996b072496205ada05af48d0dc63302b9bb1c24042097f1dd"
+    },
+    "mfLocation": {
+      "textHash": "b2d7f2ea1b1f1e08fd2a785b5e36e5a3324357747bfcf68f2f271953713f7096",
+      "spoken": "ನಿಮ್ಮ ಫೋಲಿಯೋ ಸ್ಟೇಟ್‌ಮೆಂಟ್‌ನಲ್ಲಿ ಮ್ಯೂಚುಯಲ್ ಫಂಡ್ ಬಳಸಿ. ಅದರ ರಿಜಿಸ್ಟ್ರಾರ್ ಸಹಾಯ ಮಾಡಬಹುದು; ಡಿಮ್ಯಾಟ್‌ನಲ್ಲಿರುವ ಘಟಕಗಳು ಡಿಮ್ಯಾಟ್ ಮಾರ್ಗವನ್ನು ಅನುಸರಿಸುತ್ತವೆ.",
+      "bytes": 56319,
+      "seconds": 13.937,
+      "sha256": "1c66613694da71cad87b2662b962fb5e29548e16adf5ea66771618b2f49487a9"
+    },
+    "checkLocation": {
+      "textHash": "048ea340d18090d5cfe83b8493837891a916e5adc9e5cfc67f4c0dee09bd3446",
+      "spoken": "ಈ ಖಾತೆಯ ವಿವರಗಳು ಅಥವಾ ಇತ್ತೀಚಿನ ಹೇಳಿಕೆಯಲ್ಲಿ ನಾಮಿನಿ ಹೆಸರು ಅಥವಾ ನಾಮನಿರ್ದೇಶನ ಸ್ಥಿತಿಯನ್ನು ನೋಡಿ.",
+      "bytes": 42786,
+      "seconds": 10.537,
+      "sha256": "5b92ac5cbff8113b5e54de3311a241cb4d3a6d393c592a76bbaa9fb48261152a"
+    },
+    "askInstitution": {
+      "textHash": "702ba830b1bba789bc223ea459981a3e0064bcc51dc01ef4c94bcb6226f71208",
+      "spoken": "ಅದನ್ನು ತೋರಿಸದಿದ್ದರೆ, ಸಂಸ್ಥೆಯನ್ನು ಕೇಳಿ: \"ಈ ಖಾತೆಗೆ ನಾಮನಿರ್ದೇಶನವನ್ನು ನೋಂದಾಯಿಸಲಾಗಿದೆಯೇ? ನೀವು ಅದನ್ನು ಲಿಖಿತವಾಗಿ ದೃಢೀಕರಿಸಬಹುದೇ?\"",
+      "bytes": 53251,
+      "seconds": 13.154,
+      "sha256": "b81996946dba996c0d80bb8352bad2f613cde7bcc3d9482b2c329d7ad5cfffce"
+    },
+    "keepUnknown": {
+      "textHash": "481e039cc990007a98028e48b2badfbfade6c8a10d41f0895751c37f1f2df85a",
+      "spoken": "ಪರಿಶೀಲಿಸುವವರೆಗೆ “ಖಚಿತವಾಗಿಲ್ಲ” ಎಂದು ಇರಿಸಿ. ನಾಮಿನಿ ಇಲ್ಲ ಎಂದು ಸಂಸ್ಥೆ ದೃಢಪಡಿಸಿದರೆ, “ಸೇರಿಸಿಲ್ಲ” ಆಯ್ಕೆಮಾಡಿ.",
+      "bytes": 43648,
+      "seconds": 10.754,
+      "sha256": "d7d2f1f498c0376019af3ea3442e39f453c2daef8236cab53960173be1501a3c"
+    },
+    "submitKeep": {
+      "textHash": "dd744a4d3fe9f814fc6d07ab5f99c82090c9832f8b347ffe4fa37ce76e1f2e11",
+      "spoken": "ಸಂಸ್ಥೆಯ ಅಧಿಕೃತ ಚಾನಲ್ ಮೂಲಕ ಸಲ್ಲಿಸಿ. ದಿನಾಂಕದ ಸ್ವೀಕೃತಿ ಅಥವಾ ರಸೀದಿಯನ್ನು ಇರಿಸಿ.",
+      "bytes": 34239,
+      "seconds": 8.41,
+      "sha256": "8f8d62e47b91cbfd5e2f12755747a2124e3d75c852bc4d6006e00abe47524790"
+    },
+    "confirmRegistration": {
+      "textHash": "742361ad914a42f41f074a000a30d514ed7b18fb8950d018d36924373a804427",
+      "spoken": "ಈ ಖಾತೆಯನ್ನು ಗುರುತಿಸುವ ಮತ್ತು ನಾಮನಿರ್ದೇಶನವನ್ನು ದಾಖಲಿಸಿರುವ ಸ್ಟೇಟ್‌ಮೆಂಟ್ ಅಥವಾ ಲಿಖಿತ ದೃಢೀಕರಣವನ್ನು ಪರಿಶೀಲಿಸಿ. ವಿನಂತಿಯ ರಸೀದಿ ಮಾತ್ರ ನೋಂದಣಿಯನ್ನು ದೃಢಪಡಿಸುವುದಿಲ್ಲ.",
+      "bytes": 60456,
+      "seconds": 14.965,
+      "sha256": "32d92c03ecf0a45375d9afb55738d3e921adbc1fc901da51495c35feff102e1b"
+    },
+    "followRequest": {
+      "textHash": "2d5f7617a29e491aba155b28baebd801c069353bd487d975f93efc0627018ff4",
+      "spoken": "ನಾಮನಿರ್ದೇಶನವನ್ನು ನೋಂದಾಯಿಸಲಾಗಿದೆಯೇ ಎಂದು ಸಂಸ್ಥೆಯನ್ನು ಕೇಳಲು ವಿನಂತಿಯ ದಿನಾಂಕ ಮತ್ತು ರಶೀದಿ ಉಲ್ಲೇಖವನ್ನು ಬಳಸಿ.",
+      "bytes": 42402,
+      "seconds": 10.443,
+      "sha256": "7c7b19c7868442370a7512f93d34c321135c377430000423cccfa1720177c82b"
+    },
+    "waitRegistration": {
+      "textHash": "70dacb579f7260e33893d1e0c1b956fc87581ecf42354a393be464a9043c8aae",
+      "spoken": "ನೋಂದಣಿ ದಾಖಲೆ ಲಭ್ಯವಾಗುವವರೆಗೆ ದೃಢೀಕರಣಕ್ಕಾಗಿ ಕಾಯುತ್ತಿರುವಂತೆ ಇದನ್ನು ಇರಿಸಿಕೊಳ್ಳಿ.",
+      "bytes": 33765,
+      "seconds": 8.3,
+      "sha256": "3b53ba85a8eed4a9ecaf0397ab04fa332e6ac68688dc96afe3fd72587efe7495"
+    },
+    "hdfcPath": {
+      "textHash": "32e9405e14a006dd522ce8aaeea42b90fb585b79abd38f90eb1c9f65bf553f2d",
+      "spoken": "ನೆಟ್‌ಬ್ಯಾಂಕಿಂಗ್: ಖಾತೆಗಳು → ನಿಮ್ಮ ಖಾತೆ → ಖಾತೆ ವಿವರಗಳು → ನಾಮಿನಿ/ಹೋಲ್ಡರ್ ವಿವರಗಳು.",
+      "bytes": 35965,
+      "seconds": 8.846,
+      "sha256": "853ddbd7aee9f9780eebebe919a7c41d30dcfc4d8c8401f840752418693a6b5e"
+    },
+    "hdfcHolding": {
+      "textHash": "676013483ead22e9bae9adb6bf5858954d5a485e97bdc77ceee5928e0787bf3d",
+      "spoken": "ಏಕೈಕ ಹೋಲ್ಡರ್: ಸೇರಿಸಿ/ಬದಲಾಯಿಸಿ. ಜಂಟಿ ಹೊಂದಿರುವವರಿಗೆ, ಬ್ಯಾಂಕ್ ಒಟ್ಟಿಗೆ ಶಾಖೆಗೆ ಭೇಟಿ ನೀಡಲು ಶಿಫಾರಸು ಮಾಡುತ್ತದೆ.",
+      "bytes": 45088,
+      "seconds": 11.113,
+      "sha256": "6a7ebf5bb1dcee1c72daada4b5da21ce80d5daa3e06aa0d24b9bb18ef2258172"
+    },
+    "hdfcSource": {
+      "textHash": "3bd868065cd43209d9238d702eeedc8f56aac0571b7a4304a3a1fd1b48567544",
+      "spoken": "ಎಚ್ ಡಿ ಎಫ್ ಸಿ ಬ್ಯಾಂಕ್ ಸೂಚನೆಗಳು",
+      "bytes": 12831,
+      "seconds": 3.054,
+      "sha256": "86b7483f3412bcc06339eca755e5d0a5de69e53ac6e68ac3e31119c3c06064ab"
+    },
+    "whatToDo": {
+      "textHash": "b639b937f96c8b50d89a3894c593d5ddfa1c521d078ae5789d6fc4a80116ef84",
+      "spoken": "ಏನು ಮಾಡಬೇಕು",
+      "bytes": 7165,
+      "seconds": 1.655,
+      "sha256": "02fb09a1b3dab8a3acf5e778d4a91d47feb1df0621fbfa64e9b1e1fc4b53c28b"
+    },
+    "home": {
+      "textHash": "ee8c4bed741be1e4ec594808beea1aec0c3237da27e471a43df1b1d8baf02170",
+      "spoken": "ಮನೆ",
+      "bytes": 4473,
+      "seconds": 0.976,
+      "sha256": "1e2f83b38645c5bee169587c881021c95d61f3fe4f0e9f80302ff8e4be9d3faa"
+    },
+    "continue": {
+      "textHash": "74ad71d9c8d5b386a70a7c8bfd5a310f50c1676f37fa6975e15033e7586f4703",
+      "spoken": "ಮುಂದುವರಿಸಿ",
+      "bytes": 6205,
+      "seconds": 1.398,
+      "sha256": "4ff220039380362b22fb3ddd8bbb15ff6de285cfe55b02eea3dc99cf4dd267d6"
+    },
+    "unfinished": {
+      "textHash": "def10f1d74b1885cc269b1b5613c6f781bd8eab76ee8af86035eab7f70f7df8c",
+      "spoken": "ಅಪೂರ್ಣ ಖಾತೆಯನ್ನು ಮುಂದುವರಿಸಿ",
+      "bytes": 11583,
+      "seconds": 2.74,
+      "sha256": "6aee9f6852d5352504e138714b08e005aeb40bcfe069214881bd57a1bad2e589"
+    },
+    "step": {
+      "textHash": "f26e14482dc8f9f180b011fc19e0cfd0b1523e9cf25d3d40611c852a861d6432",
+      "spoken": "ಹೆಜ್ಜೆ",
+      "bytes": 5049,
+      "seconds": 1.113,
+      "sha256": "9b368e7b8208df5bdcc925f585736e5a866523f04574972fe08e356415f98fe6"
+    },
+    "of": {
+      "textHash": "0567e96bcd525f4473202453df015119184cbdeabba6b5caee444c9fc291982b",
+      "spoken": "ನ",
+      "bytes": 4567,
+      "seconds": 1.002,
+      "sha256": "b90b7e5e743b924da52285793cefd128d69f5ff936bdb0837b8a67ed2985bf4c"
+    },
+    "homeTitle": {
+      "textHash": "afec4dc2982e9d01615b24673bd827aaaf79b2590a1c866038ad43e1fb117761",
+      "spoken": "ನಿಮ್ಮ ಕುಟುಂಬದ ಖಾತೆಗಳನ್ನು ಹುಡುಕಲು ಸುಲಭವಾಗಿಸಿ.",
+      "bytes": 18494,
+      "seconds": 4.469,
+      "sha256": "3dbf786bcea93dd0d381e52b9798c541d783083a72effb495ee6390f75207ca2"
+    },
+    "homeIntro": {
+      "textHash": "3bb600316a19abc2f7b7d40093691c39249d8b1568ef2327c465c00b8679b2d1",
+      "spoken": "ಯಾರನ್ನು ನಾಮನಿರ್ದೇಶನ ಮಾಡಲಾಗಿದೆ ಎಂಬುದನ್ನು ಪರಿಶೀಲಿಸಿ. ಕಾಣೆಯಾದದ್ದನ್ನು ನೋಡಿಕೊಳ್ಳಿ. ನಿಮ್ಮ ಕುಟುಂಬಕ್ಕೆ ಸ್ಪಷ್ಟ ದಾಖಲೆಯನ್ನು ಬಿಡಿ.",
+      "bytes": 45566,
+      "seconds": 11.248,
+      "sha256": "81d6bfb2401698577547b8517b4a7350150fb55b3ab75762b7b863beb6825a4a"
+    },
+    "typeQuestion": {
+      "textHash": "57c33b0bf7613e8eb0b9530e2491cf26ef180b821997df319c552a569ffc9512",
+      "spoken": "ಇದು ಯಾವ ರೀತಿಯ ಖಾತೆ?",
+      "bytes": 11489,
+      "seconds": 2.73,
+      "sha256": "7ced0c72d759d6c7b31a4bf6374498ca61293edb6db1648d8d55a8768ebfd065"
+    },
+    "institutionQuestion": {
+      "textHash": "42c8f6fa378b600271fbcda4cfb8c6141babcbcefc61b9b084c0f3cacb80fc86",
+      "spoken": "ಖಾತೆ ಎಲ್ಲಿದೆ?",
+      "bytes": 6984,
+      "seconds": 1.601,
+      "sha256": "95d427a601c3cbdc7ef09d6baeca54f2e31bff293905d1d2e0883274a39a7e0d"
+    },
+    "dematDescription": {
+      "textHash": "cc9e457eb4427408beb39d095d8a86db1298693682b1d331de5d51e33b43c9c7",
+      "spoken": "ಬ್ರೋಕರ್ ಅಥವಾ ಬ್ಯಾಂಕ್‌ನೊಂದಿಗೆ ಷೇರುಗಳು",
+      "bytes": 14565,
+      "seconds": 3.488,
+      "sha256": "bb1da9d54ccf44057a3cadf1926b514e3a65c72a6143ce236e45bafe596a0057"
+    },
+    "bankDescription": {
+      "textHash": "11de32e9d481f1c492f758299c35fc53335ae09dd891fb0b422c46ac700e449a",
+      "spoken": "ಉಳಿತಾಯ ಅಥವಾ ಬ್ಯಾಂಕಿನಲ್ಲಿ ಠೇವಣಿ",
+      "bytes": 15716,
+      "seconds": 3.789,
+      "sha256": "47856dd650029cbac93a1bd2ecf87f68cdab3bac26cf03169b4026ba8597e514"
+    },
+    "mfDescription": {
+      "textHash": "a75e04f0e7885e34660eeab5231a72713a0f074b70ba29c3c2738b66382a13ef",
+      "spoken": "ಮ್ಯೂಚುಯಲ್ ಫಂಡ್‌ನೊಂದಿಗೆ ಹೊಂದಿರುವ ಫೋಲಿಯೊ",
+      "bytes": 16386,
+      "seconds": 3.94,
+      "sha256": "42a0bb95fd8871052ec4486cc6b9ac9e2f2d26d37c1f28a7c4f02d9536863488"
+    },
+    "nomineeNote": {
+      "textHash": "42002d362abc84f42c586760b83eaaeaa00369a6f76d2fabbc1a7956467d59aa",
+      "spoken": "ನಾಮಿನಿ ಅಡ್ಡಹೆಸರು ಅಥವಾ ಸಂಬಂಧ (ಐಚ್ಛಿಕ)",
+      "bytes": 18880,
+      "seconds": 4.565,
+      "sha256": "e94158a8ed0e9ff6b311c5713140c300ff9d36a5008f0e70d2058dc24fefe867"
+    },
+    "nominees": {
+      "textHash": "d3b736fbf66c5f5f47a2044b7abb5879a3a9ae45b807d7a4983a8f3749570381",
+      "spoken": "ನಾಮಿನಿ ಟಿಪ್ಪಣಿಗಳು",
+      "bytes": 10909,
+      "seconds": 2.569,
+      "sha256": "bdb9dee68e5a9fa6a3efebbc174c66be25df85b518a2673b351b43fdc7bdbb78"
+    },
+    "missingGuide": {
+      "textHash": "914b4e835a8a4b8c9483102ac57c08265354dd5b78759276dcc55bfc3eb98078",
+      "spoken": "ಸಂಸ್ಥೆಯ ನಾಮನಿರ್ದೇಶನ ಆಯ್ಕೆಯನ್ನು ಬಳಸಿ ಅಥವಾ ಅದರ ಪ್ರಸ್ತುತ ಫಾರ್ಮ್ ಅನ್ನು ಕೇಳಿ.",
+      "bytes": 29345,
+      "seconds": 7.19,
+      "sha256": "9b6031bd62bf8c8ec061d5da7c0639b6ad6ea343dad4dcb7e40dd64298de92ba"
+    },
+    "title": {
+      "textHash": "d09e5345fbb690a1cae314b9ecf423aa39de0b69f63d622b202ea8ce5a1753f0",
+      "spoken": "ನಿಮ್ಮ ಕುಟುಂಬದ ಖಾತೆಗಳು",
+      "bytes": 9562,
+      "seconds": 2.241,
+      "sha256": "bb4f2ee563f5b31bd247b96f052b3eeb8fe342b3e37f59763785da972dcfed73"
+    },
+    "intro": {
+      "textHash": "194944e10ab6339e1d127e7f6bd29b4193ab7ebfa4b668a72d00d36619b1d89a",
+      "spoken": "ನಾಮಿನಿಗಳ ಬಗ್ಗೆ ನಿಗಾ ಇರಿಸಿ. ಏನು ಕಾಣೆಯಾಗಿದೆ ಎಂಬುದನ್ನು ನೋಡಿಕೊಳ್ಳಿ.",
+      "bytes": 29146,
+      "seconds": 7.144,
+      "sha256": "669d1bad859307c089d3615e105ab532b6b940596ef61147892e1baf1a8f1280"
+    },
+    "add": {
+      "textHash": "ecdb540609b913e340880a42832e78ceb59341b1bd5be93780fb5bc71ac23f44",
+      "spoken": "ಖಾತೆಯನ್ನು ಸೇರಿಸಿ",
+      "bytes": 8024,
+      "seconds": 1.861,
+      "sha256": "a84ae663b519080e13bd06c6ada71b52d6f56a43d2068b5fdad1f817e150dde2"
+    },
+    "edit": {
+      "textHash": "8fa25c655b47f5fda8e08ec37e9f44ee6f9e8df9179d6df5695f4074d7ee974b",
+      "spoken": "ಖಾತೆಯನ್ನು ಸಂಪಾದಿಸಿ",
+      "bytes": 9081,
+      "seconds": 2.118,
+      "sha256": "fafd5e278d9ae9213ffbac6224a997ccc532f9f3e2bf2877c27f9dc2f63dd1c4"
+    },
+    "emptyTitle": {
+      "textHash": "b12b08d6900debe30703d35f3c8ca1b58e63abda76d925a303ae99440102a867",
+      "spoken": "ಒಂದು ಖಾತೆಯೊಂದಿಗೆ ಪ್ರಾರಂಭಿಸಿ",
+      "bytes": 11967,
+      "seconds": 2.838,
+      "sha256": "c7bce5b9c642a3a7430b4b2367250768e807cff6419b8e8fbda4dc5e6bbaf8fd"
+    },
+    "emptyIntro": {
+      "textHash": "513c117252a92fc0aa39208f40712d13d256e6548a37ba5b63d204b11dd8d4ca",
+      "spoken": "ಡಿಮ್ಯಾಟ್, ಬ್ಯಾಂಕ್ ಅಥವಾ ಮ್ಯೂಚುವಲ್ ಫಂಡ್. ಯಾರನ್ನು ನಾಮನಿರ್ದೇಶನ ಮಾಡಲಾಗಿದೆ ಎಂಬುದನ್ನು ಪರಿಶೀಲಿಸಿ, ಒಂದು ಸಮಯದಲ್ಲಿ ಒಂದು ಖಾತೆ.",
+      "bytes": 49119,
+      "seconds": 12.142,
+      "sha256": "689f380d58a2de66e000ec399ca2c8ef383d30ef9172ab5f7e80a96b8cd524dd"
+    },
+    "example": {
+      "textHash": "e54f5be865f884983559bab0df1fe7fdcae08694cf0d5cb2a0ab205acd0bc680",
+      "spoken": "ಒಂದು ಉದಾಹರಣೆ ನೋಡಿ",
+      "bytes": 9084,
+      "seconds": 2.125,
+      "sha256": "500992e2e633ed10bc29ce01f6abf613db8467379f3f5349e97ba030d5b68e3a"
+    },
+    "sample": {
+      "textHash": "82e79f3fd044d3b9f3369e78d745e27c35b0e5adf25f4b68b9c6f342d213fe04",
+      "spoken": "ಉದಾಹರಣೆ ಕುಟುಂಬ · ಕಾಲ್ಪನಿಕ ಖಾತೆಗಳು",
+      "bytes": 16379,
+      "seconds": 3.94,
+      "sha256": "4c0de1dffadeaee9ed0498efc10cdad62e4fab2be80ac4113c3204b7b299c7f8"
+    },
+    "resume": {
+      "textHash": "0b986668aaf4fee24affc820c0cffa54f53dff29d9fa180ec102fc78e8feb516",
+      "spoken": "ಉಳಿಸಿದ ಪಟ್ಟಿಯನ್ನು ತೆರೆಯಿರಿ",
+      "bytes": 10139,
+      "seconds": 2.391,
+      "sha256": "a8cd831ecac457302bb9fe5c4ef5182d8ee01a4f7ac24e223a9e52cf1c8a7bb6"
+    },
+    "accounts": {
+      "textHash": "efa8598482e7a2810ad245e520294188f3e9a5952ed464a77cf9c9f7eb2e833c",
+      "spoken": "ಖಾತೆಗಳು",
+      "bytes": 5245,
+      "seconds": 1.159,
+      "sha256": "5c3dbd4170e55ec9c941d252754019166ec52d5eff486ebacf1c97ef37d593d4"
+    },
+    "needAction": {
+      "textHash": "92e483dd2096505dac15c1aa663c554e06660a70df27f9eaa5da59039b64fe92",
+      "spoken": "ಗಮನ ಬೇಕು",
+      "bytes": 6399,
+      "seconds": 1.454,
+      "sha256": "39cdec3c9d0c70f510e075dc81207216f8a3e1078ca7f10b64ecb316a0ed68f8"
+    },
+    "next": {
+      "textHash": "264ee5d0f9842be6521cce1d4c659a6de8ee346fd32e24a74bfaef68f5ef90af",
+      "spoken": "ನಿಮ್ಮ ಮುಂದಿನ ಹೆಜ್ಜೆ",
+      "bytes": 8121,
+      "seconds": 1.873,
+      "sha256": "13e45d701a51bbbbe50693ec72fe31ef5534f395e3857c149d998d4a2838266a"
+    },
+    "allTypes": {
+      "textHash": "86e18e30184bcfab1b9a3245e9269fa23c84c101008da1904db9fda6b394c0b4",
+      "spoken": "ಎಲ್ಲಾ ಖಾತೆಗಳು",
+      "bytes": 7069,
+      "seconds": 1.61,
+      "sha256": "fc86bea583b7c97da69eae3f0d2164b331f17fd855c8f4be6cc45b03d4e88584"
+    },
+    "allClear": {
+      "textHash": "b25f858326d1593008308745362839d41935ab2980abec0d6e03d36b43325ffa",
+      "spoken": "ಈ ದಾಖಲೆಗಳನ್ನು ನವೀಕೃತವಾಗಿ ಇರಿಸಿ",
+      "bytes": 17053,
+      "seconds": 4.123,
+      "sha256": "6abd873f0bb0ddcc463e4b0b944aa91806c460d47a134120b341efe19c299b43"
+    },
+    "type": {
+      "textHash": "99c8513ca69687d5c6aef1a4dae124a828842cb2303b4f07ba1a2bacec8293cd",
+      "spoken": "ಖಾತೆ ಪ್ರಕಾರ",
+      "bytes": 6201,
+      "seconds": 1.398,
+      "sha256": "be6235b6d4056c818ddce8d44c6e367889f370179d2eb116e1f0ff101cca566d"
+    },
+    "demat": {
+      "textHash": "2e682fcc8fc890e561bf23e28de304c0eb626288196bb8794273606f65e2cd10",
+      "spoken": "ಡಿಮ್ಯಾಟ್",
+      "bytes": 4954,
+      "seconds": 1.102,
+      "sha256": "2312ef668da4dc5242eb5c6433425e3c033db2187ec764b7f2b33bdaf983655a"
+    },
+    "bank": {
+      "textHash": "f3a554bdf445eacab393280e7b97c8b0a5ed8085adbd2963d0ce53282bbc307c",
+      "spoken": "ಬ್ಯಾಂಕ್ ಠೇವಣಿ",
+      "bytes": 7641,
+      "seconds": 1.773,
+      "sha256": "62e97b7a8580bc775d3a9df5f7d6fc0e1bf36f58dee7894c43f012c7afe2ffa6"
+    },
+    "mf": {
+      "textHash": "f21dd7da315aa1a0133d6edfc74a40c6e95fdf8f24c06182ce57d5932469016b",
+      "spoken": "ಮ್ಯೂಚುಯಲ್ ಫಂಡ್ ಫೋಲಿಯೋ",
+      "bytes": 9655,
+      "seconds": 2.271,
+      "sha256": "a17193c1ec23ac825e581d1a81bcc11a3624f3c26856bccc1f0aa25d666a3a61"
+    },
+    "institution": {
+      "textHash": "f7b1bb07be73509faf4456b63a2d854832396c651693e0aedcc3b06fad169f11",
+      "spoken": "ಬ್ಯಾಂಕ್, ಬ್ರೋಕರ್ ಅಥವಾ ಫಂಡ್ ಹೆಸರು",
+      "bytes": 13600,
+      "seconds": 3.254,
+      "sha256": "36ded7bd6ca4dee698ac8d1ff07a3dde2ee7ba6c971a2c22993603dfcf1bd145"
+    },
+    "nickname": {
+      "textHash": "e9a3f38023a339b80f3faf362d373eb5042886970b6df45e8f30556b7602952c",
+      "spoken": "ಖಾತೆಯ ಅಡ್ಡಹೆಸರು (ಐಚ್ಛಿಕ)",
+      "bytes": 10429,
+      "seconds": 2.47,
+      "sha256": "8804ef17e94ea635532c68e9a9904f5231018ae50865c630268fde180a804947"
+    },
+    "owner": {
+      "textHash": "6025f3807d76c5df4c12edb627c6d66905b7a859f91737242b57455db9cd39db",
+      "spoken": "ಕುಟುಂಬದ ಸದಸ್ಯರ ಅಡ್ಡಹೆಸರು (ಐಚ್ಛಿಕ)",
+      "bytes": 13594,
+      "seconds": 3.259,
+      "sha256": "35ed3d729ffd236912343ac980fec48ce44f5cfb86dfddc9d3425f83a501781b"
+    },
+    "last4": {
+      "textHash": "e3a593761415fa6d94611e4068ca69d6e5e027eef045e0064eb4e96c5b205001",
+      "spoken": "ಕೊನೆಯ ನಾಲ್ಕು ಅಂಕೆಗಳು (ಐಚ್ಛಿಕ)",
+      "bytes": 14554,
+      "seconds": 3.499,
+      "sha256": "480528a9bbeeabdcaf1d89b5f305244dea174fc4c2ab6ab82ffb876d1cb8e4d6"
+    },
+    "extra": {
+      "textHash": "fd01a303bf91f43f4abb0e5bd46d3af66726f478dd60342cab99feb29f1a973c",
+      "spoken": "ಅಡ್ಡಹೆಸರು ಅಥವಾ ಕೊನೆಯ ನಾಲ್ಕು ಅಂಕೆಗಳನ್ನು ಸೇರಿಸಿ",
+      "bytes": 19546,
+      "seconds": 4.738,
+      "sha256": "21d4f0c146f18aa8809d6d2bc6c5095559b776f9000a5597836035f01660246b"
+    },
+    "noIds": {
+      "textHash": "2beeb7af3b9973ed4d9bac04281c29f91b98fa4544460f23efa19cc247657eda",
+      "spoken": "ಅಡ್ಡಹೆಸರುಗಳನ್ನು ಬಳಸಿ. ಪೂರ್ಣ ಖಾತೆ ಸಂಖ್ಯೆಗಳು, ಪ್ಯಾನ್ ಮತ್ತು ಪಾಸ್‌ವರ್ಡ್‌ಗಳನ್ನು ಈ ಪಟ್ಟಿಯಿಂದ ಹೊರಗಿಡಿ.",
+      "bytes": 36538,
+      "seconds": 8.992,
+      "sha256": "0c1c9c6d297fdd2b938519bf506ccac2b5888b1507e42f9be6a88841d028d5c5"
+    },
+    "nomination": {
+      "textHash": "cd7680933943e0c788c2be390dd101beada789af4b89f2bc28e8a3c9dd1a09da",
+      "spoken": "ನಾಮಿನಿಯನ್ನು ನೋಂದಾಯಿಸಲಾಗಿದೆಯೇ?",
+      "bytes": 13983,
+      "seconds": 3.354,
+      "sha256": "aecddacaad1eb8f57bcc6884eee39b90f9c143ca9c667e3f05efbe0498b608a2"
+    },
+    "registered": {
+      "textHash": "83b27619343ca192b4e34c408d4d904e73f0071a5ed8191372d9345d4a2c4671",
+      "spoken": "ನೋಂದಾಯಿಸಲಾಗಿದೆ",
+      "bytes": 8127,
+      "seconds": 1.885,
+      "sha256": "eb7917c64b3339c29979687dd02763c148ff68476654f6104c5a21eb4471aa91"
+    },
+    "missing": {
+      "textHash": "ceaff363655f9420474345ae0758650a2f285c503e3b5ada45d69c567b0e30c6",
+      "spoken": "ಸೇರಿಸಿಲ್ಲ",
+      "bytes": 5820,
+      "seconds": 1.315,
+      "sha256": "03ddd4a2fc125d848b78c18bcea119d2e2cc4ec1eb252364b31c11fbc91c4a51"
+    },
+    "unknown": {
+      "textHash": "5bfbbb67c16061e1efe533bea03845f987078ced145c3ae2efb007c00049ffd4",
+      "spoken": "ಖಚಿತವಾಗಿಲ್ಲ",
+      "bytes": 6876,
+      "seconds": 1.584,
+      "sha256": "91ee68e7ae57cb7fb0c8ef22e93d4c7f34faba190f21ec1d16db41e9f10da833"
+    },
+    "reported": {
+      "textHash": "26d0f2e737782fc00106d3d70bc13f748015c5a8061fd9ca39dd92854c8e79e1",
+      "spoken": "ನಿಮ್ಮಿಂದ ವರದಿಯಾಗಿದೆ",
+      "bytes": 9277,
+      "seconds": 2.168,
+      "sha256": "a2bede79cdf8800bc1444cd33b50f04964c93be31ce514fceefc493d5af3bc5d"
+    },
+    "submitted": {
+      "textHash": "7b23350b2b0ee602ae82cfbbd46666510b32dde6d09098541948caadec51df07",
+      "spoken": "ಮನವಿ ಸಲ್ಲಿಸಲಾಗಿದೆ",
+      "bytes": 9374,
+      "seconds": 2.197,
+      "sha256": "5f7d680d4805e3f1e2c307d189c4bbd292700823439ce64372e4d44300c6866d"
+    },
+    "confirmed": {
+      "textHash": "7f97b9a320d6d111b8cdcfb5740c1df989462095347f15d4e27e3905ccb555dd",
+      "spoken": "ದಾಖಲೆಯಲ್ಲಿ ಪರಿಶೀಲಿಸಲಾಗಿದೆ",
+      "bytes": 12926,
+      "seconds": 3.074,
+      "sha256": "e30fe33fbff253e2d8127508d7f79eff487994ee66846f84fa2fd09970249c89"
+    },
+    "review": {
+      "textHash": "0accc1ddd1f927971e109747aaad91c67cc947ad4297ffe51a9a4cd2e424f27b",
+      "spoken": "ದಾಖಲೆ ಪರಿಶೀಲಿಸಿ",
+      "bytes": 9947,
+      "seconds": 2.343,
+      "sha256": "0d5b9115e5e3ab5cd273f91b56cc623a05a008a7dde8505e96fe497eb65079e2"
+    },
+    "awaiting": {
+      "textHash": "e262c05a768fa4422fd06dd2bb675f529d227f5899da4c25847050d26bc3f467",
+      "spoken": "ದೃಢೀಕರಣಕ್ಕಾಗಿ ಕಾಯಲಾಗುತ್ತಿದೆ",
+      "bytes": 12733,
+      "seconds": 3.038,
+      "sha256": "c79155fd88a15647614737d180686cfa996adc5632e21076930417ba334cc48a"
+    },
+    "checkedOn": {
+      "textHash": "54f0c3b6da55bd951bbd5170b078b8fb59edcea3970ac7de92930677478be58b",
+      "spoken": "ಕೊನೆಯದಾಗಿ ಪರಿಶೀಲಿಸಲಾಗಿದೆ",
+      "bytes": 11198,
+      "seconds": 2.647,
+      "sha256": "1caa856724f9b43528bada83a5c52c15b572b02904f5982592608c97f45ae990"
+    },
+    "neverChecked": {
+      "textHash": "07e29d0e5673a0d0942cc9ebf19c51f6bf41665e8c6d89bcea2b20d8412ec3be",
+      "spoken": "ಇನ್ನೂ ಪರಿಶೀಲಿಸಿಲ್ಲ",
+      "bytes": 8513,
+      "seconds": 1.972,
+      "sha256": "6433cf58eb4d404b8513069c6bf3c5c6bc431d2ec4a40e8030ef42faad7c6447"
+    },
+    "update": {
+      "textHash": "1e7e517c68b61f7daae8912af49f867249dd31382fd80e39bd121367f41f6e67",
+      "spoken": "ಬದಲಾವಣೆಗಳನ್ನು ಉಳಿಸಿ",
+      "bytes": 9947,
+      "seconds": 2.348,
+      "sha256": "0855510fc85a8295fe2360fff1b28f4dff91f2452c58b35b900b79a972f7af07"
+    },
+    "back": {
+      "textHash": "7a9dbc0ee1f741369ba56f52bb9e2885a8948a31c8ae30f5f64c40ce6e75601e",
+      "spoken": "ಹಿಂದೆ",
+      "bytes": 4953,
+      "seconds": 1.1,
+      "sha256": "1d1c44ae945179dd4ca9d37eba86c60c86b077b4a0d3d83d8014b3e1785943a4"
+    },
+    "cancel": {
+      "textHash": "b0b70c6bc273c44397eed6494c25259f74399617e28e28f26608e9929ff38979",
+      "spoken": "ರದ್ದುಮಾಡಿ",
+      "bytes": 6203,
+      "seconds": 1.397,
+      "sha256": "10dd8e200ccc4a331dbfda65a8a16cb4357d01a8a299ee57b013b21ccc84999d"
+    },
+    "open": {
+      "textHash": "cf0e3f9ff0b1be3794b6cac38fae61436b42b4fbaef98cbc380c3fd823d890f2",
+      "spoken": "ಮುಂದಿನ ಹಂತವನ್ನು ವೀಕ್ಷಿಸಿ",
+      "bytes": 11481,
+      "seconds": 2.719,
+      "sha256": "3a82d9a334a856dadfbeb769ecb23669d7bc70e75b3b788d15652b83571b186d"
+    },
+    "registerTask": {
+      "textHash": "a56ff0376f24df3bcdebf321208d8f7ef10a0f64017d624b3298050349875f23",
+      "spoken": "ನಿಮ್ಮ ಸಂಸ್ಥೆಯೊಂದಿಗೆ ನಾಮಿನಿಯನ್ನು ಸೇರಿಸಿ",
+      "bytes": 16577,
+      "seconds": 3.986,
+      "sha256": "00fcdee9448e2ca8f94cdd22371f87ad56d1e65a2f9aa9301f03977d2877e3c9"
+    },
+    "checkTask": {
+      "textHash": "9eddfd467673649f5256d55dbf6a435688e807355593d3c2e3c77776462f2c27",
+      "spoken": "ನಾಮನಿರ್ದೇಶನ ಸ್ಥಿತಿಯನ್ನು ಪರಿಶೀಲಿಸಿ",
+      "bytes": 12830,
+      "seconds": 3.056,
+      "sha256": "5faef669929023b5d2e1444c023b39a0d1c8df7942af28134d7997083db50d53"
+    },
+    "confirmTask": {
+      "textHash": "6d0974051c8c061324be08d7ed9b5c6787ae36598473851aa486bf36a7fae356",
+      "spoken": "ವಿನಂತಿಯನ್ನು ನೋಂದಾಯಿಸಲಾಗಿದೆಯೇ ಎಂದು ಪರಿಶೀಲಿಸಿ",
+      "bytes": 21088,
+      "seconds": 5.129,
+      "sha256": "584c42c7ffcb3df2b6ea904e01f885e921b7d8ffef52d525588dc3851e8cde42"
+    },
+    "recordTask": {
+      "textHash": "6b9b9e63aee881cce98bf36cd227907f10acc14c6f8a3df78e0d6b3cae13f6a1",
+      "spoken": "ನಿಮ್ಮ ದಾಖಲೆಗಳೊಂದಿಗೆ ದೃಢೀಕರಣವನ್ನು ಇರಿಸಿಕೊಳ್ಳಿ",
+      "bytes": 17727,
+      "seconds": 4.29,
+      "sha256": "c773c4ed1a4ba1f40fa52b1d8af5fe14c5f3d9a9cced08c7867a39168744c115"
+    },
+    "dematGuide": {
+      "textHash": "3312253184770530e78aa245325783aca94353d6325af6bd328e05293ad164dd",
+      "spoken": "ಈ ಡಿಮ್ಯಾಟ್ ಖಾತೆಯನ್ನು ನಿರ್ವಹಿಸುವ ಬ್ರೋಕರ್ ಅಥವಾ ಬ್ಯಾಂಕ್ ಅನ್ನು ಬಳಸಿ. ಪ್ರಸ್ತುತ ನಾಮನಿರ್ದೇಶನ ಫಾರ್ಮ್ ಅಥವಾ ಅದರ ಅಧಿಕೃತ ಆನ್‌ಲೈನ್ ಆಯ್ಕೆಯನ್ನು ಕೇಳಿ.",
+      "bytes": 53631,
+      "seconds": 13.269,
+      "sha256": "ebc0de03be69fb8da27b23427cd5516795ad523e3ec7576ec27b39dd3517f13d"
+    },
+    "bankGuide": {
+      "textHash": "9bcf1e860e171c4ad71e19c9c63d5fcabbce1e0cf396ea20e45aff7503fd73e5",
+      "spoken": "ಆನ್‌ಲೈನ್‌ನಲ್ಲಿ ಲಭ್ಯವಿದ್ದರೆ ನಿಮ್ಮ ಬ್ಯಾಂಕಿನ ಶಾಖೆ ಅಥವಾ ಅದರ ಅಧಿಕೃತ ನಾಮನಿರ್ದೇಶನ ಸೌಲಭ್ಯವನ್ನು ಬಳಸಿ. ಪ್ರಸ್ತುತ ಠೇವಣಿ ನಾಮನಿರ್ದೇಶನ ಫಾರ್ಮ್ ಅನ್ನು ಕೇಳಿ.",
+      "bytes": 57566,
+      "seconds": 14.243,
+      "sha256": "5eea17bd0113a80d96df7ac3790acfe543becb929365974b46755673f5b27480"
+    },
+    "mfGuide": {
+      "textHash": "c711b8db81a0b15df17e95dd19e9c43e9d21480d7bf236bed20c0da29bd69572",
+      "spoken": "ಮ್ಯೂಚುಯಲ್ ಫಂಡ್ ಅಥವಾ ಅದರ ರಿಜಿಸ್ಟ್ರಾರ್‌ನ ಅಧಿಕೃತ ಸೇವಾ ಕೇಂದ್ರ ಅಥವಾ ಆನ್‌ಲೈನ್ ಆಯ್ಕೆಯನ್ನು ಬಳಸಿ. ಯೂನಿಟ್‌ಗಳನ್ನು ಡಿಮ್ಯಾಟ್‌ನಲ್ಲಿ ಇರಿಸಿದರೆ, ಡಿಮ್ಯಾಟ್ ಖಾತೆಯ ನಾಮನಿರ್ದೇಶನ ಮಾರ್ಗವನ್ನು ಬಳಸಿ.",
+      "bytes": 62460,
+      "seconds": 15.474,
+      "sha256": "482f51135351f58c2eaa6fd2bc0979749824c0b980f9309c058b55fea7bfea96"
+    },
+    "checkGuide": {
+      "textHash": "5700b4ef8265615eea56261641c99cde2b7cd47c334635dca8c5c12d5e9d5116",
+      "spoken": "ಇತ್ತೀಚಿನ ಹೇಳಿಕೆಯನ್ನು ಪರಿಶೀಲಿಸಿ ಅಥವಾ ಸಂಸ್ಥೆಯನ್ನು ಕೇಳಿ. ನೆನಪಿರುವ ನಾಮನಿರ್ದೇಶನಕ್ಕೆ ದೃಢೀಕರಣದ ಅಗತ್ಯವಿರಬಹುದು.",
+      "bytes": 41919,
+      "seconds": 10.331,
+      "sha256": "71f820cd73d07298d534042d5ada75bbbcc586b9301b5fc83e6fdc66cda7b5b1"
+    },
+    "receiptGuide": {
+      "textHash": "1e2559fd8eda4e23d391fcf033adeebee136142cffd8848c9e5a9fd004df41b0",
+      "spoken": "ರಸೀದಿಯನ್ನು ಇರಿಸಿ. ನಂತರ ನಾಮಿನಿಯನ್ನು ನಿಜವಾಗಿ ನೋಂದಾಯಿಸಲಾಗಿದೆ ಎಂದು ತೋರಿಸುವ ಹೇಳಿಕೆ ಅಥವಾ ದೃಢೀಕರಣವನ್ನು ಪರಿಶೀಲಿಸಿ.",
+      "bytes": 50753,
+      "seconds": 12.54,
+      "sha256": "12b6afe7cf6784d3cd4e2e37e6ae714b8e900514bd8d8bab0753d8760a38bf3e"
+    },
+    "institutionOnly": {
+      "textHash": "53a92cad429dc22ffefa720f2f58d8c0a419c13bba68103b8208a5e72cfe95a8",
+      "spoken": "ವಿರಾಸತ್ ನಿಮ್ಮ ಪ್ರಗತಿಯನ್ನು ದಾಖಲಿಸುತ್ತದೆ. ನೋಂದಣಿಯನ್ನು ಸಂಸ್ಥೆಯಲ್ಲಿ ಮಾಡಬೇಕು.",
+      "bytes": 28196,
+      "seconds": 6.91,
+      "sha256": "eb3290d8a5f04c5357b69278142e54bdb7b89e36ee2d8bd1aac0e166b7f01313"
+    },
+    "source": {
+      "textHash": "c112c015a5f6dcb590d0dfd3588d65feda27c7367cd2309750593a93ee578428",
+      "spoken": "ಅಧಿಕೃತ ಮಾರ್ಗದರ್ಶನ",
+      "bytes": 9083,
+      "seconds": 2.115,
+      "sha256": "a8fc6221fb32494c338f14ae0c1db865bf3ab9d2dda13ed17d4449a714372b17"
+    },
+    "sourceNote": {
+      "textHash": "a6183b78e4ca04c39d4b659de317cdc1ed1608b371ef46279b011fd339a70568",
+      "spoken": "ಪ್ರಸ್ತುತ ನಮೂನೆ ಮತ್ತು ಅರ್ಹತೆ: ನಿಮ್ಮ ಸಂಸ್ಥೆಯೊಂದಿಗೆ ದೃಢೀಕರಿಸಿ.",
+      "bytes": 25023,
+      "seconds": 6.104,
+      "sha256": "a862a753bd096dd6a58ad1e4b804793b9792eff6f768f3634ab32a3c2b49ec3e"
+    },
+    "markSubmitted": {
+      "textHash": "4c957f72b2fb453c6c1cea51392f4367834cc3d9ebcfcd2658481cc4637f590f",
+      "spoken": "ನಾನು ಮನವಿ ಸಲ್ಲಿಸಿದೆ",
+      "bytes": 9186,
+      "seconds": 2.138,
+      "sha256": "ee58990eaa294a8b11b4e028ea2ed96dca2b87d907a5d6c19eed1729d0c81ce6"
+    },
+    "markConfirmed": {
+      "textHash": "642122ab4de0b1324f0c56f1e43a7947a06d544ce9abbed9dcdc1953eaebef1b",
+      "spoken": "ನಾನು ದೃಢೀಕರಣವನ್ನು ಪರಿಶೀಲಿಸಿದೆ",
+      "bytes": 13026,
+      "seconds": 3.096,
+      "sha256": "cc01dcfa3cc90a30bfeaefd41a283be488fa033c76271e5d3896f10549f20f14"
+    },
+    "submissionDate": {
+      "textHash": "960d142c164f077daac41bb266da568d773665f9e8796b2dddeacd5e2320974e",
+      "spoken": "ಸಲ್ಲಿಸಿದ ದಿನಾಂಕ",
+      "bytes": 7843,
+      "seconds": 1.806,
+      "sha256": "65e2aa3d781a8698f6e1db655f59ecd13c5c40235e7b6db607b05063b28dd8a9"
+    },
+    "confirmationDate": {
+      "textHash": "73aa752e4bf48d46aaba45275050f22e36b3fefe68b30338402145979b94f878",
+      "spoken": "ದಾಖಲೆಯಲ್ಲಿ ದಿನಾಂಕ",
+      "bytes": 8901,
+      "seconds": 2.066,
+      "sha256": "8857ff7cd3979011ccc37c2bbbcd532f8ef050858098928844c6686017d78df5"
+    },
+    "recordKind": {
+      "textHash": "f9d866afa763921d8e748718923c00b767cbe52044c3994b6596eb80af93bbdb",
+      "spoken": "ನೀವು ಏನು ಪರಿಶೀಲಿಸಿದ್ದೀರಿ?",
+      "bytes": 13503,
+      "seconds": 3.234,
+      "sha256": "750ee70a26ddfd451260354eb015803271807b9cded28a69f50b2ddc8ba8978e"
+    },
+    "choose": {
+      "textHash": "6844341cb30057e630b3940638bac839c035b156f466c0b9c27048a0d96801ea",
+      "spoken": "ಆಯ್ಕೆ ಮಾಡಿ",
+      "bytes": 6491,
+      "seconds": 1.485,
+      "sha256": "142cdcfc6f7e974f08e94a2f7c117793c2ff408afd7d12c23f075ebacde469ca"
+    },
+    "statement": {
+      "textHash": "ba33012bd768c3a2763a50a73b52a7e600196586194054e8f70e49fd87a016f9",
+      "spoken": "ಖಾತೆ / ಹಿಡುವಳಿ ಹೇಳಿಕೆ",
+      "bytes": 10430,
+      "seconds": 2.466,
+      "sha256": "67e031892d460e6b1587d7cbfaa32d954bc0e0e7ee345e233ac8aa4896066192"
+    },
+    "registration": {
+      "textHash": "f3407e0bf23f912dc3e740b2684bcb45786f612a43cc8bcf180958f196f811ca",
+      "spoken": "ಸಂಸ್ಥೆಯ ನೋಂದಣಿ ದೃಢೀಕರಣ",
+      "bytes": 13313,
+      "seconds": 3.175,
+      "sha256": "c16cafd826b4e0be95c400470936b9f4fa76d555d8a99d0a6374d23c8d619dcb"
+    },
+    "recordNote": {
+      "textHash": "cfc76cd4d9e1edfdd9f553d269f4f4d1b04f1bef4831a5c25797edcee11b5d35",
+      "spoken": "ಸಣ್ಣ ದಾಖಲೆ ಟಿಪ್ಪಣಿ (ಐಚ್ಛಿಕ)",
+      "bytes": 11775,
+      "seconds": 2.796,
+      "sha256": "38496a9d219cb7e72a58a6c7775f39770cf54c7e9a259a19870e98bc6522df66"
+    },
+    "confirmationCheck": {
+      "textHash": "cd9c0ef2a9c647fee239ce0524325b33dec7ab5d120634871270d761672bf9a5",
+      "spoken": "ದಾಖಲೆಯು ನಾಮನಿರ್ದೇಶನ ನೋಂದಾಯಿಸಲಾಗಿದೆ ಎಂದು ತೋರಿಸುತ್ತದೆ; ವಿನಂತಿ ಸ್ವೀಕರಿಸಲಾಗಿದೆ ಎಂಬುದಷ್ಟೇ ಅಲ್ಲ.",
+      "bytes": 41062,
+      "seconds": 10.109,
+      "sha256": "bc61c40f21b2c5d063378a8886dda31ea9bdb442da7c06787fd13013b4070b9f"
+    },
+    "progress": {
+      "textHash": "3a2feaf1db0c0315a0fb2cb6f1882e1dd0d7a51cf922879dfa87d83506930b97",
+      "spoken": "ಪ್ರಗತಿ",
+      "bytes": 5053,
+      "seconds": 1.107,
+      "sha256": "8dc5cad0be0e72705ba89fcb46fded4ed5ea9a09eb60e678422eb429a873be7a"
+    },
+    "evidence": {
+      "textHash": "2363d75b1f51b054f54bba31d7483af9f0ec2b7729e982e82dd8851db97aeb30",
+      "spoken": "ನಿಮ್ಮ ದಾಖಲೆ ಪರಿಶೀಲನೆ",
+      "bytes": 10237,
+      "seconds": 2.405,
+      "sha256": "35858f3f914e6120d23fba48b5b9170b5a23e411838f088d9d910c0109080faa"
+    },
+    "selfReport": {
+      "textHash": "b2be0e4dd44a6a03c12ce6f372c74e2f96782039fc5a1e720661b75d058cd6e6",
+      "spoken": "ನೀವು ನಮೂದಿಸಿದ ಮಾಹಿತಿ. ವಿರಾಸತ್ ಸಂಸ್ಥೆಯ ದಾಖಲೆಗಳನ್ನು ಪರಿಶೀಲಿಸಿಲ್ಲ.",
+      "bytes": 27999,
+      "seconds": 6.861,
+      "sha256": "4b3dcd68ac6ee611fd44253f93ca8d9be2c071cf4ca3011d558ef43441a193bc"
+    },
+    "remove": {
+      "textHash": "dcbf8310cd388620c7e4b25ce96c82205e3a89d291c56e7374190ee959c363b8",
+      "spoken": "ಖಾತೆಯನ್ನು ತೆಗೆದುಹಾಕಿ",
+      "bytes": 9467,
+      "seconds": 2.231,
+      "sha256": "588155152738ea2df75cfd6d6f18753fc6dc323eecebc729a1c7e98693f52ca3"
+    },
+    "removeAsk": {
+      "textHash": "ef90bb0c30aa757857aac19378230de33a753089ebb4f99bff34e689423678bf",
+      "spoken": "ನಿಮ್ಮ ಪಟ್ಟಿಯಿಂದ ಈ ಖಾತೆಯನ್ನು ತೆಗೆದುಹಾಕುವುದೇ?",
+      "bytes": 19166,
+      "seconds": 4.645,
+      "sha256": "3e3006a113f33926c2f2f491f85dec2f8ac14a3dfd1e934742e723486f33c29a"
+    },
+    "summary": {
+      "textHash": "9127aecbd993f00d536751b580db18f2fea7b6b5adc182822e89ee7f51b8465d",
+      "spoken": "ಕುಟುಂಬದ ಸಾರಾಂಶ",
+      "bytes": 7548,
+      "seconds": 1.739,
+      "sha256": "16abe24d22a2d1966c502b377714ccf9f0e7b9e38dcb6fba0f85c727a0fc0dd4"
+    },
+    "summaryIntro": {
+      "textHash": "ec03d845cc6470ed9f4b807eb184e6b21a1effff1980d3269cef9a41c6ab3e13",
+      "spoken": "ಹಂಚಿಕೊಳ್ಳುವ ಮೊದಲು ನಿಮ್ಮ ಕುಟುಂಬವು ಏನನ್ನು ತಿಳಿದುಕೊಳ್ಳಬೇಕು ಎಂಬುದನ್ನು ಪರಿಶೀಲಿಸಿ.",
+      "bytes": 30497,
+      "seconds": 7.485,
+      "sha256": "354fb5b7b1054fab2c0301d14af21fb7df63b60aaff5c3683664ad77bf2fe6c5"
+    },
+    "summaryNotice": {
+      "textHash": "4a58e61d22c4ea0144213da4b9942c0020f656f19caabfab76e1f6d544d8336b",
+      "spoken": "ಖಾತೆ ಲೇಬಲ್‌ಗಳು, ಕುಟುಂಬ/ನಾಮನಿರ್ದೇಶಿತ ಅಡ್ಡಹೆಸರುಗಳು ಮತ್ತು ಸೇರಿಸಿದರೆ ಕೊನೆಯ ನಾಲ್ಕು ಅಂಕೆಗಳನ್ನು ಒಳಗೊಂಡಿರುತ್ತದೆ. ದಾಖಲೆ ಟಿಪ್ಪಣಿಗಳನ್ನು ಬಿಟ್ಟುಬಿಡಲಾಗಿದೆ. ನೀವು ನಂಬುವವರೊಂದಿಗೆ ಮಾತ್ರ ಹಂಚಿಕೊಳ್ಳಿ.",
+      "bytes": 71394,
+      "seconds": 17.708,
+      "sha256": "97ad3f079923b703e7a3d2c1be6060d50554f0b58466a72300f47fedd6a7fd17"
+    },
+    "print": {
+      "textHash": "382b9c3813d005ba16a3953e036c2f2d8287a8646ac31e6aada3b39ed9208a0f",
+      "spoken": "ಪಿ ಡಿ ಎಫ್ ಅನ್ನು ಮುದ್ರಿಸಿ ಅಥವಾ ಉಳಿಸಿ",
+      "bytes": 14554,
+      "seconds": 3.496,
+      "sha256": "1da765e80bd65b2037b2ab3421061f47cd70b6a919a64fe691a455b08054099e"
+    },
+    "export": {
+      "textHash": "fe69b6292cd7bc143cab93abc9c64fcc3ccbe68c4ce83681cf8d14b1ab0e8c5f",
+      "spoken": "ಓದಬಹುದಾದ ಪ್ರತಿಯನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+      "bytes": 15035,
+      "seconds": 3.613,
+      "sha256": "793b5ecad05f70aac77a1774a24f9a288fcdbfc417bab845f2a7b6916da85326"
+    },
+    "save": {
+      "textHash": "5688bb8c7d8ec1611789c81b64c07ef0d9f41ce3e5443a155eda55e2b3f535f2",
+      "spoken": "ನಿಮ್ಮ ಪ್ರಗತಿಯನ್ನು ಉಳಿಸಿ",
+      "bytes": 8889,
+      "seconds": 2.084,
+      "sha256": "69912ba9fedc501797ab7076cce1caa047b1fd5ce00ca1e71a8f0a3871011d54"
+    },
+    "saveShort": {
+      "textHash": "a87b91162db7fa8abc3670d8e005ecaa44de39d882c634a1161b3fabf8513703",
+      "spoken": "ನಂತರ ಉಳಿಸಿ",
+      "bytes": 6878,
+      "seconds": 1.582,
+      "sha256": "f2d13e384a88f71f902c4796cfdb4ac3219150ac6bf1d5d12863777982e202e5"
+    },
+    "saveIntro": {
+      "textHash": "c90f26b285d58a387efb545bfae2dc0cda03cc599005ac0f3f517ef4f56888ba",
+      "spoken": "ಲಾಕ್ ಮಾಡಿದ ಫೈಲ್ ಅನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ. ನೀವು ಹಿಂತಿರುಗಿದಾಗ ಅದೇ ಪಾಸ್‌ವರ್ಡ್‌ನೊಂದಿಗೆ ಅದನ್ನು ಇಲ್ಲಿ ತೆರೆಯಿರಿ.",
+      "bytes": 39614,
+      "seconds": 9.756,
+      "sha256": "6cdafd7bbd9bd34bfe4cfeeb5ef28d2d04c6824ca9979d56d2c089fe77b95573"
+    },
+    "savedFile": {
+      "textHash": "c75c2c3464999bd89fd53754f7cf9e39f38465cb4f8b71958479a275d4d854cb",
+      "spoken": "ನಿಮ್ಮ .ವಿರಾಸತ್ ಫೈಲ್",
+      "bytes": 11198,
+      "seconds": 2.66,
+      "sha256": "8c46c407d7aca6fd5d0378fa48ad8744669f1e2ce435b5ea70b600bbceeadb28"
+    },
+    "password": {
+      "textHash": "0f69d5aa7753ca39b050ced953eccc91a4a05375c81b4401d6cc71febb98b08b",
+      "spoken": "ಪಾಸ್ವರ್ಡ್",
+      "bytes": 5149,
+      "seconds": 1.14,
+      "sha256": "5d599b960031b5cb8b56dcf710680795411da38b7de923e93b8aed0582d9f880"
+    },
+    "passwordHelp": {
+      "textHash": "6b8cbed0f9ac95df8fcbfc70a62e1d10d270b1376e121eaa8db51f29c33808bf",
+      "spoken": "ಕನಿಷ್ಠ ಹನ್ನೆರಡು ಅಕ್ಷರಗಳು ಇರಲಿ. ಪಾಸ್‌ವರ್ಡ್ ಅನ್ನು ಸುರಕ್ಷಿತವಾಗಿ ಇರಿಸಿ; ಅದನ್ನು ನಾವು ಮರಳಿ ಪಡೆಯಲು ಸಾಧ್ಯವಿಲ್ಲ.",
+      "bytes": 42209,
+      "seconds": 10.404,
+      "sha256": "ba54a1e3a1b3b6a1f1b16171e6f6cb8d09646d38f065fb0f6bb36d09f5a1bd89"
+    },
+    "saving": {
+      "textHash": "f0419ea355d715d50731008558208f4eb416b4bd46468f57dde018828d2d98ed",
+      "spoken": "ನಿಮ್ಮ ಪಟ್ಟಿಯನ್ನು ರಕ್ಷಿಸಲಾಗುತ್ತಿದೆ...",
+      "bytes": 13403,
+      "seconds": 3.199,
+      "sha256": "3062c3e34468e7fed6f27dd50e46343d64233bdd6e8ee3634f9a61fd524fd17c"
+    },
+    "saved": {
+      "textHash": "360da97c6d9897149216fff8fdb100e7d1bd949387ffdcbe23c3fc6812f8b030",
+      "spoken": "ಎನ್‌ಕ್ರಿಪ್ಟ್ ಮಾಡಿದ ಕಡತ ಡೌನ್‌ಲೋಡ್ ಆಗಿದೆ. ಪಾಸ್‌ವರ್ಡ್ ಅನ್ನು ಪ್ರತ್ಯೇಕವಾಗಿ ಇರಿಸಿ.",
+      "bytes": 27898,
+      "seconds": 6.836,
+      "sha256": "c0b2e15af8e0c335c335e9cc020088ea39d70c860e0737fb20d865132bc8dd0d"
+    },
+    "restored": {
+      "textHash": "660d6c8c7de4acb8c8c775b737b419613002433b05eac15b849bcbf276e501d7",
+      "spoken": "ನಿಮ್ಮ ಪಟ್ಟಿ ತೆರೆದಿದೆ.",
+      "bytes": 8125,
+      "seconds": 1.875,
+      "sha256": "1500e8dbb22d1495f9b14d8bf177174d6cb5ecb29b84cd6647fe05029fc9248c"
+    },
+    "passwordShort": {
+      "textHash": "6936f11a8662e71dcbace942530a073bc103a0d7c6f8fe581d2c934c3d3f8aaf",
+      "spoken": "ಹನ್ನೆರಡು ರಿಂದ ಇನ್ನೂರ ಐವತ್ತಾರು ಅಕ್ಷರಗಳ ಪಾಸ್‌ವರ್ಡ್ ಬಳಸಿ.",
+      "bytes": 23298,
+      "seconds": 5.682,
+      "sha256": "89b253dab5f76f1e11b4021c92c29fc04d313bd1abc356511765cd8cb8a53622"
+    },
+    "cannotUnlock": {
+      "textHash": "08d27776802566b07e94e286fd02ec9bafafa231df5c28c4bb564a5060561395",
+      "spoken": "ಪಾಸ್ವರ್ಡ್ ಅಥವಾ ಎನ್ಕ್ರಿಪ್ಟ್ ಮಾಡಿದ ಫೈಲ್ ಅನ್ನು ಪರಿಶೀಲಿಸಲಾಗಲಿಲ್ಲ.",
+      "bytes": 23681,
+      "seconds": 5.773,
+      "sha256": "78ba3462eef7727ed4d24d1339b93b601603fe7b0cfadca729fc5897ee5afda8"
+    },
+    "invalidSave": {
+      "textHash": "4f9b9e7622557e7d0b45832be8d0703f1d7debc2b8086da2e1cae4dd84e609eb",
+      "spoken": "ಈ ಉಳಿಸಿದ ಪಟ್ಟಿ ಅಮಾನ್ಯವಾಗಿದೆ ಅಥವಾ ತುಂಬಾ ದೊಡ್ಡದಾಗಿದೆ.",
+      "bytes": 21664,
+      "seconds": 5.28,
+      "sha256": "78f0493c8add58637b2c907f2cca7b21b8e6d2585ff2dc5fb909a34bec0e9475"
+    },
+    "invalidAccount": {
+      "textHash": "00d91a0e7c025cceac80b01e3947b38746c485924b506e0382abc4847709f08d",
+      "spoken": "ಸಂಸ್ಥೆಯ ಹೆಸರನ್ನು ನಮೂದಿಸಿ. ಉಲ್ಲೇಖವನ್ನು ಸೇರಿಸಿದರೆ ನಿಖರವಾಗಿ ನಾಲ್ಕು ಅಂಕೆಗಳನ್ನು ಬಳಸಿ.",
+      "bytes": 35683,
+      "seconds": 8.779,
+      "sha256": "8efc137701d75ac4d645953bcb06f0e4f38a2269eb01cc3f6b65317c7d1b8475"
+    },
+    "invalidDate": {
+      "textHash": "1c516c97d81a8dd02a60a94cc323d2764f18af62cf22765a82c97eb539005de9",
+      "spoken": "ನಿಜವಾದ ದಿನಾಂಕವನ್ನು ಬಳಸಿ, ಇಂದಿನ ನಂತರ ಇಲ್ಲ. ದೃಢೀಕರಣವು ಸಲ್ಲಿಸುವ ಮೊದಲು ಇರುವಂತಿಲ್ಲ.",
+      "bytes": 34816,
+      "seconds": 8.547,
+      "sha256": "6bb2f90bcc60399445e4c638a70e0f79a945d48538e0d9d5ae4faa6ddf338311"
+    },
+    "submissionRequired": {
+      "textHash": "f72759083cc7838d13d81abe41a28a0559d5d3037e8fd566805e5b50b1fcdb8c",
+      "spoken": "ನೀವು ವಿನಂತಿಯನ್ನು ಸಲ್ಲಿಸಿದ ದಿನಾಂಕವನ್ನು ಸೇರಿಸಿ.",
+      "bytes": 17255,
+      "seconds": 4.152,
+      "sha256": "e43074d6a3fb9caaa85cd3bc37e28edb9d7d5ef1847a5f6491173c460f3e4bfb"
+    },
+    "confirmationRequired": {
+      "textHash": "5038c434f9c08c8b25a202de5e9cb4c724559bae7a9952f996ec0b53984579a4",
+      "spoken": "ದಾಖಲೆ ಪ್ರಕಾರ ಮತ್ತು ದಿನಾಂಕವನ್ನು ಸೇರಿಸಿ, ನಂತರ ಅದು ನೋಂದಣಿಯನ್ನು ತೋರಿಸುತ್ತದೆ ಎಂದು ಖಚಿತಪಡಿಸಿ. ಕೇವಲ ರಶೀದಿ ಸಾಕಾಗುವುದಿಲ್ಲ.",
+      "bytes": 51145,
+      "seconds": 12.643,
+      "sha256": "048e4c08ad777f8a185508caffcc45410f0f005a4679b4cc8de419a260f58937"
+    },
+    "accountLimit": {
+      "textHash": "3215799d194ede7516e847bbc57d53f0e499bbf5cfe7febfd985f8c3a25c6d3c",
+      "spoken": "ಈ ಪಟ್ಟಿಯು ಐವತ್ತು ಖಾತೆಗಳನ್ನು ಹೊಂದಬಹುದು.",
+      "bytes": 17153,
+      "seconds": 4.14,
+      "sha256": "f5ef1dc99c5e8bce008e4f1b0161c257e5f1bea9d16e88ab99b4ca86841f8161"
+    },
+    "updated": {
+      "textHash": "a9f0146f0ccb63c7cabb426f10146a95d7a48d89b0925d4d38e7bdb5b69c3e04",
+      "spoken": "ನಿಮ್ಮ ಪಟ್ಟಿಯನ್ನು ನವೀಕರಿಸಲಾಗಿದೆ.",
+      "bytes": 14460,
+      "seconds": 3.463,
+      "sha256": "d006f4e817bc67869e7d7c19cbecf4d1735f8fcfd1f44a85be74750bbe0936ea"
+    },
+    "privacyHelp": {
+      "textHash": "962b1798957688aa4db721a1e611aebae9c414e942085e7e0902eb15c498a55f",
+      "spoken": "ಗೌಪ್ಯತೆ ಮತ್ತು ಸಹಾಯ",
+      "bytes": 8704,
+      "seconds": 2.026,
+      "sha256": "76562c2fde5d8e36a8f00fd5c13f47ab69f57657cfc642c71445fff6fbd77076"
+    },
+    "privacyDetail": {
+      "textHash": "51ca683e9fbfb747ffa29e98ca2653fc38512bc671ae608f64f770167d4a6769",
+      "spoken": "ನಿಮ್ಮ ಪಟ್ಟಿ ಬ್ರೌಸರ್‌ನ ಮೆಮೊರಿಯಲ್ಲಿ ಇರುತ್ತದೆ. ಪುಟವನ್ನು ಮರುಲೋಡ್ ಮಾಡಿದರೆ ಅದು ಅಳಿಯುತ್ತದೆ. ನಂತರ ಮತ್ತೆ ತೆರೆಯಲು ಎನ್‌ಕ್ರಿಪ್ಟ್ ಮಾಡಿದ ಕಡತ ಉಳಿಸಿ. ಡೌನ್‌ಲೋಡ್ ಮಾಡಿದ ಕಡತಗಳು ನಿಮ್ಮ ಸಾಧನದಲ್ಲೇ ಇರುತ್ತವೆ.",
+      "bytes": 71106,
+      "seconds": 17.637,
+      "sha256": "3d29a6682f86ba40f0cbd5a13401f0288544f3319d140d84207011a0cc30e332"
+    },
+    "translationNotice": {
+      "textHash": "8c4ca809c7c9caa48605147fbb17dd9dba85df0ac773f3be085d6008facb08af",
+      "spoken": "ಡ್ರಾಫ್ಟ್ ಅನುವಾದಗಳು; ನಿರರ್ಗಳ-ಓದುಗರ ವಿಮರ್ಶೆ ಬಾಕಿಯಿದೆ. ಅಧಿಕೃತ ರೂಪಗಳು ತಮ್ಮ ಮೂಲ ಭಾಷೆಯನ್ನು ಉಳಿಸಿಕೊಳ್ಳುತ್ತವೆ.",
+      "bytes": 44038,
+      "seconds": 10.866,
+      "sha256": "2a142dbccfab1a747a8bc3b94d4331510b3187e8b2a47630f6d4001e27d82ce0"
+    },
+    "boundary": {
+      "textHash": "43ffccfe539699725e3a7ace4e5c1c7876ca90214940d34c6ffb7ad75203f3fc",
+      "spoken": "ಈ ಪಟ್ಟಿಯು ವಾರಸುದಾರಿಕೆಯ ಹಕ್ಕುಗಳನ್ನು ನಿರ್ಧರಿಸುವುದಿಲ್ಲ, ಖಾತೆಗಳನ್ನು ಪತ್ತೆ ಮಾಡುವುದಿಲ್ಲ ಅಥವಾ ವಿನಂತಿಗಳನ್ನು ಸಲ್ಲಿಸುವುದಿಲ್ಲ.",
+      "bytes": 42493,
+      "seconds": 10.481,
+      "sha256": "bd2d338cda399e2255e8159ddffc2947ff52df3c81b495af0f726a791b568a9b"
+    },
+    "clear": {
+      "textHash": "ee5b727da53d24a6b2c0ce93d4429c52ba68991cb33ffd4c8982ded20b9f13be",
+      "spoken": "ಈ ಅಧಿವೇಶನವನ್ನು ತೆರವುಗೊಳಿಸಿ",
+      "bytes": 12634,
+      "seconds": 3.0,
+      "sha256": "a685b478f977340aaeb642fb374f5757a38f1c835b501817deea03c1212ed428"
+    },
+    "clearAsk": {
+      "textHash": "c2afa5879bf1cf1266ad7536806ddad7108d19017b0651f09ebd3939675196ed",
+      "spoken": "ಈ ಅಧಿವೇಶನದಿಂದ ಪಟ್ಟಿಯನ್ನು ತೆರವುಗೊಳಿಸುವುದೇ? ಉಳಿಸಿದ ಡೌನ್‌ಲೋಡ್‌ಗಳು ಉಳಿಯುತ್ತವೆ.",
+      "bytes": 29725,
+      "seconds": 7.283,
+      "sha256": "aa75ee531c090cb8f0ae93aec697f647cbc7b640707e7ac7983fb22994e09f93"
+    },
+    "clearDone": {
+      "textHash": "3901ec22c7b2423f10920573e10a7b4ec7dd33bc6da7a3b943b6f88c543d1e93",
+      "spoken": "ಈ ಅಧಿವೇಶನವನ್ನು ತೆರವುಗೊಳಿಸಲಾಗಿದೆ.",
+      "bytes": 14078,
+      "seconds": 3.368,
+      "sha256": "0deffca2e2127153f1a105088caf9e85eeaad0f0845018c16d8e737cbabd866e"
+    },
+    "language": {
+      "textHash": "b74697913287bcb9a7210b98d2718cfd9000388bd0a4b9767aaa08b5fc1bfa2f",
+      "spoken": "ಭಾಷೆ",
+      "bytes": 4669,
+      "seconds": 1.011,
+      "sha256": "1305ed1b41338b9b0b7d99061118f2261557d05f01bbf34cc9bcfd94c6392009"
+    },
+    "access": {
+      "textHash": "658aaf2d8c79c3b81b6981158f6af7ee6c9713fee2465059972bfe9b12afc560",
+      "spoken": "ಪ್ರವೇಶಿಸುವಿಕೆ",
+      "bytes": 6683,
+      "seconds": 1.535,
+      "sha256": "0010e9de176882eea2f6dc06fc37d0b210288745da06a67b3e37832ec25421ff"
+    },
+    "textSize": {
+      "textHash": "a77c75725d9862401e1cba42a757c9e3e16443b7111c14f7d4fc9bfe79917bb6",
+      "spoken": "ಪಠ್ಯದ ಗಾತ್ರ",
+      "bytes": 6397,
+      "seconds": 1.446,
+      "sha256": "5ab675c1b944272576ca68f7049aaa1433980c14cabfc43d71c0aee32653b721"
+    },
+    "smaller": {
+      "textHash": "3304ea3e6c80ed15a773316e865edc6dc9aec69822837c2b132bc5e2b8e41c77",
+      "spoken": "ಚಿಕ್ಕ ಪಠ್ಯ",
+      "bytes": 5628,
+      "seconds": 1.262,
+      "sha256": "7055bbb33c4d0ae531e28f411f928bdb242ffd235854b8d3303ed3a5b1a58eb7"
+    },
+    "larger": {
+      "textHash": "d194e3ea8ada3f5ca4f7cb695cfcdb69aa0278dc9ddbfca94775699912dfd3ec",
+      "spoken": "ದೊಡ್ಡ ಪಠ್ಯ",
+      "bytes": 6203,
+      "seconds": 1.396,
+      "sha256": "e086c635dffd236fcc8f0cf99237084826fb0477cde9b36c0d735666aef07dd7"
+    },
+    "contrast": {
+      "textHash": "b206af089fc5efc904772e8a9b30c39131e294918f82e33eab036b8a0056f87e",
+      "spoken": "ಹೆಚ್ಚಿನ ಕಾಂಟ್ರಾಸ್ಟ್",
+      "bytes": 8509,
+      "seconds": 1.978,
+      "sha256": "b6ab7c0e339f4c5c9b93b9a3eec446c29f033ab95266f390ba5ab493f02d158c"
+    },
+    "motion": {
+      "textHash": "07048e1317cd299650b4b037c351f7ebaa752b5aa575a2eba805aa4c318e0afa",
+      "spoken": "ಚಲನೆಯನ್ನು ಕಡಿಮೆ ಮಾಡಿ",
+      "bytes": 9083,
+      "seconds": 2.115,
+      "sha256": "a48640d31486147aaf76cff95039a52588c3f27a655218fe7c91187e2271a5fb"
+    },
+    "read": {
+      "textHash": "462c23fa7dd7de8c270d7747f302f4ab6ca2fa06f149d4814ad3e4d3cdc5d897",
+      "spoken": "ಸೂಚನೆಗಳನ್ನು ಆಲಿಸಿ",
+      "bytes": 9273,
+      "seconds": 2.178,
+      "sha256": "b0897d59a058af5d40938b86d81b1fca21ec3c6549a09bd297a7c569b542f27b"
+    },
+    "speechUnavailable": {
+      "textHash": "c6e8f32ff536d1f4ab8b04a12e1fcddf3eeae64ab7ea4cc092aa783f52c41fa6",
+      "spoken": "ಈ ಸೂಚನೆಯ ಆಡಿಯೋ ಸಿದ್ಧವಾಗಿಲ್ಲ. ಲಿಖಿತ ಸೂಚನೆಗಳು ಇನ್ನೂ ಇಲ್ಲಿವೆ.",
+      "bytes": 25894,
+      "seconds": 6.324,
+      "sha256": "e907cb62873f2f84aabe5d367b530e2116e77532efe8ee1b809455ec9c862e0f"
+    },
+    "close": {
+      "textHash": "465abcb28e64740f0c9f7f3ec80b7ebb9cb901660ca7f3b3ffcca32e6e5965a2",
+      "spoken": "ಮುಚ್ಚಿ",
+      "bytes": 5050,
+      "seconds": 1.115,
+      "sha256": "0ce49951efc1420a83b2ba03df217fc6e2cf72b3fdb21cb04a497b4ad6ade9e2"
+    },
+    "skip": {
+      "textHash": "43d27c1917b194224e076614756ce9c3e2b08486d854ad954cff98b241e1fb7a",
+      "spoken": "ಮುಖ್ಯ ವಿಷಯಕ್ಕೆ ತೆರಳಿ",
+      "bytes": 8889,
+      "seconds": 2.082,
+      "sha256": "11d6a40ee83cd3d269ad7151f71a287a07045be7595d9c3bd06e5399cd9e3aa3"
+    },
+    "nothing": {
+      "textHash": "7425a44c2e66d8ae41d87e72f4698cfecb9fe42b880bca086ce52eb270c53c42",
+      "spoken": "ಈ ವೀಕ್ಷಣೆಯಲ್ಲಿ ಯಾವುದೇ ಖಾತೆಗಳಿಲ್ಲ",
+      "bytes": 15516,
+      "seconds": 3.741,
+      "sha256": "614ba9a0901222e375333cfbde0ddae242f312b44b6b6b1a30171dd76bdfc76f"
+    },
+    "optoutNote": {
+      "textHash": "6b4eec2f8c7c5a29cd873d25e946603226d87dddbcb33d8cb4079865348b0a04",
+      "spoken": "ಸೇರಿಸದಿರುವುದು ಉದ್ದೇಶಪೂರ್ವಕ ಆಯ್ಕೆಯಿಂದ ಹೊರಗುಳಿಯುವುದನ್ನು ಪ್ರತಿಬಿಂಬಿಸಬಹುದು. ದಾಖಲೆಯನ್ನು ಪರಿಶೀಲಿಸಿ ಮತ್ತು ಖಾತೆದಾರರೊಂದಿಗೆ ಆಯ್ಕೆಮಾಡಿ.",
+      "bytes": 53151,
+      "seconds": 13.135,
+      "sha256": "16e2e53473eab602baa834144ddd05d54f7bbb635d1a02e579dccc9010fc08fa"
+    },
+    "startCheck": {
+      "textHash": "1f52dac14b9e3c15750034f2d998db5e5139c125dc575550d7df4544f1a23924",
+      "spoken": "ಖಾತೆಯನ್ನು ಪರಿಶೀಲಿಸಿ",
+      "bytes": 8895,
+      "seconds": 2.075,
+      "sha256": "855361a69133f7a90aa3d0277d7c7783f5824df2e6c9841695b2ca815f759732"
+    },
+    "startHelp": {
+      "textHash": "44a87fc656853020b2f2c567766673b0fc8241b6bedd8d1224ddde09a648b844",
+      "spoken": "ಪಾಸ್‌ಬುಕ್, ಸ್ಟೇಟ್‌ಮೆಂಟ್ ಅಥವಾ ನೀವು ಈಗಾಗಲೇ ಬಳಸುವ ಅಪ್ಲಿಕೇಶನ್‌ನೊಂದಿಗೆ ಪ್ರಾರಂಭಿಸಿ. ಪ್ರಾರಂಭಿಸಲು ಒಂದು ಖಾತೆ ಸಾಕು.",
+      "bytes": 44606,
+      "seconds": 11.01,
+      "sha256": "596de288f904368929c3d3e3fe28925e648503d1f38124742d84414f10c219e5"
+    },
+    "resumeTask": {
+      "textHash": "31da020dbaeda3ab81a0ccc79fa64afdddd7846b74809b1dab1ce610a1fd0f1e",
+      "spoken": "ಈ ಕಾರ್ಯವನ್ನು ಮುಂದುವರಿಸಿ",
+      "bytes": 11007,
+      "seconds": 2.599,
+      "sha256": "3fb6f231230dc325b5dbdc9a29ed8216255f5ac2e5473241f3f127a030be58ce"
+    },
+    "needsAttention": {
+      "textHash": "bbd0a6b002f60ff68a85c8080540da486d858e7ac13b8f349b2c530fc959dd94",
+      "spoken": "ಇನ್ನೂ ಮಾಡಬೇಕಿದೆ",
+      "bytes": 7555,
+      "seconds": 1.739,
+      "sha256": "49f2f0581ca6bccb3ab5ae891feadb2bb0a61c692ef4c09a2f9d9d207e537a84"
+    },
+    "checkedCount": {
+      "textHash": "e31ffec1b017f8b24958d32f87289e986eadf7d9095ae9182b14355b538bcbc3",
+      "spoken": "ದಾಖಲೆಗಳನ್ನು ಪರಿಶೀಲಿಸಲಾಗಿದೆ",
+      "bytes": 12929,
+      "seconds": 3.093,
+      "sha256": "9a817d2121cd7acc348c8b4bd010c0e3916ddaed28c3c49c4dff54841df67b7d"
+    },
+    "howWorks": {
+      "textHash": "c9c5957f7414f7f10ab152d2adcb7a295da736ec6c2d1a56d86aa2b884095b99",
+      "spoken": "ಇದು ಹೇಗೆ ಸಹಾಯ ಮಾಡುತ್ತದೆ",
+      "bytes": 12829,
+      "seconds": 3.052,
+      "sha256": "51297f841f8c91844da68b960ee4e8b42e247d8a01f5ba75d58dfc46220fdb24"
+    },
+    "howWorksText": {
+      "textHash": "cddf8b2691eb2f3e6490ce7a44fd5f64221c1c9c1b354041685adf8903fa6d6d",
+      "spoken": "ಸರಿಯಾದ ಸ್ಥಳವನ್ನು ಪರಿಶೀಲಿಸಲು, ನಿಮ್ಮ ಮುಂದಿನ ಹಂತವನ್ನು ಸಿದ್ಧಪಡಿಸಲು ಮತ್ತು ಫಲಿತಾಂಶವನ್ನು ಉಳಿಸಿಕೊಳ್ಳಲು ನಾವು ನಿಮಗೆ ಸಹಾಯ ಮಾಡುತ್ತೇವೆ. ನಿಮ್ಮ ಬ್ಯಾಂಕ್, ಬ್ರೋಕರ್ ಅಥವಾ ಫಂಡ್ ನಿಜವಾದ ಬದಲಾವಣೆಯನ್ನು ಮಾಡುತ್ತದೆ.",
+      "bytes": 73889,
+      "seconds": 18.332,
+      "sha256": "e854d057e9ba6765eb796becc23c7edf37bfe954c765eba3c4b0d0846017c2ba"
+    },
+    "searchBank": {
+      "textHash": "1893def69fa0bb8842782b7b64bad3c46273a9cf06bf844300615250dc927a9f",
+      "spoken": "ನಿಮ್ಮ ಬ್ಯಾಂಕ್ ಅನ್ನು ಹುಡುಕಿ",
+      "bytes": 10911,
+      "seconds": 2.573,
+      "sha256": "e11b849ccb3b422a30efd9c58f7c5967eff0d182ddec743971a60c86edfbc2d2"
+    },
+    "searchDemat": {
+      "textHash": "a791046eacf3b87f0a02636213893419891f933218cfe54d650472df40dcd0e1",
+      "spoken": "ನಿಮ್ಮ ಬ್ರೋಕರ್ ಅಥವಾ ಬ್ಯಾಂಕ್ ಅನ್ನು ಹುಡುಕಿ",
+      "bytes": 17440,
+      "seconds": 4.201,
+      "sha256": "42428a3234e17a4001ec4bb7663de3d2d6ea739fa2cddc9d31ccec309d3f3302"
+    },
+    "searchMf": {
+      "textHash": "2bd64d5c7195c4b55f94f7a8631c658ecdb79854d550ee828b64115df7282635",
+      "spoken": "ನಿಮ್ಮ ಮ್ಯೂಚುವಲ್ ಫಂಡ್‌ಗಾಗಿ ಹುಡುಕಿ",
+      "bytes": 12829,
+      "seconds": 3.059,
+      "sha256": "a4c670f9d2a3c8edbd8335978a446efaedd1df75b70a10b62be8ad9c70f01b80"
+    },
+    "searchHelp": {
+      "textHash": "45d3a18dd865396b1b3c3de9af3962a52ee60b06139ea079176fffabf3c864b6",
+      "spoken": "ಹೆಸರು ಅಥವಾ ಸಂಕ್ಷೇಪಣವನ್ನು ಟೈಪ್ ಮಾಡಿ. ನೀವು ಪಟ್ಟಿ ಮಾಡದ ಸಂಸ್ಥೆಯನ್ನು ಸಹ ನಮೂದಿಸಬಹುದು.",
+      "bytes": 35487,
+      "seconds": 8.715,
+      "sha256": "498aa23b45260dabb5181b2a61f15c1fb69881d0a6b7b04d583dae88c1500380"
+    },
+    "useTyped": {
+      "textHash": "dfd5cf2aa8c961a0ee893f65533541b3d55a6776828c87edc1a758e55f9da7ea",
+      "spoken": "ಈ ಹೆಸರನ್ನು ಬಳಸಿ",
+      "bytes": 7933,
+      "seconds": 1.843,
+      "sha256": "92ca9a4493c7fe802affae068a2a5ea066164c9c172dbe18ab739e3c5222ffa3"
+    },
+    "suggestions": {
+      "textHash": "266b5323f87b75be707bed3a77c0c522cca6e45b9821487e02bbde1a1b02aff2",
+      "spoken": "ಹೊಂದಾಣಿಕೆಯ ಸಂಸ್ಥೆಗಳು",
+      "bytes": 9568,
+      "seconds": 2.247,
+      "sha256": "98ef7e216ff6ba9e8a59476aa1550f68916d5115c2864c2bd03be05b97e5b35b"
+    },
+    "noMatches": {
+      "textHash": "203c34018c30cb60acba5a3251c268f405e209d58923b3d9ecf3b1c864502f31",
+      "spoken": "ಯಾವುದೇ ಹೊಂದಾಣಿಕೆಗಳಿಲ್ಲ. ಕಾಗುಣಿತವನ್ನು ಪರಿಶೀಲಿಸಿ ಅಥವಾ ನೀವು ನಮೂದಿಸಿದ ಹೆಸರನ್ನು ಇರಿಸಿ.",
+      "bytes": 36926,
+      "seconds": 9.092,
+      "sha256": "5d2e3c8afe7c50edc6a73651dc197d6ab4312d67807a2a9189846011d51413b1"
+    },
+    "accountContext": {
+      "textHash": "40c1756cb48d808e95c27cc885c4b798233f4008542f9e6b5abfcdda269d3d3b",
+      "spoken": "ಈ ಖಾತೆಯ ಬಗ್ಗೆ ಸ್ವಲ್ಪ",
+      "bytes": 9571,
+      "seconds": 2.253,
+      "sha256": "e07b0158221b323d94b5807bff652a54dd71f14a618fa677c5d5d0ec02d4859e"
+    },
+    "contextHelp": {
+      "textHash": "248d218a1f1f2f9a9f304da63ac3c81719cef5e4d2ea83b494fda1b1fe4debb7",
+      "spoken": "ಸರಿಯಾದ ಸೂಚನೆಗಳನ್ನು ತೋರಿಸಲು ಈ ವಿವರಗಳು ನಮಗೆ ಸಹಾಯ ಮಾಡುತ್ತವೆ. ಖಚಿತವಾಗಿರದಿರುವುದು ಒಳ್ಳೆಯದು.",
+      "bytes": 39424,
+      "seconds": 9.702,
+      "sha256": "da818d2968e3f5bfbc4d773bd2006dcb0a324ab71fdab0ae59b329387f534ed0"
+    },
+    "whose": {
+      "textHash": "ca4008d40f7c9b827cd0df499816e7f8ede6c4de35cc0443a5aa87ea3ac95328",
+      "spoken": "ಇದು ಯಾರ ಖಾತೆ?",
+      "bytes": 6874,
+      "seconds": 1.577,
+      "sha256": "0f69f27ae0a7c88a8ff0a4afef1039a6c45cf72f054f4f72213ecc06c6e3219f"
+    },
+    "me": {
+      "textHash": "e5c0edc9c0057d0d49cb9a6bb871b134df6ac6c07ffadc79ed4f122dd51dda9e",
+      "spoken": "ನನ್ನದು",
+      "bytes": 4471,
+      "seconds": 0.973,
+      "sha256": "ecdf1336407978bdc06c9d84c0f86919d1519a03c116a58c8731c7d822026f11"
+    },
+    "parent": {
+      "textHash": "84b8b583645c6b1280a8ecff0fb5a90cb6e440f0a55cb5e31fc283c943397cef",
+      "spoken": "ಒಬ್ಬ ಪೋಷಕರ",
+      "bytes": 6587,
+      "seconds": 1.497,
+      "sha256": "f205ce5b6bdfd144e1cdca9b703c139573e13e59f76aada99ec52b7c1b5932e8"
+    },
+    "familyMember": {
+      "textHash": "f46b0824272e61034d92032dcb7d33e45105a6175705704bfb5de4997b04b0ee",
+      "spoken": "ನನ್ನ ಕುಟುಂಬದಲ್ಲಿ ಯಾರೋ ಒಬ್ಬರು",
+      "bytes": 12929,
+      "seconds": 3.08,
+      "sha256": "e49698b222f7675fc7c440389fe00a6db439706a34f523b958e868847c546b8c"
+    },
+    "holderQuestion": {
+      "textHash": "b27c03cb34e6142d56f8f32b92bcce6212a2ac8e4775687f199ce4fecaba786c",
+      "spoken": "ಖಾತೆಯನ್ನು ಏಕಾಂಗಿಯಾಗಿ ಅಥವಾ ಜಂಟಿಯಾಗಿ ನಡೆಸಲಾಗಿದೆಯೇ?",
+      "bytes": 25411,
+      "seconds": 6.192,
+      "sha256": "aae643f1d14d877407f178aa8a431d1a68b62de3e19e76a1d7f107ee1528d682"
+    },
+    "sole": {
+      "textHash": "2d4c1f406a464a251cc92364f0ef53a2c740339aa5f8589ffbb8e01cf51dc723",
+      "spoken": "ಒಬ್ಬ ಹೋಲ್ಡರ್",
+      "bytes": 6681,
+      "seconds": 1.516,
+      "sha256": "a7746f53aabdf5c596d36b2b96423ef480c632b0b8296af6e178f978bd99db6c"
+    },
+    "joint": {
+      "textHash": "61690fcbb0942ba7244714d54509bcf200506a3b11a3e5246f65bc99aa91cefa",
+      "spoken": "ಜಂಟಿ ಹೊಂದಿರುವವರು",
+      "bytes": 8602,
+      "seconds": 2.008,
+      "sha256": "f51db81bdf56ed8509f2478fdfd7343e1585d5dcef48e397e715d0666c781b20"
+    },
+    "bankProduct": {
+      "textHash": "f6ae9d0a9196509fb41232c4c1173f8298a77ae90fead6e4d73379ecd360f2de",
+      "spoken": "ಯಾವ ರೀತಿಯ ಬ್ಯಾಂಕ್ ಖಾತೆ?",
+      "bytes": 10240,
+      "seconds": 2.422,
+      "sha256": "b4caa5fce29b21211c9c1626748952ee06ff1f5f0045d798d232f39924e799b8"
+    },
+    "savings": {
+      "textHash": "af5a9897f5ec2e7c0664dc0a95b8ad49a21852906d99bbd5e3dc1395f0e3c924",
+      "spoken": "ಉಳಿತಾಯ ಖಾತೆ",
+      "bytes": 6684,
+      "seconds": 1.535,
+      "sha256": "cbfc7a39de110ba8e6f26d1b516dbcb8cc4fe6d5f57d270c5d1720efec2f67b8"
+    },
+    "deposit": {
+      "textHash": "414ca9ce28c1b68b7918ef472717463e3cfa39b3191e66867376b8b8add44e50",
+      "spoken": "ಸ್ಥಿರ ಅಥವಾ ಮರುಕಳಿಸುವ ಠೇವಣಿ",
+      "bytes": 15228,
+      "seconds": 3.656,
+      "sha256": "11cfcc64fab2f603ffe61eebda127c13df163b22b0754f808f77e30d18090098"
+    },
+    "mfMode": {
+      "textHash": "a144aea7d7430ba385f12fdfca2dba8f715535bea17b2801993cb4260a3ae2b0",
+      "spoken": "ಈ ಮ್ಯೂಚುವಲ್ ಫಂಡ್‌ಗಳು ಹೇಗೆ ನಡೆಯುತ್ತವೆ?",
+      "bytes": 13883,
+      "seconds": 3.333,
+      "sha256": "5d99ff2fdc175eb8c8d4644589deccd6621a30705d41dc067c6351f926907634"
+    },
+    "folioMode": {
+      "textHash": "693303dddbdee34f722dde2bc0d6c3493c25fc2a5fb463292462ef724fb00076",
+      "spoken": "ಮ್ಯೂಚುಯಲ್ ಫಂಡ್ ಜೊತೆಗೆ ಒಂದು ಫೋಲಿಯೋ",
+      "bytes": 14366,
+      "seconds": 3.442,
+      "sha256": "dd34600aeb2ee3521708b7b5ff58ab3df2132af1da6ae3f42771a6059a0825c7"
+    },
+    "dematMode": {
+      "textHash": "a2bea70c0f51cb44ee32c4c2f563ad0d002144ba887230521dfbfc28aabd1b4b",
+      "spoken": "ಡಿಮ್ಯಾಟ್ ಖಾತೆಯ ಒಳಗೆ",
+      "bytes": 10622,
+      "seconds": 2.503,
+      "sha256": "3852d4a6b0db4bec0b46da85239c5558c36dcfad548573772768b9acf1bffaab"
+    },
+    "identifyHelp": {
+      "textHash": "d282773a3041dcbcc50dad0b5d55542e5a911fea8e339c5201913c63fcea29c2",
+      "spoken": "ಅದನ್ನು ಗುರುತಿಸಲು ನನಗೆ ಸಹಾಯ ಮಾಡಿ",
+      "bytes": 14273,
+      "seconds": 3.416,
+      "sha256": "554f0bb7fcf85e5d2fc937a6b548fa411f7c6b2d21d61acd446b7ea52200f6e5"
+    },
+    "identifyText": {
+      "textHash": "be01a6bfb2fa5394563532639d7beff6998f0ba7e24665439b4d5b459d8e8c67",
+      "spoken": "ಫಂಡ್ ಸ್ಟೇಟ್‌ಮೆಂಟ್ ಸಾಮಾನ್ಯವಾಗಿ ಫೋಲಿಯೊ ಸಂಖ್ಯೆ ಮತ್ತು ಫಂಡ್ ಹೆಸರನ್ನು ತೋರಿಸುತ್ತದೆ. ಡಿಮ್ಯಾಟ್ ಹೇಳಿಕೆಯು ಡಿಪಿ ಐಡಿ / ಕ್ಲೈಂಟ್ ಐಡಿ ಅಥವಾ ಬಿಒ ಐಡಿಯನ್ನು ತೋರಿಸುತ್ತದೆ. ಖಚಿತವಾಗಿರದಿದ್ದರೆ, ಘಟಕಗಳನ್ನು ಹೇಗೆ ಹಿಡಿದಿಟ್ಟುಕೊಳ್ಳಲಾಗಿದೆ ಎಂಬುದನ್ನು ಒದಗಿಸುವವರನ್ನು ಕೇಳಿ.",
+      "bytes": 89345,
+      "seconds": 22.188,
+      "sha256": "d2293d964d2596d8d7447e7390814eb60a42d2fc3b0a3a909f1a63e7061dcf87"
+    },
+    "change": {
+      "textHash": "99869d7c3a356dfb78c345429f5388d20033551023a1d3ee40370097e2597f3e",
+      "spoken": "ನವೀಕರಣದ ಅಗತ್ಯವಿದೆ",
+      "bytes": 10139,
+      "seconds": 2.394,
+      "sha256": "f6bcf41ab3d908789cd4a6ca53d09a0e130471c46783281de56251ba3e4c474e"
+    },
+    "optout": {
+      "textHash": "56e65e7f7c1a0c6f59fd94b018f6e1793c008240d7da3094d2909364fd8f5aec",
+      "spoken": "ನಾಮನಿರ್ದೇಶನ ಮಾಡದಿರಲು ಆಯ್ಕೆ ಮಾಡಿದೆ",
+      "bytes": 14747,
+      "seconds": 3.549,
+      "sha256": "a276e082859a1fc56f1bda68061077ad39d7120e6e7881702f79ee1fb15cfbe5"
+    },
+    "blocked": {
+      "textHash": "2b9ef1c0f9a5b5a7b4724d6b0b409a2dcca13a5b4410aae8af844e969789d0f6",
+      "spoken": "ಸಹಾಯದ ಅಗತ್ಯವಿದೆ",
+      "bytes": 9468,
+      "seconds": 2.228,
+      "sha256": "29ef3902e6a17178ea0ca87942cc1eb795baa8bb6eb76c76c74b08ba4d7f3c21"
+    },
+    "helpCheck": {
+      "textHash": "6c4308e0aeaa633c82efe515812e414be3b5a4adbaf22eae89a4aebdcc63daf0",
+      "spoken": "ಪರೀಕ್ಷಿಸಲು ನನಗೆ ಸಹಾಯ ಮಾಡಿ",
+      "bytes": 13214,
+      "seconds": 3.162,
+      "sha256": "750c21a4867eb2449685cc33940734922ba2f262ed05c1c56c74cd20b9312562"
+    },
+    "whatFound": {
+      "textHash": "fb1381a1dc1ae6a75868ad705e3343cd923a6c78fa47a840b63df21e7d1b4fbb",
+      "spoken": "ನೀವು ಏನು ಕಂಡುಕೊಂಡಿದ್ದೀರಿ?",
+      "bytes": 11486,
+      "seconds": 2.736,
+      "sha256": "ead8e11c5379128d43fe777733eed9b1bbf325bd290753feb06c950b7f6d0928"
+    },
+    "foundYes": {
+      "textHash": "5d82747520876dfb2e3951dd5395fc600e506e52bccd44d58a94ee0a78fe667e",
+      "spoken": "ನಾಮನಿರ್ದೇಶನ ದಾಖಲಾಗಿದೆ",
+      "bytes": 11581,
+      "seconds": 2.738,
+      "sha256": "504a9cfb5bebbf80f723e90439521ca9d1e1ce1bc03febb36f55d60295a83d8a"
+    },
+    "foundNo": {
+      "textHash": "c6336523bc4460750b39df86706f5af21e9dd2df2501f25d17da115459339833",
+      "spoken": "ಯಾವುದೇ ನಾಮಿನಿಯನ್ನು ದಾಖಲಿಸಲಾಗಿಲ್ಲ",
+      "bytes": 15516,
+      "seconds": 3.739,
+      "sha256": "d3c57fee49ab55c5e74c23de3ef1c7dba99bdf2a9528a3975bcf9539ca81f188"
+    },
+    "foundChange": {
+      "textHash": "3cff9f6930d5e8bcb0896e29ab8e1f5f75c813ec395ab0a67371711ceb4dd19f",
+      "spoken": "ವಿವರಗಳನ್ನು ಬದಲಾಯಿಸಬೇಕಾಗಿದೆ",
+      "bytes": 12928,
+      "seconds": 3.073,
+      "sha256": "40e2762d3bad92d486a4a316d13c393174504d65a7b20d9761ecb95c80546fec"
+    },
+    "foundUnknown": {
+      "textHash": "5cc9a5addc35c83f7eef0f27d7121e0bf08ac0ec4192e69a89e00889aaeb2969",
+      "spoken": "ನನಗೆ ಅದನ್ನು ಹುಡುಕಲಾಗಲಿಲ್ಲ",
+      "bytes": 12641,
+      "seconds": 3.013,
+      "sha256": "58d055c0172766cf737dce6b3f11eaad1fd3fff401f08c3de3b81df260613012"
+    },
+    "prepare": {
+      "textHash": "7097eff3fecdcc4f653323adcf0d602134ae0528c5f01d10b42f4e83631bf3c6",
+      "spoken": "ಮುಂದಿನ ಹಂತವನ್ನು ತಯಾರಿಸಿ",
+      "bytes": 10524,
+      "seconds": 2.494,
+      "sha256": "23d2a0f1daf9b82ef406f406e18d3c0154004dc4df076e7f44b36540037b8106"
+    },
+    "checkFirst": {
+      "textHash": "fa6e79c0ed51da12b75462abcd1800d7af6e7bcf1e81ccf56b9e3e1e8675a9f2",
+      "spoken": "ಏನನ್ನಾದರೂ ಬದಲಾಯಿಸುವ ಮೊದಲು ಪರಿಶೀಲಿಸಿ",
+      "bytes": 17055,
+      "seconds": 4.115,
+      "sha256": "d0f2140fc8cab96aff605919526f5bdbd119dcf53ed50e1f71d5492789e4b68e"
+    },
+    "openOfficial": {
+      "textHash": "f3f8bbeb52926d5f83f73b2d608e0d16074660a6e9be3ae7fa94c55b8c217ccd",
+      "spoken": "ಅಧಿಕೃತ ಸೂಚನೆಗಳನ್ನು ತೆರೆಯಿರಿ",
+      "bytes": 11489,
+      "seconds": 2.719,
+      "sha256": "6fa0b1da3ea041d5eb0583803ba71b815a49caa8f4198a2c4e9d2cb29b99e152"
+    },
+    "prepareIntro": {
+      "textHash": "f2f5dff99a7706430d03af63f92aff3171fc93a4e4a4c0c488cf813dd4b6e73a",
+      "spoken": "ಸಂಸ್ಥೆಗೆ ಇವುಗಳನ್ನು ಸಿದ್ಧಪಡಿಸಿಕೊಳ್ಳಿ. ನೀವು ಅವುಗಳನ್ನು ಇಲ್ಲಿ ನಮೂದಿಸುವ ಅಗತ್ಯವಿಲ್ಲ.",
+      "bytes": 31649,
+      "seconds": 7.769,
+      "sha256": "2d064572891ffa39088c727a9a302be6ad9a998d28119993320fc3603bb137c7"
+    },
+    "prepareNames": {
+      "textHash": "81b684fb5fc0e7637ca71695a4add7fdf95a74bd18c558fe1e89ab778b5b2621",
+      "spoken": "ಅವರ ದಾಖಲೆಗಳಲ್ಲಿ ತೋರಿಸಿರುವಂತೆ ನಾಮಿನಿಯ ಹೆಸರು ಮತ್ತು ಸಂಬಂಧ.",
+      "bytes": 24353,
+      "seconds": 5.951,
+      "sha256": "4c834400cc206f445fb285a3cd20c6fb8baca4a90c16c530234520082f339d5b"
+    },
+    "prepareMinor": {
+      "textHash": "8c008fcf61f447fad6c7ec4e77df227a0fe55b171dc9a509f19c89d1c43a744f",
+      "spoken": "ನಾಮಿನಿ ಮಗುವಾಗಿದ್ದರೆ, ಪ್ರಸ್ತುತ ಫಾರ್ಮ್‌ನಲ್ಲಿ ಹುಟ್ಟಿದ ದಿನಾಂಕ ಮತ್ತು ಪೋಷಕರ ವಿಭಾಗಗಳನ್ನು ಪರಿಶೀಲಿಸಿ.",
+      "bytes": 37697,
+      "seconds": 9.281,
+      "sha256": "40e9eb2d6c005a9c7b2fc68cda311460c44cfafa627ec1dce507e68ff9c184b9"
+    },
+    "prepareAccess": {
+      "textHash": "618eccd8a9b3232a37803bcd1b3187a2ec796a8e864c0268b6fe3a818bdf6799",
+      "spoken": "ನಿಮ್ಮ ಸ್ವಂತ ಖಾತೆಯ ಉಲ್ಲೇಖ ಮತ್ತು ಸಂಸ್ಥೆಯ ಅಧಿಕೃತ ಸೇವೆಗೆ ಪ್ರವೇಶ. ಪಾಸ್‌ವರ್ಡ್‌ಗಳು ಮತ್ತು ಓ ಟಿ ಪಿ ಗಳನ್ನು ಅಲ್ಲಿ ಮಾತ್ರ ಇರಿಸಿ.",
+      "bytes": 44034,
+      "seconds": 10.862,
+      "sha256": "8cc49a226b7c94773c094be19f54db41aad21e32d2c9c950fa9d995e6792d78a"
+    },
+    "jointGuide": {
+      "textHash": "4112355f7672ab3ff5b8dc00ee49f273da1434810a511fe0a523e60eae0499de",
+      "spoken": "ಜಂಟಿ ಖಾತೆಗಾಗಿ, ಪ್ರತಿಯೊಬ್ಬ ಹೋಲ್ಡರ್ ಅನ್ನು ಒಳಗೊಂಡಿರುತ್ತದೆ. ಸಲ್ಲಿಸುವ ಮೊದಲು ಯಾವ ಸಹಿ ಮತ್ತು ಚಾನಲ್ ಅಗತ್ಯವಿದೆ ಎಂದು ಸಂಸ್ಥೆಯನ್ನು ಕೇಳಿ.",
+      "bytes": 50559,
+      "seconds": 12.504,
+      "sha256": "9def425b04617a53718bfff6dcaf31e59f3c4e8e70fcbfe4e1a9a630f6e0ef9c"
+    },
+    "unknownContext": {
+      "textHash": "225f2c51b7bfc6f2f2e557e780dba8e5a25f0c147e96438fd6c3a3da6b83141c",
+      "spoken": "ಆನ್‌ಲೈನ್ ಮಾರ್ಗವನ್ನು ಆಯ್ಕೆಮಾಡುವ ಮೊದಲು ನಿಮ್ಮ ಹೇಳಿಕೆಯಲ್ಲಿ ಹೋಲ್ಡರ್ ಹೆಸರುಗಳು ಮತ್ತು ಖಾತೆ ಪ್ರಕಾರವನ್ನು ಪರಿಶೀಲಿಸಿ. ಸಂಸ್ಥೆಯು ಅವರನ್ನು ಗುರುತಿಸಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ.",
+      "bytes": 54019,
+      "seconds": 13.346,
+      "sha256": "aba2317649451353e535859ecef5727dc664ca90b9bb6da94714f0d09def6707"
+    },
+    "hdfcSavings": {
+      "textHash": "226d614c800648f260ae19db5b500dc35ec4886aa2a067f8ccfd1fe642c23413",
+      "spoken": "ಎಚ್ ಡಿ ಎಫ್ ಸಿ ನೆಟ್‌ಬ್ಯಾಂಕಿಂಗ್‌ನಲ್ಲಿ, ಖಾತೆಗಳನ್ನು ತೆರೆಯಿರಿ → ಖಾತೆಯನ್ನು ಆಯ್ಕೆ ಮಾಡಿ → ಖಾತೆ ವಿವರಗಳು → ನಾಮಿನಿ ಮತ್ತು ಖಾತೆದಾರರ ವಿವರಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ.",
+      "bytes": 54304,
+      "seconds": 13.433,
+      "sha256": "26727cc87c24123673c21254f034ce91b1cdbeeb89b08d74c976c57bc0bb2736"
+    },
+    "hdfcDeposit": {
+      "textHash": "75320ee9c0529a14aaef21a3947278a2345b5a60b245ca29475476e955c693aa",
+      "spoken": "ಎಚ್‌ಡಿಎಫ್‌ಸಿ ನೆಟ್‌ಬ್ಯಾಂಕಿಂಗ್‌ನಲ್ಲಿ, ಎಫ್‌ಡಿ/ಆರ್‌ಡಿ ತೆರೆಯಿರಿ → ಠೇವಣಿ ಆಯ್ಕೆಮಾಡಿ → ನಾಮಿನಿಯನ್ನು ಸೇರಿಸಿ ಅಥವಾ ನಾಮಿನಿಯನ್ನು ಬದಲಾಯಿಸಿ ನೋಡಿ. ಈ ಠೇವಣಿಯನ್ನು ನಿಮ್ಮ ಉಳಿತಾಯ ಖಾತೆಯಿಂದ ಪ್ರತ್ಯೇಕವಾಗಿ ಪರಿಶೀಲಿಸಿ.",
+      "bytes": 75520,
+      "seconds": 18.743,
+      "sha256": "a787b071933bc44172a2e33acdec9b695c7a4fbe111abd144b185e61ce596018"
+    },
+    "hdfcAction": {
+      "textHash": "f915bba19bd31f2da314ad9045a388d653c29453839c9ac863548bb8e6e17323",
+      "spoken": "ಏಕೈಕ ಹೊಂದಿರುವವರು ಸಂಬಂಧಿತ ಖಾತೆ ವಿವರಗಳಲ್ಲಿ ಆಡ್ ನಾಮಿನಿ ಅಥವಾ ಚೇಂಜ್ ನಾಮಿನಿ ಅನ್ನು ಬಳಸಬಹುದು. ಜಂಟಿ ಹಿಡುವಳಿಗಳಿಗಾಗಿ, ಇತರ ಹೋಲ್ಡರ್‌ಗಳೊಂದಿಗೆ ಬ್ಯಾಂಕಿನ ಶಾಖೆಯ ಮಾರ್ಗವನ್ನು ಬಳಸಿ.",
+      "bytes": 66783,
+      "seconds": 16.54,
+      "sha256": "360e7def097b309d3494e14919a2c7b08839fc449f390598bd3a9664ce0b6dc4"
+    },
+    "zerodhaCheck": {
+      "textHash": "ab5e3f7b5be5096dfad8f60a7e4988506db20b15786000659b1dfef714622a01",
+      "spoken": "ಜೆರೋಧಾ ಕನ್ಸೋಲ್ → ಖಾತೆ → ನಾಮಿನಿಗಳನ್ನು ತೆರೆಯಿರಿ. ಈ ನಾಮನಿರ್ದೇಶನವು ಕಾಯಿನ್ ಸೇರಿದಂತೆ ಆ ಡಿಮ್ಯಾಟ್ ಖಾತೆಯಲ್ಲಿರುವ ಮ್ಯೂಚುಯಲ್ ಫಂಡ್‌ಗಳನ್ನು ಸಹ ಒಳಗೊಂಡಿದೆ.",
+      "bytes": 53249,
+      "seconds": 13.158,
+      "sha256": "bcb7bda100b2ee24d2b6ee78aa02a088e5b7f43cae6f69af61f932c6c727f054"
+    },
+    "zerodhaAction": {
+      "textHash": "8d57dc3e0619ce94bc1446aa1f1558c2187ba04a004302cd4798c7021c4e2f99",
+      "spoken": "ಕನ್ಸೋಲ್‌ನಲ್ಲಿ ನಾಮನಿರ್ದೇಶನ ಸೂಚನೆಗಳನ್ನು ಬಳಸಿ. ಜೆರೋಧಾ ಜಂಟಿ ಹೊಂದಿರುವವರು ಮತ್ತು ಆಧಾರ್-ಲಿಂಕ್ ಮಾಡಲಾದ ಮೊಬೈಲ್ ಇಲ್ಲದ ಜನರನ್ನು ಅದರ ಆಫ್‌ಲೈನ್ ಫಾರ್ಮ್‌ಗೆ ನಿರ್ದೇಶಿಸುತ್ತದೆ. ಲಿಂಕ್ ಮಾಡಲಾದ ಸಹಾಯ ಪುಟದಲ್ಲಿ ಪ್ರಸ್ತುತ ಅವಶ್ಯಕತೆಗಳನ್ನು ಪರಿಶೀಲಿಸಿ.",
+      "bytes": 92610,
+      "seconds": 23.013,
+      "sha256": "79f5c472c2b122251ab8da08494588e99867d6cca263c2dd80cda1152223353b"
+    },
+    "hdfcMfGuide": {
+      "textHash": "e58280a32b3d803c7271692dac4f9862d19f01ec549edc0335bdf337073b209e",
+      "spoken": "ಪ್ರಸ್ತುತ ವಿನಂತಿ ಫಾರ್ಮ್ ಮತ್ತು ಸಲ್ಲಿಕೆ ಸೂಚನೆಗಳಿಗಾಗಿ ಎಚ್ ಡಿ ಎಫ್ ಸಿ ಮ್ಯೂಚುಯಲ್ ಫಂಡ್‌ನ ನಾಮಿನಿ-ನೋಂದಣಿ ಸೇವಾ ಪುಟವನ್ನು ಬಳಸಿ. ಪ್ರಾರಂಭಿಸುವ ಮೊದಲು ನಿಮ್ಮ ಹೇಳಿಕೆಯಲ್ಲಿರುವ ಫೋಲಿಯೊವನ್ನು ಹೊಂದಿಸಿ.",
+      "bytes": 61792,
+      "seconds": 15.303,
+      "sha256": "8f4344dac2d84cee6504cb2b78f17fbd00cfda532d468405965e1cee8420275a"
+    },
+    "mfDematHelp": {
+      "textHash": "5930cd89605d491f7697cc8008eb87baf6bb3aa6964f4db8747c76b716a60d2c",
+      "spoken": "ಈ ಘಟಕಗಳು ಡಿಮ್ಯಾಟ್ ಖಾತೆಯಲ್ಲಿ ನಾಮನಿರ್ದೇಶನವನ್ನು ಬಳಸುತ್ತವೆ. ನಿಮ್ಮ ಬ್ರೋಕರ್ ಅಥವಾ ಡಿಪಿಯೊಂದಿಗೆ ಆ ಖಾತೆಯನ್ನು ಪರಿಶೀಲಿಸಿ; ಪ್ರತ್ಯೇಕ ಫೋಲಿಯೊ ನಾಮನಿರ್ದೇಶನ ಅಗತ್ಯವಿದೆ ಎಂದು ಭಾವಿಸಬೇಡಿ.",
+      "bytes": 72256,
+      "seconds": 17.91,
+      "sha256": "8c6ea8b0499e02c070d2116023796a2066cf4afa1c6d61a1e084c312e35a7671"
+    },
+    "useDemat": {
+      "textHash": "57c8d032b3c2c0080f4887c09e20d2ed26a0ab7c5b400a99c31ab97e0957ed67",
+      "spoken": "ಡಿಮ್ಯಾಟ್ ಖಾತೆಯನ್ನು ಪರಿಶೀಲಿಸಿ",
+      "bytes": 13117,
+      "seconds": 3.126,
+      "sha256": "f258622baef9343e5010270c2c9771264d93edd144e9cb0bb2948342062a3970"
+    },
+    "routeFallback": {
+      "textHash": "49e915665cfd39eee3dd6561c7099b9de756c140e5218cd50f904517da5c8ec1",
+      "spoken": "ಈ ಸಂಸ್ಥೆಗೆ ನಾವು ಸಾಮಾನ್ಯ ಮಾರ್ಗದರ್ಶನವನ್ನು ಹೊಂದಿದ್ದೇವೆ. ಅದರ ಅಧಿಕೃತ ಸೇವಾ ತಂಡದೊಂದಿಗೆ ನಿಖರವಾದ ಪರದೆ ಅಥವಾ ಫಾರ್ಮ್ ಅನ್ನು ದೃಢೀಕರಿಸಿ.",
+      "bytes": 55842,
+      "seconds": 13.808,
+      "sha256": "c5c0d0959385f02dd12dc4f1793432903aa4b383c9aaf7bc15dfca65d5a49d50"
+    },
+    "offlineHelp": {
+      "textHash": "4cf7b14c7155eeec50537229dc842a4cb0ae5eb0fa4478d3f3a33f6e5d75d09b",
+      "spoken": "ವೈಯಕ್ತಿಕವಾಗಿ ಭೇಟಿ ನೀಡಲು ಬಯಸುತ್ತೀರಾ?",
+      "bytes": 16672,
+      "seconds": 4.012,
+      "sha256": "f170736be25fe6a16394fb659e37cdc94caea13a1160cd20a40a5e046cba5660"
+    },
+    "offlineText": {
+      "textHash": "b8b29b74aba172f3e49ae1a1dff3e1592d71bdca150d69f5c4065a4e939e1394",
+      "spoken": "ಶಾಖೆ ಅಥವಾ ಅಧಿಕೃತ ಸೇವಾ ಕೇಂದ್ರಕ್ಕೆ ನಿಮ್ಮ ಖಾತೆ ಅಥವಾ ಫೋಲಿಯೊ ಉಲ್ಲೇಖವನ್ನು ತೆಗೆದುಕೊಳ್ಳಿ. ನಾಮನಿರ್ದೇಶನ ನೋಂದಣಿ ಅಥವಾ ಬದಲಾವಣೆ ಮತ್ತು ದಿನಾಂಕದ ಸ್ವೀಕೃತಿಗಾಗಿ ಕೇಳಿ. ಪ್ರಯಾಣಿಸುವ ಮೊದಲು ಯಾವ ಹೋಲ್ಡರ್‌ಗಳು ಹಾಜರಾಗಬೇಕು ಎಂದು ಕೇಳಿ.",
+      "bytes": 92032,
+      "seconds": 22.866,
+      "sha256": "8ad6d1578188185a76ad765ec3a6926c568b4631f5df25d44a56f819947bb736"
+    },
+    "askHelp": {
+      "textHash": "31799b824fe92c6836d73d55f139d91c56d5336b9650e39eda66e1e15dfeaed5",
+      "spoken": "ನೀವು ಕೇಳಬಹುದಾದ ಪ್ರಶ್ನೆ",
+      "bytes": 11196,
+      "seconds": 2.663,
+      "sha256": "ad811968352229642af38caba21c50af98368157680b2aafa6c5924340f19474"
+    },
+    "askText": {
+      "textHash": "fb7f75f490c883b9678ee8be2bc43a98038eb5d12491ee124d1da787aebcf3b8",
+      "spoken": "ಈ ಖಾತೆಗೆ ನಾಮನಿರ್ದೇಶನವನ್ನು ನೋಂದಾಯಿಸಲಾಗಿದೆಯೇ ಎಂಬುದನ್ನು ದಯವಿಟ್ಟು ಪರಿಶೀಲಿಸಿ. ಅದು ಕಾಣೆಯಾಗಿದ್ದರೆ ಅಥವಾ ಬದಲಾವಣೆಯ ಅಗತ್ಯವಿದ್ದರೆ, ನಾನು ಯಾವ ಪ್ರಸ್ತುತ ಫಾರ್ಮ್ ಅಥವಾ ಅಧಿಕೃತ ಆನ್‌ಲೈನ್ ಆಯ್ಕೆಯನ್ನು ಬಳಸಬೇಕು? ದಯವಿಟ್ಟು ಫಲಿತಾಂಶವನ್ನು ಬರವಣಿಗೆಯಲ್ಲಿ ದೃಢೀಕರಿಸಿ.",
+      "bytes": 98556,
+      "seconds": 24.482,
+      "sha256": "31b5744204a6b22df8430df6557dc347cb9291be8fed0592509fe3b4075801dc"
+    },
+    "copyQuestion": {
+      "textHash": "1f9238da440f366d88009ac954d77fe73e043cea78b3519652634d64b169afcd",
+      "spoken": "ಈ ಪ್ರಶ್ನೆಯನ್ನು ನಕಲಿಸಿ",
+      "bytes": 10433,
+      "seconds": 2.453,
+      "sha256": "662c518f56343b3bc49ff4a909c47827257d94d1cb062b11dc3d40ad4175ac4b"
+    },
+    "copied": {
+      "textHash": "fbdc3c6c72f8619608cf51836db5dfe2babfd08d5a4d3e729630570c611f4062",
+      "spoken": "ನಕಲು ಮಾಡಲಾಗಿದೆ",
+      "bytes": 8315,
+      "seconds": 1.936,
+      "sha256": "6dd3d01f846ccdb149deef361da35f1439624cec0c672ae547dd51dfb5037f6b"
+    },
+    "followup": {
+      "textHash": "dbf628b579450c66201ba629ae5061df30156ac3eef4470717f11b30f0900492",
+      "spoken": "ಮುಂದಿನ ದಿನಾಂಕವನ್ನು ಆಯ್ಕೆಮಾಡಿ",
+      "bytes": 12925,
+      "seconds": 3.094,
+      "sha256": "d46708bb6d469079d2ee2302909a74851c2549380cb4c1f36ba34db53316eb5c"
+    },
+    "followupHelp": {
+      "textHash": "6a385f2e527d8677149ff6649a66c4247d76b83c9f9737e1e1336ce57f368c1a",
+      "spoken": "ಇದು ನಿಮ್ಮ ಸ್ವಂತ ಜ್ಞಾಪನೆ ದಿನಾಂಕವಾಗಿದೆ, ಸಂಸ್ಥೆಯ ಗಡುವು ಅಲ್ಲ. ನಿಮಗೆ ಎಚ್ಚರಿಕೆ ಬೇಕಾದರೆ ಅದನ್ನು ನಿಮ್ಮ ಕ್ಯಾಲೆಂಡರ್‌ಗೆ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ.",
+      "bytes": 52001,
+      "seconds": 12.844,
+      "sha256": "c551c27e0fd1f4c5fe771839f37b6b458f0b4f9220494594f2bdfc916542a03c"
+    },
+    "calendar": {
+      "textHash": "c44186c09a8b09c6805e4ec39ac2ba648983bc71245cfb6018d476a4a4856d26",
+      "spoken": "ಕ್ಯಾಲೆಂಡರ್ ಜ್ಞಾಪನೆಯನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ",
+      "bytes": 16189,
+      "seconds": 3.891,
+      "sha256": "4e3af69383f5e2d27d7ad28ba61bc885bc424e2dee2141bc516e1f5e52885506"
+    },
+    "followDue": {
+      "textHash": "b29237efea9c07b3875c6ce1d420198a62c4f087c7b0f042b650d099bd52102d",
+      "spoken": "ಮರುಪರಿಶೀಲನೆ ಬಾಕಿಯಿದೆ",
+      "bytes": 10142,
+      "seconds": 2.393,
+      "sha256": "171fa0e01c9205ee59a2e9ec4e68cf3eddc52ce064a578c84671049252a08f4a"
+    },
+    "requestHelp": {
+      "textHash": "71757b53dc9c745573e02c49a15dc24fecc2757f85cae9c438728ab36fb35b80",
+      "spoken": "ವಿನಂತಿಗೆ ಸಹಾಯದ ಅಗತ್ಯವಿದೆ",
+      "bytes": 12640,
+      "seconds": 3.002,
+      "sha256": "7aec6426183942ece83f251c2e3579e906f8ea101570df2ef8c9bcafc4715edf"
+    },
+    "blockedHelp": {
+      "textHash": "009cf59418bcd53ca2eff8472055ab54ec8cc52d498673b2bf56412d2bbd2d9f",
+      "spoken": "ಸಂಸ್ಥೆಯ ಉತ್ತರವನ್ನು ಉಳಿಸಿಕೊಳ್ಳಿ. ಏನು ಬಾಕಿಯಿದೆ, ಯಾವ ತಿದ್ದುಪಡಿ ಬೇಕು ಮತ್ತು ಮತ್ತೆ ಹೇಗೆ ಸಲ್ಲಿಸಬೇಕು ಎಂದು ಕೇಳಿ. ತಿರಸ್ಕೃತ ಅಥವಾ ಅಪೂರ್ಣ ವಿನಂತಿಯು ನೋಂದಾಯಿತ ನಾಮನಿರ್ದೇಶನವಲ್ಲ.",
+      "bytes": 73696,
+      "seconds": 18.265,
+      "sha256": "b993edcd0bd9108489c7d0d6a707233c8b9ba0984b3c1ce5c35881ee5e16eb48"
+    },
+    "recheck": {
+      "textHash": "501930b8125b2d24c9004ad12d82aa3b713b8155a284605114f8d8cba63b74f9",
+      "spoken": "ಮತ್ತೊಮ್ಮೆ ಪರಿಶೀಲಿಸಿ",
+      "bytes": 8892,
+      "seconds": 2.083,
+      "sha256": "f23de3c223f3eb5a5cb71a121b47e8e401123f5d047f3cf2ff24fb47d0cb03c5"
+    },
+    "familyRecord": {
+      "textHash": "147d0f4e8edc69e44a846aacf655fafdf49bd4fe5a443b44b53a69106f7db8cb",
+      "spoken": "ನಿಮ್ಮ ಕುಟುಂಬದ ದಾಖಲೆ",
+      "bytes": 9473,
+      "seconds": 2.212,
+      "sha256": "b331b4fff91dbb6de5329ceb2183857d6b4b9669df8204e368b229349ca4b7a6"
+    },
+    "familyHelp": {
+      "textHash": "267c40f36748859f568b8c3e731e41c07389226d8f24a6dd0595b995a5c182e9",
+      "spoken": "ನಿಮ್ಮ ಕುಟುಂಬವು ಖಾತೆಯನ್ನು ಗುರುತಿಸಲು ಮತ್ತು ಅದರ ದಾಖಲೆಗಳನ್ನು ಹುಡುಕಲು ಸಹಾಯ ಮಾಡುವದನ್ನು ಮಾತ್ರ ಸೇರಿಸಿ. ನೀವು ಖಾಸಗಿ ವಿವರಗಳನ್ನು ಬಿಡಬಹುದು.",
+      "bytes": 50463,
+      "seconds": 12.458,
+      "sha256": "839ffab9bd08ff6fc1927ccbe6b767fe216398b443bc92459bbcf3e4923220bb"
+    },
+    "recordLocation": {
+      "textHash": "3b074ca074579e2d372ceb6d481da5f33d0237a7a546bdc7b40c70bb4a0f98a4",
+      "spoken": "ನಿಮ್ಮ ಕುಟುಂಬವು ದಾಖಲೆಯನ್ನು ಎಲ್ಲಿ ಕಂಡುಹಿಡಿಯಬಹುದು? (ಐಚ್ಛಿಕ)",
+      "bytes": 25123,
+      "seconds": 6.122,
+      "sha256": "2b3e2ea9f46838f399141ed0f110ee8b2475c564b2fe07d390d54d500254da07"
+    },
+    "locationHelp": {
+      "textHash": "6ad7cb87b53ccb8edd76f6c597f249c55c2b10cbde632af518856c565c9753ac",
+      "spoken": "ಉದಾಹರಣೆಗೆ: ಮನೆಯಲ್ಲಿ ನೀಲಿ ಫೋಲ್ಡರ್. ಈ ಸ್ಥಳವನ್ನು ಕುಟುಂಬದ ಹಾಳೆಯಲ್ಲಿ ಸೇರಿಸಲಾಗಿದೆ. ಪಾಸ್‌ವರ್ಡ್‌ಗಳು ಅಥವಾ ಪೂರ್ಣ ಖಾತೆ ಸಂಖ್ಯೆಗಳನ್ನು ಸೇರಿಸಬೇಡಿ.",
+      "bytes": 53153,
+      "seconds": 13.143,
+      "sha256": "8ab6ef3bd1926a651fbe30c07e48bf85a6a947e8dc083ad5c5052a1698430e5e"
+    },
+    "addNomineeNote": {
+      "textHash": "500d550c004aa95c91b77c3c50befcf79ebc4555160d629b6729b96fa51d67db",
+      "spoken": "ಮತ್ತೊಂದು ನಾಮಿನಿ ಟಿಪ್ಪಣಿಯನ್ನು ಸೇರಿಸಿ",
+      "bytes": 17443,
+      "seconds": 4.201,
+      "sha256": "5e257576cd278f95a2dbe8da952ec2f24bdd9e51410032eb41bf8042c224585d"
+    },
+    "optionalDetails": {
+      "textHash": "beede446613cb1c4c12de46992f4db37d443e591aafc32453f0c72becbe09d43",
+      "spoken": "ಕುಟುಂಬದ ವಿವರಗಳು ಐಚ್ಛಿಕವಾಗಿರುತ್ತವೆ",
+      "bytes": 15428,
+      "seconds": 3.717,
+      "sha256": "734f92962ffe10a57f3e085170ae717e82ec902b20b7dae6431d9eb0f2d438ae"
+    },
+    "notProvided": {
+      "textHash": "3e1642e413dae947dbf070d6d66d6e897841ccb74e8d4bba700c07e04a81dd89",
+      "spoken": "ಈ ಪಟ್ಟಿಗೆ ಸೇರಿಸಲಾಗಿಲ್ಲ",
+      "bytes": 10240,
+      "seconds": 2.411,
+      "sha256": "dd4f48cc09f525c46ae7f438a4a1dc792281911b2ad02542d2e30e0d9c918957"
+    },
+    "unsaved": {
+      "textHash": "cd69ee9fc05f91a5562331c89079f90bcb45d9bc6d13d332669c79f616360638",
+      "spoken": "ಬದಲಾವಣೆಗಳನ್ನು ನಂತರ ಉಳಿಸಲಾಗಿಲ್ಲ",
+      "bytes": 13500,
+      "seconds": 3.231,
+      "sha256": "4b31428a9e2165e9f41c704b6f1d939311bb66d3c4dba361a7b1e421706054c3"
+    },
+    "savedStatus": {
+      "textHash": "b6b4c467f986cf5ee84f3670a2f63b75f2fdebbeff4e88886264b5079dd935ca",
+      "spoken": "ನಿಮ್ಮ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿದ ಫೈಲ್‌ಗೆ ಉಳಿಸಲಾಗಿದೆ",
+      "bytes": 14752,
+      "seconds": 3.543,
+      "sha256": "e87280cb1f5c0e655b6f609f84515bdf4c411468eea2daa511ca71a365ae1bae"
+    },
+    "passwordAgain": {
+      "textHash": "57cc8e534ab1e5d2f84074edba1450d585167c75eb5916f37ddd414017b06d10",
+      "spoken": "ಪಾಸ್ವರ್ಡ್ ಅನ್ನು ಪುನರಾವರ್ತಿಸಿ",
+      "bytes": 11490,
+      "seconds": 2.713,
+      "sha256": "38a313cb843de17f5825c4d2612083960179158101c9fca0534f5a6fa1b97879"
+    },
+    "passwordMismatch": {
+      "textHash": "93338356a42c56221e2dac8dc72ee67718ec906182d71b050d0ee585fedd609e",
+      "spoken": "ಪಾಸ್‌ವರ್ಡ್‌ಗಳು ಹೊಂದಿಕೆಯಾಗುತ್ತಿಲ್ಲ.",
+      "bytes": 12645,
+      "seconds": 3.014,
+      "sha256": "1e13d81dfda026a10dce26ab46b95dedc07ff357b69aeaefa751fecb2abe5b0b"
+    },
+    "showPassword": {
+      "textHash": "4d526a7144c2e90b8ba716d418de1bff01b77469ae97a3d6ee769a70cf2eb074",
+      "spoken": "ಪಾಸ್ವರ್ಡ್ ತೋರಿಸಿ",
+      "bytes": 7361,
+      "seconds": 1.696,
+      "sha256": "8cc1331eaf9f16efb744969e7a3d574e2731c08d7bec61a4dfd527c7edf66103"
+    },
+    "saveTip": {
+      "textHash": "64fb265ad08bf3be6885b3ef4806159b1d2311b82fc403d1db18d8fc3097b812",
+      "spoken": "ಡೌನ್‌ಲೋಡ್ ಮಾಡಿದ ನಂತರ, ನಿಮ್ಮ .ವಿರಾಸತ್ ಫೈಲ್‌ಗಾಗಿ ಡೌನ್‌ಲೋಡ್‌ಗಳನ್ನು ನೋಡಿ. ಪಾಸ್ವರ್ಡ್ ಅನ್ನು ಪ್ರತ್ಯೇಕವಾಗಿ ಇರಿಸಿ. ಹೊಸ ಬದಲಾವಣೆಗಳಿಗೆ ಹೊಸ ಉಳಿತಾಯದ ಅಗತ್ಯವಿದೆ.",
+      "bytes": 60252,
+      "seconds": 14.91,
+      "sha256": "d3f0aba0246ac84e9c20c8ec030873977c3c52a2438c0a6f3eb6507fe6eae3d6"
+    },
+    "evidenceScope": {
+      "textHash": "3f4a8c0b37cf485855e87376bb0afd471dc8a0beca561214889b6127b4b1e14f",
+      "spoken": "ದಾಖಲೆ ಏನು ತೋರಿಸುತ್ತದೆ?",
+      "bytes": 12450,
+      "seconds": 2.961,
+      "sha256": "972ce67d2b66fe7eebadd4bd257cea2af5242b302b55e148eab3b5426c12ba74"
+    },
+    "statusOnly": {
+      "textHash": "ed107b76b1f53fe2d49f157fae868c56fd0f25477360de84e6255e05ebfc1e49",
+      "spoken": "ನಾಮನಿರ್ದೇಶನ ನೋಂದಣಿಯಾಗಿದೆ ಎಂದು ಹೇಳುತ್ತದೆ",
+      "bytes": 19263,
+      "seconds": 4.665,
+      "sha256": "82bc6de013042faf8f86751c7b5647ab4157011fbd5c28cdfb7e440fa38b00fa"
+    },
+    "detailsChecked": {
+      "textHash": "51e80f6b36d8edd7050c53bdbd8a2bf76cab29229949501fb889eb67d50429aa",
+      "spoken": "ನಾಮಿನಿ ವಿವರಗಳನ್ನೂ ಪರಿಶೀಲಿಸಿದ್ದೇನೆ",
+      "bytes": 16675,
+      "seconds": 4.017,
+      "sha256": "c26c2d4b6e0ad3badad637f7769bc746c3a23b0ed90e0b1b4e925f2ae7c438de"
+    },
+    "receiptExample": {
+      "textHash": "020c55be6a5227e9bccaccfd03913aeb2d1cba9e0ddc0bc249cc2b3ebf043340",
+      "spoken": "“ನಿಮ್ಮ ವಿನಂತಿಯನ್ನು ಸ್ವೀಕರಿಸಲಾಗಿದೆ” ಎಂದರೆ ವಿನಂತಿ ಇನ್ನೂ ಬಾಕಿಯಿದೆ.",
+      "bytes": 28387,
+      "seconds": 6.941,
+      "sha256": "fa24d30d5377db77f57ff16f8427513afe17dd009cd0bd95c0dfde984fd7c7f8"
+    },
+    "registeredExample": {
+      "textHash": "3db12747f5ca57934485b2f91d380a764a029fb347372c1943f102b0a404b2b4",
+      "spoken": "“ನಾಮನಿರ್ದೇಶನ ನೋಂದಾಯಿಸಲಾಗಿದೆ” ಅಥವಾ “ನಾಮನಿರ್ದೇಶನ: ಹೌದು” ಎನ್ನುವುದು ನೋಂದಣಿಯನ್ನು ದಾಖಲಿಸುತ್ತದೆ. ಅದು ಈ ಖಾತೆಯನ್ನು ಗುರುತಿಸುತ್ತದೆಯೇ ಎಂದು ಪರಿಶೀಲಿಸಿ.",
+      "bytes": 59494,
+      "seconds": 14.729,
+      "sha256": "3753b57786035a11d91d0c06d145cb1cb82b82e6fb05bd9b15a023cd6b305d2c"
+    },
+    "seeEvidence": {
+      "textHash": "17ff154afd56fd75b96b9797b36b50d318eec2dc7df5f2b5198a25cdac9e2942",
+      "spoken": "ದೃಢೀಕರಣವಾಗಿ ಏನು ಪರಿಗಣಿಸುತ್ತದೆ?",
+      "bytes": 14368,
+      "seconds": 3.45,
+      "sha256": "1bc668112d1a692be614333250dc6a1e078113515b4267e9fa82a9c095be5e79"
+    },
+    "fictionalExample": {
+      "textHash": "b77658fc16e46757752cac2c40734d22872fd9c8eb005ba4d37bf2e55a5327cf",
+      "spoken": "ವಿವರಣಾತ್ಮಕ ಪದಗಳು ಮಾತ್ರ",
+      "bytes": 13125,
+      "seconds": 3.123,
+      "sha256": "3d6868fb49ba98bd0a26f987e049e79894315e893043d360641b12feaea7d221"
+    },
+    "pause": {
+      "textHash": "e86f8e1986f26bc281eaed2a9679615c09b3138918e218bdf7ec22e70ff18115",
+      "spoken": "ವಿರಾಮ",
+      "bytes": 4666,
+      "seconds": 1.026,
+      "sha256": "4eb262393d845163950bfef684ab95fa276cdbf411bb81927daf82ee78733460"
+    },
+    "resumeAudio": {
+      "textHash": "04181805195b889a3ff25d2b9af6aad0ec2dcae7aaf999b644f9182cc9afb398",
+      "spoken": "ಕೇಳುವುದನ್ನು ಮುಂದುವರಿಸಿ",
+      "bytes": 9856,
+      "seconds": 2.324,
+      "sha256": "9794f2d585e77d4cff0f37740bb34e76178c4fc60d6df7d89f9624d2c26fc969"
+    },
+    "stop": {
+      "textHash": "0edd57e9cef85ed95e4402ad2129263728168ee874212aed6ef364d3b6c7fc82",
+      "spoken": "ನಿಲ್ಲಿಸು",
+      "bytes": 5337,
+      "seconds": 1.194,
+      "sha256": "d82b938da168ad0abe942e161fb1a5baa61d6792f4e0b2131a8dc6f947864ba5"
+    },
+    "listening": {
+      "textHash": "35ab98a93c10fa6ad296a88e831e47b1a8173c4a267b0a92bbed5792c42451a7",
+      "spoken": "ಪುಟವನ್ನು ಓದುವುದು",
+      "bytes": 8414,
+      "seconds": 1.954,
+      "sha256": "65639c14452ef5cdaf048549a0043e2a82c57e958535f082511610c304403841"
+    },
+    "finishedAudio": {
+      "textHash": "d3991da1d3ee5ec09b68290ad3bed200b47f054f8bfbad71b6bfc2bf6df355ec",
+      "spoken": "ಓದಿ ಮುಗಿಸಿದೆ",
+      "bytes": 6786,
+      "seconds": 1.545,
+      "sha256": "10aaee0d065bd2eacebda2a95f03de9e8b227a2690ed2e4b7d3f68a937f4a5d2"
+    },
+    "voice": {
+      "textHash": "9bd8beb943ff026b67c4bf17c867933e9ff36fb121468f0e1dcdcf75c188cd3e",
+      "spoken": "ಕೇಳುತ್ತಿದೆ",
+      "bytes": 5722,
+      "seconds": 1.285,
+      "sha256": "2c7a226e69d218dc7b307b4d3488a7d823f128bfb2e63cd34c72045c1286a9ce"
+    },
+    "speed": {
+      "textHash": "3ed0c134c85cbb7a28c0f78c8c12b0c345efbc5a28ae4d3ae9b5f5401cd02571",
+      "spoken": "ಓದುವ ವೇಗ",
+      "bytes": 5818,
+      "seconds": 1.31,
+      "sha256": "51563d913f84794f30db0a32480b873c674c9b6df2c6d246fa088ad5d7a33dab"
+    },
+    "slower": {
+      "textHash": "a35affe5483e9b05fe4226210acb3dc42b14e028e6463f03a80c11e754df4464",
+      "spoken": "ನಿಧಾನ",
+      "bytes": 5051,
+      "seconds": 1.116,
+      "sha256": "6ea2f6d2850e264ca5252d1c98cda34945d9f94157e31f3409fdc72da658da0e"
+    },
+    "normalSpeed": {
+      "textHash": "e8e753190bb3730c11e974bf1d4b68e4198490250b898359c3db6d88bb12d3a2",
+      "spoken": "ನೈಸರ್ಗಿಕ",
+      "bytes": 5728,
+      "seconds": 1.294,
+      "sha256": "8ae6a21b1d06715c2378696da8847b83a69282baccf36721c17435b4481478f1"
+    },
+    "faster": {
+      "textHash": "e9610e9a0553f3a3500c949ce2d53f9aa422cae81d6f966e51fe2304c92a17f5",
+      "spoken": "ವೇಗವಾಗಿ",
+      "bytes": 6011,
+      "seconds": 1.348,
+      "sha256": "396b753d99329ae55a0b401c6a2afe392c25a23d6cc3341fa9ccefbf873a27a9"
+    },
+    "previewVoice": {
+      "textHash": "78610438826720b7785d1d0f6bf0e928d374d121688992add725dd0134684097",
+      "spoken": "ಪೂರ್ವವೀಕ್ಷಣೆ ಧ್ವನಿ",
+      "bytes": 8129,
+      "seconds": 1.875,
+      "sha256": "8d712eb9832450e7542d3d350d660ced0ef466ef93fbc6bb1e656f914f82e711"
+    },
+    "voicePreview": {
+      "textHash": "bd3077eb9fba52df7f71d445e8b0e07a5942d63dfffaab4ef5981f085d38082b",
+      "spoken": "ನಾನು ನಿಮ್ಮ ಭಾಷೆಯಲ್ಲಿರುವ ಸೂಚನೆಗಳನ್ನು ಒಂದೊಂದಾಗಿ ಓದುತ್ತೇನೆ.",
+      "bytes": 23681,
+      "seconds": 5.781,
+      "sha256": "53e515043819ab3a45e27576e7488d0c0ea84fc89f3260eb8cbf4507bfd76410"
+    },
+    "voiceHelp": {
+      "textHash": "9d9defe0a6d5e8640045209713d2a6da9b63a1f639c96a5d32cceaaa492cef06",
+      "spoken": "ಈ ಭಾಷೆಯಲ್ಲಿ ಲಿಖಿತ ಮಾರ್ಗದರ್ಶನ ಲಭ್ಯವಿದೆ. ಆಡಿಯೋ ಲಭ್ಯತೆಗಾಗಿ ಭಾಷಾ ಆಯ್ಕೆಯನ್ನು ಪರಿಶೀಲಿಸಿ. ನಿಮ್ಮ ನಮೂದುಗಳು ಮತ್ತು ಪಾಸ್‌ವರ್ಡ್‌ಗಳು ಖಾಸಗಿಯಾಗಿ ಉಳಿಯುತ್ತವೆ.",
+      "bytes": 63038,
+      "seconds": 15.605,
+      "sha256": "ae13cce5a91ae796914229191882173733bc13105965cd838a4d3f0b4d244278"
+    },
+    "speechError": {
+      "textHash": "78a4f9d16cae59be15b9f89f21de2be63a44b33fef006a7b9b9fb4fa6a68663b",
+      "spoken": "ಆಡಿಯೋ ಲೋಡ್ ಆಗಲಿಲ್ಲ. ನಿಮ್ಮ ಸಂಪರ್ಕವನ್ನು ಪರಿಶೀಲಿಸಿ, ನಂತರ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ ಟ್ಯಾಪ್ ಮಾಡಿ. ನಿಮ್ಮ ಸ್ಥಳವನ್ನು ಇರಿಸಲಾಗಿದೆ.",
+      "bytes": 48640,
+      "seconds": 12.004,
+      "sha256": "e673a6fb433266aa88f5b15c5e008183bc829c0676f6f920962d0a4a735fbf6f"
+    },
+    "readingSettings": {
+      "textHash": "b9125a4e13a95554d9f36836fad9c22bec35d0dd7f99c86d6a5e83bdfe1662bf",
+      "spoken": "ಓದುವುದು ಮತ್ತು ಆಲಿಸುವುದು",
+      "bytes": 12836,
+      "seconds": 3.068,
+      "sha256": "b3817df3e5a4ec45c1ae9b10892af6772350d6f4afb8836cd5ad9b2747690b75"
+    },
+    "appearance": {
+      "textHash": "2aae44ffdf0ffb6de43b31364ae4e34d7c8d0ef0b388add590388203bf0eae0d",
+      "spoken": "ಓದುವ ಸೌಕರ್ಯ",
+      "bytes": 7263,
+      "seconds": 1.658,
+      "sha256": "f418ad8996d45ff9caf4a87060d0ac3c4e7c4d1df4d1132d7cddba777fe755e1"
+    },
+    "lineSpacing": {
+      "textHash": "60acdd26b5e5b6e1af76363348e1fdcfdf52ff61d28660b9ceb38f9f23c7690d",
+      "spoken": "ಸಾಲುಗಳ ನಡುವೆ ಹೆಚ್ಚು ಜಾಗ",
+      "bytes": 12256,
+      "seconds": 2.92,
+      "sha256": "2d851b5241a8418ab46e82120279fa990c871aabf232503248e0cf2b4c170535"
+    },
+    "resetSettings": {
+      "textHash": "af28fc4bba115bb6fc1b677f5960191488b14233674a474e2c91a16373ce3459",
+      "spoken": "ಓದುವ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಮರುಹೊಂದಿಸಿ",
+      "bytes": 12258,
+      "seconds": 2.907,
+      "sha256": "54be6ee20f695bc10b7119c43689a3b782ce83df71d27e88969313cfae1704eb"
+    },
+    "languageHelp": {
+      "textHash": "2598338407db481b259272e8bc879ea45a6e97d7a521a49bf6be7e87392934f1",
+      "spoken": "ಯಾವುದೇ ಸಮಯದಲ್ಲಿ ಭಾಷೆಯನ್ನು ಬದಲಾಯಿಸಿ. ನಿಮ್ಮ ಕೆಲಸವು ಸ್ಥಳದಲ್ಲಿಯೇ ಇರುತ್ತದೆ.",
+      "bytes": 29057,
+      "seconds": 7.109,
+      "sha256": "d54a87f4a98b4779724707937675d3611b6384c1d6e5aaf6a4e0a5413c4d0005"
+    },
+    "removeNote": {
+      "textHash": "b0efac9a6ac65167baafc4b49c8827e9f78c9e4c8c48fc5a8fe99a122d928425",
+      "spoken": "ಈ ಟಿಪ್ಪಣಿಯನ್ನು ತೆಗೆದುಹಾಕಿ",
+      "bytes": 10911,
+      "seconds": 2.583,
+      "sha256": "db51565df0f8d61c15428346d2d7291719940bcd41ebeb53be84d9bb0da74ffd"
+    },
+    "optoutHelp": {
+      "textHash": "92b7ecaba7a8c26f3b07776ee6f6a6465f1450f30bbb68702ad70c7a74880de1",
+      "spoken": "ಇದು ಈ ಪಟ್ಟಿಯಲ್ಲಿ ಹೊಂದಿರುವವರ ಆಯ್ಕೆಯನ್ನು ಮಾತ್ರ ದಾಖಲಿಸುತ್ತದೆ. ಯಾವುದೇ ಔಪಚಾರಿಕ ಆಯ್ಕೆಯನ್ನು ಸಂಸ್ಥೆಯೊಂದಿಗೆ ಪೂರ್ಣಗೊಳಿಸಬೇಕು. ಆಯ್ಕೆಯನ್ನು ನಂತರ ಪರಿಶೀಲಿಸಬಹುದು.",
+      "bytes": 58623,
+      "seconds": 14.499,
+      "sha256": "cf4802760df128dd5a74557539a1bad1ad569c6500118679e11562b254790847"
+    },
+    "chooseType": {
+      "textHash": "39bd06039bf2f850763a88d91fa9d07701a653c05472928afe5869714c9ca137",
+      "spoken": "ಮುಂದುವರಿಸಲು ಖಾತೆಯ ಪ್ರಕಾರವನ್ನು ಆಯ್ಕೆಮಾಡಿ.",
+      "bytes": 17823,
+      "seconds": 4.316,
+      "sha256": "2d4c6923a1d92b05f0cdeaea52e2f5a313ff03ff61f4e64011fb9f459fb8d79c"
+    },
+    "currentRecord": {
+      "textHash": "6cf08d8769c6f41a20d3899c57708bf15689761ac9c15f1ea817d057533629d4",
+      "spoken": "ಈಗ ಏನು ದಾಖಲಾಗಿದೆ",
+      "bytes": 11682,
+      "seconds": 2.763,
+      "sha256": "de3f5c743012ae00b8c1f279400acbb96a11e53f10fd5e221125c0c3e998febf"
+    },
+    "history": {
+      "textHash": "bdc85bd2240b0b8c82fbff0f1f9da9687db0a46ccb13e80bfa507407cce0b9de",
+      "spoken": "ನಿಮ್ಮ ನವೀಕರಣಗಳು",
+      "bytes": 8316,
+      "seconds": 1.936,
+      "sha256": "5a06f8d4deaad10c2a6a1ea97eb599034119be5551f5099bfe8cbeba12a68f5d"
+    },
+    "reviewDate": {
+      "textHash": "875bfc9f8caf27655fdd2ca215f59d7d941f52913657b8d6e3dc2934b28c84a7",
+      "spoken": "ಮುಂದಿನ ವಿಮರ್ಶೆ",
+      "bytes": 7359,
+      "seconds": 1.68,
+      "sha256": "4bdf9f3ca7400fe27b862ed6e4345785a56652b95fac43e1c96d8509ffe22982"
+    },
+    "shareNames": {
+      "textHash": "eefbe6ee03167bb10677989b1531b0cfeabd4c88b4fecb8f5513ae0b997ac12a",
+      "spoken": "ಕುಟುಂಬ ಮತ್ತು ನಾಮಿನಿ ಟಿಪ್ಪಣಿಗಳನ್ನು ಸೇರಿಸಿ",
+      "bytes": 18879,
+      "seconds": 4.578,
+      "sha256": "15f5f3acb1f9e830d974495b3f5d6dcdc4ebc3fb692e2e203540a10269c138fa"
+    },
+    "shareLocation": {
+      "textHash": "a489c89c033a405f2124f5839bb1dcc097eb13d0b400c2c1c424867e342adafe",
+      "spoken": "ದಾಖಲೆ ಸ್ಥಳವನ್ನು ಸೇರಿಸಿ",
+      "bytes": 11874,
+      "seconds": 2.819,
+      "sha256": "84120ad23fcf35c7e8ccc84c5062b3ed733bd41006af23afb66645694f74661c"
+    },
+    "shareHelp": {
+      "textHash": "2113c269a413e00ec1e978ea759549a7d5b9cc3c430ea0d68d1b83808750a73a",
+      "spoken": "ಯಾವ ಮಾಹಿತಿಯನ್ನು ಸೇರಿಸಬೇಕೆಂದು ಆರಿಸಿ, ನಂತರ ಕೆಳಗಿನ ಹಾಳೆಯನ್ನು ಪರಿಶೀಲಿಸಿ. ಡೌನ್‌ಲೋಡ್ ಮಾಡಿದ ಪ್ರತಿಗೆ ಪಾಸ್‌ವರ್ಡ್ ರಕ್ಷಣೆ ಇಲ್ಲ.",
+      "bytes": 49598,
+      "seconds": 12.264,
+      "sha256": "b996fa2f74fd2bc57db9893c1d5b676acd4c1eae424913af1042d965182f8076"
+    },
+    "helpScope": {
+      "textHash": "4f0eea4a60c7012348ed7bb85efd1462f6820bd6752f02f7dcb2e2c7eb69e1d8",
+      "spoken": "ಯಾರಾದರೂ ಸತ್ತ ನಂತರ ಸಹಾಯ ಮಾಡುವುದೇ?",
+      "bytes": 19262,
+      "seconds": 4.661,
+      "sha256": "1d5f9ff3e49e3722339d8c0396dcb617105180dfb53610a69210b73ae7cea0db"
+    },
+    "helpScopeText": {
+      "textHash": "61103c086e1ac87ec7a8bafef2d6e4134fcf88bb929749c012ba184c6149a7cb",
+      "spoken": "ಈ ಕ್ರಮವು ಜೀವಂತ ಖಾತೆದಾರರ ನಾಮನಿರ್ದೇಶನ ವ್ಯವಸ್ಥೆಗಾಗಿ. ಖಾತೆದಾರರು ಮೃತಪಟ್ಟಿದ್ದರೆ, ಮೃತ ಖಾತೆದಾರರ ಕ್ಲೇಮ್ ಅಥವಾ ಆಸ್ತಿ ವರ್ಗಾವಣೆ ಪ್ರಕ್ರಿಯೆಯನ್ನು ಸಂಸ್ಥೆಯಿಂದ ತಿಳಿದುಕೊಳ್ಳಿ. ಅವರ ಪರವಾಗಿ ಹೊಸ ನಾಮನಿರ್ದೇಶನ ಆರಂಭಿಸಬೇಡಿ.",
+      "bytes": 83682,
+      "seconds": 20.782,
+      "sha256": "d894a6376147cbf18bccada289576edd02bfbf2552ba456fb9d7ed50b65e6990"
+    },
+    "openDevice": {
+      "textHash": "aebad060b3044882e6923979c4b46c7e53219cc27044a2b87f734a89e36c9352",
+      "spoken": "ಈ ಸಾಧನದಲ್ಲಿ ಲಾಕ್ ಮಾಡಿದ ನಕಲನ್ನು ತೆರೆಯಿರಿ",
+      "bytes": 18879,
+      "seconds": 4.577,
+      "sha256": "a79525aaade240aa2534fd5c1e8b3c99da4c8938ed5ab4fddc2384b65d730599"
+    },
+    "keepDevice": {
+      "textHash": "23ff008fa24869689f9fcf44764e90a6506d6bf5ba80db990172d01c3b30441b",
+      "spoken": "ಈ ಸಾಧನದಲ್ಲಿ ಲಾಕ್ ಮಾಡಿದ ನಕಲನ್ನು ಸಹ ಇರಿಸಿ",
+      "bytes": 18687,
+      "seconds": 4.512,
+      "sha256": "e5c9f5ef8cb1a7d6a257b17b571df76d817d0e6116ce6cfbfe203cd765bbb678"
+    },
+    "deviceHelp": {
+      "textHash": "783a004b9ddf7c35b5eac53ab21e4beecace9c419d650b7df4456e141655b838",
+      "spoken": "ಐಚ್ಛಿಕ: ಈ ಬ್ರೌಸರ್‌ನಲ್ಲಿ ಪಾಸ್‌ವರ್ಡ್‌ನಿಂದ ರಕ್ಷಿಸಿದ ಪ್ರತಿ ಇರಿಸಿ. ಬದಲಾವಣೆಗಳ ನಂತರ ಮತ್ತೆ ಉಳಿಸಬೇಕು. ಹಂಚಿಕೊಂಡ ಸಾಧನದಲ್ಲಿ ಈ ಆಯ್ಕೆಯನ್ನು ಆರಿಸಬೇಡಿ. ನಿಮ್ಮ ಪಾಸ್‌ವರ್ಡ್ ಅನ್ನು ನಾವು ಎಂದಿಗೂ ಸಂಗ್ರಹಿಸುವುದಿಲ್ಲ.",
+      "bytes": 79455,
+      "seconds": 19.711,
+      "sha256": "e3a8d3bc30d45e40b318c7c577d825507a64aad955dd8eec54f5edcb032049a6"
+    },
+    "forgetDevice": {
+      "textHash": "20411c9b74dcc7f376ee5449b01a272dec04724f7b492dfa02547a292bb10f74",
+      "spoken": "ಈ ಸಾಧನದಿಂದ ಉಳಿಸಿದ ನಕಲನ್ನು ತೆಗೆದುಹಾಕಿ",
+      "bytes": 15905,
+      "seconds": 3.84,
+      "sha256": "f9705a27ae31cd610357feda8f7c8b07f7c636e4285883de3c75b91237d9846d"
+    },
+    "forgetDeviceAsk": {
+      "textHash": "cf90fe0a6fd7d28c5dd7a8185c75839aa6c3d12f81280ac0dcd7b22e0b47795e",
+      "spoken": "ಈ ಸಾಧನದ ಲಾಕ್ ನಕಲನ್ನು ತೆಗೆದುಹಾಕುವುದೇ? ಡೌನ್‌ಲೋಡ್ ಮಾಡಿದ ಫೈಲ್‌ಗಳು ಉಳಿಯುತ್ತವೆ.",
+      "bytes": 31172,
+      "seconds": 7.648,
+      "sha256": "39612e2d95dd9c7f277a67db1e3e1da13ac8aca1c323454e0604bdd6e6f4755a"
+    },
+    "deviceUnavailable": {
+      "textHash": "e999ef82ae4f9b0c6c3c7a4efe08c21c79c95259297d3ac377828ff5f1144f9f",
+      "spoken": "ಫೈಲ್ ಅನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಲಾಗಿದೆ, ಆದರೆ ಈ ಬ್ರೌಸರ್ ಸಾಧನದ ನಕಲನ್ನು ಇರಿಸಿಕೊಳ್ಳಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ. ಹಿಂತಿರುಗಿಸಲು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿದ ಫೈಲ್ ಅನ್ನು ಬಳಸಿ.",
+      "bytes": 49990,
+      "seconds": 12.348,
+      "sha256": "2afe9a6e596e9aa61b0c4bc7d8c3c2318f7294c0b12f6926246c8ca505182874"
+    },
+    "chooseFile": {
+      "textHash": "eed7f4adc963e7418cca4259099535fea87377a9776ae3e47089f0ec8e36bb94",
+      "spoken": "ನಿಮ್ಮ ಉಳಿಸಿದ .ವಿರಾಸತ್ ಫೈಲ್ ಅಥವಾ ಸಾಧನದ ನಕಲನ್ನು ಆಯ್ಕೆಮಾಡಿ.",
+      "bytes": 24831,
+      "seconds": 6.059,
+      "sha256": "0e49c0224184ef65785da933cca4b89ca8714a6255851cb57e5ae48e2c79cf1a"
+    },
+    "replaceDraft": {
+      "textHash": "1053ada90060239fd1602edcd7bacdedcdcb111be178b809edabc1b77fa953a0",
+      "spoken": "ಮತ್ತೊಂದು ಖಾತೆಯನ್ನು ಪ್ರಾರಂಭಿಸುವುದೇ? ನಿಮ್ಮ ಅಪೂರ್ಣ ಖಾತೆಯನ್ನು ಬದಲಾಯಿಸಲಾಗುತ್ತದೆ.",
+      "bytes": 28385,
+      "seconds": 6.956,
+      "sha256": "8c54d514dd5c8229f25a1611d18f9bc44454f9a9f6791b5af5435f0e254aaa36"
+    },
+    "replaceList": {
+      "textHash": "e1e013d0b73546e301155f57163c632bf8c6d582b349b741c6fdc601bf411c3d",
+      "spoken": "ಮತ್ತೊಂದು ಪಟ್ಟಿಯನ್ನು ತೆರೆಯುವುದರಿಂದ ಈ ಸೆಶನ್ ಅನ್ನು ಬದಲಾಯಿಸಲಾಗುತ್ತದೆ. ನಿಮಗೆ ಅಗತ್ಯವಿದ್ದರೆ ಮೊದಲು ನಿಮ್ಮ ಕೆಲಸವನ್ನು ಉಳಿಸಿ.",
+      "bytes": 47584,
+      "seconds": 11.756,
+      "sha256": "751743051b6bb9a49750c631bd11814bbf55545c36b3be3608eb248ce2110894"
+    },
+    "validFollowup": {
+      "textHash": "15485870d05c58df21bd473dfdd4baec89de7300245c0badc9b00a51da9afd4a",
+      "spoken": "ನಿಜವಾದ ದಿನಾಂಕವನ್ನು ನಮೂದಿಸಿ ಅಥವಾ ಎಲ್ಲಾ ಮೂರು ಬಾಕ್ಸ್‌ಗಳನ್ನು ಖಾಲಿ ಬಿಡಿ.",
+      "bytes": 29730,
+      "seconds": 7.275,
+      "sha256": "81cf1be9f43a774b8a04bf633598356c1bd7fb5867e06498cd1a1cbf1467d474"
+    },
+    "seeNext": {
+      "textHash": "8ae042d7950a6db15f3f46f6ec0e9dcc5935447c454ba9c6a1c856b7f2a7d8f3",
+      "spoken": "ನನ್ನ ಮುಂದಿನ ಹಂತವನ್ನು ನೋಡಿ",
+      "bytes": 11772,
+      "seconds": 2.801,
+      "sha256": "9d836163f70c3f8eef1e7956507c4e448024090dfbe382acfbaff8f19f573b5e"
+    },
+    "unfinishedChanges": {
+      "textHash": "83706641cb69f5a78c2b5243650f7ad7776ff9d13c4002c9bf4b963b7a7ef4d1",
+      "spoken": "ಅಪೂರ್ಣ ಬದಲಾವಣೆಗಳನ್ನು ಮುಂದುವರಿಸಿ",
+      "bytes": 14662,
+      "seconds": 3.525,
+      "sha256": "469e4237fe13a27d0962e2c29f7b7b6e2dfe01def1c8bbaf7fdb07b8d203ad4b"
+    },
+    "linked": {
+      "textHash": "ce16f6e723f86d2649f168807be5538e201eee389571db9092cbabccf929563c",
+      "spoken": "ಡಿಮ್ಯಾಟ್ ಖಾತೆಯನ್ನು ಅನುಸರಿಸುತ್ತದೆ",
+      "bytes": 13979,
+      "seconds": 3.354,
+      "sha256": "684ab9285f9ab7792179776a33dc4c61d46ea82651958ff2c94f7560d164bfce"
+    },
+    "linkedTo": {
+      "textHash": "6b7649b322b840702c98e678282046fe61bbf99fd7053fa04304001632d0dddb",
+      "spoken": "ಲಿಂಕ್ ಮಾಡಿದ ಡಿಮ್ಯಾಟ್ ಖಾತೆ",
+      "bytes": 10237,
+      "seconds": 2.417,
+      "sha256": "0b2d7216092674905a245feb5f9ff548e29a78b76d8296e5981f267e9c2fa4a5"
+    },
+    "privateRecord": {
+      "textHash": "6b9113b7a33fd03c794ca0139e7e2c8211707d482ad1468427b4bf75ea33487a",
+      "spoken": "ನಿಮ್ಮ ಖಾಸಗಿ ದಾಖಲೆ ಟಿಪ್ಪಣಿ",
+      "bytes": 11778,
+      "seconds": 2.785,
+      "sha256": "86ed1f63fcd6b1bdf07da95e61d07b3daaddc269538fd41f38213bbf1c0c7a3b"
+    },
+    "privateRecordHelp": {
+      "textHash": "6dfe326abddfd98fcd36041ec99a31557273b87cd4a19f2fefe392e9d51a9cfa",
+      "spoken": "ಈ ಟಿಪ್ಪಣಿ ನಿಮ್ಮ ಪಾಸ್‌ವರ್ಡ್‌ನಿಂದ ರಕ್ಷಿಸಿದ ಉಳಿಸಿದ ಕಡತದಲ್ಲಿ ಇರುತ್ತದೆ. ಕುಟುಂಬದ ಸಾರಾಂಶ ಮತ್ತು ಪುಟದ ಆಡಿಯೊದಲ್ಲಿ ಇದನ್ನು ಸೇರಿಸುವುದಿಲ್ಲ.",
+      "bytes": 49894,
+      "seconds": 12.315,
+      "sha256": "0cf580567c83ce74aa9a8c460a5b40df2850bc15266518a88f003b8a01aeab4c"
+    },
+    "readRules": {
+      "textHash": "62d85c80426cdf52b5c88427d02537c1da44bd82c335974deb08211c3773b4a7",
+      "spoken": "ಅಧಿಕೃತ ನಿಯಮಗಳನ್ನು ಓದಿ",
+      "bytes": 10238,
+      "seconds": 2.406,
+      "sha256": "f80373c0b00cfda0dc01f5e45cf5ffd1a3c5d6a0c0dacac12b3ed43c3c5ccb4f"
+    },
+    "beforeContinue": {
+      "textHash": "27e9461fd9cbf9ad5e3d478eb7c24d6dcbf9622658d2f465fc931dc2a28c4c4c",
+      "spoken": "ನೀವು ಮುಂದುವರಿಸುವ ಮೊದಲು",
+      "bytes": 9859,
+      "seconds": 2.319,
+      "sha256": "03ed9b592804b96b1e99cfe5b8db98340be3253ec583dcece4e19e00c60e6780"
+    },
+    "checkConnection": {
+      "textHash": "bdfc1ce131317075efc5afad49fcafc64ba138d2a7d4f92cd470368e4c5e110a",
+      "spoken": "ಇವು ಒಟ್ಟಿಗೆ ಸೇರಿವೆಯೇ ಎಂದು ಪರಿಶೀಲಿಸಿ",
+      "bytes": 19460,
+      "seconds": 4.726,
+      "sha256": "87f3e26b060ccd89c4ec05ed3ca0e8fbad80ca82ccea9b7799865003e14f8a05"
+    },
+    "connectionHelp": {
+      "textHash": "6cf2d8b28a87ad63a16330a5883af67595ba5e9ee1b63fdb21394a7b1cfb2b8f",
+      "spoken": "ಅದೇ ಹೋಲ್ಡರ್‌ಗಳೊಂದಿಗೆ ಈ ನಿಖರವಾದ ಡಿಮ್ಯಾಟ್ ಖಾತೆಯಲ್ಲಿ ಈ ಫಂಡ್ ಘಟಕಗಳನ್ನು ಇರಿಸಲಾಗಿದೆಯೇ ಎಂದು ಪರಿಶೀಲಿಸಲು ಡಿಮ್ಯಾಟ್ ಹೇಳಿಕೆಯನ್ನು ಬಳಸಿ. ವಿವಿಧ ಕುಟುಂಬದ ಸದಸ್ಯರಿಗೆ ಸೇರಿದ ಖಾತೆಗಳು ನಾಮನಿರ್ದೇಶನವನ್ನು ಹಂಚಿಕೊಳ್ಳುವುದಿಲ್ಲ.",
+      "bytes": 82339,
+      "seconds": 20.434,
+      "sha256": "a8078ce1dbc6740a5e57eea58d1055e0ecc61f03383a1cb7f0d930b820f8e9dd"
+    },
+    "sameHolders": {
+      "textHash": "cdebd275277be95596a9a6b9aedc38d4c02d6ea845a1bbdf3ffcea30aeb0dd3e",
+      "spoken": "ನಾನು ಹೇಳಿಕೆಯನ್ನು ಪರಿಶೀಲಿಸಿದ್ದೇನೆ: ಈ ಘಟಕಗಳು ಮತ್ತು ಹೋಲ್ಡರ್‌ಗಳು ಈ ಡಿಮ್ಯಾಟ್ ಖಾತೆಗೆ ಹೊಂದಿಕೆಯಾಗುತ್ತವೆ.",
+      "bytes": 41632,
+      "seconds": 10.263,
+      "sha256": "5ea31241e23d45bd868207bc6c099d7c7fc6121114b24d897234201d05567b01"
+    },
+    "linkAccount": {
+      "textHash": "9de0f530505870e4bd051504908a97b5bfc9944b8c8f020ec62facefc346f11f",
+      "spoken": "ಈ ಡಿಮ್ಯಾಟ್ ಖಾತೆಯನ್ನು ಲಿಂಕ್ ಮಾಡಿ",
+      "bytes": 14272,
+      "seconds": 3.432,
+      "sha256": "c3a10a39cd468bc7a6cd08f091f8a407040e867914717f0f1051631589e5ee43"
+    },
+    "replaceChanges": {
+      "textHash": "9e9165df673c98bd825b2ca651e26d5f8cccf8c03758c41d65efa66a88bb1c5b",
+      "spoken": "ನೀವು ಅಪೂರ್ಣ ಬದಲಾವಣೆಗಳನ್ನು ಹೊಂದಿದ್ದೀರಿ. ಮುಂದುವರೆಯುವುದು ಆ ಡ್ರಾಫ್ಟ್ ಅನ್ನು ಬದಲಾಯಿಸುತ್ತದೆ. ಮನೆಗೆ ಹಿಂತಿರುಗಲು ರದ್ದುಗೊಳಿಸಿ ಮತ್ತು ಅದನ್ನು ಮೊದಲು ಮುಗಿಸಿ ಅಥವಾ ಉಳಿಸಿ.",
+      "bytes": 63715,
+      "seconds": 15.783,
+      "sha256": "72e086b40602c9ab07085de19c65ee5031787b56c334ce456492733912a08e6c"
+    },
+    "startOwnList": {
+      "textHash": "4fbd4be2e6ad4e0c9ad766c9ca0d931b05b674e6c6da791bf3c32abf649287a0",
+      "spoken": "ನನ್ನ ಸ್ವಂತ ಪಟ್ಟಿಯನ್ನು ಪ್ರಾರಂಭಿಸಿ",
+      "bytes": 12449,
+      "seconds": 2.953,
+      "sha256": "cd8170fcffd2128ae6ff140b728c5e8aa80c20ca2753f8e85c5bc147a13f0ff2"
+    },
+    "startOwnHelp": {
+      "textHash": "4310a46413c1506ceed70e27f811090e1caeac299a21820753c56323004d94b3",
+      "spoken": "ನಿಮ್ಮ ಕುಟುಂಬಕ್ಕಾಗಿ ಹೊಸ ಪಟ್ಟಿಯನ್ನು ಪ್ರಾರಂಭಿಸುವುದೇ? ಇದು ಈ ಅಧಿವೇಶನದಿಂದ ಕಾಲ್ಪನಿಕ ಉದಾಹರಣೆಯನ್ನು ತೆಗೆದುಹಾಕುತ್ತದೆ.",
+      "bytes": 45281,
+      "seconds": 11.18,
+      "sha256": "f35d7169b1752e4c694fcb00d689065111620b268f478e3625ce376842496872"
+    },
+    "familyPending": {
+      "textHash": "6f53048ed8f04c36abb410f5be78e6a8d287c9e38f51ab437a7bdafdf91ca4dc",
+      "spoken": "ಕುಟುಂಬದ ವಿವರಗಳನ್ನು ಇನ್ನೂ ಪರಿಶೀಲಿಸಲಾಗಿಲ್ಲ",
+      "bytes": 17154,
+      "seconds": 4.143,
+      "sha256": "37fe82c13622fb79975e6c155620931c9291ea9218080ed08f8e5dad4c7fa7c3"
+    },
+    "familyReviewed": {
+      "textHash": "d692dc00717dd8e09345b018c73abd929299017d405b73f0f43699d7b46d5cd5",
+      "spoken": "ಕುಟುಂಬದ ವಿವರಗಳನ್ನು ಪರಿಶೀಲಿಸಲಾಗಿದೆ",
+      "bytes": 14275,
+      "seconds": 3.417,
+      "sha256": "aab7a165c47181e553f536d71fc0b1bdf94ca22e8c6feadc5eedf99f5cf847b7"
+    },
+    "familyReviewCheck": {
+      "textHash": "dfd8da1515094c6fdafac9a31f96746df53302fd48570d09ce2a5c17ca5c1909",
+      "spoken": "ನನ್ನ ಕುಟುಂಬ ಏನನ್ನು ನೋಡಬೇಕೆಂದು ನಾನು ಪರಿಶೀಲಿಸಿದೆ. ನಾನು ಯಾವುದೇ ಖಾಲಿ ಜಾಗವನ್ನು ಬಿಡಲು ಆಯ್ಕೆ ಮಾಡಿದ್ದೇನೆ.",
+      "bytes": 41734,
+      "seconds": 10.289,
+      "sha256": "700c57948719df160c9c70ea1323c959f499d0033eb5f06608fa6cd6ad1077ab"
+    },
+    "familyReviewHelp": {
+      "textHash": "208d76e1ad78f979a3228351f9fe9a869b331caa08010e0e7c0fa559a9971f0f",
+      "spoken": "ಇದು ಪ್ರತ್ಯೇಕ ಚೆಕ್ ಆಗಿದೆ. ನೋಂದಾಯಿತ ನಾಮನಿರ್ದೇಶನವು ನಿಮ್ಮ ಕುಟುಂಬಕ್ಕೆ ಖಾತೆಯನ್ನು ಅಥವಾ ಅದರ ದಾಖಲೆಗಳನ್ನು ಎಲ್ಲಿ ಕಂಡುಹಿಡಿಯಬೇಕೆಂದು ಹೇಳುವುದಿಲ್ಲ.",
+      "bytes": 51717,
+      "seconds": 12.791,
+      "sha256": "0aea2679991ecea692617068951e8ea34c2048212f469f80fd04622ba549c275"
+    },
+    "notIncluded": {
+      "textHash": "bca615a561db70fb4177e9eb52ff652772844715831de1f6455cf92acf3bfb45",
+      "spoken": "ಆಯ್ಕೆಯಿಂದ ಸೇರಿಸಲಾಗಿಲ್ಲ",
+      "bytes": 10048,
+      "seconds": 2.367,
+      "sha256": "580223e83a3d534109395b6722c2e901930e19f390dc0d86f54f6679b6ff631b"
+    },
+    "familyReadyNext": {
+      "textHash": "273dbafee50c49d4eff1a2491bc86561132e3f0e90c9157bf6acb4dddfa060cd",
+      "spoken": "ಈ ಶೀಟ್ ಅನ್ನು ನಿಮ್ಮ ವಿಶ್ವಾಸಾರ್ಹ ಕುಟುಂಬದ ಸದಸ್ಯರು ಹುಡುಕಬಹುದಾದ ಸ್ಥಳದಲ್ಲಿ ಇರಿಸಿ. ವಿವರಗಳು ಬದಲಾದಾಗ ಅದನ್ನು ಪರಿಶೀಲಿಸಿ.",
+      "bytes": 47780,
+      "seconds": 11.802,
+      "sha256": "da13ca37d51e1ddc69e41ace6c71bb5085b9f7d014456b993ad9fbaf0a19872e"
+    },
+    "familyRemaining": {
+      "textHash": "92e0cf639c746a46a537cb2bbb4222c47c2029111dd941db1f3cd05eda6c04e9",
+      "spoken": "ಪರಿಶೀಲಿಸಲು ಕುಟುಂಬದ ದಾಖಲೆಗಳು",
+      "bytes": 13028,
+      "seconds": 3.118,
+      "sha256": "087fbe4fd1d17d396636f57a42bfe40108da57ac83cd07cb83b6dfdefcb4bb38"
+    },
+    "onlineRoute": {
+      "textHash": "465298c829c61bf33b28269fc427c8cca0b2e3c493409af85150b24987de2d12",
+      "spoken": "ಆನ್‌ಲೈನ್ ಸೇವೆಗಳನ್ನು ಬಳಸಿ",
+      "bytes": 9760,
+      "seconds": 2.293,
+      "sha256": "3963cd1c91934f150b9553362ac07f5e0f985198b05f91703052a95e61c5470c"
+    },
+    "offlineRoute": {
+      "textHash": "c3dd64a357277ecc6012f25b41f13834733d0cdd1bd9541dee64395702bb0f7c",
+      "spoken": "ವೈಯಕ್ತಿಕವಾಗಿ ಸಹಾಯ ಪಡೆಯಿರಿ",
+      "bytes": 12545,
+      "seconds": 2.986,
+      "sha256": "ed347af86f17702871fd1095b7cc533b2922f24bdcfb406b1d8228228071d79c"
+    },
+    "routeChoice": {
+      "textHash": "b8b20080fe100bb14cc13a5b0de3f45926fb1f6b181ff7f95869b92726ff03b7",
+      "spoken": "ನೀವು ಇದನ್ನು ಹೇಗೆ ಮಾಡಲು ಬಯಸುತ್ತೀರಿ?",
+      "bytes": 13888,
+      "seconds": 3.321,
+      "sha256": "1b46f5050eb443004ed780a007b66f7ccfc1f806392f763aa9a97166e96198b1"
+    },
+    "saveBeforeLeaving": {
+      "textHash": "5ca28f41eee5717f4391a5fecb57a63b98633000a426f3082b6051373d0119a2",
+      "spoken": "ಅಧಿಕೃತ ಸೇವೆಯನ್ನು ತೆರೆಯುವ ಮೊದಲು ನಿಮ್ಮ ಸ್ಥಳವನ್ನು ಉಳಿಸಿ. ಏನಾಯಿತು ಎಂಬುದನ್ನು ದಾಖಲಿಸಲು ಇಲ್ಲಿಗೆ ಹಿಂತಿರುಗಿ.",
+      "bytes": 43174,
+      "seconds": 10.644,
+      "sha256": "a12c415c0545cb37e8e419eddfd826de4efa9dbfff08c1b371b6e96eedbb687a"
+    },
+    "offlineContact": {
+      "textHash": "f4084fbb26f833ceb4d47de0f9daf8d7db81b91ae6555a4930a706b9f0752314",
+      "spoken": "ಶಾಖೆ ಅಥವಾ ಸೇವಾ ಕೇಂದ್ರವನ್ನು ಪತ್ತೆಹಚ್ಚಲು ಸಂಸ್ಥೆಯ ಅಧಿಕೃತ ಸಹಾಯ ಪುಟವನ್ನು ಬಳಸಿ. ಪ್ರಯಾಣಿಸುವ ಮೊದಲು ಇದು ಈ ಖಾತೆಗೆ ನಾಮನಿರ್ದೇಶನವನ್ನು ನಿರ್ವಹಿಸುತ್ತದೆಯೇ ಎಂದು ಕೇಳಿ.",
+      "bytes": 67747,
+      "seconds": 16.779,
+      "sha256": "975d4d35091e36076978e75513a61c710ef79c6e2092b827df6f31531568c587"
+    },
+    "offlineBring": {
+      "textHash": "0904bf98e87e900cc9439de93e648bec4dd89fd5c9dde32ded247f58ca5b3f97",
+      "spoken": "ಯಾವ ಫಾರ್ಮ್, ಹೋಲ್ಡರ್ ಸಹಿಗಳು ಮತ್ತು ದಾಖಲೆಗಳ ಅಗತ್ಯವಿದೆ ಎಂದು ಕೇಳಿ. ಖಾತೆಯನ್ನು ಗುರುತಿಸಲು ಹೇಳಿಕೆ ಅಥವಾ ಪಾಸ್‌ಬುಕ್ ತೆಗೆದುಕೊಳ್ಳಿ; ಸಂಸ್ಥೆಗೆ ಅಗತ್ಯವಿಲ್ಲದ ಹೊರತು ಮೂಲಗಳನ್ನು ನಿಮ್ಮೊಂದಿಗೆ ಇಟ್ಟುಕೊಳ್ಳಿ.",
+      "bytes": 72641,
+      "seconds": 18.002,
+      "sha256": "0b66cef644628db07e41b127200461817a4d37f96491e57624f2da86d7fa5391"
+    },
+    "offlineAsk": {
+      "textHash": "35f68049de60d5c42de5ff30bd48b102acf21c81deab0c33a548fd4df0269104",
+      "spoken": "ಅಸ್ತಿತ್ವದಲ್ಲಿರುವ ನಾಮನಿರ್ದೇಶನವನ್ನು ಮೊದಲು ಪರಿಶೀಲಿಸಲು ಸಿಬ್ಬಂದಿಗೆ ಕೇಳಿ. ಬದಲಾವಣೆಯ ಅಗತ್ಯವಿದ್ದರೆ, ದಿನಾಂಕದ ರಶೀದಿಯನ್ನು ಕೇಳಿ ಮತ್ತು ಅಂತಿಮ ನೋಂದಣಿ ದಾಖಲೆಯನ್ನು ಹೇಗೆ ಪಡೆಯುವುದು.",
+      "bytes": 67359,
+      "seconds": 16.699,
+      "sha256": "acb6de3d0ae9f6ffe03ef194e503977038049b1d13057306cf29e74d75a4b4a8"
+    },
+    "scopeGeneral": {
+      "textHash": "e6f913fa37da5175e082add086bbe74736314e5b16c010828f84e2c65fc092a2",
+      "spoken": "ಈ ಖಾತೆ ಪ್ರಕಾರಕ್ಕೆ ಸಾಮಾನ್ಯ ಮಾರ್ಗದರ್ಶನ. ಈ ಸಂಸ್ಥೆಯ ನಿಖರವಾದ ಪರದೆಗಳನ್ನು ನಾವು ಪರಿಶೀಲಿಸಿಲ್ಲ.",
+      "bytes": 36161,
+      "seconds": 8.902,
+      "sha256": "fad48ee2b922da16b38cc0a9ae52cab57e1c82e95faffbe03da5003f5943aef5"
+    },
+    "scopeHdfc": {
+      "textHash": "cd669668399cff883401a8c43adf659bef1227beecbac85684bc40b48e06454e",
+      "spoken": "ಎಚ್ ಡಿ ಎಫ್ ಸಿ ಬ್ಯಾಂಕ್: ಉಳಿತಾಯ ಮತ್ತು ಎಫ್ ಡಿ/ಆರ್ ಡಿ ಮಾರ್ಗದರ್ಶನ; ಜಂಟಿ ಹೊಂದಿರುವವರು ಶಾಖೆಯ ಮಾರ್ಗವನ್ನು ಬಳಸುತ್ತಾರೆ.",
+      "bytes": 46622,
+      "seconds": 11.516,
+      "sha256": "402b42e144d338faa210363deb1d9b9bf78eba9b90cf1c4a593314a0a6cba873"
+    },
+    "scopeSbi": {
+      "textHash": "45dcdeaf0432d39194f0479c550b0470a1ba1b2f51f9801cbfee996165453ab3",
+      "spoken": "ಎಸ್ ಬಿ ಐ ಠೇವಣಿ ಖಾತೆಗಳು. ಈ ಮಾರ್ಗದರ್ಶಿ ಲಭ್ಯವಿರುವ ಚಾನಲ್‌ಗಳನ್ನು ಒಳಗೊಂಡಿದೆ; ಇದು ಪರೀಕ್ಷಿತ ಲಾಗಿನ್ ಅನುಕ್ರಮವನ್ನು ಕ್ಲೈಮ್ ಮಾಡುವುದಿಲ್ಲ.",
+      "bytes": 51901,
+      "seconds": 12.825,
+      "sha256": "64e098cee16890d667b9275731de92e476eb8aa230ab82c1df975bc34a1127ba"
+    },
+    "scopeAxis": {
+      "textHash": "156cfaaf1c71e4945b14f3213612e84fd6c28a0f8478bbf49c28885e96114f49",
+      "spoken": "ಆಕ್ಸಿಸ್ ಬ್ಯಾಂಕ್ ಉಳಿತಾಯ ಖಾತೆಗಳು ಮಾತ್ರ. ಎಫ್ ಡಿ/ಆರ್ ಡಿ ಮಾರ್ಗಗಳು ಭಿನ್ನವಾಗಿರಬಹುದು.",
+      "bytes": 36158,
+      "seconds": 8.9,
+      "sha256": "ab6656ce0dac6be6e1697d8d70b083cc97a8227e6b3d37bafb0207b5884d6b02"
+    },
+    "scopeZerodhaAdd": {
+      "textHash": "f58ef36f359ab93e37461845a6cd99d597747fc693f60e8ce72c9430377088f7",
+      "spoken": "ಜೆರೋಧಾ: ಮೊದಲ ನಾಮಿನಿ ಸೇರ್ಪಡೆ. ಜಂಟಿ ಖಾತೆಗಳು ಅಥವಾ ಲಭ್ಯವಿಲ್ಲದ ಆಧಾರ್-ಲಿಂಕ್ ಮಾಡಲಾದ ಮೊಬೈಲ್ ಪ್ರವೇಶಕ್ಕೆ ಸಂಸ್ಥೆಯ ಸಹಾಯದ ಅಗತ್ಯವಿದೆ.",
+      "bytes": 56036,
+      "seconds": 13.871,
+      "sha256": "7c67e4cacd72da0a8d102b46faf24952390ad8a9f141515aa7edd3c3f1950795"
+    },
+    "scopeZerodhaChange": {
+      "textHash": "5c543c0bb20c1ed1f13ac3b37d2c06582ed98acd84165222ff4cbbe410de2b43",
+      "spoken": "ಜೆರೋಧಾ: ಅಸ್ತಿತ್ವದಲ್ಲಿರುವ ನಾಮಿನಿ ವಿವರಗಳನ್ನು ಬದಲಾಯಿಸುವುದು ಅಥವಾ ಇನ್ನೊಬ್ಬ ನಾಮಿನಿಯನ್ನು ಸೇರಿಸುವುದು.",
+      "bytes": 37031,
+      "seconds": 9.114,
+      "sha256": "245c412d5a4e83ae572583529bac63bac0f60a80c9279e61919f701f0941cf91"
+    },
+    "scopeGroww": {
+      "textHash": "24ee6d24ae39101dd4750190d737510055f7f034cf73f50e4c000c98a50cc311",
+      "spoken": "ಗ್ರೋವ್ ಡಿಮ್ಯಾಟ್ ಖಾತೆ. ಅಸ್ತಿತ್ವದಲ್ಲಿರುವ ಮ್ಯೂಚುಯಲ್-ಫಂಡ್ ಫೋಲಿಯೊಗಳಿಗೆ ಪ್ರತ್ಯೇಕ ಸೇವಾ ಮಾರ್ಗದ ಅಗತ್ಯವಿರುತ್ತದೆ.",
+      "bytes": 41823,
+      "seconds": 10.305,
+      "sha256": "bb9956ca732e3e1548fcf7bc7e97874fd2282756ce075bea2c3c8f323be57660"
+    },
+    "scopeHdfcMf": {
+      "textHash": "292049ae471e287c153a8feef890f611e50a84768c2f83d7d7b3984b18d5d89d",
+      "spoken": "ಎಚ್ ಡಿ ಎಫ್ ಸಿ ಮ್ಯೂಚುಯಲ್ ಫಂಡ್ ಫೋಲಿಯೋಗಳು. ಡಿಮ್ಯಾಟ್-ಹೆಲ್ಡ್ ಘಟಕಗಳು ಡಿಮ್ಯಾಟ್ ಖಾತೆಯ ನಾಮನಿರ್ದೇಶನವನ್ನು ಅನುಸರಿಸುತ್ತವೆ.",
+      "bytes": 45472,
+      "seconds": 11.226,
+      "sha256": "e568fe23c21a8d19270aa652037b6cc6dced703d6ea4dcd36521d09f34a3eb1f"
+    },
+    "scopeDematFunds": {
+      "textHash": "303397160ad4e3a110235587c686f91900977a0bb00d04947e21f0c57e4d585d",
+      "spoken": "ಮೊದಲು ಈ ಘಟಕಗಳನ್ನು ಹೊಂದಿರುವ ಡಿಮ್ಯಾಟ್ ಖಾತೆಯನ್ನು ಗುರುತಿಸಿ ಮತ್ತು ಪರಿಶೀಲಿಸಿ.",
+      "bytes": 32900,
+      "seconds": 8.073,
+      "sha256": "3d598b3492d8e884218f0845c271b306d6cf4dd2d6e12dd521dd95cab6acf221"
+    },
+    "scopeUnknownFunds": {
+      "textHash": "0f8aa49315ee75857fc71e137603c1643f1e9fb8eca104b6d946f34768b36253",
+      "spoken": "ನಾಮನಿರ್ದೇಶನ ಮಾರ್ಗವನ್ನು ಆಯ್ಕೆಮಾಡುವ ಮೊದಲು ಹೋಲ್ಡಿಂಗ್ ಸ್ವರೂಪವನ್ನು ಗುರುತಿಸಬೇಕು.",
+      "bytes": 28582,
+      "seconds": 7.005,
+      "sha256": "c0f774418948131de744b20f5823ddd03170eb30e27b75c440eaeed559d7e8f2"
+    },
+    "sbiAction": {
+      "textHash": "b7f387f9bed6aaf1524c857f1570373db5fef9ab0f63f5e215671ba350a9b713",
+      "spoken": "ಎಸ್ ಬಿ ಐ ಯೋನೋ, ಇಂಟರ್ನೆಟ್ ಬ್ಯಾಂಕಿಂಗ್ ಮತ್ತು ಶಾಖೆಗಳ ಮೂಲಕ ಠೇವಣಿ-ಖಾತೆ ನಾಮನಿರ್ದೇಶನವನ್ನು ನೀಡುತ್ತದೆ. ನಿರ್ದಿಷ್ಟ ಖಾತೆಯನ್ನು ಆಯ್ಕೆಮಾಡಿ. ನಿಮಗೆ ಅಗತ್ಯವಿರುವ ಆಯ್ಕೆಯು ಲಭ್ಯವಿಲ್ಲದಿದ್ದರೆ, ಪ್ರಸ್ತುತ ಫಾರ್ಮ್ ಅನ್ನು ಬಳಸಿಕೊಂಡು ನೋಂದಾಯಿಸಲು ಅಥವಾ ಅದನ್ನು ಬದಲಾಯಿಸಲು ಶಾಖೆಯನ್ನು ಕೇಳಿ.",
+      "bytes": 99518,
+      "seconds": 24.727,
+      "sha256": "196c2f6b1dd766d30f5bc829d85cd9c8a2d326fb7de8f0357bac8851a98f4082"
+    },
+    "axisStart": {
+      "textHash": "8a767101b531634c1b945ed515d0db029bc35df0124b47d39eb8741f0acf1907",
+      "spoken": "ಆಕ್ಸಿಸ್ ಇಂಟರ್ನೆಟ್ ಬ್ಯಾಂಕಿಂಗ್‌ನಲ್ಲಿ, ಸೇವೆಗಳು → ಖಾತೆ ಸೇವೆಗಳು → ಅಪ್‌ಡೇಟ್ ನಾಮಿನಿ ತೆರೆಯಿರಿ. ಉಳಿತಾಯ ಖಾತೆಯನ್ನು ಆಯ್ಕೆಮಾಡಿ, ನಂತರ ಹೊಸ ನಾಮಿನಿಯನ್ನು ಸೇರಿಸಿ ಅಥವಾ ನಾಮಿನಿಯನ್ನು ಬದಲಾಯಿಸಿ.",
+      "bytes": 66110,
+      "seconds": 16.378,
+      "sha256": "d2471a3def9cef352a0a4d09f44df0cdd54880681ef43d104f4286970ed69621"
+    },
+    "axisSubmit": {
+      "textHash": "ada1c7b138a23e17037ea9ac2d659f1e1a8bab8af557f785882e8bc6ad7f5ddd",
+      "spoken": "ಆಕ್ಸಿಸ್‌ನ ಸಹಾಯ ಪುಟವು ವಿನಂತಿಯ ಫಾರ್ಮ್ ಅನ್ನು ರಚಿಸುವುದು, ಅದನ್ನು ಪೂರ್ಣಗೊಳಿಸುವುದು ಮತ್ತು ಸಹಿ ಮಾಡುವುದು, ಅದನ್ನು ಅಪ್‌ಲೋಡ್ ಮಾಡುವುದು ಮತ್ತು ನೆಟ್ ಸೆಕ್ಯೂರ್ ಕೋಡ್‌ನೊಂದಿಗೆ ದೃಢೀಕರಿಸುವುದನ್ನು ವಿವರಿಸುತ್ತದೆ. ನಿಮಗೆ ಮುದ್ರಿಸಲು ಅಥವಾ ಅಪ್‌ಲೋಡ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗದಿದ್ದರೆ, ಶಾಖೆಯನ್ನು ಬಳಸಿ.",
+      "bytes": 94623,
+      "seconds": 23.503,
+      "sha256": "c718ce513bef849b5c998bc59b5e1b8cef16b74054656495f691cb212f1d68a6"
+    },
+    "zerodhaChangeForms": {
+      "textHash": "521059d8f8957dd035b5a8406157cbb0198c1ca98ca20e6d8b3183a82b563157",
+      "spoken": "ಜೆರೋಧಾ ಬದಲಾವಣೆ ಸೂಚನೆಗಳನ್ನು ತೆರೆಯಿರಿ. ಪ್ರಸ್ತುತ ನಾಮನಿರ್ದೇಶನ ಮತ್ತು ಖಾತೆ-ಮಾರ್ಪಾಡು ನಮೂನೆಗಳನ್ನು ಪಡೆಯಿರಿ; ನಿರ್ದೇಶನದಂತೆ ಅಸ್ತಿತ್ವದಲ್ಲಿರುವ ಮತ್ತು ಪ್ರಸ್ತಾವಿತ ನಾಮಿನಿ ವಿವರಗಳನ್ನು ನಮೂದಿಸಿ.",
+      "bytes": 77063,
+      "seconds": 19.116,
+      "sha256": "422a50afb09ee3ab9e9d9248721cb5306cbe578a856303969e6718ff14467052"
+    },
+    "zerodhaChangeSubmit": {
+      "textHash": "adae3126b5882aa29f03cfa351eafc1fdeb958c91f9c08ab214e33db8b81dec1",
+      "spoken": "ಜೆರೋಧಾ ಎರಡೂ ಫಾರ್ಮ್‌ಗಳಿಗೆ ಕೈಯಿಂದ ಸಹಿ ಮಾಡುವುದು, ಇ-ಸೈನ್ ಮಾಡುವುದು ಮತ್ತು ಬೆಂಬಲ ಟಿಕೆಟ್‌ಗೆ ಲಗತ್ತಿಸುವುದನ್ನು ವಿವರಿಸುತ್ತದೆ. ಪ್ರಸ್ತುತ ಸೂಚನೆಗಳನ್ನು ಅನುಸರಿಸಿ; ನೀವು ಇ-ಸೈನ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗದಿದ್ದರೆ ಪರ್ಯಾಯಕ್ಕಾಗಿ ಬೆಂಬಲವನ್ನು ಕೇಳಿ.",
+      "bytes": 84072,
+      "seconds": 20.864,
+      "sha256": "00f406259f9814a0cf97cd825b2ea1d572c2bbd3d584289464b35644b8983ac1"
+    },
+    "growwCheck": {
+      "textHash": "5c67ba506cd7e264ed565985edbed6bf61e83b7d4fbcac1798f618560e041889",
+      "spoken": "ಗ್ರೋ ನಲ್ಲಿ, ಪ್ರೊಫೈಲ್ → ಖಾತೆ ವಿವರಗಳು → ನಾಮಿನಿ ವಿವರಗಳನ್ನು ತೆರೆಯಿರಿ. ಪ್ರದರ್ಶಿಸಲಾದ ನಾಮನಿರ್ದೇಶನವು ಯಾವ ಹೂಡಿಕೆ ಅಥವಾ ಖಾತೆಗೆ ಅನ್ವಯಿಸುತ್ತದೆ ಎಂಬುದನ್ನು ಪರಿಶೀಲಿಸಿ.",
+      "bytes": 62271,
+      "seconds": 15.418,
+      "sha256": "7bb34ebf852221981b89fbf373a12f5292e221a53c24c41f8dbd33df2f96626f"
+    },
+    "growwAction": {
+      "textHash": "587dd139ff0a405de701409b6a8d6c6f5d5db5284d35b05a269fb958be441d7a",
+      "spoken": "ಅರ್ಹ ಡಿಮ್ಯಾಟ್ ಹೂಡಿಕೆಗಳಿಗಾಗಿ ಎಡಿಟ್ ನಾಮಿನಿಯನ್ನು ಬಳಸಿ ಮತ್ತು ಗ್ರೋವ್ ಪರಿಶೀಲನೆಯನ್ನು ಅನುಸರಿಸಿ. ಪ್ರೊಫೈಲ್ ಅನ್ನು ನವೀಕರಿಸುವುದರಿಂದ ಅಸ್ತಿತ್ವದಲ್ಲಿರುವ ಪ್ರತಿಯೊಂದು ಮ್ಯೂಚುಯಲ್-ಫಂಡ್ ಫೋಲಿಯೊ ಬದಲಾಗಿದೆ ಎಂದು ಸ್ಥಾಪಿಸುವುದಿಲ್ಲ; ಆ ಫೋಲಿಯೊಗಳನ್ನು ಪ್ರತ್ಯೇಕವಾಗಿ ಪರಿಶೀಲಿಸಿ.",
+      "bytes": 91840,
+      "seconds": 22.823,
+      "sha256": "d41f1ce2f2ecf6400a65c8cf117d17d6d4e61c909d8534306a9ea4ac653ac71b"
+    },
+    "readingNow": {
+      "textHash": "04a98b66ab709c1af1a4bbcd2487dd04bde911cd2dc3532c614f3d02c43e881f",
+      "spoken": "ಈಗ ಓದುತ್ತಿದ್ದೇನೆ",
+      "bytes": 8223,
+      "seconds": 1.906,
+      "sha256": "d371a0f3676f4ea03cec19ed2ccecf808fbaa9a86a1d60d902309a1c7471ba8d"
+    },
+    "repeatSentence": {
+      "textHash": "1f945a03d37cb4214c4fa9183d266b80c54934d4f020aa5a907949d6f609ff22",
+      "spoken": "ಇದನ್ನು ಮತ್ತೊಮ್ಮೆ ಪ್ಲೇ ಮಾಡಿ",
+      "bytes": 11299,
+      "seconds": 2.673,
+      "sha256": "561fa2a1e374ec6c5433c57231921d2a3beb65967735653b542cceae92eeffd7"
+    },
+    "nextSentence": {
+      "textHash": "3b55676d57c292d9c267d3c28af1567279c11215633854685c2ef303cfedab86",
+      "spoken": "ಮುಂದಿನ ಭಾಗ",
+      "bytes": 6497,
+      "seconds": 1.466,
+      "sha256": "c39af0948735a05b4e0cc7ed8c3fdd1c1119ba560184cd5e7b461a310c0dcb39"
+    },
+    "previousSentence": {
+      "textHash": "1398af15b920759e548abd3b8f8157dd4914785bcc9cdf7b5ff255bdda8c0630",
+      "spoken": "ಹಿಂದಿನ ಭಾಗ",
+      "bytes": 6693,
+      "seconds": 1.519,
+      "sha256": "17616a9ffe716bc9bc580fe2e76c92625d30f143783bf4fd804813c9ced1bfdd"
+    },
+    "readingPreferences": {
+      "textHash": "19554aac2404e478f2c7757c278fbc2af03655a8a9b15ef1e680aea2762956cd",
+      "spoken": "ಈ ಸಾಧನದಲ್ಲಿ ಓದುವ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ನೆನಪಿಸಿಕೊಳ್ಳಲಾಗುತ್ತದೆ. ನೀವು ಉಳಿಸು ಆಯ್ಕೆ ಮಾಡಿದಾಗ ಮಾತ್ರ ಖಾತೆಯ ವಿವರಗಳನ್ನು ಉಳಿಸಲಾಗುತ್ತದೆ. ಮರುಹೊಂದಿಸಿ ಈ ಓದುವ ಆದ್ಯತೆಗಳನ್ನು ತೆರವುಗೊಳಿಸುತ್ತದೆ.",
+      "bytes": 69671,
+      "seconds": 17.278,
+      "sha256": "2af5b7e1993c11a5d092091f57436fd369f4c6f76212bf77ba52c9d1687160c3"
+    },
+    "stepType": {
+      "textHash": "99c8513ca69687d5c6aef1a4dae124a828842cb2303b4f07ba1a2bacec8293cd",
+      "spoken": "ಖಾತೆ ಪ್ರಕಾರ",
+      "bytes": 6205,
+      "seconds": 1.398,
+      "sha256": "a10cebd9bba582ab767e2eef72079c11108f233b770adbeecf5ba67eca1937dd"
+    },
+    "stepInstitution": {
+      "textHash": "be53f786d6941359c3e1899d7ecb425d316f63700ebc27782e5bc8b3c60ab76f",
+      "spoken": "ಸಂಸ್ಥೆ",
+      "bytes": 5348,
+      "seconds": 1.182,
+      "sha256": "4cd8d4a49ec9f8cf28b56aa73957de4f9019d0f16dc6555021b7379b39e2f565"
+    },
+    "stepContext": {
+      "textHash": "8e77b1bdddc5ca11fe09cd8e3484545f7259e5fe78bd05bc6887f33796d3d847",
+      "spoken": "ಖಾತೆ ವಿವರಗಳು",
+      "bytes": 6880,
+      "seconds": 1.584,
+      "sha256": "08508b2da55d58739036eaf2469be230f6104d8da0bfbd16cf78974749967a73"
+    },
+    "stepNomination": {
+      "textHash": "4647704ee3ca68471e7af6f6c1211a7d436947a3b868336a5361c7eac5c258aa",
+      "spoken": "ನಾಮನಿರ್ದೇಶನ",
+      "bytes": 6787,
+      "seconds": 1.549,
+      "sha256": "d51d5fb61a680b790dcec1a40b600889974e1e2705838f1943a24f9ccb2f1400"
+    },
+    "savedNext": {
+      "textHash": "36d4a2ba5eceb5ecb80552c9757bbff99ecc0aadec518615efe9ad3c055234ff",
+      "spoken": "ನಿಮ್ಮ ಲಾಕ್ ಮಾಡಿದ ಪ್ರತಿ ಸಿದ್ಧವಾಗಿದೆ. ಫೈಲ್ ಮತ್ತು ಪಾಸ್‌ವರ್ಡ್ ಅನ್ನು ಎಲ್ಲಿಯಾದರೂ ಇರಿಸಿಕೊಳ್ಳಿ. ನೀವು ಸಿದ್ಧರಾದಾಗ ನಿಮ್ಮ ಕಾರ್ಯಕ್ಕೆ ಹಿಂತಿರುಗಿ.",
+      "bytes": 50366,
+      "seconds": 12.441,
+      "sha256": "48c70409ba0e0631a6209f5034e0bd9ce1be5408b4842b2a1a2850919682d1b7"
+    },
+    "returnTask": {
+      "textHash": "8ba016cc0d18e6ed360ea37c0fe8a43aecc45ccab84fd71b6b2cbea4c7956d5c",
+      "spoken": "ನನ್ನ ಕಾರ್ಯಕ್ಕೆ ಹಿಂತಿರುಗಿ",
+      "bytes": 9663,
+      "seconds": 2.27,
+      "sha256": "ced95446ba5f2f51b229016e8a931fe86c3ae5612eee140c4e457ab7d8f35f67"
+    },
+    "olderDeviceCopy": {
+      "textHash": "0478ce9ceff620b37f07864c95fdfcee8e4cc8c649eaf0c299bd479ac610b644",
+      "spoken": "ಸಾಧನದ ನಕಲನ್ನು ನವೀಕರಿಸಲಾಗಿಲ್ಲ. ನಿಮ್ಮ ಇತ್ತೀಚಿನ ಬದಲಾವಣೆಗಳಿಗಾಗಿ ಡೌನ್‌ಲೋಡ್ ಮಾಡಿದ ಫೈಲ್ ಅನ್ನು ತೆರೆಯಿರಿ ಅಥವಾ ಆಯ್ಕೆಮಾಡಿದ ಸಾಧನ ಆಯ್ಕೆಯೊಂದಿಗೆ ಮತ್ತೆ ಉಳಿಸಿ.",
+      "bytes": 58916,
+      "seconds": 14.58,
+      "sha256": "7f2a7a7f958017c528155c4e7ff3f7bc600018ddc6dbe0071d36356bee305192"
+    },
+    "haveReady": {
+      "textHash": "65513b96a32abc64daf2665a8cf83cc3f82fc0904b429e56dc359e6e582f70d1",
+      "spoken": "ಇವುಗಳನ್ನು ಸಿದ್ಧವಾಗಿಟ್ಟುಕೊಳ್ಳಿ",
+      "bytes": 11198,
+      "seconds": 2.661,
+      "sha256": "c68251ddf4526ee4e6e78eb042677794fae185cf50cc0cde465baa43118469ab"
+    },
+    "audioLoading": {
+      "textHash": "63b7ec44a8e859544abef54915954380da50a3f602b06a4836cf0ce401330151",
+      "spoken": "ಆಡಿಯೋ ಲೋಡ್ ಆಗುತ್ತಿದೆ...",
+      "bytes": 9377,
+      "seconds": 2.206,
+      "sha256": "1ad6752df3241fe5eff81fb7bafc006dfc31d3ff037ad2cbbc34d78121363b68"
+    },
+    "audioRetry": {
+      "textHash": "a51e1d6deae83033f56efc5bfeb1020da0e10e13143560b694d51915067f7952",
+      "spoken": "ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ",
+      "bytes": 7359,
+      "seconds": 1.697,
+      "sha256": "51b313070171bd22dd7400afcecbdb28a7b552854fd5d8a5b6e4c4600fd4e259"
+    },
+    "audioBlocked": {
+      "textHash": "5c2ad39ef467f116138f00ac97ad2e69ac21324fe906947b9fd0d404432adfd0",
+      "spoken": "ಮುಂದಿನ ಭಾಗವನ್ನು ಪ್ಲೇ ಮಾಡಲು ಕೇಳುವುದನ್ನು ಮುಂದುವರಿಸಿ ಟ್ಯಾಪ್ ಮಾಡಿ.",
+      "bytes": 26177,
+      "seconds": 6.398,
+      "sha256": "65b3a80528fb1db28a7b6dab00616f4167c5d170863c69ad835020f79cec6299"
+    },
+    "audioData": {
+      "textHash": "bad840c914fc8a36baec28d30e5dd6b755cded06aca271b7a24cb694b21104b2",
+      "spoken": "ನೀವು ಕೇಳಿದಾಗ ಮಾತ್ರ ಆಡಿಯೊ ಲೋಡ್ ಆಗುತ್ತದೆ. ಇತ್ತೀಚೆಗೆ ಪ್ಲೇ ಮಾಡಿದ ಸೂಚನೆಗಳು ಬೆಂಬಲಿತ ಬ್ರೌಸರ್‌ಗಳಲ್ಲಿ ಆಫ್‌ಲೈನ್‌ನಲ್ಲಿ ಕಾರ್ಯನಿರ್ವಹಿಸಬಹುದು. ಮೊದಲ ಬಾರಿ ಕೇಳಲು ಇಂಟರ್ನೆಟ್ ಅಗತ್ಯವಿದೆ.",
+      "bytes": 70430,
+      "seconds": 17.457,
+      "sha256": "e8eac89298ca48e0f3382f1d5a263a740b4ff496c338974843af819fd24f6fa6"
+    },
+    "audioDraft": {
+      "textHash": "fa1f568331f933ff0bff270d877f39e01402809bd555673f1bfbc418cccff380",
+      "spoken": "ಇವು ಕಂಪ್ಯೂಟರ್-ರಚಿತ ಧ್ವನಿಗಳು. ಉಚ್ಚಾರಣೆಯನ್ನು ಇನ್ನೂ ಪರಿಶೀಲಿಸಲಾಗುತ್ತಿದೆ. ನೀವು ವ್ಯತ್ಯಾಸವನ್ನು ಕೇಳಿದರೆ ಲಿಖಿತ ಸೂಚನೆಗಳನ್ನು ಅನುಸರಿಸಿ.",
+      "bytes": 56031,
+      "seconds": 13.854,
+      "sha256": "eccb135ecc1440e42420d5bb366806823f55d819dc57f095f72d9ec46d4dd181"
+    },
+    "audioStart": {
+      "textHash": "fefea3219306345fbcf6d05d4fa195f8c2af3e163387d3c7396ef0b03d4b2548",
+      "spoken": "ಕೇಳು",
+      "bytes": 4671,
+      "seconds": 1.022,
+      "sha256": "531c04959edfba99bf43551025a3522fb480e0a889f65ed6284c7b1d8ec36697"
+    },
+    "audioCache": {
+      "textHash": "1463f3850b4ae96963105ec804ad9319d3f3c7097efa0c20777dce905733e6e6",
+      "spoken": "ಇತ್ತೀಚೆಗೆ ಆಡಿಯೋ ಪ್ಲೇ ಆಗಿದೆ",
+      "bytes": 13503,
+      "seconds": 3.22,
+      "sha256": "40ed5431059b3c083a2705db233869ce7c156fa84a71c3620b1bcd4dd8e4bc73"
+    },
+    "clearAudio": {
+      "textHash": "5afb1717c39ea9ecccbc373f8061a3cc1087b1d46fc40a46105270d8a88383db",
+      "spoken": "ಉಳಿಸಿದ ಆಡಿಯೋ ತೆಗೆದುಹಾಕಿ",
+      "bytes": 11199,
+      "seconds": 2.654,
+      "sha256": "6a102dd75719e339be4d4e017c4657b62644dd894715eb2616b04d94e1ae37c8"
+    },
+    "audioCleared": {
+      "textHash": "53c2870f353ee1a5f2ecf20715e3ce31604057c37faff9fb2076cb7b9b856683",
+      "spoken": "ಉಳಿಸಿದ ಆಡಿಯೊವನ್ನು ತೆಗೆದುಹಾಕಲಾಗಿದೆ. ನಿಮ್ಮ ಖಾತೆ ಪಟ್ಟಿ ಬದಲಾಗಿಲ್ಲ.",
+      "bytes": 24545,
+      "seconds": 5.987,
+      "sha256": "4db6c5c9aef12bc7373fcfa200eff322221062f96a1c6b65c73c5c825bfc0a2b"
+    },
+    "audioPrivacy": {
+      "textHash": "8940b58beef6b6b832dc31a3bd54b2c857479de4071b75e7b4d461b059dc8d39",
+      "spoken": "ಮತ್ತೆ ಕೇಳಲು ಸಾರ್ವಜನಿಕ ಸೂಚನೆಗಳನ್ನು ಮಾತ್ರ ಉಳಿಸಲಾಗಿದೆ. ಆಡಿಯೋ ವಿನಂತಿಗಳು ಈ ವೆಬ್‌ಸೈಟ್ ಅನ್ನು ಬಳಸುತ್ತವೆ; ಧ್ವನಿ ಸೇವೆಗೆ ಯಾವುದೇ ನಮೂದುಗಳನ್ನು ಕಳುಹಿಸಲಾಗುವುದಿಲ್ಲ. ಹೋಸ್ಟಿಂಗ್ ಲಾಗ್‌ಗಳು ನಿಮ್ಮ ಐ ಪಿ ವಿಳಾಸ ಮತ್ತು ವಿನಂತಿಸಿದ ಆಡಿಯೊ ಫೈಲ್‌ಗಳನ್ನು ಒಳಗೊಂಡಿರಬಹುದು.",
+      "bytes": 103745,
+      "seconds": 25.792,
+      "sha256": "02ea5ad4ba090b0e96422ef59973fe3a914e6f96bd6e9ae49858a64aec3234f7"
+    }
+  }
+}

@@ -1,0 +1,2540 @@
+{
+  "language": "pa",
+  "revision": "ff17ff86f0db",
+  "model": {
+    "model": "facebook/mms-tts-pan",
+    "revision": "45d7962e8daba724f9ff251ee3198bdb47a5f498",
+    "license": "CC-BY-NC-4.0",
+    "languageCode": "pa",
+    "files": {
+      "config.json": {
+        "sha256": "6ddfc6a127aaacaf66f30a60d2802f1f7fda486ed03b8ba9e2928691c9e6fb73",
+        "bytes": 1641
+      },
+      "tokenizer_config.json": {
+        "sha256": "5a1df0b9eefbea8dd9df6765432a658eb5272b73c0a20209c2d819a8c17a5196",
+        "bytes": 289
+      },
+      "vocab.json": {
+        "sha256": "ba643cb11b99a180ec755ce6b7d7c9338afdd110a94d490f3a5e0898118e11d4",
+        "bytes": 750
+      },
+      "special_tokens_map.json": {
+        "sha256": "dd9acab79d7160e729dffdc3d1bc1eceec8ae0e3df6271abe6bfe29e232f1e1b",
+        "bytes": 49
+      },
+      "model.safetensors": {
+        "sha256": "071db9963578edff7be6b660e9fb69bb1f2aa3596d77d632b76a7f3353373977",
+        "bytes": 145243640
+      },
+      "README.md": {
+        "sha256": "eaac372628f760230d2eee2632fbadbbe7e9dfbbbef7e538fc6c74fbf971230a",
+        "bytes": 4005
+      }
+    }
+  },
+  "license": "CC-BY-NC-4.0",
+  "fluentReview": false,
+  "scope": "complete",
+  "entries": {
+    "nomineeYes": {
+      "textHash": "5e8ae0dd3b38683c859991d8ece1c9ae6eb3cc14daba764c0cbb5cad75a0227c",
+      "spoken": "ਹਾਂ",
+      "bytes": 3615,
+      "seconds": 0.745,
+      "sha256": "45c641f7bccc87e8c102ea1c5dce89ee0e2e74ee4414c38e69a11ba5b63573b0"
+    },
+    "nomineeNo": {
+      "textHash": "33a565b2daabc4913e5c2879e6a80b594230e844338dba5321ffa549d12414db",
+      "spoken": "ਨਹੀਂ",
+      "bytes": 3998,
+      "seconds": 0.858,
+      "sha256": "5a3aa7daf8f050e3592bac0ba07dae858f10a2289242ffd0cdc983555eb28860"
+    },
+    "nomineeExplain": {
+      "textHash": "5be94723c1c6acb3bd74c33f9a578ad7bcadc5d17ef255a46e7d43fd1632effd",
+      "spoken": "ਨਾਮਜ਼ਦ ਵਿਅਕਤੀ ਉਹ ਹੈ ਜਿਸ ਤੋਂ ਖਾਤਾਧਾਰਕ ਦੀ ਮੌਤ ਮਗਰੋਂ ਸੰਸਥਾ ਦਾਅਵਾ ਲੈ ਸਕਦੀ ਹੈ। ਨਾਮਜ਼ਦਗੀ ਕਾਰਵਾਈ ਵਿੱਚ ਮਦਦ ਕਰਦੀ ਹੈ; ਇਹ ਕਾਨੂੰਨੀ ਵਾਰਸ ਤੈਅ ਨਹੀਂ ਕਰਦੀ। ਜਾਂਚ ਨਾ ਕੀਤੀ ਹੋਵੇ ਤਾਂ “ਪੱਕਾ ਨਹੀਂ” ਚੁਣੋ।",
+      "bytes": 60259,
+      "seconds": 14.912,
+      "sha256": "42a820fc9e995576ed9971857f8230d8dd05cc06526a193661adfdb7dba412a5"
+    },
+    "day": {
+      "textHash": "552b97a9f1c231a8ed45bea2b144331a5f013435f8edadad776af0f0d020d5c0",
+      "spoken": "ਦਿਨ",
+      "bytes": 3416,
+      "seconds": 0.702,
+      "sha256": "ae97b154e02182c165019495bedf37206de7f7ed593830c6039d7cf40f463466"
+    },
+    "month": {
+      "textHash": "e24130e89afca51a7bf045fc272e76ce083d3e96b2c3323f829867b2b8302b54",
+      "spoken": "ਮਹੀਨਾ",
+      "bytes": 4282,
+      "seconds": 0.914,
+      "sha256": "b4c34bed75dbe69cc0b22aafe199b27f5d8da8918aead704435e592195186c09"
+    },
+    "year": {
+      "textHash": "e80576c57d1abd01a245def64bd9238daaf0a6a4319b7c9f50acf93fa1c5cf25",
+      "spoken": "ਸਾਲ",
+      "bytes": 3609,
+      "seconds": 0.758,
+      "sha256": "3c40780b616749dceb7f9189789f58ee1f6b722063a25c4d1e21e92402f720e2"
+    },
+    "dateExample": {
+      "textHash": "88bd3820bfac99953e37de92e778cd6c201516514f37523f1b85b0086f26338a",
+      "spoken": "ਉਦਾਹਰਨ: ਚੌਦਾਂ / ਸਿਫ਼ਰ ਨੌਂ / ਦੋ ਹਜ਼ਾਰ ਛੱਬੀ ਦਾ ਅਰਥ ਚੌਦਾਂ ਸਤੰਬਰ ਦੋ ਹਜ਼ਾਰ ਛੱਬੀ ਹੈ। ਆਪਣੇ ਦਸਤਾਵੇਜ਼ ਦੀ ਮਿਤੀ ਵਰਤੋ।",
+      "bytes": 39232,
+      "seconds": 9.653,
+      "sha256": "74071b27d40441192d7df14b425fdfddfbd652ef9145a6740972b10866e96d74"
+    },
+    "submissionExample": {
+      "textHash": "d7bc90a81424579b053c2353087e1a985a074e2f1444de1564d34ad4f6bf06b2",
+      "spoken": "ਬੇਨਤੀ ਭੇਜਣ ਦਾ ਦਿਨ ਵਰਤੋ। ਉਦਾਹਰਨ: ਚੌਦਾਂ / ਸਿਫ਼ਰ ਨੌਂ / ਦੋ ਹਜ਼ਾਰ ਛੱਬੀ।",
+      "bytes": 28870,
+      "seconds": 7.077,
+      "sha256": "3647c003558c822e2b224a8c5676ec8b7fd4cb97af19f479e3b2db20db9da4c9"
+    },
+    "statementExample": {
+      "textHash": "456b26eec1980c84ed61ceee8c7d7ada1c38e49d0346334847f288f74e372aaa",
+      "spoken": "ਨਾਮਜ਼ਦ ਵਿਅਕਤੀਆਂ ਦੇ ਨਾਂ ਜਾਂ “ਨਾਮਜ਼ਦਗੀ: ਹਾਂ” ਦਿਖਾਉਂਦੀ ਸਟੇਟਮੈਂਟ। ਸਿਰਫ਼ ਬਕਾਇਆ ਰਕਮ ਕਾਫ਼ੀ ਨਹੀਂ।",
+      "bytes": 27909,
+      "seconds": 6.82,
+      "sha256": "57c99bcca0a1e0029745a892ca33f5c4f9e2965948cbf8649d1d33d8d0a87a6d"
+    },
+    "registrationExample": {
+      "textHash": "32a0e1c2e614387ec76f6f0f1feb937dc23ae16b12010470c4bbc95c20960ea3",
+      "spoken": "ਬੈਂਕ, ਬ੍ਰੋਕਰ ਜਾਂ ਫੰਡ ਦਾ ਪੱਤਰ/ਈਮੇਲ ਜੋ ਇਸ ਖਾਤੇ ਵਿੱਚ ਨਾਮਜ਼ਦਗੀ ਦਰਜ ਹੋਣ ਦੀ ਪੁਸ਼ਟੀ ਕਰੇ। ਬੇਨਤੀ ਦੀ ਰਸੀਦ ਵੱਖਰੀ ਹੈ।",
+      "bytes": 40392,
+      "seconds": 9.95,
+      "sha256": "222484245223d1d10b184b760614729e7027f856e7aace4c0170ebf6a0d716b6"
+    },
+    "requiredInstitution": {
+      "textHash": "5eb39304df34d5294d3d43f0cfb32fa8d0a1e4f42e43da3b35c2904ecd63bf16",
+      "spoken": "ਆਪਣੇ ਦਸਤਾਵੇਜ਼ ਉੱਤੇ ਬੈਂਕ, ਬ੍ਰੋਕਰ ਜਾਂ ਫੰਡ ਦਾ ਨਾਂ ਲਿਖੋ।",
+      "bytes": 21288,
+      "seconds": 5.176,
+      "sha256": "fbfcd9b7e3746785cb2e7e52affeeb42449250b7348112b76418df3c4a5f9935"
+    },
+    "requiredRecord": {
+      "textHash": "07a46a4dea7c7ab9321d18e6e5b322d5ea536ff8e84bfc510c91cc7b034a375f",
+      "spoken": "ਜਾਂਚੇ ਦਸਤਾਵੇਜ਼ ਦੀ ਕਿਸਮ ਚੁਣੋ।",
+      "bytes": 11011,
+      "seconds": 2.603,
+      "sha256": "993b6c93ed81cc74faef2cd3f83889a9be0a91c595110de5cf8ad96276f7ad37"
+    },
+    "requiredCheck": {
+      "textHash": "4c9c1e974e7b767dadcf968dc783b013bdcc2a959ef67738a1993602b7b0ed19",
+      "spoken": "ਪੁਸ਼ਟੀ ਕਰੋ ਕਿ ਦਸਤਾਵੇਜ਼ ਸੱਚਮੁੱਚ ਇਸ ਖਾਤੇ ਵਿੱਚ ਨਾਮਜ਼ਦ ਵਿਅਕਤੀ ਦਰਜ ਹੋਣ ਨੂੰ ਦਿਖਾਉਂਦਾ ਹੈ।",
+      "bytes": 27138,
+      "seconds": 6.632,
+      "sha256": "1217db4131922c62a22617165901a73bb7b3aea10b33000026dc6a0c3bb01d47"
+    },
+    "institutionExample": {
+      "textHash": "330a67ebb20955fbe3315e1c70e0a6d73d118defa7e1a616ab3e875e145b2e5f",
+      "spoken": "ਉਦਾਹਰਨ: ਐਚ ਡੀ ਐਫ ਸੀ ਬੈਂਕ ਜਾਂ ਤੁਹਾਡੀ ਸਟੇਟਮੈਂਟ ਉੱਤੇ ਨਾਂ।",
+      "bytes": 21287,
+      "seconds": 5.164,
+      "sha256": "0de199dffa82bc71d497dd4acf21dffbf8f6fb1bdc5ebe12bf77fadd6eda5cd8"
+    },
+    "nicknameExample": {
+      "textHash": "e718960613c65d62ee46a76844b74d3356c75b065fda53e4fb0c0fb92f09b8eb",
+      "spoken": "ਉਦਾਹਰਨ: ਪਰਿਵਾਰ ਦੀ ਬੱਚਤ।",
+      "bytes": 10820,
+      "seconds": 2.563,
+      "sha256": "7c762ec46411d66f02583c23989bf1612b5a490556ab4bbccb974d98e4878628"
+    },
+    "ownerExample": {
+      "textHash": "77f3eef147d12ec075cc236c4ee7067dc95dc0bb59205cd89cfd9f7e32a3409e",
+      "spoken": "ਉਦਾਹਰਨ: ਮੈਂ ਜਾਂ ਮਾਤਾ/ਪਿਤਾ।",
+      "bytes": 13505,
+      "seconds": 3.22,
+      "sha256": "f1f21dbfb2273de7f6369eb59170d7552da76d4682f7b220decef857876c8a7d"
+    },
+    "nomineeNoteExample": {
+      "textHash": "8b0466f4d09c93af190e30740dcb9718b020d38722b4978af090d0027ab976b2",
+      "spoken": "ਉਦਾਹਰਨ: ਜੀਵਨ ਸਾਥੀ / ਅਨੂ। ਸਿਰਫ਼ ਛੋਟਾ ਨਾਂ ਜਾਂ ਰਿਸ਼ਤਾ।",
+      "bytes": 21479,
+      "seconds": 5.224,
+      "sha256": "ec3e9064931f52b02e722f76dae249ee06204b0ec0e6722ae3424792c30cfb90"
+    },
+    "last4Example": {
+      "textHash": "a72d06adbd8f5561c3108caa451f562ebc8b5ffe869c008775b5a6dcdbf402fa",
+      "spoken": "ਉਦਾਹਰਨ: ਇੱਕ ਦੋ ਤਿੰਨ ਚਾਰ। ਸਿਰਫ਼ ਆਖ਼ਰੀ ਚਾਰ ਅੰਕ।",
+      "bytes": 20033,
+      "seconds": 4.862,
+      "sha256": "5642ee6967fe3c569d2370ffdcba7fa8af8d3fd568d5428c8f49f639f0d3efd3"
+    },
+    "recordNoteExample": {
+      "textHash": "2d865e5f248934f8c829083943426ebed92fce851f1612bcd12b3d4d70fd2b6c",
+      "spoken": "ਚੋਣਵਾਂ: ਰਸੀਦ ਜਾਂ ਦਸਤਾਵੇਜ਼ ਲੱਭਣ ਲਈ ਛੋਟੀ ਟਿੱਪਣੀ।",
+      "bytes": 18790,
+      "seconds": 4.543,
+      "sha256": "6bd3bf43f275524656c72dc4ca42b06200230014de99f1326d2f162c170fc080"
+    },
+    "bankLocation": {
+      "textHash": "597925cc3c68b40ed6f638a0c6ff21f07a35308c78342f53ece7d68ea8163915",
+      "spoken": "ਪਾਸਬੁੱਕ, ਸਟੇਟਮੈਂਟ ਜਾਂ ਜਮ੍ਹਾਂ ਰਸੀਦ ਉੱਤੇ ਬੈਂਕ ਦਾ ਨਾਂ ਵਰਤੋ।",
+      "bytes": 19457,
+      "seconds": 4.716,
+      "sha256": "381bd01c2623ae3de1bec6b8d062c7a92a9cf2f5d7ec585a82747f3ec21f3a19"
+    },
+    "dematLocation": {
+      "textHash": "b617ae964c581497f464dbd5a151615d500809c7bb676e519243f1b48cec2e33",
+      "spoken": "ਡੀਮੈਟ ਸਟੇਟਮੈਂਟ ਉੱਤੇ ਬ੍ਰੋਕਰ ਜਾਂ ਬੈਂਕ ਵਰਤੋ, ਉਸ ਕੰਪਨੀ ਦਾ ਨਾਂ ਨਹੀਂ ਜਿਸ ਦੇ ਸ਼ੇਅਰ ਤੁਹਾਡੇ ਕੋਲ ਹਨ।",
+      "bytes": 28770,
+      "seconds": 7.035,
+      "sha256": "441741567aeb6c8ec0cdbe08ef2181c504263ca434f9dcdc66783eab65041b6e"
+    },
+    "mfLocation": {
+      "textHash": "83bb44fc743ebf595ae4946ce44ce310c17798b200eab70102115a911b465af6",
+      "spoken": "ਫੋਲੀਓ ਸਟੇਟਮੈਂਟ ਉੱਤੇ ਮਿਊਚੁਅਲ ਫੰਡ ਵਰਤੋ। ਉਸ ਦਾ ਰਜਿਸਟਰਾਰ ਮਦਦ ਕਰ ਸਕਦਾ ਹੈ; ਡੀਮੈਟ ਵਿੱਚ ਯੂਨਿਟਾਂ ਲਈ ਡੀਮੈਟ ਦੀ ਕਾਰਵਾਈ ਵਰਤੋ।",
+      "bytes": 40383,
+      "seconds": 9.938,
+      "sha256": "2f2392e4aec649bbda91e3ae32e2f58901082a2b5de35ae7f81746656e294881"
+    },
+    "checkLocation": {
+      "textHash": "23e8ab1eb91a56d992532492323533c51cbaeb63dc0eb03c34092d807ac0e2d4",
+      "spoken": "ਇਸ ਖਾਤੇ ਦੇ ਵੇਰਵਿਆਂ ਜਾਂ ਨਵੀਨਤਮ ਸਟੇਟਮੈਂਟ ਵਿੱਚ ਨਾਮਜ਼ਦ ਵਿਅਕਤੀ ਦਾ ਨਾਂ ਜਾਂ ਨਾਮਜ਼ਦਗੀ ਦੀ ਸਥਿਤੀ ਲੱਭੋ।",
+      "bytes": 30882,
+      "seconds": 7.576,
+      "sha256": "1c31838c84f30d742904fcd39d1bd4a56282d0702b6f093009ac9707ff715f58"
+    },
+    "askInstitution": {
+      "textHash": "7080171a84131c319621efa3c437efadc6308dc9dbed72b4606860f743a8d8e5",
+      "spoken": "ਨਾ ਦਿਖੇ ਤਾਂ ਸੰਸਥਾ ਨੂੰ ਪੁੱਛੋ: “ਕੀ ਇਸ ਖਾਤੇ ਵਿੱਚ ਨਾਮਜ਼ਦਗੀ ਦਰਜ ਹੈ? ਕੀ ਤੁਸੀਂ ਲਿਖਤੀ ਪੁਸ਼ਟੀ ਦੇ ਸਕਦੇ ਹੋ?”",
+      "bytes": 32515,
+      "seconds": 7.986,
+      "sha256": "28ef3ca3263b4cd078865a8484f7f929178339c7de0c3e052f8ad7fe4aa23972"
+    },
+    "keepUnknown": {
+      "textHash": "a579cc617a73b4e802c8c2e5661b0167d41f18eec7f92f62cdfe27d12f63ed8f",
+      "spoken": "ਜਾਂਚ ਕਰਨ ਤੱਕ “ਪੱਕਾ ਨਹੀਂ” ਰੱਖੋ। ਸੰਸਥਾ ਨਾਮਜ਼ਦ ਵਿਅਕਤੀ ਨਾ ਹੋਣ ਦੀ ਪੁਸ਼ਟੀ ਕਰੇ ਤਾਂ “ਸ਼ਾਮਲ ਨਹੀਂ ਕੀਤਾ” ਚੁਣੋ।",
+      "bytes": 31360,
+      "seconds": 7.685,
+      "sha256": "8a82bcfa6cc32030ae3cf1a9a0055e5feffca55f15b0d746a3bad7d871a8b6b7"
+    },
+    "submitKeep": {
+      "textHash": "c7508d10463ace71d4e11695266aeda2c6998fc627f954f7724ddadea00e5a10",
+      "spoken": "ਸੰਸਥਾ ਦੇ ਅਧਿਕਾਰਤ ਮਾਧਿਅਮ ਰਾਹੀਂ ਭੇਜੋ। ਮਿਤੀ ਵਾਲੀ ਪ੍ਰਾਪਤੀ ਪੁਸ਼ਟੀ ਜਾਂ ਰਸੀਦ ਰੱਖੋ।",
+      "bytes": 28383,
+      "seconds": 6.949,
+      "sha256": "e6808127cd72df1d70f7b985fba5884874ca46564dddc6ad90cf5ee326899e6a"
+    },
+    "confirmRegistration": {
+      "textHash": "be58f2f8597c2d550ad1e093c408efe9e9a907c43e8a8ed3c3336c2c1764ba7b",
+      "spoken": "ਇਸ ਖਾਤੇ ਦੀ ਪਛਾਣ ਅਤੇ ਨਾਮਜ਼ਦਗੀ ਦਰਜ ਹੋਣ ਨੂੰ ਦਿਖਾਉਂਦੀ ਸਟੇਟਮੈਂਟ ਜਾਂ ਲਿਖਤੀ ਪੁਸ਼ਟੀ ਜਾਂਚੋ। ਸਿਰਫ਼ ਬੇਨਤੀ ਦੀ ਰਸੀਦ ਦਰਜ ਹੋਣ ਦੀ ਪੁਸ਼ਟੀ ਨਹੀਂ ਕਰਦੀ।",
+      "bytes": 45960,
+      "seconds": 11.339,
+      "sha256": "98f8d55dd195654bd4c64e444c30facdefe0991a2f950afe1c631f1ec6f77c02"
+    },
+    "followRequest": {
+      "textHash": "3e43fcf8ed3e388c8df1ece0cf2e65b435cda2c17300f9c391bf7264407470e8",
+      "spoken": "ਬੇਨਤੀ ਦੀ ਮਿਤੀ ਅਤੇ ਰਸੀਦ ਦਾ ਹਵਾਲਾ ਦੇ ਕੇ ਸੰਸਥਾ ਨੂੰ ਪੁੱਛੋ ਕਿ ਨਾਮਜ਼ਦਗੀ ਦਰਜ ਹੋਈ ਜਾਂ ਨਹੀਂ।",
+      "bytes": 34050,
+      "seconds": 8.371,
+      "sha256": "ea20892bbb12502184493d390a3fa2ae76882d141c1de9a80c613885390195e4"
+    },
+    "waitRegistration": {
+      "textHash": "5715f514b118ffbe304900a45a6134589d0ae21e7c026caa661d8313f03aff43",
+      "spoken": "ਦਰਜ ਹੋਣ ਦਾ ਦਸਤਾਵੇਜ਼ ਮਿਲਣ ਤੱਕ ਪੁਸ਼ਟੀ ਦੀ ਉਡੀਕ ਵਿੱਚ ਰੱਖੋ।",
+      "bytes": 17733,
+      "seconds": 4.274,
+      "sha256": "bb66c3437f72fbaa7b4241e494555c1282709451e2febf9ca9fbcbff6fb69d2c"
+    },
+    "hdfcPath": {
+      "textHash": "58f046935b189ef70329bf8299d1631875c35852872b6c9139cf71ae03a05c42",
+      "spoken": "ਨੈੱਟਬੈਂਕਿੰਗ: ਖਾਤੇ → ਤੁਹਾਡਾ ਖਾਤਾ → ਖਾਤੇ ਦੇ ਵੇਰਵੇ → ਨਾਮਜ਼ਦ ਵਿਅਕਤੀ/ਧਾਰਕ ਦੇ ਵੇਰਵੇ।",
+      "bytes": 32029,
+      "seconds": 7.866,
+      "sha256": "9997ce72027e6665e676b4be03d98c4e80b613e0a96237c0edea97df75be0856"
+    },
+    "hdfcHolding": {
+      "textHash": "631891e203a7803da12cc7ba46960e4ac0564cad846a9f7e58c814bf8feb1fb8",
+      "spoken": "ਇਕੱਲਾ ਧਾਰਕ: ਉੱਥੇ ਸ਼ਾਮਲ/ਬਦਲੋ। ਸਾਂਝੇ ਧਾਰਕਾਂ ਲਈ ਬੈਂਕ ਇਕੱਠੇ ਸ਼ਾਖਾ ਜਾਣ ਦੀ ਸਲਾਹ ਦਿੰਦਾ ਹੈ।",
+      "bytes": 30784,
+      "seconds": 7.546,
+      "sha256": "fe1e420567e83035d537edfff4f643cac393a77ddf0bdb08be85d768ea6cc678"
+    },
+    "hdfcSource": {
+      "textHash": "1bd93774392979d5f4c5446f75bdf9967561b2b9f9453c3d923cce917b272046",
+      "spoken": "ਐਚ ਡੀ ਐਫ ਸੀ ਬੈਂਕ ਦੀਆਂ ਹਦਾਇਤਾਂ",
+      "bytes": 12927,
+      "seconds": 3.074,
+      "sha256": "4d8a7ab522e378964015a6789572ba5d0bc90eae3413ef8c168307590028301b"
+    },
+    "whatToDo": {
+      "textHash": "61a3f9c257920ef7c8dc84f036bd437afbdf6d1e43a00342c050574634f940e2",
+      "spoken": "ਕੀ ਕਰਨਾ ਹੈ",
+      "bytes": 5725,
+      "seconds": 1.275,
+      "sha256": "184ede23f76c9c368989884d019721b2ca7f554d5f29f802f8b344db6d59baed"
+    },
+    "home": {
+      "textHash": "ea1d61ec331b6a4797448b0dfb4515b08e65988897d1035002999be45b3b74b9",
+      "spoken": "ਮੁੱਖ ਪੰਨਾ",
+      "bytes": 5529,
+      "seconds": 1.229,
+      "sha256": "3cd79b3b238ab3d66814415066c77beacb53fc8ea9946869391c68c66352ccf7"
+    },
+    "continue": {
+      "textHash": "26b856e7a13d11a6839f5f70985079b22b73fe31430a28b0f78fca17ee2ed9ab",
+      "spoken": "ਜਾਰੀ ਰੱਖੋ",
+      "bytes": 5821,
+      "seconds": 1.304,
+      "sha256": "9965088e1d9a73529b61d8f4474a937e47b8d37eba8338827d2f09b1b062d2ad"
+    },
+    "unfinished": {
+      "textHash": "03ad169f3b933c3fa05896eb4726629926fa09b849dc9a7e3ed111b9f5caa55d",
+      "spoken": "ਅਧੂਰਾ ਖਾਤਾ ਜਾਰੀ ਰੱਖੋ",
+      "bytes": 8511,
+      "seconds": 1.969,
+      "sha256": "b1cda53906e7304086b39987031130fb79ce472cca4b8918f8bc50f2b8d6015b"
+    },
+    "step": {
+      "textHash": "6d876e2d6cbb9f240c3c48c40b6516386e9cb9066f9ef4913e3a172b1675ab20",
+      "spoken": "ਕਦਮ",
+      "bytes": 3897,
+      "seconds": 0.837,
+      "sha256": "2e0668f463ccb31c307e42abb4863c75854411e3a2785a9bb5ac520ca9cff867"
+    },
+    "of": {
+      "textHash": "67fcdd2beaf15ec3fcf9100c058afaac2b775ea1eb60712eeabd44f14f32baea",
+      "spoken": "ਵਿੱਚੋਂ",
+      "bytes": 4567,
+      "seconds": 0.986,
+      "sha256": "be3a3166c83814fc3e7a818fd14742b833c824e07ab5bb0dd7f982d05501969a"
+    },
+    "homeTitle": {
+      "textHash": "9a91c6e13dc57e4abc753de9ca04cff46511de3c19c47d5d7518402e20aa3f72",
+      "spoken": "ਆਪਣੇ ਪਰਿਵਾਰ ਦੇ ਖਾਤੇ ਲੱਭਣੇ ਸੌਖੇ ਬਣਾਓ।",
+      "bytes": 12062,
+      "seconds": 2.859,
+      "sha256": "d935a41279d71e4a217735de595e6cc5507c756d5174e1aa3eb0c1913312b7be"
+    },
+    "homeIntro": {
+      "textHash": "86b5089d97d0c69514f80a6390d042329b827d49b331225bb4610334a59cde23",
+      "spoken": "ਜਾਂਚੋ ਕਿ ਨਾਮਜ਼ਦ ਕੌਣ ਹੈ। ਜੋ ਕਮੀ ਹੈ ਉਹ ਪੂਰੀ ਕਰੋ। ਪਰਿਵਾਰ ਲਈ ਸਪਸ਼ਟ ਰਿਕਾਰਡ ਛੱਡੋ।",
+      "bytes": 28862,
+      "seconds": 7.068,
+      "sha256": "85880d4d915e20b63379449c4883cb2a396aed017ce7ec521bddaf90ce4097d3"
+    },
+    "typeQuestion": {
+      "textHash": "db7e63189eb2ea8d08ba9416afed18a32dfc2d8b9c6013e235549f1ab9265386",
+      "spoken": "ਇਹ ਕਿਹੜੀ ਕਿਸਮ ਦਾ ਖਾਤਾ ਹੈ?",
+      "bytes": 9089,
+      "seconds": 2.12,
+      "sha256": "94af7ff9b2bad83239a0efee7a47e518f355b79b9e6e8dabc1a5637303815f24"
+    },
+    "institutionQuestion": {
+      "textHash": "75fe8de2478d4c235ae48c7af1b5f718bec13d7e6f8888387728a76345ad2216",
+      "spoken": "ਖਾਤਾ ਕਿਸ ਸੰਸਥਾ ਵਿੱਚ ਹੈ?",
+      "bytes": 8520,
+      "seconds": 1.979,
+      "sha256": "ddc51c13d5e3a3c83d5714a927ebb4a62fc7e5b797713cf538459dc42ec9ca95"
+    },
+    "dematDescription": {
+      "textHash": "441515d0f3cf7fec5db8f68ddc20dd18b7707c08162f2cee25960061741a6c9a",
+      "spoken": "ਬ੍ਰੋਕਰ ਜਾਂ ਬੈਂਕ ਕੋਲ ਰੱਖੇ ਸ਼ੇਅਰ",
+      "bytes": 15621,
+      "seconds": 3.765,
+      "sha256": "02a8862f94d3fdd19cf0b88fdbb425a45f7f60c1ac35990cbd49bfcab817ee71"
+    },
+    "bankDescription": {
+      "textHash": "31de214c5231d06ff0e882a7d9644e866644f532397392db5b26345e6590e433",
+      "spoken": "ਬੈਂਕ ਵਿੱਚ ਬੱਚਤ ਜਾਂ ਜਮ੍ਹਾਂ ਰਕਮ",
+      "bytes": 12260,
+      "seconds": 2.914,
+      "sha256": "f18903bacde8ece0c73a03fd31bcf4a2d3d4c80ba9a21e101d329505f13068dd"
+    },
+    "mfDescription": {
+      "textHash": "ac4df1f97ed45762e5340cd2707709a1d357504a84a7c22b8dce84063e9f9ee8",
+      "spoken": "ਮਿਊਚੁਅਲ ਫੰਡ ਵਿੱਚ ਫੋਲੀਓ",
+      "bytes": 9282,
+      "seconds": 2.175,
+      "sha256": "51b1b91c245b6aef48bbac2112de41dd1c34e47724a422be7a4f23e969964390"
+    },
+    "nomineeNote": {
+      "textHash": "15644c2130583775a3d184d27f7ada1d8395483dae7e32703c1d5389aee77f05",
+      "spoken": "ਨਾਮਜ਼ਦ ਵਿਅਕਤੀ ਦਾ ਛੋਟਾ ਨਾਂ ਜਾਂ ਰਿਸ਼ਤਾ (ਚੋਣਵਾਂ)",
+      "bytes": 16000,
+      "seconds": 3.859,
+      "sha256": "a9f7a7e9cdcfd5a20ffe3d0716e73ec28f46991c72eec280ecda768f764888d8"
+    },
+    "nominees": {
+      "textHash": "85cc1c31c28d7ea5cbc45f005a55a85c98a1d04ccd5ae72163e02710fee7cee2",
+      "spoken": "ਨਾਮਜ਼ਦ ਵਿਅਕਤੀਆਂ ਦੀਆਂ ਟਿੱਪਣੀਆਂ",
+      "bytes": 10525,
+      "seconds": 2.479,
+      "sha256": "9d03e5f98e6627a6dceedaf2ac332893383521a18063996a3abbac19fb82f542"
+    },
+    "missingGuide": {
+      "textHash": "0a4247359da8f37930ddd90cf49a5f0c40c5c03295d635d7b0e0a4ae13d897ce",
+      "spoken": "ਸੰਸਥਾ ਦਾ ਨਾਮਜ਼ਦਗੀ ਵਿਕਲਪ ਵਰਤੋ ਜਾਂ ਮੌਜੂਦਾ ਫਾਰਮ ਮੰਗੋ।",
+      "bytes": 18497,
+      "seconds": 4.483,
+      "sha256": "cc397fef469dd9201f4e620b1e27fa2d0f0a4c953df435c13d1bd1cb78fc8f08"
+    },
+    "title": {
+      "textHash": "947695b92ff3f79253f931793cde8a143709c072969807c8666d3364303e4e53",
+      "spoken": "ਤੁਹਾਡੇ ਪਰਿਵਾਰ ਦੇ ਖਾਤੇ",
+      "bytes": 8506,
+      "seconds": 1.969,
+      "sha256": "7af8350036f5625e9feccc514b7cb2da4f2a570cb264fac239685b05ebb314bf"
+    },
+    "intro": {
+      "textHash": "61b7ff30c436ded149206e55833a82f741fb0f21c4cd94b8047e128fb3d57538",
+      "spoken": "ਨਾਮਜ਼ਦ ਵਿਅਕਤੀਆਂ ਦਾ ਹਿਸਾਬ ਰੱਖੋ। ਜੋ ਕਮੀ ਹੈ ਉਹ ਪੂਰੀ ਕਰੋ।",
+      "bytes": 18778,
+      "seconds": 4.545,
+      "sha256": "2d1bad467466bbaffd2128045f30b633ec408a53ba7ff002b1e8d6eab920b555"
+    },
+    "add": {
+      "textHash": "e7d1acffc6e542dedb014ef21436016c8bf60852278133ffb722e9887629b4a3",
+      "spoken": "ਖਾਤਾ ਸ਼ਾਮਲ ਕਰੋ",
+      "bytes": 6584,
+      "seconds": 1.505,
+      "sha256": "7e354bd9479a214e0e1df2aad555cb959e9ae1fc785043bb45939c2a81609a6c"
+    },
+    "edit": {
+      "textHash": "5d8969b6c2a0cc54dfd389916481ae40a1ce20c212a74a1556a6e03d6bf5a2c3",
+      "spoken": "ਖਾਤਾ ਸੋਧੋ",
+      "bytes": 5721,
+      "seconds": 1.279,
+      "sha256": "bb248f553d240d11288104df0f604f7b8fc6f54ab8358c502172de24954e4813"
+    },
+    "emptyTitle": {
+      "textHash": "3cfac5c81c3dcb0f175613e7d7f4f04056755b060fcda63162432faf8c16bbb0",
+      "spoken": "ਇੱਕ ਖਾਤੇ ਤੋਂ ਸ਼ੁਰੂ ਕਰੋ",
+      "bytes": 7359,
+      "seconds": 1.698,
+      "sha256": "39f8a6ab5a5121687d80e7d2e3738ba0e41f3da3def12bc3db134acbb439c283"
+    },
+    "emptyIntro": {
+      "textHash": "afa1c37a84a05e07843e2cd1e3bd8746e5f87b97aafe2af7d84dff16d901f23c",
+      "spoken": "ਡੀਮੈਟ, ਬੈਂਕ ਜਾਂ ਮਿਊਚੁਅਲ ਫੰਡ। ਇੱਕ ਸਮੇਂ ਇੱਕ ਖਾਤੇ ਵਿੱਚ ਨਾਮਜ਼ਦ ਵਿਅਕਤੀ ਜਾਂਚੋ।",
+      "bytes": 25023,
+      "seconds": 6.107,
+      "sha256": "55dc08caf6976d751b13fa392989362401383ae0c2772dd3cc52f1d302aecefd"
+    },
+    "example": {
+      "textHash": "147d83b6b57017ecf2f8e77c527db08dcd5a1ae82acf77ec1796793b4be44927",
+      "spoken": "ਉਦਾਹਰਨ ਵੇਖੋ",
+      "bytes": 6492,
+      "seconds": 1.468,
+      "sha256": "8bd1e84a0480256877114e29af765a511ab46579e4a256fcdad17007b66d8ff6"
+    },
+    "sample": {
+      "textHash": "2b849e7fc568665b89bda70a890dec91f19fa89f93679849a66d4025b5668be5",
+      "spoken": "ਉਦਾਹਰਨ ਪਰਿਵਾਰ · ਕਾਲਪਨਿਕ ਖਾਤੇ",
+      "bytes": 10811,
+      "seconds": 2.562,
+      "sha256": "d10cb2a5420a3d625d52528e372aea4d486436b1ffe41d0d51bf1c9dab9ba425"
+    },
+    "resume": {
+      "textHash": "6dd748008981430161de70d22f4e36f1074070edb56e24c266ea8ccda8284b98",
+      "spoken": "ਸੰਭਾਲੀ ਸੂਚੀ ਖੋਲ੍ਹੋ",
+      "bytes": 7547,
+      "seconds": 1.749,
+      "sha256": "27f0cd48fd75d4a727cea31c651648a13f31771f4666e28b4c997ab7db9e55d4"
+    },
+    "accounts": {
+      "textHash": "319a101bb0db68b6e347f7768599e55ea8d1260691b9cce9645f6db21bc641e2",
+      "spoken": "ਖਾਤੇ",
+      "bytes": 4285,
+      "seconds": 0.917,
+      "sha256": "6ac8bf10352b807097575ab2cea31cb7498d7a95ad52bbd227f53a6a37f44999"
+    },
+    "needAction": {
+      "textHash": "ce05f7a9480c78f7446bcff0fb33a22c32c4537b52d1905b4c239f0502f35955",
+      "spoken": "ਧਿਆਨ ਦੀ ਲੋੜ ਹੈ",
+      "bytes": 6495,
+      "seconds": 1.485,
+      "sha256": "37f3ccdf1be3a139db7b8d7dc386aabe70a0d0b3cb130fc3da9b929df36bac4f"
+    },
+    "next": {
+      "textHash": "b18bce97b3bac3650360708b7bc7ffb1f08f087cda2d3af285575d605428c6cd",
+      "spoken": "ਤੁਹਾਡਾ ਅਗਲਾ ਕਦਮ",
+      "bytes": 7065,
+      "seconds": 1.619,
+      "sha256": "7c9bf35c704fb0cfd4fa5b56a456c84115fe9ab7010ec736e78f749b36527ee2"
+    },
+    "allTypes": {
+      "textHash": "8d11da0a7ab28f7cefeb0d813740f8595edb7b712273b556238d7a4cc34d5cf3",
+      "spoken": "ਸਾਰੇ ਖਾਤੇ",
+      "bytes": 5917,
+      "seconds": 1.322,
+      "sha256": "4506b9febe8cb44d9edd59204a9568fdeb30a310afddf6340f2a11e4dd1e8de9"
+    },
+    "allClear": {
+      "textHash": "9afb8c0782cf8127ca76a8c19d4d4feff2792888fba0ed91bbeec800ae4141c4",
+      "spoken": "ਇਹ ਰਿਕਾਰਡ ਅੱਪਡੇਟ ਰੱਖੋ",
+      "bytes": 8701,
+      "seconds": 2.025,
+      "sha256": "86e257a8e065664828dc3b842a7ebc433d7afc6b28af3ba4388f1ef8ab2830a7"
+    },
+    "type": {
+      "textHash": "a36449151e7935230a5d84a84b093a2c8625de06fd6e6335a516b4510f29d9ce",
+      "spoken": "ਖਾਤੇ ਦੀ ਕਿਸਮ",
+      "bytes": 5529,
+      "seconds": 1.247,
+      "sha256": "ccc2856bdc97960bd297866d3c51e4aa6d12e2e712c762262b2e44b47e7d3b8c"
+    },
+    "demat": {
+      "textHash": "86f2342e2026a4de3e802c7ca0c04b145a8fe724e55c55dadcfd3f31aebfb4ed",
+      "spoken": "ਡੀਮੈਟ",
+      "bytes": 4858,
+      "seconds": 1.062,
+      "sha256": "391bcd40a916ebd4e93971447dd59e68511c8704be3be609e74ccfd2e432230b"
+    },
+    "bank": {
+      "textHash": "d776fd99eb9984cba5ab98c60aee4546ab5957543d5bf6af86f3d1ca0fb0d0b8",
+      "spoken": "ਬੈਂਕ ਜਮ੍ਹਾਂ",
+      "bytes": 6009,
+      "seconds": 1.365,
+      "sha256": "5fd9d3ec90eb5156765113e3838a46c2318dcd3339e05702e183fe3ebfc44c6f"
+    },
+    "mf": {
+      "textHash": "7f5f2022c2ca8dd5b67193d0985bb6cdc32cceeb44324239e9def03c4870bdf3",
+      "spoken": "ਮਿਊਚੁਅਲ ਫੰਡ ਫੋਲੀਓ",
+      "bytes": 7927,
+      "seconds": 1.829,
+      "sha256": "b4e00ddc7c69343b0033b79793fdd315a4f8c8a7dce84ba2c8194d21a00e5d06"
+    },
+    "institution": {
+      "textHash": "44894adae2656cf4214746510287147bf3526467e33febac6d41e5a31a8fed4e",
+      "spoken": "ਬੈਂਕ, ਬ੍ਰੋਕਰ ਜਾਂ ਫੰਡ ਦਾ ਨਾਂ",
+      "bytes": 11776,
+      "seconds": 2.808,
+      "sha256": "b6c5ccffc2c5314d073a2d5016e1e10a01f2a835c1c069028210c9ecff81fd9d"
+    },
+    "nickname": {
+      "textHash": "c5490697d9fcd2217bf27030a50b6af65f1556a2d01963583f2cc2c725c7a7b0",
+      "spoken": "ਖਾਤੇ ਦਾ ਛੋਟਾ ਨਾਂ (ਚੋਣਵਾਂ)",
+      "bytes": 8797,
+      "seconds": 2.042,
+      "sha256": "1462d2c7aa460c04dcf06ab0da241a8b4030a655d4c035a8fd3433f7960ed618"
+    },
+    "owner": {
+      "textHash": "ac0e113f2e5666a9657131d0a0d3940ff626a378652db4d9ee127c2d19503090",
+      "spoken": "ਪਰਿਵਾਰਕ ਮੈਂਬਰ ਦਾ ਛੋਟਾ ਨਾਂ (ਚੋਣਵਾਂ)",
+      "bytes": 10618,
+      "seconds": 2.504,
+      "sha256": "ac358ec36c4d6529106836bc00b657cc1698f360f7613892e00b38889dbaf49d"
+    },
+    "last4": {
+      "textHash": "bf55c1004e32d9a9fa34db730bb2e8706cf16673e5c57621a9e9088c66611dae",
+      "spoken": "ਆਖ਼ਰੀ ਚਾਰ ਅੰਕ (ਚੋਣਵਾਂ)",
+      "bytes": 8986,
+      "seconds": 2.099,
+      "sha256": "d61f1bef952d72389a8372d767a08e2eedcfa842d4ca5636f06e83cc0c021cde"
+    },
+    "extra": {
+      "textHash": "bb084a3a8353bfcae08f39fac757e5de0ce60ee730bcdd336bff721a3ee9f314",
+      "spoken": "ਛੋਟਾ ਨਾਂ ਜਾਂ ਆਖ਼ਰੀ ਚਾਰ ਅੰਕ ਸ਼ਾਮਲ ਕਰੋ",
+      "bytes": 14842,
+      "seconds": 3.565,
+      "sha256": "9eb5d5f86870b0bf7a336dfc3c6ae619352edc8fd368981a33a8951f0e2e4e5d"
+    },
+    "noIds": {
+      "textHash": "2cc78f5ddd38f4baf59f27205d8c5de743c64f606ff180247191ef68435d6a92",
+      "spoken": "ਛੋਟੇ ਨਾਂ ਵਰਤੋ। ਪੂਰੇ ਖਾਤਾ ਨੰਬਰ, ਪੈਨ ਅਤੇ ਪਾਸਵਰਡ ਇਸ ਸੂਚੀ ਵਿੱਚ ਨਾ ਪਾਓ।",
+      "bytes": 23482,
+      "seconds": 5.727,
+      "sha256": "ab5c213dee9f5e8f5233a7d94e482190be454515c1ba0584bdcb0e26090d4fbd"
+    },
+    "nomination": {
+      "textHash": "63fc29ab0ed00f1e574257e090b0525303f8ca5a2b2b5ff30e865d9f730c5cd7",
+      "spoken": "ਕੀ ਨਾਮਜ਼ਦ ਵਿਅਕਤੀ ਦਰਜ ਹੈ?",
+      "bytes": 8895,
+      "seconds": 2.069,
+      "sha256": "28550ee2498f31f98227cd750cb2f31a1eece3d27fa5d1dd33070d145d9f9035"
+    },
+    "registered": {
+      "textHash": "edbced8f9a73cd1073111e16286718b6b516b25946271e681dbd0925b068c766",
+      "spoken": "ਦਰਜ ਹੈ",
+      "bytes": 5823,
+      "seconds": 1.298,
+      "sha256": "7a2e04cefa80f0af43910f60ce49d441f38c401ae55ba32edb263c6bdd598ca6"
+    },
+    "missing": {
+      "textHash": "e8b4a81775e9d0dd514a1a8aea7864fbba387e8b38658fe7b11f265384d645f1",
+      "spoken": "ਸ਼ਾਮਲ ਨਹੀਂ ਕੀਤਾ",
+      "bytes": 7068,
+      "seconds": 1.631,
+      "sha256": "f4b4b919109144d9cff6a511d2325c2246d21c4bfae0c75fc73647621fcedb48"
+    },
+    "unknown": {
+      "textHash": "055f3c2f3358f18965e06f9a7cd0574402c654df20e0c3694030620a9c75739c",
+      "spoken": "ਪੱਕਾ ਨਹੀਂ",
+      "bytes": 5340,
+      "seconds": 1.197,
+      "sha256": "07a4d57f7f45740545c6130440e5bd07bfad8f93a7333895fd8091a3700974af"
+    },
+    "reported": {
+      "textHash": "0e1a61b84b47fd4ee6e5aba13189c96421f5980e1c48118bc885f8a4efc77aa4",
+      "spoken": "ਤੁਹਾਡੇ ਵੱਲੋਂ ਦੱਸਿਆ",
+      "bytes": 6877,
+      "seconds": 1.568,
+      "sha256": "3e1899aef118326bb58be0bb5dccf6e249d159e9ce8ae09192813d0a69ee6d90"
+    },
+    "submitted": {
+      "textHash": "16143406408e043c5939d2a0cf07136e9cbb69fb284f7e4a73ffb074ce44a60a",
+      "spoken": "ਬੇਨਤੀ ਭੇਜੀ ਗਈ",
+      "bytes": 7166,
+      "seconds": 1.635,
+      "sha256": "71666b4e6b783d1408a75d52663256738a0612d4e9e72752f6c8c7d3be25daf3"
+    },
+    "confirmed": {
+      "textHash": "b4ac768ba48f697cfcb85dc7bca2aebb78f49a55cb758ab09c58600bf1b23a5b",
+      "spoken": "ਦਸਤਾਵੇਜ਼ ਵਿੱਚ ਜਾਂਚਿਆ",
+      "bytes": 8126,
+      "seconds": 1.88,
+      "sha256": "80b6ef1b50db21a074e572a4b0ec23e792d9cec669cccd07d72e5f04fc40ca47"
+    },
+    "review": {
+      "textHash": "e2267e9661b51f98be30be569174b84b78e83c28edae2a69862eb62d26ee2437",
+      "spoken": "ਦਸਤਾਵੇਜ਼ ਜਾਂਚੋ",
+      "bytes": 6107,
+      "seconds": 1.371,
+      "sha256": "05dffd23a3442a6445a18442164a6272e9787d2a0aab6b05fdd31f0a82908459"
+    },
+    "awaiting": {
+      "textHash": "1e7c736ed6b4aa7a5b6d1f26bd0e3b169a510f87c4f296e714272ea358b9ec9a",
+      "spoken": "ਪੁਸ਼ਟੀ ਦੀ ਉਡੀਕ",
+      "bytes": 5821,
+      "seconds": 1.311,
+      "sha256": "4e60bb801183d28fc045a603370b4c6459679c9d052597d3682912e5ee053c25"
+    },
+    "checkedOn": {
+      "textHash": "22b9ade46ec3dcb60fee0d17846baab35db73e66c6f3f0abdc3b95b51fb38b5f",
+      "spoken": "ਆਖ਼ਰੀ ਵਾਰ ਜਾਂਚਿਆ",
+      "bytes": 7358,
+      "seconds": 1.691,
+      "sha256": "6e079b5a3dd7b61dd56537a2c410de17952bd0ed5f5378fd6cae503561ac84e0"
+    },
+    "neverChecked": {
+      "textHash": "2b332c1581dbe8f22c3c7027eb0dc9896d3aca05e4157faa29d5247b99f07e87",
+      "spoken": "ਹਾਲੇ ਜਾਂਚਿਆ ਨਹੀਂ",
+      "bytes": 7169,
+      "seconds": 1.651,
+      "sha256": "ec83b4dced9ab5108067f18fc3015e94fc8de30ebd4cc959c8b8c3e44638f527"
+    },
+    "update": {
+      "textHash": "6d7332a2d7a3053ea4a7eecb000499ad97f60e857ce90b76bf9cc9885f0e8de9",
+      "spoken": "ਤਬਦੀਲੀਆਂ ਸੰਭਾਲੋ",
+      "bytes": 7067,
+      "seconds": 1.614,
+      "sha256": "fb4c325faecd3d4a23e9c841afc30548ea3d4330f5d2365c5b69945eeb73c5ca"
+    },
+    "back": {
+      "textHash": "d7196b51f6cd3c72d8e4e433ab8b13b6fc307199fd796020c518c0cef781bf3b",
+      "spoken": "ਪਿੱਛੇ",
+      "bytes": 4185,
+      "seconds": 0.905,
+      "sha256": "b798be86c4f3944af2c898569f4f00c4ad1915b383ef420fba6949a887645b9b"
+    },
+    "cancel": {
+      "textHash": "9a780a26fedc959659eca500ab8e16fd93cc2aa6b0df83f781d693ca8afe1b24",
+      "spoken": "ਰੱਦ ਕਰੋ",
+      "bytes": 4667,
+      "seconds": 1.03,
+      "sha256": "027da19de1be304a6cb37f4d87896b8c4fee69e6c513cacc258129bee968fba9"
+    },
+    "open": {
+      "textHash": "df660f3b853998567db3ab283c38cb10f4809febb75f48c31bd657bba8fed4b6",
+      "spoken": "ਅਗਲਾ ਕਦਮ ਵੇਖੋ",
+      "bytes": 6681,
+      "seconds": 1.526,
+      "sha256": "495e339a64830abc1722d4a80220a27536a587189e38ba7d232185234b9c9c85"
+    },
+    "registerTask": {
+      "textHash": "9c265c6d88398b28460627fcd0e37416d48be76e7f94efa6034886f54562c961",
+      "spoken": "ਆਪਣੀ ਸੰਸਥਾ ਵਿੱਚ ਨਾਮਜ਼ਦ ਵਿਅਕਤੀ ਸ਼ਾਮਲ ਕਰੋ",
+      "bytes": 12929,
+      "seconds": 3.087,
+      "sha256": "179117fe5dda8509068e4ff2efd55237701dff54d877ff1158d0384c9289899f"
+    },
+    "checkTask": {
+      "textHash": "b4c0d96c6a1644b6e2b938e866153446835b3fb5bf2eea93ec8d291bbc648ab1",
+      "spoken": "ਨਾਮਜ਼ਦਗੀ ਦੀ ਸਥਿਤੀ ਜਾਂਚੋ",
+      "bytes": 8894,
+      "seconds": 2.077,
+      "sha256": "627ac82ef0cc33ece12da641d73ca9ecc6fa6f499bac6b8ef646546b05014250"
+    },
+    "confirmTask": {
+      "textHash": "f9758d730a8c01fd006e563ee3942bbefce6c87320b0e93162a0765e3b84b2c8",
+      "spoken": "ਜਾਂਚੋ ਕਿ ਬੇਨਤੀ ਦਰਜ ਹੋਈ ਹੈ",
+      "bytes": 12256,
+      "seconds": 2.925,
+      "sha256": "36b2854079856f5c914d6802b66741ed748c59cba1bdcc377a5e0f596032562a"
+    },
+    "recordTask": {
+      "textHash": "264ca8aef377f17f24a719bd98baf70dd8bbd030878a3fa6bbfc22945925a6d5",
+      "spoken": "ਆਪਣੇ ਰਿਕਾਰਡ ਨਾਲ ਪੁਸ਼ਟੀ ਰੱਖੋ",
+      "bytes": 9567,
+      "seconds": 2.25,
+      "sha256": "82e9e9ebd6ed100d3878131c1170c2ffc7decb8473edefe317dd0af3fc2c0859"
+    },
+    "dematGuide": {
+      "textHash": "30725cb2ccb5077a386e40cb72b7ed1b82fe9f8fa6b6681a1ff86406779d3dde",
+      "spoken": "ਇਹ ਡੀਮੈਟ ਖਾਤਾ ਸੰਭਾਲਣ ਵਾਲਾ ਬ੍ਰੋਕਰ ਜਾਂ ਬੈਂਕ ਵਰਤੋ। ਮੌਜੂਦਾ ਨਾਮਜ਼ਦਗੀ ਫਾਰਮ ਜਾਂ ਅਧਿਕਾਰਤ ਆਨਲਾਈਨ ਵਿਕਲਪ ਮੰਗੋ।",
+      "bytes": 42975,
+      "seconds": 10.592,
+      "sha256": "78d791c2e0cc63f2153b9028169dfb3f8764879040fd421f79119d3b073166f5"
+    },
+    "bankGuide": {
+      "textHash": "a116d8f2ff8ac849c6b7ebc7e2f169a9c4755390ef8028654e84641a31d3026c",
+      "spoken": "ਬੈਂਕ ਦੀ ਸ਼ਾਖਾ ਜਾਂ ਉਪਲਬਧ ਅਧਿਕਾਰਤ ਆਨਲਾਈਨ ਨਾਮਜ਼ਦਗੀ ਸਹੂਲਤ ਵਰਤੋ। ਮੌਜੂਦਾ ਜਮ੍ਹਾਂ ਨਾਮਜ਼ਦਗੀ ਫਾਰਮ ਮੰਗੋ।",
+      "bytes": 38750,
+      "seconds": 9.536,
+      "sha256": "7fd9111f5fe587f9e133f4e6f40e387e8252e67c72bb08b0329498b57648fbe8"
+    },
+    "mfGuide": {
+      "textHash": "fbfeb3e83c358c606ab1cdacdd98a488212079877ee9cdf545d1cb0a4816ed7b",
+      "spoken": "ਮਿਊਚੁਅਲ ਫੰਡ ਜਾਂ ਉਸ ਦੇ ਰਜਿਸਟਰਾਰ ਦਾ ਅਧਿਕਾਰਤ ਸੇਵਾ ਕੇਂਦਰ ਜਾਂ ਆਨਲਾਈਨ ਵਿਕਲਪ ਵਰਤੋ। ਯੂਨਿਟ ਡੀਮੈਟ ਵਿੱਚ ਹੋਣ ਤਾਂ ਡੀਮੈਟ ਖਾਤੇ ਦੀ ਨਾਮਜ਼ਦਗੀ ਕਾਰਵਾਈ ਵਰਤੋ।",
+      "bytes": 51996,
+      "seconds": 12.842,
+      "sha256": "3c05feb8774bab7ad11387ab079334a20c2a854d53756f914e8ca1eedeb86011"
+    },
+    "checkGuide": {
+      "textHash": "c069bfe7adc3a0c8d7390014ac9de60f062e3a4bc7e59746973c9264ed119a51",
+      "spoken": "ਨਵੀਨਤਮ ਸਟੇਟਮੈਂਟ ਜਾਂਚੋ ਜਾਂ ਸੰਸਥਾ ਨੂੰ ਪੁੱਛੋ। ਯਾਦ ਰਹੀ ਨਾਮਜ਼ਦਗੀ ਦੀ ਵੀ ਪੁਸ਼ਟੀ ਲੋੜੀਂਦੀ ਹੋ ਸਕਦੀ ਹੈ।",
+      "bytes": 31359,
+      "seconds": 7.695,
+      "sha256": "4da517456e2cb5e19865000cafe17f2fa9b9833ec9553039c9d1e5ea79a37a70"
+    },
+    "receiptGuide": {
+      "textHash": "dd473bf932fb857202461a2d242cd4ca42057ad9109997c7ec6b83d8d5a44dcc",
+      "spoken": "ਰਸੀਦ ਰੱਖੋ। ਫਿਰ ਨਾਮਜ਼ਦ ਵਿਅਕਤੀ ਅਸਲ ਵਿੱਚ ਦਰਜ ਹੋਣ ਨੂੰ ਦਿਖਾਉਂਦੀ ਸਟੇਟਮੈਂਟ ਜਾਂ ਪੁਸ਼ਟੀ ਜਾਂਚੋ।",
+      "bytes": 28193,
+      "seconds": 6.904,
+      "sha256": "bd1b9173da4aa358fbadf427389eb0f8b9af78b873d304241bb358eca704fe43"
+    },
+    "institutionOnly": {
+      "textHash": "34b9ec57b318b8c2f8eeb30c8a92b52179dbbee8abad8b3f543ac5ed77720593",
+      "spoken": "ਵਿਰਾਸਤ ਤੁਹਾਡੀ ਤਰੱਕੀ ਸੰਭਾਲਦਾ ਹੈ। ਦਰਜ ਕਰਨਾ ਸੰਸਥਾ ਵਿੱਚ ਹੁੰਦਾ ਹੈ।",
+      "bytes": 20804,
+      "seconds": 5.04,
+      "sha256": "50076d45a44c91c653a3fc6e53055545fa085aa78ced6d9aa9980c56fd16f9bc"
+    },
+    "source": {
+      "textHash": "06bb9cc98892e698849949cca2be2dbed1e1c0799d5ec7762b65955298684f9e",
+      "spoken": "ਅਧਿਕਾਰਤ ਮਾਰਗਦਰਸ਼ਨ",
+      "bytes": 8219,
+      "seconds": 1.902,
+      "sha256": "a7a4529910c1446a3d059f7e15d26afa6059bd64c802ada8221f8cdbf8f5708c"
+    },
+    "sourceNote": {
+      "textHash": "c472477459a0203cdbdd61e8d050ac106783c193d7bc0e0a650c17feadcdb726",
+      "spoken": "ਮੌਜੂਦਾ ਫਾਰਮ ਅਤੇ ਯੋਗਤਾ ਆਪਣੀ ਸੰਸਥਾ ਨਾਲ ਜਾਂਚੋ।",
+      "bytes": 17439,
+      "seconds": 4.202,
+      "sha256": "a35aa0398ee66507bbdcef0b19d4acbae15054d4b8cdd4f99137fb187a7c894c"
+    },
+    "markSubmitted": {
+      "textHash": "3fbc3e553fbc6555d9ff5201abd7f9239173d400b788e5268e63bfa3d8ac460f",
+      "spoken": "ਮੈਂ ਬੇਨਤੀ ਭੇਜੀ ਹੈ",
+      "bytes": 8130,
+      "seconds": 1.872,
+      "sha256": "f7a5fc53d2b805c2a332a8fefd6006bcccc7d36941bfcdd2dc55c78563825920"
+    },
+    "markConfirmed": {
+      "textHash": "dd91b595cbb1133a06a69964c37d0274957b802c855933b1d0fbddf54035a361",
+      "spoken": "ਮੈਂ ਪੁਸ਼ਟੀ ਜਾਂਚੀ ਹੈ",
+      "bytes": 7650,
+      "seconds": 1.774,
+      "sha256": "fca32ba498a19cfba57e30840b5083df511ae19b995b7cee7e1b8a0ed78889b9"
+    },
+    "submissionDate": {
+      "textHash": "4fa60551d45c8da13a801db295312716fa82c0fef13f445440ced78096fa3b05",
+      "spoken": "ਭੇਜਣ ਦੀ ਮਿਤੀ",
+      "bytes": 6211,
+      "seconds": 1.408,
+      "sha256": "4d8f2fa73e38a800e543989b90a44ec245e742291ed7ded66814d1f9d85d8e22"
+    },
+    "confirmationDate": {
+      "textHash": "78cd5b8402af3b1e14b037775abdfd7454cefda2103d0b0da5061807928b5937",
+      "spoken": "ਦਸਤਾਵੇਜ਼ ਦੀ ਮਿਤੀ",
+      "bytes": 6885,
+      "seconds": 1.575,
+      "sha256": "41c133ae5f2f1659d96dae471a1a25035588f8280f7617e8a3969efb5ad04565"
+    },
+    "recordKind": {
+      "textHash": "c1331723ce322dcec9480a0778cae8a0666dd69f9d5bda031cdde64f3c5bac93",
+      "spoken": "ਤੁਸੀਂ ਕੀ ਜਾਂਚਿਆ?",
+      "bytes": 6591,
+      "seconds": 1.494,
+      "sha256": "87c67c8ebf0531c22c007cd6ad087b53708f59f972424c3d6d7c0aeb7f6d7efe"
+    },
+    "choose": {
+      "textHash": "014ca946b38c8b330bcb49d9efbe9996ab2f5cbf7881ed6ccb5aea09943f6df1",
+      "spoken": "ਚੁਣੋ",
+      "bytes": 4091,
+      "seconds": 0.872,
+      "sha256": "7c73c60c6e6fc63e1ae9a482ef3a64a1669c1f0128c7fb158e635c3d831fb827"
+    },
+    "statement": {
+      "textHash": "c377cd9055df1bc992ad68c5a2e4539f2d65cd60c243d0259bbd4f8cf0334a38",
+      "spoken": "ਖਾਤਾ / ਹੋਲਡਿੰਗ ਸਟੇਟਮੈਂਟ",
+      "bytes": 10526,
+      "seconds": 2.473,
+      "sha256": "7faded8e6b537f1d00d595c0dfb88f51298962610d3caa96ff67eb6c5f4fd191"
+    },
+    "registration": {
+      "textHash": "4c834e2541acb9b245687175d29ca7c7b4ec9e16c026a9365b7c74b16b3b0a15",
+      "spoken": "ਸੰਸਥਾ ਦੀ ਦਰਜ ਹੋਣ ਦੀ ਪੁਸ਼ਟੀ",
+      "bytes": 10721,
+      "seconds": 2.541,
+      "sha256": "7d8d5c0241bda011bbeac614d2b54d0b160edd036fac57bb379a0ae6e61f368e"
+    },
+    "recordNote": {
+      "textHash": "c08c208cdc0e46f8fb838df5839fe59979d662cbea982f991807acb80d27e642",
+      "spoken": "ਛੋਟੀ ਦਸਤਾਵੇਜ਼ ਟਿੱਪਣੀ (ਚੋਣਵਾਂ)",
+      "bytes": 10431,
+      "seconds": 2.453,
+      "sha256": "83b280ba448e005f0dbcd77e97a76e42ed8212c9392152cb9e7bf0521115cdd7"
+    },
+    "confirmationCheck": {
+      "textHash": "740eb4e57fdcb6761d5e146dc15e81c86d75e500ce54e8c942b7b669847a4d95",
+      "spoken": "ਦਸਤਾਵੇਜ਼ ਨਾਮਜ਼ਦਗੀ ਦਰਜ ਹੋਣ ਨੂੰ ਦਿਖਾਉਂਦਾ ਹੈ, ਸਿਰਫ਼ ਬੇਨਤੀ ਪ੍ਰਾਪਤ ਹੋਣ ਨੂੰ ਨਹੀਂ।",
+      "bytes": 23782,
+      "seconds": 5.798,
+      "sha256": "e7692665bfa2e1c7bfbf15263cc54e40eb867521892d7d64e4e3696d7b450e73"
+    },
+    "progress": {
+      "textHash": "7c1cd5e17109db1a54089624cbc7611ad3e2a2f254ec74aa1ed83348e863558a",
+      "spoken": "ਤਰੱਕੀ",
+      "bytes": 4189,
+      "seconds": 0.906,
+      "sha256": "d8d58a24fae51fb08ec49b25d689ea24074d427fabfc3a76c5c963268315e004"
+    },
+    "evidence": {
+      "textHash": "c5e745be7810271723fab993735edb3e71ef6e5655ad07189964416fddc2a50e",
+      "spoken": "ਤੁਹਾਡੀ ਦਸਤਾਵੇਜ਼ ਜਾਂਚ",
+      "bytes": 8125,
+      "seconds": 1.879,
+      "sha256": "5f0135c2591851af616627c18ebbaf9d24d22698a898e2442cd6cbd9f10980b5"
+    },
+    "selfReport": {
+      "textHash": "8f769f3974648415199321b59abce83693ab9f00e6eea72a8fb38b0d0aa55db3",
+      "spoken": "ਤੁਹਾਡੇ ਵੱਲੋਂ ਭਰਿਆ। ਵਿਰਾਸਤ ਨੇ ਸੰਸਥਾ ਦੇ ਰਿਕਾਰਡ ਨਹੀਂ ਜਾਂਚੇ।",
+      "bytes": 18399,
+      "seconds": 4.448,
+      "sha256": "9994e15d890fedb0d10f313236516b7ecaa8ef89563927ced741ac22210680c8"
+    },
+    "remove": {
+      "textHash": "7d2ad271f5640fcf259649183a92f05e0622da12c964d05911ed268e87456c41",
+      "spoken": "ਖਾਤਾ ਹਟਾਓ",
+      "bytes": 5819,
+      "seconds": 1.296,
+      "sha256": "b91ae44221516263ed6c0c4e73960c1b668b7149dd5d23b603ef06bde41ca1e5"
+    },
+    "removeAsk": {
+      "textHash": "6149d7e9068da56afa22c6270326faabc3525fc3d24c258a06d0ea4e889d067d",
+      "spoken": "ਕੀ ਇਸ ਖਾਤੇ ਨੂੰ ਆਪਣੀ ਸੂਚੀ ਤੋਂ ਹਟਾਉਣਾ ਹੈ?",
+      "bytes": 12542,
+      "seconds": 2.988,
+      "sha256": "fe34ec3e0f2b971f52905b3c7d6494d374231c987e445d0349d353dd05e8f153"
+    },
+    "summary": {
+      "textHash": "bca49cfab4f2a91e95a4a92bf6d194342dbc7b8cd3263eea8d4ee9b83bc1b2f0",
+      "spoken": "ਪਰਿਵਾਰਕ ਸਾਰ",
+      "bytes": 5532,
+      "seconds": 1.24,
+      "sha256": "fbcce74c14cdf3d056872615994273ed91844291446e7d9d4c0052febb1bf25c"
+    },
+    "summaryIntro": {
+      "textHash": "20e2116671be3791961f9bea33882ff6d42277bf8bd70b05e488356f3fbf105e",
+      "spoken": "ਸਾਂਝਾ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਜਾਂਚੋ ਕਿ ਪਰਿਵਾਰ ਨੂੰ ਕੀ ਜਾਣਨਾ ਚਾਹੀਦਾ ਹੈ।",
+      "bytes": 19745,
+      "seconds": 4.8,
+      "sha256": "55d6f05ea8f10a14ac093a682554d770192f3f848a44e73630e967ee5b290874"
+    },
+    "summaryNotice": {
+      "textHash": "01280ccdf0f952b961e3acece20a7f3b4b2506c31e0b25c1100d8cae04f2e7de",
+      "spoken": "ਖਾਤੇ ਦੇ ਲੇਬਲ, ਪਰਿਵਾਰ/ਨਾਮਜ਼ਦ ਵਿਅਕਤੀਆਂ ਦੇ ਛੋਟੇ ਨਾਂ ਅਤੇ ਜੇ ਜੋੜੇ ਹੋਣ ਤਾਂ ਆਖ਼ਰੀ ਚਾਰ ਅੰਕ ਸ਼ਾਮਲ ਹਨ। ਰਿਕਾਰਡ ਟਿੱਪਣੀਆਂ ਸ਼ਾਮਲ ਨਹੀਂ। ਸਿਰਫ਼ ਭਰੋਸੇਯੋਗ ਵਿਅਕਤੀ ਨਾਲ ਸਾਂਝਾ ਕਰੋ।",
+      "bytes": 53538,
+      "seconds": 13.227,
+      "sha256": "4de56e7f9885710f9127466e0788bb878c9a70b9a2b6d9fe673843ecdcb84396"
+    },
+    "print": {
+      "textHash": "d9ccf19ad54388c035ae2c756ace2c749a331eb99ad310bae4446a639244f7da",
+      "spoken": "ਛਾਪੋ ਜਾਂ ਪੀ ਡੀ ਐਫ ਸੰਭਾਲੋ",
+      "bytes": 9754,
+      "seconds": 2.288,
+      "sha256": "5a13fec584e2c752691517b3ae24d7532478312a720edde67d4ee558e34068f5"
+    },
+    "export": {
+      "textHash": "ebbf49a9cad9385e3719df808083ecd8a9c73cd2a7c68b9b1afe24177fbbb857",
+      "spoken": "ਪੜ੍ਹਨਯੋਗ ਨਕਲ ਡਾਊਨਲੋਡ ਕਰੋ",
+      "bytes": 9179,
+      "seconds": 2.153,
+      "sha256": "b322ee199ed355b715f23341e8979e818803a6a5b56715bb2af4a02173e7b947"
+    },
+    "save": {
+      "textHash": "8fa58cb51dcdefa1f5aea398d5b4c50db388bb6b3636152efb7b9911dc9fd286",
+      "spoken": "ਆਪਣੀ ਤਰੱਕੀ ਸੰਭਾਲੋ",
+      "bytes": 7737,
+      "seconds": 1.796,
+      "sha256": "7c4f5bb4a9b9530cfb06aa66df660291be925a67032e06a0b8c8d4f11965e098"
+    },
+    "saveShort": {
+      "textHash": "fa3b5a2590ffbe24c38bfad8a038c285b970ebc350655484cf44fa924875684f",
+      "spoken": "ਬਾਅਦ ਲਈ ਸੰਭਾਲੋ",
+      "bytes": 7166,
+      "seconds": 1.644,
+      "sha256": "a69f937e2490b2ea31bdb1bd3c663bc170cb39a0a7e7c574edbcdcea19d84a38"
+    },
+    "saveIntro": {
+      "textHash": "2eb6259fc657e4c234636bb74e30f6e48d8b8635d8cc24151896e8c0ab57d2df",
+      "spoken": "ਤਾਲਾਬੰਦ ਫਾਈਲ ਡਾਊਨਲੋਡ ਕਰੋ। ਵਾਪਸ ਆਉਣ ਉੱਤੇ ਉਸੇ ਪਾਸਵਰਡ ਨਾਲ ਇੱਥੇ ਖੋਲ੍ਹੋ।",
+      "bytes": 24830,
+      "seconds": 6.071,
+      "sha256": "1e65f4e3b9d24f65cd807b6607b13028c5f86b4399fb65ca8d7232291c644884"
+    },
+    "savedFile": {
+      "textHash": "8b5dc54ebaf4e16884fbd6fd7268369085e54c89bd230ddae437ec5372f48cbe",
+      "spoken": "ਤੁਹਾਡੀ .ਵਿਰਾਸਤ ਫਾਈਲ",
+      "bytes": 9950,
+      "seconds": 2.335,
+      "sha256": "ad2a7ea31b0b6b0864607b80c90178579ad9d5becb94b4601b7eded93059b62b"
+    },
+    "password": {
+      "textHash": "846a88433950518f14b45bcff7e7722a1c7fec7f847d4e50c978a9cd6b5cee94",
+      "spoken": "ਪਾਸਵਰਡ",
+      "bytes": 4669,
+      "seconds": 1.022,
+      "sha256": "8a72cd59fb2a0c1ab4efd1c809560b0d406f09a1349e4805d4121714a9c4fc94"
+    },
+    "passwordHelp": {
+      "textHash": "50fda26206dde08160bada320f56b40c60e3fb4949b5c372361ca10aa680a7b2",
+      "spoken": "ਘੱਟੋ-ਘੱਟ ਬਾਰਾਂ ਅੱਖਰ। ਸੁਰੱਖਿਅਤ ਰੱਖੋ; ਅਸੀਂ ਮੁੜ ਪ੍ਰਾਪਤ ਨਹੀਂ ਕਰ ਸਕਦੇ।",
+      "bytes": 24449,
+      "seconds": 5.962,
+      "sha256": "ff02911a9c781acc086d8ed8a9d2799996597592154bf0b50afbc3ced9146a81"
+    },
+    "saving": {
+      "textHash": "cfb6950ac40dfe555dd0b8b960e9bb0f7e86d89d03049a20b52814f172c5d66a",
+      "spoken": "ਤੁਹਾਡੀ ਸੂਚੀ ਸੁਰੱਖਿਅਤ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ…",
+      "bytes": 12059,
+      "seconds": 2.864,
+      "sha256": "8c084823861b73677183fdb71e631cd7ac7f0d24ae23b43ffb72e0a94adad9f9"
+    },
+    "saved": {
+      "textHash": "ff4b3568579d04c65f5bf955306aab4c802c951f968824e99d11fca6b7f99345",
+      "spoken": "ਇਨਕ੍ਰਿਪਟ ਕੀਤੀ ਫਾਈਲ ਡਾਊਨਲੋਡ ਹੋਈ। ਪਾਸਵਰਡ ਵੱਖਰਾ ਰੱਖੋ।",
+      "bytes": 21370,
+      "seconds": 5.206,
+      "sha256": "a54ecbfdd915e0cb3b2b9cc4181e0b66a4aabfb9982862f2cbe86bbfe9ce6488"
+    },
+    "restored": {
+      "textHash": "19748240609428478e9bfe4d45fb22f09e87558d036e2a43b05b88e5e4f0bfbe",
+      "spoken": "ਤੁਹਾਡੀ ਸੂਚੀ ਖੁੱਲ੍ਹ ਗਈ ਹੈ।",
+      "bytes": 8509,
+      "seconds": 1.97,
+      "sha256": "c9a5088dc7e5d281f0d33f21dc68472013dda9a4a3216c45b60b45acff12675a"
+    },
+    "passwordShort": {
+      "textHash": "ecc4e742c28d054a8806db3cca0da17ab51dd0f421ed51956531cf9b48adac81",
+      "spoken": "ਬਾਰਾਂ ਤੋਂ ਦੋ ਸੌ ਛਪੰਜਾ ਅੱਖਰਾਂ ਦਾ ਪਾਸਵਰਡ ਵਰਤੋ।",
+      "bytes": 14562,
+      "seconds": 3.485,
+      "sha256": "8bd100945c5b233e85f918294fe5041a6c910b37f0ceac414ef574df97bdf5ef"
+    },
+    "cannotUnlock": {
+      "textHash": "8c2d464cbd3c7058e6d81eb6c3c42d4f477b5ded90be6beb9504ba184a980482",
+      "spoken": "ਪਾਸਵਰਡ ਜਾਂ ਇਨਕ੍ਰਿਪਟ ਕੀਤੀ ਫਾਈਲ ਦੀ ਪੁਸ਼ਟੀ ਨਹੀਂ ਹੋ ਸਕੀ।",
+      "bytes": 15905,
+      "seconds": 3.84,
+      "sha256": "42adb3e7f568832134b0415952d97b754a9af01ed62ed9d037a61398bafb5746"
+    },
+    "invalidSave": {
+      "textHash": "77a395d9d06ba329ff95d58aeab2ec2d0f6cbe3b698b55b294e1472758608441",
+      "spoken": "ਇਹ ਸੰਭਾਲੀ ਸੂਚੀ ਅਵੈਧ ਹੈ ਜਾਂ ਬਹੁਤ ਵੱਡੀ ਹੈ।",
+      "bytes": 15904,
+      "seconds": 3.838,
+      "sha256": "d407592a5196561c25fb5912b45bd0238c31161f1b19e76c449b174bf2e7fb5c"
+    },
+    "invalidAccount": {
+      "textHash": "e2db89106fa5a1b3196cb6642e1b35efbce161337e11afe07738276957edae38",
+      "spoken": "ਸੰਸਥਾ ਦਾ ਨਾਂ ਭਰੋ। ਹਵਾਲਾ ਜੋੜਦੇ ਹੋ ਤਾਂ ਬਿਲਕੁਲ ਚਾਰ ਅੰਕ ਵਰਤੋ।",
+      "bytes": 21955,
+      "seconds": 5.346,
+      "sha256": "60526980f6dcd7b2a83d4e2ed186dc256dc029c31b5a1f91cc5cd24870f6835a"
+    },
+    "invalidDate": {
+      "textHash": "edc809d71e3e03a4582e3b82629535b88ef4fdf73a642c80f056f7e7b1078688",
+      "spoken": "ਅਸਲੀ ਮਿਤੀ ਵਰਤੋ ਜੋ ਅੱਜ ਤੋਂ ਬਾਅਦ ਦੀ ਨਾ ਹੋਵੇ। ਪੁਸ਼ਟੀ ਭੇਜਣ ਤੋਂ ਪਹਿਲਾਂ ਦੀ ਨਹੀਂ ਹੋ ਸਕਦੀ।",
+      "bytes": 30496,
+      "seconds": 7.472,
+      "sha256": "513d899476d023e60d3cac935ac7b2f2cf306b9894f63b413ce1ea52fcdd7d9c"
+    },
+    "submissionRequired": {
+      "textHash": "c6581434c5f47ab43aef272c620aeb9fa1cf026f0a947e90a30930fbdef0cbff",
+      "spoken": "ਬੇਨਤੀ ਭੇਜਣ ਦੀ ਮਿਤੀ ਜੋੜੋ।",
+      "bytes": 9863,
+      "seconds": 2.31,
+      "sha256": "7f26f6a903352620dde3edd2d281ac6dbc1f47d8ebc01d0fb88cbc7be60f55c1"
+    },
+    "confirmationRequired": {
+      "textHash": "ed250910781b9f743d57154a293d859a3fd356a6a18c6fb9c2a0fb89c44006ef",
+      "spoken": "ਦਸਤਾਵੇਜ਼ ਦੀ ਕਿਸਮ ਅਤੇ ਮਿਤੀ ਜੋੜੋ, ਫਿਰ ਪੁਸ਼ਟੀ ਕਰੋ ਕਿ ਇਹ ਦਰਜ ਹੋਣਾ ਦਿਖਾਉਂਦਾ ਹੈ। ਸਿਰਫ਼ ਰਸੀਦ ਕਾਫ਼ੀ ਨਹੀਂ।",
+      "bytes": 37225,
+      "seconds": 9.162,
+      "sha256": "7debb776704b054ed5b8adf568befb117785eb0eb18a064c1bb370493a0561c7"
+    },
+    "accountLimit": {
+      "textHash": "3ff93b03790eefd3f6759f279ea8671e477e7130467eff296d8cfdbb34448c1a",
+      "spoken": "ਇਸ ਸੂਚੀ ਵਿੱਚ ਵੱਧ ਤੋਂ ਵੱਧ ਪੰਜਾਹ ਖਾਤੇ ਹੋ ਸਕਦੇ ਹਨ।",
+      "bytes": 15425,
+      "seconds": 3.718,
+      "sha256": "1db349baf5357a16d9855e66ca6f79646b79f607babb1282d3d95ba341fe851d"
+    },
+    "updated": {
+      "textHash": "6313158bde820b1639107a45ab845fba6085e73549051cbcbfca2a08801365a8",
+      "spoken": "ਤੁਹਾਡੀ ਸੂਚੀ ਅੱਪਡੇਟ ਹੋਈ।",
+      "bytes": 8796,
+      "seconds": 2.046,
+      "sha256": "1f4b4b82a2fee0a50be0043634d71c8fddb33da0e5f7dcea16ef75e7a74db5f3"
+    },
+    "privacyHelp": {
+      "textHash": "dc11d971271b3104456c7d6a55c4dcf1bf0690e0bcb73af4ece0aa869a652321",
+      "spoken": "ਪਰਦੇਦਾਰੀ ਅਤੇ ਮਦਦ",
+      "bytes": 7648,
+      "seconds": 1.768,
+      "sha256": "8d0c12d8c35c057418ba7ecb55db850427edafc532cd65ca2d8cfdb4549f6cd5"
+    },
+    "privacyDetail": {
+      "textHash": "dd98c75b8a7c0558c09e27dac23c3aff8dbcf29a7d272b7e91f2bb9f37fe3029",
+      "spoken": "ਸੂਚੀ ਬ੍ਰਾਊਜ਼ਰ ਦੀ ਮੈਮਰੀ ਵਿੱਚ ਰਹਿੰਦੀ ਹੈ। ਮੁੜ ਲੋਡ ਕਰਨ ਨਾਲ ਮਿਟ ਜਾਂਦੀ ਹੈ। ਬਾਅਦ ਵਿੱਚ ਵਾਪਸ ਆਉਣ ਲਈ ਇਨਕ੍ਰਿਪਟ ਕੀਤੀ ਫਾਈਲ ਸੰਭਾਲੋ। ਡਾਊਨਲੋਡ ਤੁਹਾਡੇ ਜੰਤਰ ਵਿੱਚ ਰਹਿੰਦੇ ਹਨ।",
+      "bytes": 48834,
+      "seconds": 12.054,
+      "sha256": "d192079584ae57ff50e21315552351a03ff49cf4ce4695b35840edbd2d602bb3"
+    },
+    "translationNotice": {
+      "textHash": "e4728667b5d8f542084a98498c3cbb33fffd9509aa844ccb054e2a88b5d551e0",
+      "spoken": "ਅਨੁਵਾਦ ਖਰੜਾ ਹੈ। ਭਾਸ਼ਾ ਜਾਣਦੇ ਸਮੀਖਿਅਕ ਨੇ ਹਾਲੇ ਜਾਂਚਿਆ ਨਹੀਂ। ਅਧਿਕਾਰਤ ਫਾਰਮ ਮੂਲ ਭਾਸ਼ਾ ਵਿੱਚ ਰਹਿੰਦੇ ਹਨ.",
+      "bytes": 32614,
+      "seconds": 7.996,
+      "sha256": "eb6ea4abdc4d3fa5f0cea8ae3b11c1f3f6628535faf0323c319493f22a715c43"
+    },
+    "boundary": {
+      "textHash": "71c6c57823a20116e5ea60e126954b8ea93352c2b89b6427da0e4bc0a90702ec",
+      "spoken": "ਇਹ ਸੂਚੀ ਵਿਰਾਸਤੀ ਹੱਕ ਤੈਅ ਨਹੀਂ ਕਰਦੀ, ਖਾਤੇ ਨਹੀਂ ਲੱਭਦੀ ਜਾਂ ਬੇਨਤੀਆਂ ਨਹੀਂ ਭੇਜਦੀ।",
+      "bytes": 24061,
+      "seconds": 5.862,
+      "sha256": "3339baaeaa5ee51b8d47f9899e73f2a84563776bba64d91d27a04960cab0afb1"
+    },
+    "clear": {
+      "textHash": "7c367c3d38b146305018d3006ec4cc1fef185121df6eb269235e45d070855440",
+      "spoken": "ਇਹ ਸੈਸ਼ਨ ਸਾਫ਼ ਕਰੋ",
+      "bytes": 7450,
+      "seconds": 1.723,
+      "sha256": "b5908c28b5d92ef12328292b79a94b9079c838c6553cb1bb8ca4e32661b8798a"
+    },
+    "clearAsk": {
+      "textHash": "27739092320ca05336e10b966cda02bfd0f1246e192abf6bb454552ce24abe23",
+      "spoken": "ਇਸ ਸੈਸ਼ਨ ਤੋਂ ਸੂਚੀ ਸਾਫ਼ ਕਰਨੀ ਹੈ? ਸੰਭਾਲੇ ਡਾਊਨਲੋਡ ਰਹਿਣਗੇ।",
+      "bytes": 19357,
+      "seconds": 4.682,
+      "sha256": "043a8f3a23dddae4ba51484489c6f6eeb67c1318bb1602b8d83c482c847f5aa1"
+    },
+    "clearDone": {
+      "textHash": "b3679467468343841ab46fd3a5e5e6b00c524f8ba3d913f57039a6886ba6a838",
+      "spoken": "ਇਹ ਸੈਸ਼ਨ ਸਾਫ਼ ਹੋਇਆ।",
+      "bytes": 7838,
+      "seconds": 1.811,
+      "sha256": "d20097c5888589565adad1164e1b4baa8d1ed47fc6d3b70837cb44e6c2ed1a54"
+    },
+    "language": {
+      "textHash": "87eb0c69437bfd2996487cc82291b4ea304ce3c488b26d90013085bb3ce609ab",
+      "spoken": "ਭਾਸ਼ਾ",
+      "bytes": 3901,
+      "seconds": 0.831,
+      "sha256": "9c5ae971a2aa431cc5d7cc8c560ca79ba6f21db674904e275acedfbe283e90bc"
+    },
+    "access": {
+      "textHash": "2edeabb3d8597b1027a2cf0b2a88623369f7f57e8d070febcb67b9b0d77d5ebe",
+      "spoken": "ਪਹੁੰਚਯੋਗਤਾ",
+      "bytes": 5819,
+      "seconds": 1.306,
+      "sha256": "ad20db16fe47eb7460604bab6b36d6056c6813f297a0ba33fc9ee04b3607d3df"
+    },
+    "textSize": {
+      "textHash": "6032606473ac431572eff7d981c16c3e32ca9f68e1b0225907ec994bedcaa7ef",
+      "spoken": "ਲਿਖਤ ਦਾ ਆਕਾਰ",
+      "bytes": 6973,
+      "seconds": 1.599,
+      "sha256": "c0f1ab60b95fe7f0e19fc3791f59bbe5b37ed5bd288dcee8b078baf235b63784"
+    },
+    "smaller": {
+      "textHash": "5481d46155846f492361d9643f3a606a76ab72c94b89be1d3a7cf6c92e82b724",
+      "spoken": "ਛੋਟੀ ਲਿਖਤ",
+      "bytes": 5436,
+      "seconds": 1.203,
+      "sha256": "a5ddf18c1f6e0756c8ce579e391670ad2cc08b4b5c88eeda3457c39b444c0c80"
+    },
+    "larger": {
+      "textHash": "0046a75f47d9ff394b79252ba9cb1056b6afd9e61b3bdf9a3bb198973978380c",
+      "spoken": "ਵੱਡੀ ਲਿਖਤ",
+      "bytes": 5435,
+      "seconds": 1.212,
+      "sha256": "82756b14d697773932eb2f7edc254cce62650e1d4a49753435dec9dbc2abc089"
+    },
+    "contrast": {
+      "textHash": "3b8813bca4514d57306e11dd285d44faa3da318976176d3af52fed0a2e9b4fb6",
+      "spoken": "ਵੱਧ ਰੰਗ ਅੰਤਰ",
+      "bytes": 8701,
+      "seconds": 2.034,
+      "sha256": "b74f9e57f8778dd8c47441c07afa705315b87c80875ed27a369d4a6d8ca800d3"
+    },
+    "motion": {
+      "textHash": "58a52a439297f7a14f66ce50ba223088bb3d7bd8f6255aeb1ac28868f05bc267",
+      "spoken": "ਹਿਲਜੁਲ ਘਟਾਓ",
+      "bytes": 5915,
+      "seconds": 1.329,
+      "sha256": "454b810b27276e1ef5bd3f500a067f6ec587a26132410e76369ce2690acbc24c"
+    },
+    "read": {
+      "textHash": "dc9f79ac956f8e01bac6c60fc95d411942cfdbfb07fb81793ad9b88dad6d42fb",
+      "spoken": "ਹਦਾਇਤਾਂ ਸੁਣੋ",
+      "bytes": 5913,
+      "seconds": 1.325,
+      "sha256": "2fa5445728a84803c2354706db0e7d8cc83a0ef6c921649a223abfabb3fe5f2d"
+    },
+    "speechUnavailable": {
+      "textHash": "948cc89994c553ad85bae8f494ecf94385fda4af2f5155db04a1578aa6a49d15",
+      "spoken": "ਇਸ ਹਦਾਇਤ ਦੀ ਆਵਾਜ਼ ਤਿਆਰ ਨਹੀਂ। ਲਿਖੀਆਂ ਹਦਾਇਤਾਂ ਇੱਥੇ ਹਨ।",
+      "bytes": 18406,
+      "seconds": 4.457,
+      "sha256": "b6c4a0f68a2188e6865728bbc249a8bc5ad9779dcf10a20c44921e2e7e29a0e4"
+    },
+    "close": {
+      "textHash": "50cbb669bbe4ea54aa61d1ea9d9109e06d3310229f8616acd58b857676445a86",
+      "spoken": "ਬੰਦ ਕਰੋ",
+      "bytes": 4954,
+      "seconds": 1.096,
+      "sha256": "a05449e6064855f3e8c650eec976a9ba22fc9fa457d13b21b5daf65497376ef2"
+    },
+    "skip": {
+      "textHash": "34d438e318133ec3662981c39e3c1b6931273dd17d2d6527d4a3978768387301",
+      "spoken": "ਮੁੱਖ ਸਮੱਗਰੀ ਵੱਲ ਜਾਓ",
+      "bytes": 7737,
+      "seconds": 1.797,
+      "sha256": "490e59c5b1ffa3c4b0a26496bcc3c4fb91e7591a103a1584a85e69cc3a584ee6"
+    },
+    "nothing": {
+      "textHash": "c48d53522e45a6fa4ba10f9d86136440c3575c16197fc19eb91a399d4a44fb47",
+      "spoken": "ਇਸ ਦ੍ਰਿਸ਼ ਵਿੱਚ ਕੋਈ ਖਾਤਾ ਨਹੀਂ",
+      "bytes": 9948,
+      "seconds": 2.344,
+      "sha256": "2343c75bea1e8da46282ed8fed2ee7938a2a04cb9325012a67125127758fc6a6"
+    },
+    "optoutNote": {
+      "textHash": "93b98bc548ef44a128b46e51f4050947f0794fd48378e976e74111488a2325ec",
+      "spoken": "“ਸ਼ਾਮਲ ਨਹੀਂ ਕੀਤਾ” ਜਾਣਬੁੱਝ ਕੇ ਨਾਮਜ਼ਦਗੀ ਨਾ ਕਰਨ ਦੀ ਚੋਣ ਹੋ ਸਕਦੀ ਹੈ। ਰਿਕਾਰਡ ਜਾਂਚੋ ਅਤੇ ਖਾਤਾਧਾਰਕ ਨਾਲ ਚੁਣੋ।",
+      "bytes": 34239,
+      "seconds": 8.423,
+      "sha256": "9fa9c67bca9a110c7776ffc1bd4ce93f46c4c6ae90f859fe4ab6d48da4c36206"
+    },
+    "startCheck": {
+      "textHash": "864a7dac828ec757809b384a612fd5c0576275322e86a3489eb1dcdc6b03a2da",
+      "spoken": "ਖਾਤਾ ਜਾਂਚੋ",
+      "bytes": 5919,
+      "seconds": 1.341,
+      "sha256": "3b9c0c2285ca95866dfc062a16e85f3cc7b8002ef94ca734b65f416b6820557b"
+    },
+    "startHelp": {
+      "textHash": "cd17c5dd25979a1536cae54528a48f2f465a1d48076026d831180dbf761be17f",
+      "spoken": "ਪਾਸਬੁੱਕ, ਸਟੇਟਮੈਂਟ ਜਾਂ ਪਹਿਲਾਂ ਵਰਤਦੀ ਐਪ ਤੋਂ ਸ਼ੁਰੂ ਕਰੋ। ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਇੱਕ ਖਾਤਾ ਕਾਫ਼ੀ ਹੈ।",
+      "bytes": 28286,
+      "seconds": 6.925,
+      "sha256": "d6d10b07445346d075aef2b3219a80ca697841f086ad2d5b66badedee66da4d5"
+    },
+    "resumeTask": {
+      "textHash": "2d5aed7adb4ecdcaf9e4fbb36af8a92cb021402957ee4a0c4f337f2e8659be74",
+      "spoken": "ਇਹ ਕੰਮ ਜਾਰੀ ਰੱਖੋ",
+      "bytes": 6879,
+      "seconds": 1.584,
+      "sha256": "af6d3aacfb935391663110fc70f4ea6928020f868eb8c51a119184299e312f22"
+    },
+    "needsAttention": {
+      "textHash": "1e69aaf6398ef1a0de1fef1c9697eadfb336f75f2b198070eb77350b9e1a07c5",
+      "spoken": "ਹਾਲੇ ਕਰਨਾ ਹੈ",
+      "bytes": 6115,
+      "seconds": 1.381,
+      "sha256": "567b76b6fa54cd49398cda00ec92d95fb6d1fb01e80d0b99f782ae7d4dcf1844"
+    },
+    "checkedCount": {
+      "textHash": "125dfd19b8895fba51324d16f204f2b05c5144e59e15632b137080361447600d",
+      "spoken": "ਜਾਂਚੇ ਰਿਕਾਰਡ",
+      "bytes": 6401,
+      "seconds": 1.456,
+      "sha256": "eb69ab505e20ccb29f5960d874d1eef4c1fa872a63f48b1108150cafc90b5cb9"
+    },
+    "howWorks": {
+      "textHash": "6a7d7e5a4b9d705d32404214235292b90ead8a0f07c257426065b2118acfb555",
+      "spoken": "ਇਹ ਕਿਵੇਂ ਮਦਦ ਕਰਦਾ ਹੈ",
+      "bytes": 7837,
+      "seconds": 1.818,
+      "sha256": "6e295b42d23e4b9a749f12bd90b61f527d49297760bf5315b31c0c772cde0cb1"
+    },
+    "howWorksText": {
+      "textHash": "29a51aeb60304dc8079208cc38f0934d49ca1da673ddf80979ed32c23998853e",
+      "spoken": "ਅਸੀਂ ਸਹੀ ਥਾਂ ਜਾਂਚਣ, ਅਗਲਾ ਕਦਮ ਤਿਆਰ ਕਰਨ ਅਤੇ ਨਤੀਜਾ ਰੱਖਣ ਵਿੱਚ ਮਦਦ ਕਰਦੇ ਹਾਂ। ਅਸਲੀ ਤਬਦੀਲੀ ਤੁਹਾਡਾ ਬੈਂਕ, ਬ੍ਰੋਕਰ ਜਾਂ ਫੰਡ ਕਰਦਾ ਹੈ।",
+      "bytes": 41633,
+      "seconds": 10.253,
+      "sha256": "e1c505780fe668eca65b7997e7e34a2caea4e46b7264d7b9e92677a819a45ae6"
+    },
+    "searchBank": {
+      "textHash": "fad9ffda0f18f7417cd05af38a96e1c6178d1edadfd8fad74aed3eb8c9e73b0d",
+      "spoken": "ਆਪਣਾ ਬੈਂਕ ਲੱਭੋ",
+      "bytes": 6975,
+      "seconds": 1.591,
+      "sha256": "7079ed1c1b53d89f5b39741fd2d38798c718ff26c12bd569a3f17e60a551492d"
+    },
+    "searchDemat": {
+      "textHash": "b4704e9000e112920d36caebb0aec8677cd52707931de3e56fee6a16ad0b851c",
+      "spoken": "ਆਪਣਾ ਬ੍ਰੋਕਰ ਜਾਂ ਬੈਂਕ ਲੱਭੋ",
+      "bytes": 9568,
+      "seconds": 2.236,
+      "sha256": "3c3782b50eed06797b87a23a4872de9bb061aab9d152f2884ea0fadb908fb038"
+    },
+    "searchMf": {
+      "textHash": "873f95557721966d09b774ff353689c002635904badaa68922aed4aa9d97053f",
+      "spoken": "ਆਪਣਾ ਮਿਊਚੁਅਲ ਫੰਡ ਲੱਭੋ",
+      "bytes": 8701,
+      "seconds": 2.023,
+      "sha256": "f1f866273b795ec59a1605ec0f3bc6f8470a1605f560426fe8a76dcda4bc375c"
+    },
+    "searchHelp": {
+      "textHash": "e2ff9d4d831e32bf0e5b3c010096823f2f53be63accaa89e431ec574248f9b9d",
+      "spoken": "ਨਾਂ ਜਾਂ ਸੰਖੇਪ ਲਿਖੋ। ਸੂਚੀ ਵਿੱਚ ਨਾ ਹੋਣ ਵਾਲੀ ਸੰਸਥਾ ਵੀ ਭਰ ਸਕਦੇ ਹੋ।",
+      "bytes": 20703,
+      "seconds": 5.02,
+      "sha256": "cf0d655c97a3d2f36b863757aa13d3051ee0b0ea82895efd92c6895a50e95643"
+    },
+    "useTyped": {
+      "textHash": "ae3e0dd49065bb421f1fd170dc2b3a4964eda36817d2be910ef55787e78c9d66",
+      "spoken": "ਇਹ ਨਾਂ ਵਰਤੋ",
+      "bytes": 5629,
+      "seconds": 1.251,
+      "sha256": "b2a497a5f1ae9b4ecff0e4c9b259eac2dde3d32db7db9f8a43ee9144e00f8598"
+    },
+    "suggestions": {
+      "textHash": "c114a10a45a9a99ffacd5b5faa23a750e365c8c340b114548332d155726374f8",
+      "spoken": "ਮਿਲਦੀਆਂ ਸੰਸਥਾਵਾਂ",
+      "bytes": 7264,
+      "seconds": 1.66,
+      "sha256": "ecc12e2c74acd18ae2439b7c10d475a0f0e47ebc80ecd2840354079d40e518d6"
+    },
+    "noMatches": {
+      "textHash": "76275c499d6d8cb3b667fe34a5b6d68d3271878cc7c635af855b42f522b30557",
+      "spoken": "ਕੋਈ ਮੇਲ ਨਹੀਂ। ਸਪੈਲਿੰਗ ਜਾਂਚੋ ਜਾਂ ਭਰਿਆ ਨਾਂ ਰੱਖੋ।",
+      "bytes": 18398,
+      "seconds": 4.442,
+      "sha256": "4af45f7af623c948a9c4fc842ad133460a89ec9f433ba69bdb897b62eacd08a8"
+    },
+    "accountContext": {
+      "textHash": "a3ab4516eb730022951c633b73795968fe50184f6549adcec8a0f15c3ce63845",
+      "spoken": "ਇਸ ਖਾਤੇ ਬਾਰੇ ਥੋੜ੍ਹਾ ਵੇਰਵਾ",
+      "bytes": 9187,
+      "seconds": 2.148,
+      "sha256": "e5174c5443d849144b4fa590c0e150d5a01bf90883cd48ad03bf92e41e99a6c4"
+    },
+    "contextHelp": {
+      "textHash": "09a406154e53611c01fb092d56895e1be01d6de5d64d16b4e07939e135212532",
+      "spoken": "ਇਹ ਵੇਰਵੇ ਸਹੀ ਹਦਾਇਤਾਂ ਦਿਖਾਉਣ ਵਿੱਚ ਮਦਦ ਕਰਦੇ ਹਨ। ਪੱਕਾ ਨਾ ਹੋਣਾ ਠੀਕ ਹੈ।",
+      "bytes": 24064,
+      "seconds": 5.875,
+      "sha256": "47b8702f1f0b07a6ab89b7d0930e10569978b9527dd5f05d4dbdf56fee02a0a2"
+    },
+    "whose": {
+      "textHash": "f85dfd06790358fb56eb6631630f47fb96f53ae5ad6c94a467866ea02ee8d162",
+      "spoken": "ਇਹ ਖਾਤਾ ਕਿਸ ਦਾ ਹੈ?",
+      "bytes": 6970,
+      "seconds": 1.598,
+      "sha256": "391a98b5d4ec2e7e4cdca0a825022f11de2069600e18154a1e623d18e68fbe02"
+    },
+    "me": {
+      "textHash": "d147c85b56d732930d23c659fb5f4dfd860ceb6b2c69a54e78943cfb0ef6fa04",
+      "spoken": "ਮੇਰਾ",
+      "bytes": 4087,
+      "seconds": 0.864,
+      "sha256": "b5f78825efd0c0ba10087c960d4e0f1caf79ebd4ef95c0e499fe8d82b0c8992a"
+    },
+    "parent": {
+      "textHash": "8d4853750315231a2d5055b4a109104232391a2e833986f59228af895e89519e",
+      "spoken": "ਮਾਤਾ ਜਾਂ ਪਿਤਾ ਦਾ",
+      "bytes": 6875,
+      "seconds": 1.562,
+      "sha256": "91cda74e934f519eed57045414aac3cc3d866e1fe2d6500a2d347242c7cd91be"
+    },
+    "familyMember": {
+      "textHash": "183609d0eb3404d72f64c111857f6c19e91573276ceecb9acb4308fa8c8bd4f9",
+      "spoken": "ਮੇਰੇ ਪਰਿਵਾਰ ਦੇ ਕਿਸੇ ਮੈਂਬਰ ਦਾ",
+      "bytes": 10145,
+      "seconds": 2.385,
+      "sha256": "baf1004ed63939528bc155756a196dfe04df0ba928ae171a35968893658848c8"
+    },
+    "holderQuestion": {
+      "textHash": "4fd5642b91004d2e1f51d74eebef84f5ed83d96cfa84f5943f19c508dbf81b0b",
+      "spoken": "ਖਾਤਾ ਇਕੱਲਾ ਹੈ ਜਾਂ ਸਾਂਝਾ?",
+      "bytes": 11395,
+      "seconds": 2.706,
+      "sha256": "c8f1e88e0f533b76d4cfa6e44ec25cf88e97bff7e5ab41e217bf2e08307748f4"
+    },
+    "sole": {
+      "textHash": "dfb2dc53938387c93288a7724e7d523720e9c165964e99cf5e1b29139bae4c8c",
+      "spoken": "ਇੱਕ ਧਾਰਕ",
+      "bytes": 5049,
+      "seconds": 1.118,
+      "sha256": "d2fdb45071923c5e86756d06c1ee473e4f92e685b5863aaa3f4c2eccfc0682bb"
+    },
+    "joint": {
+      "textHash": "5ff80dcca5ebfac36b8c902408ab21cce06f1904b0930fc0806281a3972d2dd0",
+      "spoken": "ਸਾਂਝੇ ਧਾਰਕ",
+      "bytes": 6010,
+      "seconds": 1.349,
+      "sha256": "95264619c9ca92d608ee9c449f1d5115bec0918038da4fe5e4a31534e71048cf"
+    },
+    "bankProduct": {
+      "textHash": "93c08539645ad4cb7625882d07340c3e3337b84754ffc85ae0f5e6d25634d3b0",
+      "spoken": "ਕਿਹੜੀ ਕਿਸਮ ਦਾ ਬੈਂਕ ਖਾਤਾ?",
+      "bytes": 8224,
+      "seconds": 1.915,
+      "sha256": "eeef832f272f35a410207ab7460c6dda4a00549622586811fa0485c411873d85"
+    },
+    "savings": {
+      "textHash": "590f83029a5dac6d92267491fe28b8932a0428f62d05a1f655a30b581b9b8184",
+      "spoken": "ਬੱਚਤ ਖਾਤਾ",
+      "bytes": 5820,
+      "seconds": 1.298,
+      "sha256": "d5ebd2549df3d01909f0b2a668a46ad5c002556034f76e876583d6580d8cf7e9"
+    },
+    "deposit": {
+      "textHash": "0f770d10088836b5cbba99f670ef3f6725c27058ca13746cad5ac50061949a1a",
+      "spoken": "ਮਿਆਦੀ ਜਾਂ ਆਵਰਤੀ ਜਮ੍ਹਾਂ",
+      "bytes": 9276,
+      "seconds": 2.179,
+      "sha256": "09e46776a570a2ef1c86cece5b108b4e16473598ee6a5a94044775a880a3d782"
+    },
+    "mfMode": {
+      "textHash": "ef2e398153357f1838fbaf8998423fa69b276e58be444da9339e36343b3c0e61",
+      "spoken": "ਇਹ ਮਿਊਚੁਅਲ ਫੰਡ ਕਿਵੇਂ ਰੱਖੇ ਹਨ?",
+      "bytes": 9851,
+      "seconds": 2.327,
+      "sha256": "fc6041906c9d6515e2995d0b8cda185ff806b7352dff41ec00a952c234e10f3e"
+    },
+    "folioMode": {
+      "textHash": "ac4df1f97ed45762e5340cd2707709a1d357504a84a7c22b8dce84063e9f9ee8",
+      "spoken": "ਮਿਊਚੁਅਲ ਫੰਡ ਵਿੱਚ ਫੋਲੀਓ",
+      "bytes": 9278,
+      "seconds": 2.175,
+      "sha256": "6ce6bd22c50066ab842e20b43d37a96090a9565a66b7993c84a23cfdbf4732b1"
+    },
+    "dematMode": {
+      "textHash": "3c3088198b77ec59c6e5e620f20f0af29b241de1316a7a98dabcc00fedb3d661",
+      "spoken": "ਡੀਮੈਟ ਖਾਤੇ ਵਿੱਚ",
+      "bytes": 7550,
+      "seconds": 1.731,
+      "sha256": "a6405bfd8c8458e9923211adb703eb34b4db3efb2442791809b08f32e2b030fb"
+    },
+    "identifyHelp": {
+      "textHash": "74e650bfd25134445020f461c7d8d4e40e4ea25f87a07104075557c60102ed2a",
+      "spoken": "ਪਛਾਣਨ ਵਿੱਚ ਮਦਦ ਕਰੋ",
+      "bytes": 7745,
+      "seconds": 1.792,
+      "sha256": "8130a917504eec43ae3040f77ad23c9cd614334f070c46d5681e3f7bbc0d1211"
+    },
+    "identifyText": {
+      "textHash": "355fbf16314f8d81ee11d1ed27b404a3c50d346441dcb62b464ad623893606bd",
+      "spoken": "ਫੰਡ ਸਟੇਟਮੈਂਟ ਆਮ ਤੌਰ ਉੱਤੇ ਫੋਲੀਓ ਨੰਬਰ ਅਤੇ ਫੰਡ ਦਾ ਨਾਂ ਦਿਖਾਉਂਦੀ ਹੈ। ਡੀਮੈਟ ਸਟੇਟਮੈਂਟ ਡੀ ਪੀ ਆਈ ਡੀ / ਕਲਾਇੰਟ ਆਈ ਡੀ ਜਾਂ ਬੀ ਓ ਆਈ ਡੀ ਦਿਖਾਉਂਦੀ ਹੈ। ਪੱਕਾ ਨਾ ਹੋਵੇ ਤਾਂ ਸੇਵਾ ਪ੍ਰਦਾਤਾ ਨੂੰ ਯੂਨਿਟਾਂ ਦੀ ਰੱਖਣ ਵਿਧੀ ਪੁੱਛੋ।",
+      "bytes": 66977,
+      "seconds": 16.593,
+      "sha256": "b6b8c2aa7922f59e4abea43e51a5bc4588af24bab040ee31cee99147bb9abd8a"
+    },
+    "change": {
+      "textHash": "b03901611059d21036b9ecd1e443188d224f69fc11b4a9eba81122e8ee30b1ad",
+      "spoken": "ਤਬਦੀਲੀ ਦੀ ਲੋੜ ਹੈ",
+      "bytes": 7067,
+      "seconds": 1.625,
+      "sha256": "ad86164b0bd9cb21a24bfd0d4fccd8457e697e4d719f29b3b78b59d69d745b11"
+    },
+    "optout": {
+      "textHash": "1216498488f23fc3d73f2aac0aba6955a45385ab8f537a7c0ce1d2f70103aeeb",
+      "spoken": "ਨਾਮਜ਼ਦਗੀ ਨਾ ਕਰਨ ਦੀ ਚੋਣ ਕੀਤੀ",
+      "bytes": 10907,
+      "seconds": 2.588,
+      "sha256": "ada0947ef23570f691d95605fbb12465ebce977e5807173ca7821e4153cde4b2"
+    },
+    "blocked": {
+      "textHash": "0d2614941ab4c3383e15b8eb9c1c2296e4c1f20cfeff3deb50a5b0ec94497684",
+      "spoken": "ਮਦਦ ਦੀ ਲੋੜ ਹੈ",
+      "bytes": 6876,
+      "seconds": 1.563,
+      "sha256": "70a0314668b2aa2f57abe5a4b44349511da5adbd68d7d3376b092c0f8da6fd76"
+    },
+    "helpCheck": {
+      "textHash": "711d193de4d516928aeb5d912a99719879387412b6c8d1f413aed4ef410cffd7",
+      "spoken": "ਜਾਂਚਣ ਵਿੱਚ ਮਦਦ ਕਰੋ",
+      "bytes": 7934,
+      "seconds": 1.844,
+      "sha256": "732f73add5403f93c7535b89f8321d92d174bddb20cf2d0dc88baa69b6d3cd60"
+    },
+    "whatFound": {
+      "textHash": "ad68d525f30993061a0d9adadf872820b9a9c5a7d96cc809c17f7fec3bd464f8",
+      "spoken": "ਤੁਹਾਨੂੰ ਕੀ ਮਿਲਿਆ?",
+      "bytes": 6398,
+      "seconds": 1.453,
+      "sha256": "1f9378f3182ac92736e7f53e1af3b1f8d3f5f4ae167d378b67170d8776c0a984"
+    },
+    "foundYes": {
+      "textHash": "08d4596d762c91d6960a615b4d84b6422ba53edf606f3c84053d45e07d43289b",
+      "spoken": "ਨਾਮਜ਼ਦਗੀ ਦਰਜ ਹੈ",
+      "bytes": 7645,
+      "seconds": 1.776,
+      "sha256": "2d97185c82ae47e3ec51f2de9a6c58b1743505dc500161549d77674250aab895"
+    },
+    "foundNo": {
+      "textHash": "5b855b2b8186f3e0a0a0da65d524da1274efe5383ab03ee52f23eeaeadad0dd8",
+      "spoken": "ਕੋਈ ਨਾਮਜ਼ਦ ਵਿਅਕਤੀ ਦਰਜ ਨਹੀਂ",
+      "bytes": 9180,
+      "seconds": 2.16,
+      "sha256": "db8b1309cdaa314fb4ed7180145df7fd0a62874e4ad31d7eeeabe33c929e8fe4"
+    },
+    "foundChange": {
+      "textHash": "9667039b8baedf579c23ca325a0387cc649d8c6b1c88146760f53a38253d33fa",
+      "spoken": "ਵੇਰਵੇ ਬਦਲਣੇ ਚਾਹੀਦੇ ਹਨ",
+      "bytes": 9568,
+      "seconds": 2.245,
+      "sha256": "97dfac65c50fb07d9ec590d6ae39f158e21c18c198e99faa4dd5f655543f584a"
+    },
+    "foundUnknown": {
+      "textHash": "fa58e8409d04ccce60cfac1c1a313298285e211a7d1aa47b3c07f0dd425622e5",
+      "spoken": "ਮੈਨੂੰ ਨਹੀਂ ਮਿਲਿਆ",
+      "bytes": 6593,
+      "seconds": 1.506,
+      "sha256": "8343d7cbc591a8807d12b4d2d74eedd140039c31329e077d2f0dff7b22987e04"
+    },
+    "prepare": {
+      "textHash": "45b4ea75a585f8bed98fbcc55a194895b361b9c325efab79008aa1f836e21a61",
+      "spoken": "ਅਗਲਾ ਕਦਮ ਤਿਆਰ ਕਰੋ",
+      "bytes": 7740,
+      "seconds": 1.798,
+      "sha256": "bfbc2af7e9bee4f89a40da09767d7c1c803ced72dec00c2f2d5a4e717bc0562d"
+    },
+    "checkFirst": {
+      "textHash": "12aa9a0bc13f1be73a222cfa0e1f5e19221c1908be1ee9f4d6881b0a9c95703f",
+      "spoken": "ਕੁਝ ਬਦਲਣ ਤੋਂ ਪਹਿਲਾਂ ਜਾਂਚੋ",
+      "bytes": 8895,
+      "seconds": 2.068,
+      "sha256": "30e9d23312a43ffcd70ce6cb1b70370d97fb21f9067d9bd288d455b9394a45df"
+    },
+    "openOfficial": {
+      "textHash": "1226fa4589e6e6a6225d1e7014895b0d85d31939609030c1726d2cab68e6d9c9",
+      "spoken": "ਅਧਿਕਾਰਤ ਹਦਾਇਤਾਂ ਖੋਲ੍ਹੋ",
+      "bytes": 9281,
+      "seconds": 2.174,
+      "sha256": "d709c5665eae4e229f9835a718300f205d619e8c32a28a231ffe2d38496f0df0"
+    },
+    "prepareIntro": {
+      "textHash": "ae16d3df9135464a6fcd0c58864fad4bcb4fa9f99c85fa234eb4be78fbf296bf",
+      "spoken": "ਸੰਸਥਾ ਲਈ ਇਹ ਤਿਆਰ ਰੱਖੋ। ਇੱਥੇ ਭਰਨ ਦੀ ਲੋੜ ਨਹੀਂ।",
+      "bytes": 16673,
+      "seconds": 4.017,
+      "sha256": "52388f2469e0e29ed3a4a031563b8ea0be395aeba2d0003a6d92c8ff198f28b0"
+    },
+    "prepareNames": {
+      "textHash": "f72f39e228d9bf4d60433cbd13a63f4b5187e9162a89ee267e4cce53768a35f7",
+      "spoken": "ਨਾਮਜ਼ਦ ਵਿਅਕਤੀ ਦੇ ਰਿਕਾਰਡ ਅਨੁਸਾਰ ਉਸ ਦਾ ਨਾਂ ਅਤੇ ਰਿਸ਼ਤਾ।",
+      "bytes": 18401,
+      "seconds": 4.444,
+      "sha256": "06b7cfad3d46dfd9bae897b9334a6ee0b30e6df54949e7fb10700d24e2eceac6"
+    },
+    "prepareMinor": {
+      "textHash": "18ec29af600c443e761add5221cc8d5eeede2d5eea0d2c5d0421ecaa4519111d",
+      "spoken": "ਨਾਮਜ਼ਦ ਵਿਅਕਤੀ ਬੱਚਾ ਹੋਵੇ ਤਾਂ ਮੌਜੂਦਾ ਫਾਰਮ ਦੇ ਜਨਮ-ਮਿਤੀ ਅਤੇ ਸਰਪ੍ਰਸਤ ਭਾਗ ਜਾਂਚੋ।",
+      "bytes": 26849,
+      "seconds": 6.574,
+      "sha256": "d2ff1bd9917a7aae793a57db169428ab9d0fa4c97c6313f184e8c6a971233d12"
+    },
+    "prepareAccess": {
+      "textHash": "9bc53eeb4be3804a72767b26a362c762f72f86dcd92b424b69a3c13e14c8c4b7",
+      "spoken": "ਆਪਣਾ ਖਾਤਾ ਹਵਾਲਾ ਅਤੇ ਸੰਸਥਾ ਦੀ ਅਧਿਕਾਰਤ ਸੇਵਾ ਤੱਕ ਪਹੁੰਚ। ਪਾਸਵਰਡ ਅਤੇ ਓ ਟੀ ਪੀ ਸਿਰਫ਼ ਉੱਥੇ ਵਰਤੋ।",
+      "bytes": 32226,
+      "seconds": 7.919,
+      "sha256": "9b5c4c0dba14db64a8f6b475e5dda686e5a575a082509865c867024a74e4850f"
+    },
+    "jointGuide": {
+      "textHash": "7fac4a600ae20402fb4b06ee5748504dab1a4aa53d09147007801f0d70e582af",
+      "spoken": "ਸਾਂਝੇ ਖਾਤੇ ਵਿੱਚ ਹਰ ਧਾਰਕ ਨੂੰ ਸ਼ਾਮਲ ਕਰੋ। ਭੇਜਣ ਤੋਂ ਪਹਿਲਾਂ ਸੰਸਥਾ ਤੋਂ ਲੋੜੀਂਦੀਆਂ ਦਸਤਖ਼ਤਾਂ ਅਤੇ ਮਾਧਿਅਮ ਪੁੱਛੋ।",
+      "bytes": 32799,
+      "seconds": 8.048,
+      "sha256": "bc5d60e3d763168d81b98a1a524dfef4968e58750388efe58bddb288d3855d0a"
+    },
+    "unknownContext": {
+      "textHash": "e33d5058d490bb7d9b831c4c3d68fd2fbbc096016ea807d52a04587e9f36cfe2",
+      "spoken": "ਆਨਲਾਈਨ ਰਾਹ ਚੁਣਨ ਤੋਂ ਪਹਿਲਾਂ ਸਟੇਟਮੈਂਟ ਉੱਤੇ ਧਾਰਕਾਂ ਦੇ ਨਾਂ ਅਤੇ ਖਾਤੇ ਦੀ ਕਿਸਮ ਜਾਂਚੋ। ਸੰਸਥਾ ਪਛਾਣ ਵਿੱਚ ਮਦਦ ਕਰ ਸਕਦੀ ਹੈ।",
+      "bytes": 35299,
+      "seconds": 8.688,
+      "sha256": "45f4ace2c785ea4c1e4e1fde5553880bbd13922d2a214af46a14a1627cca5337"
+    },
+    "hdfcSavings": {
+      "textHash": "970510ef2a20c0f8f0907acfdbe4863ef07bdaacb7d11936e295bcba61e4d27f",
+      "spoken": "ਐਚ ਡੀ ਐਫ ਸੀ ਨੈੱਟਬੈਂਕਿੰਗ ਵਿੱਚ ਖਾਤੇ → ਖਾਤਾ ਚੁਣੋ → ਖਾਤੇ ਦੇ ਵੇਰਵੇ → ਨਾਮਜ਼ਦ ਵਿਅਕਤੀ ਅਤੇ ਖਾਤਾਧਾਰਕ ਦੇ ਵੇਰਵੇ ਖੋਲ੍ਹੋ।",
+      "bytes": 41536,
+      "seconds": 10.244,
+      "sha256": "5d363094ef113a0649133b511a424c3381cc20ce6f8c2456e4a1caf530b41f58"
+    },
+    "hdfcDeposit": {
+      "textHash": "495ed72c7184456f89d687b56b6cfbc435bd6e3a7025f8ccf767ec73b3590dc1",
+      "spoken": "ਐਚ ਡੀ ਐਫ ਸੀ ਨੈੱਟਬੈਂਕਿੰਗ ਵਿੱਚ ਐਫ ਡੀ/ਆਰ ਡੀ → ਜਮ੍ਹਾਂ ਚੁਣੋ → ਨਾਮਜ਼ਦ ਵਿਅਕਤੀ ਸ਼ਾਮਲ ਕਰੋ ਜਾਂ ਬਦਲੋ ਲੱਭੋ। ਇਸ ਜਮ੍ਹਾਂ ਨੂੰ ਬੱਚਤ ਖਾਤੇ ਤੋਂ ਵੱਖਰਾ ਜਾਂਚੋ।",
+      "bytes": 49600,
+      "seconds": 12.257,
+      "sha256": "4e62aaa3ea445f7b1bb67eeab9fa0f7ddb0983296821167dea9caa815ff79f50"
+    },
+    "hdfcAction": {
+      "textHash": "afdd2ac35a3b8f78e6bb5793009b0f895459322ba57035bb444a828d3bb2643f",
+      "spoken": "ਇਕੱਲੇ ਧਾਰਕ ਸੰਬੰਧਿਤ ਖਾਤੇ ਦੇ ਵੇਰਵਿਆਂ ਵਿੱਚ ਨਾਮਜ਼ਦ ਵਿਅਕਤੀ ਸ਼ਾਮਲ ਕਰੋ ਜਾਂ ਬਦਲੋ ਵਰਤ ਸਕਦੇ ਹਨ। ਸਾਂਝੇ ਖਾਤੇ ਲਈ ਹੋਰ ਧਾਰਕਾਂ ਨਾਲ ਬੈਂਕ ਸ਼ਾਖਾ ਦਾ ਰਾਹ ਵਰਤੋ।",
+      "bytes": 48063,
+      "seconds": 11.869,
+      "sha256": "f2df46fa43b8e8be4e7c8bea9126ce93367c0e043d3fee6b4b14c5700e434b35"
+    },
+    "zerodhaCheck": {
+      "textHash": "45a246ed80200a0c6c06a7f93c580372759f726a26ce10459d71b53d538c920e",
+      "spoken": "ਜ਼ੇਰੋਧਾ ਕੰਸੋਲ → ਖਾਤਾ → ਨਾਮਜ਼ਦ ਵਿਅਕਤੀ ਖੋਲ੍ਹੋ। ਇਹ ਨਾਮਜ਼ਦਗੀ ਉਸ ਡੀਮੈਟ ਖਾਤੇ ਵਿੱਚ ਮਿਊਚੁਅਲ ਫੰਡਾਂ ਨੂੰ ਵੀ ਕਵਰ ਕਰਦੀ ਹੈ, ਕੌਇਨ ਸਮੇਤ।",
+      "bytes": 41153,
+      "seconds": 10.14,
+      "sha256": "f3a1ec26fbc036fd98bf5373c8ffcde46ebc0f44d638573683d035ed64907d90"
+    },
+    "zerodhaAction": {
+      "textHash": "5b39d00e40ddbbcd20fcca7fd87d571ea9678b39093afb8261fb3f2db022b793",
+      "spoken": "ਕੰਸੋਲ ਦੀਆਂ ਨਾਮਜ਼ਦਗੀ ਹਦਾਇਤਾਂ ਵਰਤੋ। ਜ਼ੇਰੋਧਾ ਸਾਂਝੇ ਧਾਰਕਾਂ ਅਤੇ ਆਧਾਰ ਨਾਲ ਜੁੜਿਆ ਮੋਬਾਈਲ ਨਾ ਹੋਣ ਵਾਲਿਆਂ ਨੂੰ ਆਫਲਾਈਨ ਫਾਰਮ ਦਿੰਦਾ ਹੈ। ਜੁੜੇ ਮਦਦ ਪੰਨੇ ਉੱਤੇ ਮੌਜੂਦਾ ਲੋੜਾਂ ਜਾਂਚੋ।",
+      "bytes": 55170,
+      "seconds": 13.639,
+      "sha256": "8941e4cfdbe9e42b0650291814f6beed13534e28d68bad291fd403abd819ab40"
+    },
+    "hdfcMfGuide": {
+      "textHash": "a08e91b3a706b438a8696ee1eaa6e93d5661d08df516beff2a3751aec60c7ec9",
+      "spoken": "ਮੌਜੂਦਾ ਬੇਨਤੀ ਫਾਰਮ ਅਤੇ ਭੇਜਣ ਦੀਆਂ ਹਦਾਇਤਾਂ ਲਈ ਐਚ ਡੀ ਐਫ ਸੀ ਮਿਊਚੁਅਲ ਫੰਡ ਦਾ ਨਾਮਜ਼ਦ ਵਿਅਕਤੀ ਦਰਜ ਕਰਨ ਦਾ ਸੇਵਾ ਪੰਨਾ ਵਰਤੋ। ਸ਼ੁਰੂ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਸਟੇਟਮੈਂਟ ਦਾ ਫੋਲੀਓ ਮਿਲਾਓ।",
+      "bytes": 59776,
+      "seconds": 14.785,
+      "sha256": "3e1eb07478486fb247aef205adb87c774d4ccf79c6ce5fbb89a49c1a34a65896"
+    },
+    "mfDematHelp": {
+      "textHash": "23db176f3183364d34ec00360e6152afc510de47a61b22a390a76916a7324d55",
+      "spoken": "ਇਹ ਯੂਨਿਟ ਡੀਮੈਟ ਖਾਤੇ ਦੀ ਨਾਮਜ਼ਦਗੀ ਵਰਤਦੇ ਹਨ। ਬ੍ਰੋਕਰ ਜਾਂ ਡੀ ਪੀ ਨਾਲ ਉਹ ਖਾਤਾ ਜਾਂਚੋ; ਵੱਖਰੀ ਫੋਲੀਓ ਨਾਮਜ਼ਦਗੀ ਲੋੜੀਂਦੀ ਨਾ ਮੰਨੋ।",
+      "bytes": 44896,
+      "seconds": 11.077,
+      "sha256": "078391d0a0eb6b197b7d965c3be0348d6fd9203083cd2a538da335729e7c3503"
+    },
+    "useDemat": {
+      "textHash": "319b10d09e8c1def7f92927a466bb25b51264fc45f6a69600021d1bf8dc83dfd",
+      "spoken": "ਡੀਮੈਟ ਖਾਤਾ ਜਾਂਚੋ",
+      "bytes": 7837,
+      "seconds": 1.803,
+      "sha256": "80c5d9cf89fde08dba546687b1e066d332bd8e8b1b77f0cdfac2bbe45347ad2a"
+    },
+    "routeFallback": {
+      "textHash": "7b349419cebffec08d8f516d93d1e7a6ebe49eefcb711dde1975fb3e181771d2",
+      "spoken": "ਇਸ ਸੰਸਥਾ ਲਈ ਆਮ ਮਾਰਗਦਰਸ਼ਨ ਹੈ। ਸਹੀ ਸਕ੍ਰੀਨ ਜਾਂ ਫਾਰਮ ਅਧਿਕਾਰਤ ਸੇਵਾ ਟੀਮ ਨਾਲ ਪੱਕਾ ਕਰੋ।",
+      "bytes": 31554,
+      "seconds": 7.733,
+      "sha256": "d0572cd084939d98493483126ecdac531dd1f168343ff360a2ee8640c71c6e3f"
+    },
+    "offlineHelp": {
+      "textHash": "9f3fd7c669dcce9a22e0647e41bd3a3e294eba8dd7a885380371288074ca4925",
+      "spoken": "ਨਿੱਜੀ ਤੌਰ ਉੱਤੇ ਜਾਣਾ ਚਾਹੁੰਦੇ ਹੋ?",
+      "bytes": 10048,
+      "seconds": 2.369,
+      "sha256": "fa9066356450c5705226d3a6f2eb5fc14e0c518c4e28d5a2308b1f5ccda45e77"
+    },
+    "offlineText": {
+      "textHash": "69c1fa4d73f0d55bdeade438aaebafbd6dd38b486826b38dcb79edf76768ec62",
+      "spoken": "ਖਾਤੇ ਜਾਂ ਫੋਲੀਓ ਦਾ ਹਵਾਲਾ ਸ਼ਾਖਾ ਜਾਂ ਅਧਿਕਾਰਤ ਸੇਵਾ ਕੇਂਦਰ ਲੈ ਜਾਓ। ਨਾਮਜ਼ਦਗੀ ਦਰਜ ਕਰਨ ਜਾਂ ਬਦਲਣ ਅਤੇ ਮਿਤੀ ਵਾਲੀ ਪ੍ਰਾਪਤੀ ਪੁਸ਼ਟੀ ਲਈ ਕਹੋ। ਜਾਣ ਤੋਂ ਪਹਿਲਾਂ ਪੁੱਛੋ ਕਿਹੜੇ ਧਾਰਕਾਂ ਦਾ ਹਾਜ਼ਰ ਹੋਣਾ ਲੋੜੀਂਦਾ ਹੈ।",
+      "bytes": 59680,
+      "seconds": 14.774,
+      "sha256": "4bce4cfebb6048fae343550087dc91b2962e55decb71c7408adc23d51ee4319d"
+    },
+    "askHelp": {
+      "textHash": "b74ac39ccf5f2c3c1c04beb0d230212019d968a7fff2859fb1a391b6dfe98985",
+      "spoken": "ਪੁੱਛਣ ਲਈ ਇੱਕ ਸਵਾਲ",
+      "bytes": 7644,
+      "seconds": 1.773,
+      "sha256": "916e34f77e768913c0ff174ae071f9a0ac7012c2e5dfd05a674584571772f7e4"
+    },
+    "askText": {
+      "textHash": "da67f215033826747950af9e473f6b44564ab21de55a0e97ded1004b54a0a65d",
+      "spoken": "ਕਿਰਪਾ ਕਰਕੇ ਜਾਂਚੋ ਕਿ ਇਸ ਖਾਤੇ ਵਿੱਚ ਨਾਮਜ਼ਦਗੀ ਦਰਜ ਹੈ। ਨਾ ਹੋਵੇ ਜਾਂ ਬਦਲਣੀ ਹੋਵੇ ਤਾਂ ਕਿਹੜਾ ਮੌਜੂਦਾ ਫਾਰਮ ਜਾਂ ਅਧਿਕਾਰਤ ਆਨਲਾਈਨ ਵਿਕਲਪ ਵਰਤਾਂ? ਨਤੀਜੇ ਦੀ ਲਿਖਤੀ ਪੁਸ਼ਟੀ ਦਿਓ।",
+      "bytes": 56604,
+      "seconds": 13.997,
+      "sha256": "48d07472e5e5cd7013fd0db7acc2361c2bad53063708fffc02d512ce210aee91"
+    },
+    "copyQuestion": {
+      "textHash": "6d95a3d2dd1294a96c68be676c914e03457b25feefe08d8679613a7824607bb6",
+      "spoken": "ਇਹ ਸਵਾਲ ਕਾਪੀ ਕਰੋ",
+      "bytes": 7457,
+      "seconds": 1.717,
+      "sha256": "aa1d61bb47e90bc23a7a1b50e11cadffa76fb8686a2063000583288aacc870a2"
+    },
+    "copied": {
+      "textHash": "7392a412c81837a240aa7a1062b9de7cc6854a754b369529f23afc217142b596",
+      "spoken": "ਕਾਪੀ ਕੀਤਾ",
+      "bytes": 5531,
+      "seconds": 1.237,
+      "sha256": "6c7f5aecdaa277e6812e2adeea90e7008f3954b6ba0c5d4fca678dc91404b099"
+    },
+    "followup": {
+      "textHash": "60ae7a887482379c0dc6622c3ff99a94a18f6dd1c29fe8a968c53cbac1ade6b5",
+      "spoken": "ਅਗਲੀ ਜਾਂਚ ਦੀ ਮਿਤੀ ਚੁਣੋ",
+      "bytes": 8797,
+      "seconds": 2.062,
+      "sha256": "52f4fa9d97cc4f066165c3d9de9052affb1727127416a587043d8d32ce432106"
+    },
+    "followupHelp": {
+      "textHash": "40787ded0128ef7eab97d674b040b3cd1581e040b4d8f3eece0150aa329b5b65",
+      "spoken": "ਇਹ ਤੁਹਾਡੀ ਆਪਣੀ ਯਾਦ ਦਿਵਾਉਣ ਦੀ ਮਿਤੀ ਹੈ, ਸੰਸਥਾ ਦੀ ਅੰਤਿਮ ਮਿਤੀ ਨਹੀਂ। ਸੂਚਨਾ ਲਈ ਆਪਣੇ ਕੈਲੰਡਰ ਵਿੱਚ ਡਾਊਨਲੋਡ ਕਰੋ।",
+      "bytes": 33665,
+      "seconds": 8.259,
+      "sha256": "f3b3400dc86b4432a25cfd06767dad2cda9e5e26139a55bd1f98eff03c3e359c"
+    },
+    "calendar": {
+      "textHash": "8827924e2dd8dcd8c6a26cc5ea613766cd678384d9af9a1adb3d98266bb2ff3a",
+      "spoken": "ਕੈਲੰਡਰ ਯਾਦ-ਸੂਚਨਾ ਡਾਊਨਲੋਡ ਕਰੋ",
+      "bytes": 10333,
+      "seconds": 2.435,
+      "sha256": "f0c80786822c728c21475c61a42b3e47721ae62b8e09089d56728fdebc093bf9"
+    },
+    "followDue": {
+      "textHash": "cba57eb7b1019025966cc3ff7890e6b91c9ed9dc84a44b624a23604caa556b84",
+      "spoken": "ਸਮੀਖਿਆ ਦਾ ਸਮਾਂ ਹੋਇਆ",
+      "bytes": 7550,
+      "seconds": 1.736,
+      "sha256": "d07132de9251aee7c7e4f2f22fa29ebd7be78b4d28d9d5a9744db9e0492945bb"
+    },
+    "requestHelp": {
+      "textHash": "798c24f511f011d3895ee2da07eb69ddc16fcbbf95a9468ea4860c4220fea3a6",
+      "spoken": "ਬੇਨਤੀ ਨੂੰ ਮਦਦ ਚਾਹੀਦੀ ਹੈ",
+      "bytes": 9376,
+      "seconds": 2.204,
+      "sha256": "ce72a930d3eb8df4e5a7fccefc38f7d3028166ed2c76506fb20c096b5e4fee3e"
+    },
+    "blockedHelp": {
+      "textHash": "5a4f201050c7db11ff416c43a4a0462798e242d8f4389a87a85a606a4cb637de",
+      "spoken": "ਸੰਸਥਾ ਦਾ ਜਵਾਬ ਰੱਖੋ। ਪੁੱਛੋ ਕੀ ਕਮੀ ਹੈ, ਕਿਹੜਾ ਸੁਧਾਰ ਲੋੜੀਂਦਾ ਹੈ ਅਤੇ ਮੁੜ ਕਿਵੇਂ ਭੇਜਣਾ ਹੈ। ਰੱਦ ਜਾਂ ਅਧੂਰੀ ਬੇਨਤੀ ਦਰਜ ਨਾਮਜ਼ਦਗੀ ਨਹੀਂ ਹੈ।",
+      "bytes": 46816,
+      "seconds": 11.551,
+      "sha256": "bcbfa4c4b6c5d57b2c963d959571294350a472718eb09f59dadb7170d3ca5bd2"
+    },
+    "recheck": {
+      "textHash": "bc0553fb57f16459789e66d939e211eed3220bb8621b9721ee4f62392de4814e",
+      "spoken": "ਮੁੜ ਜਾਂਚੋ",
+      "bytes": 5148,
+      "seconds": 1.139,
+      "sha256": "5ec4f433c9dc1d4826d8ffc6b1deb15d8f02a8c439bd9a8e24ed7e054816b1c4"
+    },
+    "familyRecord": {
+      "textHash": "78daee87b0528673c89d945ff23febdd6d9a2d8e10996d4fd239295b48902389",
+      "spoken": "ਤੁਹਾਡਾ ਪਰਿਵਾਰਕ ਰਿਕਾਰਡ",
+      "bytes": 7841,
+      "seconds": 1.805,
+      "sha256": "b82a0ffda15ca167d4d25fd962896712f2ba5ae64f49961c252f0632becae00c"
+    },
+    "familyHelp": {
+      "textHash": "acde750c13730000c69934dd089619f5ec3c6ba1d222a1da0cab23b786073c7d",
+      "spoken": "ਸਿਰਫ਼ ਉਹ ਜੋੜੋ ਜੋ ਪਰਿਵਾਰ ਨੂੰ ਖਾਤਾ ਪਛਾਣਨ ਅਤੇ ਰਿਕਾਰਡ ਲੱਭਣ ਵਿੱਚ ਮਦਦ ਕਰੇ। ਨਿੱਜੀ ਵੇਰਵੇ ਛੱਡ ਸਕਦੇ ਹੋ।",
+      "bytes": 36735,
+      "seconds": 9.037,
+      "sha256": "34fa7032eab99ff9d814b7ebe7fabacf0c71690f8071dbc1d60340d84bce85e6"
+    },
+    "recordLocation": {
+      "textHash": "598b68dbf12d629369459f9b69ea9bcd25e90684aa432298c0a9348f484ac063",
+      "spoken": "ਪਰਿਵਾਰ ਰਿਕਾਰਡ ਕਿੱਥੇ ਲੱਭ ਸਕਦਾ ਹੈ? (ਚੋਣਵਾਂ)",
+      "bytes": 14371,
+      "seconds": 3.445,
+      "sha256": "e0c7e24b34b3b0a69d8ab30d4e77dc331d3a2a056c58b4a373f85afcff6abeaf"
+    },
+    "locationHelp": {
+      "textHash": "b51b26990d52410f832cbb2d0fb60bd4cb31bd317a9004e2e4684b55fc811262",
+      "spoken": "ਉਦਾਹਰਨ: ਘਰ ਵਿੱਚ ਨੀਲਾ ਫੋਲਡਰ। ਇਹ ਥਾਂ ਪਰਿਵਾਰਕ ਪੱਤਰਕ ਵਿੱਚ ਸ਼ਾਮਲ ਹੈ। ਪਾਸਵਰਡ ਜਾਂ ਪੂਰੇ ਖਾਤਾ ਨੰਬਰ ਨਾ ਜੋੜੋ।",
+      "bytes": 37025,
+      "seconds": 9.101,
+      "sha256": "79b0ee00efbb453af3ff8f6998b14ff7b5e38e61f2c1f9ac29600f732ce77327"
+    },
+    "addNomineeNote": {
+      "textHash": "c7d6864d383379726587d52fd1042798b14eaa31a8f4d8b15f2b134fb8cc23ca",
+      "spoken": "ਹੋਰ ਨਾਮਜ਼ਦ ਵਿਅਕਤੀ ਦੀ ਟਿੱਪਣੀ ਜੋੜੋ",
+      "bytes": 13507,
+      "seconds": 3.227,
+      "sha256": "112b3a91a28d4578dbb901c03499bac6d8e0fb548779bfd0dd23ff3656ad3d59"
+    },
+    "optionalDetails": {
+      "textHash": "1263e4b226963f5278340d906e047a9c5fd7f1a16a99c06d88104b0ec30de8ec",
+      "spoken": "ਪਰਿਵਾਰਕ ਵੇਰਵੇ ਚੋਣਵੇਂ ਹਨ",
+      "bytes": 8804,
+      "seconds": 2.05,
+      "sha256": "9fdc6626b9360963bb5d126f399384c4dc067e25e9cbcdaafe5165782c0de13f"
+    },
+    "notProvided": {
+      "textHash": "9593e939c9ec194d697fbe7c3ec4b4fbf6b3fab8e006afeaf08a369069826da8",
+      "spoken": "ਇਸ ਸੂਚੀ ਵਿੱਚ ਨਹੀਂ ਜੋੜਿਆ",
+      "bytes": 10624,
+      "seconds": 2.52,
+      "sha256": "15cf741ac40a64998415354131b2a3615f728b0b10d308725b023893fe83547c"
+    },
+    "unsaved": {
+      "textHash": "aa11f4ab091679b2b4d31702d06d189136d031dea66c18a31d1f1ba391ff9d1e",
+      "spoken": "ਤਬਦੀਲੀਆਂ ਬਾਅਦ ਲਈ ਨਹੀਂ ਸੰਭਾਲੀਆਂ",
+      "bytes": 11004,
+      "seconds": 2.598,
+      "sha256": "36832e4cd260d7fc1d10722db6b0def2d04c9e36c9f20aa32baf22c7ea73780a"
+    },
+    "savedStatus": {
+      "textHash": "0a1d12b247183819f182121b3a2a5cfd45c5b8d2dd495329663f31e557cf24f9",
+      "spoken": "ਡਾਊਨਲੋਡ ਕੀਤੀ ਫਾਈਲ ਵਿੱਚ ਸੰਭਾਲਿਆ",
+      "bytes": 15808,
+      "seconds": 3.813,
+      "sha256": "ebe6998779f426068191b99a95fd483e87f4d0d431e53254fc4214c5aecae2fe"
+    },
+    "passwordAgain": {
+      "textHash": "36312a66c01027b77884f7cb8172e9586656980984cc0f30a7bf826ceb7b3261",
+      "spoken": "ਪਾਸਵਰਡ ਮੁੜ ਭਰੋ",
+      "bytes": 6498,
+      "seconds": 1.472,
+      "sha256": "e950d057055f09cca2f48fcd3daea3df9714de77fe6c8ef1c0f4a44633f9d855"
+    },
+    "passwordMismatch": {
+      "textHash": "f09960c477da9fe28b8864ea1323987229aa1b275c4094162b28614efe35c937",
+      "spoken": "ਪਾਸਵਰਡ ਮੇਲ ਨਹੀਂ ਖਾਂਦੇ।",
+      "bytes": 8613,
+      "seconds": 2.007,
+      "sha256": "534ef81a2baa5fcaa6e572c3c3a4a868db34f1215d781030f06baf0cc5045289"
+    },
+    "showPassword": {
+      "textHash": "b4202327ec22df02ff32c29dc3ad12a8e13f800bac47fa8b2633a34a863882c9",
+      "spoken": "ਪਾਸਵਰਡ ਦਿਖਾਓ",
+      "bytes": 6209,
+      "seconds": 1.398,
+      "sha256": "6572c449c33bbd16f4faf7e3d565bbc372102562035ae8657247e497ed7523fe"
+    },
+    "saveTip": {
+      "textHash": "611818447a5449a9289e95ad7a47b5a1d084f0aab6b8b3dc60319bd64d32000f",
+      "spoken": "ਡਾਊਨਲੋਡ ਤੋਂ ਬਾਅਦ ਡਾਊਨਲੋਡ ਫੋਲਡਰ ਵਿੱਚ ਆਪਣੀ .ਵਿਰਾਸਤ ਫਾਈਲ ਲੱਭੋ। ਪਾਸਵਰਡ ਵੱਖਰਾ ਰੱਖੋ। ਨਵੀਆਂ ਤਬਦੀਲੀਆਂ ਮੁੜ ਸੰਭਾਲਣੀਆਂ ਪੈਂਦੀਆਂ ਹਨ।",
+      "bytes": 43740,
+      "seconds": 10.782,
+      "sha256": "1590ca799553b5327e7caed9b9bdb50da7ca1f2e3903e6f8531b83e7d335f38f"
+    },
+    "evidenceScope": {
+      "textHash": "763994e97eeb7fa6a365fe155704351d38600d7ed4339610617df30f6bb4745e",
+      "spoken": "ਰਿਕਾਰਡ ਕੀ ਦਿਖਾਉਂਦਾ ਹੈ?",
+      "bytes": 8034,
+      "seconds": 1.85,
+      "sha256": "6318387b83b287edce0acdf7a70c555ff04c1515c574a958449424d201d642cc"
+    },
+    "statusOnly": {
+      "textHash": "1f88b3740c5b8dfddcdecc1efbff4f8e7bd5169fae2c8855eb73ab4ef234086f",
+      "spoken": "ਇਸ ਵਿੱਚ ਨਾਮਜ਼ਦਗੀ ਦਰਜ ਹੋਣਾ ਲਿਖਿਆ ਹੈ",
+      "bytes": 12255,
+      "seconds": 2.917,
+      "sha256": "724749dc7a7ee0be4ad348776483e8dd50fb28ec7c8d3796576b6ffb1abd20eb"
+    },
+    "detailsChecked": {
+      "textHash": "00a76779fa1ab197c0d459da5b242508fe804a760c9ea8835ef82c8ac983cd44",
+      "spoken": "ਮੈਂ ਨਾਮਜ਼ਦ ਵਿਅਕਤੀ ਦੇ ਵੇਰਵੇ ਵੀ ਜਾਂਚੇ",
+      "bytes": 14467,
+      "seconds": 3.456,
+      "sha256": "e01640383ddfb70e71f48d566f10aa6b098dc268af29938449fdd61907a231c1"
+    },
+    "receiptExample": {
+      "textHash": "5148109f138a5f4d71e3073e94dfcf2b5ae5fbdc9b2ed5e8c92f2ea464e5554b",
+      "spoken": "“ਤੁਹਾਡੀ ਬੇਨਤੀ ਮਿਲ ਗਈ” ਦਾ ਅਰਥ ਬੇਨਤੀ ਹਾਲੇ ਲੰਬਿਤ ਹੈ।",
+      "bytes": 15139,
+      "seconds": 3.642,
+      "sha256": "3924f5728526f7818d067b463a78777d345f57cb00d294a8942af767634b2835"
+    },
+    "registeredExample": {
+      "textHash": "d36802dc1e690e8d87008b2718df9a52b1b899aae40dcfa6b500919985601b16",
+      "spoken": "“ਨਾਮਜ਼ਦਗੀ ਦਰਜ” ਜਾਂ “ਨਾਮਜ਼ਦਗੀ: ਹਾਂ” ਦਰਜ ਹੋਣਾ ਦੱਸਦਾ ਹੈ। ਜਾਂਚੋ ਕਿ ਇਸ ਖਾਤੇ ਦੀ ਪਛਾਣ ਦਿੱਤੀ ਹੈ।",
+      "bytes": 31846,
+      "seconds": 7.806,
+      "sha256": "6d16aa4898c1c7aede4160004ab60a037c6cf6e30c17dc7a04eda7d1fb4e8dff"
+    },
+    "seeEvidence": {
+      "textHash": "e130f6e422011f0ff4f4fa11f745cbc28112eb0d3f5cf8f1cecc424ea1a89678",
+      "spoken": "ਪੁਸ਼ਟੀ ਵਜੋਂ ਕੀ ਮੰਨਿਆ ਜਾਂਦਾ ਹੈ?",
+      "bytes": 9568,
+      "seconds": 2.247,
+      "sha256": "b9120c48d214d5ad780d803b3f8cdb995652611460cf020c75bac73fbff2da78"
+    },
+    "fictionalExample": {
+      "textHash": "9b212e957fa2ac15748adb91e8ba7bbaee1e4714607d442e26ca2a839f0ced07",
+      "spoken": "ਸਿਰਫ਼ ਸਮਝਾਉਣ ਲਈ ਨਮੂਨਾ ਲਿਖਤ",
+      "bytes": 10341,
+      "seconds": 2.427,
+      "sha256": "30bcb8b32827b2322bfb82da5a722dc412e491705999fa1393b6efee490120dd"
+    },
+    "pause": {
+      "textHash": "ec73ee627edba6d38c35ddd7dcc05d18537348d6de7c2d87ae610cd972d0d12c",
+      "spoken": "ਵਿਰਾਮ",
+      "bytes": 4090,
+      "seconds": 0.868,
+      "sha256": "0f892195d952668a0c06a974d562ec7ee00c15d4c753127596af3eff97a300e3"
+    },
+    "resumeAudio": {
+      "textHash": "f268b4981d1c3794b189b2b7354a02784a223ba60f3e6d68f53f95e9946045b1",
+      "spoken": "ਸੁਣਨਾ ਜਾਰੀ ਰੱਖੋ",
+      "bytes": 7360,
+      "seconds": 1.683,
+      "sha256": "638351d7abeeb4af9468d4af82bb177f8580e42bffca91f6500bbe0cf8d4d8f5"
+    },
+    "stop": {
+      "textHash": "80e1ff41a7e99f23d722be0966a552468f2e92da1d787abf68d483b3cb925692",
+      "spoken": "ਰੋਕੋ",
+      "bytes": 4089,
+      "seconds": 0.885,
+      "sha256": "7531736a7607980b5c3b2543ad853ce0cf27d864e97f71fc3abb037f6d598be4"
+    },
+    "listening": {
+      "textHash": "e1012a56174350fcf4a66012ee0a91a0a0d45f3b37528fa69cbf0d7d89590217",
+      "spoken": "ਪੰਨਾ ਪੜ੍ਹਿਆ ਜਾ ਰਿਹਾ ਹੈ",
+      "bytes": 7454,
+      "seconds": 1.711,
+      "sha256": "7d777baaf357dac5e9d1f0436f76fdbebcf2d5a0582f4a79f47f6e3be59f0b26"
+    },
+    "finishedAudio": {
+      "textHash": "7bd0f7c5150cde0e30bde06379db4a3a3e2bf6237cec3ec835aa89cdf5cba266",
+      "spoken": "ਪੜ੍ਹਨਾ ਮੁੱਕਿਆ",
+      "bytes": 5538,
+      "seconds": 1.235,
+      "sha256": "d0fc97f8e3ba40f6047e09cb10042b50edcef83ec97494efb879e7d90ba456bf"
+    },
+    "voice": {
+      "textHash": "ef022e6e799863298bf88060cadb39b213d61b85c74bdbea756b3f7dd765ad2f",
+      "spoken": "ਸੁਣਨਾ",
+      "bytes": 4378,
+      "seconds": 0.945,
+      "sha256": "a04be8dd3bdc85bf15e60a1a8df190050169b862c3529dc9f0c76b1a369ddfdd"
+    },
+    "speed": {
+      "textHash": "5b9ce8cab0942d92c2fc2418da37ef628f3f9cbcacffcb0a0eb1d18375055c56",
+      "spoken": "ਪੜ੍ਹਨ ਦੀ ਰਫ਼ਤਾਰ",
+      "bytes": 6490,
+      "seconds": 1.478,
+      "sha256": "7dcad1c8d2115ada7e72b334e2361c59338e1a59eaa30285b88977bf8b4b2676"
+    },
+    "slower": {
+      "textHash": "f09c31b09461986653e54ab41dc34bd4eb6dd48c270707529892efb378b471e0",
+      "spoken": "ਹੌਲੀ",
+      "bytes": 4091,
+      "seconds": 0.877,
+      "sha256": "dd4e59f66dc8efe61d85ff5d0bce443d65d5302c641f6083d286c00ad796c3aa"
+    },
+    "normalSpeed": {
+      "textHash": "514db234832cce1793273e2fc8de9020dc84be8fec2d1e370cec9f4ad12ba583",
+      "spoken": "ਸੁਭਾਵਿਕ",
+      "bytes": 4864,
+      "seconds": 1.058,
+      "sha256": "0e9695e741c04895cee352e239dec8c445dbf560d7232b4f6dd279623bfa0081"
+    },
+    "faster": {
+      "textHash": "c632383c7fa355b663c673d5e2d40eedcd5ef53fe30d9eb000dc39f25165e7c1",
+      "spoken": "ਤੇਜ਼",
+      "bytes": 3611,
+      "seconds": 0.759,
+      "sha256": "6d60cce8f571ace6e6364d20a561332862a47a1de7f7fe9df5f024e6cf347653"
+    },
+    "previewVoice": {
+      "textHash": "476d75ee68f5047a4c209c224d8fa85c45f2a3978613540498c3f36c01108568",
+      "spoken": "ਆਵਾਜ਼ ਦਾ ਨਮੂਨਾ ਸੁਣੋ",
+      "bytes": 7745,
+      "seconds": 1.781,
+      "sha256": "5ccaa9c19b54493491edd69bcc24a90d67176eaf3c43bbda68e8a86ab29411e6"
+    },
+    "voicePreview": {
+      "textHash": "b3a4981a18b1607d28065ca8b8bbe4d6082cb56ab0f9868349cb369c511f2179",
+      "spoken": "ਮੈਂ ਤੁਹਾਡੀ ਭਾਸ਼ਾ ਵਿੱਚ ਇੱਕ ਵਾਰ ਇੱਕ ਕਦਮ ਦੀਆਂ ਹਦਾਇਤਾਂ ਪੜ੍ਹਾਂਗਾ।",
+      "bytes": 18785,
+      "seconds": 4.551,
+      "sha256": "c0127efc98ecefcefd13b82b30c7f2d7f5fa4dc78ce6bd9917491bd6b57e78d0"
+    },
+    "voiceHelp": {
+      "textHash": "2069ed0eb37f76c927825fb78093e5e7fbca6223f1028075ca675c9439860d35",
+      "spoken": "ਲਿਖਤੀ ਮਾਰਗਦਰਸ਼ਨ ਉਪਲਬਧ ਹੈ। ਇਸ ਭਾਸ਼ਾ ਵਿੱਚ ਆਡੀਓ ਹਾਲੇ ਉਪਲਬਧ ਨਹੀਂ ਹੈ।",
+      "bytes": 28766,
+      "seconds": 7.045,
+      "sha256": "60dd07d07428b603519808afb7670eb2967c0b024364247da3e1a3cf3162168f"
+    },
+    "speechError": {
+      "textHash": "48aaa5ed0ddbd35036df651e830646d688240169c2490f4a2f546cb91f2bf223",
+      "spoken": "ਆਡੀਓ ਲੋਡ ਨਹੀਂ ਹੋ ਸਕਿਆ। ਕਨੈਕਸ਼ਨ ਜਾਂਚ ਕੇ “ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ” ਦਬਾਓ। ਤੁਹਾਡੀ ਥਾਂ ਸੰਭਾਲੀ ਹੈ।",
+      "bytes": 31936,
+      "seconds": 7.827,
+      "sha256": "e53e63dde2edac98be0173cca2b1b3b0db93c365a02c46302ed5f6c1b26e7c25"
+    },
+    "readingSettings": {
+      "textHash": "031b627a9349521490af56ae09e651600bbab3505241d5039df86bb823f4f976",
+      "spoken": "ਪੜ੍ਹਨਾ ਅਤੇ ਸੁਣਨਾ",
+      "bytes": 7076,
+      "seconds": 1.61,
+      "sha256": "a58d5fd99d26a7275d308641bad18ba12d793d0f809b8963484a988971a4cfa6"
+    },
+    "appearance": {
+      "textHash": "6469fb2cad813834ecf4c464d380da3c913e8e4579aead0ed3193984dcfa8716",
+      "spoken": "ਪੜ੍ਹਨ ਦੀ ਸਹੂਲਤ",
+      "bytes": 6303,
+      "seconds": 1.436,
+      "sha256": "870e46296b7c87512cb585579e0ce089305a5371f9bd1efc5783c0768339e8c9"
+    },
+    "lineSpacing": {
+      "textHash": "f4325567c3e0c38bb1572042cbd3d41130af04de0b1e847daa1e7a6cc30febcf",
+      "spoken": "ਲਾਈਨਾਂ ਵਿਚਕਾਰ ਵੱਧ ਥਾਂ",
+      "bytes": 8992,
+      "seconds": 2.094,
+      "sha256": "246d3e9b3311e8a0ee739f4329d79e5516d05a25212b3f36b0345bc4c192d039"
+    },
+    "resetSettings": {
+      "textHash": "2ce1466b1d15dd45913c99243099a7d1b91dcc1331f5a9f191f59df94bb938bb",
+      "spoken": "ਪੜ੍ਹਨ ਦੀਆਂ ਸੈਟਿੰਗਾਂ ਮੁੜ ਮੂਲ ਕਰੋ",
+      "bytes": 9666,
+      "seconds": 2.269,
+      "sha256": "90d7ce36e5b808aacd6f4387f931e41efba99b453587a3600e69946862b2b9f9"
+    },
+    "languageHelp": {
+      "textHash": "df208ff3a3e9d2bb457fbdaecd90202624c9207312f9b034ee65a71cb93b3b17",
+      "spoken": "ਕਿਸੇ ਵੀ ਵੇਲੇ ਭਾਸ਼ਾ ਬਦਲੋ। ਤੁਹਾਡਾ ਕੰਮ ਰਹਿੰਦਾ ਹੈ।",
+      "bytes": 15137,
+      "seconds": 3.636,
+      "sha256": "921e30968eca34c3685a386173412835398a89eed3bd1abbecf0dd23c38c9952"
+    },
+    "removeNote": {
+      "textHash": "7cd13f8c3abd7de56884864983d428ed41465222df0c964e3d4477eda708a1be",
+      "spoken": "ਇਹ ਟਿੱਪਣੀ ਹਟਾਓ",
+      "bytes": 6591,
+      "seconds": 1.499,
+      "sha256": "9da990d007730daacd5482037d4927e6b348a0ccd0c08d3104d75b7baf588a70"
+    },
+    "optoutHelp": {
+      "textHash": "453d612ca832fdf867a9c677cdef1c781454b2c184463f210bca88a6c25a14cb",
+      "spoken": "ਇਹ ਸਿਰਫ਼ ਇਸ ਸੂਚੀ ਵਿੱਚ ਧਾਰਕ ਦੀ ਚੋਣ ਦਰਜ ਕਰਦਾ ਹੈ। ਨਾਮਜ਼ਦਗੀ ਨਾ ਕਰਨ ਦੀ ਰਸਮੀ ਕਾਰਵਾਈ ਸੰਸਥਾ ਵਿੱਚ ਪੂਰੀ ਕਰਨੀ ਪੈਂਦੀ ਹੈ। ਬਾਅਦ ਵਿੱਚ ਚੋਣ ਮੁੜ ਵਿਚਾਰ ਸਕਦੇ ਹੋ।",
+      "bytes": 45567,
+      "seconds": 11.243,
+      "sha256": "b494e33d189336998c6cfb34930d6506bea2af83fe596315e1b1644f5bb192b6"
+    },
+    "chooseType": {
+      "textHash": "08bf3d177ee1e7d224bef65deabf88569983e82249d8c889a5684ba8e736a4dd",
+      "spoken": "ਜਾਰੀ ਰੱਖਣ ਲਈ ਖਾਤੇ ਦੀ ਕਿਸਮ ਚੁਣੋ।",
+      "bytes": 13503,
+      "seconds": 3.219,
+      "sha256": "d12ff0c062d8223542bd8560209fcd0dad566f4606832afc2a1deadc4fdb79fa"
+    },
+    "currentRecord": {
+      "textHash": "9ea48fb707b5a908ac7435092eb7e7609ccb4934b98fe243a6f127105aa362b2",
+      "spoken": "ਹੁਣ ਕੀ ਦਰਜ ਹੈ",
+      "bytes": 6690,
+      "seconds": 1.528,
+      "sha256": "bbbcfa922c069e956740367187b6f132d7e4d1c018a37b521ada31b4c14a386b"
+    },
+    "history": {
+      "textHash": "e8090d9f772c7f5ca4d76a096557c3927486f835e8467cb95142eab3b1159928",
+      "spoken": "ਤੁਹਾਡੇ ਅੱਪਡੇਟ",
+      "bytes": 6492,
+      "seconds": 1.47,
+      "sha256": "5a34e9428c225cb510ec32e8c1b34be8b971e50f35df482fbf7eec531bd20de0"
+    },
+    "reviewDate": {
+      "textHash": "5ebdf055e1768f20195948cb0bf21881f0e478116f064cf63e5a8ca89e7f1a6f",
+      "spoken": "ਅਗਲੀ ਸਮੀਖਿਆ",
+      "bytes": 6207,
+      "seconds": 1.404,
+      "sha256": "1d8c1a366eb6da419d4b84d8ef155fca749c3bbc746b1960ff852654a06c595e"
+    },
+    "shareNames": {
+      "textHash": "6f25bf01a0cccdc7324b66eb9ab76fdc19e33dfe467165822a4158276ac0bd5f",
+      "spoken": "ਪਰਿਵਾਰ ਅਤੇ ਨਾਮਜ਼ਦ ਵਿਅਕਤੀ ਦੀਆਂ ਟਿੱਪਣੀਆਂ ਜੋੜੋ",
+      "bytes": 16671,
+      "seconds": 4.018,
+      "sha256": "db1d4faed8558a8b97bbafc9b54ea18a63b88148e543713403b979ca5e90f921"
+    },
+    "shareLocation": {
+      "textHash": "205adea7f7067f850270a31212a4999e86ebdd4deb6199168e6b0e7c6a0a4421",
+      "spoken": "ਰਿਕਾਰਡ ਦੀ ਥਾਂ ਸ਼ਾਮਲ ਕਰੋ",
+      "bytes": 8706,
+      "seconds": 2.019,
+      "sha256": "8e2ce53c1e2368f71ed6864c10cfab143cd424520c811aae9083b83162f6020d"
+    },
+    "shareHelp": {
+      "textHash": "2a4c8d85b6bf438a9368f51c2a31a3ee00a87285677f7b6e697b948e6ef175e3",
+      "spoken": "ਸ਼ਾਮਲ ਕਰਨ ਲਈ ਚੁਣੋ ਅਤੇ ਹੇਠਾਂ ਪੱਤਰਕ ਜਾਂਚੋ। ਡਾਊਨਲੋਡ ਨਕਲ ਪਾਸਵਰਡ ਨਾਲ ਸੁਰੱਖਿਅਤ ਨਹੀਂ।",
+      "bytes": 29342,
+      "seconds": 7.184,
+      "sha256": "ae23c37cbc8044a4711b990af031392be23e7ffab1b8359487a6654f56ced10d"
+    },
+    "helpScope": {
+      "textHash": "7fa57be59134d02ab5a2afb8e40af8fe4e6e63c9540fed41edd9230d526d94b6",
+      "spoken": "ਕਿਸੇ ਦੀ ਮੌਤ ਤੋਂ ਬਾਅਦ ਮਦਦ ਕਰ ਰਹੇ ਹੋ?",
+      "bytes": 11582,
+      "seconds": 2.753,
+      "sha256": "98a68850de8ce64d930c17fe505283fd18d1fbf8b78274cf884c2363676acd72"
+    },
+    "helpScopeText": {
+      "textHash": "5f6c3f5a2fbaa5866ab3f1c7bb0963f744f49a33d9d2003ad356b3f0da84264e",
+      "spoken": "ਇਹ ਕਾਰਵਾਈ ਜੀਵਿਤ ਧਾਰਕ ਦੀ ਨਾਮਜ਼ਦਗੀ ਲਈ ਹੈ। ਮੌਤ ਹੋ ਚੁੱਕੀ ਹੋਵੇ ਤਾਂ ਸੰਸਥਾ ਤੋਂ ਮ੍ਰਿਤ ਧਾਰਕ ਦੇ ਦਾਅਵੇ ਜਾਂ ਸੰਪਤੀ ਤਬਾਦਲੇ ਦੀ ਕਾਰਵਾਈ ਪੁੱਛੋ। ਉਸ ਵੱਲੋਂ ਨਵੀਂ ਨਾਮਜ਼ਦਗੀ ਸ਼ੁਰੂ ਨਾ ਕਰੋ।",
+      "bytes": 54114,
+      "seconds": 13.383,
+      "sha256": "b000d4d2e853a08eb420d879ff956db9fdc9bcc5912d8a18b36005874eceebaf"
+    },
+    "openDevice": {
+      "textHash": "9ba5325c771e28e950847443833c57816d4f6347186a0d0d38253012de3a39a2",
+      "spoken": "ਇਸ ਜੰਤਰ ਉੱਤੇ ਤਾਲਾਬੰਦ ਨਕਲ ਖੋਲ੍ਹੋ",
+      "bytes": 13407,
+      "seconds": 3.193,
+      "sha256": "b742a04cb33731249771c8b94fbac145f0e1522247c8d378e54fb8169a1f3a5d"
+    },
+    "keepDevice": {
+      "textHash": "644cc964b7adf0238eaec3d81a8f120d40044212d9d5ea9f946ba81763662dae",
+      "spoken": "ਇਸ ਜੰਤਰ ਉੱਤੇ ਵੀ ਤਾਲਾਬੰਦ ਨਕਲ ਰੱਖੋ",
+      "bytes": 11967,
+      "seconds": 2.835,
+      "sha256": "51c5506418ab2de936bdac8ecd2bd6a2ef57e0460ccd1796971d0186ba2d06f4"
+    },
+    "deviceHelp": {
+      "textHash": "b4ef73870b78f9971d63ed6a97554138837e38b3072813bf5f5f1de15af4ad55",
+      "spoken": "ਚੋਣਵਾਂ: ਇਸ ਬ੍ਰਾਊਜ਼ਰ ਵਿੱਚ ਪਾਸਵਰਡ ਨਾਲ ਸੁਰੱਖਿਅਤ ਨਕਲ ਰੱਖੋ। ਤਬਦੀਲੀਆਂ ਤੋਂ ਬਾਅਦ ਮੁੜ ਸੰਭਾਲੋ। ਸਾਂਝੇ ਜੰਤਰ ਉੱਤੇ ਇਹ ਬੰਦ ਰੱਖੋ। ਅਸੀਂ ਤੁਹਾਡਾ ਪਾਸਵਰਡ ਨਹੀਂ ਸੰਭਾਲਦੇ।",
+      "bytes": 53535,
+      "seconds": 13.238,
+      "sha256": "bc8a4c6afdfaa5dff187d4bd888a4ee09329611bab7bb75f3f180c8aab60c238"
+    },
+    "forgetDevice": {
+      "textHash": "fbfc150d650a4c8317b5bcdc3bd8e7033fc4964e0d1e74978c9186d336dbf018",
+      "spoken": "ਇਸ ਜੰਤਰ ਤੋਂ ਸੰਭਾਲੀ ਨਕਲ ਹਟਾਓ",
+      "bytes": 10913,
+      "seconds": 2.578,
+      "sha256": "bfbda644c1e92693b89691988d24f217a48809803a6102b1a922ae0d4be816f3"
+    },
+    "forgetDeviceAsk": {
+      "textHash": "238d7301f0c40a73d0f878092d3d24a846e8ad405aa41c494d51aeb4aad36f23",
+      "spoken": "ਇਸ ਜੰਤਰ ਦੀ ਤਾਲਾਬੰਦ ਨਕਲ ਹਟਾਉਣੀ ਹੈ? ਡਾਊਨਲੋਡ ਫਾਈਲਾਂ ਰਹਿਣਗੀਆਂ।",
+      "bytes": 20132,
+      "seconds": 4.891,
+      "sha256": "3adee9a00eebcfb9f01a53607066aa1e5397489ef26ad7fd2c403f194c9ccc06"
+    },
+    "deviceUnavailable": {
+      "textHash": "319e643b4fdcb0be4d294158d19a7461791936c927f051d4ad90e75a90b59a27",
+      "spoken": "ਫਾਈਲ ਡਾਊਨਲੋਡ ਹੋਈ ਪਰ ਬ੍ਰਾਊਜ਼ਰ ਜੰਤਰ ਦੀ ਨਕਲ ਨਹੀਂ ਰੱਖ ਸਕਿਆ। ਵਾਪਸ ਆਉਣ ਲਈ ਡਾਊਨਲੋਡ ਫਾਈਲ ਵਰਤੋ।",
+      "bytes": 31078,
+      "seconds": 7.615,
+      "sha256": "dbf9a6f599da208bb82c90facf95713f4db3406960f856e0ec2daa7458d2e1fa"
+    },
+    "chooseFile": {
+      "textHash": "d463f9067927f7384c8ffbdfc7ffe8291a34f8745d1e671033e3596be343f0ff",
+      "spoken": "ਸੰਭਾਲੀ .ਵਿਰਾਸਤ ਫਾਈਲ ਜਾਂ ਜੰਤਰ ਦੀ ਨਕਲ ਚੁਣੋ।",
+      "bytes": 18591,
+      "seconds": 4.498,
+      "sha256": "b128fbb59e97dd617e61db9cf03606c8adf86c373e8786667cfb0a28eaa9b5a2"
+    },
+    "replaceDraft": {
+      "textHash": "79f9684e02e01474ed37ff709277be6954240c9db7e18ca408cbc05f16e49d6b",
+      "spoken": "ਹੋਰ ਖਾਤਾ ਸ਼ੁਰੂ ਕਰਨਾ ਹੈ? ਅਧੂਰਾ ਖਾਤਾ ਬਦਲ ਦਿੱਤਾ ਜਾਵੇਗਾ।",
+      "bytes": 18497,
+      "seconds": 4.475,
+      "sha256": "148841d74fe5eaa69398d87463c6c85f1566470b47ae16b52efdf0f5ec6f974e"
+    },
+    "replaceList": {
+      "textHash": "28c30559a45756eb2774dac65359cf89e58dd88539b07e1668e98c16b53e80b6",
+      "spoken": "ਹੋਰ ਸੂਚੀ ਖੋਲ੍ਹਣ ਨਾਲ ਇਹ ਸੈਸ਼ਨ ਬਦਲੇਗਾ। ਲੋੜ ਹੋਵੇ ਤਾਂ ਪਹਿਲਾਂ ਆਪਣਾ ਕੰਮ ਸੰਭਾਲੋ।",
+      "bytes": 26368,
+      "seconds": 6.445,
+      "sha256": "e433cfa1a16a9829f4b92ce112d9790411761fbd16570500a316d1118e0d7ec7"
+    },
+    "validFollowup": {
+      "textHash": "79b59cdf07064850c5e53f0790548df2e6c507140fc50a0524059bdd85da5a63",
+      "spoken": "ਅਸਲੀ ਮਿਤੀ ਭਰੋ ਜਾਂ ਤਿੰਨੇ ਖਾਨੇ ਖਾਲੀ ਛੱਡੋ।",
+      "bytes": 15522,
+      "seconds": 3.721,
+      "sha256": "39723e1a1f0812365a42d808b734dfcf8f87371d607d9721bec12c2752af39ea"
+    },
+    "seeNext": {
+      "textHash": "4d9282bb0c56da2a79a027d1e53e6f3b20417d735dfe4340642f0c07d8d3bef0",
+      "spoken": "ਮੇਰਾ ਅਗਲਾ ਕਦਮ ਵੇਖੋ",
+      "bytes": 8508,
+      "seconds": 1.987,
+      "sha256": "dcfaf90eeb88cd4bda7abe7d30f15c40eb704236fb331c796edae38a62f78f1f"
+    },
+    "unfinishedChanges": {
+      "textHash": "702e80b371330b34b167345c675c7b15723ac3fd0f7360709333a624d4a1c27b",
+      "spoken": "ਅਧੂਰੀਆਂ ਤਬਦੀਲੀਆਂ ਜਾਰੀ ਰੱਖੋ",
+      "bytes": 9670,
+      "seconds": 2.262,
+      "sha256": "020069db59fcbe17c6a5799c743bd8c7f94226d6c0bd9534eab500999bde08b7"
+    },
+    "linked": {
+      "textHash": "27a498297828de47cbca128f4a16ed7332e5af92fa295727b679bf9ce8be424f",
+      "spoken": "ਡੀਮੈਟ ਖਾਤੇ ਅਨੁਸਾਰ ਹੈ",
+      "bytes": 9179,
+      "seconds": 2.153,
+      "sha256": "9c0a7d8995e9275b050ee747f0bfde20827c58adfc1547497d265fbe0e294214"
+    },
+    "linkedTo": {
+      "textHash": "188b3da36bc7263529ebe12dcfc14249a0c7d9365acdaa9363bbcc81e3dece3e",
+      "spoken": "ਜੁੜਿਆ ਡੀਮੈਟ ਖਾਤਾ",
+      "bytes": 7165,
+      "seconds": 1.649,
+      "sha256": "e6800714fb6d9d78f16ee01f630488250f3ce5f22ad46d0ab6f23aaf3e9c9c72"
+    },
+    "privateRecord": {
+      "textHash": "c28b1e975eb9f6dc13aff3d645ec361ae235ed01044527efd4b37d49151da1fb",
+      "spoken": "ਤੁਹਾਡੀ ਨਿੱਜੀ ਰਿਕਾਰਡ ਟਿੱਪਣੀ",
+      "bytes": 8610,
+      "seconds": 2.014,
+      "sha256": "88efa509f804ce15c12ea04ffd426b2a51f65896bbeb70fe958583531fa502e4"
+    },
+    "privateRecordHelp": {
+      "textHash": "55076d2e49d69bcf276878aebc70ae5bcdf484edb8a53ccd18ba3ac0178d1e60",
+      "spoken": "ਇਹ ਟਿੱਪਣੀ ਤਾਲਾਬੰਦ ਨਕਲ ਵਿੱਚ ਰਹਿੰਦੀ ਹੈ ਅਤੇ ਪਰਿਵਾਰਕ ਸਾਰ ਜਾਂ ਪੰਨੇ ਦੀ ਆਡੀਓ ਵਿੱਚ ਨਹੀਂ ਆਉਂਦੀ।",
+      "bytes": 30502,
+      "seconds": 7.476,
+      "sha256": "f66528d358667d9199665427472f50f02919bc9e4292bd3ddf8e0ce423f252fc"
+    },
+    "readRules": {
+      "textHash": "4312d668a13b54db3d09ef6be04667e4995a64cb7db9c6f881fa86abfa352695",
+      "spoken": "ਅਧਿਕਾਰਤ ਨਿਯਮ ਪੜ੍ਹੋ",
+      "bytes": 7742,
+      "seconds": 1.789,
+      "sha256": "5a9528d2399d32b5b885c384dd779f05a1afdfa8106303435fe265cc73dc9da0"
+    },
+    "beforeContinue": {
+      "textHash": "9aa666c0e5893df5da6a5173ea33c984e4cf1c87b976b355120c5a91c43a85c1",
+      "spoken": "ਜਾਰੀ ਰੱਖਣ ਤੋਂ ਪਹਿਲਾਂ",
+      "bytes": 7747,
+      "seconds": 1.794,
+      "sha256": "5308e83da29bb1b984bde469b9f798ac288a74eac254abe95fcfc7c5e7540609"
+    },
+    "checkConnection": {
+      "textHash": "3c37840cb97646b8f216e52d869f2e19321d317a63b9602c5a135e4daf3f5e38",
+      "spoken": "ਜਾਂਚੋ ਕਿ ਇਹ ਇਕੱਠੇ ਸੰਬੰਧਿਤ ਹਨ",
+      "bytes": 11588,
+      "seconds": 2.736,
+      "sha256": "1054a1780cbe36f25e0c861061cc49a1d808dc868731c84de012c39d305a5ee0"
+    },
+    "connectionHelp": {
+      "textHash": "acc7c5dad30d9bf6d0c89293b44ccfc316df8aeb13fbfc4385e5d0a2e84fa208",
+      "spoken": "ਡੀਮੈਟ ਸਟੇਟਮੈਂਟ ਤੋਂ ਜਾਂਚੋ ਕਿ ਇਹ ਫੰਡ ਯੂਨਿਟ ਇਸੇ ਡੀਮੈਟ ਖਾਤੇ ਅਤੇ ਉਹੀ ਧਾਰਕਾਂ ਨਾਲ ਹਨ। ਵੱਖਰੇ ਪਰਿਵਾਰਕ ਮੈਂਬਰਾਂ ਦੇ ਖਾਤੇ ਇੱਕ ਨਾਮਜ਼ਦਗੀ ਨਹੀਂ ਸਾਂਝੀ ਕਰਦੇ।",
+      "bytes": 53251,
+      "seconds": 13.167,
+      "sha256": "90f6c201ffa2d7fb3d6dc0ee525a5bc60925668862cb16a49f55e904820b7933"
+    },
+    "sameHolders": {
+      "textHash": "b002b1710c1a25c49684b5d3ffe116b1f00614867b48e59f8d3860e9088e4348",
+      "spoken": "ਮੈਂ ਸਟੇਟਮੈਂਟ ਜਾਂਚੀ: ਇਹ ਯੂਨਿਟ ਅਤੇ ਧਾਰਕ ਇਸ ਡੀਮੈਟ ਖਾਤੇ ਨਾਲ ਮੇਲ ਖਾਂਦੇ ਹਨ।",
+      "bytes": 23680,
+      "seconds": 5.762,
+      "sha256": "f93c3f5aaa0a711587dbe8ecaf735a97e338ad4e19209df134808f8314ccba6f"
+    },
+    "linkAccount": {
+      "textHash": "74c9782f10963fba4f89630afc7559602fdee705c3f304aeca7111e22be54c23",
+      "spoken": "ਇਹ ਡੀਮੈਟ ਖਾਤਾ ਜੋੜੋ",
+      "bytes": 10240,
+      "seconds": 2.419,
+      "sha256": "78ae2c65985b7c0683886d4ef58e4e064f1d8c0621df1973c6c34f958be3b94a"
+    },
+    "replaceChanges": {
+      "textHash": "5325b0bf5aad7c7717f7aa15bc84d2e0e99b123fc0001b353def18fa5a252cc0",
+      "spoken": "ਤਬਦੀਲੀਆਂ ਅਧੂਰੀਆਂ ਹਨ। ਜਾਰੀ ਰੱਖਣ ਨਾਲ ਖਰੜਾ ਬਦਲੇਗਾ। ਪਹਿਲਾਂ ਮੁੱਖ ਪੰਨੇ ਉੱਤੇ ਵਾਪਸ ਜਾ ਕੇ ਪੂਰਾ ਕਰਨ ਜਾਂ ਸੰਭਾਲਣ ਲਈ ਰੱਦ ਕਰੋ।",
+      "bytes": 37699,
+      "seconds": 9.283,
+      "sha256": "56c16bb31340c99a2c944af6595517dd173b096daa8ebc525f267d0baea56dbc"
+    },
+    "startOwnList": {
+      "textHash": "e62ee7a1da07ecb8b12abfbc7f2cbd0b34b25efd4f90515ba5289e0911a5aa1c",
+      "spoken": "ਆਪਣੀ ਸੂਚੀ ਸ਼ੁਰੂ ਕਰੋ",
+      "bytes": 7361,
+      "seconds": 1.684,
+      "sha256": "f8593d167abf0083eed87451c48e6e2727217f28167aba26c4fb6bbec1b9b9d2"
+    },
+    "startOwnHelp": {
+      "textHash": "e3f64dd0476c76545ffeb5fa52ea34645e5abee42a2b2d05c875f9a343c64594",
+      "spoken": "ਪਰਿਵਾਰ ਲਈ ਨਵੀਂ ਸੂਚੀ ਸ਼ੁਰੂ ਕਰਨੀ ਹੈ? ਇਸ ਸੈਸ਼ਨ ਤੋਂ ਕਾਲਪਨਿਕ ਉਦਾਹਰਨ ਹਟੇਗੀ।",
+      "bytes": 23681,
+      "seconds": 5.763,
+      "sha256": "d9e49255e4db57967058af1352c36c74a3b1a598802f894771c1b77b0eba3e9b"
+    },
+    "familyPending": {
+      "textHash": "4474dc0532dbae3322f8f6371a293454405b28e09fba8fa8ce1e8700f28e9df9",
+      "spoken": "ਪਰਿਵਾਰਕ ਵੇਰਵੇ ਹਾਲੇ ਨਹੀਂ ਜਾਂਚੇ",
+      "bytes": 12450,
+      "seconds": 2.953,
+      "sha256": "d1276b88613760dca3d727e183434168917da08b026c449cd9eeedca7d948c6f"
+    },
+    "familyReviewed": {
+      "textHash": "4c50dfa9815903709f3df63974718770f11ad324af987995000b3489cc1d5716",
+      "spoken": "ਪਰਿਵਾਰਕ ਵੇਰਵੇ ਜਾਂਚੇ",
+      "bytes": 10627,
+      "seconds": 2.501,
+      "sha256": "49220c98df904c3ecb764dc83a2c467459e1fdc3e44303e8a0cfee40a52484bd"
+    },
+    "familyReviewCheck": {
+      "textHash": "1b070dc9b09fa9b8a4cbfc7545392e92dcbf1bd8779078051d8f11f13d66864d",
+      "spoken": "ਮੈਂ ਜਾਂਚਿਆ ਕਿ ਪਰਿਵਾਰ ਨੂੰ ਕੀ ਦਿਖਣਾ ਚਾਹੀਦਾ ਹੈ। ਖਾਲੀ ਖਾਨੇ ਬਾਹਰ ਰੱਖਣ ਦੀ ਚੋਣ ਕੀਤੀ।",
+      "bytes": 28486,
+      "seconds": 6.972,
+      "sha256": "df6ebb434b1d45e218f00c9192e1113309a6ee26eba0b403697119aedc1ba61f"
+    },
+    "familyReviewHelp": {
+      "textHash": "d20e0efd7720e0f2748e626f3740fd18e7f8f3a96cc34d3ef8f2f7d8da7bc695",
+      "spoken": "ਇਹ ਵੱਖਰੀ ਜਾਂਚ ਹੈ। ਦਰਜ ਨਾਮਜ਼ਦਗੀ ਪਰਿਵਾਰ ਨੂੰ ਖਾਤਾ ਜਾਂ ਰਿਕਾਰਡ ਲੱਭਣ ਦੀ ਥਾਂ ਨਹੀਂ ਦੱਸਦੀ।",
+      "bytes": 30693,
+      "seconds": 7.534,
+      "sha256": "f488c83f86c13104bfa6e74439c3de56c0e4fa08bf3f5235cb476bcd3efa8aff"
+    },
+    "notIncluded": {
+      "textHash": "b7a535d13a85ef6ad47b0eb5c52de3012890e4e2c7c48fd7713b59c5683c3284",
+      "spoken": "ਚੋਣ ਅਨੁਸਾਰ ਸ਼ਾਮਲ ਨਹੀਂ",
+      "bytes": 8608,
+      "seconds": 2.01,
+      "sha256": "df636a1495c2ec0812d0bc0f73d7d2bf122cb41cf9df2375d687361e56d75ab0"
+    },
+    "familyReadyNext": {
+      "textHash": "3d5c1a367d56c8ddc3d07b76788827dabde57d952554d21f71aadc37d4a1902a",
+      "spoken": "ਇਹ ਪੱਤਰਕ ਉੱਥੇ ਰੱਖੋ ਜਿੱਥੇ ਭਰੋਸੇਯੋਗ ਪਰਿਵਾਰਕ ਮੈਂਬਰ ਲੱਭ ਸਕੇ। ਵੇਰਵੇ ਬਦਲਣ ਉੱਤੇ ਸਮੀਖਿਆ ਕਰੋ।",
+      "bytes": 33956,
+      "seconds": 8.336,
+      "sha256": "b39c6ed2d5d23560c2b27e83ec62431e898b43cc571f45f2e34a65e514721c8d"
+    },
+    "familyRemaining": {
+      "textHash": "248a2261780dcd5d314f85405eefab3200c807b7155bede14d5ccde20aaf142f",
+      "spoken": "ਸਮੀਖਿਆ ਲਈ ਪਰਿਵਾਰਕ ਰਿਕਾਰਡ",
+      "bytes": 9092,
+      "seconds": 2.117,
+      "sha256": "837925a3ed71a553fd1d3c9bb6871cb7e75297878df70e20918b4ea2b67fada7"
+    },
+    "onlineRoute": {
+      "textHash": "fc90d7d8c4d0d492f8e4981580149c90490f148b156d23d6516840172b64d436",
+      "spoken": "ਆਨਲਾਈਨ ਸੇਵਾਵਾਂ ਵਰਤੋ",
+      "bytes": 8128,
+      "seconds": 1.879,
+      "sha256": "14af6cc60dcc0985b935b208053391e1c90c2e4ce4ce84cba9a6c480dba60e4a"
+    },
+    "offlineRoute": {
+      "textHash": "2e717ef104defdbef7c37ebf14de0ba47608bba33e364bfe422449e6f1d14696",
+      "spoken": "ਰੂਬਰੂ ਮਦਦ ਲਵੋ",
+      "bytes": 6785,
+      "seconds": 1.558,
+      "sha256": "5c76befa12eeb1f1fbeb59f78ef6c89361799e6c697ebe928b5c75517badaf5a"
+    },
+    "routeChoice": {
+      "textHash": "556cbd10f08a459c339a33b4b40fbbbfb4d7ee4a385458b7309f2fc2ea82a8e0",
+      "spoken": "ਤੁਸੀਂ ਇਹ ਕਿਵੇਂ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?",
+      "bytes": 9184,
+      "seconds": 2.16,
+      "sha256": "392868e14d58122b3b45f6425bc40b06869c99051ee8591fcf56311b0ef9223c"
+    },
+    "saveBeforeLeaving": {
+      "textHash": "1f863852a3055f3d32fb13b0e025310e7447669a975a90252c7a2eb5fd3b58df",
+      "spoken": "ਅਧਿਕਾਰਤ ਸੇਵਾ ਖੋਲ੍ਹਣ ਤੋਂ ਪਹਿਲਾਂ ਆਪਣੀ ਥਾਂ ਸੰਭਾਲੋ। ਜੋ ਹੋਇਆ ਉਸ ਨੂੰ ਦਰਜ ਕਰਨ ਲਈ ਇੱਥੇ ਵਾਪਸ ਆਓ।",
+      "bytes": 32422,
+      "seconds": 7.958,
+      "sha256": "e710f0bb93de88bf532f9b7b422bc1a83034aa94459664dda146435fcbcc1a88"
+    },
+    "offlineContact": {
+      "textHash": "7b1e54e37c58fbf958da579d7519ac9be6673565cb5fc815fbb0e17843983715",
+      "spoken": "ਸ਼ਾਖਾ ਜਾਂ ਸੇਵਾ ਕੇਂਦਰ ਲੱਭਣ ਲਈ ਸੰਸਥਾ ਦਾ ਅਧਿਕਾਰਤ ਮਦਦ ਪੰਨਾ ਵਰਤੋ। ਜਾਣ ਤੋਂ ਪਹਿਲਾਂ ਪੁੱਛੋ ਕਿ ਇਹ ਇਸ ਖਾਤੇ ਦੀ ਨਾਮਜ਼ਦਗੀ ਕਰਦਾ ਹੈ।",
+      "bytes": 42883,
+      "seconds": 10.576,
+      "sha256": "159c87ac4e91821e8fee991ff689bf7300e85b1e700c9b2ab947e47996ed2e06"
+    },
+    "offlineBring": {
+      "textHash": "249115859e7365e33143e35b7828cbe76c69d9c5d4f09a6a56bca580ab1d24c5",
+      "spoken": "ਪੁੱਛੋ ਕਿਹੜਾ ਫਾਰਮ, ਧਾਰਕਾਂ ਦੀਆਂ ਦਸਤਖ਼ਤਾਂ ਅਤੇ ਦਸਤਾਵੇਜ਼ ਲੋੜੀਂਦੇ ਹਨ। ਖਾਤਾ ਪਛਾਣਨ ਲਈ ਸਟੇਟਮੈਂਟ ਜਾਂ ਪਾਸਬੁੱਕ ਲੈ ਜਾਓ; ਸੰਸਥਾ ਨਾ ਮੰਗੇ ਤਾਂ ਅਸਲ ਆਪਣੇ ਕੋਲ ਰੱਖੋ।",
+      "bytes": 47681,
+      "seconds": 11.777,
+      "sha256": "96485e02202040b4ea8876c557e351196a259bfa27e41e3887021f2ef2f1357c"
+    },
+    "offlineAsk": {
+      "textHash": "25f847a5f9de42396b86db12d89a65b139bc6b07087a84ba445c6a9de69f5b9c",
+      "spoken": "ਸਟਾਫ਼ ਨੂੰ ਪਹਿਲਾਂ ਮੌਜੂਦਾ ਨਾਮਜ਼ਦਗੀ ਜਾਂਚਣ ਲਈ ਕਹੋ। ਤਬਦੀਲੀ ਚਾਹੀਦੀ ਹੋਵੇ ਤਾਂ ਮਿਤੀ ਵਾਲੀ ਰਸੀਦ ਅਤੇ ਅੰਤਿਮ ਦਰਜ ਰਿਕਾਰਡ ਕਿਵੇਂ ਮਿਲੇਗਾ ਪੁੱਛੋ।",
+      "bytes": 41439,
+      "seconds": 10.205,
+      "sha256": "6f6b6a93b1c967850878a3602778a1c31d1671cb63781afb1497510e1ca167d9"
+    },
+    "scopeGeneral": {
+      "textHash": "02b7a3bd88aa87dc9e72d0ec037565357a4f6ed248bf35a0998552231d9c2898",
+      "spoken": "ਇਸ ਖਾਤੇ ਦੀ ਕਿਸਮ ਲਈ ਆਮ ਮਾਰਗਦਰਸ਼ਨ। ਸੰਸਥਾ ਦੀਆਂ ਖਾਸ ਸਕ੍ਰੀਨਾਂ ਦੀ ਸਮੀਖਿਆ ਨਹੀਂ ਕੀਤੀ।",
+      "bytes": 27233,
+      "seconds": 6.669,
+      "sha256": "784ed1a8143d4d3e2e43e71aa7201886c749546ba63f8df636d4e89fb9bc1b99"
+    },
+    "scopeHdfc": {
+      "textHash": "428df1a889ef95b4c8170b04cafd9df3552034803c3d3e3ecbea34bc4eac2678",
+      "spoken": "ਐਚ ਡੀ ਐਫ ਸੀ ਬੈਂਕ: ਬੱਚਤ ਅਤੇ ਐਫ ਡੀ/ਆਰ ਡੀ ਮਾਰਗਦਰਸ਼ਨ; ਸਾਂਝੇ ਧਾਰਕ ਸ਼ਾਖਾ ਦਾ ਰਾਹ ਵਰਤਣ।",
+      "bytes": 31166,
+      "seconds": 7.638,
+      "sha256": "eb862f50e1698b731ae60eea9414afe0056a414b80dbe9c1c17ce5089410362b"
+    },
+    "scopeSbi": {
+      "textHash": "e126cf58f9480b7716845378d30e9789a22616da7da41d5fbe17779723bdac8c",
+      "spoken": "ਐਸ ਬੀ ਆਈ ਜਮ੍ਹਾਂ ਖਾਤੇ। ਮਾਰਗਦਰਸ਼ਨ ਉਪਲਬਧ ਮਾਧਿਅਮ ਦੱਸਦਾ ਹੈ; ਜਾਂਚੇ ਲਾਗਇਨ ਕ੍ਰਮ ਦਾ ਦਾਅਵਾ ਨਹੀਂ ਕਰਦਾ।",
+      "bytes": 33661,
+      "seconds": 8.271,
+      "sha256": "18d0fb265fac0430353d1944f5ba81268b0e5ce73dafcc7eefa8ca3b93f53806"
+    },
+    "scopeAxis": {
+      "textHash": "24f39d62f1a5e38e27aa4e0d160b36a6e17ec886e34cec2f15a62c4835aff97b",
+      "spoken": "ਸਿਰਫ਼ ਐਕਸਿਸ ਬੈਂਕ ਬੱਚਤ ਖਾਤੇ। ਐਫ ਡੀ/ਆਰ ਡੀ ਦਾ ਰਾਹ ਵੱਖਰਾ ਹੋ ਸਕਦਾ ਹੈ।",
+      "bytes": 23486,
+      "seconds": 5.735,
+      "sha256": "28c1e5faa65b25fced16bbe024ea44bfff83556b069728dbadee5988e9165fff"
+    },
+    "scopeZerodhaAdd": {
+      "textHash": "f96267bb93667df308771c1a7a2212b47c76a2f6489824b72206c7a21eaf57f7",
+      "spoken": "ਜ਼ੇਰੋਧਾ: ਪਹਿਲਾ ਨਾਮਜ਼ਦ ਵਿਅਕਤੀ ਜੋੜਨਾ। ਸਾਂਝੇ ਖਾਤੇ ਜਾਂ ਆਧਾਰ ਨਾਲ ਜੁੜੇ ਮੋਬਾਈਲ ਦੀ ਪਹੁੰਚ ਨਾ ਹੋਵੇ ਤਾਂ ਸੰਸਥਾ ਦੀ ਮਦਦ ਚਾਹੀਦੀ ਹੈ।",
+      "bytes": 40004,
+      "seconds": 9.846,
+      "sha256": "f3852fe7c9db5759e67ceaa70d667e168ce7b46026803494bc2cc720be0c50cf"
+    },
+    "scopeZerodhaChange": {
+      "textHash": "d5fec3915cea8865db2f0ec97e3d18430da47b5913e3a7dc94328a63a35b3e27",
+      "spoken": "ਜ਼ੇਰੋਧਾ: ਮੌਜੂਦਾ ਨਾਮਜ਼ਦ ਵਿਅਕਤੀ ਦੇ ਵੇਰਵੇ ਬਦਲਣਾ ਜਾਂ ਹੋਰ ਨਾਮਜ਼ਦ ਵਿਅਕਤੀ ਜੋੜਨਾ।",
+      "bytes": 31175,
+      "seconds": 7.654,
+      "sha256": "db21bb156b7ea9ffe745528d3ed752594d230834ff2c228f3a7fd43e62b05a6c"
+    },
+    "scopeGroww": {
+      "textHash": "6ddda0d1bfda9ec22a706c8ee1f759cdea4bff0bd516ef2bf713cee1e5f17670",
+      "spoken": "ਗ੍ਰੋ ਡੀਮੈਟ ਖਾਤਾ। ਮੌਜੂਦਾ ਮਿਊਚੁਅਲ ਫੰਡ ਫੋਲੀਓਆਂ ਨੂੰ ਵੱਖਰਾ ਸੇਵਾ ਰਾਹ ਲੋੜੀਂਦਾ ਹੋ ਸਕਦਾ ਹੈ।",
+      "bytes": 26079,
+      "seconds": 6.378,
+      "sha256": "6739b8b1f27f495ba0068cb86ada64e30c5deb15e6eaeec9706e6cae1d00f117"
+    },
+    "scopeHdfcMf": {
+      "textHash": "770031b5c27084e10d86f74a25c55957bd5bc1613351cf02d9e2951c0c49504a",
+      "spoken": "ਐਚ ਡੀ ਐਫ ਸੀ ਮਿਊਚੁਅਲ ਫੰਡ ਫੋਲੀਓ। ਡੀਮੈਟ ਦੇ ਯੂਨਿਟ ਡੀਮੈਟ ਖਾਤੇ ਦੀ ਨਾਮਜ਼ਦਗੀ ਅਨੁਸਾਰ ਹਨ।",
+      "bytes": 29536,
+      "seconds": 7.238,
+      "sha256": "25ee8ec99ede150041f46d37c1904ff20642385bd29d665540d39ac5ec103e82"
+    },
+    "scopeDematFunds": {
+      "textHash": "3d06719be0f011b76baa284a4e44417badf094b14a01531ceefeffe1f64b9c68",
+      "spoken": "ਪਹਿਲਾਂ ਇਨ੍ਹਾਂ ਯੂਨਿਟਾਂ ਵਾਲਾ ਡੀਮੈਟ ਖਾਤਾ ਪਛਾਣੋ ਅਤੇ ਜਾਂਚੋ।",
+      "bytes": 19844,
+      "seconds": 4.822,
+      "sha256": "f4ec9875537375a4786cc7c5403edfc71ca4c04437768cf8289185f917e89e30"
+    },
+    "scopeUnknownFunds": {
+      "textHash": "64d6b4779084fd7aa0cfc0dd604363db4cee6e9bada7a584629e151c098c09b7",
+      "spoken": "ਨਾਮਜ਼ਦਗੀ ਦਾ ਰਾਹ ਚੁਣਨ ਤੋਂ ਪਹਿਲਾਂ ਰੱਖਣ ਦਾ ਢੰਗ ਪਛਾਣਨਾ ਚਾਹੀਦਾ ਹੈ।",
+      "bytes": 18310,
+      "seconds": 4.422,
+      "sha256": "234ab9a84dcef4a82ed768f9cabf9bb22557b16bc89d2feaf4b061cfc39fd4f6"
+    },
+    "sbiAction": {
+      "textHash": "a5d24b81dbceec25112306cb41858ca7e7167ba296eda68bf605ebf82093abe3",
+      "spoken": "ਐਸ ਬੀ ਆਈ ਜਮ੍ਹਾਂ ਖਾਤਿਆਂ ਦੀ ਨਾਮਜ਼ਦਗੀ ਯੋਨੋ, ਇੰਟਰਨੈੱਟ ਬੈਂਕਿੰਗ ਅਤੇ ਸ਼ਾਖਾਵਾਂ ਰਾਹੀਂ ਕਰਦਾ ਹੈ। ਸਹੀ ਖਾਤਾ ਚੁਣੋ। ਲੋੜੀਂਦਾ ਵਿਕਲਪ ਨਾ ਮਿਲੇ ਤਾਂ ਮੌਜੂਦਾ ਫਾਰਮ ਨਾਲ ਦਰਜ ਕਰਨ ਜਾਂ ਬਦਲਣ ਲਈ ਸ਼ਾਖਾ ਨੂੰ ਪੁੱਛੋ।",
+      "bytes": 61118,
+      "seconds": 15.132,
+      "sha256": "771c10d60e8a24173d1973d41ca8ecf05453c7981a5a2dff76b8b7d9cc4eaa11"
+    },
+    "axisStart": {
+      "textHash": "758db545567c0ac6864fe3f1a0d4e9b9c087aafd1cb03c77b1afabb2b289afd5",
+      "spoken": "ਐਕਸਿਸ ਇੰਟਰਨੈੱਟ ਬੈਂਕਿੰਗ ਵਿੱਚ ਸੇਵਾਵਾਂ → ਖਾਤਾ ਸੇਵਾਵਾਂ → ਨਾਮਜ਼ਦ ਵਿਅਕਤੀ ਅੱਪਡੇਟ ਖੋਲ੍ਹੋ। ਬੱਚਤ ਖਾਤਾ ਚੁਣ ਕੇ ਨਵਾਂ ਨਾਮਜ਼ਦ ਵਿਅਕਤੀ ਜੋੜੋ ਜਾਂ ਬਦਲੋ ਚੁਣੋ।",
+      "bytes": 45854,
+      "seconds": 11.306,
+      "sha256": "a68e9b2cc3d975f32b57bded6faf5914f7de5d5911a84cf101f860ab5cd8a85f"
+    },
+    "axisSubmit": {
+      "textHash": "e4297257cdeda9238f304514626078375924dae6b0cff900a27bd6be953df84b",
+      "spoken": "ਐਕਸਿਸ ਦਾ ਮਦਦ ਪੰਨਾ ਬੇਨਤੀ ਫਾਰਮ ਬਣਾਉਣ, ਭਰਨ ਤੇ ਦਸਤਖ਼ਤ ਕਰਨ, ਅੱਪਲੋਡ ਅਤੇ ਨੈੱਟ ਸਿਕਿਉਰ ਕੋਡ ਨਾਲ ਪੁਸ਼ਟੀ ਕਰਨ ਨੂੰ ਦੱਸਦਾ ਹੈ। ਛਾਪ ਜਾਂ ਅੱਪਲੋਡ ਨਾ ਕਰ ਸਕੋ ਤਾਂ ਸ਼ਾਖਾ ਵਰਤੋ।",
+      "bytes": 53919,
+      "seconds": 13.344,
+      "sha256": "7d33af84700996b3bb543c634e11cfe2451635d776ee2ca9314aa6c989ecc2cb"
+    },
+    "zerodhaChangeForms": {
+      "textHash": "cccfec01901590f1828c81d9e10ec03d994fcb16d333267a18aaae2325e08def",
+      "spoken": "ਜ਼ੇਰੋਧਾ ਦੀਆਂ ਤਬਦੀਲੀ ਹਦਾਇਤਾਂ ਖੋਲ੍ਹੋ। ਮੌਜੂਦਾ ਨਾਮਜ਼ਦਗੀ ਅਤੇ ਖਾਤਾ ਸੋਧ ਫਾਰਮ ਲਵੋ; ਹਦਾਇਤਾਂ ਅਨੁਸਾਰ ਮੌਜੂਦਾ ਅਤੇ ਪ੍ਰਸਤਾਵਿਤ ਨਾਮਜ਼ਦ ਵਿਅਕਤੀਆਂ ਦੇ ਵੇਰਵੇ ਭਰੋ।",
+      "bytes": 54983,
+      "seconds": 13.603,
+      "sha256": "244e94d273e8518089084b2cc295ac4e9a9cff894cdc508ba573a2faedb986b2"
+    },
+    "zerodhaChangeSubmit": {
+      "textHash": "92a78ddaae81344f2232451e8cc2ee7775d89c0c65de27a1cda45ef795e417f2",
+      "spoken": "ਜ਼ੇਰੋਧਾ ਦੋਵੇਂ ਫਾਰਮਾਂ ਉੱਤੇ ਹੱਥ ਨਾਲ ਦਸਤਖ਼ਤ, ਇਲੈਕਟ੍ਰਾਨਿਕ ਦਸਤਖ਼ਤ ਅਤੇ ਸਹਾਇਤਾ ਟਿਕਟ ਨਾਲ ਜੋੜਨ ਨੂੰ ਦੱਸਦਾ ਹੈ। ਮੌਜੂਦਾ ਹਦਾਇਤਾਂ ਮੰਨੋ; ਇਲੈਕਟ੍ਰਾਨਿਕ ਦਸਤਖ਼ਤ ਨਾ ਹੋਣ ਤਾਂ ਸਹਾਇਤਾ ਤੋਂ ਹੋਰ ਰਾਹ ਪੁੱਛੋ।",
+      "bytes": 59592,
+      "seconds": 14.758,
+      "sha256": "b9ba7aa51c62eb92dca737d101e0b6fee31259b38f7ee3ea3e1d2e3c1132a1a0"
+    },
+    "growwCheck": {
+      "textHash": "6c7a599b1a7974870fbebc407c378f1db4cf5243f870caeeb0c7118e4587844d",
+      "spoken": "ਗ੍ਰੋ ਵਿੱਚ ਪ੍ਰੋਫਾਈਲ → ਖਾਤੇ ਦੇ ਵੇਰਵੇ → ਨਾਮਜ਼ਦ ਵਿਅਕਤੀ ਦੇ ਵੇਰਵੇ ਖੋਲ੍ਹੋ। ਜਾਂਚੋ ਕਿ ਦਿਖਾਈ ਨਾਮਜ਼ਦਗੀ ਕਿਸ ਨਿਵੇਸ਼ ਜਾਂ ਖਾਤੇ ਲਈ ਹੈ।",
+      "bytes": 44031,
+      "seconds": 10.867,
+      "sha256": "34e2efba0a09e2e29fc99f563e9b766cd0bbd85681c89da70bced3825cc65586"
+    },
+    "growwAction": {
+      "textHash": "914e1633f3a2fbaca9389bac83d3b3cff48f9abdfc778dfcf3128ab6ef429eca",
+      "spoken": "ਯੋਗ ਡੀਮੈਟ ਨਿਵੇਸ਼ਾਂ ਲਈ ਨਾਮਜ਼ਦ ਵਿਅਕਤੀ ਸੋਧੋ ਵਰਤੋ ਅਤੇ ਗ੍ਰੋ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ। ਪ੍ਰੋਫਾਈਲ ਅੱਪਡੇਟ ਕਰਨ ਨਾਲ ਹਰ ਮੌਜੂਦਾ ਮਿਊਚੁਅਲ ਫੰਡ ਫੋਲੀਓ ਬਦਲਣਾ ਸਾਬਤ ਨਹੀਂ ਹੁੰਦਾ; ਉਨ੍ਹਾਂ ਨੂੰ ਵੱਖਰਾ ਜਾਂਚੋ।",
+      "bytes": 61024,
+      "seconds": 15.114,
+      "sha256": "03bd704882b83445c0d655584963b6848cff5361815dd4b4e5445ab4394d5174"
+    },
+    "readingNow": {
+      "textHash": "32d1bccc89d0f087697160270442013ed38b1cb9d3d06c45b41e8ff68a6d3b79",
+      "spoken": "ਹੁਣ ਪੜ੍ਹਿਆ ਜਾ ਰਿਹਾ ਹੈ",
+      "bytes": 7167,
+      "seconds": 1.649,
+      "sha256": "5d68e5f0e56ce545ccac102e6966b564cea44799bae0dc56bdd2a4e40367eee1"
+    },
+    "repeatSentence": {
+      "textHash": "7f4979d76dce4eb777febee2c4fec83acd0f55f4da38d32acba4a0d1c5c8d9ec",
+      "spoken": "ਇਹ ਮੁੜ ਚਲਾਓ",
+      "bytes": 5923,
+      "seconds": 1.335,
+      "sha256": "1ede674a7a0260e6c9532a91bf22a03cf371023d90193cfdad4214b73bd01bd0"
+    },
+    "nextSentence": {
+      "textHash": "76c5f757ae8267adee3dc5a6a48f9f39a638fc2807ab14eccf7afc030ea4d792",
+      "spoken": "ਅਗਲਾ ਹਿੱਸਾ",
+      "bytes": 5537,
+      "seconds": 1.241,
+      "sha256": "f2ed09f7983c0f0cad18b0049716945d052223b079bd063a305626f70f43747c"
+    },
+    "previousSentence": {
+      "textHash": "70331fa1d7bc00e73cb46408471b24fdf1f72ccb72e7aa51edee05a157586083",
+      "spoken": "ਪਿਛਲਾ ਹਿੱਸਾ",
+      "bytes": 4965,
+      "seconds": 1.103,
+      "sha256": "6eeab32369300db1f526ef5777e3592bfda89cb85a0e74b845650c74057f7d69"
+    },
+    "readingPreferences": {
+      "textHash": "78c6a80ecb6e25af33338648871ee4f9a036e2c71cbbd3e1f27742aa11e6c91c",
+      "spoken": "ਪੜ੍ਹਨ ਦੀਆਂ ਸੈਟਿੰਗਾਂ ਇਸ ਜੰਤਰ ਉੱਤੇ ਯਾਦ ਰਹਿੰਦੀਆਂ ਹਨ। ਖਾਤੇ ਦੇ ਵੇਰਵੇ ਸਿਰਫ਼ ਸੰਭਾਲੋ ਚੁਣਨ ਉੱਤੇ ਸੰਭਾਲੇ ਜਾਂਦੇ ਹਨ। ਮੁੜ ਮੂਲ ਕਰਨ ਨਾਲ ਪੜ੍ਹਨ ਦੀਆਂ ਪਸੰਦਾਂ ਮਿਟਦੀਆਂ ਹਨ।",
+      "bytes": 47111,
+      "seconds": 11.638,
+      "sha256": "5b2b7822afa62af80d6ad442ca50fd9de1aeb6ffb2d33d716a6bf842eb145b73"
+    },
+    "stepType": {
+      "textHash": "a36449151e7935230a5d84a84b093a2c8625de06fd6e6335a516b4510f29d9ce",
+      "spoken": "ਖਾਤੇ ਦੀ ਕਿਸਮ",
+      "bytes": 5533,
+      "seconds": 1.247,
+      "sha256": "b3d0963de87ddb0d541be01c7b464635443f4d92a95abc5e575083a6493dea54"
+    },
+    "stepInstitution": {
+      "textHash": "859d3044682191a9356b6570a9e0bf545890473a08e2e82f954c1fd921facbb9",
+      "spoken": "ਸੰਸਥਾ",
+      "bytes": 4196,
+      "seconds": 0.894,
+      "sha256": "9eb321c385f5c00f014bc4da033ef1a69c93d4105642dfffa6728757f99c6fce"
+    },
+    "stepContext": {
+      "textHash": "f1b88d822640b56ee2ee24026d384022a3885642df707163ad9e14330d741750",
+      "spoken": "ਖਾਤੇ ਦੇ ਵੇਰਵੇ",
+      "bytes": 5920,
+      "seconds": 1.343,
+      "sha256": "b372e3a6b35d9bb69a32bce26b601e3b641de590e27d55df70c37110a53b98a7"
+    },
+    "stepNomination": {
+      "textHash": "40e8cd033a0acbc396f48bfd0e06ea3f9e3a85ea8271e8a038a684d03ead6f06",
+      "spoken": "ਨਾਮਜ਼ਦਗੀ",
+      "bytes": 5443,
+      "seconds": 1.214,
+      "sha256": "a754d9b47bdaa988d7579c588cd6b49df98d3f4fc5d34a238714a5bd448acddc"
+    },
+    "savedNext": {
+      "textHash": "4ad7b7434b9402f61536627c03272d53e9839dd60705476f80d9d0ecc0c4b5f6",
+      "spoken": "ਤਾਲਾਬੰਦ ਨਕਲ ਤਿਆਰ ਹੈ। ਫਾਈਲ ਅਤੇ ਪਾਸਵਰਡ ਮੁੜ ਲੱਭਣਯੋਗ ਥਾਂ ਰੱਖੋ। ਤਿਆਰ ਹੋਵੋ ਤਾਂ ਆਪਣੇ ਕੰਮ ਉੱਤੇ ਵਾਪਸ ਆਓ।",
+      "bytes": 37022,
+      "seconds": 9.101,
+      "sha256": "4f81673150c8b73a957a3d72a796a9d9347188c7e352ef04296cd859f78c4731"
+    },
+    "returnTask": {
+      "textHash": "83ae0d70256c8398154a980c18471c2ae159e989df5a39bdd50372a2f9fef655",
+      "spoken": "ਮੇਰੇ ਕੰਮ ਉੱਤੇ ਵਾਪਸ ਆਓ",
+      "bytes": 9759,
+      "seconds": 2.286,
+      "sha256": "981367890538fd5377946d63b8fb6d1956156f2cdea8e19e45ab2254a8ddc93d"
+    },
+    "olderDeviceCopy": {
+      "textHash": "1b048d8c5f7f58f8af7dc6d76f02b38b23b20711d9404c254598d3f0406a96f3",
+      "spoken": "ਜੰਤਰ ਦੀ ਨਕਲ ਅੱਪਡੇਟ ਨਹੀਂ ਹੋਈ। ਨਵੀਆਂ ਤਬਦੀਲੀਆਂ ਲਈ ਡਾਊਨਲੋਡ ਫਾਈਲ ਖੋਲ੍ਹੋ ਜਾਂ ਜੰਤਰ ਵਿਕਲਪ ਚੁਣ ਕੇ ਮੁੜ ਸੰਭਾਲੋ।",
+      "bytes": 36548,
+      "seconds": 8.996,
+      "sha256": "56bd75f175ad33aa7083ce3a1f20ded59ed17795bfc0fcf660088205b7e38dbb"
+    },
+    "haveReady": {
+      "textHash": "918dbb1aea8b7f1a8b46792d9e433c0d6d790cb2526493b74231e6c33025f730",
+      "spoken": "ਇਹ ਤਿਆਰ ਰੱਖੋ",
+      "bytes": 6110,
+      "seconds": 1.387,
+      "sha256": "944d847b825211f0f9ef37189ab9e7a869f4c942c28c6c6b7dace88f3ef5ce4e"
+    },
+    "audioLoading": {
+      "textHash": "2b62b0b0759a90d43003e7cd74915778726925b4944c5661f5aef23570a842ed",
+      "spoken": "ਆਡੀਓ ਲੋਡ ਹੋ ਰਿਹਾ ਹੈ…",
+      "bytes": 7649,
+      "seconds": 1.755,
+      "sha256": "31df232e1c6beed5c509c639299a13dbbf272e4aab025f1e162573da2c41b131"
+    },
+    "audioRetry": {
+      "textHash": "31c94ff215de15ca48b98cb179ad731f0fb8339911de4af0e8dff4003ac84358",
+      "spoken": "ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ",
+      "bytes": 6399,
+      "seconds": 1.457,
+      "sha256": "f97da3a52fe138ae17cb6f3abce7fd6f17d6b97a9b85005f20a016a082013c33"
+    },
+    "audioBlocked": {
+      "textHash": "9a8c0e4197ca2b54c551a51f00c14125d985782f63fe019f8abfed282aaa8f3c",
+      "spoken": "ਅਗਲਾ ਹਿੱਸਾ ਸੁਣਨ ਲਈ “ਸੁਣਨਾ ਜਾਰੀ ਰੱਖੋ” ਦਬਾਓ।",
+      "bytes": 15617,
+      "seconds": 3.755,
+      "sha256": "f29fe61e432a872396d935df4f6b74d301c65ed01e4a1022a957929f016ed404"
+    },
+    "audioData": {
+      "textHash": "5cf1cbb6cde18b307ef67fc83e7a7ac78fd9b73c606a378b65fc5ac4977cc2a4",
+      "spoken": "ਆਡੀਓ ਸਿਰਫ਼ ਸੁਣਨ ਉੱਤੇ ਲੋਡ ਹੁੰਦਾ ਹੈ। ਸਮਰਥਿਤ ਬ੍ਰਾਊਜ਼ਰ ਵਿੱਚ ਹਾਲ ਹੀ ਦੀਆਂ ਹਦਾਇਤਾਂ ਆਫਲਾਈਨ ਚੱਲ ਸਕਦੀਆਂ ਹਨ। ਪਹਿਲੀ ਵਾਰ ਸੁਣਨ ਲਈ ਇੰਟਰਨੈੱਟ ਚਾਹੀਦਾ ਹੈ।",
+      "bytes": 45470,
+      "seconds": 11.223,
+      "sha256": "cf5a2f17461276d53f59ed04c5e71b81f1249d1f0f98e86cdef02b54f668e070"
+    },
+    "audioDraft": {
+      "textHash": "adeb3037933bb749a05496f20b099767314d3e02b1f2d2cd06becdcf3f67c877",
+      "spoken": "ਇਹ ਕੰਪਿਊਟਰ ਬਣਾਈਆਂ ਆਵਾਜ਼ਾਂ ਹਨ। ਉਚਾਰਨ ਦੀ ਸਮੀਖਿਆ ਚੱਲ ਰਹੀ ਹੈ। ਅੰਤਰ ਸੁਣੋ ਤਾਂ ਲਿਖੀਆਂ ਹਦਾਇਤਾਂ ਮੰਨੋ।",
+      "bytes": 31551,
+      "seconds": 7.738,
+      "sha256": "df0ba98eb5e6564588d935e0a933b1cf5395648c633204a172f37fbc07eb69a4"
+    },
+    "audioStart": {
+      "textHash": "b16dfae47883d06ba2e889f2aca061280fbb9f0c162709605802034f4a559b5c",
+      "spoken": "ਸੁਣੋ",
+      "bytes": 4095,
+      "seconds": 0.876,
+      "sha256": "d89bf02457235c91b9cff8a83cc9c2cb8cb49de506b656e7cbb5d1a3f2576d06"
+    },
+    "audioCache": {
+      "textHash": "c6070c63cccfc0f69107d8b2e036da107d679aa8b4bbf8ab20ca1f84a048ae28",
+      "spoken": "ਹਾਲ ਹੀ ਵਿੱਚ ਸੁਣਿਆ ਆਡੀਓ",
+      "bytes": 7839,
+      "seconds": 1.818,
+      "sha256": "ce90811bb1dd3054fdb8bab8471dbe7a7162714414b4c311338a51362464abf1"
+    },
+    "clearAudio": {
+      "textHash": "44347859b30b90c9b30f61e7354d90016b490ea383594bda3f7f1c8c26fdcabb",
+      "spoken": "ਸੰਭਾਲਿਆ ਆਡੀਓ ਹਟਾਓ",
+      "bytes": 7839,
+      "seconds": 1.806,
+      "sha256": "edcd2b9ce5d13e47655f00a8f85d9ec29ce0847b318b5e11dc1efe926bf5bfa6"
+    },
+    "audioCleared": {
+      "textHash": "aef81d18fa93debea943e08aaa7ab7caccd6d2dccc11ad670d7f5a7a1ee2cef2",
+      "spoken": "ਸੰਭਾਲਿਆ ਆਡੀਓ ਹਟਿਆ। ਤੁਹਾਡੀ ਖਾਤਾ ਸੂਚੀ ਉਹੀ ਹੈ।",
+      "bytes": 17057,
+      "seconds": 4.111,
+      "sha256": "147953144fa4d2fa758d27b5a21a0a9273e8843d60bc720ed5ddfaa11b629e2f"
+    },
+    "audioPrivacy": {
+      "textHash": "1c1b0cafebb524828df8323ea7bf84d611f0ad776df89af9f38043c7c0d23cc9",
+      "spoken": "ਮੁੜ ਸੁਣਨ ਲਈ ਸਿਰਫ਼ ਜਨਤਕ ਹਦਾਇਤਾਂ ਸੰਭਾਲੀਆਂ ਜਾਂਦੀਆਂ ਹਨ। ਆਡੀਓ ਬੇਨਤੀਆਂ ਇਸ ਵੈੱਬਸਾਈਟ ਰਾਹੀਂ ਹਨ; ਤੁਹਾਡੀਆਂ ਐਂਟਰੀਆਂ ਆਵਾਜ਼ ਸੇਵਾ ਨੂੰ ਨਹੀਂ ਭੇਜੀਆਂ ਜਾਂਦੀਆਂ। ਹੋਸਟਿੰਗ ਰਿਕਾਰਡ ਵਿੱਚ ਆਈ ਪੀ ਪਤਾ ਅਤੇ ਮੰਗੀਆਂ ਆਡੀਓ ਫਾਈਲਾਂ ਹੋ ਸਕਦੀਆਂ ਹਨ।",
+      "bytes": 69089,
+      "seconds": 17.133,
+      "sha256": "4a33533e434d8b326ce1af2bcc4391d30a5fdfcbb87a000535cafcded0e8fe92"
+    }
+  }
+}

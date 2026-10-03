@@ -43,7 +43,9 @@ test('the release contains exactly English plus 20 scheduled languages and exclu
  assert.equal(codes.length,21);assert.equal(new Set(codes).size,21);
  assert.deepEqual(codes.filter(code=>code!=='en').sort(),['as','bn','doi','gu','hi','kn','kok','mai','ml','mni','mr','ne','or','pa','sa','sat','sd','ta','te','ur'].sort());
  assert.ok(['sd','ur'].every(isRTL));assert.equal(isRTL('hi'),false);
- assert.deepEqual(audioLanguages,['en','hi','bn','mr','ta','ur']);
+ assert.equal(new Set(audioLanguages).size,audioLanguages.length);
+ assert.ok(audioLanguages.every(code=>languageInfo.some(([language])=>language===code)));
+ for(const language of ['en','hi','bn','mr','ta','ur'])assert.ok(audioLanguages.includes(language));
  assert.ok(['brx','ks'].every(code=>!isKnownLanguage(code)&&!Object.hasOwn(localeCatalog,code)));
  assert.deepEqual(Object.keys(localeCatalog).sort(),codes.slice().sort());
  const html=await readFile(new URL('../dist/index.html',import.meta.url),'utf8');

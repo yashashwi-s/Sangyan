@@ -1,0 +1,2540 @@
+{
+  "language": "te",
+  "revision": "052e175d7ee8",
+  "model": {
+    "model": "facebook/mms-tts-tel",
+    "revision": "dea6807154acc01918581982dcd40a116882a14d",
+    "license": "CC-BY-NC-4.0",
+    "languageCode": "te",
+    "files": {
+      "config.json": {
+        "sha256": "48578ae63327231562a7bd95ca7d0f14d9829e0fa0596729d5fee8dd5b9a8cd9",
+        "bytes": 1641
+      },
+      "tokenizer_config.json": {
+        "sha256": "be17f308c8a31f727de568316e9bf52e7d528eaab95f2a481f0e77f6d88710be",
+        "bytes": 289
+      },
+      "vocab.json": {
+        "sha256": "92a58f888e5a0add6c7c4b6b9f2061bbf93029b0c5be8dcd5d138544b4305c51",
+        "bytes": 828
+      },
+      "special_tokens_map.json": {
+        "sha256": "abc17c5ce814eb73ef9a17d97b9348f717aeb90596526678b3c76905d471502c",
+        "bytes": 49
+      },
+      "model.safetensors": {
+        "sha256": "067ac7ad1632d214dec61bf78cd3c2921358284614f5a4063378cc1434a389cf",
+        "bytes": 145248248
+      },
+      "README.md": {
+        "sha256": "94f1ac48d177cd333f041dc41cf0043a789b4aad91dea4a7c463cf6f6dd522cc",
+        "bytes": 3975
+      }
+    }
+  },
+  "license": "CC-BY-NC-4.0",
+  "fluentReview": false,
+  "scope": "complete",
+  "entries": {
+    "nomineeYes": {
+      "textHash": "84886cbade4facb74b5cd80acd95c191909df903550612d10b5bc9fde03b76cd",
+      "spoken": "అవును",
+      "bytes": 5535,
+      "seconds": 1.226,
+      "sha256": "e14663c897c3c8c16319939c1eb69c017b5821a9ce82a242ea9bd84498dc4e93"
+    },
+    "nomineeNo": {
+      "textHash": "fca4aa75d6f00e5b0633f122923666416f3b7d54e7fe0730c796cc3188f52040",
+      "spoken": "నం",
+      "bytes": 4766,
+      "seconds": 1.05,
+      "sha256": "b10cc2fda8c8783b10fc7f2f31ab99c2d8c376300b69a3e061e19b3e5c47323a"
+    },
+    "nomineeExplain": {
+      "textHash": "ecdb1570da5d105547743049ea0206048379e96e6f4ae75e6c431ea8ca1fd53d",
+      "spoken": "ఖాతాదారు మరణించిన తర్వాత సంస్థకు క్లెయిమ్ సమర్పించగల వ్యక్తిని నామినీ అంటారు. నామినేషన్ ప్రక్రియకు సహాయపడుతుంది; చట్టబద్ధంగా ఎవరు వారసులో నిర్ణయించదు. మీరు తనిఖీ చేయకపోతే, “ఖచ్చితంగా తెలియదు” ఎంచుకోండి.",
+      "bytes": 70243,
+      "seconds": 17.418,
+      "sha256": "4d4c9a8b3038bae04dc6fd3185648c88ef1509f4a27aa2aa33202ec61a60a2aa"
+    },
+    "day": {
+      "textHash": "b24244d3ce8150146f3978c2cd7e30e06a1c751c154fd0b35843f77e6c04ce7f",
+      "spoken": "రోజు",
+      "bytes": 4952,
+      "seconds": 1.081,
+      "sha256": "54151acddde93937e829b5c917970dc6859691935f86b3035ab45260e91b7354"
+    },
+    "month": {
+      "textHash": "222f205003beadebfa7bd49833f224ceb154db75afb60da4038453dc3d7872cd",
+      "spoken": "నెల",
+      "bytes": 5050,
+      "seconds": 1.114,
+      "sha256": "87ea143c4441783f13a32bb15fe3e501d2d8318992e46f2d464535cc1bc9f892"
+    },
+    "year": {
+      "textHash": "6766dfdf337bfa3cce1393da370be0ca0d67adc5abeccb52dc89908ec6d832f8",
+      "spoken": "సంవత్సరం",
+      "bytes": 5241,
+      "seconds": 1.156,
+      "sha256": "710644523057c5fc847428d4413d3ad6a3f4045bea0a87a7b6c284afed131ecb"
+    },
+    "dateExample": {
+      "textHash": "c6e038b2cdc8ec19d83d731256459a16d090d2cdd820f09f0547d1e6b89e8964",
+      "spoken": "ఉదాహరణ: పద్నాలుగు / సున్నా తొమ్మిది / రెండు వేల ఇరవై ఆరు అంటే పద్నాలుగు సెప్టెంబర్ రెండు వేల ఇరవై ఆరు. మీ రికార్డ్‌లో తేదీని ఉపయోగించండి.",
+      "bytes": 50368,
+      "seconds": 12.437,
+      "sha256": "a9597a954db82082ea1b7f9e608a0854fb2f9c87f1b93f3ed96f754a1451b399"
+    },
+    "submissionExample": {
+      "textHash": "25f5228933d273d94b74b1e4ea11dab469a918df079e6fed8a4880859349a14d",
+      "spoken": "మీరు అభ్యర్థన పంపిన రోజును ఉపయోగించండి. ఉదాహరణ: పద్నాలుగు/సున్నా తొమ్మిది/రెండు వేల ఇరవై ఆరు.",
+      "bytes": 39526,
+      "seconds": 9.737,
+      "sha256": "ca454f1235587b231bb282e1de92e0505a5ee345e4dd5df39d7906b8d73ca859"
+    },
+    "statementExample": {
+      "textHash": "01ca9b06d31c2976cebc78a5d7bab60bcc6074343b8e8c0c7518a66c5e853f26",
+      "spoken": "నామినీ పేర్లను చూపే ప్రకటన లేదా “నామినేషన్: అవును”. బ్యాలెన్స్ ఒక్కటే సరిపోదు.",
+      "bytes": 29445,
+      "seconds": 7.205,
+      "sha256": "5203b2cba94bceaba4ec850b72125f362d40dfbb7060361a3890bd6453b90c6a"
+    },
+    "registrationExample": {
+      "textHash": "43e17d5769878cac2b1254ebc5daa60634c63d205c108126f414d5525925c6be",
+      "spoken": "ఈ ఖాతాకు నామినేషన్ నమోదైందని నిర్ధారించే బ్యాంక్, బ్రోకర్ లేదా మ్యూచువల్ ఫండ్ లేఖ లేదా ఇమెయిల్. అభ్యర్థన రసీదు వేరు.",
+      "bytes": 43464,
+      "seconds": 10.726,
+      "sha256": "94420f7c1da8e6cd9c6e502424f53ed24aa760c51fdd86a755c64a84e81ac7e1"
+    },
+    "requiredInstitution": {
+      "textHash": "3ce06730ea94d6a757694ab4b686d3f9aece58719cda4b24d6d21505968770ca",
+      "spoken": "మీ రికార్డ్‌లో చూపబడిన బ్యాంక్, బ్రోకర్ లేదా ఫండ్ పేరును నమోదు చేయండి.",
+      "bytes": 21384,
+      "seconds": 5.201,
+      "sha256": "76caa290b92b929a4621b68981c299338f5606759477b43daef86da6bf3b7d62"
+    },
+    "requiredRecord": {
+      "textHash": "5c2c9fc4fc240c7e125741edb213c6ced09633e0bb0a5abc765bb21913ba54d9",
+      "spoken": "మీరు తనిఖీ చేసిన రికార్డ్ రకాన్ని ఎంచుకోండి.",
+      "bytes": 15715,
+      "seconds": 3.773,
+      "sha256": "3825471b9d025e98314dd7c6a4ef4d0ad9650cf4f4f6e94bdb6930cfc1cbf0e8"
+    },
+    "requiredCheck": {
+      "textHash": "09d8c25680a01f46189ac1d21a0b6f606db3a8ebd1b63ba8a1066bc7b92d8609",
+      "spoken": "ఈ ఖాతాకు నామినీ నమోదైందని మీ రికార్డు నిజంగా చూపిస్తుందో నిర్ధారించండి.",
+      "bytes": 25410,
+      "seconds": 6.198,
+      "sha256": "97785c72ee895208b47e59f92c6e3dae186a2e1c82fc8b39bb470d9b26f8ad1a"
+    },
+    "institutionExample": {
+      "textHash": "6d1da48f012d41f25bc7203b250e13742b1f102aed9e07d733a78fa4ac376cde",
+      "spoken": "ఉదాహరణకు: హెచ్ డీ ఎఫ్ సీ బ్యాంక్ లేదా మీ స్టేట్‌మెంట్‌లోని పేరు.",
+      "bytes": 24935,
+      "seconds": 6.074,
+      "sha256": "ed22c017bd7deefaf334dd1439daa9fd788c55a2ba4bf11558efe0bd3cee4237"
+    },
+    "nicknameExample": {
+      "textHash": "d3c41c29ba8243cac19716a9378e8880db74ca88b7e6643fccba773bc9c8ca59",
+      "spoken": "ఉదాహరణకు: కుటుంబ పొదుపులు.",
+      "bytes": 11876,
+      "seconds": 2.826,
+      "sha256": "3ab617a69724f0bb9e811ad7f8854873fec0dcb3099107d64ff5f5ab11a8a8cf"
+    },
+    "ownerExample": {
+      "textHash": "f0289fcdea383f5d25cbca4b1f38f959da3a65e51c8d8d3631410e0a460ba4aa",
+      "spoken": "ఉదాహరణకు: నేను లేదా తల్లిదండ్రులు.",
+      "bytes": 13505,
+      "seconds": 3.224,
+      "sha256": "26f577fbbdc08a13f55f2936f63c589abfc5ce4e98fc9d01c841bf3990f34049"
+    },
+    "nomineeNoteExample": {
+      "textHash": "3752821328664a2b4797d345b6c996633049de411db58852bd0ccbe039834648",
+      "spoken": "ఉదాహరణకు: జీవిత భాగస్వామి / అను. మారుపేరు లేదా సంబంధం మాత్రమే.",
+      "bytes": 28583,
+      "seconds": 6.999,
+      "sha256": "7497f3f1ec151477b446b81f8d8ae4b0ff0f6f22dde01fdfec8b7107499d656b"
+    },
+    "last4Example": {
+      "textHash": "600244d59f42c952ac7d7c4742040da5f77b7e7040a70de3b84e106bb97fc7ac",
+      "spoken": "ఉదాహరణకు: ఒకటి రెండు మూడు నాలుగు. చివరి నాలుగు అంకెలు మాత్రమే.",
+      "bytes": 22721,
+      "seconds": 5.527,
+      "sha256": "241300528097ed3f08554ecf965daeb92c5ec9b362f623f6b8f72967bef73b97"
+    },
+    "recordNoteExample": {
+      "textHash": "e6a1de1691bed7b9fceb0f917119ce643a88c22c5e139db268d526cf7776edf0",
+      "spoken": "ఐచ్ఛికం: రసీదు లేదా రికార్డును కనుగొనడంలో మీకు సహాయపడే చిన్న గమనిక.",
+      "bytes": 28966,
+      "seconds": 7.095,
+      "sha256": "bcfaa336ccf76af5a95f45b0b32a68c4c1a3720356547dc0170dd4fb7ecdebdd"
+    },
+    "bankLocation": {
+      "textHash": "ba6fd2df23b83ae611dd43a7752b87b974cf6dd8ce5b0ce19db309f59c8959fd",
+      "spoken": "మీ పాస్‌బుక్, స్టేట్‌మెంట్ లేదా డిపాజిట్ రసీదుపై బ్యాంక్ పేరును ఉపయోగించండి.",
+      "bytes": 25313,
+      "seconds": 6.18,
+      "sha256": "67e1f2a3dcdda586c1992681f1a674f3bf73a7bcc8b94a1c12e5702359b59eb8"
+    },
+    "dematLocation": {
+      "textHash": "b6b16e03eaeee3d488e723e1a702de35b2a758bf10fb4b89f9fb1540af653812",
+      "spoken": "మీరు కలిగి ఉన్న షేర్లను కలిగి ఉన్న కంపెనీకి బదులుగా మీ డీమ్యాట్ స్టేట్‌మెంట్‌లో బ్రోకర్ లేదా బ్యాంక్‌ని ఉపయోగించండి.",
+      "bytes": 35682,
+      "seconds": 8.774,
+      "sha256": "d5e54843354cc19b4c8dd31b21e16560f83301eb43a0163c6be88619816b8d99"
+    },
+    "mfLocation": {
+      "textHash": "1f58ea3aeb87838dbf92269aa7da1624f917955435df36e7611f7016a5ce9d0f",
+      "spoken": "మీ ఫోలియో స్టేట్‌మెంట్‌లో మ్యూచువల్ ఫండ్‌ని ఉపయోగించండి. దాని రిజిస్ట్రార్ సహాయం చేయవచ్చు; డీమ్యాట్‌లోని యూనిట్లు డీమ్యాట్ మార్గాన్ని అనుసరిస్తాయి.",
+      "bytes": 43551,
+      "seconds": 10.743,
+      "sha256": "2022957dffe8c72bd2c651e776503bf729704ba6ec25dd5e288331048aab8ac0"
+    },
+    "checkLocation": {
+      "textHash": "0603f76e2373e32525029ae401795131c49d559e55c4a5014071890cd85089ba",
+      "spoken": "ఈ ఖాతా వివరాలు లేదా తాజా స్టేట్‌మెంట్‌లో నామినీ పేరు లేదా నామినేషన్ స్థితి కోసం చూడండి.",
+      "bytes": 31554,
+      "seconds": 7.742,
+      "sha256": "dc7a0434cd672768222364fb6e53abfacb1bab8949c7fc5d6b60dd5769a92eaa"
+    },
+    "askInstitution": {
+      "textHash": "de91b036416c4e8d95400fdc11295de17d2fa95aa538c2d1301c8801742e2a09",
+      "spoken": "అది చూపబడకపోతే, సంస్థను అడగండి: \"ఈ ఖాతా కోసం నామినేషన్ నమోదు చేయబడిందా? మీరు దానిని వ్రాతపూర్వకంగా నిర్ధారించగలరా?\"",
+      "bytes": 46627,
+      "seconds": 11.498,
+      "sha256": "53c2c99af3e8d64b9cf741f5e411a36ee912dfc6af41a7a18fea166f57123a18"
+    },
+    "keepUnknown": {
+      "textHash": "21c72aa70ffe6cab944e5b37c820760dac9b4f3ab4c6c46b0a57fb815ee15be9",
+      "spoken": "మీరు తనిఖీ చేసే వరకు \"ఖచ్చితంగా తెలియదు\" ఉంచండి. సంస్థ నామినీని నిర్ధారించకపోతే, \"జోడించబడలేదు\" ఎంచుకోండి.",
+      "bytes": 41248,
+      "seconds": 10.161,
+      "sha256": "d9593affa4ebe8f5408b7ff62ab6400f48b602ab706046d8daa42362a479ebc7"
+    },
+    "submitKeep": {
+      "textHash": "99f52e4bd9b18264573fb13407f422f3463483a9eb8c1edf6575743cf455a52a",
+      "spoken": "సంస్థ యొక్క అధికారిక ఛానెల్ ద్వారా సమర్పించండి. తేదీతో కూడిన రసీదు లేదా రసీదుని ఉంచండి.",
+      "bytes": 30015,
+      "seconds": 7.364,
+      "sha256": "fa6fe529c077397f3ee315faf4a99d55b31c66cf195d50306d770165c199a210"
+    },
+    "confirmRegistration": {
+      "textHash": "4def5f5e0b260965f4e5d1d4233bcf5a779adfe94fc705af35967c04816ecc9c",
+      "spoken": "ఈ ఖాతాను గుర్తించి, నామినేషన్ నమోదును చూపించే స్టేట్‌మెంట్ లేదా వ్రాతపూర్వక నిర్ధారణను తనిఖీ చేయండి. అభ్యర్థన రసీదు ఒక్కటే నమోదు జరిగినట్లు నిర్ధారించదు.",
+      "bytes": 46440,
+      "seconds": 11.46,
+      "sha256": "2448b7328d1ccf2bd9af11e6142806b296ccae64e4652a2ef7647ce86de72885"
+    },
+    "followRequest": {
+      "textHash": "df93539520a1b4653d6292aaaf431b42e705b175ccc17ee401fdd2da2644a898",
+      "spoken": "నామినేషన్ నమోదు చేయబడిందా లేదా అని సంస్థను అడగడానికి అభ్యర్థన తేదీ మరియు రసీదు సూచనను ఉపయోగించండి.",
+      "bytes": 35298,
+      "seconds": 8.666,
+      "sha256": "c9eb346b6e97c0c36be580baa59e1974e777fee05bcbf3021b634155a07ec833"
+    },
+    "waitRegistration": {
+      "textHash": "d641214ccbff300431c61c1375fdbd9c52a1850298715f928b79fb816d4b6a89",
+      "spoken": "రిజిస్ట్రేషన్ రికార్డ్ అందుబాటులోకి వచ్చే వరకు దీన్ని నిర్ధారణ కోసం వేచి ఉండండి.",
+      "bytes": 25701,
+      "seconds": 6.274,
+      "sha256": "2d658bceda8ecd42b91747b834d40cfe7379fcbf2eff250753ed8f29fb0720ee"
+    },
+    "hdfcPath": {
+      "textHash": "80d4f0ccaee03b9303b0bf80596500bcf6cd1281fa99adbfd4bd77b64786d06b",
+      "spoken": "నెట్‌బ్యాంకింగ్: ఖాతాలు → మీ ఖాతా → ఖాతా వివరాలు → నామినీ/హోల్డర్ వివరాలు.",
+      "bytes": 32509,
+      "seconds": 7.989,
+      "sha256": "e4d8859b76cdab23e4545bfaf4a6abaa76b85c733c91758fc129e27a47700b10"
+    },
+    "hdfcHolding": {
+      "textHash": "01e1dc06db33ab1f698b7e919e11e025e4657b6d079d96dd5707e460f75a24c2",
+      "spoken": "ఏకైక హోల్డర్: అక్కడ జోడించండి/మార్చు. జాయింట్ హోల్డర్‌ల కోసం, బ్యాంకు కలిసి బ్రాంచ్‌ను సందర్శించాలని సిఫార్సు చేస్తుంది.",
+      "bytes": 40864,
+      "seconds": 10.068,
+      "sha256": "d1876d32a2cab45f44cd6d50d4514e36cb9c37e2a222bbcbf321b3ebdf56287f"
+    },
+    "hdfcSource": {
+      "textHash": "2ff6291f0f233e6a6a3cbbfb63e7f99473d1870ad9101f8bc1b2b976a5222e79",
+      "spoken": "హెచ్ డీ ఎఫ్ సీ బ్యాంక్ సూచనలు",
+      "bytes": 12351,
+      "seconds": 2.929,
+      "sha256": "7308d53760540aa5a89c42ddfad157b74c32bdc903a6310732ca706128fda16e"
+    },
+    "whatToDo": {
+      "textHash": "89850ecb15e41e337de72ecfb0f8b5c86a2311ca0056a1bfc0cfaf1d459e6ad9",
+      "spoken": "ఏం చేయాలి",
+      "bytes": 6205,
+      "seconds": 1.396,
+      "sha256": "d98868495ac1711103511c37fbea88fb06608b87e1ab27d36fe9d2f43964d01c"
+    },
+    "home": {
+      "textHash": "19ea940f6f89ad6d7ca0c1fccbb20dd61fbc30818b459ca56fdc8aa51e1ee35e",
+      "spoken": "హోమ్",
+      "bytes": 5337,
+      "seconds": 1.178,
+      "sha256": "ed0372677ad9d9e528130c77426974fd942aab25ec7af7714993f1064814a362"
+    },
+    "continue": {
+      "textHash": "e6663e3f2c3381e3408280ee27080826b1475575423b29e9f2178e5a7cc6f56b",
+      "spoken": "కొనసాగించు",
+      "bytes": 5629,
+      "seconds": 1.267,
+      "sha256": "d313cdbe013e52679050b5fa85656c0947a0866638f5202643f296bbc4f8b1af"
+    },
+    "unfinished": {
+      "textHash": "6192c7583392bb98f0f9b15f903ac16c03a17fc66a940c5cb8406b7ea09dea95",
+      "spoken": "అసంపూర్తిగా ఉన్న ఖాతాను కొనసాగించండి",
+      "bytes": 15039,
+      "seconds": 3.621,
+      "sha256": "517de95f529656170c66386eaac119d5899b1cead0cf76dc6eeae3b4cc548e81"
+    },
+    "step": {
+      "textHash": "2ede02c27f1744161980e4e8c14210de7d96e102211f1c80ca3dfd8581c87255",
+      "spoken": "దశ",
+      "bytes": 5241,
+      "seconds": 1.162,
+      "sha256": "c7f5028452d7d3852dfbd0572efb4f9f6bcde058adfee116da74c366a8e2204c"
+    },
+    "of": {
+      "textHash": "42ddd7fbc81eac7e92de36fcd253d37f7cdd75358d463728021f5cd7862e44db",
+      "spoken": "యొక్క",
+      "bytes": 4471,
+      "seconds": 0.968,
+      "sha256": "bf5cda8f871412bc7aa849b847277d4f5aaa39ed6f518dbae7a4b5132ca1905d"
+    },
+    "homeTitle": {
+      "textHash": "7d5a327e99c5f97640dfde44d310c674a242106babab2e1ceebc581370555a1d",
+      "spoken": "మీ కుటుంబ ఖాతాలను సులభంగా కనుగొనండి.",
+      "bytes": 15038,
+      "seconds": 3.614,
+      "sha256": "0f51aee54b82ec536d9ddf33d4ec15d61eecaa4ba8944cf5f3404e72ed534013"
+    },
+    "homeIntro": {
+      "textHash": "64c7d4ec3a1e54ca0bdbc575d967645f55e7535cd8b6290897c5664d16e9eca1",
+      "spoken": "ఎవరు నామినేట్ అయ్యారో తనిఖీ చేయండి. తప్పిపోయిన వాటిని జాగ్రత్తగా చూసుకోండి. మీ కుటుంబానికి స్పష్టమైన రికార్డును అందించండి.",
+      "bytes": 43070,
+      "seconds": 10.63,
+      "sha256": "92e9fbb22d3b4723ec63a7680a4e58ff77d26c56d5941478ff398538a1b55374"
+    },
+    "typeQuestion": {
+      "textHash": "6fbb0ab46e8dcee8da8b8f68ad46b3850a33115c3b4cac53dd84850a50a9fd5d",
+      "spoken": "ఇది ఎలాంటి ఖాతా?",
+      "bytes": 9377,
+      "seconds": 2.186,
+      "sha256": "fd397e10112da5472dfae3d834a45c6f655a05a97e87d4faa5ed39d59a56b2dd"
+    },
+    "institutionQuestion": {
+      "textHash": "c78e9dcba902a5e8ba9c1ab96a1b3aaf1d73cc2af9dbad914c162c5937834c9a",
+      "spoken": "ఖాతా ఎక్కడ ఉంది?",
+      "bytes": 7272,
+      "seconds": 1.678,
+      "sha256": "6b6f60ba40d2fb9f4ad91a43a68d8523dc3bf644a0132e0bb76b72f2646a8a9e"
+    },
+    "dematDescription": {
+      "textHash": "6c5a0ad86fed55c113b8d5bef0398399cb72fe35074a87f3cded31e7bb871219",
+      "spoken": "బ్రోకర్ లేదా బ్యాంక్‌తో ఉన్న షేర్లు",
+      "bytes": 13413,
+      "seconds": 3.208,
+      "sha256": "2ab69e83d3903613c6bf5cfe0d126df0991d5d56f76bd05806fb33a88c0bdb14"
+    },
+    "bankDescription": {
+      "textHash": "8469fa2f9798a416a44aa84bc5d6ee5a83de05e84824908d2a480bbf42c37824",
+      "spoken": "సేవింగ్స్ లేదా బ్యాంక్‌లో డిపాజిట్",
+      "bytes": 16964,
+      "seconds": 4.09,
+      "sha256": "557693365d9c7a56666c2165f6065252056df874f6835bdc7339f0298d864bb2"
+    },
+    "mfDescription": {
+      "textHash": "bf79373be6f9472ec3c3200583b73853abcc148285512c0d748768503951883f",
+      "spoken": "మ్యూచువల్ ఫండ్‌తో నిర్వహించబడిన ఫోలియో",
+      "bytes": 14370,
+      "seconds": 3.443,
+      "sha256": "d3dff06947097f33745bbdbef57f5e0362abb5fac60eb8aaacc4c306d436c367"
+    },
+    "nomineeNote": {
+      "textHash": "d1a5fb8e2a8e93dba3c63914603fe25019038798552d84cd88548c520a7bf3e1",
+      "spoken": "నామినీ మారుపేరు లేదా సంబంధం (ఐచ్ఛికం)",
+      "bytes": 15136,
+      "seconds": 3.637,
+      "sha256": "23fcd1d975585988f78c5b6bbe7e7a16ac8ee6201202cadfafe1aa94db7c7439"
+    },
+    "nominees": {
+      "textHash": "da6f4ecb7702c72d0b5675150864c4b83132235065d8e2b5c303f94a919e331f",
+      "spoken": "నామినీ నోట్స్",
+      "bytes": 6781,
+      "seconds": 1.558,
+      "sha256": "0e61cffea592404be775309b0e25bb9bdc95771851079859e49c04eaac37e2a2"
+    },
+    "missingGuide": {
+      "textHash": "8c95e9a035c26534935a5af134ac617889270b62c5c6a4f5c0fe97e01624e143",
+      "spoken": "సంస్థ యొక్క నామినేషన్ ఎంపికను ఉపయోగించండి లేదా దాని ప్రస్తుత ఫారమ్ కోసం అడగండి.",
+      "bytes": 30689,
+      "seconds": 7.532,
+      "sha256": "6b0a3c685dda075cacf2f2566c95f34b9e1e03fd341e03da0ebd15be795c7a06"
+    },
+    "title": {
+      "textHash": "30b8dde5c7b45f604eef7d70e777b985707b1dff8793ee9961ce987129e4d316",
+      "spoken": "మీ కుటుంబ ఖాతాలు",
+      "bytes": 8890,
+      "seconds": 2.079,
+      "sha256": "94944206087b3031ca3e8f20fe46d04196d8b2958eaf31070931a61484aef9bb"
+    },
+    "intro": {
+      "textHash": "1e5b6a9657bac45da125e119e1942a068489843f05339c8212fb95707e06374a",
+      "spoken": "నామినీలను ట్రాక్ చేయండి. తప్పిపోయిన వాటిని జాగ్రత్తగా చూసుకోండి.",
+      "bytes": 22618,
+      "seconds": 5.497,
+      "sha256": "9a78f4a8c2dac02ec036f248629b660a1ea7021cb5c58b53dabcce830152cc78"
+    },
+    "add": {
+      "textHash": "75a93ed3c13c53dc8fc91487caf46ecdc10bde956d2a10989034035257ed97b1",
+      "spoken": "ఖాతాను జోడించండి",
+      "bytes": 6968,
+      "seconds": 1.593,
+      "sha256": "d1e2b10c9caeb358d8ce081189aaefbb9b6443fcafbf358a1c1dcefd3f138169"
+    },
+    "edit": {
+      "textHash": "9fb17fc9b60d856b9f2e4c516e37a4d530e2ba2cf311bf4a58d6aa83be58fff0",
+      "spoken": "ఖాతాను సవరించండి",
+      "bytes": 7257,
+      "seconds": 1.663,
+      "sha256": "6a70ee682e8bec62f798d370097554399a04b8291be9f31daf1846bf332620cd"
+    },
+    "emptyTitle": {
+      "textHash": "09e87c7d0d48daf0ced4c10daf07fd963fecbd5dca7958764926f248e761039c",
+      "spoken": "ఒక ఖాతాతో ప్రారంభించండి",
+      "bytes": 9375,
+      "seconds": 2.208,
+      "sha256": "91ef4ce6b76f19ee546e21194aa9b5d47f986464f9ccf25b1f77f7c65aa514a5"
+    },
+    "emptyIntro": {
+      "textHash": "80d2055fe1c0bc7087ac86aeba1df3e31d60ded0a8d0050073c6c4cb4c18b2ad",
+      "spoken": "డీమ్యాట్, బ్యాంక్ లేదా మ్యూచువల్ ఫండ్. నామినేట్ అయిన వారిని తనిఖీ చేయండి, ఒక్కోసారి ఒక ఖాతా.",
+      "bytes": 36351,
+      "seconds": 8.951,
+      "sha256": "234e48497bff3cd035955a32ab20a43ee9082a438fc9f9b223e18ccb4ef73adf"
+    },
+    "example": {
+      "textHash": "6e4f37626d865135736b0dfdc190f11361c67909ee6d42ab5fef13503aa1d5bb",
+      "spoken": "ఒక ఉదాహరణ చూడండి",
+      "bytes": 8124,
+      "seconds": 1.879,
+      "sha256": "50e42a1e9d2bbe1ca9902723d780023e01fc79b1c627a9dc835082989425aff7"
+    },
+    "sample": {
+      "textHash": "a7a19707cdd7321764ed8375919389bc5293fa42a5bb9ca782ea758a8e889ddf",
+      "spoken": "ఉదాహరణ కుటుంబం · కల్పిత ఖాతాలు",
+      "bytes": 12347,
+      "seconds": 2.949,
+      "sha256": "d650b6eb48b540192f59843ecc39cd4cd496b51a3e0b039b5d891d7bdca4a12d"
+    },
+    "resume": {
+      "textHash": "05eb0c9e140fdaa75fb74c367f61217522f38f08dcfa8373b3680fb4e29afdaa",
+      "spoken": "సేవ్ చేసిన జాబితాను తెరవండి",
+      "bytes": 10235,
+      "seconds": 2.423,
+      "sha256": "ad30ba1841374e6fdbe27181b68aace3589f3a880abee7a1cfd292552d2deded"
+    },
+    "accounts": {
+      "textHash": "016a5141114edfbd5e9c63f60da12aca8c884f1697a3517658f298d56c03d93e",
+      "spoken": "ఖాతాలు",
+      "bytes": 4957,
+      "seconds": 1.082,
+      "sha256": "a9ccd1d55c074d7488652083832330147f7ae5d80eb2b33bc3b2420e1dd95afb"
+    },
+    "needAction": {
+      "textHash": "5a06145c9ecb2f34fe6d7cfab956491da4f08ec1ae699616b9a0ba8664fa029f",
+      "spoken": "శ్రద్ధ అవసరం",
+      "bytes": 6879,
+      "seconds": 1.565,
+      "sha256": "cf7ed350dd2bfeb98f4599180c1255baede55132cdd1b404399f4da8fd40504d"
+    },
+    "next": {
+      "textHash": "8aac2f7a0c5e5f43ff44fb01de6e4d4360668a14745e610ae581526b52d50777",
+      "spoken": "మీ తదుపరి దశ",
+      "bytes": 6873,
+      "seconds": 1.564,
+      "sha256": "8121c28645ad4a3d07e2002595e6c411ccdf7a3dfac71399b3e55b53799e7493"
+    },
+    "allTypes": {
+      "textHash": "c55f29ba5c66a2a718f87994a957b9298d33efa8465967bf72bf6ca4158317d3",
+      "spoken": "అన్ని ఖాతాలు",
+      "bytes": 7933,
+      "seconds": 1.846,
+      "sha256": "18a0c0b955689310e54049eaf2429b5344b8b8b1f332efe7d4e1ca655551b285"
+    },
+    "allClear": {
+      "textHash": "179ca9fd122edde9892f750c9c99974c9223e0eeb2a5427fa786063a4f8f5033",
+      "spoken": "ఈ రికార్డులను తాజాగా ఉంచండి",
+      "bytes": 11677,
+      "seconds": 2.768,
+      "sha256": "6616afdbbcf09b0f2ee476072b34995cfad3bf04f839d6cdb3eaa2a474a9be81"
+    },
+    "type": {
+      "textHash": "0d3ae3833af6ddc8aa4d7fdad978f11f46709f95be947cc28cd0d9a5ec0eece2",
+      "spoken": "ఖాతా రకం",
+      "bytes": 5529,
+      "seconds": 1.227,
+      "sha256": "e06405f5874c28c8abab043620cc6e21c3f9454846e61d6238cec841a583e63e"
+    },
+    "demat": {
+      "textHash": "22272bc21e8d50324fd67cc90ad1f2604c0a55d92f03d8fa9539937628f375ab",
+      "spoken": "డీమ్యాట్",
+      "bytes": 4762,
+      "seconds": 1.043,
+      "sha256": "49fdba7002139dcebe6677380298956a85d86d6aaacdf7956da8d8b17a9e532f"
+    },
+    "bank": {
+      "textHash": "c30e95035a9600efc76b336e8ca9a214deb281bb1dd8823b795de01ba4b1804f",
+      "spoken": "బ్యాంకు డిపాజిట్",
+      "bytes": 6585,
+      "seconds": 1.501,
+      "sha256": "59b05619bb92158b9f6cff84561fe6c18ba72466c0e365ef6b8c7941f2678964"
+    },
+    "mf": {
+      "textHash": "a2035cab7647f21bfc329d4e128bf3bc89772c8e22d4efee5a4aa1688ae06244",
+      "spoken": "మ్యూచువల్ ఫండ్ ఫోలియో",
+      "bytes": 8311,
+      "seconds": 1.924,
+      "sha256": "d05407ebeda58ca21fe1e480c1487ba94b27b808f11e29ee9912b104ebee7c49"
+    },
+    "institution": {
+      "textHash": "ab2759a84338a0f0984f90c0f005b66a69e70e05294f36b932a2b422caab4827",
+      "spoken": "బ్యాంక్, బ్రోకర్ లేదా ఫండ్ పేరు",
+      "bytes": 12256,
+      "seconds": 2.924,
+      "sha256": "1602199f0f566ac589c0331247d86c0e851c951d33599342534467e9f6ae85da"
+    },
+    "nickname": {
+      "textHash": "74b54ea3a55efe10159cf65bc04e7847758d9cecf80e6ca86c030f6917024550",
+      "spoken": "ఖాతా మారుపేరు (ఐచ్ఛికం)",
+      "bytes": 8989,
+      "seconds": 2.095,
+      "sha256": "b7afdb20758bc5d0cd5277fb297181dcb088aa1d7ef58f8b5928aca23a08642c"
+    },
+    "owner": {
+      "textHash": "b3121e2f0e88f100006123a3da41d4df1ffd511decd216817a5a7dde55498c17",
+      "spoken": "కుటుంబ సభ్యుని మారుపేరు (ఐచ్ఛికం)",
+      "bytes": 11290,
+      "seconds": 2.677,
+      "sha256": "0b4decfe551a3aec064cef9b178d0f076db67e30ea4d14432e3cee69bf3956c9"
+    },
+    "last4": {
+      "textHash": "814613e4024f08f16e97debbf43610d9d5855656b3dd8ccdde72b4b2e8cafdca",
+      "spoken": "చివరి నాలుగు అంకెలు (ఐచ్ఛికం)",
+      "bytes": 9946,
+      "seconds": 2.331,
+      "sha256": "a32cb6853f71588f625910f1cc313a054b2bcf01419a281bf21603e372d226e5"
+    },
+    "extra": {
+      "textHash": "0b23af9d7f90024633399bf34737730c02be8f8315c1695a0887ea7520d6ca56",
+      "spoken": "మారుపేరు లేదా చివరి నాలుగు అంకెలను జోడించండి",
+      "bytes": 18202,
+      "seconds": 4.405,
+      "sha256": "626ea4755e2b5b4e1ef6542604e053bb9e4f36a778bd47f8ab75b910234c8661"
+    },
+    "noIds": {
+      "textHash": "78182ca5d76f0d4dc8d698dcd81d44605dd1efd6c5713f63e55b574cb3681b29",
+      "spoken": "మారుపేర్లను ఉపయోగించండి. ఈ జాబితా నుండి పూర్తి ఖాతా సంఖ్యలు, పాన్ మరియు పాస్‌వర్డ్‌లను ఉంచండి.",
+      "bytes": 36538,
+      "seconds": 8.986,
+      "sha256": "3bd02352f9869328f0543100fe626988451b7281079d86517d42abe11f3d2ff8"
+    },
+    "nomination": {
+      "textHash": "1e9760762d58b5413979fd4e5af9bf957bf00521596c449b46eb3e19673a12cd",
+      "spoken": "నామినీ నమోదు చేయబడిందా?",
+      "bytes": 11391,
+      "seconds": 2.694,
+      "sha256": "b16913ce00310a8385dfcb67b08871832502f8c56aec76fd77fb650be2594dc1"
+    },
+    "registered": {
+      "textHash": "72f9544605c5acdc975ab0bb1638bb574f16491db24d80bdc2bfd8866ca919e8",
+      "spoken": "నమోదైంది",
+      "bytes": 6975,
+      "seconds": 1.588,
+      "sha256": "05f69b3dde8d2b48d22eabeab2350b4b08cb7d7a4378898f129e70258748f37e"
+    },
+    "missing": {
+      "textHash": "a91e4e9bcf9f6f91212a6c1ef97bddef86c81868d0605fe1c4b9458169f350d6",
+      "spoken": "జోడించబడలేదు",
+      "bytes": 6972,
+      "seconds": 1.586,
+      "sha256": "e535b444d0fc83e016ce60dfabc036fff7b294604d8a07adb9be1e95828945db"
+    },
+    "unknown": {
+      "textHash": "05b095a4ecd46fd0d17e996cc039fea651f5eca7835fc08cd7abab1d6446ab67",
+      "spoken": "ఖచ్చితంగా తెలియదు",
+      "bytes": 7068,
+      "seconds": 1.618,
+      "sha256": "fa115a6f6d4ef9fd84b30ce4cb0b0c329e6d8a203c3ec53ee56e187f3435987c"
+    },
+    "reported": {
+      "textHash": "c435b25bebd5fc1990296b995c94c21f64b1f1d38f8d30d315208e5e6945dabf",
+      "spoken": "మీ ద్వారా నివేదించబడింది",
+      "bytes": 9085,
+      "seconds": 2.116,
+      "sha256": "c0fe4bc82b208cfe8c8d50292e938a9277f412132b07206f86553e7bfab30320"
+    },
+    "submitted": {
+      "textHash": "3dfaa9aabe2779505a21f26da11deb15cf5e4c45a13ba9393df12c69143a6c37",
+      "spoken": "అభ్యర్థన సమర్పించబడింది",
+      "bytes": 8798,
+      "seconds": 2.059,
+      "sha256": "0210e06053f284b54c28ba507280980a5dae0aa82687e5939c8a718cb4d6656c"
+    },
+    "confirmed": {
+      "textHash": "f11d3e305253eca3fe3088ac32991ec8d47939058ce3a2095e626dfbb8cff514",
+      "spoken": "రికార్డులో తనిఖీ చేయబడింది",
+      "bytes": 9374,
+      "seconds": 2.206,
+      "sha256": "f544bbe121b3f6b6564b9918e2fb585c4417a330ba85f34c18a31b30e7aab4fd"
+    },
+    "review": {
+      "textHash": "1e311021fc3646c67b310b10455fedc7e6a4eaa4575b64965cd1b0cca30503e2",
+      "spoken": "రికార్డును తనిఖీ చేయండి",
+      "bytes": 8891,
+      "seconds": 2.086,
+      "sha256": "0bd40f27f07eb13815e8e7c72ac77c146fa0d2775e9b8cf9afcfd3841ad0d4c0"
+    },
+    "awaiting": {
+      "textHash": "b67474610cb01ade1df3fac1c3df127a532b52c713f18f3a3c0e0e28052f21df",
+      "spoken": "నిర్ధారణ కోసం వేచి ఉంది",
+      "bytes": 9469,
+      "seconds": 2.213,
+      "sha256": "d1b2315e192a66677d4d804aa7b3e3b5dbd5874ba248930b8042ee5a72a573c1"
+    },
+    "checkedOn": {
+      "textHash": "00c72d2bd2f7e8a2dda6cef6c40d8cf7551b83540a973a52e460f7da66be5c88",
+      "spoken": "చివరిగా తనిఖీ చేయబడింది",
+      "bytes": 8702,
+      "seconds": 2.032,
+      "sha256": "7d87532c8ea40a10fa998469d54977fe157cdf9186602a10e174369c461c690d"
+    },
+    "neverChecked": {
+      "textHash": "7779db1ed1ed8faf8b1766d07d710927fe40e5ce79a40e3cabacc89600de8214",
+      "spoken": "ఇంకా తనిఖీ చేయలేదు",
+      "bytes": 8033,
+      "seconds": 1.858,
+      "sha256": "74d95e9c5287715de0030d6a396b646f02db041625545d5396d34b7042a786db"
+    },
+    "update": {
+      "textHash": "bae8bba5fed3ae443f62e2778a9bb479d471cb0f1b659f758a8fb2e2945d85df",
+      "spoken": "మార్పులను సేవ్ చేయండి",
+      "bytes": 8219,
+      "seconds": 1.897,
+      "sha256": "3c9e9d11ed65fce2ceafc83a4581d9796d7fdd14e6e6862c525894f325c4a3d3"
+    },
+    "back": {
+      "textHash": "7b13f8eb3ca3ee26323cc4053fa8c5643c05af07c1d9b379d1f5b4d25e225881",
+      "spoken": "వెనుకకు",
+      "bytes": 5817,
+      "seconds": 1.311,
+      "sha256": "4abd226f5e0e0110e0144dda96949fdc14b263971a7aa1e87881bfa87d3f575d"
+    },
+    "cancel": {
+      "textHash": "890eadc0f9dc206b06f9ff4797d1402378131118dc4ae770388d9e137b1c2fd4",
+      "spoken": "రద్దు చేయి",
+      "bytes": 6491,
+      "seconds": 1.485,
+      "sha256": "c9117f93289039cfad9121eaebb2aa70d09bb5a841417ffe43d6f7b2b26ce51c"
+    },
+    "open": {
+      "textHash": "a8555d7fe2e5787940f5a012690f95a609eecb7a3882725b621c8425032caaf8",
+      "spoken": "తదుపరి దశను చూడండి",
+      "bytes": 8121,
+      "seconds": 1.894,
+      "sha256": "55bf220447661cc7be59c79f0eb03222323f71f2c7d3063a71995b648027c3af"
+    },
+    "registerTask": {
+      "textHash": "753ce2d533bf38eba434af6b51db815ebd1fb39da783911a43ea0c99160fb812",
+      "spoken": "మీ సంస్థతో నామినీని జోడించండి",
+      "bytes": 10625,
+      "seconds": 2.499,
+      "sha256": "32eca8b802170ecb14033f11182716d9bb37bb0b9fc63af249b7a9f73474293a"
+    },
+    "checkTask": {
+      "textHash": "e90622f49e73a3cb3151fc13ef3981b2b45742f4b9fe2ccd54fee1ba8572e52d",
+      "spoken": "నామినేషన్ స్థితిని తనిఖీ చేయండి",
+      "bytes": 10430,
+      "seconds": 2.457,
+      "sha256": "132f83c4c794bf089573d165cc5c2ea5ccb091882c18a8a43dcb36169a1a33f7"
+    },
+    "confirmTask": {
+      "textHash": "2f6494587e19d42129f08dcb6d768b1b4bcfd2f2e9d0aebd25a2e079ee9384f8",
+      "spoken": "అభ్యర్థన నమోదు చేయబడిందో లేదో తనిఖీ చేయండి",
+      "bytes": 18880,
+      "seconds": 4.571,
+      "sha256": "735250514d449be47b3c196c786599145a20d55109b6bce2217ea68cee2e7282"
+    },
+    "recordTask": {
+      "textHash": "0ee25175c09e78d52d6a08e1febac6437cff4fbb1d6c67bb880b5ab10b4cd488",
+      "spoken": "మీ రికార్డులతో నిర్ధారణను ఉంచండి",
+      "bytes": 11103,
+      "seconds": 2.63,
+      "sha256": "c28a38c0109c898aa04f418a2017265cb9c9592d7c7353f715b5893de6de4adb"
+    },
+    "dematGuide": {
+      "textHash": "3c8448ea39bafd29e0344492deb77dffd39d5d5010fa35de0549e80d0c07bb18",
+      "spoken": "ఈ డీమ్యాట్ ఖాతాను నిర్వహించే బ్రోకర్ లేదా బ్యాంకును ఉపయోగించండి. ప్రస్తుత నామినేషన్ ఫారమ్ లేదా దాని అధికారిక ఆన్‌లైన్ ఎంపిక కోసం అడగండి.",
+      "bytes": 50463,
+      "seconds": 12.463,
+      "sha256": "8f277957a4272ca3e1c77a7214aed75fc6f0e0f4a229ae21a95500f084106cd3"
+    },
+    "bankGuide": {
+      "textHash": "c486e7f017c6681fcb1f17aa7b9fade44e4821c0eda04100a90766d5ec157a6d",
+      "spoken": "ఆన్‌లైన్‌లో అందుబాటులో ఉంటే మీ బ్యాంక్ బ్రాంచ్ లేదా దాని అధికారిక నామినేషన్ సదుపాయాన్ని ఉపయోగించండి. ప్రస్తుత డిపాజిట్ నామినేషన్ ఫారమ్ కోసం అడగండి.",
+      "bytes": 52862,
+      "seconds": 13.059,
+      "sha256": "214b546d99128fa43a5084015f37e4431ce6bd288832841ddd183bf32bb33bd5"
+    },
+    "mfGuide": {
+      "textHash": "4429003b7058bc73d2edadda0b3f906479ea7881ae1ebc748edb580356d4be66",
+      "spoken": "మ్యూచువల్ ఫండ్ లేదా దాని రిజిస్ట్రార్ అధికారిక సేవా కేంద్రం లేదా ఆన్‌లైన్ ఎంపికను ఉపయోగించండి. యూనిట్లు డీమ్యాట్‌లో ఉంటే, డీమ్యాట్ ఖాతా నామినేషన్ మార్గాన్ని ఉపయోగించండి.",
+      "bytes": 63324,
+      "seconds": 15.688,
+      "sha256": "475130d57c54b23d788660f0304a290f4ad54746c781e5d9446a57e72b7ec3b0"
+    },
+    "checkGuide": {
+      "textHash": "9b28d3a80ded1c7fb8409066bcc9b5c4f26983a000ef695db4fdce68245a41eb",
+      "spoken": "తాజా ప్రకటనను తనిఖీ చేయండి లేదా సంస్థను అడగండి. గుర్తుంచుకోబడిన నామినేషన్‌కు నిర్ధారణ అవసరం కావచ్చు.",
+      "bytes": 32799,
+      "seconds": 8.051,
+      "sha256": "b8b380c7964dae12f0ced5937f827c1bea9f2542336a5d31142a6ccb2cc3e5b9"
+    },
+    "receiptGuide": {
+      "textHash": "b1225a05238f58963ad80553d9a636cd1e18204ef7298701adb8e77e7379938c",
+      "spoken": "రసీదు ఉంచండి. ఆ తర్వాత నామినీ వాస్తవానికి రిజిస్టర్ చేయబడిందని చూపించే స్టేట్‌మెంట్ లేదా నిర్ధారణను తనిఖీ చేయండి.",
+      "bytes": 42593,
+      "seconds": 10.492,
+      "sha256": "b82b1e4d3adb84ebcd125f1b29121caa281705c2b1e38b65a31f95865bf0d1b6"
+    },
+    "institutionOnly": {
+      "textHash": "a39c5acc63888ee49080e580764ab7d46a5d0af1aa1cb39ce62a88af0c5479a4",
+      "spoken": "విరాసత్ మీ పురోగతిని నమోదు చేస్తుంది. నమోదు ప్రక్రియ సంస్థ వద్ద జరుగుతుంది.",
+      "bytes": 24068,
+      "seconds": 5.864,
+      "sha256": "3fed3c0c24d582f39bcae3f5ed2b3e84f7758f6dc8245fd5021624c1775904d9"
+    },
+    "source": {
+      "textHash": "6d33e25f2d435b45d57bef6fccf0622523789acc7198294e8989f356a787a418",
+      "spoken": "అధికారిక మార్గదర్శకత్వం",
+      "bytes": 11387,
+      "seconds": 2.702,
+      "sha256": "a0a64c2b1ab3e8165a09dcf81fa19b7970486c6d1aca95b7a512ff44bcdf3960"
+    },
+    "sourceNote": {
+      "textHash": "40f3317b437f90361cee495cb1e3a58354946ac0fff27ffcd43fafe19e0443f1",
+      "spoken": "ప్రస్తుత ఫారమ్ మరియు అర్హత: మీ సంస్థతో నిర్ధారించండి.",
+      "bytes": 21375,
+      "seconds": 5.198,
+      "sha256": "16d590c74511126fbd95b6c2cb2c2622dd33ab925b81f0442e1f39634c711f40"
+    },
+    "markSubmitted": {
+      "textHash": "2574c6088e83805ecdc34509b1b997fd0415d1699e83fc2d087d10e0a5ec8876",
+      "spoken": "నేను ఒక అభ్యర్థనను సమర్పించాను",
+      "bytes": 11394,
+      "seconds": 2.703,
+      "sha256": "e15332021cbfea4cb54586559ec1174a13048ad373a732999e8380460b57271c"
+    },
+    "markConfirmed": {
+      "textHash": "c25dbb32629848dbe1f8d6cb4db16fe3e57c94e56e74111d2712b333138195c3",
+      "spoken": "నేను నిర్ధారణను తనిఖీ చేసాను",
+      "bytes": 10914,
+      "seconds": 2.591,
+      "sha256": "7dbe2fb3756b0e890ed578af2a9cf69f298e8519bc7d8a59602c47d9e92ffe14"
+    },
+    "submissionDate": {
+      "textHash": "65ae664bf9c4c41e0e0ec30e2826e2b045f2c252dc585b0c37e268d14aeb47fa",
+      "spoken": "సమర్పించిన తేదీ",
+      "bytes": 7555,
+      "seconds": 1.734,
+      "sha256": "a45e436fc8eb4a4331f5d7feb4f88c0c52e5eb8e58fac8964c969c9c419f1f2f"
+    },
+    "confirmationDate": {
+      "textHash": "9a3c6582c7d6c6ae69269b2f1830e445a10e38a74f3e94a2591bdfd67a7227b9",
+      "spoken": "రికార్డులో తేదీ",
+      "bytes": 7173,
+      "seconds": 1.654,
+      "sha256": "95cfabb612225dbb9ba7ceeb5ba5dc263982e2212428b73f4dded74f84087955"
+    },
+    "recordKind": {
+      "textHash": "a7967b61ccc08f4dfeb7eb04ec65339f25f73d3dbea6e77ab68202af96bef22b",
+      "spoken": "మీరు ఏమి తనిఖీ చేసారు?",
+      "bytes": 10239,
+      "seconds": 2.423,
+      "sha256": "d3cf837ac50d220524a0dc6c910ec1f89a3a884e60b6e86eae5d5c60a0a158fd"
+    },
+    "choose": {
+      "textHash": "09f8ab4c1de23af83f815911db784be9d8279c377a8e53084e340c9ffc43c1b4",
+      "spoken": "ఎంచుకోండి",
+      "bytes": 5435,
+      "seconds": 1.216,
+      "sha256": "080818f729ad25dc0a8c9682fd117ef5f607ba3ca474c31a189812fab69161d1"
+    },
+    "statement": {
+      "textHash": "1e58132a70896eba1a46b08e229aee5e2eb5f9817d0669c78fdb99991ee56286",
+      "spoken": "ఖాతా / హోల్డింగ్ స్టేట్‌మెంట్",
+      "bytes": 9854,
+      "seconds": 2.317,
+      "sha256": "ced66f8ebbc77721fd88f60579bb4cb0a5c3c936539f86a71bc55ecdbb0dc66c"
+    },
+    "registration": {
+      "textHash": "4f03c0c0e2687e5021f4bacfd6934fe765232e4fb28c38c6e5205ecc8057ba63",
+      "spoken": "సంస్థ యొక్క రిజిస్ట్రేషన్ నిర్ధారణ",
+      "bytes": 13217,
+      "seconds": 3.149,
+      "sha256": "fbf851c7928ed65becebc21d72a83f132fd793588134484ec6405997a26d6b77"
+    },
+    "recordNote": {
+      "textHash": "b8cfaf547e8cb1e22925c589bf87068bcbe84cecbbda1c3c07619284ea88f97c",
+      "spoken": "చిన్న రికార్డ్ నోట్ (ఐచ్ఛికం)",
+      "bytes": 9375,
+      "seconds": 2.199,
+      "sha256": "29415f5a9991c55e7c952a453c2976d2eb570cec1654ebd1a6b52483fc37913c"
+    },
+    "confirmationCheck": {
+      "textHash": "a3fec749e8b47922d509e2fec76439c7df7b9c84c4940b838a81590b14d5f372",
+      "spoken": "అభ్యర్థన అందిందని మాత్రమే కాకుండా, నామినేషన్ నమోదైందని రికార్డు చూపిస్తుంది.",
+      "bytes": 24838,
+      "seconds": 6.06,
+      "sha256": "935c87d2ba8edbdb93fb95f93edd6f40404eda2bd302e1568622d70a08a79439"
+    },
+    "progress": {
+      "textHash": "9153cb02fa6ec8236d768a7a8cb49cd99d459bfefaf377f0d0160dfc87d9e8d3",
+      "spoken": "పురోగతి",
+      "bytes": 5149,
+      "seconds": 1.15,
+      "sha256": "335e454944081c3339cd37f4a55078be02b1f84717f64bf535a38b375e707d00"
+    },
+    "evidence": {
+      "textHash": "f7255b575d6b9ffa1fc9dc7b22cee1b8011b27710ab54fab907d3056d9c802bd",
+      "spoken": "మీ రికార్డు తనిఖీ",
+      "bytes": 7645,
+      "seconds": 1.774,
+      "sha256": "01b2595db93950b786fa09225edf8031789cf1855d383879e30bc2b137a9401b"
+    },
+    "selfReport": {
+      "textHash": "a6b7eea43dbecfccc184cb321e5dbf3fa58dd06b4c3f506feac7b97f5571240f",
+      "spoken": "మీరు నమోదు చేసిన సమాచారం. విరాసత్ సంస్థ రికార్డులను తనిఖీ చేయలేదు.",
+      "bytes": 24447,
+      "seconds": 5.973,
+      "sha256": "75f088e6218edf23e21260daeedc724075ec3550900217f941a9ebb0b7d38799"
+    },
+    "remove": {
+      "textHash": "1a8f993cfdfe065b80961ae41d38988a237774b5b1813c769221207f48c20882",
+      "spoken": "ఖాతాను తీసివేయండి",
+      "bytes": 7931,
+      "seconds": 1.843,
+      "sha256": "0be9187d878c7bf088b045707d580250326674d4e14cfe738881034a9fbf7dcf"
+    },
+    "removeAsk": {
+      "textHash": "45595763c8862209126b891a245630a90b100373a81f2174b49b40e277279844",
+      "spoken": "మీ జాబితా నుండి ఈ ఖాతాను తీసివేయాలా?",
+      "bytes": 16190,
+      "seconds": 3.893,
+      "sha256": "7820ee6147e5399d10b3e0e17d9efe1e7fb0a9d874b0ce3fb345572b3a82f237"
+    },
+    "summary": {
+      "textHash": "b43efdbfbc192853ad820d85616b7c297397afc379d5dd74fffb2f2f66b89499",
+      "spoken": "కుటుంబ సారాంశం",
+      "bytes": 6780,
+      "seconds": 1.54,
+      "sha256": "31d856c513bc3670063c5ba4202d5a56779aa8ba370f0f29727670392e9e5826"
+    },
+    "summaryIntro": {
+      "textHash": "a1133149598084f80a1df2480449b4c7946c804ccc479faba2da2f118b66e6ab",
+      "spoken": "భాగస్వామ్యం చేయడానికి ముందు మీ కుటుంబం తెలుసుకోవలసిన వాటిని సమీక్షించండి.",
+      "bytes": 25793,
+      "seconds": 6.29,
+      "sha256": "9d8fdbeb7e7f87a2f4ea272a43d0a74732bb757d4363db1c49e9c72de291bc72"
+    },
+    "summaryNotice": {
+      "textHash": "d32a50538e98ddb33c0a6857b1079408455c8043b9446e361b977a9a8a142114",
+      "spoken": "ఖాతా లేబుల్‌లు, కుటుంబం/నామినీ ముద్దుపేర్లు మరియు జోడించబడితే చివరి నాలుగు అంకెలు ఉంటాయి. రికార్డ్ నోట్స్ విస్మరించబడ్డాయి. మీరు విశ్వసించే వారితో మాత్రమే భాగస్వామ్యం చేయండి.",
+      "bytes": 55746,
+      "seconds": 13.792,
+      "sha256": "b03c0acdb31fa318e909c637bdf93b9efec10eaa0143b61be8151c468e19437c"
+    },
+    "print": {
+      "textHash": "ab3847b7773ca8186ada9bd884f4a6619c912d91fb2935a49d1c990761ea77e9",
+      "spoken": "పీ డీ ఎఫ్ని ప్రింట్ చేయండి లేదా సేవ్ చేయండి",
+      "bytes": 18010,
+      "seconds": 4.357,
+      "sha256": "84204c49b3f7da72918fc5323b41a41a722a1b8f50374022bc56da97dc15e443"
+    },
+    "export": {
+      "textHash": "a062a7a6cd3c4cf993dd51e1308ae353150e4b2963504795003af9bdfcd2546e",
+      "spoken": "చదవగలిగే కాపీని డౌన్‌లోడ్ చేయండి",
+      "bytes": 11195,
+      "seconds": 2.661,
+      "sha256": "5c8cceaa8dc4bb00014f58dc523c1a69d4d201a80004b456eee13ba5f29ca7e6"
+    },
+    "save": {
+      "textHash": "aed794b3ec90fd8ca02e1de7c2eed1602bd420cc95cc26e2a1273f4297d894a0",
+      "spoken": "మీ పురోగతిని సేవ్ చేయండి",
+      "bytes": 9177,
+      "seconds": 2.158,
+      "sha256": "9d85b1b421cbbeb38e2f7794f2e9c6dd0a97ddcb28939dae6523b0bff4a969e5"
+    },
+    "saveShort": {
+      "textHash": "47a272fe8e4721dc715d63b7350d5b1b9bf1cf7abdcd17a8a052db1af7728bec",
+      "spoken": "తర్వాత కోసం సేవ్ చేయండి",
+      "bytes": 10622,
+      "seconds": 2.509,
+      "sha256": "50601c779c4547aa15ec1fe75979f93302aa9be555205572aefd263957c6c6ed"
+    },
+    "saveIntro": {
+      "textHash": "d7f8afa766b943841720f2f88f3109d1d3b250c348c5cc4cdbddb4dd1925e868",
+      "spoken": "లాక్ చేయబడిన ఫైల్‌ను డౌన్‌లోడ్ చేయండి. మీరు తిరిగి వచ్చినప్పుడు అదే పాస్‌వర్డ్‌తో ఇక్కడ తెరవండి.",
+      "bytes": 31166,
+      "seconds": 7.645,
+      "sha256": "557cfe757fe0c539e20e538a6dd5d7e9978267a9851ad76390294a159d7c805b"
+    },
+    "savedFile": {
+      "textHash": "501ca71e1d1ddb780fee81b0df3f16c9513ae6f30f5f6929301a80fc7e393453",
+      "spoken": "మీ .విరాసత్ ఫైల్",
+      "bytes": 11102,
+      "seconds": 2.622,
+      "sha256": "e02b06a94349ab1584117a6d6c6c734a11d18af00806dfa3fa479886b586ee28"
+    },
+    "password": {
+      "textHash": "bc6de5edd5aece29578e79f381cd22f22d290a18cd5493545a2227ad1a93d01f",
+      "spoken": "పాస్వర్డ్",
+      "bytes": 5533,
+      "seconds": 1.239,
+      "sha256": "ed0a6b99184c7fb9cdc1b9c84ad12b729b3c2b95c9d31c2b3a8f5199df11cc5b"
+    },
+    "passwordHelp": {
+      "textHash": "6ca81d753b29d57b7d5b7fc0e38557e99b98dc8367921b55f22415b8d545d15a",
+      "spoken": "కనీసం పన్నెండు అక్షరాలు ఉండాలి. పాస్‌వర్డ్‌ను భద్రంగా ఉంచండి; మేము దాన్ని తిరిగి పొందలేము.",
+      "bytes": 30305,
+      "seconds": 7.439,
+      "sha256": "f1949713999f97323ee64c637f71fae08e3b69b8ebfb97e5b60d33d56e8e9c44"
+    },
+    "saving": {
+      "textHash": "a818436ad2c3f6327118888f0990b0b78f2334087304ee661fd5fbb662195376",
+      "spoken": "మీ జాబితాను సంరక్షిస్తోంది...",
+      "bytes": 9659,
+      "seconds": 2.263,
+      "sha256": "d43d6b0d246477ab63e05ce4d7e646483c91f6066ab908f0e886e8e87b4c545a"
+    },
+    "saved": {
+      "textHash": "f79c5fe729cc86fa434fa3fedb541e8a704b6c30758ba1b2a5d0c230afd8afc8",
+      "spoken": "గుప్తీకరించిన ఫైల్ డౌన్‌లోడ్ అయింది. పాస్‌వర్డ్‌ను విడిగా ఉంచండి.",
+      "bytes": 19162,
+      "seconds": 4.642,
+      "sha256": "bd397d5203b372dddadf33799fb8696b96ce81598443f6b69be3aef4ade5ee69"
+    },
+    "restored": {
+      "textHash": "e078d4223157b5f1dd10f492ec343eea8b73afd7285c9a367133267b290e5987",
+      "spoken": "మీ జాబితా తెరిచి ఉంది.",
+      "bytes": 8701,
+      "seconds": 2.022,
+      "sha256": "554666b9d17103e0adb386045ee98e3bfed4ac9a7e447d63837786da462333e4"
+    },
+    "passwordShort": {
+      "textHash": "82535aa5977e08485e49fb8f7a3df1c884c5a6d8e32d25d13329d0ff9a450474",
+      "spoken": "పన్నెండు నుండి రెండు వందల యాభై ఆరు అక్షరాల పాస్‌వర్డ్‌ని ఉపయోగించండి.",
+      "bytes": 24930,
+      "seconds": 6.083,
+      "sha256": "f619396f8d117e18aa79fce4ddefa718660b660be87ac12cdb7c52d0cfd03cfe"
+    },
+    "cannotUnlock": {
+      "textHash": "6f40f1e5f0377356277a5cf0d4200710717c7cd99ce0ab3f6d59e1a2d78ee76a",
+      "spoken": "పాస్‌వర్డ్ లేదా గుప్తీకరించిన ఫైల్ ధృవీకరించబడలేదు.",
+      "bytes": 19361,
+      "seconds": 4.693,
+      "sha256": "8ebb4d9b87276f23e288d954a4ff1d409a5a3d4a821af594b74edea047894170"
+    },
+    "invalidSave": {
+      "textHash": "ca03b465f5a8ae89d8d9b518ffae960886d4858231e9b26c2475f254cf9fe8a1",
+      "spoken": "ఈ సేవ్ చేయబడిన జాబితా చెల్లదు లేదా చాలా పెద్దది.",
+      "bytes": 20896,
+      "seconds": 5.075,
+      "sha256": "74c5c6bd7cfe5d9077ca6085a467fe97f40988b041e536d72583372ab1155914"
+    },
+    "invalidAccount": {
+      "textHash": "3b803cc0dc8a4f1dff233244d1df57e2dab3c6441d25e719ff8e740ffbcd0455",
+      "spoken": "సంస్థ పేరును నమోదు చేయండి. సూచనను జోడిస్తే సరిగ్గా నాలుగు అంకెలను ఉపయోగించండి.",
+      "bytes": 28099,
+      "seconds": 6.877,
+      "sha256": "b889c301cafcd92bcae46c55ea483a8a385cbf02c4a6e18662f8da1c8182e3ea"
+    },
+    "invalidDate": {
+      "textHash": "f4ed91c7c4d5c2d1d082bd96f4948f9a6bae23b6eace14b42ae1666a7e0e3b28",
+      "spoken": "నిజమైన తేదీని ఉపయోగించండి, ఈరోజు కంటే తర్వాత కాదు. సమర్పణకు ముందు నిర్ధారణ కాదు.",
+      "bytes": 33760,
+      "seconds": 8.288,
+      "sha256": "6bd8f1597c90c3551e060c3a2176f2ae521ad4a010ea809ff69c2651cb88c653"
+    },
+    "submissionRequired": {
+      "textHash": "e6de8f4127f05b975719cd3292c9f9253b73a437af5b79f788fd9524ca28020d",
+      "spoken": "మీరు అభ్యర్థనను సమర్పించిన తేదీని జోడించండి.",
+      "bytes": 13991,
+      "seconds": 3.352,
+      "sha256": "a6afa9658896af9b6206fff7c3c3d097fb93e57c72a8cd11e2cc9334e983eb15"
+    },
+    "confirmationRequired": {
+      "textHash": "57bfb927ff0178b0665718fd9354b725dec31a658cd1713571322f5585d49cd1",
+      "spoken": "రికార్డ్ రకం మరియు తేదీని జోడించి, ఆపై నమోదును చూపుతుందని నిర్ధారించండి. ఒక్క రసీదు సరిపోదు.",
+      "bytes": 33577,
+      "seconds": 8.239,
+      "sha256": "1e89a180e4ba3c3ca2cb609d47e0b34ddc449215736949a565cbfb895bbb9609"
+    },
+    "accountLimit": {
+      "textHash": "ba38695866ca52253155bb4000f4caee4091a35c59c6e94a0146fa3aa9dbc465",
+      "spoken": "ఈ జాబితాలో గరిష్టంగా యాభై ఖాతాలు ఉండవచ్చు.",
+      "bytes": 17441,
+      "seconds": 4.221,
+      "sha256": "c1b6c9166db00e4cbe0c4f3b61eaef1901dd7a6c0035b721effd988879d49de8"
+    },
+    "updated": {
+      "textHash": "a3684a9401533fc1abbf7673dc579020f603e5b882160c9d175a007fca49af2c",
+      "spoken": "మీ జాబితా నవీకరించబడింది.",
+      "bytes": 11484,
+      "seconds": 2.729,
+      "sha256": "092119e17a4cfe4af6e4486774f0a263584df3ddc69352028c45596328478d8b"
+    },
+    "privacyHelp": {
+      "textHash": "4909bee18ba1af893a83d749deec7ac174413a35407ddd3c2eb422507e0e5c9b",
+      "spoken": "గోప్యత & సహాయం",
+      "bytes": 9472,
+      "seconds": 2.219,
+      "sha256": "c70aae58a123ec85d05b5b46fcc2ce338bc03ffa2665069fa0b2540332d8f259"
+    },
+    "privacyDetail": {
+      "textHash": "819b53ea68a9d29e4357582c35a65e91a8846bbe934519103ee7ae666e206ab2",
+      "spoken": "మీ జాబితా బ్రౌజర్ మెమరీలో ఉంటుంది. పేజీని మళ్లీ లోడ్ చేస్తే అది తొలగిపోతుంది. తర్వాత తిరిగి తెరవడానికి గుప్తీకరించిన ఫైల్‌ను సేవ్ చేయండి. డౌన్‌లోడ్ చేసిన ఫైళ్లు మీ పరికరంలోనే ఉంటాయి.",
+      "bytes": 65922,
+      "seconds": 16.338,
+      "sha256": "3602e3011a6b34e159d29b41b8845467bc67634921db08027d2c8fcbcfe1a087"
+    },
+    "translationNotice": {
+      "textHash": "a060bea19eadfbda3a3554c2367c04ceb3806ef77b59a43c994f7ae025fa5728",
+      "spoken": "డ్రాఫ్ట్ అనువాదాలు; ఫ్లూయెంట్-రీడర్ సమీక్ష పెండింగ్‌లో ఉంది. అధికారిక రూపాలు వాటి అసలు భాషను ఉంచుతాయి.",
+      "bytes": 34246,
+      "seconds": 8.42,
+      "sha256": "f379455531f7365881a13d9d7db00d93e41426135720a9acbeb09a560a519b27"
+    },
+    "boundary": {
+      "textHash": "530c41521419bd6d60f2d2ed2351131b0682b389c9c03cf8502da4ef3ef4492c",
+      "spoken": "ఈ జాబితా వారసత్వ హక్కులను నిర్ణయించదు, ఖాతాలను కనుగొనదు లేదా అభ్యర్థనలను సమర్పించదు.",
+      "bytes": 35965,
+      "seconds": 8.833,
+      "sha256": "ae51521d0dbe8b0b2bbf3cf05add39555b52dce8474ca0979bf6a917381549ef"
+    },
+    "clear": {
+      "textHash": "34d1406c3a74ae1088598a0b97730f762e2d49c1d649995442bd95e69d715a92",
+      "spoken": "ఈ సెషన్‌ను క్లియర్ చేయండి",
+      "bytes": 8794,
+      "seconds": 2.058,
+      "sha256": "c49147723556a146a4a0eed9a620099df500d662d369c81adbc95a9296b94f1e"
+    },
+    "clearAsk": {
+      "textHash": "059c61d94f3d40dd1f1108e96b437ce410995b110c9ed76af646fbcbfd900a7f",
+      "spoken": "ఈ సెషన్ నుండి జాబితాను క్లియర్ చేయాలా? సేవ్ చేసిన డౌన్‌లోడ్‌లు అలాగే ఉంటాయి.",
+      "bytes": 28381,
+      "seconds": 6.96,
+      "sha256": "9c51c5aed6524261508aa7050523db091e31a5dffae46833ab90e0ff529efc92"
+    },
+    "clearDone": {
+      "textHash": "d0fd1e69c9cc0d95276ab4dfb2f51ad4c3bf53a9f483942952e313d20bd8de4c",
+      "spoken": "ఈ సెషన్ క్లియర్ చేయబడింది.",
+      "bytes": 8798,
+      "seconds": 2.058,
+      "sha256": "23f172f9aeef12348d02004ec4f4dee7b0992dcc5aabd9b07ea2d352a5e62d17"
+    },
+    "language": {
+      "textHash": "d794d8e8fc55f4f93145ec82d76c51d33e5c5136288cef591e1a306176bd3420",
+      "spoken": "భాష",
+      "bytes": 4285,
+      "seconds": 0.915,
+      "sha256": "a793d87360e0e1ccdb0c47358e6001faa7c629482dafc2c97997ad6663519fe4"
+    },
+    "access": {
+      "textHash": "c71b47bd2c1067a8715b60e2690d0c0ec99ae6d094daadc4370f4d6f1815e852",
+      "spoken": "యాక్సెసిబిలిటీ",
+      "bytes": 6683,
+      "seconds": 1.534,
+      "sha256": "3dc36520ff0aae8e6899ed07305866c33ac1d69e639c91bca19c170629b2ca33"
+    },
+    "textSize": {
+      "textHash": "c9e2300d1a3136307396b0a0b16fe7c76b6ee1d95bd6e736e26300b495d525d8",
+      "spoken": "వచన పరిమాణం",
+      "bytes": 6397,
+      "seconds": 1.463,
+      "sha256": "b45ca39e040d1b1516964124c8680dc2b9e3793c2a3481144f5ecd449a043500"
+    },
+    "smaller": {
+      "textHash": "e913079ec2f4d5c2209e4efd24aa5a837596163e8618c108e4e0b85033eed3db",
+      "spoken": "చిన్న వచనం",
+      "bytes": 5820,
+      "seconds": 1.319,
+      "sha256": "7462e1bf32f807c28928936feefb83e4416425dabbe4609ea5a4d751dab671c4"
+    },
+    "larger": {
+      "textHash": "7601a2b7c98369b2a0185bbff96d3287a549763e4df6f51c101874072c83dd67",
+      "spoken": "పెద్ద వచనం",
+      "bytes": 6779,
+      "seconds": 1.558,
+      "sha256": "d68b89e70b28fab1094856de915f33766977c75f5f19a4114cf6c344c12e80be"
+    },
+    "contrast": {
+      "textHash": "1f12650cac5e8b252847f7aa5eb7e8864bf5df867d79d9673a4d097250ec15af",
+      "spoken": "అధిక కాంట్రాస్ట్",
+      "bytes": 8509,
+      "seconds": 1.978,
+      "sha256": "5eebe7006dedf448fbd55ba991ac508f02c2abdd71bd4349aacad603edf27457"
+    },
+    "motion": {
+      "textHash": "7e54d8612f49b5716873c6dee680c2e75c2db15c3edaf53fc8e4ec247270813e",
+      "spoken": "కదలికను తగ్గించండి",
+      "bytes": 7451,
+      "seconds": 1.724,
+      "sha256": "8f86d2a8e12c1c5fbbab429c8cbd2c8e349a967acb5b325ce4c41dd8c643ce7e"
+    },
+    "read": {
+      "textHash": "9ea58d5c84a208e047c5d8da77ac6191bfc656ec0d5a5e918acaa72027121cae",
+      "spoken": "సూచనలను వినండి",
+      "bytes": 7929,
+      "seconds": 1.836,
+      "sha256": "c8f4a8d319847fd26659310a9b322579c5da052a4f34b30a5143f59deb99dd09"
+    },
+    "speechUnavailable": {
+      "textHash": "7b092f6532556b421406a9e795005705c116763aabe466259048e1f3da374b5c",
+      "spoken": "ఈ సూచన ఆడియో సిద్ధంగా లేదు. వ్రాతపూర్వక సూచనలు ఇప్పటికీ ఇక్కడ ఉన్నాయి.",
+      "bytes": 29542,
+      "seconds": 7.229,
+      "sha256": "2e88f8e8f9cca66caabf114395288b9c8135204547867d78e1ab3eac9ddaa4b6"
+    },
+    "close": {
+      "textHash": "120eab6ff5735553b88952b7c4462f3263829b933150fe287a612f7e1c031845",
+      "spoken": "మూసివేయి",
+      "bytes": 7066,
+      "seconds": 1.631,
+      "sha256": "c6bc79415434b7b1aaf8842771a5cd31baa5d66b1775582ae87c62c914465e69"
+    },
+    "skip": {
+      "textHash": "91099b358a02da389f878c18d0ab03b1bb531be8277a2b535ed4f775fe646107",
+      "spoken": "ప్రధాన కంటెంట్‌కు దాటవేయండి",
+      "bytes": 12441,
+      "seconds": 2.97,
+      "sha256": "f9b1636299a46cc774b3def61419ee93e628cc1224d7fb9ed875917d4777ac4f"
+    },
+    "nothing": {
+      "textHash": "434663d6e07d7a303aaa2c727d9e230de783b39fa16046fabfcb62eeaaf1f500",
+      "spoken": "ఈ వీక్షణలో ఖాతాలు లేవు",
+      "bytes": 9660,
+      "seconds": 2.256,
+      "sha256": "b02f85037ceea933ed61be9fc2f583c11f22c1515f1fea53e30371d1c7a258ab"
+    },
+    "optoutNote": {
+      "textHash": "0ac4610e4851f5c615c77d2edd9e1d179d158138c9494cb3414b70a6cfb9b6fd",
+      "spoken": "జోడించబడలేదు ఉద్దేశపూర్వకంగా నిలిపివేతను ప్రతిబింబిస్తుంది. రికార్డును తనిఖీ చేసి, ఖాతాదారునితో ఎంచుకోండి.",
+      "bytes": 40383,
+      "seconds": 9.94,
+      "sha256": "48820ded278d8b8fb53f02256c00a2e40ec9988394ea964425d4b365009b95de"
+    },
+    "startCheck": {
+      "textHash": "88476686818eff6aab578e6778995a3e5a4002254e72c3eafb50e05b9f1717b7",
+      "spoken": "ఖాతాను తనిఖీ చేయండి",
+      "bytes": 8511,
+      "seconds": 1.974,
+      "sha256": "fd2637e671adcd80ecf15f83783b2d336e472cea149c7d42b6e0b2c60cfb3c0b"
+    },
+    "startHelp": {
+      "textHash": "5ee0df81e95ca3a4cc198e4c0d85d08a64cac79f6789e02c06e868099b09eaa5",
+      "spoken": "పాస్‌బుక్, స్టేట్‌మెంట్ లేదా మీరు ఇప్పటికే ఉపయోగిస్తున్న యాప్‌తో ప్రారంభించండి. ప్రారంభించడానికి ఒక ఖాతా సరిపోతుంది.",
+      "bytes": 41438,
+      "seconds": 10.214,
+      "sha256": "c7d46a05c7eaf0632081f167e6e1753711b9ca4018ef7192773552e28df4d605"
+    },
+    "resumeTask": {
+      "textHash": "73357bdc177864ad4771a4e9bdd52c6538d2c56513442db0c208a575234e1641",
+      "spoken": "ఈ పనిని కొనసాగించండి",
+      "bytes": 8319,
+      "seconds": 1.927,
+      "sha256": "ffc8859f74d5357b676121602a04c4dbfe5ccee61da2307b58194a308c972085"
+    },
+    "needsAttention": {
+      "textHash": "d58718849c2fa4050b7c913989c9e7141df517fb6040827da5c20833277752b0",
+      "spoken": "ఇంకా చేయాల్సి ఉంది",
+      "bytes": 7747,
+      "seconds": 1.776,
+      "sha256": "cf65e6a820eee5012970718ed9f5464a657811b498bedd616a50091e0fc93255"
+    },
+    "checkedCount": {
+      "textHash": "85a1083560ee929c5728e2ed2108332671d037945ea211f98eda22b080a96504",
+      "spoken": "రికార్డులను తనిఖీ చేశారు",
+      "bytes": 9473,
+      "seconds": 2.21,
+      "sha256": "e213a1ea3a015910e949c8be058094121c1d6c153bbd5a9b5aa713632041b55a"
+    },
+    "howWorks": {
+      "textHash": "0d9b3b5ef00a796ca3b3a58b874fc51a1a9f3ba45aa21a7b5e80f2642ccd40e7",
+      "spoken": "ఇది ఎలా సహాయపడుతుంది",
+      "bytes": 8509,
+      "seconds": 1.972,
+      "sha256": "174eb2069323f7a0ea97640e53796023fae43c02cc7dcf341650f1e61a4e1cd6"
+    },
+    "howWorksText": {
+      "textHash": "744f07d0d10ab6bc4c1ed20fec35ea84b614d7dbc7e1442b59cd465338cdde98",
+      "spoken": "సరైన స్థలాన్ని తనిఖీ చేయడం, మీ తదుపరి దశను సిద్ధం చేయడం మరియు ఫలితాన్ని ఉంచుకోవడంలో మేము మీకు సహాయం చేస్తాము. మీ బ్యాంక్, బ్రోకర్ లేదా ఫండ్ అసలు మార్పు చేస్తుంది.",
+      "bytes": 52673,
+      "seconds": 13.025,
+      "sha256": "7fd241169b0cc0bce4ed04a6d6914ee48911472b368542095d63b01410bb7636"
+    },
+    "searchBank": {
+      "textHash": "bcef5330793ef9384fd6d88836e821892530580f974b6bf2fe2c3215f00e0cf0",
+      "spoken": "మీ బ్యాంక్ కోసం వెతకండి",
+      "bytes": 8799,
+      "seconds": 2.042,
+      "sha256": "692bac9b919b9e8f66535abcca872b6548afd466320d1ea997dce0f5fd359aa6"
+    },
+    "searchDemat": {
+      "textHash": "5fe3a8ac92c45dd2887cf5352a14e8d238c174b1dd547379c653b748842b6530",
+      "spoken": "మీ బ్రోకర్ లేదా బ్యాంక్ కోసం శోధించండి",
+      "bytes": 15040,
+      "seconds": 3.622,
+      "sha256": "4436819cf672b4133dbd0c9bb13ddfd6276115319abd5602f5c4fd08725b2a71"
+    },
+    "searchMf": {
+      "textHash": "31a879bee6aa8977743b6124092d16f41ef2248e3e2fbe46182b49ec5d5d6603",
+      "spoken": "మీ మ్యూచువల్ ఫండ్ కోసం శోధించండి",
+      "bytes": 12829,
+      "seconds": 3.055,
+      "sha256": "ae1178f774dff791521e55196d005b8a8b92c2e0b1ee504a88158bddbd6ebd75"
+    },
+    "searchHelp": {
+      "textHash": "c6542b179853e14f53011dc509187fd2985000932fbebac8b121c58c86f388ce",
+      "spoken": "పేరు లేదా సంక్షిప్తీకరణను టైప్ చేయండి. మీరు జాబితా చేయబడని సంస్థను కూడా నమోదు చేయవచ్చు.",
+      "bytes": 33567,
+      "seconds": 8.253,
+      "sha256": "5d3fd49fe4c57314681daf1cff8f60a8f0402dcd182dbd97b838f037fd0f4d47"
+    },
+    "useTyped": {
+      "textHash": "be4c8a9d0fff15410afeaade7905e1d5eed572a9c709eb2e972cc52447c2a8a8",
+      "spoken": "ఈ పేరు ఉపయోగించండి",
+      "bytes": 8029,
+      "seconds": 1.852,
+      "sha256": "0e60d9b0d0bed7e11f7c88a0403808c6cf6c9e3559a0519d6c8be62b367ac056"
+    },
+    "suggestions": {
+      "textHash": "beb32a7fb225c9f18d50e9a55b50bbcd65bfe4aba0786a32d2b30d2e5dbf8414",
+      "spoken": "సరిపోలే సంస్థలు",
+      "bytes": 7648,
+      "seconds": 1.759,
+      "sha256": "c9962ab20544c4b9b7d16b629f5918f439de1acb2724236178959207830d663c"
+    },
+    "noMatches": {
+      "textHash": "be083491af738df1405d6941179d0a8390cf06be0148b8fa9e9e43a8545f51d4",
+      "spoken": "మ్యాచ్‌లు లేవు. అక్షరక్రమాన్ని తనిఖీ చేయండి లేదా మీరు నమోదు చేసిన పేరును ఉంచండి.",
+      "bytes": 30302,
+      "seconds": 7.426,
+      "sha256": "4dc8cdf812bbb98f7cecc85a14775464ffcc694efe5bedc2d3b4a6c96afcf0cf"
+    },
+    "accountContext": {
+      "textHash": "085e389f17346d23de6005accd9c62f31ac7fffc4b8c2fa43cb382b14d6c3ee4",
+      "spoken": "ఈ ఖాతా గురించి కొంచెం",
+      "bytes": 8803,
+      "seconds": 2.06,
+      "sha256": "7b1f873c559b8a270f0a3ad074f5d10c8fd13352d42fa3ff8e377b005129e62f"
+    },
+    "contextHelp": {
+      "textHash": "be66c90b7edb835c22eccd9b85f6d89007f1c75eb403673cf785d4a4c99c9129",
+      "spoken": "ఈ వివరాలు సరైన సూచనలను చూపడంలో మాకు సహాయపడతాయి. అనిశ్చితంగా ఉండటం మంచిది.",
+      "bytes": 29824,
+      "seconds": 7.304,
+      "sha256": "cd4b5756b60751f43f7d9729f9d3d434318af2a887dbad34ac046761ff6e8875"
+    },
+    "whose": {
+      "textHash": "d43ecff024481085878580f9f32cf9bb0ef330b5d3873c6522d51c86ed027e5f",
+      "spoken": "ఇది ఎవరి ఖాతా?",
+      "bytes": 7066,
+      "seconds": 1.612,
+      "sha256": "c388d0b25b1c6f06534726a421c7120026fbe73872227a525b641e4e463182db"
+    },
+    "me": {
+      "textHash": "a34ae568e4eac6cbf212ebbd0929b2110de581a23e4387fb45ba57b0ca719d46",
+      "spoken": "నాది",
+      "bytes": 5719,
+      "seconds": 1.29,
+      "sha256": "9e7fcaa3dcb9821866d36b612ffbfa7a553499244cc6df1d24ccd009c91f6a9f"
+    },
+    "parent": {
+      "textHash": "cbde75e5148e373f44e723f2083a2895d90983008674673809715477e3f2f028",
+      "spoken": "ఒక తల్లిదండ్రుల",
+      "bytes": 7355,
+      "seconds": 1.681,
+      "sha256": "4d32ab7c604b519d7d8289400556831e789e189387465213bc38f59e79b33367"
+    },
+    "familyMember": {
+      "textHash": "d5d7ff20b19f9388863cbcb52d2ed51213ece23e73d3af4928df0c970e37a940",
+      "spoken": "నా కుటుంబంలో ఎవరో ఒకరు",
+      "bytes": 9185,
+      "seconds": 2.156,
+      "sha256": "b0168d22dd54f24dd2acdc194b4112680fcc7ffd0d31cb04573b1b8a4f977cd4"
+    },
+    "holderQuestion": {
+      "textHash": "add6af825dc2e116ebed69a90848211d875a225fa628115f663503ba8ecb52dd",
+      "spoken": "ఖాతా ఒంటరిగా ఉందా లేదా ఉమ్మడిగా ఉందా?",
+      "bytes": 18115,
+      "seconds": 4.373,
+      "sha256": "d682c6e4b11a3d7e7cf491ebdf1031ba50105b1bf4f3ee622b3d23e96e214d8b"
+    },
+    "sole": {
+      "textHash": "94570b658fcdf2652a62a33f6f5ce064968409f524be9cf5b1303418b2244969",
+      "spoken": "ఒక హోల్డర్",
+      "bytes": 6297,
+      "seconds": 1.429,
+      "sha256": "74bba3c305f06108c8b71d14c3ead308a8bd779a70f995d3160f58ae44c282c7"
+    },
+    "joint": {
+      "textHash": "974a8cb89566c918bcb2d9f1185e6cf087554746350121474519613869c112c1",
+      "spoken": "జాయింట్ హోల్డర్లు",
+      "bytes": 9178,
+      "seconds": 2.138,
+      "sha256": "0f84124e09250707725d4cfeb8c4e6c9e338ee28ae735e73daf7f46b0e0bce93"
+    },
+    "bankProduct": {
+      "textHash": "84a39384a1d542b68a640be390a6b212e7e5df794a60a3dfa5a0ba05db58220f",
+      "spoken": "ఏ రకమైన బ్యాంక్ ఖాతా?",
+      "bytes": 10048,
+      "seconds": 2.36,
+      "sha256": "d3d6d30397ba67552d014843649e1145efbdc97f8bb634ee8331698920dcbc3a"
+    },
+    "savings": {
+      "textHash": "f8cdcc3e8a9835ec60ef6c0a5e016de4885cb78492528ca8486cbd1b567496dc",
+      "spoken": "సేవింగ్స్ ఖాతా",
+      "bytes": 7260,
+      "seconds": 1.664,
+      "sha256": "b87218ac9cf410f732752557b3c2b0467dc2109bc6e63df2e6a179a75e8c7fa3"
+    },
+    "deposit": {
+      "textHash": "c76e683b60cd4ede834f784f7b3d1088bb197caa176d09775f88b659e1d6c9ef",
+      "spoken": "స్థిర లేదా రికరింగ్ డిపాజిట్",
+      "bytes": 10908,
+      "seconds": 2.577,
+      "sha256": "ab584827e59e566fdce8f275f170a2729d873b8e3002299575a21dc9997cf337"
+    },
+    "mfMode": {
+      "textHash": "e88c2856efad18a2ac043df882a8e01c9001becd9985e28211b0bef71452fd6e",
+      "spoken": "ఈ మ్యూచువల్ ఫండ్స్ ఎలా నిర్వహించబడతాయి?",
+      "bytes": 13883,
+      "seconds": 3.331,
+      "sha256": "4532a8748b4fac9989b768efefab202e062104807c17cec95073c7d7ee84f4e4"
+    },
+    "folioMode": {
+      "textHash": "11afeda9e709688a035c829b2439aca57d998e3b3d4925d39c745291cc9e50eb",
+      "spoken": "మ్యూచువల్ ఫండ్‌తో కూడిన ఫోలియో",
+      "bytes": 13022,
+      "seconds": 3.098,
+      "sha256": "88a45ae2324d5f1d372a96d4691aef9f26ad654a5af2bd86964af5b4ab0eadb7"
+    },
+    "dematMode": {
+      "textHash": "ada892aa943aca2343ede7411bf03d8dedac0fcd08b577879c561f21066e650e",
+      "spoken": "డీమ్యాట్ ఖాతా లోపల",
+      "bytes": 9854,
+      "seconds": 2.325,
+      "sha256": "71e602b9a0f4b809d73650c827513b5961e2cd7398b1c38f457a7c9a892a41ad"
+    },
+    "identifyHelp": {
+      "textHash": "7ab55b643c219e11c65c26a4fab7ff754b4dd8cc4ea9c3c64e3b9671214b2115",
+      "spoken": "దాన్ని గుర్తించడంలో నాకు సహాయపడండి",
+      "bytes": 13793,
+      "seconds": 3.298,
+      "sha256": "217096c9c5e22ea10c593f9c632e158002d98a0910cd00097f665c162eb24f43"
+    },
+    "identifyText": {
+      "textHash": "f3a7fe06593443434d584d464a42559d9c1af286c41557d5b08fe399a2b32802",
+      "spoken": "ఫండ్ స్టేట్‌మెంట్ సాధారణంగా ఫోలియో నంబర్ మరియు ఫండ్ పేరును చూపుతుంది. డీమ్యాట్ స్టేట్‌మెంట్ డీ పీ ఐ డీ / క్లయింట్ ఐ డీ లేదా బీ ఓ ఐ డీని చూపుతుంది. ఖచ్చితంగా తెలియకుంటే, యూనిట్‌లు ఎలా నిర్వహించబడుతున్నాయో ప్రొవైడర్‌ని అడగండి.",
+      "bytes": 73697,
+      "seconds": 18.265,
+      "sha256": "722d74a6df54d7a9a369972845c31b15b8304067df8f0b8963bb7b91e86d2d6c"
+    },
+    "change": {
+      "textHash": "427fb14d93566241c65cfb2e6b49107a2fd035bcc93c9720f9a21e2afc9ed86e",
+      "spoken": "అప్‌డేట్ కావాలి",
+      "bytes": 6971,
+      "seconds": 1.587,
+      "sha256": "b12c4b9087359d667e381ca52e3bb302537e5787d22a74d06055e96f68a6da9f"
+    },
+    "optout": {
+      "textHash": "d30b1ae17b9217bfc1d1fdd1d108bc423f8a6642fa6cdfca4e0ea129837c3496",
+      "spoken": "నామినేట్ చేయకూడదని ఎంచుకున్నారు",
+      "bytes": 12731,
+      "seconds": 3.039,
+      "sha256": "25eee892b2353cee06628510399e8d9b9c5b0382cfaff26d3cc104aafc010c86"
+    },
+    "blocked": {
+      "textHash": "948a27c22b4655b0ce46166c95cbb8a7956e54b94c648722ff25640ecafc89a0",
+      "spoken": "సహాయం కావాలి",
+      "bytes": 7164,
+      "seconds": 1.649,
+      "sha256": "3c8cdebe0e8506fef135e877ec599a0ee6b45c794a3743f6aa6f7b542a9631f2"
+    },
+    "helpCheck": {
+      "textHash": "8d14024faf80cd08bc756c828b43477a679d600a0c769975440a7cbf426db1f0",
+      "spoken": "తనిఖీ చేయడంలో నాకు సహాయపడండి",
+      "bytes": 12446,
+      "seconds": 2.961,
+      "sha256": "5f32fcc8eebecdc3b476ea74e5e56219ac2f5eaf503c73f7c736d8140269068b"
+    },
+    "whatFound": {
+      "textHash": "70ccec35ba1c6013a5049dfa3f5d31b96f8d653ebcc7491ae2912b9376a81003",
+      "spoken": "మీరు ఏమి కనుగొన్నారు?",
+      "bytes": 8606,
+      "seconds": 2.016,
+      "sha256": "f1d19707b35e25793e979da7976931db72ff8969f2d7429fa1a4d866d6f0454b"
+    },
+    "foundYes": {
+      "textHash": "0dda4ff6cc875f6491e3b2403dbfec086e0973e53df4c32481b25da39bcddd08",
+      "spoken": "నామినేషన్ నమోదైంది",
+      "bytes": 8317,
+      "seconds": 1.937,
+      "sha256": "9390d2bfa642bdb3ea995590ad5fe8e356ad8240c5af078bc5b0200ab8549a0d"
+    },
+    "foundNo": {
+      "textHash": "c6d6c688697860982a467b34cfcf2f250ce928db110827a406e13fa01509820a",
+      "spoken": "నామినీ నమోదు చేయబడలేదు",
+      "bytes": 9660,
+      "seconds": 2.271,
+      "sha256": "36a28401ab84ae988b969edeb59e5c697d461be90ea048d322414dd7cc1ca470"
+    },
+    "foundChange": {
+      "textHash": "b4d207bbc9597a3da74719b65b5903f33448b00b88dac829f899fd2b290bdd9d",
+      "spoken": "వివరాలు మారాలి",
+      "bytes": 7072,
+      "seconds": 1.612,
+      "sha256": "2fa9860796b97f8d97e9d30c831508995c7bb1f0810bcd26077ccc1c997d24c0"
+    },
+    "foundUnknown": {
+      "textHash": "499b10ae46fa6614c681731f99a0c4f8f432dc3208a6effa0a1004d5a79a7457",
+      "spoken": "నేను దానిని కనుగొనలేకపోయాను",
+      "bytes": 11969,
+      "seconds": 2.839,
+      "sha256": "0e2602d18b8718062b57c2914eff75089e0fce177e93cbe1de7713bbd6c9c78a"
+    },
+    "prepare": {
+      "textHash": "75f21c8d05409027b3854b7996a7feff22843db54ec3898f3bf8f53b404e8deb",
+      "spoken": "తదుపరి దశను సిద్ధం చేయండి",
+      "bytes": 8988,
+      "seconds": 2.112,
+      "sha256": "7cd29699d162967d6048b89d55263968b153fac5303ca9488d5535a313fdcb60"
+    },
+    "checkFirst": {
+      "textHash": "e62baeb3df762435b6e1f9d6c00fdf22770a329123e93bc533a25865a7f3cdce",
+      "spoken": "ఏదైనా మార్చే ముందు తనిఖీ చేయండి",
+      "bytes": 13503,
+      "seconds": 3.226,
+      "sha256": "350de5a8f9d230d1df63e972f550004888493791693ff05908ff53d8f627078d"
+    },
+    "openOfficial": {
+      "textHash": "c255d8a0bc444b869d09bcbb038b122d83f4426e2cb178f4b75c4ea709332440",
+      "spoken": "అధికారిక సూచనలను తెరవండి",
+      "bytes": 13217,
+      "seconds": 3.146,
+      "sha256": "d1d9d03814039361b83ba6778389dfb0533f9b35eafd71edebf0b3369ccbc778"
+    },
+    "prepareIntro": {
+      "textHash": "d73997f7c4eda547871f28eb662a9f08c8f298ffd65b1ed75c3c31a0a97a3b78",
+      "spoken": "సంస్థ కోసం వీటిని సిద్ధంగా ఉంచుకోండి. మీరు వాటిని ఇక్కడ నమోదు చేయవలసిన అవసరం లేదు.",
+      "bytes": 34913,
+      "seconds": 8.579,
+      "sha256": "d877686bcab88fa8707a7197042c684335bae924bbcee6d875c82fd62c7c6aa3"
+    },
+    "prepareNames": {
+      "textHash": "c8fce34b513d2a008eb7376f3fd9150b45a3a7475dd353f11e4d07b7403b4930",
+      "spoken": "నామినీ పేరు మరియు సంబంధం, వారి రికార్డులలో చూపిన విధంగా.",
+      "bytes": 22145,
+      "seconds": 5.378,
+      "sha256": "1050e193a7745b3601d3b47ab3c5748d0873ba07f8f187a0ba7cc21ff1908683"
+    },
+    "prepareMinor": {
+      "textHash": "b0bc721d91292056ce2a68addf3232a262b9a945f790847978c382407a638cb6",
+      "spoken": "నామినీ పిల్లలైతే, ప్రస్తుత ఫారమ్‌లో పుట్టిన తేదీ మరియు సంరక్షక విభాగాలను తనిఖీ చేయండి.",
+      "bytes": 31361,
+      "seconds": 7.697,
+      "sha256": "b58cd08d5d54b9608fe12cafab7236f9c43547d233d253b60ca56c0a5ccd69c2"
+    },
+    "prepareAccess": {
+      "textHash": "1b991d4f536bce082e9c9c62ece2ce435093ddd6658b0b7d8ec8fbd36f18994e",
+      "spoken": "మీ స్వంత ఖాతా సూచన మరియు సంస్థ యొక్క అధికారిక సేవకు యాక్సెస్. పాస్‌వర్డ్‌లు మరియు ఓ టీ పీలను అక్కడ మాత్రమే ఉంచండి.",
+      "bytes": 41058,
+      "seconds": 10.12,
+      "sha256": "2b2e525ab9e30e1ac69df3b29d7e86c4fd99d06519ecc602bc11150125baed42"
+    },
+    "jointGuide": {
+      "textHash": "5bbcb0cfca55abac45efb8aab0a72429c5e29c2d13b1ec81b4ae27f5c74e59f0",
+      "spoken": "ఉమ్మడి ఖాతా కోసం, ప్రతి హోల్డర్‌ను చేర్చుకోండి. సమర్పించే ముందు ఏయే సంతకాలు మరియు ఛానెల్ అవసరం అని సంస్థను అడగండి.",
+      "bytes": 42591,
+      "seconds": 10.511,
+      "sha256": "fcb566db46c0f5c80db2383120ee10ae25924ea530461b9793d3642d89b2a983"
+    },
+    "unknownContext": {
+      "textHash": "d9966523bf503eda6e6f90e11aad3013154e323bacba693a6f602271ba23becc",
+      "spoken": "ఆన్‌లైన్ మార్గాన్ని ఎంచుకునే ముందు మీ స్టేట్‌మెంట్‌లో హోల్డర్ పేర్లు మరియు ఖాతా రకాన్ని తనిఖీ చేయండి. సంస్థ వారిని గుర్తించడంలో సహాయపడుతుంది.",
+      "bytes": 45571,
+      "seconds": 11.255,
+      "sha256": "e1a542f19d5ccf60e65287fb7616031b9cf6b527899eac1caf1930e186885503"
+    },
+    "hdfcSavings": {
+      "textHash": "b813a76b2368f6b65da81b942c0b9beea35dd4516bd39f475642bfe447b67530",
+      "spoken": "హెచ్ డీ ఎఫ్ సీ నెట్‌బ్యాంకింగ్‌లో, ఖాతాలను తెరవండి → ఖాతా → ఖాతా వివరాలు → నామినీ మరియు ఖాతాదారు వివరాలను ఎంచుకోండి.",
+      "bytes": 45568,
+      "seconds": 11.239,
+      "sha256": "5c560a90b051c34af89da481c4a7365d42f32dbcc01a3e257f0c328e1db4e849"
+    },
+    "hdfcDeposit": {
+      "textHash": "fe5bf0a3655ad5b3893ce0b1a2881bbe6ab60923d3d7c8121495fa1f34d31a00",
+      "spoken": "హెచ్ డీ ఎఫ్ సీ నెట్‌బ్యాంకింగ్‌లో, ఎఫ్ డీ/ఆర్ డీ తెరవండి → డిపాజిట్ ఎంచుకోండి → నామినీని జోడించు లేదా నామినీని మార్చు కోసం చూడండి. ఈ డిపాజిట్‌ని మీ పొదుపు ఖాతా నుండి విడిగా తనిఖీ చేయండి.",
+      "bytes": 67072,
+      "seconds": 16.611,
+      "sha256": "cb8655461cdd5d24e01814c3564bcd6f191b42d4450301c4316eee1e26525ebc"
+    },
+    "hdfcAction": {
+      "textHash": "b3a65868a92ba971e75e4d9b2c507352a1cfa33a5926c1683514b5415ccc7da2",
+      "spoken": "ఏకైక హోల్డర్లు సంబంధిత ఖాతా వివరాలలో నామినీని జోడించు లేదా నామినీని మార్చవచ్చు. జాయింట్ హోల్డింగ్స్ కోసం, ఇతర హోల్డర్‌లతో బ్యాంక్ బ్రాంచ్ మార్గాన్ని ఉపయోగించండి.",
+      "bytes": 58815,
+      "seconds": 14.565,
+      "sha256": "57c518db7ed0df7d53b8f646532f01984eddac93b3ac373a20f595a27e8a1956"
+    },
+    "zerodhaCheck": {
+      "textHash": "9fdbeaa833724702adfb24d0f7c53b792af9fe5320435018c1dab18fb55a6bcd",
+      "spoken": "జెరోధా కన్సోల్ → ఖాతా → నామినీలను తెరవండి. ఈ నామినేషన్ కాయిన్‌తో సహా ఆ డీమ్యాట్ ఖాతాలో ఉన్న మ్యూచువల్ ఫండ్‌లను కూడా కవర్ చేస్తుంది.",
+      "bytes": 43937,
+      "seconds": 10.829,
+      "sha256": "1e340a4ab83e67c8681fce3274b8eb17b4cbdd86c7c14a0e90d1f862172e2720"
+    },
+    "zerodhaAction": {
+      "textHash": "091f51bd37ef09e71d40f9c7d3c91b855bdaf93c0dae7abeda8be1fc5fdf21d5",
+      "spoken": "కన్సోల్‌లో నామినేషన్ సూచనలను ఉపయోగించండి. జెరోధా జాయింట్ హోల్డర్‌లను మరియు ఆధార్-లింక్ చేయబడిన మొబైల్ లేని వ్యక్తులను దాని ఆఫ్‌లైన్ ఫారమ్‌కి నిర్దేశిస్తుంది. లింక్ చేయబడిన సహాయ పేజీలో ప్రస్తుత అవసరాలను తనిఖీ చేయండి.",
+      "bytes": 74082,
+      "seconds": 18.363,
+      "sha256": "1d06d9c8235f010ffc87295f4632af7af032aede65013cd52adcad3ac90282cc"
+    },
+    "hdfcMfGuide": {
+      "textHash": "b99814ccfcc1e1c56df1e5487d76620905e92286d6b84eddef58d8cd0f9c2a18",
+      "spoken": "ప్రస్తుత అభ్యర్థన ఫారమ్ మరియు సమర్పణ సూచనల కోసం హెచ్ డీ ఎఫ్ సీ మ్యూచువల్ ఫండ్ నామినీ-రిజిస్ట్రేషన్ సర్వీస్ పేజీని ఉపయోగించండి. ప్రారంభించడానికి ముందు మీ స్టేట్‌మెంట్‌లోని ఫోలియోను సరిపోల్చండి.",
+      "bytes": 65440,
+      "seconds": 16.218,
+      "sha256": "66153a8d45bbed136d7524a96019842e81949c235a6a2ad58bfcb2de200c3f24"
+    },
+    "mfDematHelp": {
+      "textHash": "e0df69de151cb7d78ee94594952fb94623476464f9f11b40c40ac9368778d7d6",
+      "spoken": "ఈ యూనిట్లు డీమ్యాట్ ఖాతాలో నామినేషన్‌ను ఉపయోగిస్తాయి. మీ బ్రోకర్ లేదా డీ పీతో ఆ ఖాతాను తనిఖీ చేయండి; ప్రత్యేక ఫోలియో నామినేషన్ అవసరమని భావించవద్దు.",
+      "bytes": 54112,
+      "seconds": 13.387,
+      "sha256": "e7601db16473f2df2f84aad95f763a09b0e82a15ea5eeca2e9472be56489cf20"
+    },
+    "useDemat": {
+      "textHash": "3b200efdc4bc34e87029b862b957de6b9a3c54d14b1df89d11376d0bc47312a0",
+      "spoken": "డీమ్యాట్ ఖాతాను తనిఖీ చేయండి",
+      "bytes": 12733,
+      "seconds": 3.038,
+      "sha256": "eda20e84821320942aa9f02728f61815666f38069b2043d04d6c553ad69e57e1"
+    },
+    "routeFallback": {
+      "textHash": "d182b05e9f821c07781ebd04eb9c7482af996f8523b9cd643663aee81e349f9f",
+      "spoken": "ఈ సంస్థ కోసం మాకు సాధారణ మార్గదర్శకత్వం ఉంది. దాని అధికారిక సేవా బృందంతో ఖచ్చితమైన స్క్రీన్ లేదా ఫారమ్‌ను నిర్ధారించండి.",
+      "bytes": 47874,
+      "seconds": 11.808,
+      "sha256": "a7cb991f0bf10b2cbebd08e54cc363b1c68299e61b568b532f1ae65218507eae"
+    },
+    "offlineHelp": {
+      "textHash": "e040336a8170be14a84727aca3604582b4556fc8fec47494e0dcd72d34f9e27f",
+      "spoken": "వ్యక్తిగతంగా సందర్శించాలనుకుంటున్నారా?",
+      "bytes": 12928,
+      "seconds": 3.074,
+      "sha256": "1b7656b57536bead88401fd1c05d2c676ff521cc05f18b1d3c2bba6590324ffd"
+    },
+    "offlineText": {
+      "textHash": "2e4cd645154092145888a3245af2cc8feb0df45119b24f77f9b2aa05eaa78091",
+      "spoken": "మీ ఖాతా లేదా ఫోలియో సూచనను శాఖ లేదా అధికారిక సేవా కేంద్రానికి తీసుకెళ్లండి. నామినేషన్ నమోదు లేదా మార్పు మరియు తేదీతో కూడిన రసీదు కోసం అడగండి. ప్రయాణానికి ముందు ఏ హోల్డర్లు తప్పనిసరిగా హాజరు కావాలో అడగండి.",
+      "bytes": 74176,
+      "seconds": 18.395,
+      "sha256": "a3f4d6cad6b6f00c15e58bb18ac2b93734d9655ac3fbc983dd52c08dc0a622db"
+    },
+    "askHelp": {
+      "textHash": "4b76a19e0f523116c69d695fd94c2cab09a3b98f885aa9cc076f691853a424a3",
+      "spoken": "మీరు అడగగల ప్రశ్న",
+      "bytes": 8892,
+      "seconds": 2.064,
+      "sha256": "0745a5ccd0b56b33317589b1cba731510a5f8bbe62b45975d11bda71c338c4df"
+    },
+    "askText": {
+      "textHash": "b3239a2f28e6340d59fee280768f1cbd725da90ddd07cb5a5897c73faccd91e1",
+      "spoken": "దయచేసి ఈ ఖాతా కోసం నామినేషన్ నమోదు చేయబడిందో లేదో తనిఖీ చేయండి. అది తప్పిపోయినట్లయితే లేదా మార్చాల్సిన అవసరం ఉన్నట్లయితే, నేను ఏ ప్రస్తుత ఫారమ్ లేదా అధికారిక ఆన్‌లైన్ ఎంపికను ఉపయోగించాలి? దయచేసి ఫలితాన్ని వ్రాతపూర్వకంగా నిర్ధారించండి.",
+      "bytes": 83292,
+      "seconds": 20.683,
+      "sha256": "7f4b6d70b88df726040c229fefc0e7571a0466f1e261427c83d7687867354cb3"
+    },
+    "copyQuestion": {
+      "textHash": "4ee3b42040f5a889d55048aaa35cb1ee303d9bbabd12dad297f49350311f8563",
+      "spoken": "ఈ ప్రశ్నను కాపీ చేయండి",
+      "bytes": 8897,
+      "seconds": 2.081,
+      "sha256": "ab8cb7f352e72a5523479a67842575ee062021c3723eaa12a6d47dc43ed00b1a"
+    },
+    "copied": {
+      "textHash": "15abd5e9f20d05c2bc733ac5c0fba4a19f284a577b3c9e8b6274a9aeaa2bb408",
+      "spoken": "కాపీ చేయబడింది",
+      "bytes": 6971,
+      "seconds": 1.601,
+      "sha256": "31f9deac5caaa6d77c302c0708be9d7e66d25b5da585db401aa40c9704f80ef1"
+    },
+    "followup": {
+      "textHash": "b62aeb1b357396d515ccb70ab18a6057501c6fd224d36ca31c67209c0a3f2e04",
+      "spoken": "తదుపరి తేదీని ఎంచుకోండి",
+      "bytes": 8317,
+      "seconds": 1.923,
+      "sha256": "efc62124d914582ca35bd4d1cd58b8a778fb8f76fabddce41a915b641b1b36d8"
+    },
+    "followupHelp": {
+      "textHash": "bf30ad095934c76bb16622b27e0666c7ca27d6cbe7fe19a83a2ae1f1f17b2e9b",
+      "spoken": "ఇది మీ స్వంత రిమైండర్ తేదీ, సంస్థ యొక్క గడువు కాదు. మీకు హెచ్చరిక కావాలంటే దాన్ని మీ క్యాలెండర్‌కి డౌన్‌లోడ్ చేసుకోండి.",
+      "bytes": 43361,
+      "seconds": 10.702,
+      "sha256": "24d9777bfc856e8c01df574c0b13aa533d88fe57221af0931ac2a9b5be6a4536"
+    },
+    "calendar": {
+      "textHash": "c69592c7277ceb3c1e917601092c8e009577147570187b204cc92bba0e8309ba",
+      "spoken": "క్యాలెండర్ రిమైండర్‌ని డౌన్‌లోడ్ చేయండి",
+      "bytes": 12925,
+      "seconds": 3.095,
+      "sha256": "3ff4e6cb62432259ac48af55c6aedb0c335838fc9ba8d56a9f0a33f329954874"
+    },
+    "followDue": {
+      "textHash": "a299f8bc5fc201dcd4c72bb95ddc2d4ae5ea8a117c8673f792860523a6517fed",
+      "spoken": "రివ్యూ గడువు",
+      "bytes": 7358,
+      "seconds": 1.702,
+      "sha256": "47b8d7a183bf3d5aa5b121a0bda1e5d252f47c21867d21e70bd4f5a413d8105b"
+    },
+    "requestHelp": {
+      "textHash": "42fefa953e499bf73689af80b36a836f5802c4a3afb3060610b86f61e58e8619",
+      "spoken": "అభ్యర్థనకు సహాయం కావాలి",
+      "bytes": 9760,
+      "seconds": 2.296,
+      "sha256": "c1fa26be2b0b03ff0679a8bb777423cd4da568b64681d5082b04cb84eff90b68"
+    },
+    "blockedHelp": {
+      "textHash": "678b185913fadf18cb2d51b057ab621f7c7b9bbaabb91b545ac059e7b206d889",
+      "spoken": "సంస్థ ఇచ్చిన సమాధానాన్ని ఉంచండి. ఏమి లోపించింది, ఏ సవరణ అవసరం, మళ్లీ ఎలా సమర్పించాలి అని అడగండి. తిరస్కరించిన లేదా అసంపూర్తిగా ఉన్న అభ్యర్థన నమోదైన నామినేషన్ కాదు.",
+      "bytes": 64768,
+      "seconds": 16.036,
+      "sha256": "0098bf5772d3825674ba0e3caf481827faea2003a4acbfcfed956f301b1ed1b0"
+    },
+    "recheck": {
+      "textHash": "66d096d8d099db0fd4119714521fed5955db7e49d10d3a0608d31b69229fa9da",
+      "spoken": "మళ్లీ తనిఖీ చేయండి",
+      "bytes": 8124,
+      "seconds": 1.873,
+      "sha256": "bc067b7430b6ae89818a3edc14d2beb08833fbe09fffe9822c460611e2a292a6"
+    },
+    "familyRecord": {
+      "textHash": "b851fb121f74140fe014684a7b273353cd997061a3720bbc6632edaa2ebd3b51",
+      "spoken": "మీ కుటుంబ రికార్డు",
+      "bytes": 7649,
+      "seconds": 1.753,
+      "sha256": "0bc2f8aa38011240a337134e523f2756d367e16fe0f490861230649e72266d7e"
+    },
+    "familyHelp": {
+      "textHash": "af860c7ae7f0c87a3e043409d28dcc804b0b6c6f5760ab6f0fc1002ed2ad30c1",
+      "spoken": "మీ కుటుంబం ఖాతాను గుర్తించడంలో మరియు దాని రికార్డులను కనుగొనడంలో సహాయపడే వాటిని మాత్రమే జోడించండి. మీరు ప్రైవేట్ వివరాలను వదిలివేయవచ్చు.",
+      "bytes": 43263,
+      "seconds": 10.668,
+      "sha256": "994d6ec008a31e7a7437f60dae8adcb15cb18deb45be9004b34aacd638d52316"
+    },
+    "recordLocation": {
+      "textHash": "e43ef8dc3579f84cbb25f1fd6cb4f0f9ea20db1f947e4fb93a040ec67ddc7ec7",
+      "spoken": "మీ కుటుంబం రికార్డును ఎక్కడ కనుగొనవచ్చు? (ఐచ్ఛికం)",
+      "bytes": 17059,
+      "seconds": 4.115,
+      "sha256": "38ea657a3ca8590c85f70f532c8260f21683097bc3d7c6131ac67695835f0348"
+    },
+    "locationHelp": {
+      "textHash": "c934a7187ccdb1b6c5069c587a49e0977d48e19414ad4ff18d5e84fb1b3a7d8b",
+      "spoken": "ఉదాహరణకు: ఇంట్లో బ్లూ ఫోల్డర్. ఈ స్థానం కుటుంబ షీట్‌లో చేర్చబడింది. పాస్‌వర్డ్‌లు లేదా పూర్తి ఖాతా నంబర్‌లను జోడించవద్దు.",
+      "bytes": 44225,
+      "seconds": 10.902,
+      "sha256": "73da11482c1c00199e8726409eb61fb5007fa68686fbe6a9f30af5c2462c87d3"
+    },
+    "addNomineeNote": {
+      "textHash": "b0d07ee14ddc522fa91288384e5090d77e359caef55a105bf46222e2cd42e205",
+      "spoken": "మరొక నామినీ నోట్‌ని జోడించండి",
+      "bytes": 11971,
+      "seconds": 2.834,
+      "sha256": "b31c8019b982131894ca475cf0a146cab9ad09f2037bd752c064a3a633981f88"
+    },
+    "optionalDetails": {
+      "textHash": "a0ddd39d977296c3d6a318f68ce20164eec4965c18b5f0fd0f77dd4c0875363b",
+      "spoken": "కుటుంబ వివరాలు ఐచ్ఛికం",
+      "bytes": 8708,
+      "seconds": 2.031,
+      "sha256": "edeeaf8a4f3afdbff5e0f85bb0fd4c8efc5c8ec16644c5fe1a3350edba94b25a"
+    },
+    "notProvided": {
+      "textHash": "c210e65ef8ba70c88d425fa5443ad91d2d9cd93c75e7f1ec6fee560753609709",
+      "spoken": "ఈ జాబితాకు జోడించబడలేదు",
+      "bytes": 10144,
+      "seconds": 2.38,
+      "sha256": "8f625e5c6b4705115417cc393d300221a36c4c003df79fcd01c4f7a0fe7522c7"
+    },
+    "unsaved": {
+      "textHash": "50fd4538c3d11edb4f37c6c35b939a7f8955695bbe48e3461e6d59b2a3583c86",
+      "spoken": "మార్పులు తర్వాత కోసం సేవ్ చేయబడలేదు",
+      "bytes": 17340,
+      "seconds": 4.177,
+      "sha256": "d68161a0b669ea785e016a532b274765049a1662b9a18ef88a226ad864594b4c"
+    },
+    "savedStatus": {
+      "textHash": "fb7deba37d1b413d4c658477c080620816c636998ab079b2c62ee86db0e72127",
+      "spoken": "మీరు డౌన్‌లోడ్ చేసిన ఫైల్‌లో సేవ్ చేయబడింది",
+      "bytes": 13024,
+      "seconds": 3.115,
+      "sha256": "512f3833ca54f384dd5cff4cefcdabb0ec84363426c8e31e23c8dc5361a4af0a"
+    },
+    "passwordAgain": {
+      "textHash": "c6800e5d6eedc668421f8b190699f77ef0c131284e83a3a67372c16fc70c46f1",
+      "spoken": "పాస్వర్డ్ను పునరావృతం చేయండి",
+      "bytes": 9954,
+      "seconds": 2.345,
+      "sha256": "d0e0fc0b3bd87640855a4c1eaed644807abdb6ee2b3b0dc1b992459dd8f51088"
+    },
+    "passwordMismatch": {
+      "textHash": "a5eb34583700206806c90e25a40446894c8b00fda4488e0eac2d3f7648088b62",
+      "spoken": "పాస్‌వర్డ్‌లు సరిపోలడం లేదు.",
+      "bytes": 9477,
+      "seconds": 2.212,
+      "sha256": "10320adeb9d28a531ca62ebcaaae246027ec1fae71140b4b30905d0ce5372677"
+    },
+    "showPassword": {
+      "textHash": "6a25f04d7245503130c7b44d20ee472212f1a6a63f9655f363ae894333fdf2cb",
+      "spoken": "పాస్వర్డ్ చూపించు",
+      "bytes": 7265,
+      "seconds": 1.671,
+      "sha256": "2340a16339196ccc0acd2f62bf4ff6f4a030af047be6182c6ea33ee36a83a8c1"
+    },
+    "saveTip": {
+      "textHash": "115889145de6f4c0eaf22fcf1876e425ccf50095210be825efbc2cb164e21af1",
+      "spoken": "డౌన్‌లోడ్ చేసిన తర్వాత, మీ .విరాసత్ ఫైల్ కోసం డౌన్‌లోడ్‌లలో చూడండి. పాస్‌వర్డ్‌ను విడిగా ఉంచండి. కొత్త మార్పులకు కొత్త సేవ్ అవసరం.",
+      "bytes": 43836,
+      "seconds": 10.813,
+      "sha256": "cf58627e605ec718ec0e15c94f2f557bb8d235ef2fb046caff506019170c9998"
+    },
+    "evidenceScope": {
+      "textHash": "ed917f9d7e27fff965b4d8db143fe0b0b94c8ceeceef37c80766f1767cd29549",
+      "spoken": "రికార్డు ఏమి చూపిస్తుంది?",
+      "bytes": 10050,
+      "seconds": 2.363,
+      "sha256": "3534bba6b311824f2936d51faaeb46b611b96066ea136409855d457bd4fce5ff"
+    },
+    "statusOnly": {
+      "textHash": "4cdd96c18b44b780456e94845a3b163e8b7367da32b02b23178af8ebca68fc5a",
+      "spoken": "నామినేషన్ నమోదు చేసినట్లు చెప్పారు",
+      "bytes": 13599,
+      "seconds": 3.261,
+      "sha256": "da4da155170e68e03fb581cc2bcb2623028088e42ed43a5eb84f3ee2e2a610a0"
+    },
+    "detailsChecked": {
+      "textHash": "17f2d21310fbdbd23b4eb88661bef536718ba97b23d48ed448ab084fc8089db4",
+      "spoken": "నామినీ వివరాలను కూడా పరిశీలించాను",
+      "bytes": 11683,
+      "seconds": 2.77,
+      "sha256": "2ac842692bc74e4695367e3a8c6bf4f614be1a9399cc4d251d17ad72145f0e24"
+    },
+    "receiptExample": {
+      "textHash": "bc7af975f931e463095d51aa94c03c7ebecdc3df78dad0735221d667172acefa",
+      "spoken": "“మీ అభ్యర్థన అందింది” అంటే అభ్యర్థన ఇంకా పెండింగ్‌లో ఉంది.",
+      "bytes": 23107,
+      "seconds": 5.637,
+      "sha256": "911fddd81e1c9745a8e087cd01b6669d833b0bed63601ceb3064ac294905e14a"
+    },
+    "registeredExample": {
+      "textHash": "75179e3d84621322b6333edb0eb529cfcbebcadb36ba0273f1f88fbef2ab8104",
+      "spoken": "“నామినేషన్ నమోదైంది” లేదా “నామినేషన్: అవును” అనేది నమోదు జరిగినట్లు చూపిస్తుంది. అది ఈ ఖాతాను గుర్తిస్తుందో తనిఖీ చేయండి.",
+      "bytes": 43366,
+      "seconds": 10.698,
+      "sha256": "1503cdf2aea4db4d5bec5f97aa57e6b1b02e50de545c94019eeb9fe688bb3332"
+    },
+    "seeEvidence": {
+      "textHash": "e3b5b6ebe725cc0454e7615cdd60b1e2eb182170ee117287aa91345f59f5eb91",
+      "spoken": "నిర్ధారణగా ఏది పరిగణించబడుతుంది?",
+      "bytes": 11872,
+      "seconds": 2.828,
+      "sha256": "ded4301935e2d852d6b17820075be3e9a777f9c50d92e6275f6270203323540c"
+    },
+    "fictionalExample": {
+      "textHash": "8a7bcb90da82d674aae3c80b638177737a8e70a3400a47018472020ac5cabac0",
+      "spoken": "దృష్టాంత పదాలు మాత్రమే",
+      "bytes": 9765,
+      "seconds": 2.294,
+      "sha256": "88397a9e24c3cc0ce1af764f1f53337d73b4339ff67375fd8f07ba0dd4c4483b"
+    },
+    "pause": {
+      "textHash": "eb1f0946d9dbf87061f13747b9554699f6cc8e8f7e2c809db969d9f2ba3fad82",
+      "spoken": "పాజ్ చేయండి",
+      "bytes": 6010,
+      "seconds": 1.35,
+      "sha256": "e22b8d65296aaf8c359c6c79d243e81b5cdfe4bddc034c0629e282e1ac145c87"
+    },
+    "resumeAudio": {
+      "textHash": "cea1e82c28340465fdc893dc369eacb0bcfc1ae5120e16447ba932b1bdab5eb6",
+      "spoken": "వినడం కొనసాగించండి",
+      "bytes": 7840,
+      "seconds": 1.815,
+      "sha256": "77d9f7a8c325bb890e5c3ff18dd3fca013819574ed380c332efa508d6f10da45"
+    },
+    "stop": {
+      "textHash": "5ecec581a22bf02487e1a441a92012d318cb43b4504a4dd48d69fe1561213868",
+      "spoken": "ఆపు",
+      "bytes": 4569,
+      "seconds": 1.002,
+      "sha256": "ba740acc43125ca49661811936893b89bd7e37212dd5928d2ea09d1ef3b5fdcb"
+    },
+    "listening": {
+      "textHash": "ff1fc337c46aff2472b9bcf4f1c284a461ae33bc316dce0c36ca744d54095afa",
+      "spoken": "పేజీని చదవడం",
+      "bytes": 6494,
+      "seconds": 1.482,
+      "sha256": "04f25835770c06381cb8e935b7768a8b35622e574a2f1454da5979ce04918b37"
+    },
+    "finishedAudio": {
+      "textHash": "859cd3dff6436fae58b0b5fba2fb6d01e7668fb74c80ad3d68c9aa1036fed1c2",
+      "spoken": "చదవడం పూర్తయింది",
+      "bytes": 7170,
+      "seconds": 1.656,
+      "sha256": "7c97a918b7aecbea57431f6facc7edb422af4757b4fc6dcedef297332982a051"
+    },
+    "voice": {
+      "textHash": "ab632814f7a36901c634701ab9173dc8cbded79edacfd38c791c24b2246852e8",
+      "spoken": "వింటున్నాను",
+      "bytes": 6298,
+      "seconds": 1.421,
+      "sha256": "b40521c1f109ce2055702670f792105cd83a0a585dae66565352439f50f28613"
+    },
+    "speed": {
+      "textHash": "6184d4aad83945d80ff6ae4fcb440e2022be4285779bbf7a22391e8fca15e44a",
+      "spoken": "పఠనం వేగం",
+      "bytes": 6298,
+      "seconds": 1.434,
+      "sha256": "5cf13edab7430139bcc5f23fc15fdc5797b94bd9b53664a88da1363daa4a80fa"
+    },
+    "slower": {
+      "textHash": "2cf7dfc4f7cd2ec36fa83db924d31621ac5647bbb4ddfba10e24040955d5d2be",
+      "spoken": "నెమ్మదిగా",
+      "bytes": 6779,
+      "seconds": 1.559,
+      "sha256": "ef787c8ae4796130c1526ae435784358683d32c3e8c5dd85df9a7208ebaef44d"
+    },
+    "normalSpeed": {
+      "textHash": "5bd33dd7d573275da9a0005310ea38ce90066cd4eb565b1b5ab219c8a1283f99",
+      "spoken": "సహజమైనది",
+      "bytes": 5824,
+      "seconds": 1.319,
+      "sha256": "79c1b9f0f91def73c74cdb498ed965091fefcf132e1e1fef1d183a95b1945c81"
+    },
+    "faster": {
+      "textHash": "ba36f24217f2d3240103e4aee44607afd91e84de81ae0a9819cb04826165cac9",
+      "spoken": "వేగంగా",
+      "bytes": 5435,
+      "seconds": 1.204,
+      "sha256": "2eb74da9b98bf7f6c7891853d5684d6d4c2d44f43bfc5b5fc370f14cce495299"
+    },
+    "previewVoice": {
+      "textHash": "7ef16e585a65f663fe16690bb3c1ca69efae92cd0ec70d7f042329267a38b56b",
+      "spoken": "ప్రివ్యూ వాయిస్",
+      "bytes": 6401,
+      "seconds": 1.463,
+      "sha256": "ec71a8a48e81cb1661350f711d73ecafd8f455d69e7d2b388c2554e0378245ca"
+    },
+    "voicePreview": {
+      "textHash": "8f956fca3413abbbdef54718d54c59c6fc42b70b5e074111287acd6578543ef9",
+      "spoken": "నేను మీ భాషలోని సూచనలను ఒక్కొక్కటిగా చదువుతాను.",
+      "bytes": 15041,
+      "seconds": 3.618,
+      "sha256": "8c2e64ddb22d79cf6b813dd4775b6c2dc6437a031182c07e0c9b1dbd02aab7b0"
+    },
+    "voiceHelp": {
+      "textHash": "1e5ccac8ddefc68fca1c272d2b23bdb1631708149dcb3333716c53f341b3ee03",
+      "spoken": "ఈ భాషలో వ్రాతపూర్వక మార్గదర్శకత్వం అందుబాటులో ఉంది. ఆడియో లభ్యత కోసం భాష ఎంపిక సాధనాన్ని తనిఖీ చేయండి. మీ ఎంట్రీలు మరియు పాస్‌వర్డ్‌లు ప్రైవేట్‌గా ఉంటాయి.",
+      "bytes": 57662,
+      "seconds": 14.28,
+      "sha256": "0e2fa4dd8eae0e126712008e533aaae19e781cdbb44068d4ad3577e832bd8537"
+    },
+    "speechError": {
+      "textHash": "a54c60a5ba3306596d79642b5966dc45aff2f8885d2bae722cb2a09a8c08f492",
+      "spoken": "ఆడియో లోడ్ కాలేదు. మీ కనెక్షన్‌ని తనిఖీ చేసి, ఆపై మళ్లీ ప్రయత్నించండి నొక్కండి. మీ స్థలం ఉంచబడింది.",
+      "bytes": 35008,
+      "seconds": 8.596,
+      "sha256": "4c21e1a5bcfd036cc0ae9e4531f290640cc2e713ad8003606e0332d9fb4fe926"
+    },
+    "readingSettings": {
+      "textHash": "f889301d967f341d636d9f8900f21037ebca2f62169eae3b93bc2cb7e1ce655e",
+      "spoken": "చదవడం & వినడం",
+      "bytes": 6980,
+      "seconds": 1.587,
+      "sha256": "338f01f8238dbe44626be5f2a6002a851cb43f9212876b3cbf9442e7f0e0b3eb"
+    },
+    "appearance": {
+      "textHash": "c88879534a4c086c655638a88ca9df382213788bce3a32a3bfb40119ac807823",
+      "spoken": "చదవడం సౌకర్యం",
+      "bytes": 7167,
+      "seconds": 1.655,
+      "sha256": "f56f358c9f72e40bebbe50b654825944bc84c8363afd8db1f7ee32ad7b332d8d"
+    },
+    "lineSpacing": {
+      "textHash": "655220549cef1f486c7e5eaa30f59850b04d09033d79ea60a53a6ca7695ff95c",
+      "spoken": "పంక్తుల మధ్య ఎక్కువ ఖాళీ",
+      "bytes": 8512,
+      "seconds": 1.987,
+      "sha256": "88552910f298179000d702ed56f3d01ff5761a95b1159ed9777aa3344921ffb3"
+    },
+    "resetSettings": {
+      "textHash": "f0eeb2c298ee8b9d7bb44b359fe4a9dfdcdaac46b50886d57f4b373c40cdbb05",
+      "spoken": "రీడింగ్ సెట్టింగ్‌లను రీసెట్ చేయండి",
+      "bytes": 10722,
+      "seconds": 2.54,
+      "sha256": "f527cc3bc3092a9032a29a9749adcc15e6d265072666ed59522c2363a6d15310"
+    },
+    "languageHelp": {
+      "textHash": "0b23477bf8a5bbc089cd6a63ab610dd5ac9b9c978fe21cdb9cfc2a5cb46732a2",
+      "spoken": "ఏ సమయంలో అయినా భాషను మార్చండి. మీ పని యథాతథంగా ఉంటుంది.",
+      "bytes": 26753,
+      "seconds": 6.534,
+      "sha256": "1ce60aadf6592cd9f574e3fff3fcdaa49a2e765baa198b29b9418c2006f36aa0"
+    },
+    "removeNote": {
+      "textHash": "4e65913d9a1ca96b6227fbe8d51a8788d4324290cbfb110cdf28e03e9f281d40",
+      "spoken": "ఈ గమనికను తీసివేయండి",
+      "bytes": 8607,
+      "seconds": 2.011,
+      "sha256": "d605c9b49f1fbb7f6a151294805e11c89213e2334aa3b0dda35e20ae749709a2"
+    },
+    "optoutHelp": {
+      "textHash": "7a8681d13de5c7275b807885d7511763d5d87edbb4ce218cf92ace6126fb6d68",
+      "spoken": "ఇది ఈ జాబితాలో హోల్డర్ ఎంపికను మాత్రమే నమోదు చేస్తుంది. ఏదైనా అధికారిక నిలిపివేత తప్పనిసరిగా సంస్థతో పూర్తి చేయాలి. ఎంపికను తర్వాత సమీక్షించవచ్చు.",
+      "bytes": 53535,
+      "seconds": 13.227,
+      "sha256": "85e62e7d249735dcb274887e42f6984f710070a28aa9a827b1300d623babc759"
+    },
+    "chooseType": {
+      "textHash": "7113807c7dd158349065d5349fce7b9ecb94c0e0fcaf2db7cfeafaa2b94e4348",
+      "spoken": "కొనసాగించడానికి ఖాతా రకాన్ని ఎంచుకోండి.",
+      "bytes": 12447,
+      "seconds": 2.959,
+      "sha256": "e2c0875cda51f83c5b7708d3082c434dad4a03d98bb050e2c299689cfde26e2a"
+    },
+    "currentRecord": {
+      "textHash": "e3d3e5a17cca73ef63084f977475a180d71291d7bdd846a63e86b18b1099ca22",
+      "spoken": "ఇప్పుడు ఏమి రికార్డ్ చేయబడింది",
+      "bytes": 13506,
+      "seconds": 3.235,
+      "sha256": "26a1eb8e925fc096a8bb58e1526a5f2b4ca524082e610c37e398f9312e748152"
+    },
+    "history": {
+      "textHash": "08b0b91ab51b9fd7566bef56b2b2e0c9cc3f8357833344e714e51d8ca8e48328",
+      "spoken": "మీ నవీకరణలు",
+      "bytes": 6396,
+      "seconds": 1.455,
+      "sha256": "64bb1e40743a9b038beaaa54800d671467679b9b805f9236174d68cf3f33cd82"
+    },
+    "reviewDate": {
+      "textHash": "08feb6a1e45735a3e31d0cf40f86de7bbbc572af1c1a811ee9857782f8643532",
+      "spoken": "తదుపరి సమీక్ష",
+      "bytes": 6783,
+      "seconds": 1.552,
+      "sha256": "51575a06600b9989501a03e902add0dbe037da11d09963798b69a777252f5e2a"
+    },
+    "shareNames": {
+      "textHash": "ef1e67af220f97997efe91e91bd120ac4e865305be9cb66b16362c27f9fa68d8",
+      "spoken": "కుటుంబం మరియు నామినీ గమనికలను చేర్చండి",
+      "bytes": 15615,
+      "seconds": 3.763,
+      "sha256": "7e57210d014aad5099d9da75367115b547d99e32a6d407a21de39d165f34c1fc"
+    },
+    "shareLocation": {
+      "textHash": "03ed82cb0970043d747e430076cf8fb99cfbab8030658eb598ec083c15a68b1f",
+      "spoken": "రికార్డ్ స్థానాన్ని చేర్చండి",
+      "bytes": 9186,
+      "seconds": 2.145,
+      "sha256": "282d6b9ef2e639d1a41a4abc0169ca2f607fd88b2ca0cbe0a3240809116f4680"
+    },
+    "shareHelp": {
+      "textHash": "cd1d2e3a8b163c3cc6ffaab39586ed75b0c3a066e6f7ea242959cb42379a4248",
+      "spoken": "ఏ సమాచారాన్ని చేర్చాలో ఎంచుకుని, కింద ఉన్న పత్రాన్ని తనిఖీ చేయండి. డౌన్‌లోడ్ చేసిన కాపీకి పాస్‌వర్డ్ రక్షణ ఉండదు.",
+      "bytes": 36062,
+      "seconds": 8.878,
+      "sha256": "85cba4c9c1b02e2d8bc2dccc1cc4b4ef324a7065856c8a26529e15ae6739dd0f"
+    },
+    "helpScope": {
+      "textHash": "69104fd206826677d252da8fcaed7ceb8b07f119664e0cb71dc4b2af609044ee",
+      "spoken": "ఎవరైనా చనిపోయిన తర్వాత సహాయం చేస్తున్నారా?",
+      "bytes": 14078,
+      "seconds": 3.363,
+      "sha256": "82ec2e4939e2f44e31531390c850c2463f84fdfb63f4da05577feb9d7327688c"
+    },
+    "helpScopeText": {
+      "textHash": "48e94bdc94f2a57dfd469b5b8b8e60460facdb8e1e8ff64f0938945325a092cf",
+      "spoken": "జీవించి ఉన్న ఖాతాదారు నామినేషన్ ఏర్పాటు చేసుకోవడానికి ఈ ప్రక్రియ. ఖాతాదారు మరణిస్తే, మరణించిన ఖాతాదారుల క్లెయిమ్ లేదా ఆస్తి బదిలీ ప్రక్రియ గురించి సంస్థను అడగండి. వారి తరఫున కొత్త నామినేషన్ ప్రారంభించవద్దు.",
+      "bytes": 73986,
+      "seconds": 18.344,
+      "sha256": "1752d9793eb5032d5c6221f2e9d9c73be8f9309e550546face77b77f4038344e"
+    },
+    "openDevice": {
+      "textHash": "cb44a815a2debe475b48413c05fcc42cd2e548046ea0c6eaa1788286065528e0",
+      "spoken": "ఈ పరికరంలో లాక్ చేయబడిన కాపీని తెరవండి",
+      "bytes": 13791,
+      "seconds": 3.297,
+      "sha256": "8f4cf6e9d14279a2b8aa8d18dd6c246fe38117bf638ac2a4b7d7a22397888853"
+    },
+    "keepDevice": {
+      "textHash": "1c2edd4ac60e53a2b4938861d43d65e0894ee12ed0aa750dc2eb8d7c391de462",
+      "spoken": "ఈ పరికరంలో లాక్ చేయబడిన కాపీని కూడా ఉంచండి",
+      "bytes": 15999,
+      "seconds": 3.847,
+      "sha256": "a86e797c3fbe03ac3ffa59cec57be48975a099fe594456663ed9f68068574582"
+    },
+    "deviceHelp": {
+      "textHash": "885718233f55b2608b753404eec15deee9df9f6e74f7102590b5dd8a70a21184",
+      "spoken": "ఐచ్ఛికం: ఈ బ్రౌజర్‌లో పాస్‌వర్డ్‌తో రక్షించిన కాపీని ఉంచండి. మార్పుల తర్వాత మళ్లీ సేవ్ చేయాలి. ఇతరులు కూడా వాడే పరికరంలో ఈ ఎంపికను ఎంచుకోవద్దు. మేము మీ పాస్‌వర్డ్‌ను ఎప్పుడూ నిల్వ చేయము.",
+      "bytes": 64863,
+      "seconds": 16.073,
+      "sha256": "cb88a34277a5a34663c4bafe1bb4de8b3c6ee3859b5edf76177f48c814ac72af"
+    },
+    "forgetDevice": {
+      "textHash": "aea19e23a2dcdc621704dd740b5fb8d4fa95b565506e6eec38831434fa9402d4",
+      "spoken": "ఈ పరికరం నుండి సేవ్ చేయబడిన కాపీని తీసివేయండి",
+      "bytes": 18977,
+      "seconds": 4.59,
+      "sha256": "8731f7e4bde35dead35fade036832ba34daa97a1ab71d8a11405925f752b7ee7"
+    },
+    "forgetDeviceAsk": {
+      "textHash": "c5309b28b4c64def3f435870b2047794b340d93d2d42a3bda5d12dce2f78c069",
+      "spoken": "ఈ పరికరం లాక్ చేయబడిన కాపీని తీసివేయాలా? డౌన్‌లోడ్ చేసిన ఫైల్‌లు అలాగే ఉంటాయి.",
+      "bytes": 27332,
+      "seconds": 6.68,
+      "sha256": "2b1c154030ffef00f8a028a02ab5936bd74b14ee7d6f793a8843c42cf3ec6bc7"
+    },
+    "deviceUnavailable": {
+      "textHash": "a773e6e5793ac8f49a4da69c0a83ac13626ce9ad921bd0bb6c10d6cef2656209",
+      "spoken": "ఫైల్ డౌన్‌లోడ్ చేయబడింది, కానీ ఈ బ్రౌజర్ పరికరం కాపీని ఉంచలేకపోయింది. తిరిగి రావడానికి డౌన్‌లోడ్ చేసిన ఫైల్‌ని ఉపయోగించండి.",
+      "bytes": 41830,
+      "seconds": 10.301,
+      "sha256": "a7b7873cf32e2f38afbd1d76b6652b9b1b5c511fac4eba223988d55b5dab1321"
+    },
+    "chooseFile": {
+      "textHash": "4ef5205a5eca4f58d9fde99adeeac4f27e20cc627ccb1072ecfdae8ba68de1d3",
+      "spoken": "మీరు సేవ్ చేసిన .విరాసత్ ఫైల్ లేదా పరికరం కాపీని ఎంచుకోండి.",
+      "bytes": 23487,
+      "seconds": 5.727,
+      "sha256": "967763498e24d1ad6550491a7cf778d6119f6706dcafbcee318c0966694dbf23"
+    },
+    "replaceDraft": {
+      "textHash": "44f90b89b0e16a6870751f599a4803f1fc2100918f932fa9af3d53382060981b",
+      "spoken": "మరొక ఖాతాను ప్రారంభించాలా? మీ అసంపూర్తి ఖాతా భర్తీ చేయబడుతుంది.",
+      "bytes": 26657,
+      "seconds": 6.52,
+      "sha256": "258f03b65610ff99132ed5955f4761e4657fbcc01e973968f03e2e8bf4140312"
+    },
+    "replaceList": {
+      "textHash": "7cb2d59d460522e8b2c06b982eed1a4d3a870767ecabf003cdd3da016425263d",
+      "spoken": "మరొక జాబితాను తెరవడం వలన ఈ సెషన్ భర్తీ చేయబడుతుంది. మీకు అవసరమైతే ముందుగా మీ పనిని సేవ్ చేయండి.",
+      "bytes": 37792,
+      "seconds": 9.289,
+      "sha256": "b22882b3a84e8199ed849d11987bd9b2ec365ef68a2073d66243f1ac52260643"
+    },
+    "validFollowup": {
+      "textHash": "6213b16aa8eb2e2afec919d46405221848bcd7e9a83cdfb1e8ef5e27d35eab12",
+      "spoken": "నిజమైన తేదీని నమోదు చేయండి లేదా మూడు పెట్టెలను ఖాళీగా ఉంచండి.",
+      "bytes": 24354,
+      "seconds": 5.933,
+      "sha256": "f5a7b37391c9a66287d4ee63184ab57030e1c1ab962dd36981ac4ae2f800e07b"
+    },
+    "seeNext": {
+      "textHash": "4240f77f74cb166c3cad4cef1ebd3705d68bdc2c7831e4f05a1b35222bb2352d",
+      "spoken": "నా తదుపరి దశను చూడండి",
+      "bytes": 9468,
+      "seconds": 2.211,
+      "sha256": "5a2da63a0f41a15e7481b92242080e5389d4df746c954190b3d043832e266a64"
+    },
+    "unfinishedChanges": {
+      "textHash": "feedba40975d7e445d0c7a23fe10c3b6824fe897c7b7e360bc4b44a81953a74e",
+      "spoken": "అసంపూర్తిగా ఉన్న మార్పులను కొనసాగించండి",
+      "bytes": 12742,
+      "seconds": 3.032,
+      "sha256": "81c958d046137870b07ec232010c6802e7e9010adde9fa39b1d39716f2ecba03"
+    },
+    "linked": {
+      "textHash": "099db84a2443d34dc4bf57a4b91810827404bda869ffdb4ffc2a1c056eeb39bd",
+      "spoken": "డీమ్యాట్ ఖాతాను అనుసరిస్తుంది",
+      "bytes": 11387,
+      "seconds": 2.697,
+      "sha256": "7e8d6949eac36d677dc2265b10c39c086f932666a2eb76f582de2168a9e53f23"
+    },
+    "linkedTo": {
+      "textHash": "86fe35aff3808a5e39d9c60a0fdbe7a1e64ae47d68f8d19fa3cc1f9190099b12",
+      "spoken": "లింక్ చేయబడిన డీమ్యాట్ ఖాతా",
+      "bytes": 10813,
+      "seconds": 2.564,
+      "sha256": "bd7c7e531f1f070f6079b1202878fddad432113667b8ab7cd869bc49f3ff3544"
+    },
+    "privateRecord": {
+      "textHash": "c5e72124639099133f6bf0e762521e5d44a1cb18a5c1cc3f586abb1657201073",
+      "spoken": "మీ ప్రైవేట్ రికార్డ్ నోట్",
+      "bytes": 10530,
+      "seconds": 2.474,
+      "sha256": "cc1d9ac4a01732187b27cd12206a33bb81a02debae08e14a15d7bdb7647d76f4"
+    },
+    "privateRecordHelp": {
+      "textHash": "842753d68f9166ab7a53757f2eb2e5cbf490692d73990462482773bcfff72d18",
+      "spoken": "ఈ గమనిక మీ పాస్‌వర్డ్‌తో రక్షించిన సేవ్ ఫైల్‌లో ఉంటుంది. కుటుంబ సారాంశంలోనూ పేజీ ఆడియోలోనూ దీన్ని చేర్చరు.",
+      "bytes": 37030,
+      "seconds": 9.106,
+      "sha256": "ae6fe53e372b9a001ee365b03f7cb9e0fa4daf829f60a20e7ba45cc1bff73296"
+    },
+    "readRules": {
+      "textHash": "9738772405289d38def85dd910af64fa6fa635bfa787e107c98332cc31ef4cbe",
+      "spoken": "అధికారిక నియమాలను చదవండి",
+      "bytes": 11774,
+      "seconds": 2.794,
+      "sha256": "db75132c9952ee47b2e2634da01080380b276f22e1d25e68455face3bec5afd2"
+    },
+    "beforeContinue": {
+      "textHash": "0db17f954177242dfddb0b6173d14df3052c92f2e1c013fbd25ae52846b9936b",
+      "spoken": "మీరు కొనసాగించే ముందు",
+      "bytes": 8707,
+      "seconds": 2.035,
+      "sha256": "ded199ecac9104efba51316e9bfd0118ed86126733f0c0576dc1396816427102"
+    },
+    "checkConnection": {
+      "textHash": "ee0f065e75c53722edc9b2487f16fde74329072d6e61de3b2399bc53aef94716",
+      "spoken": "ఇవి కలిసి ఉన్నాయో లేదో తనిఖీ చేయండి",
+      "bytes": 12068,
+      "seconds": 2.879,
+      "sha256": "fcec70f2d9fc9f3b86a1a60fcaf51e7ee9d8c79f8f0fd74a1dc6d64754595009"
+    },
+    "connectionHelp": {
+      "textHash": "534db64a8ebaa946894ceebeee97ba30e1fb1ea749d66addd1cb7551b5c49eb9",
+      "spoken": "ఈ ఫండ్ యూనిట్‌లు ఒకే హోల్డర్‌లతో ఈ ఖచ్చితమైన డీమ్యాట్ ఖాతాలో ఉన్నాయని తనిఖీ చేయడానికి డీమ్యాట్ స్టేట్‌మెంట్‌ను ఉపయోగించండి. వేర్వేరు కుటుంబ సభ్యులకు చెందిన ఖాతాలు నామినేషన్‌ను పంచుకోవు.",
+      "bytes": 62371,
+      "seconds": 15.442,
+      "sha256": "5ab55c65073070163cbc1dc861dcae49bb2b96d6ad38bc04db2579fa5425efdb"
+    },
+    "sameHolders": {
+      "textHash": "d770e9ef4359cf23f017a7906179fdaedcd98d9bc4304a19ac94e14fd68eb7f2",
+      "spoken": "నేను స్టేట్‌మెంట్‌ను తనిఖీ చేసాను: ఈ యూనిట్లు మరియు హోల్డర్‌లు ఈ డీమ్యాట్ ఖాతాతో సరిపోలుతున్నాయి.",
+      "bytes": 31456,
+      "seconds": 7.71,
+      "sha256": "066e72d8f72d23ebb0884731b03ecc110a99e95c0790ec61728c27b1ce5d56af"
+    },
+    "linkAccount": {
+      "textHash": "664074b8549d9e07c7d99047a003f7ea9c7bbfd9d9e9656814b64c9c178b7e0f",
+      "spoken": "ఈ డీమ్యాట్ ఖాతాను లింక్ చేయండి",
+      "bytes": 12832,
+      "seconds": 3.053,
+      "sha256": "460b6dd8709c1de9708fbed0929f0bc2e2a8887c4e6b4f0588803c4c6d9f8be7"
+    },
+    "replaceChanges": {
+      "textHash": "f0239f8d49c2705d55768b0095c34c016114baa8de955752e2c601bd00f34739",
+      "spoken": "మీకు అసంపూర్తిగా మార్పులు ఉన్నాయి. కొనసాగించడం ఆ చిత్తుప్రతిని భర్తీ చేస్తుంది. ఇంటికి తిరిగి రావడానికి రద్దు చేసి, ముందుగా దాన్ని పూర్తి చేయండి లేదా సేవ్ చేయండి.",
+      "bytes": 55939,
+      "seconds": 13.845,
+      "sha256": "aa950954b017566f30c4d3eba101b58530d46a5dd4b15b1f7cc1264ce0895426"
+    },
+    "startOwnList": {
+      "textHash": "9d787f5757f27b578ddc59113ab463587b6ce91ed4858d1a6f1b53f1d4db54cd",
+      "spoken": "నా స్వంత జాబితాను ప్రారంభించండి",
+      "bytes": 11873,
+      "seconds": 2.82,
+      "sha256": "1c1098699446fc67d6696053dc9ba155f09dedca5084902e454395163ffe3168"
+    },
+    "startOwnHelp": {
+      "textHash": "d914e28cfcd79e3bc842c958c1cee72a0971ccfd95754f0b219b58e035f582ba",
+      "spoken": "మీ కుటుంబం కోసం తాజా జాబితాను ప్రారంభించాలా? ఇది ఈ సెషన్ నుండి కల్పిత ఉదాహరణను తీసివేస్తుంది.",
+      "bytes": 40001,
+      "seconds": 9.854,
+      "sha256": "eebc27b4b4755f4fda1a8a7cdd90880d29f5314103ab66515251940b45fd9843"
+    },
+    "familyPending": {
+      "textHash": "d0411590f99d952917a7d46659eb280b25cb3ad63e49e3224a772856e5ce4540",
+      "spoken": "కుటుంబ వివరాలు ఇంకా సమీక్షించబడలేదు",
+      "bytes": 13218,
+      "seconds": 3.167,
+      "sha256": "a4e0b4b6bfe0c68a1692569dbb2a40265a3af38a68e9ef582a4477745cfa90ab"
+    },
+    "familyReviewed": {
+      "textHash": "fdac84efed3ab2fd94ba215da5b3e3a091613cf0dec3c22ed8c93fbae5bdf4e5",
+      "spoken": "కుటుంబ వివరాలను సమీక్షించారు",
+      "bytes": 9859,
+      "seconds": 2.306,
+      "sha256": "72456dee8791a22e0c4fc12f0458ddc2bc852dce0b65b1f82898e6e00b379316"
+    },
+    "familyReviewCheck": {
+      "textHash": "356d1930b761a88c9db1a8f548ad2c7e5410e56d696505dd9a81e1ac69e6083c",
+      "spoken": "నా కుటుంబం చూడవలసిన వాటిని నేను సమీక్షించాను. నేను ఏవైనా ఖాళీ ఫీల్డ్‌లను వదిలివేయాలని ఎంచుకున్నాను.",
+      "bytes": 37894,
+      "seconds": 9.318,
+      "sha256": "8de567b3d3c8902e54356ebba3a633022937d2c8d3706f79a3e905fab1110a00"
+    },
+    "familyReviewHelp": {
+      "textHash": "7b75bc72f8cdb6fac8672e967fca6006dbc16023d60f770481364c3c3a1e94fb",
+      "spoken": "ఇది ప్రత్యేక చెక్. నమోదిత నామినేషన్ మీ కుటుంబానికి ఖాతా లేదా దాని రికార్డులను ఎక్కడ కనుగొనాలో చెప్పదు.",
+      "bytes": 33381,
+      "seconds": 8.186,
+      "sha256": "0e6ba8836de088d53a9d51017dd56be06fe608ccae9359a0e4abc520b41e64f2"
+    },
+    "notIncluded": {
+      "textHash": "0c929b30c808d225bf145bc3e1b0dd4051283398895cc99fb561e2bedf4d4da8",
+      "spoken": "ఎంపిక ద్వారా చేర్చబడలేదు",
+      "bytes": 9184,
+      "seconds": 2.157,
+      "sha256": "3c5930b4a55a17c5d1d4b65682bde82ff17bb88fa1624483393f51f74be6f88e"
+    },
+    "familyReadyNext": {
+      "textHash": "abdd8dd14ed4cb38d0e65db6dc6c868b8457db9108dd0769967bd7093402ac52",
+      "spoken": "ఈ షీట్‌ను మీ విశ్వసనీయ కుటుంబ సభ్యులు కనుగొనగలిగే చోట ఉంచండి. వివరాలు మారినప్పుడు దాన్ని సమీక్షించండి.",
+      "bytes": 33284,
+      "seconds": 8.182,
+      "sha256": "dfb3aab8529031119075868d470241f3bdd29ed1845e43deea8476969fb97487"
+    },
+    "familyRemaining": {
+      "textHash": "1dd91bfa903dc697c9d04e4887d5ef11a10d6621aec3756bfa915f06b0934878",
+      "spoken": "సమీక్షించడానికి కుటుంబ రికార్డులు",
+      "bytes": 12740,
+      "seconds": 3.042,
+      "sha256": "9f1c3cc899528b9af6df7703d24d02b416e2c5b39f8c9f4746399c0ea4fa6570"
+    },
+    "onlineRoute": {
+      "textHash": "4d731da3104f3e50a4645149b6ef982b2ca826e9fe8e4aea0a2635e6701e6dfe",
+      "spoken": "ఆన్‌లైన్ సేవలను ఉపయోగించండి",
+      "bytes": 10048,
+      "seconds": 2.353,
+      "sha256": "13dd51c4b6ee2a7599e09556cb16e4dff5034eccad2450c8ae9e887284552a70"
+    },
+    "offlineRoute": {
+      "textHash": "737b645d97e365b465d484faf08d15ff25b191cde7775459540f75e54ad3b3e6",
+      "spoken": "వ్యక్తిగతంగా సహాయం పొందండి",
+      "bytes": 12161,
+      "seconds": 2.896,
+      "sha256": "8e0294dc634ade2be7de468d58c758f2af9e064554970deb6f9b196085f392f0"
+    },
+    "routeChoice": {
+      "textHash": "3f00363371213591d0da1a5afa5ea96d801549cc7f4442580bce1e205122578a",
+      "spoken": "మీరు దీన్ని ఎలా చేయాలనుకుంటున్నారు?",
+      "bytes": 15808,
+      "seconds": 3.794,
+      "sha256": "54ea451189db196abca34a91127720d5a61251a288e282d93c2850adbc38f209"
+    },
+    "saveBeforeLeaving": {
+      "textHash": "d55779ad124f1db349112dd60198ddd7874b12269f28f9832a61ae2547b39ea0",
+      "spoken": "అధికారిక సేవను తెరవడానికి ముందు మీ స్థలాన్ని సేవ్ చేయండి. ఏమి జరిగిందో రికార్డ్ చేయడానికి ఇక్కడకు తిరిగి రండి.",
+      "bytes": 37414,
+      "seconds": 9.205,
+      "sha256": "bbbedadd664cac2e970b499a916a981b1d1bdbbdade1fcc570e80ea61a3fc4f7"
+    },
+    "offlineContact": {
+      "textHash": "02bace83a0e7bf658a645aaee060b10da7114398f2c7a30b3256cd06f0b6f609",
+      "spoken": "శాఖ లేదా సేవా కేంద్రాన్ని గుర్తించడానికి సంస్థ యొక్క అధికారిక సహాయ పేజీని ఉపయోగించండి. ప్రయాణించే ముందు ఈ ఖాతా కోసం నామినేషన్‌ను నిర్వహిస్తుందో లేదో అడగండి.",
+      "bytes": 54499,
+      "seconds": 13.483,
+      "sha256": "33d3a7d76edb7ee448ef4d290e571526f0ce484a1ac7026d1a21c1fbb4670f1b"
+    },
+    "offlineBring": {
+      "textHash": "3b0d1b9024f5dc29821f275ae4fd00b1dc90afba174b1d065c8790ec475e9b99",
+      "spoken": "ఏ ఫారమ్, హోల్డర్ సంతకాలు మరియు పత్రాలు అవసరం అని అడగండి. ఖాతాను గుర్తించడానికి స్టేట్‌మెంట్ లేదా పాస్‌బుక్ తీసుకోండి; సంస్థకు అవి అవసరమైతే తప్ప అసలైన వాటిని మీ వద్ద ఉంచుకోండి.",
+      "bytes": 68993,
+      "seconds": 17.111,
+      "sha256": "419903b0207d4f45479dd652431a4d39c9a2ed421cacbda763b2e285f1b13ea4"
+    },
+    "offlineAsk": {
+      "textHash": "984a8869105c1ba8e5d7d67d407a50abb42622274c0b79b31eec91456d5c4d74",
+      "spoken": "ముందుగా ఉన్న నామినేషన్‌ను తనిఖీ చేయమని సిబ్బందిని అడగండి. మార్పు అవసరమైతే, తేదీతో కూడిన రసీదు మరియు తుది రిజిస్ట్రేషన్ రికార్డును ఎలా పొందాలో అడగండి.",
+      "bytes": 50751,
+      "seconds": 12.538,
+      "sha256": "1a1a2252d7308c329c634a53469da1ff11b8b8589667f20b28b4abac332df318"
+    },
+    "scopeGeneral": {
+      "textHash": "a1f567e1b9973831fd83e8a68758f4558d091f2b36799d96ba5d2d2c4e0ebcb3",
+      "spoken": "ఈ ఖాతా రకం కోసం సాధారణ మార్గదర్శకత్వం. మేము ఈ సంస్థ యొక్క ఖచ్చితమైన స్క్రీన్‌లను సమీక్షించలేదు.",
+      "bytes": 36161,
+      "seconds": 8.896,
+      "sha256": "f38c0614821d3ca418ce0c4b6356f9b8c031aca4bb82822c51c8238512eb84c1"
+    },
+    "scopeHdfc": {
+      "textHash": "6d0f0ffdb1f6126a25efddfc8511ae45e2403230af449a23dfd9c15ca7e6c268",
+      "spoken": "హెచ్ డీ ఎఫ్ సీ బ్యాంక్: పొదుపులు మరియు ఎఫ్ డీ/ఆర్ డీ మార్గదర్శకత్వం; జాయింట్ హోల్డర్లు బ్రాంచ్ మార్గాన్ని ఉపయోగిస్తారు.",
+      "bytes": 43742,
+      "seconds": 10.799,
+      "sha256": "2c750261081f349cc196b4d9cac7bf8e4e1426f79c0b0c8b62259b17d31809de"
+    },
+    "scopeSbi": {
+      "textHash": "508800bb88543cae0d178dd7ac037d4aea49c6461c4d387a2da834f483b8fa1a",
+      "spoken": "ఎస్ బీ ఐ డిపాజిట్ ఖాతాలు. ఈ గైడ్ అందుబాటులో ఉన్న ఛానెల్‌లను కవర్ చేస్తుంది; ఇది పరీక్షించిన లాగిన్ క్రమాన్ని క్లెయిమ్ చేయదు.",
+      "bytes": 42685,
+      "seconds": 10.517,
+      "sha256": "fc95ddd2fe5d3d0db37005c83c74634bcb09946591c779a478889b8c3fdb63a9"
+    },
+    "scopeAxis": {
+      "textHash": "386254b5c690e5a669bfc6dda4ba07fa23e7ed667314cf5c605e9bc654d1bde6",
+      "spoken": "యాక్సిస్ బ్యాంక్ సేవింగ్స్ ఖాతాలు మాత్రమే. ఎఫ్ డీ/ఆర్ డీ మార్గాలు భిన్నంగా ఉండవచ్చు.",
+      "bytes": 30110,
+      "seconds": 7.378,
+      "sha256": "03e4d29a44b7e187df56f4a2f52b84e4bef8c9765b5e6484537b43ae42b9c377"
+    },
+    "scopeZerodhaAdd": {
+      "textHash": "623264cbcac8bbba56647890c419e5175de31f57e3e83de930c19ead65663feb",
+      "spoken": "జెరోధా: మొదటి నామినీ అదనంగా. జాయింట్ ఖాతాలు లేదా అందుబాటులో లేని ఆధార్-లింక్డ్ మొబైల్ యాక్సెస్‌కు సంస్థ సహాయం అవసరం.",
+      "bytes": 47492,
+      "seconds": 11.73,
+      "sha256": "b7bf0d937913575abdd4fa5840aa3fd69c5b8b3441fb8c5dd893f9f34a662692"
+    },
+    "scopeZerodhaChange": {
+      "textHash": "de8a0b0cf9fad49b494d580694aff3eba648875ead5d01e7687ea1d235306dc7",
+      "spoken": "జెరోధా: ఇప్పటికే ఉన్న నామినీ వివరాలను మార్చడం లేదా మరొక నామినీని జోడించడం.",
+      "bytes": 28295,
+      "seconds": 6.922,
+      "sha256": "d7f9e3551298ed0682169e7bec9f2d0f3996d1a52905fcbc75ac114f4bc09f32"
+    },
+    "scopeGroww": {
+      "textHash": "d199a2403934d5937066bd2981ee54b539d0c9bd1b51ccb3c425ac0d62d9d9b4",
+      "spoken": "డీమ్యాట్ ఖాతాను పెంచుకోండి. ఇప్పటికే ఉన్న మ్యూచువల్ ఫండ్ ఫోలియోలకు ప్రత్యేక సర్వీస్ రూట్ అవసరం కావచ్చు.",
+      "bytes": 37695,
+      "seconds": 9.273,
+      "sha256": "d65048597879eb6498ef742d1559fdfb4fa335873b73dbd098b31e28ebb4c2f7"
+    },
+    "scopeHdfcMf": {
+      "textHash": "9bfdda6b5d039d588dd4a58f8c2cd79ae1a37a8046fa6976dd1bee970add0979",
+      "spoken": "హెచ్ డీ ఎఫ్ సీ మ్యూచువల్ ఫండ్ ఫోలియోలు. డీమ్యాట్-హెల్డ్ యూనిట్లు డీమ్యాట్ ఖాతా నామినేషన్‌ను అనుసరిస్తాయి.",
+      "bytes": 40288,
+      "seconds": 9.929,
+      "sha256": "f87dd7d6967288def38b4391b5d76634e9c82ae29743f273055849cf135d7715"
+    },
+    "scopeDematFunds": {
+      "textHash": "733e58413df89c266d591b0147b426373315d4918e9aba7c33b9d1021c7bc011",
+      "spoken": "ముందుగా ఈ యూనిట్లను కలిగి ఉన్న డీమ్యాట్ ఖాతాను గుర్తించి తనిఖీ చేయండి.",
+      "bytes": 24932,
+      "seconds": 6.085,
+      "sha256": "14ea17266e35c42f4a950c873e39f1af4c09b2e6b3f322119bfad35e0684abc5"
+    },
+    "scopeUnknownFunds": {
+      "textHash": "8d9af1775cd12d3bbbea21acec06386be37d34d48529967c277704853e52ee25",
+      "spoken": "నామినేషన్ మార్గాన్ని ఎంచుకునే ముందు తప్పనిసరిగా హోల్డింగ్ ఆకృతిని గుర్తించాలి.",
+      "bytes": 25126,
+      "seconds": 6.141,
+      "sha256": "bc5e1f2ed41ab6426286118094838da5bd9a5d5748cd09f8138a7471a0c61b73"
+    },
+    "sbiAction": {
+      "textHash": "c80b331baf1f13588ba95de3a7630a25e4b3037d312e8c5c7c58d8ab9d7ed247",
+      "spoken": "ఎస్ బీ ఐ యోనో, ఇంటర్నెట్ బ్యాంకింగ్ మరియు శాఖల ద్వారా డిపాజిట్-ఖాతా నామినేషన్‌ను అందిస్తుంది. నిర్దిష్ట ఖాతాను ఎంచుకోండి. మీకు అవసరమైన ఎంపిక అందుబాటులో లేకుంటే, ప్రస్తుత ఫారమ్‌ను ఉపయోగించి నమోదు చేయమని లేదా మార్చమని బ్రాంచ్‌ని అడగండి.",
+      "bytes": 87230,
+      "seconds": 21.666,
+      "sha256": "dff6a0ae3fa5db22175b7a748066ed59358d07ebf5e604ba3f623f641d753127"
+    },
+    "axisStart": {
+      "textHash": "8675382ecef81d3d36a88da4966fda286e2063df51cc30d852673034a7896408",
+      "spoken": "యాక్సిస్ ఇంటర్నెట్ బ్యాంకింగ్‌లో, సేవలు → ఖాతా సేవలు → అప్‌డేట్ నామినీని తెరవండి. సేవింగ్స్ ఖాతాను ఎంచుకోండి, ఆపై కొత్త నామినీని జోడించండి లేదా నామినీని మార్చండి.",
+      "bytes": 58622,
+      "seconds": 14.516,
+      "sha256": "288e0f79751b60fd7cd046cbc24cc06623afd87fb76ec13b770c76f0034a666a"
+    },
+    "axisSubmit": {
+      "textHash": "da5fe2844e25a6327b05238d521ff039b625fc9bdd73a6943b63e9b6264533f1",
+      "spoken": "యాక్సిస్ యొక్క సహాయ పేజీ అభ్యర్థన ఫారమ్‌ను రూపొందించడం, దాన్ని పూర్తి చేయడం మరియు సంతకం చేయడం, దాన్ని అప్‌లోడ్ చేయడం మరియు నెట్ సెక్యూర్ కోడ్‌తో నిర్ధారించడం గురించి వివరిస్తుంది. మీరు ప్రింట్ చేయలేకపోతే లేదా అప్‌లోడ్ చేయలేకపోతే, శాఖను ఉపయోగించండి.",
+      "bytes": 76959,
+      "seconds": 19.102,
+      "sha256": "83fa0953f584b87b49565a4f02b4dc9c31ec7cc826999a6e4887946e6cc551cd"
+    },
+    "zerodhaChangeForms": {
+      "textHash": "2b8d3c5a2780faa982a834579b7f6932d94cbcb80783e4f687ecdf542cb3c6ab",
+      "spoken": "జెరోధా మార్పు సూచనలను తెరవండి. ప్రస్తుత నామినేషన్ మరియు ఖాతా సవరణ ఫారమ్‌లను పొందండి; నిర్దేశించిన విధంగా ఇప్పటికే ఉన్న మరియు ప్రతిపాదిత నామినీ వివరాలను నమోదు చేయండి.",
+      "bytes": 57959,
+      "seconds": 14.331,
+      "sha256": "7f876f7700d2ad527b0310525af17971aaad720bde45bd74d815aa1fe3448e01"
+    },
+    "zerodhaChangeSubmit": {
+      "textHash": "90731b974a1cbb8956b19d805579a023a417a91881b93cfb1c50563894ac4519",
+      "spoken": "జెరోధా రెండు ఫారమ్‌లపై చేతితో సంతకం చేయడం, వాటిని ఇ-సైన్ చేయడం మరియు వాటిని మద్దతు టిక్కెట్‌కి జోడించడం గురించి వివరిస్తుంది. ప్రస్తుత సూచనలను అనుసరించండి; మీరు ఈ సైన్ చేయలేకపోతే ప్రత్యామ్నాయం కోసం మద్దతును అడగండి.",
+      "bytes": 73224,
+      "seconds": 18.145,
+      "sha256": "8ad23d41158bbc411ddcabdca719bb558854a1b0665f88e9fce8816d9c2e8311"
+    },
+    "growwCheck": {
+      "textHash": "e9861a62881c9b3fd3c260a02dc51cab6e3926b82297716b4326d035124b80e0",
+      "spoken": "గ్రోలో, ప్రొఫైల్ → ఖాతా వివరాలు → నామినీ వివరాలు తెరవండి. ప్రదర్శించబడిన నామినేషన్ ఏ పెట్టుబడి లేదా ఖాతాకు వర్తిస్తుందో తనిఖీ చేయండి.",
+      "bytes": 43839,
+      "seconds": 10.816,
+      "sha256": "872e51583ad2e5544948ec4c17785587b0ee1d78078294c9e0dade0aa29f3d27"
+    },
+    "growwAction": {
+      "textHash": "17bfae84df7e4ce1a6fa956669af4feaf06df7eecf232b6895fff0a1d5528360",
+      "spoken": "అర్హత కలిగిన డీమ్యాట్ పెట్టుబడుల కోసం నామినీని సవరించండి మరియు గ్రో యొక్క ధృవీకరణను అనుసరించండి. ప్రొఫైల్‌ను నవీకరించడం వలన ఇప్పటికే ఉన్న ప్రతి మ్యూచువల్-ఫండ్ ఫోలియో మారినట్లు నిర్ధారించబడదు; ఆ ఫోలియోలను విడిగా తనిఖీ చేయండి.",
+      "bytes": 73312,
+      "seconds": 18.172,
+      "sha256": "3df180e157722526ec9162c4edfae39b5e973a9bdfc5d9616507d5933889424c"
+    },
+    "readingNow": {
+      "textHash": "2a24838f2c5a15a5ab3c4daeaa2f94637c4a19bbed808f929b63b6cf2e31a3c8",
+      "spoken": "ఇప్పుడు చదువుతున్నాను",
+      "bytes": 7071,
+      "seconds": 1.619,
+      "sha256": "bb986ae33142c87d5ae988fba97b7c2609c9e1a876bf83ac7d7ced9d6bccf6ae"
+    },
+    "repeatSentence": {
+      "textHash": "caa2dcb4ce1342889a8def17fb56bc44945658011c8391dd54edf3f5031ff2e1",
+      "spoken": "దీన్ని మళ్లీ ప్లే చేయండి",
+      "bytes": 9475,
+      "seconds": 2.217,
+      "sha256": "a99c5b04e13ac6296bd961e679b225f434059ef0bb54dd3326cdf5d7e1183acf"
+    },
+    "nextSentence": {
+      "textHash": "bcdebc520d95cfbc943ae70addbf1c6aa2558e04f7a362d8ffa5f3d151218713",
+      "spoken": "తదుపరి భాగం",
+      "bytes": 6401,
+      "seconds": 1.446,
+      "sha256": "bf4bf96400161bf24ba03a7b0d99bf468d4f6a3969d5e9842abafbdc69b8454c"
+    },
+    "previousSentence": {
+      "textHash": "c8196573ed47bfa9fc8cbe2539043b0cf7568390e36ed35381b1f50974180f51",
+      "spoken": "మునుపటి భాగం",
+      "bytes": 6405,
+      "seconds": 1.445,
+      "sha256": "dd0f66073947058892db9c3a41452ee4b21eedc20883ea9a755bb1f852709bc8"
+    },
+    "readingPreferences": {
+      "textHash": "896a7159ee29313780d0a1443cd006c2beb2b5db34141ad25ac46345c57fa4d0",
+      "spoken": "ఈ పరికరంలో రీడింగ్ సెట్టింగ్‌లు గుర్తుంచుకోబడతాయి. మీరు సేవ్ చేయడాన్ని ఎంచుకున్నప్పుడు మాత్రమే ఖాతా వివరాలు సేవ్ చేయబడతాయి. రీసెట్ ఈ పఠన ప్రాధాన్యతలను క్లియర్ చేస్తుంది.",
+      "bytes": 53063,
+      "seconds": 13.111,
+      "sha256": "72d67d7712b2b19842717ef9d03921c59cce7556206ac7cb04f6dd5138361d8b"
+    },
+    "stepType": {
+      "textHash": "0d3ae3833af6ddc8aa4d7fdad978f11f46709f95be947cc28cd0d9a5ec0eece2",
+      "spoken": "ఖాతా రకం",
+      "bytes": 5533,
+      "seconds": 1.227,
+      "sha256": "7bbb460afe2a864e12b87e308b46f13ef3e4c4d280ea03be513f18a8e98fa9de"
+    },
+    "stepInstitution": {
+      "textHash": "60e7603c1cef24dac605e55211490b25ea154a60a1233998ff67c3a3e7a7cef6",
+      "spoken": "సంస్థ",
+      "bytes": 5252,
+      "seconds": 1.162,
+      "sha256": "711e2bb452990c00197a4943de79544945d513d82c9a9384880dab7507ccd07b"
+    },
+    "stepContext": {
+      "textHash": "f198fa30b2054399b9cc9dbe4053f056fc8ca03d388ba07e9024a6bd9d436bc3",
+      "spoken": "ఖాతా వివరాలు",
+      "bytes": 6016,
+      "seconds": 1.347,
+      "sha256": "1fe192e639d27f04c94f1cf5c62ed5c74aa9ae12b99c3ac234c422303b2de590"
+    },
+    "stepNomination": {
+      "textHash": "3113868efd65fa21b581176a56097e81a775bae1470b546c616ff787713a101e",
+      "spoken": "నామినేషన్",
+      "bytes": 5923,
+      "seconds": 1.342,
+      "sha256": "77b967c66f065f4ce27dd4717be5c5b1c0b1c6bcd07b0203c0bff832dbc7b341"
+    },
+    "savedNext": {
+      "textHash": "d52330dd8e4e9c41927bc6f13998127be7ab5a9e9e6dfeeb99a1aac4ea23b0bf",
+      "spoken": "మీ లాక్ చేయబడిన కాపీ సిద్ధంగా ఉంది. ఫైల్ మరియు పాస్‌వర్డ్‌ను మీరు మళ్లీ కనుగొనగలిగే చోట ఉంచండి. మీరు సిద్ధంగా ఉన్నప్పుడు మీ పనికి తిరిగి వెళ్లండి.",
+      "bytes": 47198,
+      "seconds": 11.659,
+      "sha256": "9bc1c7ca5215f70abcd891b6ce35b216603aaf5b68c1c09aee36e6bb0a843695"
+    },
+    "returnTask": {
+      "textHash": "13edb385ff8dd50967d869cdc6599749b7b8e8280325680023d1889bed53fe1b",
+      "spoken": "నా పనికి తిరిగి వెళ్ళు",
+      "bytes": 9855,
+      "seconds": 2.306,
+      "sha256": "c39bbffba3cd8b52f3eedea71abc4288e8754e1f09452d52909988b6c7855930"
+    },
+    "olderDeviceCopy": {
+      "textHash": "11d04d685bb0960406919539f029d72307c24dde86fd172e9ffb61db4629cdb9",
+      "spoken": "పరికరం కాపీ అప్‌డేట్ చేయబడలేదు. మీ తాజా మార్పుల కోసం డౌన్‌లోడ్ చేసిన ఫైల్‌ను తెరవండి లేదా ఎంచుకున్న పరికర ఎంపికతో మళ్లీ సేవ్ చేయండి.",
+      "bytes": 50660,
+      "seconds": 12.513,
+      "sha256": "2e8d5a65f850cf2d20dc69fcab1721b48ce66bd2e7770f048ea1624d67f2739e"
+    },
+    "haveReady": {
+      "textHash": "6c744a5bfe6cd207603dc2ffd64a4bcaf9200d3883d032f98d51ce80fa65fe64",
+      "spoken": "వీటిని సిద్ధంగా ఉంచుకోండి",
+      "bytes": 9374,
+      "seconds": 2.203,
+      "sha256": "890651ed695f1acb6f4cbf0e372ebb3a4a57cc69dcadea742ad7a433a5e9e81b"
+    },
+    "audioLoading": {
+      "textHash": "b9e095bde98fbf9971edbabd6162f1e394b071165b4a5d9651755cf38d8c3e8f",
+      "spoken": "ఆడియో లోడ్ అవుతోంది…",
+      "bytes": 8129,
+      "seconds": 1.881,
+      "sha256": "fa6d5f137dd7d82489502e9822dd9990302a1f31dc07cc956829cf50df58283a"
+    },
+    "audioRetry": {
+      "textHash": "393ffb35f3aa2eecac8819a98a480522c907241e7e59cd8620e9e2b0de0a7b88",
+      "spoken": "మళ్లీ ప్రయత్నించండి",
+      "bytes": 7743,
+      "seconds": 1.793,
+      "sha256": "c40ee244b96bbc328eb879cfb5e612c65b15fe7522fb388d23fe2f73a587baec"
+    },
+    "audioBlocked": {
+      "textHash": "4f0353599363e52e19f3335a47b2bd1421e20057f13e543be7835164a6c31172",
+      "spoken": "తదుపరి భాగాన్ని ప్లే చేయడానికి వినడం కొనసాగించు నొక్కండి.",
+      "bytes": 16481,
+      "seconds": 3.98,
+      "sha256": "7334701373cb6bc4e472e4dc7fdeb456d7af607b25b1858eef2bdbe21d27d3bb"
+    },
+    "audioData": {
+      "textHash": "74e8ed1959cfec0fa55c64d1046a31387b31b15e22f87c3bd96fa5e4cde9994d",
+      "spoken": "మీరు విన్నప్పుడు మాత్రమే ఆడియో లోడ్ అవుతుంది. ఇటీవల ప్లే చేయబడిన సూచనలు మద్దతు ఉన్న బ్రౌజర్‌లలో ఆఫ్‌లైన్‌లో పని చేయగలవు. మొదటిసారి వినడానికి ఇంటర్నెట్ అవసరం.",
+      "bytes": 52190,
+      "seconds": 12.898,
+      "sha256": "513476c3a2280c8dbfdd0ed3ae2c1ecdd3e7383bc97ba7dd7ab7a438a14c3e2b"
+    },
+    "audioDraft": {
+      "textHash": "98fe271aeb501df4ea9d14b32615cd8530026dd21bcda1e6af0da16b447a4139",
+      "spoken": "ఇవి కంప్యూటర్ ద్వారా రూపొందించబడిన స్వరాలు. ఉచ్చారణ ఇంకా సమీక్షించబడుతోంది. మీరు తేడాను విన్నట్లయితే వ్రాసిన సూచనలను అనుసరించండి.",
+      "bytes": 46239,
+      "seconds": 11.415,
+      "sha256": "c5d6bfaa9eaaf4731a31977cba976b612efbcbdf385be1e7e2e8f5461af2ad78"
+    },
+    "audioStart": {
+      "textHash": "397f91e82c1ee2c76576e3e63723f2b7cb8d3c1d7f285757e614fb158e9a7b32",
+      "spoken": "వినండి",
+      "bytes": 6015,
+      "seconds": 1.349,
+      "sha256": "b658e322188552b5897b88adb5e0b6fd29f05974ff1cff600e5fdc88ea9647e2"
+    },
+    "audioCache": {
+      "textHash": "de443eb000eab7df4da94987d1f251551a3216891768cb5a7db839f6fd88af5c",
+      "spoken": "ఇటీవల ఆడియో ప్లే చేయబడింది",
+      "bytes": 10047,
+      "seconds": 2.372,
+      "sha256": "815a60be9e0249071b11f8147fd0bd7e8cd2abac576a9bc21116cde4781da0a9"
+    },
+    "clearAudio": {
+      "textHash": "e4a8d77e6dc6d0c00f99b7cb247096ee34cd6891a6f202e07c153b3cab156148",
+      "spoken": "సేవ్ చేసిన ఆడియోను తీసివేయండి",
+      "bytes": 10911,
+      "seconds": 2.57,
+      "sha256": "a863d39ea09cfe16268baec584880394060fb3e0de0bb3905ca6e9966f1d02bb"
+    },
+    "audioCleared": {
+      "textHash": "86b90b1961bd8e3aeaee8d1bd59d71525da156b2cd8f11f9a8f68f41b2d8edfb",
+      "spoken": "సేవ్ చేయబడిన ఆడియో తీసివేయబడింది. మీ ఖాతా జాబితా మారలేదు.",
+      "bytes": 21761,
+      "seconds": 5.291,
+      "sha256": "d02a94896bbcb204c469f11c991aaa5ad66328f97f3b8c5fa3c8ef69e9f78ba7"
+    },
+    "audioPrivacy": {
+      "textHash": "89594f82f8a2e7861b1a7ca9eaef12e37a9b2c650b281f2b8198f2f080bdd8db",
+      "spoken": "మళ్లీ వినడానికి పబ్లిక్ సూచనలు మాత్రమే సేవ్ చేయబడతాయి. ఆడియో అభ్యర్థనలు ఈ వెబ్‌సైట్‌ను ఉపయోగిస్తాయి; వాయిస్ సేవకు ఎటువంటి ఎంట్రీలు పంపబడవు. హోస్టింగ్ లాగ్‌లు మీ ఐ పీ చిరునామా మరియు అభ్యర్థించిన ఆడియో ఫైల్‌లను కలిగి ఉంటాయి.",
+      "bytes": 75809,
+      "seconds": 18.794,
+      "sha256": "eeb74ddc4ebb809006f874c3808f162544be49c765c21cd884254f0afd1a87d6"
+    }
+  }
+}

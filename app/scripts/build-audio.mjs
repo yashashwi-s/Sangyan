@@ -7,12 +7,19 @@ import {publicAudioCopy} from './audio-public-copy.mjs';
 const root=new URL('../',import.meta.url),catalog={},credits=[];
 const publicSource=JSON.parse(await readFile(new URL('audio/public-text.json',root)));
 const candidateModels=JSON.parse(await readFile(new URL('audio/candidate-model-sources.json',root)));
+const candidateRules=JSON.parse(await readFile(new URL('audio/pronunciation-candidates.json',root)));
+// Match the generator's sorted Python JSON representation, including its spaces.
+const synthesisJSON=value=>Array.isArray(value)?'['+value.map(synthesisJSON).join(', ')+']':value&&typeof value==='object'?'{'+Object.keys(value).sort().map(key=>JSON.stringify(key)+': '+synthesisJSON(value[key])).join(', ')+'}':JSON.stringify(value);
 const currentSource=publicAudioCopy(audioLanguages);
 if(JSON.stringify(publicSource)!==JSON.stringify(currentSource))throw Error('Released audio source does not match current public copy and audio-language registry.');
 for(const lang of audioLanguages){
  const report=JSON.parse(await readFile(new URL(`audio/recordings-${lang}.json`,root)));
  if(report.language!==lang||report.license!=='CC-BY-NC-4.0'||report.fluentReview!==false||!/^facebook\/mms-tts-[a-z_-]+$/.test(report.model?.model)||!/^[a-f0-9]{40}$/.test(report.model?.revision))throw Error(`Unverified speech attribution or review claim: ${lang}`);
  if(candidateModels[lang]&&(report.scope!=='complete'||report.fluentReview!==false||report.license!=='CC-BY-NC-4.0'||JSON.stringify(report.model)!==JSON.stringify(candidateModels[lang])))throw Error(`Unverified candidate provenance or review claim: ${lang}`);
+ if(candidateModels[lang]){
+  const expected=createHash('sha256').update(synthesisJSON({text:publicSource[lang],rules:candidateRules[lang],model:candidateModels[lang],generator:3})).digest('hex').slice(0,12);
+  if(report.revision!==expected)throw Error(`Stale candidate pronunciation/model/text revision: ${lang}`);
+ }
  const source=publicSource[lang];
  const keys=Object.keys(source);
  if(Object.keys(report.entries).length!==keys.length)throw Error(`Incomplete audio: ${lang}`);

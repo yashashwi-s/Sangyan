@@ -1,6 +1,6 @@
 # Audio expansion checkpoint — 4 October 2026
 
-The current release scope is 21 written languages: English plus 20 scheduled languages, excluding Bodo and Kashmiri. Only English, Hindi, Bengali, Marathi, Tamil and Urdu have bundled recordings. Candidate model availability is not released audio coverage. All existing voices and translations remain drafts pending fluent-reader/listener review.
+The current release scope is 21 written languages: English plus 20 scheduled languages, excluding Bodo and Kashmiri. The locally integrated release now has ten bundled draft recording languages: English, Hindi, Bengali, Marathi, Tamil, Urdu, Gujarati, Punjabi, Kannada and Telugu. The other five candidate packs remain staged until complete validation. Candidate model availability is not released audio coverage. All existing voices and translations remain drafts pending fluent-reader/listener review.
 
 ## Concrete build changes
 
@@ -95,3 +95,12 @@ For the integrated UX audit, the CUA inventory in this continuation returned no 
 
 
 Coverage and model attribution in the public audio credits page are now generated from the checked real recording manifests, including their pinned model revisions. This keeps available-language claims, licence attribution and the registry aligned. The page retains synthetic/unreviewed, entry-privacy, on-demand download, bounded caching, non-commercial use and no-endorsement disclosures. All 81 release checks passed after this change. The sequential build and its complete-file validation watcher remain outside the website.
+
+
+## First complete-pack integration checkpoint
+
+Gujarati, Punjabi, Kannada and Telugu have been copied into the local public asset tree after the promotion gate decoded all 1,428 recordings and checked exact current text, pinned models, licence metadata, media hashes and synthesis revisions. This adds 28,901,056 bytes of actual MP3s; it does not add any speech model or Python package to the website. The registry, generated catalog, current public-copy export and credits agree on ten audio languages. The same six text-only languages remain unsupported for audio, and the other five MMS candidates continue generating in staging; neither partial candidate assets nor unverified language labels are exposed.
+
+The release command now always runs the audio integrity/provenance builder before generating the offline shell version and checking translations/tests. Candidate revisions are recalculated from exact text, pronunciation rules, pinned model metadata and generator version. Editing a pronunciation rule without rebuilding its clips therefore fails the release gate.
+
+These files are synthetic unreviewed drafts. Technical decoding is not evidence of accent, fluency or correct understanding. This assistant runtime does not support audio input, so no auditory judgment is claimed. The recorded Gujarati phonetic-alias risk remains outstanding. Publication has not occurred at this checkpoint.

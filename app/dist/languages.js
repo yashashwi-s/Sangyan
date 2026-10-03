@@ -10,6 +10,6 @@ export const languageInfo=[
  ['sat','ᱥᱟᱱᱛᱟᱲᱤ','Santali'],['sd','سنڌي','Sindhi'],['ta','தமிழ்','Tamil'],
  ['te','తెలుగు','Telugu'],['ur','اردو','Urdu']
 ];
-export const audioLanguages=['en','hi','bn','mr','ta','ur'];
+export const audioLanguages=["en","hi","bn","mr","ta","ur","gu","pa","kn","te"];
 export const isRTL=language=>['ur','sd'].includes(language);
 export const isKnownLanguage=language=>languageInfo.some(([code])=>code===language);
