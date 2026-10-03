@@ -1,0 +1,90 @@
+{
+  "language": "ml",
+  "revision": "e6ff23f922cc",
+  "model": {
+    "model": "facebook/mms-tts-mal",
+    "revision": "893b8c6442d6a630896d1d3ac0f429094ddfae82",
+    "license": "CC-BY-NC-4.0",
+    "languageCode": "ml",
+    "files": {
+      "config.json": {
+        "sha256": "c2ad5cfc8d13df056890cd345cf1956bf2d7d61082d45e55a9353d1bab032b06",
+        "bytes": 1641
+      },
+      "tokenizer_config.json": {
+        "sha256": "c98ba555d7ab56f939e24df2815f09391219c2f29981c58cf0f13178abf6e3f0",
+        "bytes": 289
+      },
+      "vocab.json": {
+        "sha256": "eb205944291c27e577ef423b29c889f61e89e984f9c4973c6b03c372cc0809bb",
+        "bytes": 1053
+      },
+      "special_tokens_map.json": {
+        "sha256": "21de02462fa930afa9d61c402e8bf9eb3af2507ff8a6ad351edceaf71a18fbb9",
+        "bytes": 49
+      },
+      "model.safetensors": {
+        "sha256": "a97a1e677ec67e05124b799dadd66630181fe9c29beb4e590454689ff8f698c5",
+        "bytes": 145262840
+      },
+      "README.md": {
+        "sha256": "6f638e015a3023bb41fc804b5f24cb04ea40f8cf54274eb09032f971a39cb432",
+        "bytes": 3984
+      }
+    }
+  },
+  "license": "CC-BY-NC-4.0",
+  "fluentReview": false,
+  "scope": "sample",
+  "entries": {
+    "homeTitle": {
+      "textHash": "0231810c454e15761aa337b69300a238636362429635a3f7aa2aebd452276922",
+      "spoken": "നിങ്ങളുടെ കുടുംബത്തിൻ്റെ അക്കൗണ്ടുകൾ കണ്ടെത്തുന്നത് എളുപ്പമാക്കുക.",
+      "bytes": 15806,
+      "seconds": 3.797,
+      "sha256": "40fc42b3201ba1ecd12766f5fb7590380009f23f23a31d5b106478741018aeb5"
+    },
+    "nomineeExplain": {
+      "textHash": "71ff64aaf6904948a208beff0559f38873e34a78ccd1ca09d61c506c96cd8895",
+      "spoken": "അക്കൗണ്ട് ഉടമ മരിച്ച ശേഷം സ്ഥാപനത്തിന് ക്ലെയിം സമർപ്പിക്കാവുന്ന വ്യക്തിയാണ് നോമിനി. നോമിനേഷൻ നടപടികൾക്ക് സഹായിക്കുന്നു; നിയമപരമായി ആരാണ് അവകാശി എന്ന് അത് തീരുമാനിക്കുന്നില്ല. നിങ്ങൾ പരിശോധിച്ചിട്ടില്ലെങ്കിൽ, “ഉറപ്പില്ല” തിരഞ്ഞെടുക്കുക.",
+      "bytes": 65827,
+      "seconds": 16.302,
+      "sha256": "7f910c333c15212d95bef03db87ecbcf81ecb4b6b865209cba741fdbdb48b185"
+    },
+    "receiptExample": {
+      "textHash": "caa59849c7490c90795ef73d4146cc7d9883e815a0888b8537f3ae61cc56d723",
+      "spoken": "“നിങ്ങളുടെ അപേക്ഷ ലഭിച്ചു” എന്നതിനർത്ഥം അപേക്ഷ ഇനിയും പരിഗണനയിലാണ് എന്നാണ്.",
+      "bytes": 21091,
+      "seconds": 5.116,
+      "sha256": "e8e93d84e5fe7fa0a269b1d2f4be3dc14543028d4ea42bf61ff5e51b344fe2e9"
+    },
+    "registeredExample": {
+      "textHash": "fb1193c148b7bf308044a34be95262c3f90edb9a341cad2fee89e051f7271a3e",
+      "spoken": "“നോമിനേഷൻ രജിസ്റ്റർ ചെയ്തു” അല്ലെങ്കിൽ “നോമിനേഷൻ: ഉണ്ട്” എന്നത് രജിസ്ട്രേഷൻ രേഖപ്പെടുത്തുന്നു. അത് ഈ അക്കൗണ്ടിനെ തിരിച്ചറിയുന്നുണ്ടോ എന്ന് പരിശോധിക്കുക.",
+      "bytes": 45670,
+      "seconds": 11.277,
+      "sha256": "cb669fff4115c61e43f3c1199cd16aff282ddc3fedde62925eccdb871edc0501"
+    },
+    "helpScopeText": {
+      "textHash": "3ae583981e027f3359b17bbab72581259bb97b5ca4e06b2dc2f9fd6792feffa4",
+      "spoken": "ജീവിച്ചിരിക്കുന്ന അക്കൗണ്ട് ഉടമ നോമിനേഷൻ ക്രമീകരിക്കുന്നതിനാണ് ഈ നടപടിക്രമം. ഉടമ മരിച്ചിട്ടുണ്ടെങ്കിൽ, മരണപ്പെട്ട ഉടമയുടെ ക്ലെയിം അല്ലെങ്കിൽ ആസ്തി കൈമാറ്റ നടപടിക്രമം സ്ഥാപനത്തോട് ചോദിക്കുക. അവരുടെ പേരിൽ പുതിയ നോമിനേഷൻ ആരംഭിക്കരുത്.",
+      "bytes": 65826,
+      "seconds": 16.304,
+      "sha256": "4cf1caec803db1a9222eeaff53da991892f91f4c1d0fd16d92c7ffd30704707d"
+    },
+    "passwordHelp": {
+      "textHash": "d888c00e86c400608b4959eabe69818322e2cddb9295b9e42f3c203999eccb64",
+      "spoken": "കുറഞ്ഞത് പന്ത്രണ്ട് അക്ഷരങ്ങൾ വേണം. പാസ്‌വേഡ് സുരക്ഷിതമായി സൂക്ഷിക്കുക; അത് തിരിച്ചെടുക്കാൻ ഞങ്ങൾക്ക് കഴിയില്ല.",
+      "bytes": 32801,
+      "seconds": 8.042,
+      "sha256": "4d9a76c3571d9e08f9f8baa2a9b6d275579790af1145a02a158e204de81f04bc"
+    },
+    "privacyDetail": {
+      "textHash": "24d68cbfd09eb8f2bc7b4ff7e0c9f17f2bc2c107c11edce1f90c41344ca3ba0d",
+      "spoken": "നിങ്ങളുടെ പട്ടിക ബ്രൗസറിന്റെ മെമ്മറിയിൽ നിലനിൽക്കും. പേജ് വീണ്ടും ലോഡ് ചെയ്യുമ്പോൾ അത് മായും. പിന്നീട് വീണ്ടും തുറക്കാൻ എൻക്രിപ്റ്റ് ചെയ്ത ഫയൽ സൂക്ഷിക്കുക. ഡൗൺലോഡ് ചെയ്ത ഫയലുകൾ നിങ്ങളുടെ ഉപകരണത്തിൽ നിലനിൽക്കും.",
+      "bytes": 52770,
+      "seconds": 13.049,
+      "sha256": "cf8c180b8c697503bcc2847909089e4a7149682190bee44a9a84d8dacb3fabc0"
+    }
+  }
+}

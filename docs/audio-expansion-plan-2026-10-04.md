@@ -42,3 +42,37 @@ For Nepali, Konkani, Meitei, Sanskrit, Santali and Sindhi, this checkpoint did n
 ## Checkpoint evidence
 
 `npm run check:release` passed 77 tests, all 21 text dictionaries, exact registry checks, content hashes, immutable locale addresses and the 16 KB compressed per-language text budget. `node app/scripts/build-audio.mjs` independently verified the six released recording sets. This is structural/build evidence, not proof of fluent translation, pronunciation, government accessibility certification or physical low-memory-device performance. No deployment was performed.
+
+## Actual staged synthesis, 4 October continuation
+
+The isolated runtime is now installed at `/private/tmp/virasat-audio-env`; all nine public models were downloaded into `/private/tmp/virasat-mms-candidates`. Pinned revisions, model/tokenizer checksums and licence metadata are retained in `app/audio/candidate-model-sources.json`. Dependency versions are locked in `app/audio/requirements-lock.txt`. Neither dependencies nor model weights are inside the website payload.
+
+All nine languages produced seven representative sample clips. Every sample passed text/hash/provenance checks, mono 24 kHz MP3 inspection, duration checks and complete FFmpeg decode. All 357 fixed public keys per candidate passed tokenizer preflight after explicit phonetic approximations described below. This is technical integrity evidence, not a listening/comprehension approval. Fluent review is false throughout.
+
+| Candidate | Initially affected public keys | Build-only phonetic aliases |
+| --- | --- | --- |
+| Gujarati | 21 | `ઍ→એ`, `ઑ→ઓ`, `ઔ→અઉ`, `ૅ→ે`, `ૉ→ો` |
+| Dogri | 26 | `ऑ→ओ`, `ऽ→'` |
+| Maithili | 54 | `ऑ→ओ`, `ॉ→ो` |
+
+These mappings approximate sounds missing from a model alphabet; they are pronunciation risks, not evidence that pronunciation is correct. The written dictionary remains unchanged by them. The other six candidates needed no character aliases. Native number names and Latin institution/acronym spellings are explicit in `pronunciation-candidates.json`, remain unreviewed, and are never silently discarded. A fluent listener must check loan vowels, avagraha, financial words, identifiers and meaning before an intelligibility or accent-quality claim.
+
+The text pass also removed four trailing `२.` batch artifacts from Maithili optional-field labels and replaced Dogri's untranslated “OR” and incorrect literal balance wording in the statement-evidence explanation. The current written build and immutable addresses were regenerated and tested.
+
+Sample recordings, reports and preflight logs are retained under `docs/audits/2026-10-04-audio-candidates/`, outside the deployed assets. The samples use the non-commercial Meta MMS models credited above. Source text, media hashes and model licences are in each sample report. No candidate has been added to public `audioLanguages` or `audioCatalog`.
+
+### Resumable build commands
+
+From the repository root:
+
+```sh
+python3 app/scripts/prepare-audio-runtime.py --environment /private/tmp/virasat-audio-env
+python3 app/scripts/prepare-audio-models.py --models /private/tmp/virasat-mms-candidates
+/private/tmp/virasat-audio-env/bin/python app/scripts/run-audio-candidates.py --models /private/tmp/virasat-mms-candidates --staging /private/tmp/virasat-audio-stage --phase sample
+python3 app/scripts/validate-audio-candidates.py --staging /private/tmp/virasat-audio-stage
+/private/tmp/virasat-audio-env/bin/python app/scripts/run-audio-candidates.py --models /private/tmp/virasat-mms-candidates --staging /private/tmp/virasat-audio-stage --phase full
+python3 app/scripts/validate-audio-candidates.py --staging /private/tmp/virasat-audio-stage --complete
+npm --prefix app run check:release
+```
+
+The runner records phase results and failures in staging `progress.json`, keeps per-language logs and reuses checksum-matching clips for the same revision. `--language gu` selects one candidate without overwriting other public dictionaries. Model preparation accepts only the fixed nine public Meta repositories and rejects gated/private access, wrong licences and unsafe tensor formats. The generator rejects candidate source text that differs from the current public dictionary. These commands synthesize and validate staging assets; they do not promote coverage or deploy.

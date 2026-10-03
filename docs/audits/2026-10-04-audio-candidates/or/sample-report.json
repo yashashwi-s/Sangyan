@@ -1,0 +1,90 @@
+{
+  "language": "or",
+  "revision": "3484a2ff5e78",
+  "model": {
+    "model": "facebook/mms-tts-ory",
+    "revision": "581f221219b728fab4d53efb24e18134bd1a9e28",
+    "license": "CC-BY-NC-4.0",
+    "languageCode": "or",
+    "files": {
+      "config.json": {
+        "sha256": "4375fa20fb99e7528d5b23b062b6d693d3957a640aff05cc8bc4d4e88de7f850",
+        "bytes": 1641
+      },
+      "tokenizer_config.json": {
+        "sha256": "19a0df70d9d3c92a7fd1cd1d949ba8317e827660dbca3e1f627b535187d09732",
+        "bytes": 289
+      },
+      "vocab.json": {
+        "sha256": "8f2720586286611affb7be4647545b899c91a0007fa1d2e85c5c27b66036adc6",
+        "bytes": 954
+      },
+      "special_tokens_map.json": {
+        "sha256": "68e914f54cb12e1242a59000597f873ee78c567ecf43ebc17ef47efd3ca0ffe8",
+        "bytes": 49
+      },
+      "model.safetensors": {
+        "sha256": "0bdc5d4b35d9011422e66b0fd8b45f65aa1420c937978481b1eede1db5510c6b",
+        "bytes": 145256696
+      },
+      "README.md": {
+        "sha256": "d0cf70d6b708ec197c1f111855d37c03cbc49392be2ee62fc46cd6c2a991aa30",
+        "bytes": 3969
+      }
+    }
+  },
+  "license": "CC-BY-NC-4.0",
+  "fluentReview": false,
+  "scope": "sample",
+  "entries": {
+    "homeTitle": {
+      "textHash": "cb6522a6d5bffb06ba6ba2a8f65b64bb7e64bed7fc8b3ee7886ceb08f2ed6e71",
+      "spoken": "ଆପଣଙ୍କ ପରିବାରର ଖାତା ଖୋଜିବାକୁ ସହଜ କରନ୍ତୁ।",
+      "bytes": 13598,
+      "seconds": 3.257,
+      "sha256": "1da62265d324ad03fc717195c7592007641dc3dcd76bb7557af1f5e82e0b0fd7"
+    },
+    "nomineeExplain": {
+      "textHash": "e7df166fd726cb049f79073ef9a45ad10a944f53dacf6c9965cb455de8af834b",
+      "spoken": "ମନୋନୀତ ବ୍ୟକ୍ତି ହେଉଛନ୍ତି ସେହି ବ୍ୟକ୍ତି, ଯାହାଙ୍କଠାରୁ ଖାତାଧାରକଙ୍କ ମୃତ୍ୟୁ ପରେ ସଂସ୍ଥା ଦାବି ଗ୍ରହଣ କରିପାରେ। ମନୋନୟନ ପ୍ରକ୍ରିୟାରେ ସାହାଯ୍ୟ କରେ; କିଏ ଆଇନଗତ ଉତ୍ତରାଧିକାରୀ ତାହା ନିର୍ଣ୍ଣୟ କରେନାହିଁ। ଯାଞ୍ଚ କରିନଥିଲେ “ନିଶ୍ଚିତ ନୁହେଁ” ବାଛନ୍ତୁ।",
+      "bytes": 67651,
+      "seconds": 16.77,
+      "sha256": "669ac1ad7544cdab32bbaf8ae7f9a60746eac48da4063db2945b81f9b75a8898"
+    },
+    "receiptExample": {
+      "textHash": "d04e63d49cd1ac17ec8f58a95e35164d7528c854129c0ff973b547b577c11e1f",
+      "spoken": "“ତୁମର ଅନୁରୋଧ ଗ୍ରହଣ କରାଯାଇଛି” ଅର୍ଥାତ୍ ଅନୁରୋଧ ବିଚାରାଧୀନ ଅଛି।",
+      "bytes": 23299,
+      "seconds": 5.686,
+      "sha256": "42c62100462faf5ca9a52591e7e9cc3e90a1cfd5a2808eddf3e96a4714204425"
+    },
+    "registeredExample": {
+      "textHash": "deb04c2b435744bf07ee0dbe151376c8b031a2ee65b24fcbb9db586acb7e22b1",
+      "spoken": "“ମନୋନୟନ ପଞ୍ଜୀକୃତ” କିମ୍ବା “ମନୋନୟନ: ହଁ” ପଞ୍ଜୀକରଣ ଦେଖାଏ। ଏଥିରେ ଏହି ଖାତାର ପରିଚୟ ଅଛି କି ଯାଞ୍ଚ କରନ୍ତୁ।",
+      "bytes": 30598,
+      "seconds": 7.492,
+      "sha256": "5fe7b428819af6dd118c8608a3a90dd4aa1ef612b61a14583488c5307456e4ce"
+    },
+    "helpScopeText": {
+      "textHash": "b93a53814f94f77631fe9d678712b0e6181521d600211a1492b73377934191cb",
+      "spoken": "ଏହି ପ୍ରକ୍ରିୟା ଜୀବିତ ଖାତାଧାରକଙ୍କ ମନୋନୟନ ବ୍ୟବସ୍ଥା ପାଇଁ। ଖାତାଧାରକଙ୍କ ମୃତ୍ୟୁ ହୋଇଥିଲେ ସଂସ୍ଥାକୁ ମୃତ ଖାତାଧାରକଙ୍କ ଦାବି କିମ୍ବା ସମ୍ପତ୍ତି ହସ୍ତାନ୍ତର ପ୍ରକ୍ରିୟା ପଚାରନ୍ତୁ। ତାଙ୍କ ତରଫରୁ ନୂଆ ମନୋନୟନ ଆରମ୍ଭ କରନ୍ତୁ ନାହିଁ।",
+      "bytes": 68994,
+      "seconds": 17.106,
+      "sha256": "1441b591782c14d0fe185ec5021de027dd5064f2cfd3d7a01b1c31e6c1a3b022"
+    },
+    "passwordHelp": {
+      "textHash": "4d96264a6f54427a1061b9ea29ff5c62dee9def2f0608ed666bb3dfe9e068a60",
+      "spoken": "ଅତିକମରେ ବାର ଅକ୍ଷର। ଏହାକୁ ସୁରକ୍ଷିତ ରଖନ୍ତୁ; ଆମେ ଏହାକୁ ପୁନରୁଦ୍ଧାର କରିପାରିବୁ ନାହିଁ।",
+      "bytes": 25889,
+      "seconds": 6.317,
+      "sha256": "8b026e020ef7ef0bca4126a64a59d199c0f4af7d6300253cdf47e2af37afa391"
+    },
+    "privacyDetail": {
+      "textHash": "dda23a52da403f57cd69aa00c0a375aefc62f57c0591ccbd89d7471bed760451",
+      "spoken": "ଆପଣଙ୍କ ତାଲିକା ବ୍ରାଉଜରର ମେମୋରୀରେ ରହେ। ପୃଷ୍ଠା ପୁଣି ଲୋଡ୍ କଲେ ଏହା ମିଟିଯାଏ। ପରେ ଫେରିବା ପାଇଁ ଏନକ୍ରିପ୍ଟ କରାଯାଇଥିବା ଫାଇଲ ସଞ୍ଚୟ କରନ୍ତୁ। ଡାଉନଲୋଡ୍ ଆପଣଙ୍କ ଉପକରଣରେ ରହେ।",
+      "bytes": 47298,
+      "seconds": 11.676,
+      "sha256": "671bd52b9f6a0f7db7ef437231f8ca11a344bee00484c9e627b9144387ea23d3"
+    }
+  }
+}

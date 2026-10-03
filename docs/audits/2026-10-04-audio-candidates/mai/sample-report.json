@@ -1,0 +1,90 @@
+{
+  "language": "mai",
+  "revision": "e57945c1c874",
+  "model": {
+    "model": "facebook/mms-tts-mai",
+    "revision": "8607c3059206ed4c1991521e80c2b1df07b7c80e",
+    "license": "CC-BY-NC-4.0",
+    "languageCode": "mai",
+    "files": {
+      "config.json": {
+        "sha256": "b9c234cee6a668db5c83a7358f40e9fa1a2d4ad7d6a5a904f0d6531d3e658bf1",
+        "bytes": 1641
+      },
+      "tokenizer_config.json": {
+        "sha256": "c6528b929a1fc29f1b1cbef46937e64a7d6b638508a55037a6c97ed2b551f225",
+        "bytes": 287
+      },
+      "vocab.json": {
+        "sha256": "415d9e1e801c3f277dfbd1393fbd681244cc70047f9cb2c22fc4ad5cbe544d2d",
+        "bytes": 843
+      },
+      "special_tokens_map.json": {
+        "sha256": "845f635933c404f060a1d7a2f4c4494bf4a91f8ebec99a41108778d026426dfc",
+        "bytes": 47
+      },
+      "model.safetensors": {
+        "sha256": "af00259d232e39186086b4bc8c4b61384560def7db5ba196aae7d96410d05304",
+        "bytes": 145249016
+      },
+      "README.md": {
+        "sha256": "5dfd86dbc7a54ce2454315e3b4ba0453ac01fdd6c4bc32a8fb93fcf756b4ef6d",
+        "bytes": 3981
+      }
+    }
+  },
+  "license": "CC-BY-NC-4.0",
+  "fluentReview": false,
+  "scope": "sample",
+  "entries": {
+    "homeTitle": {
+      "textHash": "9fb325c2319bd4f0a0bf6c9a19a3f4cec9486fe06330c5cfbe1c2949211c7485",
+      "spoken": "अपन परिवार’क खाता खोजब आसान बनाउ.",
+      "bytes": 14654,
+      "seconds": 3.505,
+      "sha256": "32ce5aa55230fc672b4a954523b80df704e0c2e598de72454d63ad6639e4a6b4"
+    },
+    "nomineeExplain": {
+      "textHash": "b093128d3593c4b2321e5f7cdf3d85f4df88918fe58604dad7f34ceac4f942ba",
+      "spoken": "धारकक मृत्यु भेलाक बाद संस्थाक समक्ष दावा प्रस्तुत कऽ सकनिहार व्यक्तिकेँ नामांकित व्यक्ति कहल जाइत अछि। नामांकन प्रक्रियामे सहायता करैत अछि; कानूनक अनुसार वारिस के होयत, से नहि निर्धारित करैत अछि। जँ अहाँ जाँच नहि केने छी तँ “निश्चित नहि” चुनू।",
+      "bytes": 92611,
+      "seconds": 22.999,
+      "sha256": "0eebf265e3223be3057123bb7fd0f6701a70ccb0a354b7aaa8f1daf762e66885"
+    },
+    "receiptExample": {
+      "textHash": "c186baf1fffa793b6f66e8d9bf481807892bc8f075fb17a7438c852ac84f634c",
+      "spoken": "“अहाँक अनुरोध प्राप्त भेल” एकर अर्थ अछि जे अनुरोध अखनो लंबित अछि।",
+      "bytes": 24835,
+      "seconds": 6.049,
+      "sha256": "8420a2e88a6b3da1994fc79810d2570f8b0bdc90a8f4b02dd539e5fc1b3be318"
+    },
+    "registeredExample": {
+      "textHash": "b21e7945d1d3f4af1a0bca8dc6da365c8e8844761389d786fae7ed465d285eca",
+      "spoken": "“नामांकन पंजीकृत” वा “नामांकन: हँ” पंजीकरणक प्रमाण देखबैत अछि। जाँचू जे ओ एहि खाताक पहचान करैत अछि।",
+      "bytes": 40390,
+      "seconds": 9.948,
+      "sha256": "e1e737ee93715b9be1f34381bef1e8eeb937b7a025ae556b802b02b2c0da2f38"
+    },
+    "helpScopeText": {
+      "textHash": "5f7135b396050b1201978edd142a9a9416a8a97125bdfe0b9ee1ae9bef2c8333",
+      "spoken": "ई प्रक्रिया जीवित धारकक नामांकन व्यवस्था करबाक लेल अछि। जँ धारकक मृत्यु भऽ गेल हो तँ संस्थासँ मृत धारकक दावा वा संपत्ति हस्तांतरणक प्रक्रिया पूछू। हुनका दिससँ नव नामांकन शुरू नहि करू।",
+      "bytes": 72834,
+      "seconds": 18.07,
+      "sha256": "e198e465f35647289c1431d6a19493329e6e1b51e80029c3f2ff2097ec39ba91"
+    },
+    "passwordHelp": {
+      "textHash": "16c8e22ada86607330b9d423f2cdca7544a8427f67a0ba972f74ae86813bc139",
+      "spoken": "कमसँ कम बारह अक्षरक पासवर्ड राखू। एकरा सुरक्षित राखू; हम एकरा पुनः प्राप्त नहि कऽ सकैत छी।",
+      "bytes": 35873,
+      "seconds": 8.83,
+      "sha256": "a2f998b9abac2908f50c6dad9106db43b961c1a785d1b8d905f25007be9612dd"
+    },
+    "privacyDetail": {
+      "textHash": "3b60dbf3bba258c134833f9772777bb2e375710ea1521b34e76368d5b43152d3",
+      "spoken": "अहाँक सूची ब्राउजरक मेमोरीमे रहैत अछि। पृष्ठ फेरसँ लोड केलासँ ई मेटा जाइत अछि। बादमे फेर खोलबाक लेल एन्क्रिप्ट कएल फाइल सहेजू। डाउनलोड कएल फाइल अहाँक उपकरण पर रहैत अछि।",
+      "bytes": 63906,
+      "seconds": 15.817,
+      "sha256": "aa404ea36181028f0c20e3e9a2b675a808ecd40fa7cec9dc8e743d8c57ed12aa"
+    }
+  }
+}

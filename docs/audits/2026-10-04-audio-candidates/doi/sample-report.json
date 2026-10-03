@@ -1,0 +1,90 @@
+{
+  "language": "doi",
+  "revision": "b99bd2867043",
+  "model": {
+    "model": "facebook/mms-tts-dgo",
+    "revision": "6c7e3dbf0f2f7981383abf895de3c5b4120aafe3",
+    "license": "CC-BY-NC-4.0",
+    "languageCode": "doi",
+    "files": {
+      "config.json": {
+        "sha256": "6a6693ead8338f60cf5889109843756d9ce6633acc9c48dabe100e1b18cdaf6f",
+        "bytes": 1641
+      },
+      "tokenizer_config.json": {
+        "sha256": "6c532f3677f5d6bcdf98a62e6e8eed909f4cb216c605bde4e6a62d9d5734bd9c",
+        "bytes": 287
+      },
+      "vocab.json": {
+        "sha256": "4406df5c5cc32aee14268438c88b6db3c0ced987203bac9e4cac1c7e13e246b1",
+        "bytes": 815
+      },
+      "special_tokens_map.json": {
+        "sha256": "845f635933c404f060a1d7a2f4c4494bf4a91f8ebec99a41108778d026426dfc",
+        "bytes": 47
+      },
+      "model.safetensors": {
+        "sha256": "77abdde43c770abe54872246c8dd440605e01462dcfb7f341f576eeeb1bd0fdc",
+        "bytes": 145247480
+      },
+      "README.md": {
+        "sha256": "1d184f6bb42338fb9710c3f6f5bf2f029ad389bd080bb4fd130bdf4f3dbdebd7",
+        "bytes": 3972
+      }
+    }
+  },
+  "license": "CC-BY-NC-4.0",
+  "fluentReview": false,
+  "scope": "sample",
+  "entries": {
+    "homeTitle": {
+      "textHash": "94e014eac1cdde2991d89c1458cc1627cc9b3f01edaa5463f11014b8f03b1485",
+      "spoken": "अपने परिवार दे खातें गी ढूँढने च सहूलियत करो।",
+      "bytes": 14558,
+      "seconds": 3.482,
+      "sha256": "31fa3b3e197e65fdfcb3f4de1e60cd858b2aedddd669a2d260e2f5be013cb02e"
+    },
+    "nomineeExplain": {
+      "textHash": "458ad63fde14a63bee8e578304a16721dfc234dc263b1bce907d0b1a1227270d",
+      "spoken": "धारक दी मौत दे बाद संस्था गी दावा जमा कराई सकने आह् ले व्यक्ति गी नामांकित व्यक्ति आखदे न। नामांकन प्रक्रिया च मदद करदा ऐ; एह् तय नेईं करदा जे कानून दे मताबक वारिस कुस गी मननेआ जाग। जेकर तुसें जांच नेईं कीती ऐ तां “पक्का नेईं” चुनो।",
+      "bytes": 74851,
+      "seconds": 18.568,
+      "sha256": "730dd82d02da3c80f7472179e2afe088840f1b92fa724023fd82fe99d1386b43"
+    },
+    "receiptExample": {
+      "textHash": "552750516e7eef47a03c58a05b8d9282e727d5b53e43d467e4e1ec17e9b02864",
+      "spoken": "“तुंदी रिक्वेस्ट प्राप्त होई ऐ” दा मतलब ऐ जे रिक्वेस्ट अजें लंबित ऐ।",
+      "bytes": 22819,
+      "seconds": 5.546,
+      "sha256": "94513ceca047eca94ea0d480e3b1d8fbeb0cfe9fea15200550a9a2dccb5d1d29"
+    },
+    "registeredExample": {
+      "textHash": "50f20485a2ba2ff950a783b1dd0ada151e9ec14ad212a2b4dcbd45413603b7b6",
+      "spoken": "“नामांकन पंजीकृत” जां “नामांकन: हां” पंजीकरण दस्सदा ऐ। जांच करो जे एह् इसी खाते दी पन्छान करदा ऐ।",
+      "bytes": 32806,
+      "seconds": 8.062,
+      "sha256": "9f1a2f6ec72d434022d2ae48a9cdfbfddf70b9476878985f631c371a651c52c9"
+    },
+    "helpScopeText": {
+      "textHash": "9297c87685858463b398e565bd2a738476911d4c6ac994f9be72e7f0493f9146",
+      "spoken": "एह् प्रक्रिया जिंदा धारक आस्तै नामांकन दा इंतजाम करने वास्तै ऐ। जेकर धारक दी मौत होई गेदी ऐ तां संस्था कोला मृत धारक दे दावे जां संपत्ति हस्तांतरण दी प्रक्रिया पुच्छो। उंदी तरफा नमां नामांकन शुरू नेईं करो।",
+      "bytes": 59586,
+      "seconds": 14.75,
+      "sha256": "2b0348676770c476ea14e5852df5ce1b54aec8cead583277ca132ec0723b34d9"
+    },
+    "passwordHelp": {
+      "textHash": "69547f0fced2d01866c33891fa0bd417bd55d9746f10c03ae1b911cb295f086e",
+      "spoken": "घट्टोघट्ट बारां अक्षरें दा पासवर्ड रक्खो। इसगी सुरक्षित रक्खो; अस इसगी वापस नेईं हासल करी सकदे।",
+      "bytes": 26849,
+      "seconds": 6.574,
+      "sha256": "d9ce36c6da83a616a456810f83279f260fc5f5ef79e224c7d0998ae71e64dd41"
+    },
+    "privacyDetail": {
+      "textHash": "a2f7a28bc5df0163def932a013d911754258ab5887ba868315eec04e58fb9b4d",
+      "spoken": "तुंदी सूची ब्राउजर दी मेमोरी च रौंह् दी ऐ। पन्ना दोबारा लोड करने कन्नै एह् मिट्टी जंदी ऐ। बाद च फिर खोलने आस्तै एन्क्रिप्ट कीती फाइल सेव करो। डाउनलोड कीतियां फाइलां तुंदे डिवाइस पर रौंह् दियां न।",
+      "bytes": 52194,
+      "seconds": 12.904,
+      "sha256": "eded13a62ddf2f9370fd645fa3ec514c9ae7927f90be26a3fe5584e3b669109c"
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "results": {
+    "gu": {
+      "clips": 7,
+      "bytes": 240175,
+      "seconds": 59.054,
+      "revision": "cd14541a4c8c",
+      "technicalMediaValid": true,
+      "fluentReview": false
+    },
+    "pa": {
+      "clips": 7,
+      "bytes": 246703,
+      "seconds": 60.618,
+      "revision": "cfad4d1e5c40",
+      "technicalMediaValid": true,
+      "fluentReview": false
+    },
+    "kn": {
+      "clips": 7,
+      "bytes": 398959,
+      "seconds": 98.716,
+      "revision": "b3951082f0fb",
+      "technicalMediaValid": true,
+      "fluentReview": false
+    },
+    "te": {
+      "clips": 7,
+      "bytes": 321967,
+      "seconds": 79.488,
+      "revision": "04e04508b535",
+      "technicalMediaValid": true,
+      "fluentReview": false
+    },
+    "ml": {
+      "clips": 7,
+      "bytes": 299791,
+      "seconds": 73.888,
+      "revision": "e6ff23f922cc",
+      "technicalMediaValid": true,
+      "fluentReview": false
+    },
+    "as": {
+      "clips": 7,
+      "bytes": 241903,
+      "seconds": 59.438,
+      "revision": "01898183f6a0",
+      "technicalMediaValid": true,
+      "fluentReview": false
+    },
+    "or": {
+      "clips": 7,
+      "bytes": 277327,
+      "seconds": 68.303,
+      "revision": "3484a2ff5e78",
+      "technicalMediaValid": true,
+      "fluentReview": false
+    },
+    "doi": {
+      "clips": 7,
+      "bytes": 283663,
+      "seconds": 69.886,
+      "revision": "b99bd2867043",
+      "technicalMediaValid": true,
+      "fluentReview": false
+    },
+    "mai": {
+      "clips": 7,
+      "bytes": 345103,
+      "seconds": 85.222,
+      "revision": "e57945c1c874",
+      "technicalMediaValid": true,
+      "fluentReview": false
+    }
+  },
+  "errors": {},
+  "note": "Technical media validation only; pronunciation, accent and meaning need fluent listening review."
+}
