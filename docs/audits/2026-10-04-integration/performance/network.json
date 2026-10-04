@@ -1,0 +1,1400 @@
+[
+  {
+    "event": "reset",
+    "run": "steady-1",
+    "profile": "steady",
+    "phases": [
+      {
+        "atMs": 0,
+        "downKbps": 160,
+        "latencyMs": 800,
+        "online": true
+      }
+    ]
+  },
+  {
+    "event": "navigation-start",
+    "run": "steady-1"
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/hi",
+    "atMs": 0,
+    "bytes": 2887,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 879
+  },
+  {
+    "event": "phase",
+    "run": "steady-1",
+    "atMs": 0,
+    "n": 0,
+    "downKbps": 160,
+    "latencyMs": 800,
+    "online": true
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/styles.css",
+    "atMs": 903,
+    "bytes": 6406,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 2589
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/nomination-coach.css",
+    "atMs": 904,
+    "bytes": 533,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 1722
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/locale.js",
+    "atMs": 904,
+    "bytes": 1580,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 2061
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/locale-catalog.js",
+    "atMs": 904,
+    "bytes": 410,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 1722
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/tracker.js",
+    "atMs": 905,
+    "bytes": 4207,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 2444
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/institutions.js",
+    "atMs": 905,
+    "bytes": 5075,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 2527
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/speech.js",
+    "atMs": 1723,
+    "bytes": 1615,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 2696
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/guides.js",
+    "atMs": 1723,
+    "bytes": 1270,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 2674
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/privacy.js",
+    "atMs": 2061,
+    "bytes": 1071,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 2906
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/audio-catalog.js",
+    "atMs": 2444,
+    "bytes": 2941,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 3330
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/main.js",
+    "atMs": 2528,
+    "bytes": 19247,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 5123
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/locales/hi-56281ef6f2cc.json",
+    "atMs": 2600,
+    "bytes": 16883,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 5103
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/guidance-copy.js",
+    "atMs": 5130,
+    "bytes": 5435,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 6665
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/nomination-coach.js",
+    "atMs": 5130,
+    "bytes": 5702,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 6645
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/journey-entry.js",
+    "atMs": 5132,
+    "bytes": 2770,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 6451
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/export-font.js",
+    "atMs": 5132,
+    "bytes": 609,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 6209
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/languages.js",
+    "atMs": 5132,
+    "bytes": 805,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 6125
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/locale-retry.js",
+    "atMs": 5132,
+    "bytes": 701,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 6147
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/sw.js",
+    "atMs": 6777,
+    "bytes": 3505,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 7670
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/favicon.svg",
+    "atMs": 6905,
+    "bytes": 208,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 7712
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/index.html",
+    "atMs": 7682,
+    "bytes": 2817,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 8543
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/styles.css",
+    "atMs": 7682,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 8484
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/favicon.svg",
+    "atMs": 7712,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 8514
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/main.js",
+    "atMs": 8486,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 9289
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/favicon.svg",
+    "atMs": 8515,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 9315
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/nomination-coach.js",
+    "atMs": 8544,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 9345
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/guidance-copy.js",
+    "atMs": 9290,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 10091
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/journey-entry.js",
+    "atMs": 9316,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 10117
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/nomination-coach.css",
+    "atMs": 9346,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 10146
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/export-font.js",
+    "atMs": 10092,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 10894
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/locale.js",
+    "atMs": 10118,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 10919
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/locale-retry.js",
+    "atMs": 10147,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 10948
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/languages.js",
+    "atMs": 10895,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 11696
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/locale-catalog.js",
+    "atMs": 10920,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 11720
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/tracker.js",
+    "atMs": 10949,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 11750
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/institutions.js",
+    "atMs": 11697,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 12499
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/guides.js",
+    "atMs": 11721,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 12521
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/privacy.js",
+    "atMs": 11750,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 12552
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/speech.js",
+    "atMs": 12500,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 13302
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/audio-catalog.js",
+    "atMs": 12522,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 13323
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/audio-credits.html",
+    "atMs": 12553,
+    "bytes": 2787,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 13408
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/robots.txt",
+    "atMs": 19909,
+    "bytes": 9,
+    "status": 404,
+    "outcome": "complete",
+    "endMs": 20723
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/sw.js",
+    "atMs": 20734,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 21537
+  },
+  {
+    "event": "reset",
+    "run": "steady-2",
+    "profile": "steady",
+    "phases": [
+      {
+        "atMs": 0,
+        "downKbps": 160,
+        "latencyMs": 800,
+        "online": true
+      }
+    ]
+  },
+  {
+    "event": "navigation-start",
+    "run": "steady-2"
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/hi",
+    "atMs": 0,
+    "bytes": 2887,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 876
+  },
+  {
+    "event": "phase",
+    "run": "steady-2",
+    "atMs": 0,
+    "n": 0,
+    "downKbps": 160,
+    "latencyMs": 800,
+    "online": true
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/styles.css",
+    "atMs": 868,
+    "bytes": 6406,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 2557
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/nomination-coach.css",
+    "atMs": 869,
+    "bytes": 533,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 1685
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/locale.js",
+    "atMs": 869,
+    "bytes": 1580,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 2024
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/locale-catalog.js",
+    "atMs": 869,
+    "bytes": 410,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 1685
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/tracker.js",
+    "atMs": 869,
+    "bytes": 4207,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 2407
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/institutions.js",
+    "atMs": 877,
+    "bytes": 5075,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 2492
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/speech.js",
+    "atMs": 1685,
+    "bytes": 1615,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 2640
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/guides.js",
+    "atMs": 1686,
+    "bytes": 1270,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 2598
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/privacy.js",
+    "atMs": 2024,
+    "bytes": 1071,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 2852
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/audio-catalog.js",
+    "atMs": 2408,
+    "bytes": 2941,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 3295
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/main.js",
+    "atMs": 2492,
+    "bytes": 19247,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 5092
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/locales/hi-56281ef6f2cc.json",
+    "atMs": 2566,
+    "bytes": 16883,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 5050
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/guidance-copy.js",
+    "atMs": 5098,
+    "bytes": 5435,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 6618
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/nomination-coach.js",
+    "atMs": 5099,
+    "bytes": 5702,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 6618
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/journey-entry.js",
+    "atMs": 5099,
+    "bytes": 2770,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 6407
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/export-font.js",
+    "atMs": 5099,
+    "bytes": 609,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 6084
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/languages.js",
+    "atMs": 5099,
+    "bytes": 805,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 6171
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/locale-retry.js",
+    "atMs": 5100,
+    "bytes": 701,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 6106
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/sw.js",
+    "atMs": 6711,
+    "bytes": 3505,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 7616
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/favicon.svg",
+    "atMs": 6786,
+    "bytes": 208,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 7616
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/favicon.svg",
+    "atMs": 7617,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 8420
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/index.html",
+    "atMs": 7626,
+    "bytes": 2817,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 8489
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/styles.css",
+    "atMs": 7627,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 8428
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/favicon.svg",
+    "atMs": 8420,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 9224
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/main.js",
+    "atMs": 8430,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 9232
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/nomination-coach.js",
+    "atMs": 8490,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 9291
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/guidance-copy.js",
+    "atMs": 9225,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 10025
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/journey-entry.js",
+    "atMs": 9233,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 10035
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/nomination-coach.css",
+    "atMs": 9291,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 10093
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/export-font.js",
+    "atMs": 10026,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 10827
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/locale.js",
+    "atMs": 10036,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 10836
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/locale-retry.js",
+    "atMs": 10093,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 10896
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/languages.js",
+    "atMs": 10828,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 11631
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/locale-catalog.js",
+    "atMs": 10837,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 11637
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/tracker.js",
+    "atMs": 10897,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 11699
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/institutions.js",
+    "atMs": 11632,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 12433
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/guides.js",
+    "atMs": 11638,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 12441
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/privacy.js",
+    "atMs": 11700,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 12502
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/speech.js",
+    "atMs": 12434,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 13236
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/audio-catalog.js",
+    "atMs": 12441,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 13243
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/audio-credits.html",
+    "atMs": 12502,
+    "bytes": 2787,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 13365
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/robots.txt",
+    "atMs": 19705,
+    "bytes": 9,
+    "status": 404,
+    "outcome": "complete",
+    "endMs": 20521
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/sw.js",
+    "atMs": 20530,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 21336
+  },
+  {
+    "event": "reset",
+    "run": "steady-3",
+    "profile": "steady",
+    "phases": [
+      {
+        "atMs": 0,
+        "downKbps": 160,
+        "latencyMs": 800,
+        "online": true
+      }
+    ]
+  },
+  {
+    "event": "navigation-start",
+    "run": "steady-3"
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/hi",
+    "atMs": 0,
+    "bytes": 2887,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 877
+  },
+  {
+    "event": "phase",
+    "run": "steady-3",
+    "atMs": 0,
+    "n": 0,
+    "downKbps": 160,
+    "latencyMs": 800,
+    "online": true
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/styles.css",
+    "atMs": 869,
+    "bytes": 6406,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 2499
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/nomination-coach.css",
+    "atMs": 869,
+    "bytes": 533,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 1676
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/locale.js",
+    "atMs": 870,
+    "bytes": 1580,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 1993
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/locale-catalog.js",
+    "atMs": 870,
+    "bytes": 410,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 1676
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/tracker.js",
+    "atMs": 870,
+    "bytes": 4207,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 2330
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/institutions.js",
+    "atMs": 877,
+    "bytes": 5075,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 2478
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/speech.js",
+    "atMs": 1677,
+    "bytes": 1615,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 2647
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/guides.js",
+    "atMs": 1677,
+    "bytes": 1270,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 2647
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/privacy.js",
+    "atMs": 1994,
+    "bytes": 1071,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 2835
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/audio-catalog.js",
+    "atMs": 2331,
+    "bytes": 2941,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 3218
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/main.js",
+    "atMs": 2479,
+    "bytes": 19247,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 5029
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/locales/hi-56281ef6f2cc.json",
+    "atMs": 2505,
+    "bytes": 16883,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 5006
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/guidance-copy.js",
+    "atMs": 5038,
+    "bytes": 5435,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 6560
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/nomination-coach.js",
+    "atMs": 5038,
+    "bytes": 5702,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 6560
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/journey-entry.js",
+    "atMs": 5038,
+    "bytes": 2770,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 6328
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/export-font.js",
+    "atMs": 5038,
+    "bytes": 609,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 5986
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/languages.js",
+    "atMs": 5038,
+    "bytes": 805,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 6007
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/locale-retry.js",
+    "atMs": 5039,
+    "bytes": 701,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 6092
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/sw.js",
+    "atMs": 6664,
+    "bytes": 3505,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 7568
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/favicon.svg",
+    "atMs": 6795,
+    "bytes": 208,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 7611
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/index.html",
+    "atMs": 7575,
+    "bytes": 2817,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 8443
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/styles.css",
+    "atMs": 7576,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 8378
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/favicon.svg",
+    "atMs": 7611,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 8414
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/main.js",
+    "atMs": 8380,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 9184
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/favicon.svg",
+    "atMs": 8414,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 9215
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/nomination-coach.js",
+    "atMs": 8444,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 9247
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/guidance-copy.js",
+    "atMs": 9185,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 9988
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/journey-entry.js",
+    "atMs": 9216,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 10019
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/nomination-coach.css",
+    "atMs": 9247,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 10050
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/export-font.js",
+    "atMs": 9989,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 10791
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/locale.js",
+    "atMs": 10020,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 10821
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/locale-retry.js",
+    "atMs": 10050,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 10851
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/languages.js",
+    "atMs": 10792,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 11595
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/locale-catalog.js",
+    "atMs": 10822,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 11624
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/tracker.js",
+    "atMs": 10853,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 11655
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/institutions.js",
+    "atMs": 11596,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 12397
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/guides.js",
+    "atMs": 11625,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 12426
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/privacy.js",
+    "atMs": 11656,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 12456
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/speech.js",
+    "atMs": 12398,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 13199
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/audio-catalog.js",
+    "atMs": 12427,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 13229
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/audio-credits.html",
+    "atMs": 12457,
+    "bytes": 2787,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 13305
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/robots.txt",
+    "atMs": 19826,
+    "bytes": 9,
+    "status": 404,
+    "outcome": "complete",
+    "endMs": 20655
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/sw.js",
+    "atMs": 20675,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 21480
+  }
+]

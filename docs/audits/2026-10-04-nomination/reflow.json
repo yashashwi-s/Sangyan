@@ -1,0 +1,44 @@
+[
+  {
+    "coachLanguage": "en",
+    "coachTitleDirection": "ltr",
+    "language": "hi",
+    "scrollWidth": 320,
+    "width": 320
+  },
+  {
+    "coachLanguage": "en",
+    "coachTitleDirection": "ltr",
+    "language": "bn",
+    "scrollWidth": 320,
+    "width": 320
+  },
+  {
+    "coachLanguage": "en",
+    "coachTitleDirection": "ltr",
+    "language": "mr",
+    "scrollWidth": 320,
+    "width": 320
+  },
+  {
+    "coachLanguage": "en",
+    "coachTitleDirection": "ltr",
+    "language": "ta",
+    "scrollWidth": 320,
+    "width": 320
+  },
+  {
+    "coachLanguage": "en",
+    "coachTitleDirection": "ltr",
+    "language": "ur",
+    "scrollWidth": 320,
+    "width": 320
+  },
+  {
+    "coachLanguage": "en",
+    "coachTitleDirection": "ltr",
+    "language": "en",
+    "scrollWidth": 320,
+    "width": 320
+  }
+]

@@ -31,3 +31,9 @@
 @font-face{font-family:VirasatOlChiki;src:url('/fonts/noto-sans-ol-chiki.woff2') format('woff2');font-style:normal;font-weight:400;font-display:swap;unicode-range:U+1C50-1C7F,U+20B9}
 html[lang="mni"] body{font-family:VirasatMeetei,system-ui,sans-serif}
 html[lang="sat"] body{font-family:VirasatOlChiki,system-ui,sans-serif}
+
+.focused-detail{max-width:48rem;margin-inline:auto;display:grid;gap:1rem}
+.secondary-record>summary{cursor:pointer;font-weight:650;padding:.4rem}
+.secondary-record>.detail-body{padding-block-start:1rem}
+.session-notice>p{margin-block:0 .35rem}
+.session-notice details{font-size:.9em}

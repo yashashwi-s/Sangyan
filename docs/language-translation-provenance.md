@@ -37,3 +37,9 @@ On 4 October 2026 the user revised the release scope to 21 text languages: Engli
 ## Additional six draft packs
 
 Gujarati (`gu`) and Punjabi (`pa`) were authored as assistant-generated drafts. Nepali (`ne`), Assamese (`as`), Odia (`or`) and Sanskrit (`sa`) used the verified-public-source translation baseline followed by targeted editorial correction. All six contain the exact 364 source keys and five separate coverage labels. The editorial pass corrected nominee/candidacy confusion, deceased-holder transfer versus broadcasting/infection, receipt versus registered nomination, inheritance boundaries, same-holder demat linkage, passwords/shared-device privacy and private-note exclusion. Numeric batch prefixes were removed, including 287 Sanskrit prefixes. These checks were completed by the assistant, not independent fluent reviewers; draft labels remain required.
+
+## Integrated guided learning (4 October 2026)
+
+The nomination coach and account-free entry now add 161 fixed public text keys to all 21 effective dictionaries. English is the source; the other 20 packs used the same public Google translation endpoint described above, including the existing exact Meitei script code. Only public instruction text was sent, never account values or private notes. Stable source IDs and an exhaustive 17,106-rendering branch inventory check missing coverage. Removed 171 provider-added numeric batch prefixes from Konkani and Sanskrit. Structural checks do not establish fluent review; draft labels remain.
+
+This new guided learning is text-only. The 16 existing recorded-language packs remain complete for their previous 357-clip public-instruction scope; they do not narrate all newly added learning. The new screens state this scope explicitly. No replacement English recording is presented as native-language audio.

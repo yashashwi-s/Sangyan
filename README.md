@@ -6,7 +6,7 @@ The authoritative brief is the supplied [SANGYAN problem statement](references/p
 
 ## Working journey
 
-1. Choose one of 21 text languages: English plus 20 scheduled languages, excluding Bodo and Kashmiri. Search native or English names. Fifteen languages have optional bundled draft audio; six explain that written guidance is available without recordings.
+1. Choose one of 21 text languages: English plus 20 scheduled languages, excluding Bodo and Kashmiri. Search native or English names. Sixteen languages have optional bundled draft audio; five explain that written guidance is available without recordings.
 2. Answer four short stages: account type, institution, holding/product context and nominee status. Home exits the current step and offers the unfinished account when you return. The last question explains what a nominee means and offers known/unknown/missing/change/opt-out choices. Optional family/account nicknames, nominee notes and last four digits have a dedicated family record. Full account numbers, PAN, institutional passwords and identity documents are not requested. A locally chosen password protects saved copies.
 3. Open a missing or uncertain account and follow its institution-specific next task. A visible checklist explains what to check, what to ask and what confirms registration. Official sources stay alongside the task; HDFC Bank deposit accounts have a narrowly verified NetBanking hint.
 4. Record that a request was submitted. This leaves registration unconfirmed.
@@ -54,3 +54,5 @@ No financial saving, legal compliance certification, institutional acceptance or
 | [Sources](references/sources.md) | Prior annotated source catalogue |
 
 Original research documents retain their dated context and evidence labels. Their earlier scope recommendations are superseded by the current focused product choice above.
+
+The integrated nomination journey includes contextual practice, minor-nominee requirements, institution/branch steps, receipt-versus-registration and correction handling, plus account-free assisted entry and deceased-holder claim orientation. Practice never changes account status. Personal entries stay in page memory unless the owner deliberately saves authenticated encrypted recovery; family exports require explicit sharing choices. Existing browser saves are preserved until the owner chooses removal. New guidance is translated into the same 21 language packs; its audio scope is disclosed separately.

@@ -20,3 +20,9 @@ for(const [code,dictionary] of Object.entries(dictionaries)){
  if(required.some(key=>typeof coverage[key]!=='string'||!coverage[key].trim()))throw Error(`Incomplete coverage labels: ${code}`);
  dictionaries[code]={...dictionary,...coverage};
 }
+
+// Guided learning is fixed public copy, merged into every effective language pack.
+for(const [code,dictionary] of Object.entries(dictionaries)){
+ const guidance=JSON.parse(await readFile(new URL(`../translations/guidance-${code}.json`,import.meta.url),'utf8'));
+ dictionaries[code]={...dictionary,...guidance};
+}

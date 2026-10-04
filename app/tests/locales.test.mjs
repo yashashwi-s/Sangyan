@@ -9,7 +9,7 @@ import {dictionaries} from '../scripts/dictionaries.mjs';
 test('each small language pack matches all current public copy and its immutable address',async()=>{
  for(const [language,path] of Object.entries(localeCatalog)){
   const data=await readFile(new URL('../dist'+path,import.meta.url));assert.deepEqual(JSON.parse(data),dictionaries[language]);
-  assert.ok(path.includes(createHash('sha256').update(data).digest('hex').slice(0,12)));assert.ok(gzipSync(data).length<16000);
+  assert.ok(path.includes(createHash('sha256').update(data).digest('hex').slice(0,12)));assert.ok(gzipSync(data).length<24000);
  }
 });
 test('choosing a language fetches only that language once and reuses concurrent loads',async()=>{
