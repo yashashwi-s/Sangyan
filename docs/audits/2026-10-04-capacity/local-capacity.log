@@ -1,0 +1,9 @@
+{"repetition":1,"journeyConcurrency":1,"requests":15233,"finishedJourneys":761,"p95Ms":1.9497500000006767,"errors":0,"stopReason":"admission window"}
+{"repetition":1,"journeyConcurrency":3,"requests":18637,"finishedJourneys":930,"p95Ms":4.561499999999796,"errors":0,"stopReason":"admission window"}
+{"repetition":1,"journeyConcurrency":6,"requests":19084,"finishedJourneys":951,"p95Ms":6.653041999999914,"errors":0,"stopReason":"admission window"}
+{"repetition":2,"journeyConcurrency":3,"requests":18038,"finishedJourneys":900,"p95Ms":4.176625000000058,"errors":0,"stopReason":"admission window"}
+{"repetition":2,"journeyConcurrency":6,"requests":18673,"finishedJourneys":929,"p95Ms":8.684457999999722,"errors":0,"stopReason":"admission window"}
+{"repetition":2,"journeyConcurrency":1,"requests":15156,"finishedJourneys":757,"p95Ms":1.9800410000025295,"errors":0,"stopReason":"admission window"}
+{"repetition":3,"journeyConcurrency":6,"requests":18772,"finishedJourneys":935,"p95Ms":6.714625000000524,"errors":0,"stopReason":"admission window"}
+{"repetition":3,"journeyConcurrency":1,"requests":15293,"finishedJourneys":764,"p95Ms":1.98583299999882,"errors":0,"stopReason":"admission window"}
+{"repetition":3,"journeyConcurrency":3,"requests":18278,"finishedJourneys":912,"p95Ms":4.882792000003974,"errors":0,"stopReason":"admission window"}

@@ -1,0 +1,9906 @@
+[
+  {
+    "run": "steady-1",
+    "at": "2026-10-04T02:47:47.480Z",
+    "processCount": 5,
+    "rssKiBSum": 483728,
+    "processes": [
+      {
+        "pid": 86101,
+        "ppid": 86099,
+        "rssKiB": 147616,
+        "type": "browser"
+      },
+      {
+        "pid": 86120,
+        "ppid": 86101,
+        "rssKiB": 86800,
+        "type": "gpu"
+      },
+      {
+        "pid": 86121,
+        "ppid": 86101,
+        "rssKiB": 81632,
+        "type": "other"
+      },
+      {
+        "pid": 86122,
+        "ppid": 86101,
+        "rssKiB": 77856,
+        "type": "other"
+      },
+      {
+        "pid": 86123,
+        "ppid": 86101,
+        "rssKiB": 89824,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "steady-1",
+    "at": "2026-10-04T02:47:47.973Z",
+    "processCount": 8,
+    "rssKiBSum": 771008,
+    "processes": [
+      {
+        "pid": 86101,
+        "ppid": 86099,
+        "rssKiB": 174656,
+        "type": "browser"
+      },
+      {
+        "pid": 86120,
+        "ppid": 86101,
+        "rssKiB": 69680,
+        "type": "gpu"
+      },
+      {
+        "pid": 86121,
+        "ppid": 86101,
+        "rssKiB": 64144,
+        "type": "other"
+      },
+      {
+        "pid": 86122,
+        "ppid": 86101,
+        "rssKiB": 62960,
+        "type": "other"
+      },
+      {
+        "pid": 86123,
+        "ppid": 86101,
+        "rssKiB": 77808,
+        "type": "other"
+      },
+      {
+        "pid": 86144,
+        "ppid": 86101,
+        "rssKiB": 109600,
+        "type": "renderer"
+      },
+      {
+        "pid": 86148,
+        "ppid": 86101,
+        "rssKiB": 99344,
+        "type": "renderer"
+      },
+      {
+        "pid": 86149,
+        "ppid": 86101,
+        "rssKiB": 112816,
+        "type": "renderer"
+      }
+    ]
+  },
+  {
+    "run": "steady-1",
+    "at": "2026-10-04T02:47:48.490Z",
+    "processCount": 8,
+    "rssKiBSum": 843520,
+    "processes": [
+      {
+        "pid": 86101,
+        "ppid": 86099,
+        "rssKiB": 201472,
+        "type": "browser"
+      },
+      {
+        "pid": 86120,
+        "ppid": 86101,
+        "rssKiB": 82784,
+        "type": "gpu"
+      },
+      {
+        "pid": 86121,
+        "ppid": 86101,
+        "rssKiB": 83904,
+        "type": "other"
+      },
+      {
+        "pid": 86122,
+        "ppid": 86101,
+        "rssKiB": 63392,
+        "type": "other"
+      },
+      {
+        "pid": 86144,
+        "ppid": 86101,
+        "rssKiB": 162960,
+        "type": "renderer"
+      },
+      {
+        "pid": 86148,
+        "ppid": 86101,
+        "rssKiB": 114816,
+        "type": "renderer"
+      },
+      {
+        "pid": 86149,
+        "ppid": 86101,
+        "rssKiB": 118048,
+        "type": "renderer"
+      },
+      {
+        "pid": 86168,
+        "ppid": 86101,
+        "rssKiB": 16144,
+        "type": "renderer"
+      }
+    ]
+  },
+  {
+    "run": "steady-1",
+    "at": "2026-10-04T02:47:48.976Z",
+    "processCount": 8,
+    "rssKiBSum": 1018496,
+    "processes": [
+      {
+        "pid": 86101,
+        "ppid": 86099,
+        "rssKiB": 203920,
+        "type": "browser"
+      },
+      {
+        "pid": 86120,
+        "ppid": 86101,
+        "rssKiB": 84720,
+        "type": "gpu"
+      },
+      {
+        "pid": 86121,
+        "ppid": 86101,
+        "rssKiB": 89344,
+        "type": "other"
+      },
+      {
+        "pid": 86122,
+        "ppid": 86101,
+        "rssKiB": 63280,
+        "type": "other"
+      },
+      {
+        "pid": 86144,
+        "ppid": 86101,
+        "rssKiB": 192048,
+        "type": "renderer"
+      },
+      {
+        "pid": 86148,
+        "ppid": 86101,
+        "rssKiB": 183088,
+        "type": "renderer"
+      },
+      {
+        "pid": 86149,
+        "ppid": 86101,
+        "rssKiB": 101424,
+        "type": "renderer"
+      },
+      {
+        "pid": 86168,
+        "ppid": 86101,
+        "rssKiB": 100672,
+        "type": "renderer"
+      }
+    ]
+  },
+  {
+    "run": "steady-1",
+    "at": "2026-10-04T02:47:49.475Z",
+    "processCount": 8,
+    "rssKiBSum": 1016928,
+    "processes": [
+      {
+        "pid": 86101,
+        "ppid": 86099,
+        "rssKiB": 201520,
+        "type": "browser"
+      },
+      {
+        "pid": 86120,
+        "ppid": 86101,
+        "rssKiB": 84464,
+        "type": "gpu"
+      },
+      {
+        "pid": 86121,
+        "ppid": 86101,
+        "rssKiB": 88816,
+        "type": "other"
+      },
+      {
+        "pid": 86122,
+        "ppid": 86101,
+        "rssKiB": 63168,
+        "type": "other"
+      },
+      {
+        "pid": 86144,
+        "ppid": 86101,
+        "rssKiB": 190656,
+        "type": "renderer"
+      },
+      {
+        "pid": 86148,
+        "ppid": 86101,
+        "rssKiB": 186352,
+        "type": "renderer"
+      },
+      {
+        "pid": 86149,
+        "ppid": 86101,
+        "rssKiB": 101280,
+        "type": "renderer"
+      },
+      {
+        "pid": 86168,
+        "ppid": 86101,
+        "rssKiB": 100672,
+        "type": "renderer"
+      }
+    ]
+  },
+  {
+    "run": "steady-1",
+    "at": "2026-10-04T02:47:49.977Z",
+    "processCount": 9,
+    "rssKiBSum": 1105456,
+    "processes": [
+      {
+        "pid": 86101,
+        "ppid": 86099,
+        "rssKiB": 205856,
+        "type": "browser"
+      },
+      {
+        "pid": 86120,
+        "ppid": 86101,
+        "rssKiB": 88016,
+        "type": "gpu"
+      },
+      {
+        "pid": 86121,
+        "ppid": 86101,
+        "rssKiB": 90320,
+        "type": "other"
+      },
+      {
+        "pid": 86122,
+        "ppid": 86101,
+        "rssKiB": 63696,
+        "type": "other"
+      },
+      {
+        "pid": 86144,
+        "ppid": 86101,
+        "rssKiB": 187488,
+        "type": "renderer"
+      },
+      {
+        "pid": 86148,
+        "ppid": 86101,
+        "rssKiB": 192624,
+        "type": "renderer"
+      },
+      {
+        "pid": 86149,
+        "ppid": 86101,
+        "rssKiB": 102112,
+        "type": "renderer"
+      },
+      {
+        "pid": 86168,
+        "ppid": 86101,
+        "rssKiB": 97296,
+        "type": "renderer"
+      },
+      {
+        "pid": 86221,
+        "ppid": 86101,
+        "rssKiB": 78048,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "steady-1",
+    "at": "2026-10-04T02:47:50.477Z",
+    "processCount": 9,
+    "rssKiBSum": 1098992,
+    "processes": [
+      {
+        "pid": 86101,
+        "ppid": 86099,
+        "rssKiB": 205920,
+        "type": "browser"
+      },
+      {
+        "pid": 86120,
+        "ppid": 86101,
+        "rssKiB": 88112,
+        "type": "gpu"
+      },
+      {
+        "pid": 86121,
+        "ppid": 86101,
+        "rssKiB": 90320,
+        "type": "other"
+      },
+      {
+        "pid": 86122,
+        "ppid": 86101,
+        "rssKiB": 63696,
+        "type": "other"
+      },
+      {
+        "pid": 86144,
+        "ppid": 86101,
+        "rssKiB": 187440,
+        "type": "renderer"
+      },
+      {
+        "pid": 86148,
+        "ppid": 86101,
+        "rssKiB": 193088,
+        "type": "renderer"
+      },
+      {
+        "pid": 86149,
+        "ppid": 86101,
+        "rssKiB": 102144,
+        "type": "renderer"
+      },
+      {
+        "pid": 86168,
+        "ppid": 86101,
+        "rssKiB": 90144,
+        "type": "renderer"
+      },
+      {
+        "pid": 86221,
+        "ppid": 86101,
+        "rssKiB": 78128,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "steady-1",
+    "at": "2026-10-04T02:47:50.977Z",
+    "processCount": 9,
+    "rssKiBSum": 1089232,
+    "processes": [
+      {
+        "pid": 86101,
+        "ppid": 86099,
+        "rssKiB": 214720,
+        "type": "browser"
+      },
+      {
+        "pid": 86120,
+        "ppid": 86101,
+        "rssKiB": 86624,
+        "type": "gpu"
+      },
+      {
+        "pid": 86121,
+        "ppid": 86101,
+        "rssKiB": 93168,
+        "type": "other"
+      },
+      {
+        "pid": 86122,
+        "ppid": 86101,
+        "rssKiB": 64368,
+        "type": "other"
+      },
+      {
+        "pid": 86144,
+        "ppid": 86101,
+        "rssKiB": 167648,
+        "type": "renderer"
+      },
+      {
+        "pid": 86148,
+        "ppid": 86101,
+        "rssKiB": 198080,
+        "type": "renderer"
+      },
+      {
+        "pid": 86149,
+        "ppid": 86101,
+        "rssKiB": 102192,
+        "type": "renderer"
+      },
+      {
+        "pid": 86168,
+        "ppid": 86101,
+        "rssKiB": 83584,
+        "type": "renderer"
+      },
+      {
+        "pid": 86221,
+        "ppid": 86101,
+        "rssKiB": 78848,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "steady-1",
+    "at": "2026-10-04T02:47:51.493Z",
+    "processCount": 9,
+    "rssKiBSum": 1089664,
+    "processes": [
+      {
+        "pid": 86101,
+        "ppid": 86099,
+        "rssKiB": 214976,
+        "type": "browser"
+      },
+      {
+        "pid": 86120,
+        "ppid": 86101,
+        "rssKiB": 86640,
+        "type": "gpu"
+      },
+      {
+        "pid": 86121,
+        "ppid": 86101,
+        "rssKiB": 93168,
+        "type": "other"
+      },
+      {
+        "pid": 86122,
+        "ppid": 86101,
+        "rssKiB": 64368,
+        "type": "other"
+      },
+      {
+        "pid": 86144,
+        "ppid": 86101,
+        "rssKiB": 167648,
+        "type": "renderer"
+      },
+      {
+        "pid": 86148,
+        "ppid": 86101,
+        "rssKiB": 198096,
+        "type": "renderer"
+      },
+      {
+        "pid": 86149,
+        "ppid": 86101,
+        "rssKiB": 102192,
+        "type": "renderer"
+      },
+      {
+        "pid": 86168,
+        "ppid": 86101,
+        "rssKiB": 83584,
+        "type": "renderer"
+      },
+      {
+        "pid": 86221,
+        "ppid": 86101,
+        "rssKiB": 78992,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "steady-1",
+    "at": "2026-10-04T02:47:51.981Z",
+    "processCount": 9,
+    "rssKiBSum": 1091792,
+    "processes": [
+      {
+        "pid": 86101,
+        "ppid": 86099,
+        "rssKiB": 215104,
+        "type": "browser"
+      },
+      {
+        "pid": 86120,
+        "ppid": 86101,
+        "rssKiB": 86624,
+        "type": "gpu"
+      },
+      {
+        "pid": 86121,
+        "ppid": 86101,
+        "rssKiB": 93472,
+        "type": "other"
+      },
+      {
+        "pid": 86122,
+        "ppid": 86101,
+        "rssKiB": 64368,
+        "type": "other"
+      },
+      {
+        "pid": 86144,
+        "ppid": 86101,
+        "rssKiB": 167152,
+        "type": "renderer"
+      },
+      {
+        "pid": 86148,
+        "ppid": 86101,
+        "rssKiB": 200080,
+        "type": "renderer"
+      },
+      {
+        "pid": 86149,
+        "ppid": 86101,
+        "rssKiB": 102192,
+        "type": "renderer"
+      },
+      {
+        "pid": 86168,
+        "ppid": 86101,
+        "rssKiB": 83552,
+        "type": "renderer"
+      },
+      {
+        "pid": 86221,
+        "ppid": 86101,
+        "rssKiB": 79248,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "steady-1",
+    "at": "2026-10-04T02:47:52.488Z",
+    "processCount": 9,
+    "rssKiBSum": 1101120,
+    "processes": [
+      {
+        "pid": 86101,
+        "ppid": 86099,
+        "rssKiB": 215184,
+        "type": "browser"
+      },
+      {
+        "pid": 86120,
+        "ppid": 86101,
+        "rssKiB": 86688,
+        "type": "gpu"
+      },
+      {
+        "pid": 86121,
+        "ppid": 86101,
+        "rssKiB": 93744,
+        "type": "other"
+      },
+      {
+        "pid": 86122,
+        "ppid": 86101,
+        "rssKiB": 64416,
+        "type": "other"
+      },
+      {
+        "pid": 86144,
+        "ppid": 86101,
+        "rssKiB": 167168,
+        "type": "renderer"
+      },
+      {
+        "pid": 86148,
+        "ppid": 86101,
+        "rssKiB": 208864,
+        "type": "renderer"
+      },
+      {
+        "pid": 86149,
+        "ppid": 86101,
+        "rssKiB": 102240,
+        "type": "renderer"
+      },
+      {
+        "pid": 86168,
+        "ppid": 86101,
+        "rssKiB": 83552,
+        "type": "renderer"
+      },
+      {
+        "pid": 86221,
+        "ppid": 86101,
+        "rssKiB": 79264,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "steady-1",
+    "at": "2026-10-04T02:47:52.984Z",
+    "processCount": 9,
+    "rssKiBSum": 1119888,
+    "processes": [
+      {
+        "pid": 86101,
+        "ppid": 86099,
+        "rssKiB": 218832,
+        "type": "browser"
+      },
+      {
+        "pid": 86120,
+        "ppid": 86101,
+        "rssKiB": 90096,
+        "type": "gpu"
+      },
+      {
+        "pid": 86121,
+        "ppid": 86101,
+        "rssKiB": 93744,
+        "type": "other"
+      },
+      {
+        "pid": 86122,
+        "ppid": 86101,
+        "rssKiB": 64416,
+        "type": "other"
+      },
+      {
+        "pid": 86144,
+        "ppid": 86101,
+        "rssKiB": 167200,
+        "type": "renderer"
+      },
+      {
+        "pid": 86148,
+        "ppid": 86101,
+        "rssKiB": 220160,
+        "type": "renderer"
+      },
+      {
+        "pid": 86149,
+        "ppid": 86101,
+        "rssKiB": 102240,
+        "type": "renderer"
+      },
+      {
+        "pid": 86168,
+        "ppid": 86101,
+        "rssKiB": 83552,
+        "type": "renderer"
+      },
+      {
+        "pid": 86221,
+        "ppid": 86101,
+        "rssKiB": 79648,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "steady-1",
+    "at": "2026-10-04T02:47:53.481Z",
+    "processCount": 9,
+    "rssKiBSum": 1077424,
+    "processes": [
+      {
+        "pid": 86101,
+        "ppid": 86099,
+        "rssKiB": 218496,
+        "type": "browser"
+      },
+      {
+        "pid": 86120,
+        "ppid": 86101,
+        "rssKiB": 90000,
+        "type": "gpu"
+      },
+      {
+        "pid": 86121,
+        "ppid": 86101,
+        "rssKiB": 93696,
+        "type": "other"
+      },
+      {
+        "pid": 86122,
+        "ppid": 86101,
+        "rssKiB": 64304,
+        "type": "other"
+      },
+      {
+        "pid": 86144,
+        "ppid": 86101,
+        "rssKiB": 152960,
+        "type": "renderer"
+      },
+      {
+        "pid": 86148,
+        "ppid": 86101,
+        "rssKiB": 208032,
+        "type": "renderer"
+      },
+      {
+        "pid": 86149,
+        "ppid": 86101,
+        "rssKiB": 102208,
+        "type": "renderer"
+      },
+      {
+        "pid": 86168,
+        "ppid": 86101,
+        "rssKiB": 83504,
+        "type": "renderer"
+      },
+      {
+        "pid": 86221,
+        "ppid": 86101,
+        "rssKiB": 64224,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "steady-1",
+    "at": "2026-10-04T02:47:53.983Z",
+    "processCount": 9,
+    "rssKiBSum": 1076128,
+    "processes": [
+      {
+        "pid": 86101,
+        "ppid": 86099,
+        "rssKiB": 218000,
+        "type": "browser"
+      },
+      {
+        "pid": 86120,
+        "ppid": 86101,
+        "rssKiB": 89872,
+        "type": "gpu"
+      },
+      {
+        "pid": 86121,
+        "ppid": 86101,
+        "rssKiB": 93728,
+        "type": "other"
+      },
+      {
+        "pid": 86122,
+        "ppid": 86101,
+        "rssKiB": 64128,
+        "type": "other"
+      },
+      {
+        "pid": 86144,
+        "ppid": 86101,
+        "rssKiB": 152912,
+        "type": "renderer"
+      },
+      {
+        "pid": 86148,
+        "ppid": 86101,
+        "rssKiB": 208224,
+        "type": "renderer"
+      },
+      {
+        "pid": 86149,
+        "ppid": 86101,
+        "rssKiB": 102208,
+        "type": "renderer"
+      },
+      {
+        "pid": 86168,
+        "ppid": 86101,
+        "rssKiB": 83584,
+        "type": "renderer"
+      },
+      {
+        "pid": 86221,
+        "ppid": 86101,
+        "rssKiB": 63472,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "steady-1",
+    "at": "2026-10-04T02:47:54.480Z",
+    "processCount": 9,
+    "rssKiBSum": 1076352,
+    "processes": [
+      {
+        "pid": 86101,
+        "ppid": 86099,
+        "rssKiB": 217808,
+        "type": "browser"
+      },
+      {
+        "pid": 86120,
+        "ppid": 86101,
+        "rssKiB": 89888,
+        "type": "gpu"
+      },
+      {
+        "pid": 86121,
+        "ppid": 86101,
+        "rssKiB": 93616,
+        "type": "other"
+      },
+      {
+        "pid": 86122,
+        "ppid": 86101,
+        "rssKiB": 64112,
+        "type": "other"
+      },
+      {
+        "pid": 86144,
+        "ppid": 86101,
+        "rssKiB": 152624,
+        "type": "renderer"
+      },
+      {
+        "pid": 86148,
+        "ppid": 86101,
+        "rssKiB": 209040,
+        "type": "renderer"
+      },
+      {
+        "pid": 86149,
+        "ppid": 86101,
+        "rssKiB": 102208,
+        "type": "renderer"
+      },
+      {
+        "pid": 86168,
+        "ppid": 86101,
+        "rssKiB": 83584,
+        "type": "renderer"
+      },
+      {
+        "pid": 86221,
+        "ppid": 86101,
+        "rssKiB": 63472,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "steady-1",
+    "at": "2026-10-04T02:47:54.982Z",
+    "processCount": 9,
+    "rssKiBSum": 1074912,
+    "processes": [
+      {
+        "pid": 86101,
+        "ppid": 86099,
+        "rssKiB": 216560,
+        "type": "browser"
+      },
+      {
+        "pid": 86120,
+        "ppid": 86101,
+        "rssKiB": 89824,
+        "type": "gpu"
+      },
+      {
+        "pid": 86121,
+        "ppid": 86101,
+        "rssKiB": 93584,
+        "type": "other"
+      },
+      {
+        "pid": 86122,
+        "ppid": 86101,
+        "rssKiB": 64000,
+        "type": "other"
+      },
+      {
+        "pid": 86144,
+        "ppid": 86101,
+        "rssKiB": 152528,
+        "type": "renderer"
+      },
+      {
+        "pid": 86148,
+        "ppid": 86101,
+        "rssKiB": 208896,
+        "type": "renderer"
+      },
+      {
+        "pid": 86149,
+        "ppid": 86101,
+        "rssKiB": 102208,
+        "type": "renderer"
+      },
+      {
+        "pid": 86168,
+        "ppid": 86101,
+        "rssKiB": 83584,
+        "type": "renderer"
+      },
+      {
+        "pid": 86221,
+        "ppid": 86101,
+        "rssKiB": 63728,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "steady-1",
+    "at": "2026-10-04T02:47:55.490Z",
+    "processCount": 9,
+    "rssKiBSum": 1092464,
+    "processes": [
+      {
+        "pid": 86101,
+        "ppid": 86099,
+        "rssKiB": 221584,
+        "type": "browser"
+      },
+      {
+        "pid": 86120,
+        "ppid": 86101,
+        "rssKiB": 91520,
+        "type": "gpu"
+      },
+      {
+        "pid": 86121,
+        "ppid": 86101,
+        "rssKiB": 93056,
+        "type": "other"
+      },
+      {
+        "pid": 86122,
+        "ppid": 86101,
+        "rssKiB": 64240,
+        "type": "other"
+      },
+      {
+        "pid": 86144,
+        "ppid": 86101,
+        "rssKiB": 152512,
+        "type": "renderer"
+      },
+      {
+        "pid": 86148,
+        "ppid": 86101,
+        "rssKiB": 220096,
+        "type": "renderer"
+      },
+      {
+        "pid": 86149,
+        "ppid": 86101,
+        "rssKiB": 102192,
+        "type": "renderer"
+      },
+      {
+        "pid": 86168,
+        "ppid": 86101,
+        "rssKiB": 83568,
+        "type": "renderer"
+      },
+      {
+        "pid": 86221,
+        "ppid": 86101,
+        "rssKiB": 63696,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "steady-1",
+    "at": "2026-10-04T02:47:55.982Z",
+    "processCount": 9,
+    "rssKiBSum": 1094080,
+    "processes": [
+      {
+        "pid": 86101,
+        "ppid": 86099,
+        "rssKiB": 221472,
+        "type": "browser"
+      },
+      {
+        "pid": 86120,
+        "ppid": 86101,
+        "rssKiB": 92912,
+        "type": "gpu"
+      },
+      {
+        "pid": 86121,
+        "ppid": 86101,
+        "rssKiB": 93056,
+        "type": "other"
+      },
+      {
+        "pid": 86122,
+        "ppid": 86101,
+        "rssKiB": 64240,
+        "type": "other"
+      },
+      {
+        "pid": 86144,
+        "ppid": 86101,
+        "rssKiB": 152608,
+        "type": "renderer"
+      },
+      {
+        "pid": 86148,
+        "ppid": 86101,
+        "rssKiB": 220096,
+        "type": "renderer"
+      },
+      {
+        "pid": 86149,
+        "ppid": 86101,
+        "rssKiB": 102192,
+        "type": "renderer"
+      },
+      {
+        "pid": 86168,
+        "ppid": 86101,
+        "rssKiB": 83568,
+        "type": "renderer"
+      },
+      {
+        "pid": 86221,
+        "ppid": 86101,
+        "rssKiB": 63936,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "steady-1",
+    "at": "2026-10-04T02:47:56.484Z",
+    "processCount": 9,
+    "rssKiBSum": 1103184,
+    "processes": [
+      {
+        "pid": 86101,
+        "ppid": 86099,
+        "rssKiB": 222960,
+        "type": "browser"
+      },
+      {
+        "pid": 86120,
+        "ppid": 86101,
+        "rssKiB": 92944,
+        "type": "gpu"
+      },
+      {
+        "pid": 86121,
+        "ppid": 86101,
+        "rssKiB": 93152,
+        "type": "other"
+      },
+      {
+        "pid": 86122,
+        "ppid": 86101,
+        "rssKiB": 64288,
+        "type": "other"
+      },
+      {
+        "pid": 86144,
+        "ppid": 86101,
+        "rssKiB": 152608,
+        "type": "renderer"
+      },
+      {
+        "pid": 86148,
+        "ppid": 86101,
+        "rssKiB": 226864,
+        "type": "renderer"
+      },
+      {
+        "pid": 86149,
+        "ppid": 86101,
+        "rssKiB": 102208,
+        "type": "renderer"
+      },
+      {
+        "pid": 86168,
+        "ppid": 86101,
+        "rssKiB": 83584,
+        "type": "renderer"
+      },
+      {
+        "pid": 86221,
+        "ppid": 86101,
+        "rssKiB": 64576,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "steady-1",
+    "at": "2026-10-04T02:47:56.986Z",
+    "processCount": 9,
+    "rssKiBSum": 1103840,
+    "processes": [
+      {
+        "pid": 86101,
+        "ppid": 86099,
+        "rssKiB": 223024,
+        "type": "browser"
+      },
+      {
+        "pid": 86120,
+        "ppid": 86101,
+        "rssKiB": 92944,
+        "type": "gpu"
+      },
+      {
+        "pid": 86121,
+        "ppid": 86101,
+        "rssKiB": 93152,
+        "type": "other"
+      },
+      {
+        "pid": 86122,
+        "ppid": 86101,
+        "rssKiB": 64288,
+        "type": "other"
+      },
+      {
+        "pid": 86144,
+        "ppid": 86101,
+        "rssKiB": 152608,
+        "type": "renderer"
+      },
+      {
+        "pid": 86148,
+        "ppid": 86101,
+        "rssKiB": 226864,
+        "type": "renderer"
+      },
+      {
+        "pid": 86149,
+        "ppid": 86101,
+        "rssKiB": 102224,
+        "type": "renderer"
+      },
+      {
+        "pid": 86168,
+        "ppid": 86101,
+        "rssKiB": 83584,
+        "type": "renderer"
+      },
+      {
+        "pid": 86221,
+        "ppid": 86101,
+        "rssKiB": 65152,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "steady-1",
+    "at": "2026-10-04T02:47:57.487Z",
+    "processCount": 9,
+    "rssKiBSum": 1103840,
+    "processes": [
+      {
+        "pid": 86101,
+        "ppid": 86099,
+        "rssKiB": 223840,
+        "type": "browser"
+      },
+      {
+        "pid": 86120,
+        "ppid": 86101,
+        "rssKiB": 91664,
+        "type": "gpu"
+      },
+      {
+        "pid": 86121,
+        "ppid": 86101,
+        "rssKiB": 93200,
+        "type": "other"
+      },
+      {
+        "pid": 86122,
+        "ppid": 86101,
+        "rssKiB": 64320,
+        "type": "other"
+      },
+      {
+        "pid": 86144,
+        "ppid": 86101,
+        "rssKiB": 152608,
+        "type": "renderer"
+      },
+      {
+        "pid": 86148,
+        "ppid": 86101,
+        "rssKiB": 227152,
+        "type": "renderer"
+      },
+      {
+        "pid": 86149,
+        "ppid": 86101,
+        "rssKiB": 102240,
+        "type": "renderer"
+      },
+      {
+        "pid": 86168,
+        "ppid": 86101,
+        "rssKiB": 83584,
+        "type": "renderer"
+      },
+      {
+        "pid": 86221,
+        "ppid": 86101,
+        "rssKiB": 65232,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "steady-1",
+    "at": "2026-10-04T02:47:57.988Z",
+    "processCount": 9,
+    "rssKiBSum": 1103984,
+    "processes": [
+      {
+        "pid": 86101,
+        "ppid": 86099,
+        "rssKiB": 223856,
+        "type": "browser"
+      },
+      {
+        "pid": 86120,
+        "ppid": 86101,
+        "rssKiB": 91664,
+        "type": "gpu"
+      },
+      {
+        "pid": 86121,
+        "ppid": 86101,
+        "rssKiB": 93216,
+        "type": "other"
+      },
+      {
+        "pid": 86122,
+        "ppid": 86101,
+        "rssKiB": 64320,
+        "type": "other"
+      },
+      {
+        "pid": 86144,
+        "ppid": 86101,
+        "rssKiB": 152640,
+        "type": "renderer"
+      },
+      {
+        "pid": 86148,
+        "ppid": 86101,
+        "rssKiB": 227200,
+        "type": "renderer"
+      },
+      {
+        "pid": 86149,
+        "ppid": 86101,
+        "rssKiB": 102272,
+        "type": "renderer"
+      },
+      {
+        "pid": 86168,
+        "ppid": 86101,
+        "rssKiB": 83584,
+        "type": "renderer"
+      },
+      {
+        "pid": 86221,
+        "ppid": 86101,
+        "rssKiB": 65232,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "steady-1",
+    "at": "2026-10-04T02:47:58.491Z",
+    "processCount": 9,
+    "rssKiBSum": 1104864,
+    "processes": [
+      {
+        "pid": 86101,
+        "ppid": 86099,
+        "rssKiB": 223872,
+        "type": "browser"
+      },
+      {
+        "pid": 86120,
+        "ppid": 86101,
+        "rssKiB": 91856,
+        "type": "gpu"
+      },
+      {
+        "pid": 86121,
+        "ppid": 86101,
+        "rssKiB": 93216,
+        "type": "other"
+      },
+      {
+        "pid": 86122,
+        "ppid": 86101,
+        "rssKiB": 64320,
+        "type": "other"
+      },
+      {
+        "pid": 86144,
+        "ppid": 86101,
+        "rssKiB": 153136,
+        "type": "renderer"
+      },
+      {
+        "pid": 86148,
+        "ppid": 86101,
+        "rssKiB": 227376,
+        "type": "renderer"
+      },
+      {
+        "pid": 86149,
+        "ppid": 86101,
+        "rssKiB": 102272,
+        "type": "renderer"
+      },
+      {
+        "pid": 86168,
+        "ppid": 86101,
+        "rssKiB": 83584,
+        "type": "renderer"
+      },
+      {
+        "pid": 86221,
+        "ppid": 86101,
+        "rssKiB": 65232,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "steady-1",
+    "at": "2026-10-04T02:47:58.998Z",
+    "processCount": 9,
+    "rssKiBSum": 1105520,
+    "processes": [
+      {
+        "pid": 86101,
+        "ppid": 86099,
+        "rssKiB": 223424,
+        "type": "browser"
+      },
+      {
+        "pid": 86120,
+        "ppid": 86101,
+        "rssKiB": 91856,
+        "type": "gpu"
+      },
+      {
+        "pid": 86121,
+        "ppid": 86101,
+        "rssKiB": 93184,
+        "type": "other"
+      },
+      {
+        "pid": 86122,
+        "ppid": 86101,
+        "rssKiB": 64320,
+        "type": "other"
+      },
+      {
+        "pid": 86144,
+        "ppid": 86101,
+        "rssKiB": 153168,
+        "type": "renderer"
+      },
+      {
+        "pid": 86148,
+        "ppid": 86101,
+        "rssKiB": 227168,
+        "type": "renderer"
+      },
+      {
+        "pid": 86149,
+        "ppid": 86101,
+        "rssKiB": 103008,
+        "type": "renderer"
+      },
+      {
+        "pid": 86168,
+        "ppid": 86101,
+        "rssKiB": 84208,
+        "type": "renderer"
+      },
+      {
+        "pid": 86221,
+        "ppid": 86101,
+        "rssKiB": 65184,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "steady-1",
+    "at": "2026-10-04T02:47:59.492Z",
+    "processCount": 9,
+    "rssKiBSum": 1105136,
+    "processes": [
+      {
+        "pid": 86101,
+        "ppid": 86099,
+        "rssKiB": 223104,
+        "type": "browser"
+      },
+      {
+        "pid": 86120,
+        "ppid": 86101,
+        "rssKiB": 91856,
+        "type": "gpu"
+      },
+      {
+        "pid": 86121,
+        "ppid": 86101,
+        "rssKiB": 93184,
+        "type": "other"
+      },
+      {
+        "pid": 86122,
+        "ppid": 86101,
+        "rssKiB": 64320,
+        "type": "other"
+      },
+      {
+        "pid": 86144,
+        "ppid": 86101,
+        "rssKiB": 153168,
+        "type": "renderer"
+      },
+      {
+        "pid": 86148,
+        "ppid": 86101,
+        "rssKiB": 227104,
+        "type": "renderer"
+      },
+      {
+        "pid": 86149,
+        "ppid": 86101,
+        "rssKiB": 103008,
+        "type": "renderer"
+      },
+      {
+        "pid": 86168,
+        "ppid": 86101,
+        "rssKiB": 84208,
+        "type": "renderer"
+      },
+      {
+        "pid": 86221,
+        "ppid": 86101,
+        "rssKiB": 65184,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "steady-1",
+    "at": "2026-10-04T02:47:59.993Z",
+    "processCount": 9,
+    "rssKiBSum": 1100432,
+    "processes": [
+      {
+        "pid": 86101,
+        "ppid": 86099,
+        "rssKiB": 222704,
+        "type": "browser"
+      },
+      {
+        "pid": 86120,
+        "ppid": 86101,
+        "rssKiB": 91808,
+        "type": "gpu"
+      },
+      {
+        "pid": 86121,
+        "ppid": 86101,
+        "rssKiB": 93184,
+        "type": "other"
+      },
+      {
+        "pid": 86122,
+        "ppid": 86101,
+        "rssKiB": 64272,
+        "type": "other"
+      },
+      {
+        "pid": 86144,
+        "ppid": 86101,
+        "rssKiB": 153168,
+        "type": "renderer"
+      },
+      {
+        "pid": 86148,
+        "ppid": 86101,
+        "rssKiB": 222880,
+        "type": "renderer"
+      },
+      {
+        "pid": 86149,
+        "ppid": 86101,
+        "rssKiB": 103008,
+        "type": "renderer"
+      },
+      {
+        "pid": 86168,
+        "ppid": 86101,
+        "rssKiB": 84208,
+        "type": "renderer"
+      },
+      {
+        "pid": 86221,
+        "ppid": 86101,
+        "rssKiB": 65200,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "steady-1",
+    "at": "2026-10-04T02:48:00.498Z",
+    "processCount": 9,
+    "rssKiBSum": 1084544,
+    "processes": [
+      {
+        "pid": 86101,
+        "ppid": 86099,
+        "rssKiB": 216336,
+        "type": "browser"
+      },
+      {
+        "pid": 86120,
+        "ppid": 86101,
+        "rssKiB": 88960,
+        "type": "gpu"
+      },
+      {
+        "pid": 86121,
+        "ppid": 86101,
+        "rssKiB": 90480,
+        "type": "other"
+      },
+      {
+        "pid": 86122,
+        "ppid": 86101,
+        "rssKiB": 62816,
+        "type": "other"
+      },
+      {
+        "pid": 86144,
+        "ppid": 86101,
+        "rssKiB": 153120,
+        "type": "renderer"
+      },
+      {
+        "pid": 86148,
+        "ppid": 86101,
+        "rssKiB": 220976,
+        "type": "renderer"
+      },
+      {
+        "pid": 86149,
+        "ppid": 86101,
+        "rssKiB": 102848,
+        "type": "renderer"
+      },
+      {
+        "pid": 86168,
+        "ppid": 86101,
+        "rssKiB": 84144,
+        "type": "renderer"
+      },
+      {
+        "pid": 86221,
+        "ppid": 86101,
+        "rssKiB": 64864,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "steady-1",
+    "at": "2026-10-04T02:48:00.995Z",
+    "processCount": 9,
+    "rssKiBSum": 1061504,
+    "processes": [
+      {
+        "pid": 86101,
+        "ppid": 86099,
+        "rssKiB": 202336,
+        "type": "browser"
+      },
+      {
+        "pid": 86120,
+        "ppid": 86101,
+        "rssKiB": 88240,
+        "type": "gpu"
+      },
+      {
+        "pid": 86121,
+        "ppid": 86101,
+        "rssKiB": 89968,
+        "type": "other"
+      },
+      {
+        "pid": 86122,
+        "ppid": 86101,
+        "rssKiB": 62416,
+        "type": "other"
+      },
+      {
+        "pid": 86144,
+        "ppid": 86101,
+        "rssKiB": 152624,
+        "type": "renderer"
+      },
+      {
+        "pid": 86148,
+        "ppid": 86101,
+        "rssKiB": 215648,
+        "type": "renderer"
+      },
+      {
+        "pid": 86149,
+        "ppid": 86101,
+        "rssKiB": 102432,
+        "type": "renderer"
+      },
+      {
+        "pid": 86168,
+        "ppid": 86101,
+        "rssKiB": 83904,
+        "type": "renderer"
+      },
+      {
+        "pid": 86221,
+        "ppid": 86101,
+        "rssKiB": 63936,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "steady-1",
+    "at": "2026-10-04T02:48:01.500Z",
+    "processCount": 9,
+    "rssKiBSum": 1061632,
+    "processes": [
+      {
+        "pid": 86101,
+        "ppid": 86099,
+        "rssKiB": 202608,
+        "type": "browser"
+      },
+      {
+        "pid": 86120,
+        "ppid": 86101,
+        "rssKiB": 86912,
+        "type": "gpu"
+      },
+      {
+        "pid": 86121,
+        "ppid": 86101,
+        "rssKiB": 89856,
+        "type": "other"
+      },
+      {
+        "pid": 86122,
+        "ppid": 86101,
+        "rssKiB": 62384,
+        "type": "other"
+      },
+      {
+        "pid": 86144,
+        "ppid": 86101,
+        "rssKiB": 152112,
+        "type": "renderer"
+      },
+      {
+        "pid": 86148,
+        "ppid": 86101,
+        "rssKiB": 217584,
+        "type": "renderer"
+      },
+      {
+        "pid": 86149,
+        "ppid": 86101,
+        "rssKiB": 102368,
+        "type": "renderer"
+      },
+      {
+        "pid": 86168,
+        "ppid": 86101,
+        "rssKiB": 83856,
+        "type": "renderer"
+      },
+      {
+        "pid": 86221,
+        "ppid": 86101,
+        "rssKiB": 63952,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "steady-1",
+    "at": "2026-10-04T02:48:01.997Z",
+    "processCount": 9,
+    "rssKiBSum": 1059616,
+    "processes": [
+      {
+        "pid": 86101,
+        "ppid": 86099,
+        "rssKiB": 202224,
+        "type": "browser"
+      },
+      {
+        "pid": 86120,
+        "ppid": 86101,
+        "rssKiB": 86704,
+        "type": "gpu"
+      },
+      {
+        "pid": 86121,
+        "ppid": 86101,
+        "rssKiB": 89808,
+        "type": "other"
+      },
+      {
+        "pid": 86122,
+        "ppid": 86101,
+        "rssKiB": 62336,
+        "type": "other"
+      },
+      {
+        "pid": 86144,
+        "ppid": 86101,
+        "rssKiB": 152048,
+        "type": "renderer"
+      },
+      {
+        "pid": 86148,
+        "ppid": 86101,
+        "rssKiB": 217552,
+        "type": "renderer"
+      },
+      {
+        "pid": 86149,
+        "ppid": 86101,
+        "rssKiB": 101728,
+        "type": "renderer"
+      },
+      {
+        "pid": 86168,
+        "ppid": 86101,
+        "rssKiB": 83280,
+        "type": "renderer"
+      },
+      {
+        "pid": 86221,
+        "ppid": 86101,
+        "rssKiB": 63936,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "steady-1",
+    "at": "2026-10-04T02:48:02.497Z",
+    "processCount": 9,
+    "rssKiBSum": 1059056,
+    "processes": [
+      {
+        "pid": 86101,
+        "ppid": 86099,
+        "rssKiB": 201728,
+        "type": "browser"
+      },
+      {
+        "pid": 86120,
+        "ppid": 86101,
+        "rssKiB": 86640,
+        "type": "gpu"
+      },
+      {
+        "pid": 86121,
+        "ppid": 86101,
+        "rssKiB": 89712,
+        "type": "other"
+      },
+      {
+        "pid": 86122,
+        "ppid": 86101,
+        "rssKiB": 62272,
+        "type": "other"
+      },
+      {
+        "pid": 86144,
+        "ppid": 86101,
+        "rssKiB": 151968,
+        "type": "renderer"
+      },
+      {
+        "pid": 86148,
+        "ppid": 86101,
+        "rssKiB": 217952,
+        "type": "renderer"
+      },
+      {
+        "pid": 86149,
+        "ppid": 86101,
+        "rssKiB": 101648,
+        "type": "renderer"
+      },
+      {
+        "pid": 86168,
+        "ppid": 86101,
+        "rssKiB": 83216,
+        "type": "renderer"
+      },
+      {
+        "pid": 86221,
+        "ppid": 86101,
+        "rssKiB": 63920,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "steady-1",
+    "at": "2026-10-04T02:48:03.001Z",
+    "processCount": 9,
+    "rssKiBSum": 1059056,
+    "processes": [
+      {
+        "pid": 86101,
+        "ppid": 86099,
+        "rssKiB": 201728,
+        "type": "browser"
+      },
+      {
+        "pid": 86120,
+        "ppid": 86101,
+        "rssKiB": 86640,
+        "type": "gpu"
+      },
+      {
+        "pid": 86121,
+        "ppid": 86101,
+        "rssKiB": 89712,
+        "type": "other"
+      },
+      {
+        "pid": 86122,
+        "ppid": 86101,
+        "rssKiB": 62272,
+        "type": "other"
+      },
+      {
+        "pid": 86144,
+        "ppid": 86101,
+        "rssKiB": 151968,
+        "type": "renderer"
+      },
+      {
+        "pid": 86148,
+        "ppid": 86101,
+        "rssKiB": 217952,
+        "type": "renderer"
+      },
+      {
+        "pid": 86149,
+        "ppid": 86101,
+        "rssKiB": 101648,
+        "type": "renderer"
+      },
+      {
+        "pid": 86168,
+        "ppid": 86101,
+        "rssKiB": 83216,
+        "type": "renderer"
+      },
+      {
+        "pid": 86221,
+        "ppid": 86101,
+        "rssKiB": 63920,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "steady-1",
+    "at": "2026-10-04T02:48:03.502Z",
+    "processCount": 9,
+    "rssKiBSum": 1058656,
+    "processes": [
+      {
+        "pid": 86101,
+        "ppid": 86099,
+        "rssKiB": 201760,
+        "type": "browser"
+      },
+      {
+        "pid": 86120,
+        "ppid": 86101,
+        "rssKiB": 86608,
+        "type": "gpu"
+      },
+      {
+        "pid": 86121,
+        "ppid": 86101,
+        "rssKiB": 89648,
+        "type": "other"
+      },
+      {
+        "pid": 86122,
+        "ppid": 86101,
+        "rssKiB": 62240,
+        "type": "other"
+      },
+      {
+        "pid": 86144,
+        "ppid": 86101,
+        "rssKiB": 151968,
+        "type": "renderer"
+      },
+      {
+        "pid": 86148,
+        "ppid": 86101,
+        "rssKiB": 217712,
+        "type": "renderer"
+      },
+      {
+        "pid": 86149,
+        "ppid": 86101,
+        "rssKiB": 101648,
+        "type": "renderer"
+      },
+      {
+        "pid": 86168,
+        "ppid": 86101,
+        "rssKiB": 83200,
+        "type": "renderer"
+      },
+      {
+        "pid": 86221,
+        "ppid": 86101,
+        "rssKiB": 63872,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "steady-1",
+    "at": "2026-10-04T02:48:04.005Z",
+    "processCount": 9,
+    "rssKiBSum": 1058608,
+    "processes": [
+      {
+        "pid": 86101,
+        "ppid": 86099,
+        "rssKiB": 201712,
+        "type": "browser"
+      },
+      {
+        "pid": 86120,
+        "ppid": 86101,
+        "rssKiB": 86608,
+        "type": "gpu"
+      },
+      {
+        "pid": 86121,
+        "ppid": 86101,
+        "rssKiB": 89648,
+        "type": "other"
+      },
+      {
+        "pid": 86122,
+        "ppid": 86101,
+        "rssKiB": 62240,
+        "type": "other"
+      },
+      {
+        "pid": 86144,
+        "ppid": 86101,
+        "rssKiB": 151968,
+        "type": "renderer"
+      },
+      {
+        "pid": 86148,
+        "ppid": 86101,
+        "rssKiB": 217712,
+        "type": "renderer"
+      },
+      {
+        "pid": 86149,
+        "ppid": 86101,
+        "rssKiB": 101648,
+        "type": "renderer"
+      },
+      {
+        "pid": 86168,
+        "ppid": 86101,
+        "rssKiB": 83200,
+        "type": "renderer"
+      },
+      {
+        "pid": 86221,
+        "ppid": 86101,
+        "rssKiB": 63872,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "steady-1",
+    "at": "2026-10-04T02:48:04.503Z",
+    "processCount": 9,
+    "rssKiBSum": 1058608,
+    "processes": [
+      {
+        "pid": 86101,
+        "ppid": 86099,
+        "rssKiB": 201712,
+        "type": "browser"
+      },
+      {
+        "pid": 86120,
+        "ppid": 86101,
+        "rssKiB": 86608,
+        "type": "gpu"
+      },
+      {
+        "pid": 86121,
+        "ppid": 86101,
+        "rssKiB": 89648,
+        "type": "other"
+      },
+      {
+        "pid": 86122,
+        "ppid": 86101,
+        "rssKiB": 62240,
+        "type": "other"
+      },
+      {
+        "pid": 86144,
+        "ppid": 86101,
+        "rssKiB": 151968,
+        "type": "renderer"
+      },
+      {
+        "pid": 86148,
+        "ppid": 86101,
+        "rssKiB": 217712,
+        "type": "renderer"
+      },
+      {
+        "pid": 86149,
+        "ppid": 86101,
+        "rssKiB": 101648,
+        "type": "renderer"
+      },
+      {
+        "pid": 86168,
+        "ppid": 86101,
+        "rssKiB": 83200,
+        "type": "renderer"
+      },
+      {
+        "pid": 86221,
+        "ppid": 86101,
+        "rssKiB": 63872,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "steady-1",
+    "at": "2026-10-04T02:48:05.005Z",
+    "processCount": 9,
+    "rssKiBSum": 1058608,
+    "processes": [
+      {
+        "pid": 86101,
+        "ppid": 86099,
+        "rssKiB": 201712,
+        "type": "browser"
+      },
+      {
+        "pid": 86120,
+        "ppid": 86101,
+        "rssKiB": 86608,
+        "type": "gpu"
+      },
+      {
+        "pid": 86121,
+        "ppid": 86101,
+        "rssKiB": 89648,
+        "type": "other"
+      },
+      {
+        "pid": 86122,
+        "ppid": 86101,
+        "rssKiB": 62240,
+        "type": "other"
+      },
+      {
+        "pid": 86144,
+        "ppid": 86101,
+        "rssKiB": 151968,
+        "type": "renderer"
+      },
+      {
+        "pid": 86148,
+        "ppid": 86101,
+        "rssKiB": 217712,
+        "type": "renderer"
+      },
+      {
+        "pid": 86149,
+        "ppid": 86101,
+        "rssKiB": 101648,
+        "type": "renderer"
+      },
+      {
+        "pid": 86168,
+        "ppid": 86101,
+        "rssKiB": 83200,
+        "type": "renderer"
+      },
+      {
+        "pid": 86221,
+        "ppid": 86101,
+        "rssKiB": 63872,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "steady-1",
+    "at": "2026-10-04T02:48:05.505Z",
+    "processCount": 9,
+    "rssKiBSum": 1058656,
+    "processes": [
+      {
+        "pid": 86101,
+        "ppid": 86099,
+        "rssKiB": 201760,
+        "type": "browser"
+      },
+      {
+        "pid": 86120,
+        "ppid": 86101,
+        "rssKiB": 86608,
+        "type": "gpu"
+      },
+      {
+        "pid": 86121,
+        "ppid": 86101,
+        "rssKiB": 89648,
+        "type": "other"
+      },
+      {
+        "pid": 86122,
+        "ppid": 86101,
+        "rssKiB": 62240,
+        "type": "other"
+      },
+      {
+        "pid": 86144,
+        "ppid": 86101,
+        "rssKiB": 151968,
+        "type": "renderer"
+      },
+      {
+        "pid": 86148,
+        "ppid": 86101,
+        "rssKiB": 217712,
+        "type": "renderer"
+      },
+      {
+        "pid": 86149,
+        "ppid": 86101,
+        "rssKiB": 101648,
+        "type": "renderer"
+      },
+      {
+        "pid": 86168,
+        "ppid": 86101,
+        "rssKiB": 83200,
+        "type": "renderer"
+      },
+      {
+        "pid": 86221,
+        "ppid": 86101,
+        "rssKiB": 63872,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "steady-1",
+    "at": "2026-10-04T02:48:06.008Z",
+    "processCount": 9,
+    "rssKiBSum": 1058800,
+    "processes": [
+      {
+        "pid": 86101,
+        "ppid": 86099,
+        "rssKiB": 201920,
+        "type": "browser"
+      },
+      {
+        "pid": 86120,
+        "ppid": 86101,
+        "rssKiB": 86608,
+        "type": "gpu"
+      },
+      {
+        "pid": 86121,
+        "ppid": 86101,
+        "rssKiB": 89648,
+        "type": "other"
+      },
+      {
+        "pid": 86122,
+        "ppid": 86101,
+        "rssKiB": 62240,
+        "type": "other"
+      },
+      {
+        "pid": 86144,
+        "ppid": 86101,
+        "rssKiB": 151952,
+        "type": "renderer"
+      },
+      {
+        "pid": 86148,
+        "ppid": 86101,
+        "rssKiB": 217712,
+        "type": "renderer"
+      },
+      {
+        "pid": 86149,
+        "ppid": 86101,
+        "rssKiB": 101648,
+        "type": "renderer"
+      },
+      {
+        "pid": 86168,
+        "ppid": 86101,
+        "rssKiB": 83200,
+        "type": "renderer"
+      },
+      {
+        "pid": 86221,
+        "ppid": 86101,
+        "rssKiB": 63872,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "steady-1",
+    "at": "2026-10-04T02:48:06.514Z",
+    "processCount": 11,
+    "rssKiBSum": 1071872,
+    "processes": [
+      {
+        "pid": 86101,
+        "ppid": 86099,
+        "rssKiB": 198400,
+        "type": "browser"
+      },
+      {
+        "pid": 86120,
+        "ppid": 86101,
+        "rssKiB": 86576,
+        "type": "gpu"
+      },
+      {
+        "pid": 86121,
+        "ppid": 86101,
+        "rssKiB": 90048,
+        "type": "other"
+      },
+      {
+        "pid": 86122,
+        "ppid": 86101,
+        "rssKiB": 62240,
+        "type": "other"
+      },
+      {
+        "pid": 86144,
+        "ppid": 86101,
+        "rssKiB": 143536,
+        "type": "renderer"
+      },
+      {
+        "pid": 86148,
+        "ppid": 86101,
+        "rssKiB": 217392,
+        "type": "renderer"
+      },
+      {
+        "pid": 86149,
+        "ppid": 86101,
+        "rssKiB": 101632,
+        "type": "renderer"
+      },
+      {
+        "pid": 86168,
+        "ppid": 86101,
+        "rssKiB": 83200,
+        "type": "renderer"
+      },
+      {
+        "pid": 86221,
+        "ppid": 86101,
+        "rssKiB": 63744,
+        "type": "other"
+      },
+      {
+        "pid": 86814,
+        "ppid": 86101,
+        "rssKiB": 12432,
+        "type": "other"
+      },
+      {
+        "pid": 86817,
+        "ppid": 86814,
+        "rssKiB": 12672,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "steady-1",
+    "at": "2026-10-04T02:48:07.017Z",
+    "processCount": 11,
+    "rssKiBSum": 1001040,
+    "processes": [
+      {
+        "pid": 86101,
+        "ppid": 86099,
+        "rssKiB": 189232,
+        "type": "browser"
+      },
+      {
+        "pid": 86120,
+        "ppid": 86101,
+        "rssKiB": 82592,
+        "type": "gpu"
+      },
+      {
+        "pid": 86121,
+        "ppid": 86101,
+        "rssKiB": 88048,
+        "type": "other"
+      },
+      {
+        "pid": 86122,
+        "ppid": 86101,
+        "rssKiB": 61536,
+        "type": "other"
+      },
+      {
+        "pid": 86144,
+        "ppid": 86101,
+        "rssKiB": 115296,
+        "type": "renderer"
+      },
+      {
+        "pid": 86148,
+        "ppid": 86101,
+        "rssKiB": 208656,
+        "type": "renderer"
+      },
+      {
+        "pid": 86149,
+        "ppid": 86101,
+        "rssKiB": 92272,
+        "type": "renderer"
+      },
+      {
+        "pid": 86168,
+        "ppid": 86101,
+        "rssKiB": 75008,
+        "type": "renderer"
+      },
+      {
+        "pid": 86221,
+        "ppid": 86101,
+        "rssKiB": 63296,
+        "type": "other"
+      },
+      {
+        "pid": 86814,
+        "ppid": 86101,
+        "rssKiB": 12432,
+        "type": "other"
+      },
+      {
+        "pid": 86817,
+        "ppid": 86814,
+        "rssKiB": 12672,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "steady-1",
+    "at": "2026-10-04T02:48:07.513Z",
+    "processCount": 11,
+    "rssKiBSum": 994176,
+    "processes": [
+      {
+        "pid": 86101,
+        "ppid": 86099,
+        "rssKiB": 188080,
+        "type": "browser"
+      },
+      {
+        "pid": 86120,
+        "ppid": 86101,
+        "rssKiB": 82240,
+        "type": "gpu"
+      },
+      {
+        "pid": 86121,
+        "ppid": 86101,
+        "rssKiB": 87824,
+        "type": "other"
+      },
+      {
+        "pid": 86122,
+        "ppid": 86101,
+        "rssKiB": 61360,
+        "type": "other"
+      },
+      {
+        "pid": 86144,
+        "ppid": 86101,
+        "rssKiB": 115008,
+        "type": "renderer"
+      },
+      {
+        "pid": 86148,
+        "ppid": 86101,
+        "rssKiB": 204608,
+        "type": "renderer"
+      },
+      {
+        "pid": 86149,
+        "ppid": 86101,
+        "rssKiB": 92032,
+        "type": "renderer"
+      },
+      {
+        "pid": 86168,
+        "ppid": 86101,
+        "rssKiB": 74768,
+        "type": "renderer"
+      },
+      {
+        "pid": 86221,
+        "ppid": 86101,
+        "rssKiB": 63152,
+        "type": "other"
+      },
+      {
+        "pid": 86814,
+        "ppid": 86101,
+        "rssKiB": 12432,
+        "type": "other"
+      },
+      {
+        "pid": 86817,
+        "ppid": 86814,
+        "rssKiB": 12672,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "steady-1",
+    "at": "2026-10-04T02:48:08.018Z",
+    "processCount": 11,
+    "rssKiBSum": 1057440,
+    "processes": [
+      {
+        "pid": 86101,
+        "ppid": 86099,
+        "rssKiB": 189024,
+        "type": "browser"
+      },
+      {
+        "pid": 86120,
+        "ppid": 86101,
+        "rssKiB": 81216,
+        "type": "gpu"
+      },
+      {
+        "pid": 86121,
+        "ppid": 86101,
+        "rssKiB": 87008,
+        "type": "other"
+      },
+      {
+        "pid": 86122,
+        "ppid": 86101,
+        "rssKiB": 60576,
+        "type": "other"
+      },
+      {
+        "pid": 86144,
+        "ppid": 86101,
+        "rssKiB": 114272,
+        "type": "renderer"
+      },
+      {
+        "pid": 86148,
+        "ppid": 86101,
+        "rssKiB": 203760,
+        "type": "renderer"
+      },
+      {
+        "pid": 86149,
+        "ppid": 86101,
+        "rssKiB": 92208,
+        "type": "renderer"
+      },
+      {
+        "pid": 86168,
+        "ppid": 86101,
+        "rssKiB": 73776,
+        "type": "renderer"
+      },
+      {
+        "pid": 86221,
+        "ppid": 86101,
+        "rssKiB": 130576,
+        "type": "other"
+      },
+      {
+        "pid": 86814,
+        "ppid": 86101,
+        "rssKiB": 12352,
+        "type": "other"
+      },
+      {
+        "pid": 86817,
+        "ppid": 86814,
+        "rssKiB": 12672,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "steady-1",
+    "at": "2026-10-04T02:48:08.529Z",
+    "processCount": 11,
+    "rssKiBSum": 1069632,
+    "processes": [
+      {
+        "pid": 86101,
+        "ppid": 86099,
+        "rssKiB": 190160,
+        "type": "browser"
+      },
+      {
+        "pid": 86120,
+        "ppid": 86101,
+        "rssKiB": 81136,
+        "type": "gpu"
+      },
+      {
+        "pid": 86121,
+        "ppid": 86101,
+        "rssKiB": 86720,
+        "type": "other"
+      },
+      {
+        "pid": 86122,
+        "ppid": 86101,
+        "rssKiB": 60416,
+        "type": "other"
+      },
+      {
+        "pid": 86144,
+        "ppid": 86101,
+        "rssKiB": 113040,
+        "type": "renderer"
+      },
+      {
+        "pid": 86148,
+        "ppid": 86101,
+        "rssKiB": 223840,
+        "type": "renderer"
+      },
+      {
+        "pid": 86149,
+        "ppid": 86101,
+        "rssKiB": 91376,
+        "type": "renderer"
+      },
+      {
+        "pid": 86168,
+        "ppid": 86101,
+        "rssKiB": 72992,
+        "type": "renderer"
+      },
+      {
+        "pid": 86221,
+        "ppid": 86101,
+        "rssKiB": 128800,
+        "type": "other"
+      },
+      {
+        "pid": 86814,
+        "ppid": 86101,
+        "rssKiB": 10304,
+        "type": "other"
+      },
+      {
+        "pid": 86817,
+        "ppid": 86814,
+        "rssKiB": 10848,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "steady-1",
+    "at": "2026-10-04T02:48:09.044Z",
+    "processCount": 11,
+    "rssKiBSum": 1069408,
+    "processes": [
+      {
+        "pid": 86101,
+        "ppid": 86099,
+        "rssKiB": 190144,
+        "type": "browser"
+      },
+      {
+        "pid": 86120,
+        "ppid": 86101,
+        "rssKiB": 81104,
+        "type": "gpu"
+      },
+      {
+        "pid": 86121,
+        "ppid": 86101,
+        "rssKiB": 86720,
+        "type": "other"
+      },
+      {
+        "pid": 86122,
+        "ppid": 86101,
+        "rssKiB": 60416,
+        "type": "other"
+      },
+      {
+        "pid": 86144,
+        "ppid": 86101,
+        "rssKiB": 112704,
+        "type": "renderer"
+      },
+      {
+        "pid": 86148,
+        "ppid": 86101,
+        "rssKiB": 223792,
+        "type": "renderer"
+      },
+      {
+        "pid": 86149,
+        "ppid": 86101,
+        "rssKiB": 91376,
+        "type": "renderer"
+      },
+      {
+        "pid": 86168,
+        "ppid": 86101,
+        "rssKiB": 73200,
+        "type": "renderer"
+      },
+      {
+        "pid": 86221,
+        "ppid": 86101,
+        "rssKiB": 128800,
+        "type": "other"
+      },
+      {
+        "pid": 86814,
+        "ppid": 86101,
+        "rssKiB": 10304,
+        "type": "other"
+      },
+      {
+        "pid": 86817,
+        "ppid": 86814,
+        "rssKiB": 10848,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "steady-1",
+    "at": "2026-10-04T02:48:09.540Z",
+    "processCount": 11,
+    "rssKiBSum": 1057808,
+    "processes": [
+      {
+        "pid": 86101,
+        "ppid": 86099,
+        "rssKiB": 189920,
+        "type": "browser"
+      },
+      {
+        "pid": 86120,
+        "ppid": 86101,
+        "rssKiB": 81040,
+        "type": "gpu"
+      },
+      {
+        "pid": 86121,
+        "ppid": 86101,
+        "rssKiB": 86736,
+        "type": "other"
+      },
+      {
+        "pid": 86122,
+        "ppid": 86101,
+        "rssKiB": 60416,
+        "type": "other"
+      },
+      {
+        "pid": 86144,
+        "ppid": 86101,
+        "rssKiB": 112080,
+        "type": "renderer"
+      },
+      {
+        "pid": 86148,
+        "ppid": 86101,
+        "rssKiB": 224272,
+        "type": "renderer"
+      },
+      {
+        "pid": 86149,
+        "ppid": 86101,
+        "rssKiB": 91296,
+        "type": "renderer"
+      },
+      {
+        "pid": 86168,
+        "ppid": 86101,
+        "rssKiB": 73200,
+        "type": "renderer"
+      },
+      {
+        "pid": 86221,
+        "ppid": 86101,
+        "rssKiB": 117696,
+        "type": "other"
+      },
+      {
+        "pid": 86814,
+        "ppid": 86101,
+        "rssKiB": 10304,
+        "type": "other"
+      },
+      {
+        "pid": 86817,
+        "ppid": 86814,
+        "rssKiB": 10848,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "steady-1",
+    "at": "2026-10-04T02:48:10.058Z",
+    "processCount": 11,
+    "rssKiBSum": 1043888,
+    "processes": [
+      {
+        "pid": 86101,
+        "ppid": 86099,
+        "rssKiB": 189440,
+        "type": "browser"
+      },
+      {
+        "pid": 86120,
+        "ppid": 86101,
+        "rssKiB": 81024,
+        "type": "gpu"
+      },
+      {
+        "pid": 86121,
+        "ppid": 86101,
+        "rssKiB": 86752,
+        "type": "other"
+      },
+      {
+        "pid": 86122,
+        "ppid": 86101,
+        "rssKiB": 60320,
+        "type": "other"
+      },
+      {
+        "pid": 86144,
+        "ppid": 86101,
+        "rssKiB": 112032,
+        "type": "renderer"
+      },
+      {
+        "pid": 86148,
+        "ppid": 86101,
+        "rssKiB": 225008,
+        "type": "renderer"
+      },
+      {
+        "pid": 86149,
+        "ppid": 86101,
+        "rssKiB": 91296,
+        "type": "renderer"
+      },
+      {
+        "pid": 86168,
+        "ppid": 86101,
+        "rssKiB": 73200,
+        "type": "renderer"
+      },
+      {
+        "pid": 86221,
+        "ppid": 86101,
+        "rssKiB": 103664,
+        "type": "other"
+      },
+      {
+        "pid": 86814,
+        "ppid": 86101,
+        "rssKiB": 10304,
+        "type": "other"
+      },
+      {
+        "pid": 86817,
+        "ppid": 86814,
+        "rssKiB": 10848,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "steady-1",
+    "at": "2026-10-04T02:48:10.593Z",
+    "processCount": 11,
+    "rssKiBSum": 1032288,
+    "processes": [
+      {
+        "pid": 86101,
+        "ppid": 86099,
+        "rssKiB": 189440,
+        "type": "browser"
+      },
+      {
+        "pid": 86120,
+        "ppid": 86101,
+        "rssKiB": 82592,
+        "type": "gpu"
+      },
+      {
+        "pid": 86121,
+        "ppid": 86101,
+        "rssKiB": 86752,
+        "type": "other"
+      },
+      {
+        "pid": 86122,
+        "ppid": 86101,
+        "rssKiB": 60320,
+        "type": "other"
+      },
+      {
+        "pid": 86144,
+        "ppid": 86101,
+        "rssKiB": 112048,
+        "type": "renderer"
+      },
+      {
+        "pid": 86148,
+        "ppid": 86101,
+        "rssKiB": 227280,
+        "type": "renderer"
+      },
+      {
+        "pid": 86149,
+        "ppid": 86101,
+        "rssKiB": 91296,
+        "type": "renderer"
+      },
+      {
+        "pid": 86168,
+        "ppid": 86101,
+        "rssKiB": 73200,
+        "type": "renderer"
+      },
+      {
+        "pid": 86221,
+        "ppid": 86101,
+        "rssKiB": 88208,
+        "type": "other"
+      },
+      {
+        "pid": 86814,
+        "ppid": 86101,
+        "rssKiB": 10304,
+        "type": "other"
+      },
+      {
+        "pid": 86817,
+        "ppid": 86814,
+        "rssKiB": 10848,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "steady-1",
+    "at": "2026-10-04T02:48:11.092Z",
+    "processCount": 11,
+    "rssKiBSum": 1019680,
+    "processes": [
+      {
+        "pid": 86101,
+        "ppid": 86099,
+        "rssKiB": 189296,
+        "type": "browser"
+      },
+      {
+        "pid": 86120,
+        "ppid": 86101,
+        "rssKiB": 82032,
+        "type": "gpu"
+      },
+      {
+        "pid": 86121,
+        "ppid": 86101,
+        "rssKiB": 86704,
+        "type": "other"
+      },
+      {
+        "pid": 86122,
+        "ppid": 86101,
+        "rssKiB": 60320,
+        "type": "other"
+      },
+      {
+        "pid": 86144,
+        "ppid": 86101,
+        "rssKiB": 112048,
+        "type": "renderer"
+      },
+      {
+        "pid": 86148,
+        "ppid": 86101,
+        "rssKiB": 227200,
+        "type": "renderer"
+      },
+      {
+        "pid": 86149,
+        "ppid": 86101,
+        "rssKiB": 91280,
+        "type": "renderer"
+      },
+      {
+        "pid": 86168,
+        "ppid": 86101,
+        "rssKiB": 73200,
+        "type": "renderer"
+      },
+      {
+        "pid": 86221,
+        "ppid": 86101,
+        "rssKiB": 76448,
+        "type": "other"
+      },
+      {
+        "pid": 86814,
+        "ppid": 86101,
+        "rssKiB": 10304,
+        "type": "other"
+      },
+      {
+        "pid": 86817,
+        "ppid": 86814,
+        "rssKiB": 10848,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "steady-1",
+    "at": "2026-10-04T02:48:11.572Z",
+    "processCount": 11,
+    "rssKiBSum": 1036592,
+    "processes": [
+      {
+        "pid": 86101,
+        "ppid": 86099,
+        "rssKiB": 198592,
+        "type": "browser"
+      },
+      {
+        "pid": 86120,
+        "ppid": 86101,
+        "rssKiB": 85888,
+        "type": "gpu"
+      },
+      {
+        "pid": 86121,
+        "ppid": 86101,
+        "rssKiB": 86288,
+        "type": "other"
+      },
+      {
+        "pid": 86122,
+        "ppid": 86101,
+        "rssKiB": 60272,
+        "type": "other"
+      },
+      {
+        "pid": 86144,
+        "ppid": 86101,
+        "rssKiB": 120608,
+        "type": "renderer"
+      },
+      {
+        "pid": 86148,
+        "ppid": 86101,
+        "rssKiB": 205232,
+        "type": "renderer"
+      },
+      {
+        "pid": 86149,
+        "ppid": 86101,
+        "rssKiB": 90112,
+        "type": "renderer"
+      },
+      {
+        "pid": 86221,
+        "ppid": 86101,
+        "rssKiB": 67344,
+        "type": "other"
+      },
+      {
+        "pid": 86814,
+        "ppid": 86101,
+        "rssKiB": 10368,
+        "type": "other"
+      },
+      {
+        "pid": 86817,
+        "ppid": 86814,
+        "rssKiB": 10880,
+        "type": "other"
+      },
+      {
+        "pid": 86996,
+        "ppid": 86101,
+        "rssKiB": 101008,
+        "type": "renderer"
+      }
+    ]
+  },
+  {
+    "run": "steady-1",
+    "at": "2026-10-04T02:48:11.904Z",
+    "processCount": 11,
+    "rssKiBSum": 1046416,
+    "processes": [
+      {
+        "pid": 86101,
+        "ppid": 86099,
+        "rssKiB": 200304,
+        "type": "browser"
+      },
+      {
+        "pid": 86120,
+        "ppid": 86101,
+        "rssKiB": 86272,
+        "type": "gpu"
+      },
+      {
+        "pid": 86121,
+        "ppid": 86101,
+        "rssKiB": 86464,
+        "type": "other"
+      },
+      {
+        "pid": 86122,
+        "ppid": 86101,
+        "rssKiB": 60256,
+        "type": "other"
+      },
+      {
+        "pid": 86144,
+        "ppid": 86101,
+        "rssKiB": 125248,
+        "type": "renderer"
+      },
+      {
+        "pid": 86148,
+        "ppid": 86101,
+        "rssKiB": 204352,
+        "type": "renderer"
+      },
+      {
+        "pid": 86149,
+        "ppid": 86101,
+        "rssKiB": 94048,
+        "type": "renderer"
+      },
+      {
+        "pid": 86221,
+        "ppid": 86101,
+        "rssKiB": 67280,
+        "type": "other"
+      },
+      {
+        "pid": 86814,
+        "ppid": 86101,
+        "rssKiB": 10336,
+        "type": "other"
+      },
+      {
+        "pid": 86817,
+        "ppid": 86814,
+        "rssKiB": 10848,
+        "type": "other"
+      },
+      {
+        "pid": 86996,
+        "ppid": 86101,
+        "rssKiB": 101008,
+        "type": "renderer"
+      }
+    ]
+  },
+  {
+    "run": "changing-1",
+    "at": "2026-10-04T02:48:13.008Z",
+    "processCount": 5,
+    "rssKiBSum": 510496,
+    "processes": [
+      {
+        "pid": 87033,
+        "ppid": 86099,
+        "rssKiB": 173968,
+        "type": "browser"
+      },
+      {
+        "pid": 87040,
+        "ppid": 87033,
+        "rssKiB": 87264,
+        "type": "gpu"
+      },
+      {
+        "pid": 87041,
+        "ppid": 87033,
+        "rssKiB": 81632,
+        "type": "other"
+      },
+      {
+        "pid": 87042,
+        "ppid": 87033,
+        "rssKiB": 77808,
+        "type": "other"
+      },
+      {
+        "pid": 87043,
+        "ppid": 87033,
+        "rssKiB": 89824,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "changing-1",
+    "at": "2026-10-04T02:48:13.501Z",
+    "processCount": 8,
+    "rssKiBSum": 1012528,
+    "processes": [
+      {
+        "pid": 87033,
+        "ppid": 86099,
+        "rssKiB": 203456,
+        "type": "browser"
+      },
+      {
+        "pid": 87040,
+        "ppid": 87033,
+        "rssKiB": 83408,
+        "type": "gpu"
+      },
+      {
+        "pid": 87041,
+        "ppid": 87033,
+        "rssKiB": 85584,
+        "type": "other"
+      },
+      {
+        "pid": 87042,
+        "ppid": 87033,
+        "rssKiB": 61872,
+        "type": "other"
+      },
+      {
+        "pid": 87063,
+        "ppid": 87033,
+        "rssKiB": 199792,
+        "type": "renderer"
+      },
+      {
+        "pid": 87068,
+        "ppid": 87033,
+        "rssKiB": 162496,
+        "type": "renderer"
+      },
+      {
+        "pid": 87069,
+        "ppid": 87033,
+        "rssKiB": 116304,
+        "type": "renderer"
+      },
+      {
+        "pid": 87072,
+        "ppid": 87033,
+        "rssKiB": 99616,
+        "type": "renderer"
+      }
+    ]
+  },
+  {
+    "run": "changing-1",
+    "at": "2026-10-04T02:48:14.000Z",
+    "processCount": 8,
+    "rssKiBSum": 980064,
+    "processes": [
+      {
+        "pid": 87033,
+        "ppid": 86099,
+        "rssKiB": 200640,
+        "type": "browser"
+      },
+      {
+        "pid": 87040,
+        "ppid": 87033,
+        "rssKiB": 82896,
+        "type": "gpu"
+      },
+      {
+        "pid": 87041,
+        "ppid": 87033,
+        "rssKiB": 86512,
+        "type": "other"
+      },
+      {
+        "pid": 87042,
+        "ppid": 87033,
+        "rssKiB": 61824,
+        "type": "other"
+      },
+      {
+        "pid": 87063,
+        "ppid": 87033,
+        "rssKiB": 171744,
+        "type": "renderer"
+      },
+      {
+        "pid": 87068,
+        "ppid": 87033,
+        "rssKiB": 186144,
+        "type": "renderer"
+      },
+      {
+        "pid": 87069,
+        "ppid": 87033,
+        "rssKiB": 101280,
+        "type": "renderer"
+      },
+      {
+        "pid": 87072,
+        "ppid": 87033,
+        "rssKiB": 89024,
+        "type": "renderer"
+      }
+    ]
+  },
+  {
+    "run": "changing-1",
+    "at": "2026-10-04T02:48:14.493Z",
+    "processCount": 8,
+    "rssKiBSum": 964592,
+    "processes": [
+      {
+        "pid": 87033,
+        "ppid": 86099,
+        "rssKiB": 201664,
+        "type": "browser"
+      },
+      {
+        "pid": 87040,
+        "ppid": 87033,
+        "rssKiB": 82064,
+        "type": "gpu"
+      },
+      {
+        "pid": 87041,
+        "ppid": 87033,
+        "rssKiB": 87488,
+        "type": "other"
+      },
+      {
+        "pid": 87042,
+        "ppid": 87033,
+        "rssKiB": 61824,
+        "type": "other"
+      },
+      {
+        "pid": 87063,
+        "ppid": 87033,
+        "rssKiB": 156272,
+        "type": "renderer"
+      },
+      {
+        "pid": 87068,
+        "ppid": 87033,
+        "rssKiB": 191616,
+        "type": "renderer"
+      },
+      {
+        "pid": 87069,
+        "ppid": 87033,
+        "rssKiB": 101584,
+        "type": "renderer"
+      },
+      {
+        "pid": 87072,
+        "ppid": 87033,
+        "rssKiB": 82080,
+        "type": "renderer"
+      }
+    ]
+  },
+  {
+    "run": "changing-1",
+    "at": "2026-10-04T02:48:14.998Z",
+    "processCount": 9,
+    "rssKiBSum": 1049632,
+    "processes": [
+      {
+        "pid": 87033,
+        "ppid": 86099,
+        "rssKiB": 205296,
+        "type": "browser"
+      },
+      {
+        "pid": 87040,
+        "ppid": 87033,
+        "rssKiB": 86944,
+        "type": "gpu"
+      },
+      {
+        "pid": 87041,
+        "ppid": 87033,
+        "rssKiB": 88272,
+        "type": "other"
+      },
+      {
+        "pid": 87042,
+        "ppid": 87033,
+        "rssKiB": 62464,
+        "type": "other"
+      },
+      {
+        "pid": 87063,
+        "ppid": 87033,
+        "rssKiB": 153888,
+        "type": "renderer"
+      },
+      {
+        "pid": 87068,
+        "ppid": 87033,
+        "rssKiB": 189264,
+        "type": "renderer"
+      },
+      {
+        "pid": 87069,
+        "ppid": 87033,
+        "rssKiB": 102592,
+        "type": "renderer"
+      },
+      {
+        "pid": 87072,
+        "ppid": 87033,
+        "rssKiB": 82672,
+        "type": "renderer"
+      },
+      {
+        "pid": 87128,
+        "ppid": 87033,
+        "rssKiB": 78240,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "changing-1",
+    "at": "2026-10-04T02:48:15.495Z",
+    "processCount": 9,
+    "rssKiBSum": 1068464,
+    "processes": [
+      {
+        "pid": 87033,
+        "ppid": 86099,
+        "rssKiB": 213568,
+        "type": "browser"
+      },
+      {
+        "pid": 87040,
+        "ppid": 87033,
+        "rssKiB": 86048,
+        "type": "gpu"
+      },
+      {
+        "pid": 87041,
+        "ppid": 87033,
+        "rssKiB": 90320,
+        "type": "other"
+      },
+      {
+        "pid": 87042,
+        "ppid": 87033,
+        "rssKiB": 63264,
+        "type": "other"
+      },
+      {
+        "pid": 87063,
+        "ppid": 87033,
+        "rssKiB": 156400,
+        "type": "renderer"
+      },
+      {
+        "pid": 87068,
+        "ppid": 87033,
+        "rssKiB": 194672,
+        "type": "renderer"
+      },
+      {
+        "pid": 87069,
+        "ppid": 87033,
+        "rssKiB": 102672,
+        "type": "renderer"
+      },
+      {
+        "pid": 87072,
+        "ppid": 87033,
+        "rssKiB": 82752,
+        "type": "renderer"
+      },
+      {
+        "pid": 87128,
+        "ppid": 87033,
+        "rssKiB": 78768,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "changing-1",
+    "at": "2026-10-04T02:48:16.002Z",
+    "processCount": 9,
+    "rssKiBSum": 1072144,
+    "processes": [
+      {
+        "pid": 87033,
+        "ppid": 86099,
+        "rssKiB": 214736,
+        "type": "browser"
+      },
+      {
+        "pid": 87040,
+        "ppid": 87033,
+        "rssKiB": 86096,
+        "type": "gpu"
+      },
+      {
+        "pid": 87041,
+        "ppid": 87033,
+        "rssKiB": 91232,
+        "type": "other"
+      },
+      {
+        "pid": 87042,
+        "ppid": 87033,
+        "rssKiB": 63264,
+        "type": "other"
+      },
+      {
+        "pid": 87063,
+        "ppid": 87033,
+        "rssKiB": 156400,
+        "type": "renderer"
+      },
+      {
+        "pid": 87068,
+        "ppid": 87033,
+        "rssKiB": 195952,
+        "type": "renderer"
+      },
+      {
+        "pid": 87069,
+        "ppid": 87033,
+        "rssKiB": 102672,
+        "type": "renderer"
+      },
+      {
+        "pid": 87072,
+        "ppid": 87033,
+        "rssKiB": 82752,
+        "type": "renderer"
+      },
+      {
+        "pid": 87128,
+        "ppid": 87033,
+        "rssKiB": 79040,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "changing-1",
+    "at": "2026-10-04T02:48:16.496Z",
+    "processCount": 9,
+    "rssKiBSum": 1073328,
+    "processes": [
+      {
+        "pid": 87033,
+        "ppid": 86099,
+        "rssKiB": 214768,
+        "type": "browser"
+      },
+      {
+        "pid": 87040,
+        "ppid": 87033,
+        "rssKiB": 86176,
+        "type": "gpu"
+      },
+      {
+        "pid": 87041,
+        "ppid": 87033,
+        "rssKiB": 91232,
+        "type": "other"
+      },
+      {
+        "pid": 87042,
+        "ppid": 87033,
+        "rssKiB": 63264,
+        "type": "other"
+      },
+      {
+        "pid": 87063,
+        "ppid": 87033,
+        "rssKiB": 156528,
+        "type": "renderer"
+      },
+      {
+        "pid": 87068,
+        "ppid": 87033,
+        "rssKiB": 196736,
+        "type": "renderer"
+      },
+      {
+        "pid": 87069,
+        "ppid": 87033,
+        "rssKiB": 102672,
+        "type": "renderer"
+      },
+      {
+        "pid": 87072,
+        "ppid": 87033,
+        "rssKiB": 82752,
+        "type": "renderer"
+      },
+      {
+        "pid": 87128,
+        "ppid": 87033,
+        "rssKiB": 79200,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "changing-1",
+    "at": "2026-10-04T02:48:17.002Z",
+    "processCount": 9,
+    "rssKiBSum": 1073872,
+    "processes": [
+      {
+        "pid": 87033,
+        "ppid": 86099,
+        "rssKiB": 214832,
+        "type": "browser"
+      },
+      {
+        "pid": 87040,
+        "ppid": 87033,
+        "rssKiB": 86192,
+        "type": "gpu"
+      },
+      {
+        "pid": 87041,
+        "ppid": 87033,
+        "rssKiB": 91280,
+        "type": "other"
+      },
+      {
+        "pid": 87042,
+        "ppid": 87033,
+        "rssKiB": 63264,
+        "type": "other"
+      },
+      {
+        "pid": 87063,
+        "ppid": 87033,
+        "rssKiB": 156528,
+        "type": "renderer"
+      },
+      {
+        "pid": 87068,
+        "ppid": 87033,
+        "rssKiB": 196976,
+        "type": "renderer"
+      },
+      {
+        "pid": 87069,
+        "ppid": 87033,
+        "rssKiB": 102672,
+        "type": "renderer"
+      },
+      {
+        "pid": 87072,
+        "ppid": 87033,
+        "rssKiB": 82752,
+        "type": "renderer"
+      },
+      {
+        "pid": 87128,
+        "ppid": 87033,
+        "rssKiB": 79376,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "changing-1",
+    "at": "2026-10-04T02:48:17.500Z",
+    "processCount": 9,
+    "rssKiBSum": 1074704,
+    "processes": [
+      {
+        "pid": 87033,
+        "ppid": 86099,
+        "rssKiB": 214912,
+        "type": "browser"
+      },
+      {
+        "pid": 87040,
+        "ppid": 87033,
+        "rssKiB": 86320,
+        "type": "gpu"
+      },
+      {
+        "pid": 87041,
+        "ppid": 87033,
+        "rssKiB": 91296,
+        "type": "other"
+      },
+      {
+        "pid": 87042,
+        "ppid": 87033,
+        "rssKiB": 63264,
+        "type": "other"
+      },
+      {
+        "pid": 87063,
+        "ppid": 87033,
+        "rssKiB": 156608,
+        "type": "renderer"
+      },
+      {
+        "pid": 87068,
+        "ppid": 87033,
+        "rssKiB": 197328,
+        "type": "renderer"
+      },
+      {
+        "pid": 87069,
+        "ppid": 87033,
+        "rssKiB": 102720,
+        "type": "renderer"
+      },
+      {
+        "pid": 87072,
+        "ppid": 87033,
+        "rssKiB": 82752,
+        "type": "renderer"
+      },
+      {
+        "pid": 87128,
+        "ppid": 87033,
+        "rssKiB": 79504,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "changing-1",
+    "at": "2026-10-04T02:48:18.002Z",
+    "processCount": 9,
+    "rssKiBSum": 1095264,
+    "processes": [
+      {
+        "pid": 87033,
+        "ppid": 86099,
+        "rssKiB": 218496,
+        "type": "browser"
+      },
+      {
+        "pid": 87040,
+        "ppid": 87033,
+        "rssKiB": 90608,
+        "type": "gpu"
+      },
+      {
+        "pid": 87041,
+        "ppid": 87033,
+        "rssKiB": 91552,
+        "type": "other"
+      },
+      {
+        "pid": 87042,
+        "ppid": 87033,
+        "rssKiB": 63280,
+        "type": "other"
+      },
+      {
+        "pid": 87063,
+        "ppid": 87033,
+        "rssKiB": 156608,
+        "type": "renderer"
+      },
+      {
+        "pid": 87068,
+        "ppid": 87033,
+        "rssKiB": 209568,
+        "type": "renderer"
+      },
+      {
+        "pid": 87069,
+        "ppid": 87033,
+        "rssKiB": 102720,
+        "type": "renderer"
+      },
+      {
+        "pid": 87072,
+        "ppid": 87033,
+        "rssKiB": 82752,
+        "type": "renderer"
+      },
+      {
+        "pid": 87128,
+        "ppid": 87033,
+        "rssKiB": 79680,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "changing-1",
+    "at": "2026-10-04T02:48:18.501Z",
+    "processCount": 9,
+    "rssKiBSum": 1089632,
+    "processes": [
+      {
+        "pid": 87033,
+        "ppid": 86099,
+        "rssKiB": 218688,
+        "type": "browser"
+      },
+      {
+        "pid": 87040,
+        "ppid": 87033,
+        "rssKiB": 90576,
+        "type": "gpu"
+      },
+      {
+        "pid": 87041,
+        "ppid": 87033,
+        "rssKiB": 91584,
+        "type": "other"
+      },
+      {
+        "pid": 87042,
+        "ppid": 87033,
+        "rssKiB": 63568,
+        "type": "other"
+      },
+      {
+        "pid": 87063,
+        "ppid": 87033,
+        "rssKiB": 154080,
+        "type": "renderer"
+      },
+      {
+        "pid": 87068,
+        "ppid": 87033,
+        "rssKiB": 208800,
+        "type": "renderer"
+      },
+      {
+        "pid": 87069,
+        "ppid": 87033,
+        "rssKiB": 102752,
+        "type": "renderer"
+      },
+      {
+        "pid": 87072,
+        "ppid": 87033,
+        "rssKiB": 82752,
+        "type": "renderer"
+      },
+      {
+        "pid": 87128,
+        "ppid": 87033,
+        "rssKiB": 76832,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "changing-1",
+    "at": "2026-10-04T02:48:19.001Z",
+    "processCount": 9,
+    "rssKiBSum": 1071520,
+    "processes": [
+      {
+        "pid": 87033,
+        "ppid": 86099,
+        "rssKiB": 218352,
+        "type": "browser"
+      },
+      {
+        "pid": 87040,
+        "ppid": 87033,
+        "rssKiB": 90368,
+        "type": "gpu"
+      },
+      {
+        "pid": 87041,
+        "ppid": 87033,
+        "rssKiB": 91536,
+        "type": "other"
+      },
+      {
+        "pid": 87042,
+        "ppid": 87033,
+        "rssKiB": 63520,
+        "type": "other"
+      },
+      {
+        "pid": 87063,
+        "ppid": 87033,
+        "rssKiB": 150752,
+        "type": "renderer"
+      },
+      {
+        "pid": 87068,
+        "ppid": 87033,
+        "rssKiB": 208416,
+        "type": "renderer"
+      },
+      {
+        "pid": 87069,
+        "ppid": 87033,
+        "rssKiB": 102720,
+        "type": "renderer"
+      },
+      {
+        "pid": 87072,
+        "ppid": 87033,
+        "rssKiB": 82432,
+        "type": "renderer"
+      },
+      {
+        "pid": 87128,
+        "ppid": 87033,
+        "rssKiB": 63424,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "changing-1",
+    "at": "2026-10-04T02:48:19.501Z",
+    "processCount": 9,
+    "rssKiBSum": 1069888,
+    "processes": [
+      {
+        "pid": 87033,
+        "ppid": 86099,
+        "rssKiB": 218192,
+        "type": "browser"
+      },
+      {
+        "pid": 87040,
+        "ppid": 87033,
+        "rssKiB": 90256,
+        "type": "gpu"
+      },
+      {
+        "pid": 87041,
+        "ppid": 87033,
+        "rssKiB": 91376,
+        "type": "other"
+      },
+      {
+        "pid": 87042,
+        "ppid": 87033,
+        "rssKiB": 63392,
+        "type": "other"
+      },
+      {
+        "pid": 87063,
+        "ppid": 87033,
+        "rssKiB": 150256,
+        "type": "renderer"
+      },
+      {
+        "pid": 87068,
+        "ppid": 87033,
+        "rssKiB": 208384,
+        "type": "renderer"
+      },
+      {
+        "pid": 87069,
+        "ppid": 87033,
+        "rssKiB": 102592,
+        "type": "renderer"
+      },
+      {
+        "pid": 87072,
+        "ppid": 87033,
+        "rssKiB": 82368,
+        "type": "renderer"
+      },
+      {
+        "pid": 87128,
+        "ppid": 87033,
+        "rssKiB": 63072,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "changing-1",
+    "at": "2026-10-04T02:48:20.003Z",
+    "processCount": 9,
+    "rssKiBSum": 1069424,
+    "processes": [
+      {
+        "pid": 87033,
+        "ppid": 86099,
+        "rssKiB": 217984,
+        "type": "browser"
+      },
+      {
+        "pid": 87040,
+        "ppid": 87033,
+        "rssKiB": 90272,
+        "type": "gpu"
+      },
+      {
+        "pid": 87041,
+        "ppid": 87033,
+        "rssKiB": 91360,
+        "type": "other"
+      },
+      {
+        "pid": 87042,
+        "ppid": 87033,
+        "rssKiB": 63392,
+        "type": "other"
+      },
+      {
+        "pid": 87063,
+        "ppid": 87033,
+        "rssKiB": 150224,
+        "type": "renderer"
+      },
+      {
+        "pid": 87068,
+        "ppid": 87033,
+        "rssKiB": 208128,
+        "type": "renderer"
+      },
+      {
+        "pid": 87069,
+        "ppid": 87033,
+        "rssKiB": 102592,
+        "type": "renderer"
+      },
+      {
+        "pid": 87072,
+        "ppid": 87033,
+        "rssKiB": 82368,
+        "type": "renderer"
+      },
+      {
+        "pid": 87128,
+        "ppid": 87033,
+        "rssKiB": 63104,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "changing-1",
+    "at": "2026-10-04T02:48:20.505Z",
+    "processCount": 9,
+    "rssKiBSum": 1022512,
+    "processes": [
+      {
+        "pid": 87033,
+        "ppid": 86099,
+        "rssKiB": 218480,
+        "type": "browser"
+      },
+      {
+        "pid": 87040,
+        "ppid": 87033,
+        "rssKiB": 90880,
+        "type": "gpu"
+      },
+      {
+        "pid": 87041,
+        "ppid": 87033,
+        "rssKiB": 91072,
+        "type": "other"
+      },
+      {
+        "pid": 87042,
+        "ppid": 87033,
+        "rssKiB": 63904,
+        "type": "other"
+      },
+      {
+        "pid": 87063,
+        "ppid": 87033,
+        "rssKiB": 150864,
+        "type": "renderer"
+      },
+      {
+        "pid": 87069,
+        "ppid": 87033,
+        "rssKiB": 102592,
+        "type": "renderer"
+      },
+      {
+        "pid": 87072,
+        "ppid": 87033,
+        "rssKiB": 139472,
+        "type": "renderer"
+      },
+      {
+        "pid": 87128,
+        "ppid": 87033,
+        "rssKiB": 63472,
+        "type": "other"
+      },
+      {
+        "pid": 87325,
+        "ppid": 87033,
+        "rssKiB": 101776,
+        "type": "renderer"
+      }
+    ]
+  },
+  {
+    "run": "changing-1",
+    "at": "2026-10-04T02:48:21.005Z",
+    "processCount": 9,
+    "rssKiBSum": 1022800,
+    "processes": [
+      {
+        "pid": 87033,
+        "ppid": 86099,
+        "rssKiB": 218528,
+        "type": "browser"
+      },
+      {
+        "pid": 87040,
+        "ppid": 87033,
+        "rssKiB": 90896,
+        "type": "gpu"
+      },
+      {
+        "pid": 87041,
+        "ppid": 87033,
+        "rssKiB": 91072,
+        "type": "other"
+      },
+      {
+        "pid": 87042,
+        "ppid": 87033,
+        "rssKiB": 63904,
+        "type": "other"
+      },
+      {
+        "pid": 87063,
+        "ppid": 87033,
+        "rssKiB": 150864,
+        "type": "renderer"
+      },
+      {
+        "pid": 87069,
+        "ppid": 87033,
+        "rssKiB": 102592,
+        "type": "renderer"
+      },
+      {
+        "pid": 87072,
+        "ppid": 87033,
+        "rssKiB": 139664,
+        "type": "renderer"
+      },
+      {
+        "pid": 87128,
+        "ppid": 87033,
+        "rssKiB": 63504,
+        "type": "other"
+      },
+      {
+        "pid": 87325,
+        "ppid": 87033,
+        "rssKiB": 101776,
+        "type": "renderer"
+      }
+    ]
+  },
+  {
+    "run": "changing-1",
+    "at": "2026-10-04T02:48:21.506Z",
+    "processCount": 10,
+    "rssKiBSum": 1133088,
+    "processes": [
+      {
+        "pid": 87033,
+        "ppid": 86099,
+        "rssKiB": 218992,
+        "type": "browser"
+      },
+      {
+        "pid": 87040,
+        "ppid": 87033,
+        "rssKiB": 90976,
+        "type": "gpu"
+      },
+      {
+        "pid": 87041,
+        "ppid": 87033,
+        "rssKiB": 91072,
+        "type": "other"
+      },
+      {
+        "pid": 87042,
+        "ppid": 87033,
+        "rssKiB": 63904,
+        "type": "other"
+      },
+      {
+        "pid": 87063,
+        "ppid": 87033,
+        "rssKiB": 150864,
+        "type": "renderer"
+      },
+      {
+        "pid": 87069,
+        "ppid": 87033,
+        "rssKiB": 102608,
+        "type": "renderer"
+      },
+      {
+        "pid": 87072,
+        "ppid": 87033,
+        "rssKiB": 139680,
+        "type": "renderer"
+      },
+      {
+        "pid": 87128,
+        "ppid": 87033,
+        "rssKiB": 64256,
+        "type": "other"
+      },
+      {
+        "pid": 87325,
+        "ppid": 87033,
+        "rssKiB": 109072,
+        "type": "renderer"
+      },
+      {
+        "pid": 87360,
+        "ppid": 87033,
+        "rssKiB": 101664,
+        "type": "renderer"
+      }
+    ]
+  },
+  {
+    "run": "changing-1",
+    "at": "2026-10-04T02:48:22.007Z",
+    "processCount": 10,
+    "rssKiBSum": 1133152,
+    "processes": [
+      {
+        "pid": 87033,
+        "ppid": 86099,
+        "rssKiB": 219024,
+        "type": "browser"
+      },
+      {
+        "pid": 87040,
+        "ppid": 87033,
+        "rssKiB": 90976,
+        "type": "gpu"
+      },
+      {
+        "pid": 87041,
+        "ppid": 87033,
+        "rssKiB": 91072,
+        "type": "other"
+      },
+      {
+        "pid": 87042,
+        "ppid": 87033,
+        "rssKiB": 63904,
+        "type": "other"
+      },
+      {
+        "pid": 87063,
+        "ppid": 87033,
+        "rssKiB": 150864,
+        "type": "renderer"
+      },
+      {
+        "pid": 87069,
+        "ppid": 87033,
+        "rssKiB": 102608,
+        "type": "renderer"
+      },
+      {
+        "pid": 87072,
+        "ppid": 87033,
+        "rssKiB": 139680,
+        "type": "renderer"
+      },
+      {
+        "pid": 87128,
+        "ppid": 87033,
+        "rssKiB": 64288,
+        "type": "other"
+      },
+      {
+        "pid": 87325,
+        "ppid": 87033,
+        "rssKiB": 109072,
+        "type": "renderer"
+      },
+      {
+        "pid": 87360,
+        "ppid": 87033,
+        "rssKiB": 101664,
+        "type": "renderer"
+      }
+    ]
+  },
+  {
+    "run": "changing-1",
+    "at": "2026-10-04T02:48:22.507Z",
+    "processCount": 9,
+    "rssKiBSum": 1008960,
+    "processes": [
+      {
+        "pid": 87033,
+        "ppid": 86099,
+        "rssKiB": 219008,
+        "type": "browser"
+      },
+      {
+        "pid": 87040,
+        "ppid": 87033,
+        "rssKiB": 88832,
+        "type": "gpu"
+      },
+      {
+        "pid": 87041,
+        "ppid": 87033,
+        "rssKiB": 91200,
+        "type": "other"
+      },
+      {
+        "pid": 87042,
+        "ppid": 87033,
+        "rssKiB": 63984,
+        "type": "other"
+      },
+      {
+        "pid": 87063,
+        "ppid": 87033,
+        "rssKiB": 150976,
+        "type": "renderer"
+      },
+      {
+        "pid": 87069,
+        "ppid": 87033,
+        "rssKiB": 102608,
+        "type": "renderer"
+      },
+      {
+        "pid": 87128,
+        "ppid": 87033,
+        "rssKiB": 64352,
+        "type": "other"
+      },
+      {
+        "pid": 87325,
+        "ppid": 87033,
+        "rssKiB": 126336,
+        "type": "renderer"
+      },
+      {
+        "pid": 87360,
+        "ppid": 87033,
+        "rssKiB": 101664,
+        "type": "renderer"
+      }
+    ]
+  },
+  {
+    "run": "changing-1",
+    "at": "2026-10-04T02:48:23.007Z",
+    "processCount": 9,
+    "rssKiBSum": 1009184,
+    "processes": [
+      {
+        "pid": 87033,
+        "ppid": 86099,
+        "rssKiB": 219088,
+        "type": "browser"
+      },
+      {
+        "pid": 87040,
+        "ppid": 87033,
+        "rssKiB": 88864,
+        "type": "gpu"
+      },
+      {
+        "pid": 87041,
+        "ppid": 87033,
+        "rssKiB": 91216,
+        "type": "other"
+      },
+      {
+        "pid": 87042,
+        "ppid": 87033,
+        "rssKiB": 64048,
+        "type": "other"
+      },
+      {
+        "pid": 87063,
+        "ppid": 87033,
+        "rssKiB": 150976,
+        "type": "renderer"
+      },
+      {
+        "pid": 87069,
+        "ppid": 87033,
+        "rssKiB": 102608,
+        "type": "renderer"
+      },
+      {
+        "pid": 87128,
+        "ppid": 87033,
+        "rssKiB": 64352,
+        "type": "other"
+      },
+      {
+        "pid": 87325,
+        "ppid": 87033,
+        "rssKiB": 126368,
+        "type": "renderer"
+      },
+      {
+        "pid": 87360,
+        "ppid": 87033,
+        "rssKiB": 101664,
+        "type": "renderer"
+      }
+    ]
+  },
+  {
+    "run": "changing-1",
+    "at": "2026-10-04T02:48:23.510Z",
+    "processCount": 9,
+    "rssKiBSum": 1028368,
+    "processes": [
+      {
+        "pid": 87033,
+        "ppid": 86099,
+        "rssKiB": 219168,
+        "type": "browser"
+      },
+      {
+        "pid": 87040,
+        "ppid": 87033,
+        "rssKiB": 88912,
+        "type": "gpu"
+      },
+      {
+        "pid": 87041,
+        "ppid": 87033,
+        "rssKiB": 91232,
+        "type": "other"
+      },
+      {
+        "pid": 87042,
+        "ppid": 87033,
+        "rssKiB": 64080,
+        "type": "other"
+      },
+      {
+        "pid": 87063,
+        "ppid": 87033,
+        "rssKiB": 151008,
+        "type": "renderer"
+      },
+      {
+        "pid": 87069,
+        "ppid": 87033,
+        "rssKiB": 103104,
+        "type": "renderer"
+      },
+      {
+        "pid": 87128,
+        "ppid": 87033,
+        "rssKiB": 64624,
+        "type": "other"
+      },
+      {
+        "pid": 87325,
+        "ppid": 87033,
+        "rssKiB": 144576,
+        "type": "renderer"
+      },
+      {
+        "pid": 87360,
+        "ppid": 87033,
+        "rssKiB": 101664,
+        "type": "renderer"
+      }
+    ]
+  },
+  {
+    "run": "changing-1",
+    "at": "2026-10-04T02:48:24.010Z",
+    "processCount": 9,
+    "rssKiBSum": 1037680,
+    "processes": [
+      {
+        "pid": 87033,
+        "ppid": 86099,
+        "rssKiB": 219776,
+        "type": "browser"
+      },
+      {
+        "pid": 87040,
+        "ppid": 87033,
+        "rssKiB": 91392,
+        "type": "gpu"
+      },
+      {
+        "pid": 87041,
+        "ppid": 87033,
+        "rssKiB": 91264,
+        "type": "other"
+      },
+      {
+        "pid": 87042,
+        "ppid": 87033,
+        "rssKiB": 64080,
+        "type": "other"
+      },
+      {
+        "pid": 87063,
+        "ppid": 87033,
+        "rssKiB": 151008,
+        "type": "renderer"
+      },
+      {
+        "pid": 87069,
+        "ppid": 87033,
+        "rssKiB": 103104,
+        "type": "renderer"
+      },
+      {
+        "pid": 87128,
+        "ppid": 87033,
+        "rssKiB": 64656,
+        "type": "other"
+      },
+      {
+        "pid": 87325,
+        "ppid": 87033,
+        "rssKiB": 150736,
+        "type": "renderer"
+      },
+      {
+        "pid": 87360,
+        "ppid": 87033,
+        "rssKiB": 101664,
+        "type": "renderer"
+      }
+    ]
+  },
+  {
+    "run": "changing-1",
+    "at": "2026-10-04T02:48:24.516Z",
+    "processCount": 9,
+    "rssKiBSum": 1037872,
+    "processes": [
+      {
+        "pid": 87033,
+        "ppid": 86099,
+        "rssKiB": 219728,
+        "type": "browser"
+      },
+      {
+        "pid": 87040,
+        "ppid": 87033,
+        "rssKiB": 91328,
+        "type": "gpu"
+      },
+      {
+        "pid": 87041,
+        "ppid": 87033,
+        "rssKiB": 91200,
+        "type": "other"
+      },
+      {
+        "pid": 87042,
+        "ppid": 87033,
+        "rssKiB": 64080,
+        "type": "other"
+      },
+      {
+        "pid": 87063,
+        "ppid": 87033,
+        "rssKiB": 150416,
+        "type": "renderer"
+      },
+      {
+        "pid": 87069,
+        "ppid": 87033,
+        "rssKiB": 103072,
+        "type": "renderer"
+      },
+      {
+        "pid": 87128,
+        "ppid": 87033,
+        "rssKiB": 64560,
+        "type": "other"
+      },
+      {
+        "pid": 87325,
+        "ppid": 87033,
+        "rssKiB": 151824,
+        "type": "renderer"
+      },
+      {
+        "pid": 87360,
+        "ppid": 87033,
+        "rssKiB": 101664,
+        "type": "renderer"
+      }
+    ]
+  },
+  {
+    "run": "changing-1",
+    "at": "2026-10-04T02:48:25.016Z",
+    "processCount": 9,
+    "rssKiBSum": 1037584,
+    "processes": [
+      {
+        "pid": 87033,
+        "ppid": 86099,
+        "rssKiB": 219232,
+        "type": "browser"
+      },
+      {
+        "pid": 87040,
+        "ppid": 87033,
+        "rssKiB": 91312,
+        "type": "gpu"
+      },
+      {
+        "pid": 87041,
+        "ppid": 87033,
+        "rssKiB": 91200,
+        "type": "other"
+      },
+      {
+        "pid": 87042,
+        "ppid": 87033,
+        "rssKiB": 64064,
+        "type": "other"
+      },
+      {
+        "pid": 87063,
+        "ppid": 87033,
+        "rssKiB": 150416,
+        "type": "renderer"
+      },
+      {
+        "pid": 87069,
+        "ppid": 87033,
+        "rssKiB": 103008,
+        "type": "renderer"
+      },
+      {
+        "pid": 87128,
+        "ppid": 87033,
+        "rssKiB": 64560,
+        "type": "other"
+      },
+      {
+        "pid": 87325,
+        "ppid": 87033,
+        "rssKiB": 152128,
+        "type": "renderer"
+      },
+      {
+        "pid": 87360,
+        "ppid": 87033,
+        "rssKiB": 101664,
+        "type": "renderer"
+      }
+    ]
+  },
+  {
+    "run": "changing-1",
+    "at": "2026-10-04T02:48:25.517Z",
+    "processCount": 9,
+    "rssKiBSum": 1037744,
+    "processes": [
+      {
+        "pid": 87033,
+        "ppid": 86099,
+        "rssKiB": 219152,
+        "type": "browser"
+      },
+      {
+        "pid": 87040,
+        "ppid": 87033,
+        "rssKiB": 91296,
+        "type": "gpu"
+      },
+      {
+        "pid": 87041,
+        "ppid": 87033,
+        "rssKiB": 91232,
+        "type": "other"
+      },
+      {
+        "pid": 87042,
+        "ppid": 87033,
+        "rssKiB": 64064,
+        "type": "other"
+      },
+      {
+        "pid": 87063,
+        "ppid": 87033,
+        "rssKiB": 150400,
+        "type": "renderer"
+      },
+      {
+        "pid": 87069,
+        "ppid": 87033,
+        "rssKiB": 103008,
+        "type": "renderer"
+      },
+      {
+        "pid": 87128,
+        "ppid": 87033,
+        "rssKiB": 64592,
+        "type": "other"
+      },
+      {
+        "pid": 87325,
+        "ppid": 87033,
+        "rssKiB": 152336,
+        "type": "renderer"
+      },
+      {
+        "pid": 87360,
+        "ppid": 87033,
+        "rssKiB": 101664,
+        "type": "renderer"
+      }
+    ]
+  },
+  {
+    "run": "changing-1",
+    "at": "2026-10-04T02:48:26.013Z",
+    "processCount": 9,
+    "rssKiBSum": 1031696,
+    "processes": [
+      {
+        "pid": 87033,
+        "ppid": 86099,
+        "rssKiB": 218704,
+        "type": "browser"
+      },
+      {
+        "pid": 87040,
+        "ppid": 87033,
+        "rssKiB": 91392,
+        "type": "gpu"
+      },
+      {
+        "pid": 87041,
+        "ppid": 87033,
+        "rssKiB": 91136,
+        "type": "other"
+      },
+      {
+        "pid": 87042,
+        "ppid": 87033,
+        "rssKiB": 64064,
+        "type": "other"
+      },
+      {
+        "pid": 87063,
+        "ppid": 87033,
+        "rssKiB": 150400,
+        "type": "renderer"
+      },
+      {
+        "pid": 87069,
+        "ppid": 87033,
+        "rssKiB": 103008,
+        "type": "renderer"
+      },
+      {
+        "pid": 87128,
+        "ppid": 87033,
+        "rssKiB": 64560,
+        "type": "other"
+      },
+      {
+        "pid": 87325,
+        "ppid": 87033,
+        "rssKiB": 146768,
+        "type": "renderer"
+      },
+      {
+        "pid": 87360,
+        "ppid": 87033,
+        "rssKiB": 101664,
+        "type": "renderer"
+      }
+    ]
+  },
+  {
+    "run": "changing-1",
+    "at": "2026-10-04T02:48:26.516Z",
+    "processCount": 9,
+    "rssKiBSum": 1026320,
+    "processes": [
+      {
+        "pid": 87033,
+        "ppid": 86099,
+        "rssKiB": 216624,
+        "type": "browser"
+      },
+      {
+        "pid": 87040,
+        "ppid": 87033,
+        "rssKiB": 89136,
+        "type": "gpu"
+      },
+      {
+        "pid": 87041,
+        "ppid": 87033,
+        "rssKiB": 89904,
+        "type": "other"
+      },
+      {
+        "pid": 87042,
+        "ppid": 87033,
+        "rssKiB": 63984,
+        "type": "other"
+      },
+      {
+        "pid": 87063,
+        "ppid": 87033,
+        "rssKiB": 150400,
+        "type": "renderer"
+      },
+      {
+        "pid": 87069,
+        "ppid": 87033,
+        "rssKiB": 103024,
+        "type": "renderer"
+      },
+      {
+        "pid": 87128,
+        "ppid": 87033,
+        "rssKiB": 64816,
+        "type": "other"
+      },
+      {
+        "pid": 87325,
+        "ppid": 87033,
+        "rssKiB": 146768,
+        "type": "renderer"
+      },
+      {
+        "pid": 87360,
+        "ppid": 87033,
+        "rssKiB": 101664,
+        "type": "renderer"
+      }
+    ]
+  },
+  {
+    "run": "changing-1",
+    "at": "2026-10-04T02:48:27.015Z",
+    "processCount": 9,
+    "rssKiBSum": 1028704,
+    "processes": [
+      {
+        "pid": 87033,
+        "ppid": 86099,
+        "rssKiB": 217904,
+        "type": "browser"
+      },
+      {
+        "pid": 87040,
+        "ppid": 87033,
+        "rssKiB": 90544,
+        "type": "gpu"
+      },
+      {
+        "pid": 87041,
+        "ppid": 87033,
+        "rssKiB": 89232,
+        "type": "other"
+      },
+      {
+        "pid": 87042,
+        "ppid": 87033,
+        "rssKiB": 62032,
+        "type": "other"
+      },
+      {
+        "pid": 87063,
+        "ppid": 87033,
+        "rssKiB": 150352,
+        "type": "renderer"
+      },
+      {
+        "pid": 87069,
+        "ppid": 87033,
+        "rssKiB": 102976,
+        "type": "renderer"
+      },
+      {
+        "pid": 87128,
+        "ppid": 87033,
+        "rssKiB": 64192,
+        "type": "other"
+      },
+      {
+        "pid": 87325,
+        "ppid": 87033,
+        "rssKiB": 152800,
+        "type": "renderer"
+      },
+      {
+        "pid": 87360,
+        "ppid": 87033,
+        "rssKiB": 98672,
+        "type": "renderer"
+      }
+    ]
+  },
+  {
+    "run": "changing-1",
+    "at": "2026-10-04T02:48:27.518Z",
+    "processCount": 9,
+    "rssKiBSum": 1034544,
+    "processes": [
+      {
+        "pid": 87033,
+        "ppid": 86099,
+        "rssKiB": 218656,
+        "type": "browser"
+      },
+      {
+        "pid": 87040,
+        "ppid": 87033,
+        "rssKiB": 91648,
+        "type": "gpu"
+      },
+      {
+        "pid": 87041,
+        "ppid": 87033,
+        "rssKiB": 89216,
+        "type": "other"
+      },
+      {
+        "pid": 87042,
+        "ppid": 87033,
+        "rssKiB": 62032,
+        "type": "other"
+      },
+      {
+        "pid": 87063,
+        "ppid": 87033,
+        "rssKiB": 150336,
+        "type": "renderer"
+      },
+      {
+        "pid": 87069,
+        "ppid": 87033,
+        "rssKiB": 102960,
+        "type": "renderer"
+      },
+      {
+        "pid": 87128,
+        "ppid": 87033,
+        "rssKiB": 64112,
+        "type": "other"
+      },
+      {
+        "pid": 87325,
+        "ppid": 87033,
+        "rssKiB": 156912,
+        "type": "renderer"
+      },
+      {
+        "pid": 87360,
+        "ppid": 87033,
+        "rssKiB": 98672,
+        "type": "renderer"
+      }
+    ]
+  },
+  {
+    "run": "changing-1",
+    "at": "2026-10-04T02:48:28.016Z",
+    "processCount": 9,
+    "rssKiBSum": 1021824,
+    "processes": [
+      {
+        "pid": 87033,
+        "ppid": 86099,
+        "rssKiB": 218224,
+        "type": "browser"
+      },
+      {
+        "pid": 87040,
+        "ppid": 87033,
+        "rssKiB": 91520,
+        "type": "gpu"
+      },
+      {
+        "pid": 87041,
+        "ppid": 87033,
+        "rssKiB": 89232,
+        "type": "other"
+      },
+      {
+        "pid": 87042,
+        "ppid": 87033,
+        "rssKiB": 62032,
+        "type": "other"
+      },
+      {
+        "pid": 87063,
+        "ppid": 87033,
+        "rssKiB": 150272,
+        "type": "renderer"
+      },
+      {
+        "pid": 87069,
+        "ppid": 87033,
+        "rssKiB": 102608,
+        "type": "renderer"
+      },
+      {
+        "pid": 87128,
+        "ppid": 87033,
+        "rssKiB": 64480,
+        "type": "other"
+      },
+      {
+        "pid": 87325,
+        "ppid": 87033,
+        "rssKiB": 157488,
+        "type": "renderer"
+      },
+      {
+        "pid": 87360,
+        "ppid": 87033,
+        "rssKiB": 85968,
+        "type": "renderer"
+      }
+    ]
+  },
+  {
+    "run": "changing-1",
+    "at": "2026-10-04T02:48:28.521Z",
+    "processCount": 9,
+    "rssKiBSum": 1004576,
+    "processes": [
+      {
+        "pid": 87033,
+        "ppid": 86099,
+        "rssKiB": 215984,
+        "type": "browser"
+      },
+      {
+        "pid": 87040,
+        "ppid": 87033,
+        "rssKiB": 90176,
+        "type": "gpu"
+      },
+      {
+        "pid": 87041,
+        "ppid": 87033,
+        "rssKiB": 89248,
+        "type": "other"
+      },
+      {
+        "pid": 87042,
+        "ppid": 87033,
+        "rssKiB": 62016,
+        "type": "other"
+      },
+      {
+        "pid": 87063,
+        "ppid": 87033,
+        "rssKiB": 145584,
+        "type": "renderer"
+      },
+      {
+        "pid": 87069,
+        "ppid": 87033,
+        "rssKiB": 102592,
+        "type": "renderer"
+      },
+      {
+        "pid": 87128,
+        "ppid": 87033,
+        "rssKiB": 64960,
+        "type": "other"
+      },
+      {
+        "pid": 87325,
+        "ppid": 87033,
+        "rssKiB": 155392,
+        "type": "renderer"
+      },
+      {
+        "pid": 87360,
+        "ppid": 87033,
+        "rssKiB": 78624,
+        "type": "renderer"
+      }
+    ]
+  },
+  {
+    "run": "changing-1",
+    "at": "2026-10-04T02:48:29.018Z",
+    "processCount": 9,
+    "rssKiBSum": 998576,
+    "processes": [
+      {
+        "pid": 87033,
+        "ppid": 86099,
+        "rssKiB": 214928,
+        "type": "browser"
+      },
+      {
+        "pid": 87040,
+        "ppid": 87033,
+        "rssKiB": 90272,
+        "type": "gpu"
+      },
+      {
+        "pid": 87041,
+        "ppid": 87033,
+        "rssKiB": 89248,
+        "type": "other"
+      },
+      {
+        "pid": 87042,
+        "ppid": 87033,
+        "rssKiB": 62016,
+        "type": "other"
+      },
+      {
+        "pid": 87063,
+        "ppid": 87033,
+        "rssKiB": 141216,
+        "type": "renderer"
+      },
+      {
+        "pid": 87069,
+        "ppid": 87033,
+        "rssKiB": 101856,
+        "type": "renderer"
+      },
+      {
+        "pid": 87128,
+        "ppid": 87033,
+        "rssKiB": 64960,
+        "type": "other"
+      },
+      {
+        "pid": 87325,
+        "ppid": 87033,
+        "rssKiB": 155456,
+        "type": "renderer"
+      },
+      {
+        "pid": 87360,
+        "ppid": 87033,
+        "rssKiB": 78624,
+        "type": "renderer"
+      }
+    ]
+  },
+  {
+    "run": "changing-1",
+    "at": "2026-10-04T02:48:29.522Z",
+    "processCount": 9,
+    "rssKiBSum": 992624,
+    "processes": [
+      {
+        "pid": 87033,
+        "ppid": 86099,
+        "rssKiB": 213936,
+        "type": "browser"
+      },
+      {
+        "pid": 87040,
+        "ppid": 87033,
+        "rssKiB": 90144,
+        "type": "gpu"
+      },
+      {
+        "pid": 87041,
+        "ppid": 87033,
+        "rssKiB": 89184,
+        "type": "other"
+      },
+      {
+        "pid": 87042,
+        "ppid": 87033,
+        "rssKiB": 62016,
+        "type": "other"
+      },
+      {
+        "pid": 87063,
+        "ppid": 87033,
+        "rssKiB": 141024,
+        "type": "renderer"
+      },
+      {
+        "pid": 87069,
+        "ppid": 87033,
+        "rssKiB": 97632,
+        "type": "renderer"
+      },
+      {
+        "pid": 87128,
+        "ppid": 87033,
+        "rssKiB": 64720,
+        "type": "other"
+      },
+      {
+        "pid": 87325,
+        "ppid": 87033,
+        "rssKiB": 155344,
+        "type": "renderer"
+      },
+      {
+        "pid": 87360,
+        "ppid": 87033,
+        "rssKiB": 78624,
+        "type": "renderer"
+      }
+    ]
+  },
+  {
+    "run": "changing-1",
+    "at": "2026-10-04T02:48:30.020Z",
+    "processCount": 9,
+    "rssKiBSum": 990752,
+    "processes": [
+      {
+        "pid": 87033,
+        "ppid": 86099,
+        "rssKiB": 214240,
+        "type": "browser"
+      },
+      {
+        "pid": 87040,
+        "ppid": 87033,
+        "rssKiB": 90144,
+        "type": "gpu"
+      },
+      {
+        "pid": 87041,
+        "ppid": 87033,
+        "rssKiB": 89184,
+        "type": "other"
+      },
+      {
+        "pid": 87042,
+        "ppid": 87033,
+        "rssKiB": 62016,
+        "type": "other"
+      },
+      {
+        "pid": 87063,
+        "ppid": 87033,
+        "rssKiB": 141024,
+        "type": "renderer"
+      },
+      {
+        "pid": 87069,
+        "ppid": 87033,
+        "rssKiB": 95488,
+        "type": "renderer"
+      },
+      {
+        "pid": 87128,
+        "ppid": 87033,
+        "rssKiB": 64688,
+        "type": "other"
+      },
+      {
+        "pid": 87325,
+        "ppid": 87033,
+        "rssKiB": 155344,
+        "type": "renderer"
+      },
+      {
+        "pid": 87360,
+        "ppid": 87033,
+        "rssKiB": 78624,
+        "type": "renderer"
+      }
+    ]
+  },
+  {
+    "run": "changing-1",
+    "at": "2026-10-04T02:48:30.524Z",
+    "processCount": 9,
+    "rssKiBSum": 991152,
+    "processes": [
+      {
+        "pid": 87033,
+        "ppid": 86099,
+        "rssKiB": 214240,
+        "type": "browser"
+      },
+      {
+        "pid": 87040,
+        "ppid": 87033,
+        "rssKiB": 90144,
+        "type": "gpu"
+      },
+      {
+        "pid": 87041,
+        "ppid": 87033,
+        "rssKiB": 89184,
+        "type": "other"
+      },
+      {
+        "pid": 87042,
+        "ppid": 87033,
+        "rssKiB": 62016,
+        "type": "other"
+      },
+      {
+        "pid": 87063,
+        "ppid": 87033,
+        "rssKiB": 141024,
+        "type": "renderer"
+      },
+      {
+        "pid": 87069,
+        "ppid": 87033,
+        "rssKiB": 95488,
+        "type": "renderer"
+      },
+      {
+        "pid": 87128,
+        "ppid": 87033,
+        "rssKiB": 64736,
+        "type": "other"
+      },
+      {
+        "pid": 87325,
+        "ppid": 87033,
+        "rssKiB": 155696,
+        "type": "renderer"
+      },
+      {
+        "pid": 87360,
+        "ppid": 87033,
+        "rssKiB": 78624,
+        "type": "renderer"
+      }
+    ]
+  },
+  {
+    "run": "changing-1",
+    "at": "2026-10-04T02:48:31.025Z",
+    "processCount": 9,
+    "rssKiBSum": 992560,
+    "processes": [
+      {
+        "pid": 87033,
+        "ppid": 86099,
+        "rssKiB": 214256,
+        "type": "browser"
+      },
+      {
+        "pid": 87040,
+        "ppid": 87033,
+        "rssKiB": 91440,
+        "type": "gpu"
+      },
+      {
+        "pid": 87041,
+        "ppid": 87033,
+        "rssKiB": 89200,
+        "type": "other"
+      },
+      {
+        "pid": 87042,
+        "ppid": 87033,
+        "rssKiB": 62016,
+        "type": "other"
+      },
+      {
+        "pid": 87063,
+        "ppid": 87033,
+        "rssKiB": 141040,
+        "type": "renderer"
+      },
+      {
+        "pid": 87069,
+        "ppid": 87033,
+        "rssKiB": 95488,
+        "type": "renderer"
+      },
+      {
+        "pid": 87128,
+        "ppid": 87033,
+        "rssKiB": 64752,
+        "type": "other"
+      },
+      {
+        "pid": 87325,
+        "ppid": 87033,
+        "rssKiB": 155744,
+        "type": "renderer"
+      },
+      {
+        "pid": 87360,
+        "ppid": 87033,
+        "rssKiB": 78624,
+        "type": "renderer"
+      }
+    ]
+  },
+  {
+    "run": "changing-1",
+    "at": "2026-10-04T02:48:31.526Z",
+    "processCount": 9,
+    "rssKiBSum": 982240,
+    "processes": [
+      {
+        "pid": 87033,
+        "ppid": 86099,
+        "rssKiB": 205568,
+        "type": "browser"
+      },
+      {
+        "pid": 87040,
+        "ppid": 87033,
+        "rssKiB": 91152,
+        "type": "gpu"
+      },
+      {
+        "pid": 87041,
+        "ppid": 87033,
+        "rssKiB": 89024,
+        "type": "other"
+      },
+      {
+        "pid": 87042,
+        "ppid": 87033,
+        "rssKiB": 61888,
+        "type": "other"
+      },
+      {
+        "pid": 87063,
+        "ppid": 87033,
+        "rssKiB": 140992,
+        "type": "renderer"
+      },
+      {
+        "pid": 87069,
+        "ppid": 87033,
+        "rssKiB": 93648,
+        "type": "renderer"
+      },
+      {
+        "pid": 87128,
+        "ppid": 87033,
+        "rssKiB": 64736,
+        "type": "other"
+      },
+      {
+        "pid": 87325,
+        "ppid": 87033,
+        "rssKiB": 155216,
+        "type": "renderer"
+      },
+      {
+        "pid": 87360,
+        "ppid": 87033,
+        "rssKiB": 80016,
+        "type": "renderer"
+      }
+    ]
+  },
+  {
+    "run": "changing-1",
+    "at": "2026-10-04T02:48:32.026Z",
+    "processCount": 11,
+    "rssKiBSum": 990944,
+    "processes": [
+      {
+        "pid": 87033,
+        "ppid": 86099,
+        "rssKiB": 199104,
+        "type": "browser"
+      },
+      {
+        "pid": 87040,
+        "ppid": 87033,
+        "rssKiB": 89808,
+        "type": "gpu"
+      },
+      {
+        "pid": 87041,
+        "ppid": 87033,
+        "rssKiB": 88048,
+        "type": "other"
+      },
+      {
+        "pid": 87042,
+        "ppid": 87033,
+        "rssKiB": 61840,
+        "type": "other"
+      },
+      {
+        "pid": 87063,
+        "ppid": 87033,
+        "rssKiB": 133872,
+        "type": "renderer"
+      },
+      {
+        "pid": 87069,
+        "ppid": 87033,
+        "rssKiB": 93472,
+        "type": "renderer"
+      },
+      {
+        "pid": 87128,
+        "ppid": 87033,
+        "rssKiB": 64800,
+        "type": "other"
+      },
+      {
+        "pid": 87325,
+        "ppid": 87033,
+        "rssKiB": 154704,
+        "type": "renderer"
+      },
+      {
+        "pid": 87360,
+        "ppid": 87033,
+        "rssKiB": 80016,
+        "type": "renderer"
+      },
+      {
+        "pid": 87734,
+        "ppid": 87033,
+        "rssKiB": 12464,
+        "type": "other"
+      },
+      {
+        "pid": 87737,
+        "ppid": 87734,
+        "rssKiB": 12816,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "changing-1",
+    "at": "2026-10-04T02:48:32.527Z",
+    "processCount": 11,
+    "rssKiBSum": 966192,
+    "processes": [
+      {
+        "pid": 87033,
+        "ppid": 86099,
+        "rssKiB": 194768,
+        "type": "browser"
+      },
+      {
+        "pid": 87040,
+        "ppid": 87033,
+        "rssKiB": 89408,
+        "type": "gpu"
+      },
+      {
+        "pid": 87041,
+        "ppid": 87033,
+        "rssKiB": 87760,
+        "type": "other"
+      },
+      {
+        "pid": 87042,
+        "ppid": 87033,
+        "rssKiB": 61824,
+        "type": "other"
+      },
+      {
+        "pid": 87063,
+        "ppid": 87033,
+        "rssKiB": 117584,
+        "type": "renderer"
+      },
+      {
+        "pid": 87069,
+        "ppid": 87033,
+        "rssKiB": 93424,
+        "type": "renderer"
+      },
+      {
+        "pid": 87128,
+        "ppid": 87033,
+        "rssKiB": 64384,
+        "type": "other"
+      },
+      {
+        "pid": 87325,
+        "ppid": 87033,
+        "rssKiB": 151792,
+        "type": "renderer"
+      },
+      {
+        "pid": 87360,
+        "ppid": 87033,
+        "rssKiB": 79968,
+        "type": "renderer"
+      },
+      {
+        "pid": 87734,
+        "ppid": 87033,
+        "rssKiB": 12464,
+        "type": "other"
+      },
+      {
+        "pid": 87737,
+        "ppid": 87734,
+        "rssKiB": 12816,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "changing-1",
+    "at": "2026-10-04T02:48:33.029Z",
+    "processCount": 11,
+    "rssKiBSum": 965456,
+    "processes": [
+      {
+        "pid": 87033,
+        "ppid": 86099,
+        "rssKiB": 194464,
+        "type": "browser"
+      },
+      {
+        "pid": 87040,
+        "ppid": 87033,
+        "rssKiB": 88912,
+        "type": "gpu"
+      },
+      {
+        "pid": 87041,
+        "ppid": 87033,
+        "rssKiB": 87712,
+        "type": "other"
+      },
+      {
+        "pid": 87042,
+        "ppid": 87033,
+        "rssKiB": 61840,
+        "type": "other"
+      },
+      {
+        "pid": 87063,
+        "ppid": 87033,
+        "rssKiB": 117584,
+        "type": "renderer"
+      },
+      {
+        "pid": 87069,
+        "ppid": 87033,
+        "rssKiB": 93424,
+        "type": "renderer"
+      },
+      {
+        "pid": 87128,
+        "ppid": 87033,
+        "rssKiB": 64400,
+        "type": "other"
+      },
+      {
+        "pid": 87325,
+        "ppid": 87033,
+        "rssKiB": 151872,
+        "type": "renderer"
+      },
+      {
+        "pid": 87360,
+        "ppid": 87033,
+        "rssKiB": 79968,
+        "type": "renderer"
+      },
+      {
+        "pid": 87734,
+        "ppid": 87033,
+        "rssKiB": 12464,
+        "type": "other"
+      },
+      {
+        "pid": 87737,
+        "ppid": 87734,
+        "rssKiB": 12816,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "changing-1",
+    "at": "2026-10-04T02:48:33.531Z",
+    "processCount": 11,
+    "rssKiBSum": 966336,
+    "processes": [
+      {
+        "pid": 87033,
+        "ppid": 86099,
+        "rssKiB": 194192,
+        "type": "browser"
+      },
+      {
+        "pid": 87040,
+        "ppid": 87033,
+        "rssKiB": 88896,
+        "type": "gpu"
+      },
+      {
+        "pid": 87041,
+        "ppid": 87033,
+        "rssKiB": 87712,
+        "type": "other"
+      },
+      {
+        "pid": 87042,
+        "ppid": 87033,
+        "rssKiB": 61840,
+        "type": "other"
+      },
+      {
+        "pid": 87063,
+        "ppid": 87033,
+        "rssKiB": 117696,
+        "type": "renderer"
+      },
+      {
+        "pid": 87069,
+        "ppid": 87033,
+        "rssKiB": 93456,
+        "type": "renderer"
+      },
+      {
+        "pid": 87128,
+        "ppid": 87033,
+        "rssKiB": 64432,
+        "type": "other"
+      },
+      {
+        "pid": 87325,
+        "ppid": 87033,
+        "rssKiB": 152864,
+        "type": "renderer"
+      },
+      {
+        "pid": 87360,
+        "ppid": 87033,
+        "rssKiB": 79968,
+        "type": "renderer"
+      },
+      {
+        "pid": 87734,
+        "ppid": 87033,
+        "rssKiB": 12464,
+        "type": "other"
+      },
+      {
+        "pid": 87737,
+        "ppid": 87734,
+        "rssKiB": 12816,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "changing-1",
+    "at": "2026-10-04T02:48:34.032Z",
+    "processCount": 11,
+    "rssKiBSum": 966368,
+    "processes": [
+      {
+        "pid": 87033,
+        "ppid": 86099,
+        "rssKiB": 194192,
+        "type": "browser"
+      },
+      {
+        "pid": 87040,
+        "ppid": 87033,
+        "rssKiB": 88896,
+        "type": "gpu"
+      },
+      {
+        "pid": 87041,
+        "ppid": 87033,
+        "rssKiB": 87712,
+        "type": "other"
+      },
+      {
+        "pid": 87042,
+        "ppid": 87033,
+        "rssKiB": 61840,
+        "type": "other"
+      },
+      {
+        "pid": 87063,
+        "ppid": 87033,
+        "rssKiB": 117696,
+        "type": "renderer"
+      },
+      {
+        "pid": 87069,
+        "ppid": 87033,
+        "rssKiB": 93456,
+        "type": "renderer"
+      },
+      {
+        "pid": 87128,
+        "ppid": 87033,
+        "rssKiB": 64432,
+        "type": "other"
+      },
+      {
+        "pid": 87325,
+        "ppid": 87033,
+        "rssKiB": 152896,
+        "type": "renderer"
+      },
+      {
+        "pid": 87360,
+        "ppid": 87033,
+        "rssKiB": 79968,
+        "type": "renderer"
+      },
+      {
+        "pid": 87734,
+        "ppid": 87033,
+        "rssKiB": 12464,
+        "type": "other"
+      },
+      {
+        "pid": 87737,
+        "ppid": 87734,
+        "rssKiB": 12816,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "changing-1",
+    "at": "2026-10-04T02:48:34.546Z",
+    "processCount": 11,
+    "rssKiBSum": 961600,
+    "processes": [
+      {
+        "pid": 87033,
+        "ppid": 86099,
+        "rssKiB": 191072,
+        "type": "browser"
+      },
+      {
+        "pid": 87040,
+        "ppid": 87033,
+        "rssKiB": 88592,
+        "type": "gpu"
+      },
+      {
+        "pid": 87041,
+        "ppid": 87033,
+        "rssKiB": 87584,
+        "type": "other"
+      },
+      {
+        "pid": 87042,
+        "ppid": 87033,
+        "rssKiB": 61808,
+        "type": "other"
+      },
+      {
+        "pid": 87063,
+        "ppid": 87033,
+        "rssKiB": 117536,
+        "type": "renderer"
+      },
+      {
+        "pid": 87069,
+        "ppid": 87033,
+        "rssKiB": 93392,
+        "type": "renderer"
+      },
+      {
+        "pid": 87128,
+        "ppid": 87033,
+        "rssKiB": 64112,
+        "type": "other"
+      },
+      {
+        "pid": 87325,
+        "ppid": 87033,
+        "rssKiB": 152416,
+        "type": "renderer"
+      },
+      {
+        "pid": 87360,
+        "ppid": 87033,
+        "rssKiB": 79808,
+        "type": "renderer"
+      },
+      {
+        "pid": 87734,
+        "ppid": 87033,
+        "rssKiB": 12464,
+        "type": "other"
+      },
+      {
+        "pid": 87737,
+        "ppid": 87734,
+        "rssKiB": 12816,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "changing-1",
+    "at": "2026-10-04T02:48:35.036Z",
+    "processCount": 11,
+    "rssKiBSum": 959008,
+    "processes": [
+      {
+        "pid": 87033,
+        "ppid": 86099,
+        "rssKiB": 189504,
+        "type": "browser"
+      },
+      {
+        "pid": 87040,
+        "ppid": 87033,
+        "rssKiB": 88576,
+        "type": "gpu"
+      },
+      {
+        "pid": 87041,
+        "ppid": 87033,
+        "rssKiB": 87264,
+        "type": "other"
+      },
+      {
+        "pid": 87042,
+        "ppid": 87033,
+        "rssKiB": 61808,
+        "type": "other"
+      },
+      {
+        "pid": 87063,
+        "ppid": 87033,
+        "rssKiB": 116848,
+        "type": "renderer"
+      },
+      {
+        "pid": 87069,
+        "ppid": 87033,
+        "rssKiB": 93408,
+        "type": "renderer"
+      },
+      {
+        "pid": 87128,
+        "ppid": 87033,
+        "rssKiB": 64144,
+        "type": "other"
+      },
+      {
+        "pid": 87325,
+        "ppid": 87033,
+        "rssKiB": 152368,
+        "type": "renderer"
+      },
+      {
+        "pid": 87360,
+        "ppid": 87033,
+        "rssKiB": 79808,
+        "type": "renderer"
+      },
+      {
+        "pid": 87734,
+        "ppid": 87033,
+        "rssKiB": 12464,
+        "type": "other"
+      },
+      {
+        "pid": 87737,
+        "ppid": 87734,
+        "rssKiB": 12816,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "changing-1",
+    "at": "2026-10-04T02:48:35.533Z",
+    "processCount": 11,
+    "rssKiBSum": 957728,
+    "processes": [
+      {
+        "pid": 87033,
+        "ppid": 86099,
+        "rssKiB": 188560,
+        "type": "browser"
+      },
+      {
+        "pid": 87040,
+        "ppid": 87033,
+        "rssKiB": 88576,
+        "type": "gpu"
+      },
+      {
+        "pid": 87041,
+        "ppid": 87033,
+        "rssKiB": 87136,
+        "type": "other"
+      },
+      {
+        "pid": 87042,
+        "ppid": 87033,
+        "rssKiB": 61808,
+        "type": "other"
+      },
+      {
+        "pid": 87063,
+        "ppid": 87033,
+        "rssKiB": 116640,
+        "type": "renderer"
+      },
+      {
+        "pid": 87069,
+        "ppid": 87033,
+        "rssKiB": 93408,
+        "type": "renderer"
+      },
+      {
+        "pid": 87128,
+        "ppid": 87033,
+        "rssKiB": 64144,
+        "type": "other"
+      },
+      {
+        "pid": 87325,
+        "ppid": 87033,
+        "rssKiB": 152368,
+        "type": "renderer"
+      },
+      {
+        "pid": 87360,
+        "ppid": 87033,
+        "rssKiB": 79808,
+        "type": "renderer"
+      },
+      {
+        "pid": 87734,
+        "ppid": 87033,
+        "rssKiB": 12464,
+        "type": "other"
+      },
+      {
+        "pid": 87737,
+        "ppid": 87734,
+        "rssKiB": 12816,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "changing-1",
+    "at": "2026-10-04T02:48:36.035Z",
+    "processCount": 11,
+    "rssKiBSum": 956496,
+    "processes": [
+      {
+        "pid": 87033,
+        "ppid": 86099,
+        "rssKiB": 188432,
+        "type": "browser"
+      },
+      {
+        "pid": 87040,
+        "ppid": 87033,
+        "rssKiB": 88528,
+        "type": "gpu"
+      },
+      {
+        "pid": 87041,
+        "ppid": 87033,
+        "rssKiB": 87056,
+        "type": "other"
+      },
+      {
+        "pid": 87042,
+        "ppid": 87033,
+        "rssKiB": 61792,
+        "type": "other"
+      },
+      {
+        "pid": 87063,
+        "ppid": 87033,
+        "rssKiB": 116576,
+        "type": "renderer"
+      },
+      {
+        "pid": 87069,
+        "ppid": 87033,
+        "rssKiB": 93344,
+        "type": "renderer"
+      },
+      {
+        "pid": 87128,
+        "ppid": 87033,
+        "rssKiB": 64128,
+        "type": "other"
+      },
+      {
+        "pid": 87325,
+        "ppid": 87033,
+        "rssKiB": 152096,
+        "type": "renderer"
+      },
+      {
+        "pid": 87360,
+        "ppid": 87033,
+        "rssKiB": 79264,
+        "type": "renderer"
+      },
+      {
+        "pid": 87734,
+        "ppid": 87033,
+        "rssKiB": 12464,
+        "type": "other"
+      },
+      {
+        "pid": 87737,
+        "ppid": 87734,
+        "rssKiB": 12816,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "changing-1",
+    "at": "2026-10-04T02:48:36.539Z",
+    "processCount": 11,
+    "rssKiBSum": 928608,
+    "processes": [
+      {
+        "pid": 87033,
+        "ppid": 86099,
+        "rssKiB": 186016,
+        "type": "browser"
+      },
+      {
+        "pid": 87040,
+        "ppid": 87033,
+        "rssKiB": 86352,
+        "type": "gpu"
+      },
+      {
+        "pid": 87041,
+        "ppid": 87033,
+        "rssKiB": 86128,
+        "type": "other"
+      },
+      {
+        "pid": 87042,
+        "ppid": 87033,
+        "rssKiB": 61152,
+        "type": "other"
+      },
+      {
+        "pid": 87063,
+        "ppid": 87033,
+        "rssKiB": 115664,
+        "type": "renderer"
+      },
+      {
+        "pid": 87069,
+        "ppid": 87033,
+        "rssKiB": 92704,
+        "type": "renderer"
+      },
+      {
+        "pid": 87128,
+        "ppid": 87033,
+        "rssKiB": 62704,
+        "type": "other"
+      },
+      {
+        "pid": 87325,
+        "ppid": 87033,
+        "rssKiB": 150288,
+        "type": "renderer"
+      },
+      {
+        "pid": 87360,
+        "ppid": 87033,
+        "rssKiB": 77776,
+        "type": "renderer"
+      },
+      {
+        "pid": 87734,
+        "ppid": 87033,
+        "rssKiB": 9824,
+        "type": "other"
+      },
+      {
+        "pid": 87737,
+        "ppid": 87734,
+        "rssKiB": 0,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "changing-1",
+    "at": "2026-10-04T02:48:37.042Z",
+    "processCount": 10,
+    "rssKiBSum": 915136,
+    "processes": [
+      {
+        "pid": 87033,
+        "ppid": 86099,
+        "rssKiB": 184464,
+        "type": "browser"
+      },
+      {
+        "pid": 87040,
+        "ppid": 87033,
+        "rssKiB": 85728,
+        "type": "gpu"
+      },
+      {
+        "pid": 87041,
+        "ppid": 87033,
+        "rssKiB": 85904,
+        "type": "other"
+      },
+      {
+        "pid": 87042,
+        "ppid": 87033,
+        "rssKiB": 61104,
+        "type": "other"
+      },
+      {
+        "pid": 87063,
+        "ppid": 87033,
+        "rssKiB": 115280,
+        "type": "renderer"
+      },
+      {
+        "pid": 87069,
+        "ppid": 87033,
+        "rssKiB": 92624,
+        "type": "renderer"
+      },
+      {
+        "pid": 87128,
+        "ppid": 87033,
+        "rssKiB": 62240,
+        "type": "other"
+      },
+      {
+        "pid": 87325,
+        "ppid": 87033,
+        "rssKiB": 150080,
+        "type": "renderer"
+      },
+      {
+        "pid": 87360,
+        "ppid": 87033,
+        "rssKiB": 77712,
+        "type": "renderer"
+      },
+      {
+        "pid": 87734,
+        "ppid": 87033,
+        "rssKiB": 0,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "changing-1",
+    "at": "2026-10-04T02:48:37.537Z",
+    "processCount": 10,
+    "rssKiBSum": 915152,
+    "processes": [
+      {
+        "pid": 87033,
+        "ppid": 86099,
+        "rssKiB": 184432,
+        "type": "browser"
+      },
+      {
+        "pid": 87040,
+        "ppid": 87033,
+        "rssKiB": 85776,
+        "type": "gpu"
+      },
+      {
+        "pid": 87041,
+        "ppid": 87033,
+        "rssKiB": 85904,
+        "type": "other"
+      },
+      {
+        "pid": 87042,
+        "ppid": 87033,
+        "rssKiB": 61104,
+        "type": "other"
+      },
+      {
+        "pid": 87063,
+        "ppid": 87033,
+        "rssKiB": 115280,
+        "type": "renderer"
+      },
+      {
+        "pid": 87069,
+        "ppid": 87033,
+        "rssKiB": 92624,
+        "type": "renderer"
+      },
+      {
+        "pid": 87128,
+        "ppid": 87033,
+        "rssKiB": 62240,
+        "type": "other"
+      },
+      {
+        "pid": 87325,
+        "ppid": 87033,
+        "rssKiB": 150080,
+        "type": "renderer"
+      },
+      {
+        "pid": 87360,
+        "ppid": 87033,
+        "rssKiB": 77712,
+        "type": "renderer"
+      },
+      {
+        "pid": 87734,
+        "ppid": 87033,
+        "rssKiB": 0,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "changing-1",
+    "at": "2026-10-04T02:48:38.039Z",
+    "processCount": 10,
+    "rssKiBSum": 915168,
+    "processes": [
+      {
+        "pid": 87033,
+        "ppid": 86099,
+        "rssKiB": 184432,
+        "type": "browser"
+      },
+      {
+        "pid": 87040,
+        "ppid": 87033,
+        "rssKiB": 85776,
+        "type": "gpu"
+      },
+      {
+        "pid": 87041,
+        "ppid": 87033,
+        "rssKiB": 85904,
+        "type": "other"
+      },
+      {
+        "pid": 87042,
+        "ppid": 87033,
+        "rssKiB": 61104,
+        "type": "other"
+      },
+      {
+        "pid": 87063,
+        "ppid": 87033,
+        "rssKiB": 115280,
+        "type": "renderer"
+      },
+      {
+        "pid": 87069,
+        "ppid": 87033,
+        "rssKiB": 92624,
+        "type": "renderer"
+      },
+      {
+        "pid": 87128,
+        "ppid": 87033,
+        "rssKiB": 62240,
+        "type": "other"
+      },
+      {
+        "pid": 87325,
+        "ppid": 87033,
+        "rssKiB": 150096,
+        "type": "renderer"
+      },
+      {
+        "pid": 87360,
+        "ppid": 87033,
+        "rssKiB": 77712,
+        "type": "renderer"
+      },
+      {
+        "pid": 87734,
+        "ppid": 87033,
+        "rssKiB": 0,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "changing-1",
+    "at": "2026-10-04T02:48:38.541Z",
+    "processCount": 10,
+    "rssKiBSum": 914864,
+    "processes": [
+      {
+        "pid": 87033,
+        "ppid": 86099,
+        "rssKiB": 184432,
+        "type": "browser"
+      },
+      {
+        "pid": 87040,
+        "ppid": 87033,
+        "rssKiB": 85760,
+        "type": "gpu"
+      },
+      {
+        "pid": 87041,
+        "ppid": 87033,
+        "rssKiB": 85888,
+        "type": "other"
+      },
+      {
+        "pid": 87042,
+        "ppid": 87033,
+        "rssKiB": 61088,
+        "type": "other"
+      },
+      {
+        "pid": 87063,
+        "ppid": 87033,
+        "rssKiB": 115264,
+        "type": "renderer"
+      },
+      {
+        "pid": 87069,
+        "ppid": 87033,
+        "rssKiB": 92576,
+        "type": "renderer"
+      },
+      {
+        "pid": 87128,
+        "ppid": 87033,
+        "rssKiB": 62256,
+        "type": "other"
+      },
+      {
+        "pid": 87325,
+        "ppid": 87033,
+        "rssKiB": 149904,
+        "type": "renderer"
+      },
+      {
+        "pid": 87360,
+        "ppid": 87033,
+        "rssKiB": 77696,
+        "type": "renderer"
+      },
+      {
+        "pid": 87734,
+        "ppid": 87033,
+        "rssKiB": 0,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "changing-1",
+    "at": "2026-10-04T02:48:39.045Z",
+    "processCount": 10,
+    "rssKiBSum": 951520,
+    "processes": [
+      {
+        "pid": 87033,
+        "ppid": 86099,
+        "rssKiB": 183248,
+        "type": "browser"
+      },
+      {
+        "pid": 87040,
+        "ppid": 87033,
+        "rssKiB": 85280,
+        "type": "gpu"
+      },
+      {
+        "pid": 87041,
+        "ppid": 87033,
+        "rssKiB": 84768,
+        "type": "other"
+      },
+      {
+        "pid": 87042,
+        "ppid": 87033,
+        "rssKiB": 60864,
+        "type": "other"
+      },
+      {
+        "pid": 87063,
+        "ppid": 87033,
+        "rssKiB": 115056,
+        "type": "renderer"
+      },
+      {
+        "pid": 87069,
+        "ppid": 87033,
+        "rssKiB": 92608,
+        "type": "renderer"
+      },
+      {
+        "pid": 87128,
+        "ppid": 87033,
+        "rssKiB": 102416,
+        "type": "other"
+      },
+      {
+        "pid": 87325,
+        "ppid": 87033,
+        "rssKiB": 149728,
+        "type": "renderer"
+      },
+      {
+        "pid": 87360,
+        "ppid": 87033,
+        "rssKiB": 77552,
+        "type": "renderer"
+      },
+      {
+        "pid": 87734,
+        "ppid": 87033,
+        "rssKiB": 0,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "changing-1",
+    "at": "2026-10-04T02:48:39.544Z",
+    "processCount": 10,
+    "rssKiBSum": 1070816,
+    "processes": [
+      {
+        "pid": 87033,
+        "ppid": 86099,
+        "rssKiB": 196016,
+        "type": "browser"
+      },
+      {
+        "pid": 87040,
+        "ppid": 87033,
+        "rssKiB": 84512,
+        "type": "gpu"
+      },
+      {
+        "pid": 87041,
+        "ppid": 87033,
+        "rssKiB": 84448,
+        "type": "other"
+      },
+      {
+        "pid": 87042,
+        "ppid": 87033,
+        "rssKiB": 60816,
+        "type": "other"
+      },
+      {
+        "pid": 87063,
+        "ppid": 87033,
+        "rssKiB": 114688,
+        "type": "renderer"
+      },
+      {
+        "pid": 87069,
+        "ppid": 87033,
+        "rssKiB": 92560,
+        "type": "renderer"
+      },
+      {
+        "pid": 87128,
+        "ppid": 87033,
+        "rssKiB": 153024,
+        "type": "other"
+      },
+      {
+        "pid": 87325,
+        "ppid": 87033,
+        "rssKiB": 207200,
+        "type": "renderer"
+      },
+      {
+        "pid": 87360,
+        "ppid": 87033,
+        "rssKiB": 77552,
+        "type": "renderer"
+      },
+      {
+        "pid": 87734,
+        "ppid": 87033,
+        "rssKiB": 0,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "changing-1",
+    "at": "2026-10-04T02:48:40.070Z",
+    "processCount": 10,
+    "rssKiBSum": 1074672,
+    "processes": [
+      {
+        "pid": 87033,
+        "ppid": 86099,
+        "rssKiB": 196144,
+        "type": "browser"
+      },
+      {
+        "pid": 87040,
+        "ppid": 87033,
+        "rssKiB": 84512,
+        "type": "gpu"
+      },
+      {
+        "pid": 87041,
+        "ppid": 87033,
+        "rssKiB": 84912,
+        "type": "other"
+      },
+      {
+        "pid": 87042,
+        "ppid": 87033,
+        "rssKiB": 60816,
+        "type": "other"
+      },
+      {
+        "pid": 87063,
+        "ppid": 87033,
+        "rssKiB": 114688,
+        "type": "renderer"
+      },
+      {
+        "pid": 87069,
+        "ppid": 87033,
+        "rssKiB": 92560,
+        "type": "renderer"
+      },
+      {
+        "pid": 87128,
+        "ppid": 87033,
+        "rssKiB": 153024,
+        "type": "other"
+      },
+      {
+        "pid": 87325,
+        "ppid": 87033,
+        "rssKiB": 210464,
+        "type": "renderer"
+      },
+      {
+        "pid": 87360,
+        "ppid": 87033,
+        "rssKiB": 77552,
+        "type": "renderer"
+      },
+      {
+        "pid": 87734,
+        "ppid": 87033,
+        "rssKiB": 0,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "changing-1",
+    "at": "2026-10-04T02:48:40.577Z",
+    "processCount": 10,
+    "rssKiBSum": 1056976,
+    "processes": [
+      {
+        "pid": 87033,
+        "ppid": 86099,
+        "rssKiB": 196672,
+        "type": "browser"
+      },
+      {
+        "pid": 87040,
+        "ppid": 87033,
+        "rssKiB": 84496,
+        "type": "gpu"
+      },
+      {
+        "pid": 87041,
+        "ppid": 87033,
+        "rssKiB": 84960,
+        "type": "other"
+      },
+      {
+        "pid": 87042,
+        "ppid": 87033,
+        "rssKiB": 60816,
+        "type": "other"
+      },
+      {
+        "pid": 87063,
+        "ppid": 87033,
+        "rssKiB": 114576,
+        "type": "renderer"
+      },
+      {
+        "pid": 87069,
+        "ppid": 87033,
+        "rssKiB": 92560,
+        "type": "renderer"
+      },
+      {
+        "pid": 87128,
+        "ppid": 87033,
+        "rssKiB": 134208,
+        "type": "other"
+      },
+      {
+        "pid": 87325,
+        "ppid": 87033,
+        "rssKiB": 211136,
+        "type": "renderer"
+      },
+      {
+        "pid": 87360,
+        "ppid": 87033,
+        "rssKiB": 77552,
+        "type": "renderer"
+      },
+      {
+        "pid": 87734,
+        "ppid": 87033,
+        "rssKiB": 0,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "changing-1",
+    "at": "2026-10-04T02:48:41.044Z",
+    "processCount": 10,
+    "rssKiBSum": 1048480,
+    "processes": [
+      {
+        "pid": 87033,
+        "ppid": 86099,
+        "rssKiB": 196704,
+        "type": "browser"
+      },
+      {
+        "pid": 87040,
+        "ppid": 87033,
+        "rssKiB": 84480,
+        "type": "gpu"
+      },
+      {
+        "pid": 87041,
+        "ppid": 87033,
+        "rssKiB": 85440,
+        "type": "other"
+      },
+      {
+        "pid": 87042,
+        "ppid": 87033,
+        "rssKiB": 60816,
+        "type": "other"
+      },
+      {
+        "pid": 87063,
+        "ppid": 87033,
+        "rssKiB": 114576,
+        "type": "renderer"
+      },
+      {
+        "pid": 87069,
+        "ppid": 87033,
+        "rssKiB": 92560,
+        "type": "renderer"
+      },
+      {
+        "pid": 87128,
+        "ppid": 87033,
+        "rssKiB": 122160,
+        "type": "other"
+      },
+      {
+        "pid": 87325,
+        "ppid": 87033,
+        "rssKiB": 214192,
+        "type": "renderer"
+      },
+      {
+        "pid": 87360,
+        "ppid": 87033,
+        "rssKiB": 77552,
+        "type": "renderer"
+      },
+      {
+        "pid": 87734,
+        "ppid": 87033,
+        "rssKiB": 0,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "changing-1",
+    "at": "2026-10-04T02:48:41.579Z",
+    "processCount": 10,
+    "rssKiBSum": 1037936,
+    "processes": [
+      {
+        "pid": 87033,
+        "ppid": 86099,
+        "rssKiB": 196704,
+        "type": "browser"
+      },
+      {
+        "pid": 87040,
+        "ppid": 87033,
+        "rssKiB": 84480,
+        "type": "gpu"
+      },
+      {
+        "pid": 87041,
+        "ppid": 87033,
+        "rssKiB": 85440,
+        "type": "other"
+      },
+      {
+        "pid": 87042,
+        "ppid": 87033,
+        "rssKiB": 60816,
+        "type": "other"
+      },
+      {
+        "pid": 87063,
+        "ppid": 87033,
+        "rssKiB": 114576,
+        "type": "renderer"
+      },
+      {
+        "pid": 87069,
+        "ppid": 87033,
+        "rssKiB": 92496,
+        "type": "renderer"
+      },
+      {
+        "pid": 87128,
+        "ppid": 87033,
+        "rssKiB": 111664,
+        "type": "other"
+      },
+      {
+        "pid": 87325,
+        "ppid": 87033,
+        "rssKiB": 214192,
+        "type": "renderer"
+      },
+      {
+        "pid": 87360,
+        "ppid": 87033,
+        "rssKiB": 77568,
+        "type": "renderer"
+      },
+      {
+        "pid": 87734,
+        "ppid": 87033,
+        "rssKiB": 0,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "changing-1",
+    "at": "2026-10-04T02:48:42.073Z",
+    "processCount": 10,
+    "rssKiBSum": 993472,
+    "processes": [
+      {
+        "pid": 87033,
+        "ppid": 86099,
+        "rssKiB": 192880,
+        "type": "browser"
+      },
+      {
+        "pid": 87040,
+        "ppid": 87033,
+        "rssKiB": 84496,
+        "type": "gpu"
+      },
+      {
+        "pid": 87041,
+        "ppid": 87033,
+        "rssKiB": 85472,
+        "type": "other"
+      },
+      {
+        "pid": 87042,
+        "ppid": 87033,
+        "rssKiB": 60816,
+        "type": "other"
+      },
+      {
+        "pid": 87063,
+        "ppid": 87033,
+        "rssKiB": 114560,
+        "type": "renderer"
+      },
+      {
+        "pid": 87069,
+        "ppid": 87033,
+        "rssKiB": 92464,
+        "type": "renderer"
+      },
+      {
+        "pid": 87128,
+        "ppid": 87033,
+        "rssKiB": 71024,
+        "type": "other"
+      },
+      {
+        "pid": 87325,
+        "ppid": 87033,
+        "rssKiB": 214192,
+        "type": "renderer"
+      },
+      {
+        "pid": 87360,
+        "ppid": 87033,
+        "rssKiB": 77568,
+        "type": "renderer"
+      },
+      {
+        "pid": 87734,
+        "ppid": 87033,
+        "rssKiB": 0,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "changing-1",
+    "at": "2026-10-04T02:48:42.681Z",
+    "processCount": 10,
+    "rssKiBSum": 1005872,
+    "processes": [
+      {
+        "pid": 87033,
+        "ppid": 86099,
+        "rssKiB": 197616,
+        "type": "browser"
+      },
+      {
+        "pid": 87040,
+        "ppid": 87033,
+        "rssKiB": 86704,
+        "type": "gpu"
+      },
+      {
+        "pid": 87041,
+        "ppid": 87033,
+        "rssKiB": 85520,
+        "type": "other"
+      },
+      {
+        "pid": 87042,
+        "ppid": 87033,
+        "rssKiB": 59232,
+        "type": "other"
+      },
+      {
+        "pid": 87063,
+        "ppid": 87033,
+        "rssKiB": 124176,
+        "type": "renderer"
+      },
+      {
+        "pid": 87069,
+        "ppid": 87033,
+        "rssKiB": 95552,
+        "type": "renderer"
+      },
+      {
+        "pid": 87128,
+        "ppid": 87033,
+        "rssKiB": 68256,
+        "type": "other"
+      },
+      {
+        "pid": 87325,
+        "ppid": 87033,
+        "rssKiB": 187776,
+        "type": "renderer"
+      },
+      {
+        "pid": 87734,
+        "ppid": 87033,
+        "rssKiB": 0,
+        "type": "other"
+      },
+      {
+        "pid": 88115,
+        "ppid": 87033,
+        "rssKiB": 101040,
+        "type": "renderer"
+      }
+    ]
+  },
+  {
+    "run": "changing-1",
+    "at": "2026-10-04T02:48:42.708Z",
+    "processCount": 10,
+    "rssKiBSum": 1003680,
+    "processes": [
+      {
+        "pid": 87033,
+        "ppid": 86099,
+        "rssKiB": 196752,
+        "type": "browser"
+      },
+      {
+        "pid": 87040,
+        "ppid": 87033,
+        "rssKiB": 86528,
+        "type": "gpu"
+      },
+      {
+        "pid": 87041,
+        "ppid": 87033,
+        "rssKiB": 85280,
+        "type": "other"
+      },
+      {
+        "pid": 87042,
+        "ppid": 87033,
+        "rssKiB": 59232,
+        "type": "other"
+      },
+      {
+        "pid": 87063,
+        "ppid": 87033,
+        "rssKiB": 123712,
+        "type": "renderer"
+      },
+      {
+        "pid": 87069,
+        "ppid": 87033,
+        "rssKiB": 95424,
+        "type": "renderer"
+      },
+      {
+        "pid": 87128,
+        "ppid": 87033,
+        "rssKiB": 68144,
+        "type": "other"
+      },
+      {
+        "pid": 87325,
+        "ppid": 87033,
+        "rssKiB": 187568,
+        "type": "renderer"
+      },
+      {
+        "pid": 87734,
+        "ppid": 87033,
+        "rssKiB": 0,
+        "type": "other"
+      },
+      {
+        "pid": 88115,
+        "ppid": 87033,
+        "rssKiB": 101040,
+        "type": "renderer"
+      }
+    ]
+  },
+  {
+    "run": "recovered-1",
+    "at": "2026-10-04T02:48:43.808Z",
+    "processCount": 5,
+    "rssKiBSum": 493952,
+    "processes": [
+      {
+        "pid": 88153,
+        "ppid": 86099,
+        "rssKiB": 158624,
+        "type": "browser"
+      },
+      {
+        "pid": 88159,
+        "ppid": 88153,
+        "rssKiB": 88656,
+        "type": "gpu"
+      },
+      {
+        "pid": 88160,
+        "ppid": 88153,
+        "rssKiB": 81696,
+        "type": "other"
+      },
+      {
+        "pid": 88162,
+        "ppid": 88153,
+        "rssKiB": 77824,
+        "type": "other"
+      },
+      {
+        "pid": 88163,
+        "ppid": 88153,
+        "rssKiB": 87152,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "recovered-1",
+    "at": "2026-10-04T02:48:44.306Z",
+    "processCount": 8,
+    "rssKiBSum": 1024256,
+    "processes": [
+      {
+        "pid": 88153,
+        "ppid": 86099,
+        "rssKiB": 209136,
+        "type": "browser"
+      },
+      {
+        "pid": 88159,
+        "ppid": 88153,
+        "rssKiB": 86608,
+        "type": "gpu"
+      },
+      {
+        "pid": 88160,
+        "ppid": 88153,
+        "rssKiB": 87392,
+        "type": "other"
+      },
+      {
+        "pid": 88162,
+        "ppid": 88153,
+        "rssKiB": 65648,
+        "type": "other"
+      },
+      {
+        "pid": 88185,
+        "ppid": 88153,
+        "rssKiB": 209024,
+        "type": "renderer"
+      },
+      {
+        "pid": 88187,
+        "ppid": 88153,
+        "rssKiB": 147984,
+        "type": "renderer"
+      },
+      {
+        "pid": 88188,
+        "ppid": 88153,
+        "rssKiB": 117936,
+        "type": "renderer"
+      },
+      {
+        "pid": 88189,
+        "ppid": 88153,
+        "rssKiB": 100528,
+        "type": "renderer"
+      }
+    ]
+  },
+  {
+    "run": "recovered-1",
+    "at": "2026-10-04T02:48:44.815Z",
+    "processCount": 8,
+    "rssKiBSum": 1055296,
+    "processes": [
+      {
+        "pid": 88153,
+        "ppid": 86099,
+        "rssKiB": 207680,
+        "type": "browser"
+      },
+      {
+        "pid": 88159,
+        "ppid": 88153,
+        "rssKiB": 86592,
+        "type": "gpu"
+      },
+      {
+        "pid": 88160,
+        "ppid": 88153,
+        "rssKiB": 89088,
+        "type": "other"
+      },
+      {
+        "pid": 88162,
+        "ppid": 88153,
+        "rssKiB": 63680,
+        "type": "other"
+      },
+      {
+        "pid": 88185,
+        "ppid": 88153,
+        "rssKiB": 197120,
+        "type": "renderer"
+      },
+      {
+        "pid": 88187,
+        "ppid": 88153,
+        "rssKiB": 198928,
+        "type": "renderer"
+      },
+      {
+        "pid": 88188,
+        "ppid": 88153,
+        "rssKiB": 111664,
+        "type": "renderer"
+      },
+      {
+        "pid": 88189,
+        "ppid": 88153,
+        "rssKiB": 100544,
+        "type": "renderer"
+      }
+    ]
+  },
+  {
+    "run": "recovered-1",
+    "at": "2026-10-04T02:48:45.481Z",
+    "processCount": 8,
+    "rssKiBSum": 970688,
+    "processes": [
+      {
+        "pid": 88153,
+        "ppid": 86099,
+        "rssKiB": 202512,
+        "type": "browser"
+      },
+      {
+        "pid": 88159,
+        "ppid": 88153,
+        "rssKiB": 84912,
+        "type": "gpu"
+      },
+      {
+        "pid": 88160,
+        "ppid": 88153,
+        "rssKiB": 89392,
+        "type": "other"
+      },
+      {
+        "pid": 88162,
+        "ppid": 88153,
+        "rssKiB": 63648,
+        "type": "other"
+      },
+      {
+        "pid": 88185,
+        "ppid": 88153,
+        "rssKiB": 157104,
+        "type": "renderer"
+      },
+      {
+        "pid": 88187,
+        "ppid": 88153,
+        "rssKiB": 189392,
+        "type": "renderer"
+      },
+      {
+        "pid": 88188,
+        "ppid": 88153,
+        "rssKiB": 101840,
+        "type": "renderer"
+      },
+      {
+        "pid": 88189,
+        "ppid": 88153,
+        "rssKiB": 81888,
+        "type": "renderer"
+      }
+    ]
+  },
+  {
+    "run": "recovered-1",
+    "at": "2026-10-04T02:48:45.841Z",
+    "processCount": 9,
+    "rssKiBSum": 1062896,
+    "processes": [
+      {
+        "pid": 88153,
+        "ppid": 86099,
+        "rssKiB": 206304,
+        "type": "browser"
+      },
+      {
+        "pid": 88159,
+        "ppid": 88153,
+        "rssKiB": 89648,
+        "type": "gpu"
+      },
+      {
+        "pid": 88160,
+        "ppid": 88153,
+        "rssKiB": 89984,
+        "type": "other"
+      },
+      {
+        "pid": 88162,
+        "ppid": 88153,
+        "rssKiB": 64112,
+        "type": "other"
+      },
+      {
+        "pid": 88185,
+        "ppid": 88153,
+        "rssKiB": 157744,
+        "type": "renderer"
+      },
+      {
+        "pid": 88187,
+        "ppid": 88153,
+        "rssKiB": 191536,
+        "type": "renderer"
+      },
+      {
+        "pid": 88188,
+        "ppid": 88153,
+        "rssKiB": 102704,
+        "type": "renderer"
+      },
+      {
+        "pid": 88189,
+        "ppid": 88153,
+        "rssKiB": 82512,
+        "type": "renderer"
+      },
+      {
+        "pid": 88245,
+        "ppid": 88153,
+        "rssKiB": 78352,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "recovered-1",
+    "at": "2026-10-04T02:48:46.315Z",
+    "processCount": 9,
+    "rssKiBSum": 1069728,
+    "processes": [
+      {
+        "pid": 88153,
+        "ppid": 86099,
+        "rssKiB": 212880,
+        "type": "browser"
+      },
+      {
+        "pid": 88159,
+        "ppid": 88153,
+        "rssKiB": 88544,
+        "type": "gpu"
+      },
+      {
+        "pid": 88160,
+        "ppid": 88153,
+        "rssKiB": 92144,
+        "type": "other"
+      },
+      {
+        "pid": 88162,
+        "ppid": 88153,
+        "rssKiB": 64624,
+        "type": "other"
+      },
+      {
+        "pid": 88185,
+        "ppid": 88153,
+        "rssKiB": 152880,
+        "type": "renderer"
+      },
+      {
+        "pid": 88187,
+        "ppid": 88153,
+        "rssKiB": 194816,
+        "type": "renderer"
+      },
+      {
+        "pid": 88188,
+        "ppid": 88153,
+        "rssKiB": 102688,
+        "type": "renderer"
+      },
+      {
+        "pid": 88189,
+        "ppid": 88153,
+        "rssKiB": 82416,
+        "type": "renderer"
+      },
+      {
+        "pid": 88245,
+        "ppid": 88153,
+        "rssKiB": 78736,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "recovered-1",
+    "at": "2026-10-04T02:48:46.814Z",
+    "processCount": 9,
+    "rssKiBSum": 1061136,
+    "processes": [
+      {
+        "pid": 88153,
+        "ppid": 86099,
+        "rssKiB": 215440,
+        "type": "browser"
+      },
+      {
+        "pid": 88159,
+        "ppid": 88153,
+        "rssKiB": 88672,
+        "type": "gpu"
+      },
+      {
+        "pid": 88160,
+        "ppid": 88153,
+        "rssKiB": 92832,
+        "type": "other"
+      },
+      {
+        "pid": 88162,
+        "ppid": 88153,
+        "rssKiB": 64784,
+        "type": "other"
+      },
+      {
+        "pid": 88185,
+        "ppid": 88153,
+        "rssKiB": 152928,
+        "type": "renderer"
+      },
+      {
+        "pid": 88187,
+        "ppid": 88153,
+        "rssKiB": 194352,
+        "type": "renderer"
+      },
+      {
+        "pid": 88188,
+        "ppid": 88153,
+        "rssKiB": 102736,
+        "type": "renderer"
+      },
+      {
+        "pid": 88189,
+        "ppid": 88153,
+        "rssKiB": 82496,
+        "type": "renderer"
+      },
+      {
+        "pid": 88245,
+        "ppid": 88153,
+        "rssKiB": 66896,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "recovered-1",
+    "at": "2026-10-04T02:48:47.320Z",
+    "processCount": 9,
+    "rssKiBSum": 1059376,
+    "processes": [
+      {
+        "pid": 88153,
+        "ppid": 86099,
+        "rssKiB": 214928,
+        "type": "browser"
+      },
+      {
+        "pid": 88159,
+        "ppid": 88153,
+        "rssKiB": 88112,
+        "type": "gpu"
+      },
+      {
+        "pid": 88160,
+        "ppid": 88153,
+        "rssKiB": 93200,
+        "type": "other"
+      },
+      {
+        "pid": 88162,
+        "ppid": 88153,
+        "rssKiB": 64592,
+        "type": "other"
+      },
+      {
+        "pid": 88185,
+        "ppid": 88153,
+        "rssKiB": 153040,
+        "type": "renderer"
+      },
+      {
+        "pid": 88187,
+        "ppid": 88153,
+        "rssKiB": 196496,
+        "type": "renderer"
+      },
+      {
+        "pid": 88188,
+        "ppid": 88153,
+        "rssKiB": 102688,
+        "type": "renderer"
+      },
+      {
+        "pid": 88189,
+        "ppid": 88153,
+        "rssKiB": 82336,
+        "type": "renderer"
+      },
+      {
+        "pid": 88245,
+        "ppid": 88153,
+        "rssKiB": 63984,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "recovered-1",
+    "at": "2026-10-04T02:48:47.817Z",
+    "processCount": 9,
+    "rssKiBSum": 1087568,
+    "processes": [
+      {
+        "pid": 88153,
+        "ppid": 86099,
+        "rssKiB": 219056,
+        "type": "browser"
+      },
+      {
+        "pid": 88159,
+        "ppid": 88153,
+        "rssKiB": 91936,
+        "type": "gpu"
+      },
+      {
+        "pid": 88160,
+        "ppid": 88153,
+        "rssKiB": 93168,
+        "type": "other"
+      },
+      {
+        "pid": 88162,
+        "ppid": 88153,
+        "rssKiB": 64592,
+        "type": "other"
+      },
+      {
+        "pid": 88185,
+        "ppid": 88153,
+        "rssKiB": 153040,
+        "type": "renderer"
+      },
+      {
+        "pid": 88187,
+        "ppid": 88153,
+        "rssKiB": 216544,
+        "type": "renderer"
+      },
+      {
+        "pid": 88188,
+        "ppid": 88153,
+        "rssKiB": 102688,
+        "type": "renderer"
+      },
+      {
+        "pid": 88189,
+        "ppid": 88153,
+        "rssKiB": 82336,
+        "type": "renderer"
+      },
+      {
+        "pid": 88245,
+        "ppid": 88153,
+        "rssKiB": 64208,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "recovered-1",
+    "at": "2026-10-04T02:48:48.316Z",
+    "processCount": 9,
+    "rssKiBSum": 1077552,
+    "processes": [
+      {
+        "pid": 88153,
+        "ppid": 86099,
+        "rssKiB": 215520,
+        "type": "browser"
+      },
+      {
+        "pid": 88159,
+        "ppid": 88153,
+        "rssKiB": 88752,
+        "type": "gpu"
+      },
+      {
+        "pid": 88160,
+        "ppid": 88153,
+        "rssKiB": 91328,
+        "type": "other"
+      },
+      {
+        "pid": 88162,
+        "ppid": 88153,
+        "rssKiB": 64496,
+        "type": "other"
+      },
+      {
+        "pid": 88185,
+        "ppid": 88153,
+        "rssKiB": 152704,
+        "type": "renderer"
+      },
+      {
+        "pid": 88187,
+        "ppid": 88153,
+        "rssKiB": 216592,
+        "type": "renderer"
+      },
+      {
+        "pid": 88188,
+        "ppid": 88153,
+        "rssKiB": 102624,
+        "type": "renderer"
+      },
+      {
+        "pid": 88189,
+        "ppid": 88153,
+        "rssKiB": 82112,
+        "type": "renderer"
+      },
+      {
+        "pid": 88245,
+        "ppid": 88153,
+        "rssKiB": 63424,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "recovered-1",
+    "at": "2026-10-04T02:48:48.816Z",
+    "processCount": 9,
+    "rssKiBSum": 1078976,
+    "processes": [
+      {
+        "pid": 88153,
+        "ppid": 86099,
+        "rssKiB": 215632,
+        "type": "browser"
+      },
+      {
+        "pid": 88159,
+        "ppid": 88153,
+        "rssKiB": 88768,
+        "type": "gpu"
+      },
+      {
+        "pid": 88160,
+        "ppid": 88153,
+        "rssKiB": 91520,
+        "type": "other"
+      },
+      {
+        "pid": 88162,
+        "ppid": 88153,
+        "rssKiB": 64496,
+        "type": "other"
+      },
+      {
+        "pid": 88185,
+        "ppid": 88153,
+        "rssKiB": 152736,
+        "type": "renderer"
+      },
+      {
+        "pid": 88187,
+        "ppid": 88153,
+        "rssKiB": 217472,
+        "type": "renderer"
+      },
+      {
+        "pid": 88188,
+        "ppid": 88153,
+        "rssKiB": 102624,
+        "type": "renderer"
+      },
+      {
+        "pid": 88189,
+        "ppid": 88153,
+        "rssKiB": 82112,
+        "type": "renderer"
+      },
+      {
+        "pid": 88245,
+        "ppid": 88153,
+        "rssKiB": 63616,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "recovered-1",
+    "at": "2026-10-04T02:48:49.317Z",
+    "processCount": 9,
+    "rssKiBSum": 1073824,
+    "processes": [
+      {
+        "pid": 88153,
+        "ppid": 86099,
+        "rssKiB": 212688,
+        "type": "browser"
+      },
+      {
+        "pid": 88159,
+        "ppid": 88153,
+        "rssKiB": 88016,
+        "type": "gpu"
+      },
+      {
+        "pid": 88160,
+        "ppid": 88153,
+        "rssKiB": 90496,
+        "type": "other"
+      },
+      {
+        "pid": 88162,
+        "ppid": 88153,
+        "rssKiB": 64512,
+        "type": "other"
+      },
+      {
+        "pid": 88185,
+        "ppid": 88153,
+        "rssKiB": 152176,
+        "type": "renderer"
+      },
+      {
+        "pid": 88187,
+        "ppid": 88153,
+        "rssKiB": 217472,
+        "type": "renderer"
+      },
+      {
+        "pid": 88188,
+        "ppid": 88153,
+        "rssKiB": 102784,
+        "type": "renderer"
+      },
+      {
+        "pid": 88189,
+        "ppid": 88153,
+        "rssKiB": 82096,
+        "type": "renderer"
+      },
+      {
+        "pid": 88245,
+        "ppid": 88153,
+        "rssKiB": 63584,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "recovered-1",
+    "at": "2026-10-04T02:48:49.817Z",
+    "processCount": 9,
+    "rssKiBSum": 1093248,
+    "processes": [
+      {
+        "pid": 88153,
+        "ppid": 86099,
+        "rssKiB": 217936,
+        "type": "browser"
+      },
+      {
+        "pid": 88159,
+        "ppid": 88153,
+        "rssKiB": 89888,
+        "type": "gpu"
+      },
+      {
+        "pid": 88160,
+        "ppid": 88153,
+        "rssKiB": 90224,
+        "type": "other"
+      },
+      {
+        "pid": 88162,
+        "ppid": 88153,
+        "rssKiB": 64704,
+        "type": "other"
+      },
+      {
+        "pid": 88185,
+        "ppid": 88153,
+        "rssKiB": 152624,
+        "type": "renderer"
+      },
+      {
+        "pid": 88187,
+        "ppid": 88153,
+        "rssKiB": 229056,
+        "type": "renderer"
+      },
+      {
+        "pid": 88188,
+        "ppid": 88153,
+        "rssKiB": 102784,
+        "type": "renderer"
+      },
+      {
+        "pid": 88189,
+        "ppid": 88153,
+        "rssKiB": 82112,
+        "type": "renderer"
+      },
+      {
+        "pid": 88245,
+        "ppid": 88153,
+        "rssKiB": 63920,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "recovered-1",
+    "at": "2026-10-04T02:48:50.323Z",
+    "processCount": 9,
+    "rssKiBSum": 1086128,
+    "processes": [
+      {
+        "pid": 88153,
+        "ppid": 86099,
+        "rssKiB": 214832,
+        "type": "browser"
+      },
+      {
+        "pid": 88159,
+        "ppid": 88153,
+        "rssKiB": 91200,
+        "type": "gpu"
+      },
+      {
+        "pid": 88160,
+        "ppid": 88153,
+        "rssKiB": 90064,
+        "type": "other"
+      },
+      {
+        "pid": 88162,
+        "ppid": 88153,
+        "rssKiB": 62368,
+        "type": "other"
+      },
+      {
+        "pid": 88185,
+        "ppid": 88153,
+        "rssKiB": 146176,
+        "type": "renderer"
+      },
+      {
+        "pid": 88187,
+        "ppid": 88153,
+        "rssKiB": 232816,
+        "type": "renderer"
+      },
+      {
+        "pid": 88188,
+        "ppid": 88153,
+        "rssKiB": 102688,
+        "type": "renderer"
+      },
+      {
+        "pid": 88189,
+        "ppid": 88153,
+        "rssKiB": 82112,
+        "type": "renderer"
+      },
+      {
+        "pid": 88245,
+        "ppid": 88153,
+        "rssKiB": 63872,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "recovered-1",
+    "at": "2026-10-04T02:48:50.832Z",
+    "processCount": 9,
+    "rssKiBSum": 1086016,
+    "processes": [
+      {
+        "pid": 88153,
+        "ppid": 86099,
+        "rssKiB": 215232,
+        "type": "browser"
+      },
+      {
+        "pid": 88159,
+        "ppid": 88153,
+        "rssKiB": 91072,
+        "type": "gpu"
+      },
+      {
+        "pid": 88160,
+        "ppid": 88153,
+        "rssKiB": 90144,
+        "type": "other"
+      },
+      {
+        "pid": 88162,
+        "ppid": 88153,
+        "rssKiB": 62496,
+        "type": "other"
+      },
+      {
+        "pid": 88185,
+        "ppid": 88153,
+        "rssKiB": 145168,
+        "type": "renderer"
+      },
+      {
+        "pid": 88187,
+        "ppid": 88153,
+        "rssKiB": 232016,
+        "type": "renderer"
+      },
+      {
+        "pid": 88188,
+        "ppid": 88153,
+        "rssKiB": 102704,
+        "type": "renderer"
+      },
+      {
+        "pid": 88189,
+        "ppid": 88153,
+        "rssKiB": 82160,
+        "type": "renderer"
+      },
+      {
+        "pid": 88245,
+        "ppid": 88153,
+        "rssKiB": 65024,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "recovered-1",
+    "at": "2026-10-04T02:48:51.321Z",
+    "processCount": 9,
+    "rssKiBSum": 1077712,
+    "processes": [
+      {
+        "pid": 88153,
+        "ppid": 86099,
+        "rssKiB": 214544,
+        "type": "browser"
+      },
+      {
+        "pid": 88159,
+        "ppid": 88153,
+        "rssKiB": 89776,
+        "type": "gpu"
+      },
+      {
+        "pid": 88160,
+        "ppid": 88153,
+        "rssKiB": 90160,
+        "type": "other"
+      },
+      {
+        "pid": 88162,
+        "ppid": 88153,
+        "rssKiB": 62496,
+        "type": "other"
+      },
+      {
+        "pid": 88185,
+        "ppid": 88153,
+        "rssKiB": 145072,
+        "type": "renderer"
+      },
+      {
+        "pid": 88187,
+        "ppid": 88153,
+        "rssKiB": 229696,
+        "type": "renderer"
+      },
+      {
+        "pid": 88188,
+        "ppid": 88153,
+        "rssKiB": 98784,
+        "type": "renderer"
+      },
+      {
+        "pid": 88189,
+        "ppid": 88153,
+        "rssKiB": 82160,
+        "type": "renderer"
+      },
+      {
+        "pid": 88245,
+        "ppid": 88153,
+        "rssKiB": 65024,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "recovered-1",
+    "at": "2026-10-04T02:48:51.822Z",
+    "processCount": 9,
+    "rssKiBSum": 1077808,
+    "processes": [
+      {
+        "pid": 88153,
+        "ppid": 86099,
+        "rssKiB": 214544,
+        "type": "browser"
+      },
+      {
+        "pid": 88159,
+        "ppid": 88153,
+        "rssKiB": 89776,
+        "type": "gpu"
+      },
+      {
+        "pid": 88160,
+        "ppid": 88153,
+        "rssKiB": 90160,
+        "type": "other"
+      },
+      {
+        "pid": 88162,
+        "ppid": 88153,
+        "rssKiB": 62496,
+        "type": "other"
+      },
+      {
+        "pid": 88185,
+        "ppid": 88153,
+        "rssKiB": 145072,
+        "type": "renderer"
+      },
+      {
+        "pid": 88187,
+        "ppid": 88153,
+        "rssKiB": 229712,
+        "type": "renderer"
+      },
+      {
+        "pid": 88188,
+        "ppid": 88153,
+        "rssKiB": 98784,
+        "type": "renderer"
+      },
+      {
+        "pid": 88189,
+        "ppid": 88153,
+        "rssKiB": 82160,
+        "type": "renderer"
+      },
+      {
+        "pid": 88245,
+        "ppid": 88153,
+        "rssKiB": 65104,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "recovered-1",
+    "at": "2026-10-04T02:48:52.328Z",
+    "processCount": 9,
+    "rssKiBSum": 1049072,
+    "processes": [
+      {
+        "pid": 88153,
+        "ppid": 86099,
+        "rssKiB": 212304,
+        "type": "browser"
+      },
+      {
+        "pid": 88159,
+        "ppid": 88153,
+        "rssKiB": 89024,
+        "type": "gpu"
+      },
+      {
+        "pid": 88160,
+        "ppid": 88153,
+        "rssKiB": 89888,
+        "type": "other"
+      },
+      {
+        "pid": 88162,
+        "ppid": 88153,
+        "rssKiB": 62480,
+        "type": "other"
+      },
+      {
+        "pid": 88185,
+        "ppid": 88153,
+        "rssKiB": 128704,
+        "type": "renderer"
+      },
+      {
+        "pid": 88187,
+        "ppid": 88153,
+        "rssKiB": 228288,
+        "type": "renderer"
+      },
+      {
+        "pid": 88188,
+        "ppid": 88153,
+        "rssKiB": 95120,
+        "type": "renderer"
+      },
+      {
+        "pid": 88189,
+        "ppid": 88153,
+        "rssKiB": 78112,
+        "type": "renderer"
+      },
+      {
+        "pid": 88245,
+        "ppid": 88153,
+        "rssKiB": 65152,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "recovered-1",
+    "at": "2026-10-04T02:48:52.826Z",
+    "processCount": 9,
+    "rssKiBSum": 1048336,
+    "processes": [
+      {
+        "pid": 88153,
+        "ppid": 86099,
+        "rssKiB": 212304,
+        "type": "browser"
+      },
+      {
+        "pid": 88159,
+        "ppid": 88153,
+        "rssKiB": 88912,
+        "type": "gpu"
+      },
+      {
+        "pid": 88160,
+        "ppid": 88153,
+        "rssKiB": 89856,
+        "type": "other"
+      },
+      {
+        "pid": 88162,
+        "ppid": 88153,
+        "rssKiB": 62480,
+        "type": "other"
+      },
+      {
+        "pid": 88185,
+        "ppid": 88153,
+        "rssKiB": 128320,
+        "type": "renderer"
+      },
+      {
+        "pid": 88187,
+        "ppid": 88153,
+        "rssKiB": 228384,
+        "type": "renderer"
+      },
+      {
+        "pid": 88188,
+        "ppid": 88153,
+        "rssKiB": 95120,
+        "type": "renderer"
+      },
+      {
+        "pid": 88189,
+        "ppid": 88153,
+        "rssKiB": 77872,
+        "type": "renderer"
+      },
+      {
+        "pid": 88245,
+        "ppid": 88153,
+        "rssKiB": 65088,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "recovered-1",
+    "at": "2026-10-04T02:48:53.327Z",
+    "processCount": 9,
+    "rssKiBSum": 1048448,
+    "processes": [
+      {
+        "pid": 88153,
+        "ppid": 86099,
+        "rssKiB": 212304,
+        "type": "browser"
+      },
+      {
+        "pid": 88159,
+        "ppid": 88153,
+        "rssKiB": 88912,
+        "type": "gpu"
+      },
+      {
+        "pid": 88160,
+        "ppid": 88153,
+        "rssKiB": 89856,
+        "type": "other"
+      },
+      {
+        "pid": 88162,
+        "ppid": 88153,
+        "rssKiB": 62480,
+        "type": "other"
+      },
+      {
+        "pid": 88185,
+        "ppid": 88153,
+        "rssKiB": 128320,
+        "type": "renderer"
+      },
+      {
+        "pid": 88187,
+        "ppid": 88153,
+        "rssKiB": 228448,
+        "type": "renderer"
+      },
+      {
+        "pid": 88188,
+        "ppid": 88153,
+        "rssKiB": 95120,
+        "type": "renderer"
+      },
+      {
+        "pid": 88189,
+        "ppid": 88153,
+        "rssKiB": 77872,
+        "type": "renderer"
+      },
+      {
+        "pid": 88245,
+        "ppid": 88153,
+        "rssKiB": 65136,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "recovered-1",
+    "at": "2026-10-04T02:48:53.839Z",
+    "processCount": 9,
+    "rssKiBSum": 1050272,
+    "processes": [
+      {
+        "pid": 88153,
+        "ppid": 86099,
+        "rssKiB": 213440,
+        "type": "browser"
+      },
+      {
+        "pid": 88159,
+        "ppid": 88153,
+        "rssKiB": 88880,
+        "type": "gpu"
+      },
+      {
+        "pid": 88160,
+        "ppid": 88153,
+        "rssKiB": 89776,
+        "type": "other"
+      },
+      {
+        "pid": 88162,
+        "ppid": 88153,
+        "rssKiB": 62480,
+        "type": "other"
+      },
+      {
+        "pid": 88185,
+        "ppid": 88153,
+        "rssKiB": 128304,
+        "type": "renderer"
+      },
+      {
+        "pid": 88187,
+        "ppid": 88153,
+        "rssKiB": 229600,
+        "type": "renderer"
+      },
+      {
+        "pid": 88188,
+        "ppid": 88153,
+        "rssKiB": 94944,
+        "type": "renderer"
+      },
+      {
+        "pid": 88189,
+        "ppid": 88153,
+        "rssKiB": 77872,
+        "type": "renderer"
+      },
+      {
+        "pid": 88245,
+        "ppid": 88153,
+        "rssKiB": 64976,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "recovered-1",
+    "at": "2026-10-04T02:48:54.333Z",
+    "processCount": 9,
+    "rssKiBSum": 973760,
+    "processes": [
+      {
+        "pid": 88153,
+        "ppid": 86099,
+        "rssKiB": 210816,
+        "type": "browser"
+      },
+      {
+        "pid": 88159,
+        "ppid": 88153,
+        "rssKiB": 88208,
+        "type": "gpu"
+      },
+      {
+        "pid": 88160,
+        "ppid": 88153,
+        "rssKiB": 89696,
+        "type": "other"
+      },
+      {
+        "pid": 88162,
+        "ppid": 88153,
+        "rssKiB": 62320,
+        "type": "other"
+      },
+      {
+        "pid": 88185,
+        "ppid": 88153,
+        "rssKiB": 127920,
+        "type": "renderer"
+      },
+      {
+        "pid": 88187,
+        "ppid": 88153,
+        "rssKiB": 156560,
+        "type": "renderer"
+      },
+      {
+        "pid": 88188,
+        "ppid": 88153,
+        "rssKiB": 96400,
+        "type": "renderer"
+      },
+      {
+        "pid": 88189,
+        "ppid": 88153,
+        "rssKiB": 77856,
+        "type": "renderer"
+      },
+      {
+        "pid": 88245,
+        "ppid": 88153,
+        "rssKiB": 63984,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "recovered-1",
+    "at": "2026-10-04T02:48:54.832Z",
+    "processCount": 9,
+    "rssKiBSum": 975088,
+    "processes": [
+      {
+        "pid": 88153,
+        "ppid": 86099,
+        "rssKiB": 210688,
+        "type": "browser"
+      },
+      {
+        "pid": 88159,
+        "ppid": 88153,
+        "rssKiB": 88544,
+        "type": "gpu"
+      },
+      {
+        "pid": 88160,
+        "ppid": 88153,
+        "rssKiB": 89680,
+        "type": "other"
+      },
+      {
+        "pid": 88162,
+        "ppid": 88153,
+        "rssKiB": 62320,
+        "type": "other"
+      },
+      {
+        "pid": 88185,
+        "ppid": 88153,
+        "rssKiB": 127920,
+        "type": "renderer"
+      },
+      {
+        "pid": 88187,
+        "ppid": 88153,
+        "rssKiB": 156128,
+        "type": "renderer"
+      },
+      {
+        "pid": 88188,
+        "ppid": 88153,
+        "rssKiB": 96464,
+        "type": "renderer"
+      },
+      {
+        "pid": 88189,
+        "ppid": 88153,
+        "rssKiB": 79376,
+        "type": "renderer"
+      },
+      {
+        "pid": 88245,
+        "ppid": 88153,
+        "rssKiB": 63968,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "recovered-1",
+    "at": "2026-10-04T02:48:55.333Z",
+    "processCount": 9,
+    "rssKiBSum": 974224,
+    "processes": [
+      {
+        "pid": 88153,
+        "ppid": 86099,
+        "rssKiB": 210688,
+        "type": "browser"
+      },
+      {
+        "pid": 88159,
+        "ppid": 88153,
+        "rssKiB": 88544,
+        "type": "gpu"
+      },
+      {
+        "pid": 88160,
+        "ppid": 88153,
+        "rssKiB": 89680,
+        "type": "other"
+      },
+      {
+        "pid": 88162,
+        "ppid": 88153,
+        "rssKiB": 62320,
+        "type": "other"
+      },
+      {
+        "pid": 88185,
+        "ppid": 88153,
+        "rssKiB": 127936,
+        "type": "renderer"
+      },
+      {
+        "pid": 88187,
+        "ppid": 88153,
+        "rssKiB": 155248,
+        "type": "renderer"
+      },
+      {
+        "pid": 88188,
+        "ppid": 88153,
+        "rssKiB": 96464,
+        "type": "renderer"
+      },
+      {
+        "pid": 88189,
+        "ppid": 88153,
+        "rssKiB": 79376,
+        "type": "renderer"
+      },
+      {
+        "pid": 88245,
+        "ppid": 88153,
+        "rssKiB": 63968,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "recovered-1",
+    "at": "2026-10-04T02:48:55.835Z",
+    "processCount": 9,
+    "rssKiBSum": 973824,
+    "processes": [
+      {
+        "pid": 88153,
+        "ppid": 86099,
+        "rssKiB": 210736,
+        "type": "browser"
+      },
+      {
+        "pid": 88159,
+        "ppid": 88153,
+        "rssKiB": 87840,
+        "type": "gpu"
+      },
+      {
+        "pid": 88160,
+        "ppid": 88153,
+        "rssKiB": 89680,
+        "type": "other"
+      },
+      {
+        "pid": 88162,
+        "ppid": 88153,
+        "rssKiB": 62320,
+        "type": "other"
+      },
+      {
+        "pid": 88185,
+        "ppid": 88153,
+        "rssKiB": 127936,
+        "type": "renderer"
+      },
+      {
+        "pid": 88187,
+        "ppid": 88153,
+        "rssKiB": 155488,
+        "type": "renderer"
+      },
+      {
+        "pid": 88188,
+        "ppid": 88153,
+        "rssKiB": 96464,
+        "type": "renderer"
+      },
+      {
+        "pid": 88189,
+        "ppid": 88153,
+        "rssKiB": 79376,
+        "type": "renderer"
+      },
+      {
+        "pid": 88245,
+        "ppid": 88153,
+        "rssKiB": 63984,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "recovered-1",
+    "at": "2026-10-04T02:48:56.337Z",
+    "processCount": 9,
+    "rssKiBSum": 973888,
+    "processes": [
+      {
+        "pid": 88153,
+        "ppid": 86099,
+        "rssKiB": 210400,
+        "type": "browser"
+      },
+      {
+        "pid": 88159,
+        "ppid": 88153,
+        "rssKiB": 87808,
+        "type": "gpu"
+      },
+      {
+        "pid": 88160,
+        "ppid": 88153,
+        "rssKiB": 89696,
+        "type": "other"
+      },
+      {
+        "pid": 88162,
+        "ppid": 88153,
+        "rssKiB": 62320,
+        "type": "other"
+      },
+      {
+        "pid": 88185,
+        "ppid": 88153,
+        "rssKiB": 127856,
+        "type": "renderer"
+      },
+      {
+        "pid": 88187,
+        "ppid": 88153,
+        "rssKiB": 155984,
+        "type": "renderer"
+      },
+      {
+        "pid": 88188,
+        "ppid": 88153,
+        "rssKiB": 96464,
+        "type": "renderer"
+      },
+      {
+        "pid": 88189,
+        "ppid": 88153,
+        "rssKiB": 79376,
+        "type": "renderer"
+      },
+      {
+        "pid": 88245,
+        "ppid": 88153,
+        "rssKiB": 63984,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "recovered-1",
+    "at": "2026-10-04T02:48:56.838Z",
+    "processCount": 9,
+    "rssKiBSum": 973888,
+    "processes": [
+      {
+        "pid": 88153,
+        "ppid": 86099,
+        "rssKiB": 210400,
+        "type": "browser"
+      },
+      {
+        "pid": 88159,
+        "ppid": 88153,
+        "rssKiB": 87792,
+        "type": "gpu"
+      },
+      {
+        "pid": 88160,
+        "ppid": 88153,
+        "rssKiB": 89696,
+        "type": "other"
+      },
+      {
+        "pid": 88162,
+        "ppid": 88153,
+        "rssKiB": 62320,
+        "type": "other"
+      },
+      {
+        "pid": 88185,
+        "ppid": 88153,
+        "rssKiB": 127856,
+        "type": "renderer"
+      },
+      {
+        "pid": 88187,
+        "ppid": 88153,
+        "rssKiB": 155984,
+        "type": "renderer"
+      },
+      {
+        "pid": 88188,
+        "ppid": 88153,
+        "rssKiB": 96464,
+        "type": "renderer"
+      },
+      {
+        "pid": 88189,
+        "ppid": 88153,
+        "rssKiB": 79376,
+        "type": "renderer"
+      },
+      {
+        "pid": 88245,
+        "ppid": 88153,
+        "rssKiB": 64000,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "recovered-1",
+    "at": "2026-10-04T02:48:57.342Z",
+    "processCount": 9,
+    "rssKiBSum": 973888,
+    "processes": [
+      {
+        "pid": 88153,
+        "ppid": 86099,
+        "rssKiB": 210400,
+        "type": "browser"
+      },
+      {
+        "pid": 88159,
+        "ppid": 88153,
+        "rssKiB": 87696,
+        "type": "gpu"
+      },
+      {
+        "pid": 88160,
+        "ppid": 88153,
+        "rssKiB": 89696,
+        "type": "other"
+      },
+      {
+        "pid": 88162,
+        "ppid": 88153,
+        "rssKiB": 62320,
+        "type": "other"
+      },
+      {
+        "pid": 88185,
+        "ppid": 88153,
+        "rssKiB": 127872,
+        "type": "renderer"
+      },
+      {
+        "pid": 88187,
+        "ppid": 88153,
+        "rssKiB": 155984,
+        "type": "renderer"
+      },
+      {
+        "pid": 88188,
+        "ppid": 88153,
+        "rssKiB": 96480,
+        "type": "renderer"
+      },
+      {
+        "pid": 88189,
+        "ppid": 88153,
+        "rssKiB": 79376,
+        "type": "renderer"
+      },
+      {
+        "pid": 88245,
+        "ppid": 88153,
+        "rssKiB": 64064,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "recovered-1",
+    "at": "2026-10-04T02:48:57.840Z",
+    "processCount": 9,
+    "rssKiBSum": 973904,
+    "processes": [
+      {
+        "pid": 88153,
+        "ppid": 86099,
+        "rssKiB": 210416,
+        "type": "browser"
+      },
+      {
+        "pid": 88159,
+        "ppid": 88153,
+        "rssKiB": 87696,
+        "type": "gpu"
+      },
+      {
+        "pid": 88160,
+        "ppid": 88153,
+        "rssKiB": 89696,
+        "type": "other"
+      },
+      {
+        "pid": 88162,
+        "ppid": 88153,
+        "rssKiB": 62320,
+        "type": "other"
+      },
+      {
+        "pid": 88185,
+        "ppid": 88153,
+        "rssKiB": 127872,
+        "type": "renderer"
+      },
+      {
+        "pid": 88187,
+        "ppid": 88153,
+        "rssKiB": 155984,
+        "type": "renderer"
+      },
+      {
+        "pid": 88188,
+        "ppid": 88153,
+        "rssKiB": 96480,
+        "type": "renderer"
+      },
+      {
+        "pid": 88189,
+        "ppid": 88153,
+        "rssKiB": 79376,
+        "type": "renderer"
+      },
+      {
+        "pid": 88245,
+        "ppid": 88153,
+        "rssKiB": 64064,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "recovered-1",
+    "at": "2026-10-04T02:48:58.342Z",
+    "processCount": 9,
+    "rssKiBSum": 973904,
+    "processes": [
+      {
+        "pid": 88153,
+        "ppid": 86099,
+        "rssKiB": 210416,
+        "type": "browser"
+      },
+      {
+        "pid": 88159,
+        "ppid": 88153,
+        "rssKiB": 87696,
+        "type": "gpu"
+      },
+      {
+        "pid": 88160,
+        "ppid": 88153,
+        "rssKiB": 89696,
+        "type": "other"
+      },
+      {
+        "pid": 88162,
+        "ppid": 88153,
+        "rssKiB": 62320,
+        "type": "other"
+      },
+      {
+        "pid": 88185,
+        "ppid": 88153,
+        "rssKiB": 127872,
+        "type": "renderer"
+      },
+      {
+        "pid": 88187,
+        "ppid": 88153,
+        "rssKiB": 155984,
+        "type": "renderer"
+      },
+      {
+        "pid": 88188,
+        "ppid": 88153,
+        "rssKiB": 96480,
+        "type": "renderer"
+      },
+      {
+        "pid": 88189,
+        "ppid": 88153,
+        "rssKiB": 79376,
+        "type": "renderer"
+      },
+      {
+        "pid": 88245,
+        "ppid": 88153,
+        "rssKiB": 64064,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "recovered-1",
+    "at": "2026-10-04T02:48:58.845Z",
+    "processCount": 9,
+    "rssKiBSum": 973824,
+    "processes": [
+      {
+        "pid": 88153,
+        "ppid": 86099,
+        "rssKiB": 210496,
+        "type": "browser"
+      },
+      {
+        "pid": 88159,
+        "ppid": 88153,
+        "rssKiB": 87696,
+        "type": "gpu"
+      },
+      {
+        "pid": 88160,
+        "ppid": 88153,
+        "rssKiB": 89696,
+        "type": "other"
+      },
+      {
+        "pid": 88162,
+        "ppid": 88153,
+        "rssKiB": 62320,
+        "type": "other"
+      },
+      {
+        "pid": 88185,
+        "ppid": 88153,
+        "rssKiB": 127856,
+        "type": "renderer"
+      },
+      {
+        "pid": 88187,
+        "ppid": 88153,
+        "rssKiB": 155984,
+        "type": "renderer"
+      },
+      {
+        "pid": 88188,
+        "ppid": 88153,
+        "rssKiB": 96400,
+        "type": "renderer"
+      },
+      {
+        "pid": 88189,
+        "ppid": 88153,
+        "rssKiB": 79312,
+        "type": "renderer"
+      },
+      {
+        "pid": 88245,
+        "ppid": 88153,
+        "rssKiB": 64064,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "recovered-1",
+    "at": "2026-10-04T02:48:59.347Z",
+    "processCount": 9,
+    "rssKiBSum": 973408,
+    "processes": [
+      {
+        "pid": 88153,
+        "ppid": 86099,
+        "rssKiB": 210560,
+        "type": "browser"
+      },
+      {
+        "pid": 88159,
+        "ppid": 88153,
+        "rssKiB": 87648,
+        "type": "gpu"
+      },
+      {
+        "pid": 88160,
+        "ppid": 88153,
+        "rssKiB": 89696,
+        "type": "other"
+      },
+      {
+        "pid": 88162,
+        "ppid": 88153,
+        "rssKiB": 62320,
+        "type": "other"
+      },
+      {
+        "pid": 88185,
+        "ppid": 88153,
+        "rssKiB": 127856,
+        "type": "renderer"
+      },
+      {
+        "pid": 88187,
+        "ppid": 88153,
+        "rssKiB": 155872,
+        "type": "renderer"
+      },
+      {
+        "pid": 88188,
+        "ppid": 88153,
+        "rssKiB": 96080,
+        "type": "renderer"
+      },
+      {
+        "pid": 88189,
+        "ppid": 88153,
+        "rssKiB": 79312,
+        "type": "renderer"
+      },
+      {
+        "pid": 88245,
+        "ppid": 88153,
+        "rssKiB": 64064,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "recovered-1",
+    "at": "2026-10-04T02:48:59.846Z",
+    "processCount": 9,
+    "rssKiBSum": 970432,
+    "processes": [
+      {
+        "pid": 88153,
+        "ppid": 86099,
+        "rssKiB": 210256,
+        "type": "browser"
+      },
+      {
+        "pid": 88159,
+        "ppid": 88153,
+        "rssKiB": 87648,
+        "type": "gpu"
+      },
+      {
+        "pid": 88160,
+        "ppid": 88153,
+        "rssKiB": 89696,
+        "type": "other"
+      },
+      {
+        "pid": 88162,
+        "ppid": 88153,
+        "rssKiB": 62272,
+        "type": "other"
+      },
+      {
+        "pid": 88185,
+        "ppid": 88153,
+        "rssKiB": 127168,
+        "type": "renderer"
+      },
+      {
+        "pid": 88187,
+        "ppid": 88153,
+        "rssKiB": 154816,
+        "type": "renderer"
+      },
+      {
+        "pid": 88188,
+        "ppid": 88153,
+        "rssKiB": 95200,
+        "type": "renderer"
+      },
+      {
+        "pid": 88189,
+        "ppid": 88153,
+        "rssKiB": 79312,
+        "type": "renderer"
+      },
+      {
+        "pid": 88245,
+        "ppid": 88153,
+        "rssKiB": 64064,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "recovered-1",
+    "at": "2026-10-04T02:49:00.348Z",
+    "processCount": 9,
+    "rssKiBSum": 967552,
+    "processes": [
+      {
+        "pid": 88153,
+        "ppid": 86099,
+        "rssKiB": 210064,
+        "type": "browser"
+      },
+      {
+        "pid": 88159,
+        "ppid": 88153,
+        "rssKiB": 87680,
+        "type": "gpu"
+      },
+      {
+        "pid": 88160,
+        "ppid": 88153,
+        "rssKiB": 89696,
+        "type": "other"
+      },
+      {
+        "pid": 88162,
+        "ppid": 88153,
+        "rssKiB": 62272,
+        "type": "other"
+      },
+      {
+        "pid": 88185,
+        "ppid": 88153,
+        "rssKiB": 125904,
+        "type": "renderer"
+      },
+      {
+        "pid": 88187,
+        "ppid": 88153,
+        "rssKiB": 154864,
+        "type": "renderer"
+      },
+      {
+        "pid": 88188,
+        "ppid": 88153,
+        "rssKiB": 95152,
+        "type": "renderer"
+      },
+      {
+        "pid": 88189,
+        "ppid": 88153,
+        "rssKiB": 77856,
+        "type": "renderer"
+      },
+      {
+        "pid": 88245,
+        "ppid": 88153,
+        "rssKiB": 64064,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "recovered-1",
+    "at": "2026-10-04T02:49:00.848Z",
+    "processCount": 9,
+    "rssKiBSum": 967312,
+    "processes": [
+      {
+        "pid": 88153,
+        "ppid": 86099,
+        "rssKiB": 209808,
+        "type": "browser"
+      },
+      {
+        "pid": 88159,
+        "ppid": 88153,
+        "rssKiB": 87680,
+        "type": "gpu"
+      },
+      {
+        "pid": 88160,
+        "ppid": 88153,
+        "rssKiB": 89696,
+        "type": "other"
+      },
+      {
+        "pid": 88162,
+        "ppid": 88153,
+        "rssKiB": 62272,
+        "type": "other"
+      },
+      {
+        "pid": 88185,
+        "ppid": 88153,
+        "rssKiB": 125904,
+        "type": "renderer"
+      },
+      {
+        "pid": 88187,
+        "ppid": 88153,
+        "rssKiB": 154880,
+        "type": "renderer"
+      },
+      {
+        "pid": 88188,
+        "ppid": 88153,
+        "rssKiB": 95152,
+        "type": "renderer"
+      },
+      {
+        "pid": 88189,
+        "ppid": 88153,
+        "rssKiB": 77856,
+        "type": "renderer"
+      },
+      {
+        "pid": 88245,
+        "ppid": 88153,
+        "rssKiB": 64064,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "recovered-1",
+    "at": "2026-10-04T02:49:01.350Z",
+    "processCount": 9,
+    "rssKiBSum": 967312,
+    "processes": [
+      {
+        "pid": 88153,
+        "ppid": 86099,
+        "rssKiB": 209808,
+        "type": "browser"
+      },
+      {
+        "pid": 88159,
+        "ppid": 88153,
+        "rssKiB": 87680,
+        "type": "gpu"
+      },
+      {
+        "pid": 88160,
+        "ppid": 88153,
+        "rssKiB": 89696,
+        "type": "other"
+      },
+      {
+        "pid": 88162,
+        "ppid": 88153,
+        "rssKiB": 62272,
+        "type": "other"
+      },
+      {
+        "pid": 88185,
+        "ppid": 88153,
+        "rssKiB": 125904,
+        "type": "renderer"
+      },
+      {
+        "pid": 88187,
+        "ppid": 88153,
+        "rssKiB": 154880,
+        "type": "renderer"
+      },
+      {
+        "pid": 88188,
+        "ppid": 88153,
+        "rssKiB": 95152,
+        "type": "renderer"
+      },
+      {
+        "pid": 88189,
+        "ppid": 88153,
+        "rssKiB": 77856,
+        "type": "renderer"
+      },
+      {
+        "pid": 88245,
+        "ppid": 88153,
+        "rssKiB": 64064,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "recovered-1",
+    "at": "2026-10-04T02:49:01.859Z",
+    "processCount": 9,
+    "rssKiBSum": 1092224,
+    "processes": [
+      {
+        "pid": 88153,
+        "ppid": 86099,
+        "rssKiB": 220064,
+        "type": "browser"
+      },
+      {
+        "pid": 88159,
+        "ppid": 88153,
+        "rssKiB": 87104,
+        "type": "gpu"
+      },
+      {
+        "pid": 88160,
+        "ppid": 88153,
+        "rssKiB": 89696,
+        "type": "other"
+      },
+      {
+        "pid": 88162,
+        "ppid": 88153,
+        "rssKiB": 62272,
+        "type": "other"
+      },
+      {
+        "pid": 88185,
+        "ppid": 88153,
+        "rssKiB": 125504,
+        "type": "renderer"
+      },
+      {
+        "pid": 88187,
+        "ppid": 88153,
+        "rssKiB": 209696,
+        "type": "renderer"
+      },
+      {
+        "pid": 88188,
+        "ppid": 88153,
+        "rssKiB": 95264,
+        "type": "renderer"
+      },
+      {
+        "pid": 88189,
+        "ppid": 88153,
+        "rssKiB": 77856,
+        "type": "renderer"
+      },
+      {
+        "pid": 88245,
+        "ppid": 88153,
+        "rssKiB": 124768,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "recovered-1",
+    "at": "2026-10-04T02:49:02.381Z",
+    "processCount": 9,
+    "rssKiBSum": 1107936,
+    "processes": [
+      {
+        "pid": 88153,
+        "ppid": 86099,
+        "rssKiB": 219104,
+        "type": "browser"
+      },
+      {
+        "pid": 88159,
+        "ppid": 88153,
+        "rssKiB": 87104,
+        "type": "gpu"
+      },
+      {
+        "pid": 88160,
+        "ppid": 88153,
+        "rssKiB": 89680,
+        "type": "other"
+      },
+      {
+        "pid": 88162,
+        "ppid": 88153,
+        "rssKiB": 62272,
+        "type": "other"
+      },
+      {
+        "pid": 88185,
+        "ppid": 88153,
+        "rssKiB": 125472,
+        "type": "renderer"
+      },
+      {
+        "pid": 88187,
+        "ppid": 88153,
+        "rssKiB": 226592,
+        "type": "renderer"
+      },
+      {
+        "pid": 88188,
+        "ppid": 88153,
+        "rssKiB": 95264,
+        "type": "renderer"
+      },
+      {
+        "pid": 88189,
+        "ppid": 88153,
+        "rssKiB": 77680,
+        "type": "renderer"
+      },
+      {
+        "pid": 88245,
+        "ppid": 88153,
+        "rssKiB": 124768,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "recovered-1",
+    "at": "2026-10-04T02:49:02.861Z",
+    "processCount": 11,
+    "rssKiBSum": 1134672,
+    "processes": [
+      {
+        "pid": 88153,
+        "ppid": 86099,
+        "rssKiB": 220016,
+        "type": "browser"
+      },
+      {
+        "pid": 88159,
+        "ppid": 88153,
+        "rssKiB": 87104,
+        "type": "gpu"
+      },
+      {
+        "pid": 88160,
+        "ppid": 88153,
+        "rssKiB": 89680,
+        "type": "other"
+      },
+      {
+        "pid": 88162,
+        "ppid": 88153,
+        "rssKiB": 62272,
+        "type": "other"
+      },
+      {
+        "pid": 88185,
+        "ppid": 88153,
+        "rssKiB": 125440,
+        "type": "renderer"
+      },
+      {
+        "pid": 88187,
+        "ppid": 88153,
+        "rssKiB": 227360,
+        "type": "renderer"
+      },
+      {
+        "pid": 88188,
+        "ppid": 88153,
+        "rssKiB": 95264,
+        "type": "renderer"
+      },
+      {
+        "pid": 88189,
+        "ppid": 88153,
+        "rssKiB": 77680,
+        "type": "renderer"
+      },
+      {
+        "pid": 88245,
+        "ppid": 88153,
+        "rssKiB": 124752,
+        "type": "other"
+      },
+      {
+        "pid": 88840,
+        "ppid": 88153,
+        "rssKiB": 12432,
+        "type": "other"
+      },
+      {
+        "pid": 88843,
+        "ppid": 88840,
+        "rssKiB": 12672,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "recovered-1",
+    "at": "2026-10-04T02:49:03.357Z",
+    "processCount": 11,
+    "rssKiBSum": 1136832,
+    "processes": [
+      {
+        "pid": 88153,
+        "ppid": 86099,
+        "rssKiB": 220032,
+        "type": "browser"
+      },
+      {
+        "pid": 88159,
+        "ppid": 88153,
+        "rssKiB": 86976,
+        "type": "gpu"
+      },
+      {
+        "pid": 88160,
+        "ppid": 88153,
+        "rssKiB": 89664,
+        "type": "other"
+      },
+      {
+        "pid": 88162,
+        "ppid": 88153,
+        "rssKiB": 62272,
+        "type": "other"
+      },
+      {
+        "pid": 88185,
+        "ppid": 88153,
+        "rssKiB": 125232,
+        "type": "renderer"
+      },
+      {
+        "pid": 88187,
+        "ppid": 88153,
+        "rssKiB": 229856,
+        "type": "renderer"
+      },
+      {
+        "pid": 88188,
+        "ppid": 88153,
+        "rssKiB": 95264,
+        "type": "renderer"
+      },
+      {
+        "pid": 88189,
+        "ppid": 88153,
+        "rssKiB": 77680,
+        "type": "renderer"
+      },
+      {
+        "pid": 88245,
+        "ppid": 88153,
+        "rssKiB": 124752,
+        "type": "other"
+      },
+      {
+        "pid": 88840,
+        "ppid": 88153,
+        "rssKiB": 12432,
+        "type": "other"
+      },
+      {
+        "pid": 88843,
+        "ppid": 88840,
+        "rssKiB": 12672,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "recovered-1",
+    "at": "2026-10-04T02:49:03.880Z",
+    "processCount": 11,
+    "rssKiBSum": 1136832,
+    "processes": [
+      {
+        "pid": 88153,
+        "ppid": 86099,
+        "rssKiB": 220016,
+        "type": "browser"
+      },
+      {
+        "pid": 88159,
+        "ppid": 88153,
+        "rssKiB": 86944,
+        "type": "gpu"
+      },
+      {
+        "pid": 88160,
+        "ppid": 88153,
+        "rssKiB": 89680,
+        "type": "other"
+      },
+      {
+        "pid": 88162,
+        "ppid": 88153,
+        "rssKiB": 62320,
+        "type": "other"
+      },
+      {
+        "pid": 88185,
+        "ppid": 88153,
+        "rssKiB": 125216,
+        "type": "renderer"
+      },
+      {
+        "pid": 88187,
+        "ppid": 88153,
+        "rssKiB": 229856,
+        "type": "renderer"
+      },
+      {
+        "pid": 88188,
+        "ppid": 88153,
+        "rssKiB": 95264,
+        "type": "renderer"
+      },
+      {
+        "pid": 88189,
+        "ppid": 88153,
+        "rssKiB": 77680,
+        "type": "renderer"
+      },
+      {
+        "pid": 88245,
+        "ppid": 88153,
+        "rssKiB": 124752,
+        "type": "other"
+      },
+      {
+        "pid": 88840,
+        "ppid": 88153,
+        "rssKiB": 12432,
+        "type": "other"
+      },
+      {
+        "pid": 88843,
+        "ppid": 88840,
+        "rssKiB": 12672,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "recovered-1",
+    "at": "2026-10-04T02:49:04.387Z",
+    "processCount": 11,
+    "rssKiBSum": 1137280,
+    "processes": [
+      {
+        "pid": 88153,
+        "ppid": 86099,
+        "rssKiB": 220240,
+        "type": "browser"
+      },
+      {
+        "pid": 88159,
+        "ppid": 88153,
+        "rssKiB": 87008,
+        "type": "gpu"
+      },
+      {
+        "pid": 88160,
+        "ppid": 88153,
+        "rssKiB": 89680,
+        "type": "other"
+      },
+      {
+        "pid": 88162,
+        "ppid": 88153,
+        "rssKiB": 62320,
+        "type": "other"
+      },
+      {
+        "pid": 88185,
+        "ppid": 88153,
+        "rssKiB": 125264,
+        "type": "renderer"
+      },
+      {
+        "pid": 88187,
+        "ppid": 88153,
+        "rssKiB": 229936,
+        "type": "renderer"
+      },
+      {
+        "pid": 88188,
+        "ppid": 88153,
+        "rssKiB": 95296,
+        "type": "renderer"
+      },
+      {
+        "pid": 88189,
+        "ppid": 88153,
+        "rssKiB": 77680,
+        "type": "renderer"
+      },
+      {
+        "pid": 88245,
+        "ppid": 88153,
+        "rssKiB": 124752,
+        "type": "other"
+      },
+      {
+        "pid": 88840,
+        "ppid": 88153,
+        "rssKiB": 12432,
+        "type": "other"
+      },
+      {
+        "pid": 88843,
+        "ppid": 88840,
+        "rssKiB": 12672,
+        "type": "other"
+      }
+    ]
+  },
+  {
+    "run": "recovered-1",
+    "at": "2026-10-04T02:49:04.909Z",
+    "processCount": 11,
+    "rssKiBSum": 1084224,
+    "processes": [
+      {
+        "pid": 88153,
+        "ppid": 86099,
+        "rssKiB": 222992,
+        "type": "browser"
+      },
+      {
+        "pid": 88159,
+        "ppid": 88153,
+        "rssKiB": 90096,
+        "type": "gpu"
+      },
+      {
+        "pid": 88160,
+        "ppid": 88153,
+        "rssKiB": 89856,
+        "type": "other"
+      },
+      {
+        "pid": 88162,
+        "ppid": 88153,
+        "rssKiB": 62320,
+        "type": "other"
+      },
+      {
+        "pid": 88185,
+        "ppid": 88153,
+        "rssKiB": 128896,
+        "type": "renderer"
+      },
+      {
+        "pid": 88187,
+        "ppid": 88153,
+        "rssKiB": 202256,
+        "type": "renderer"
+      },
+      {
+        "pid": 88188,
+        "ppid": 88153,
+        "rssKiB": 97648,
+        "type": "renderer"
+      },
+      {
+        "pid": 88245,
+        "ppid": 88153,
+        "rssKiB": 67664,
+        "type": "other"
+      },
+      {
+        "pid": 88840,
+        "ppid": 88153,
+        "rssKiB": 10224,
+        "type": "other"
+      },
+      {
+        "pid": 88843,
+        "ppid": 88840,
+        "rssKiB": 11248,
+        "type": "other"
+      },
+      {
+        "pid": 88918,
+        "ppid": 88153,
+        "rssKiB": 101024,
+        "type": "renderer"
+      }
+    ]
+  },
+  {
+    "run": "recovered-1",
+    "at": "2026-10-04T02:49:04.934Z",
+    "processCount": 11,
+    "rssKiBSum": 1084192,
+    "processes": [
+      {
+        "pid": 88153,
+        "ppid": 86099,
+        "rssKiB": 223040,
+        "type": "browser"
+      },
+      {
+        "pid": 88159,
+        "ppid": 88153,
+        "rssKiB": 90096,
+        "type": "gpu"
+      },
+      {
+        "pid": 88160,
+        "ppid": 88153,
+        "rssKiB": 89840,
+        "type": "other"
+      },
+      {
+        "pid": 88162,
+        "ppid": 88153,
+        "rssKiB": 62272,
+        "type": "other"
+      },
+      {
+        "pid": 88185,
+        "ppid": 88153,
+        "rssKiB": 128896,
+        "type": "renderer"
+      },
+      {
+        "pid": 88187,
+        "ppid": 88153,
+        "rssKiB": 202240,
+        "type": "renderer"
+      },
+      {
+        "pid": 88188,
+        "ppid": 88153,
+        "rssKiB": 97648,
+        "type": "renderer"
+      },
+      {
+        "pid": 88245,
+        "ppid": 88153,
+        "rssKiB": 67664,
+        "type": "other"
+      },
+      {
+        "pid": 88840,
+        "ppid": 88153,
+        "rssKiB": 10224,
+        "type": "other"
+      },
+      {
+        "pid": 88843,
+        "ppid": 88840,
+        "rssKiB": 11248,
+        "type": "other"
+      },
+      {
+        "pid": 88918,
+        "ppid": 88153,
+        "rssKiB": 101024,
+        "type": "renderer"
+      }
+    ]
+  }
+]

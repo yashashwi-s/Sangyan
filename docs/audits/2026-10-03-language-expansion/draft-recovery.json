@@ -1,0 +1,13 @@
+{
+  "checkedOn": "2026-10-04",
+  "method": "CUA browser interaction against local preview port 4189; preview server stopped to make uncached requests fail",
+  "syntheticInput": "State Bank of India selected from the SBI abbreviation suggestion",
+  "observations": [
+    "English account form reached step 2 of 4.",
+    "SBI search offered State Bank of India and custom-name alternative.",
+    "After the local server stopped, selecting uncached Gujarati kept the dialog open and displayed the Gujarati retry label.",
+    "Closing the dialog returned to English step 2 with State Bank of India still selected and an unsaved-changes notice."
+  ],
+  "result": "passed",
+  "limits": "One desktop browser trial with synthetic data; no physical phone or user comprehension claim."
+}

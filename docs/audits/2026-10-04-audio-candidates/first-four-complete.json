@@ -1,0 +1,39 @@
+{
+  "results": {
+    "gu": {
+      "clips": 357,
+      "bytes": 5859328,
+      "seconds": 1411.582,
+      "revision": "cd14541a4c8c",
+      "technicalMediaValid": true,
+      "fluentReview": false
+    },
+    "pa": {
+      "clips": 357,
+      "bytes": 6224224,
+      "seconds": 1503.224,
+      "revision": "ff17ff86f0db",
+      "technicalMediaValid": true,
+      "fluentReview": false
+    },
+    "kn": {
+      "clips": 357,
+      "bytes": 9118432,
+      "seconds": 2226.898,
+      "revision": "4e612b00d4c3",
+      "technicalMediaValid": true,
+      "fluentReview": false
+    },
+    "te": {
+      "clips": 357,
+      "bytes": 7699072,
+      "seconds": 1872.008,
+      "revision": "052e175d7ee8",
+      "technicalMediaValid": true,
+      "fluentReview": false
+    }
+  },
+  "errors": {},
+  "note": "Technical media validation only; pronunciation, accent and meaning need fluent listening review.",
+  "integration": "Local draft integration only; no publication or fluent-listening approval."
+}

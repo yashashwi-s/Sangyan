@@ -5,4 +5,9 @@ server.mjs
 README.md
 THIRD_PARTY.md
 vendor-lock.json
+audio
+translations
+translation-handoff
+scripts
+package.json
 dist/_headers

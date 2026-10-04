@@ -1,0 +1,925 @@
+{
+  "date": "2026-10-04T03:05:19.194Z",
+  "sourceSha256": "2ff3d138bde5037a162f03063041f24a21f4f702a95ce7710c7d884431181b44",
+  "lighthouseVersion": "13.5.0",
+  "language": "hi",
+  "chromeFlags": [
+    "--headless=new",
+    "--disable-gpu",
+    "--no-first-run",
+    "--no-default-browser-check",
+    "--js-flags=--max-old-space-size=64"
+  ],
+  "cpuSlowdownMultiplier": 8,
+  "profiles": {
+    "steady": [
+      {
+        "atMs": 0,
+        "downKbps": 160,
+        "latencyMs": 800,
+        "online": true
+      }
+    ],
+    "changing": [
+      {
+        "atMs": 0,
+        "downKbps": 256,
+        "latencyMs": 600,
+        "online": true
+      },
+      {
+        "atMs": 1000,
+        "downKbps": 96,
+        "latencyMs": 1000,
+        "online": true
+      },
+      {
+        "atMs": 3000,
+        "downKbps": 0,
+        "latencyMs": 0,
+        "online": false
+      },
+      {
+        "atMs": 6000,
+        "downKbps": 128,
+        "latencyMs": 900,
+        "online": true
+      },
+      {
+        "atMs": 12000,
+        "downKbps": 256,
+        "latencyMs": 600,
+        "online": true
+      }
+    ],
+    "recovered": [
+      {
+        "atMs": 0,
+        "downKbps": 256,
+        "latencyMs": 600,
+        "online": true
+      }
+    ],
+    "offline": [
+      {
+        "atMs": 0,
+        "downKbps": 0,
+        "latencyMs": 0,
+        "online": false
+      }
+    ]
+  },
+  "notes": [
+    "Proxy shapes aggregate response bodies only; upload shaping, radio/DNS/TLS behaviour are not emulated.",
+    "64MiB V8 old-space cap is not a 64MiB total heap or physical phone RAM constraint.",
+    "RSS sums double-count some shared pages and include Chrome, not just app memory.",
+    "Fresh-browser recovered runs prove cold navigation after availability returns, not recovery of the same failed page."
+  ],
+  "runs": [
+    {
+      "id": "steady-1",
+      "profile": "steady",
+      "iteration": 1,
+      "url": "http://127.0.0.1:57797/",
+      "lighthouseVersion": "13.5.0",
+      "chromeVersion": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+      "runtimeError": null,
+      "warnings": [],
+      "scores": {
+        "performance": 0.85,
+        "accessibility": 1,
+        "best-practices": 1,
+        "seo": 1
+      },
+      "lcpMs": 3306.779,
+      "fcpMs": 3306.779,
+      "tbtMs": 26.371999992370547,
+      "cls": 0,
+      "navigationTransferBytes": 64302,
+      "controlsReadyMs": 5659.06,
+      "readyMarks": [
+        {
+          "traceTimestampUs": 46035355735,
+          "category": "blink.user_timing"
+        }
+      ],
+      "heap": {
+        "v8OldSpaceCapMiB": 64,
+        "traceSampleCount": 44,
+        "maxObservedUsedBytes": 7719792,
+        "samples": [
+          {
+            "traceTimestampUs": 46030563281,
+            "pid": 878,
+            "usedBytes": 7337840
+          },
+          {
+            "traceTimestampUs": 46030563553,
+            "pid": 878,
+            "usedBytes": 7340096
+          },
+          {
+            "traceTimestampUs": 46030563822,
+            "pid": 878,
+            "usedBytes": 7681840
+          },
+          {
+            "traceTimestampUs": 46030564442,
+            "pid": 878,
+            "usedBytes": 7365048
+          },
+          {
+            "traceTimestampUs": 46030564463,
+            "pid": 878,
+            "usedBytes": 7365152
+          },
+          {
+            "traceTimestampUs": 46030567929,
+            "pid": 878,
+            "usedBytes": 7378800
+          },
+          {
+            "traceTimestampUs": 46030568027,
+            "pid": 878,
+            "usedBytes": 7381264
+          },
+          {
+            "traceTimestampUs": 46030568053,
+            "pid": 878,
+            "usedBytes": 7381384
+          },
+          {
+            "traceTimestampUs": 46030568058,
+            "pid": 878,
+            "usedBytes": 7381488
+          },
+          {
+            "traceTimestampUs": 46030606542,
+            "pid": 878,
+            "usedBytes": 7385532
+          },
+          {
+            "traceTimestampUs": 46030606918,
+            "pid": 878,
+            "usedBytes": 7387728
+          },
+          {
+            "traceTimestampUs": 46030607047,
+            "pid": 878,
+            "usedBytes": 7388112
+          },
+          {
+            "traceTimestampUs": 46030607082,
+            "pid": 878,
+            "usedBytes": 7388232
+          },
+          {
+            "traceTimestampUs": 46030607088,
+            "pid": 878,
+            "usedBytes": 7388336
+          },
+          {
+            "traceTimestampUs": 46030607491,
+            "pid": 878,
+            "usedBytes": 7393236
+          },
+          {
+            "traceTimestampUs": 46030607577,
+            "pid": 878,
+            "usedBytes": 7617448
+          },
+          {
+            "traceTimestampUs": 46030607598,
+            "pid": 878,
+            "usedBytes": 7617568
+          },
+          {
+            "traceTimestampUs": 46030607603,
+            "pid": 878,
+            "usedBytes": 7617672
+          },
+          {
+            "traceTimestampUs": 46030621364,
+            "pid": 880,
+            "usedBytes": 1614688
+          },
+          {
+            "traceTimestampUs": 46032348953,
+            "pid": 880,
+            "usedBytes": 1906288
+          },
+          {
+            "traceTimestampUs": 46032998341,
+            "pid": 880,
+            "usedBytes": 1700328
+          },
+          {
+            "traceTimestampUs": 46032998349,
+            "pid": 880,
+            "usedBytes": 1700328
+          },
+          {
+            "traceTimestampUs": 46033001886,
+            "pid": 880,
+            "usedBytes": 1716636
+          },
+          {
+            "traceTimestampUs": 46035309859,
+            "pid": 880,
+            "usedBytes": 2182488
+          },
+          {
+            "traceTimestampUs": 46035325156,
+            "pid": 878,
+            "usedBytes": 7405300
+          },
+          {
+            "traceTimestampUs": 46035325997,
+            "pid": 878,
+            "usedBytes": 7406092
+          },
+          {
+            "traceTimestampUs": 46035326267,
+            "pid": 878,
+            "usedBytes": 7695616
+          },
+          {
+            "traceTimestampUs": 46035326364,
+            "pid": 878,
+            "usedBytes": 7415708
+          },
+          {
+            "traceTimestampUs": 46035326403,
+            "pid": 878,
+            "usedBytes": 7415828
+          },
+          {
+            "traceTimestampUs": 46035326416,
+            "pid": 878,
+            "usedBytes": 7415932
+          },
+          {
+            "traceTimestampUs": 46035326599,
+            "pid": 878,
+            "usedBytes": 7421940
+          },
+          {
+            "traceTimestampUs": 46035326678,
+            "pid": 878,
+            "usedBytes": 7719568
+          },
+          {
+            "traceTimestampUs": 46035326702,
+            "pid": 878,
+            "usedBytes": 7719688
+          },
+          {
+            "traceTimestampUs": 46035326706,
+            "pid": 878,
+            "usedBytes": 7719792
+          },
+          {
+            "traceTimestampUs": 46035344568,
+            "pid": 880,
+            "usedBytes": 2296220
+          },
+          {
+            "traceTimestampUs": 46035344582,
+            "pid": 880,
+            "usedBytes": 2296344
+          },
+          {
+            "traceTimestampUs": 46036167137,
+            "pid": 880,
+            "usedBytes": 351576
+          },
+          {
+            "traceTimestampUs": 46036253246,
+            "pid": 880,
+            "usedBytes": 2309072
+          },
+          {
+            "traceTimestampUs": 46037054735,
+            "pid": 880,
+            "usedBytes": 2309072
+          },
+          {
+            "traceTimestampUs": 46041109891,
+            "pid": 880,
+            "usedBytes": 410304
+          },
+          {
+            "traceTimestampUs": 46041115904,
+            "pid": 880,
+            "usedBytes": 415908
+          },
+          {
+            "traceTimestampUs": 46042340193,
+            "pid": 880,
+            "usedBytes": 2626040
+          },
+          {
+            "traceTimestampUs": 46042493642,
+            "pid": 880,
+            "usedBytes": 2638400
+          },
+          {
+            "traceTimestampUs": 46047895625,
+            "pid": 880,
+            "usedBytes": 2650676
+          }
+        ]
+      }
+    },
+    {
+      "id": "changing-1",
+      "profile": "changing",
+      "iteration": 1,
+      "url": "http://127.0.0.1:57797/",
+      "lighthouseVersion": "13.5.0",
+      "chromeVersion": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+      "runtimeError": null,
+      "warnings": [],
+      "scores": {
+        "performance": 0.98,
+        "accessibility": 1,
+        "best-practices": 0.96,
+        "seo": 1
+      },
+      "lcpMs": 1868.119,
+      "fcpMs": 1868.119,
+      "tbtMs": 0,
+      "cls": 0,
+      "navigationTransferBytes": 83649,
+      "controlsReadyMs": 4118.227,
+      "readyMarks": [
+        {
+          "traceTimestampUs": 46069496152,
+          "category": "blink.user_timing"
+        }
+      ],
+      "heap": {
+        "v8OldSpaceCapMiB": 64,
+        "traceSampleCount": 60,
+        "maxObservedUsedBytes": 25857744,
+        "samples": [
+          {
+            "traceTimestampUs": 46055358363,
+            "pid": 1942,
+            "usedBytes": 7399860
+          },
+          {
+            "traceTimestampUs": 46055358491,
+            "pid": 1942,
+            "usedBytes": 7402096
+          },
+          {
+            "traceTimestampUs": 46055358603,
+            "pid": 1942,
+            "usedBytes": 7403048
+          },
+          {
+            "traceTimestampUs": 46055359210,
+            "pid": 1942,
+            "usedBytes": 7403272
+          },
+          {
+            "traceTimestampUs": 46055359222,
+            "pid": 1942,
+            "usedBytes": 7403376
+          },
+          {
+            "traceTimestampUs": 46055361867,
+            "pid": 1942,
+            "usedBytes": 7409432
+          },
+          {
+            "traceTimestampUs": 46055361955,
+            "pid": 1942,
+            "usedBytes": 7411320
+          },
+          {
+            "traceTimestampUs": 46055361976,
+            "pid": 1942,
+            "usedBytes": 7411440
+          },
+          {
+            "traceTimestampUs": 46055361980,
+            "pid": 1942,
+            "usedBytes": 7411544
+          },
+          {
+            "traceTimestampUs": 46055382653,
+            "pid": 1942,
+            "usedBytes": 7420448
+          },
+          {
+            "traceTimestampUs": 46055382705,
+            "pid": 1942,
+            "usedBytes": 7422644
+          },
+          {
+            "traceTimestampUs": 46055382741,
+            "pid": 1942,
+            "usedBytes": 7423028
+          },
+          {
+            "traceTimestampUs": 46055382755,
+            "pid": 1942,
+            "usedBytes": 7423148
+          },
+          {
+            "traceTimestampUs": 46055382759,
+            "pid": 1942,
+            "usedBytes": 7423252
+          },
+          {
+            "traceTimestampUs": 46055382867,
+            "pid": 1942,
+            "usedBytes": 7428152
+          },
+          {
+            "traceTimestampUs": 46055382907,
+            "pid": 1942,
+            "usedBytes": 7659804
+          },
+          {
+            "traceTimestampUs": 46055382916,
+            "pid": 1942,
+            "usedBytes": 7431084
+          },
+          {
+            "traceTimestampUs": 46055382919,
+            "pid": 1942,
+            "usedBytes": 7431188
+          },
+          {
+            "traceTimestampUs": 46055388316,
+            "pid": 1945,
+            "usedBytes": 24225844
+          },
+          {
+            "traceTimestampUs": 46057633777,
+            "pid": 1945,
+            "usedBytes": 24277980
+          },
+          {
+            "traceTimestampUs": 46057787321,
+            "pid": 1945,
+            "usedBytes": 24278520
+          },
+          {
+            "traceTimestampUs": 46057787328,
+            "pid": 1945,
+            "usedBytes": 24278520
+          },
+          {
+            "traceTimestampUs": 46057790485,
+            "pid": 1945,
+            "usedBytes": 24294828
+          },
+          {
+            "traceTimestampUs": 46058438820,
+            "pid": 1945,
+            "usedBytes": 24299392
+          },
+          {
+            "traceTimestampUs": 46060453167,
+            "pid": 1945,
+            "usedBytes": 24333132
+          },
+          {
+            "traceTimestampUs": 46064462900,
+            "pid": 1945,
+            "usedBytes": 24424504
+          },
+          {
+            "traceTimestampUs": 46066295720,
+            "pid": 1942,
+            "usedBytes": 7435300
+          },
+          {
+            "traceTimestampUs": 46066295887,
+            "pid": 1942,
+            "usedBytes": 7876304
+          },
+          {
+            "traceTimestampUs": 46066296039,
+            "pid": 1942,
+            "usedBytes": 7444916
+          },
+          {
+            "traceTimestampUs": 46066296107,
+            "pid": 1942,
+            "usedBytes": 7445036
+          },
+          {
+            "traceTimestampUs": 46066296114,
+            "pid": 1942,
+            "usedBytes": 7445140
+          },
+          {
+            "traceTimestampUs": 46066298505,
+            "pid": 1942,
+            "usedBytes": 7882880
+          },
+          {
+            "traceTimestampUs": 46066298607,
+            "pid": 1942,
+            "usedBytes": 7460408
+          },
+          {
+            "traceTimestampUs": 46066298632,
+            "pid": 1942,
+            "usedBytes": 7460528
+          },
+          {
+            "traceTimestampUs": 46066298636,
+            "pid": 1942,
+            "usedBytes": 7460632
+          },
+          {
+            "traceTimestampUs": 46066313302,
+            "pid": 1945,
+            "usedBytes": 24885136
+          },
+          {
+            "traceTimestampUs": 46067231172,
+            "pid": 1945,
+            "usedBytes": 24910872
+          },
+          {
+            "traceTimestampUs": 46067244567,
+            "pid": 1945,
+            "usedBytes": 24910872
+          },
+          {
+            "traceTimestampUs": 46067244572,
+            "pid": 1945,
+            "usedBytes": 24910872
+          },
+          {
+            "traceTimestampUs": 46067246667,
+            "pid": 1945,
+            "usedBytes": 24918112
+          },
+          {
+            "traceTimestampUs": 46069459718,
+            "pid": 1945,
+            "usedBytes": 25402200
+          },
+          {
+            "traceTimestampUs": 46069476617,
+            "pid": 1942,
+            "usedBytes": 7463736
+          },
+          {
+            "traceTimestampUs": 46069477832,
+            "pid": 1942,
+            "usedBytes": 7464528
+          },
+          {
+            "traceTimestampUs": 46069478053,
+            "pid": 1942,
+            "usedBytes": 7466812
+          },
+          {
+            "traceTimestampUs": 46069478172,
+            "pid": 1942,
+            "usedBytes": 7467196
+          },
+          {
+            "traceTimestampUs": 46069478225,
+            "pid": 1942,
+            "usedBytes": 7467316
+          },
+          {
+            "traceTimestampUs": 46069478230,
+            "pid": 1942,
+            "usedBytes": 7467420
+          },
+          {
+            "traceTimestampUs": 46069478401,
+            "pid": 1942,
+            "usedBytes": 7472296
+          },
+          {
+            "traceTimestampUs": 46069478454,
+            "pid": 1942,
+            "usedBytes": 7474180
+          },
+          {
+            "traceTimestampUs": 46069478462,
+            "pid": 1942,
+            "usedBytes": 7474300
+          },
+          {
+            "traceTimestampUs": 46069478466,
+            "pid": 1942,
+            "usedBytes": 7474404
+          },
+          {
+            "traceTimestampUs": 46069493066,
+            "pid": 1945,
+            "usedBytes": 25508936
+          },
+          {
+            "traceTimestampUs": 46069493079,
+            "pid": 1945,
+            "usedBytes": 25509060
+          },
+          {
+            "traceTimestampUs": 46070137756,
+            "pid": 1945,
+            "usedBytes": 351576
+          },
+          {
+            "traceTimestampUs": 46070181586,
+            "pid": 1945,
+            "usedBytes": 25521788
+          },
+          {
+            "traceTimestampUs": 46070782660,
+            "pid": 1945,
+            "usedBytes": 25521788
+          },
+          {
+            "traceTimestampUs": 46073849359,
+            "pid": 1945,
+            "usedBytes": 410304
+          },
+          {
+            "traceTimestampUs": 46073854624,
+            "pid": 1945,
+            "usedBytes": 415908
+          },
+          {
+            "traceTimestampUs": 46076209184,
+            "pid": 1945,
+            "usedBytes": 25844888
+          },
+          {
+            "traceTimestampUs": 46081615249,
+            "pid": 1945,
+            "usedBytes": 25857744
+          }
+        ]
+      }
+    },
+    {
+      "id": "recovered-1",
+      "profile": "recovered",
+      "iteration": 1,
+      "url": "http://127.0.0.1:57797/",
+      "lighthouseVersion": "13.5.0",
+      "chromeVersion": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+      "runtimeError": null,
+      "warnings": [],
+      "scores": {
+        "performance": 0.98,
+        "accessibility": 1,
+        "best-practices": 1,
+        "seo": 1
+      },
+      "lcpMs": 1910.662,
+      "fcpMs": 1910.662,
+      "tbtMs": 0,
+      "cls": 0,
+      "navigationTransferBytes": 64302,
+      "controlsReadyMs": 3825.731,
+      "readyMarks": [
+        {
+          "traceTimestampUs": 46091576256,
+          "category": "blink.user_timing"
+        }
+      ],
+      "heap": {
+        "v8OldSpaceCapMiB": 64,
+        "traceSampleCount": 44,
+        "maxObservedUsedBytes": 17238740,
+        "samples": [
+          {
+            "traceTimestampUs": 46088381034,
+            "pid": 3145,
+            "usedBytes": 7876760
+          },
+          {
+            "traceTimestampUs": 46088382092,
+            "pid": 3145,
+            "usedBytes": 7361972
+          },
+          {
+            "traceTimestampUs": 46088382229,
+            "pid": 3145,
+            "usedBytes": 7362196
+          },
+          {
+            "traceTimestampUs": 46088382236,
+            "pid": 3145,
+            "usedBytes": 7362300
+          },
+          {
+            "traceTimestampUs": 46088382372,
+            "pid": 3145,
+            "usedBytes": 7366436
+          },
+          {
+            "traceTimestampUs": 46088383815,
+            "pid": 3145,
+            "usedBytes": 7369060
+          },
+          {
+            "traceTimestampUs": 46088383908,
+            "pid": 3145,
+            "usedBytes": 7371328
+          },
+          {
+            "traceTimestampUs": 46088383932,
+            "pid": 3145,
+            "usedBytes": 7371448
+          },
+          {
+            "traceTimestampUs": 46088383937,
+            "pid": 3145,
+            "usedBytes": 7371552
+          },
+          {
+            "traceTimestampUs": 46088395871,
+            "pid": 3145,
+            "usedBytes": 7376184
+          },
+          {
+            "traceTimestampUs": 46088395910,
+            "pid": 3145,
+            "usedBytes": 7376568
+          },
+          {
+            "traceTimestampUs": 46088395926,
+            "pid": 3145,
+            "usedBytes": 7376688
+          },
+          {
+            "traceTimestampUs": 46088395930,
+            "pid": 3145,
+            "usedBytes": 7376792
+          },
+          {
+            "traceTimestampUs": 46088396006,
+            "pid": 3145,
+            "usedBytes": 7379896
+          },
+          {
+            "traceTimestampUs": 46088396744,
+            "pid": 3145,
+            "usedBytes": 7909976
+          },
+          {
+            "traceTimestampUs": 46088396802,
+            "pid": 3145,
+            "usedBytes": 7398832
+          },
+          {
+            "traceTimestampUs": 46088396813,
+            "pid": 3145,
+            "usedBytes": 7398952
+          },
+          {
+            "traceTimestampUs": 46088396816,
+            "pid": 3145,
+            "usedBytes": 7399056
+          },
+          {
+            "traceTimestampUs": 46088400940,
+            "pid": 3147,
+            "usedBytes": 16211124
+          },
+          {
+            "traceTimestampUs": 46088413317,
+            "pid": 3147,
+            "usedBytes": 16211124
+          },
+          {
+            "traceTimestampUs": 46089544906,
+            "pid": 3147,
+            "usedBytes": 16260756
+          },
+          {
+            "traceTimestampUs": 46089656989,
+            "pid": 3147,
+            "usedBytes": 16383188
+          },
+          {
+            "traceTimestampUs": 46089656997,
+            "pid": 3147,
+            "usedBytes": 16383188
+          },
+          {
+            "traceTimestampUs": 46089658611,
+            "pid": 3147,
+            "usedBytes": 16399496
+          },
+          {
+            "traceTimestampUs": 46091554780,
+            "pid": 3147,
+            "usedBytes": 16779264
+          },
+          {
+            "traceTimestampUs": 46091565096,
+            "pid": 3145,
+            "usedBytes": 7402280
+          },
+          {
+            "traceTimestampUs": 46091566170,
+            "pid": 3145,
+            "usedBytes": 7404476
+          },
+          {
+            "traceTimestampUs": 46091566233,
+            "pid": 3145,
+            "usedBytes": 7404860
+          },
+          {
+            "traceTimestampUs": 46091566270,
+            "pid": 3145,
+            "usedBytes": 7405852
+          },
+          {
+            "traceTimestampUs": 46091566283,
+            "pid": 3145,
+            "usedBytes": 7405956
+          },
+          {
+            "traceTimestampUs": 46091566390,
+            "pid": 3145,
+            "usedBytes": 7409172
+          },
+          {
+            "traceTimestampUs": 46091566886,
+            "pid": 3145,
+            "usedBytes": 7411736
+          },
+          {
+            "traceTimestampUs": 46091566934,
+            "pid": 3145,
+            "usedBytes": 7413620
+          },
+          {
+            "traceTimestampUs": 46091566946,
+            "pid": 3145,
+            "usedBytes": 7413740
+          },
+          {
+            "traceTimestampUs": 46091566949,
+            "pid": 3145,
+            "usedBytes": 7413844
+          },
+          {
+            "traceTimestampUs": 46091575299,
+            "pid": 3147,
+            "usedBytes": 16890500
+          },
+          {
+            "traceTimestampUs": 46091575309,
+            "pid": 3147,
+            "usedBytes": 16890624
+          },
+          {
+            "traceTimestampUs": 46092228714,
+            "pid": 3147,
+            "usedBytes": 351576
+          },
+          {
+            "traceTimestampUs": 46092230551,
+            "pid": 3147,
+            "usedBytes": 16898284
+          },
+          {
+            "traceTimestampUs": 46092832742,
+            "pid": 3147,
+            "usedBytes": 16903352
+          },
+          {
+            "traceTimestampUs": 46095894173,
+            "pid": 3147,
+            "usedBytes": 410304
+          },
+          {
+            "traceTimestampUs": 46095895926,
+            "pid": 3147,
+            "usedBytes": 415908
+          },
+          {
+            "traceTimestampUs": 46098256907,
+            "pid": 3147,
+            "usedBytes": 17226452
+          },
+          {
+            "traceTimestampUs": 46103660096,
+            "pid": 3147,
+            "usedBytes": 17238740
+          }
+        ]
+      }
+    }
+  ]
+}

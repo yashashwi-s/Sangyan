@@ -1,0 +1,16 @@
+{
+  "result": "passed-with-manual-retry",
+  "snapshot": "../2026-10-03-expanded-lab/source-manifest.json",
+  "profile": "changing",
+  "language": "hi",
+  "observations": [
+    "Initial page displayed Hindi introduction and native retry link; controls disabled after script interruption.",
+    "Clicked visible Hindi retry link after network recovered.",
+    "Waited for visible enabled account-start button; home, language, reading and listening controls became available."
+  ],
+  "limitations": [
+    "One browser trial, not physical Android or task-completion study.",
+    "Recovery requires user retry; no automatic recovery is claimed."
+  ],
+  "screenshot": "recovered-home.png"
+}

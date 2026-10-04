@@ -1,0 +1,124 @@
+{
+  "sourceSha256": "a8849e795a78f588106d08e24a5c3650d53402515c80e4bea054175f3a6d0e05",
+  "runs": 9,
+  "runtimeErrors": 0,
+  "profiles": {
+    "steady": {
+      "lcpMs": {
+        "median": 2689.379,
+        "min": 2624.393,
+        "max": 2856.657
+      },
+      "controlsReadyMs": {
+        "median": 5556.157,
+        "min": 5371.078,
+        "max": 5607.77
+      },
+      "tbtMs": {
+        "median": 2.5599999999994907,
+        "min": 0,
+        "max": 30.159999999999854
+      },
+      "navigationTransferBytes": {
+        "median": 62975,
+        "min": 62975,
+        "max": 62975
+      },
+      "cls": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      },
+      "readyRuns": 3,
+      "heapPeakMiB": [
+        7.54,
+        7.383,
+        17.563
+      ],
+      "treeRssPeakMiB": [
+        1111.719,
+        1240.375,
+        1334.219
+      ]
+    },
+    "changing": {
+      "lcpMs": {
+        "median": 3115.276,
+        "min": 2946.851,
+        "max": 3150.54
+      },
+      "controlsReadyMs": null,
+      "tbtMs": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      },
+      "navigationTransferBytes": {
+        "median": 26647,
+        "min": 26647,
+        "max": 26647
+      },
+      "cls": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      },
+      "readyRuns": 0,
+      "heapPeakMiB": [
+        26.321,
+        19.82,
+        13.16
+      ],
+      "treeRssPeakMiB": [
+        1036.516,
+        1089.328,
+        1135.297
+      ]
+    },
+    "recovered": {
+      "lcpMs": {
+        "median": 1883.428,
+        "min": 1863.615,
+        "max": 1895.361
+      },
+      "controlsReadyMs": {
+        "median": 3841.771,
+        "min": 3790.605,
+        "max": 3869.976
+      },
+      "tbtMs": {
+        "median": 0,
+        "min": 0,
+        "max": 13.630999999999858
+      },
+      "navigationTransferBytes": {
+        "median": 62975,
+        "min": 62975,
+        "max": 62975
+      },
+      "cls": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      },
+      "readyRuns": 3,
+      "heapPeakMiB": [
+        29.417,
+        19.503,
+        14.504
+      ],
+      "treeRssPeakMiB": [
+        1217.703,
+        1202.906,
+        1279.516
+      ]
+    }
+  },
+  "mp3Requests": [],
+  "limitations": [
+    "Proxy shapes aggregate response bodies only; upload shaping, radio/DNS/TLS behaviour are not emulated.",
+    "64MiB V8 old-space cap is not a 64MiB total heap or physical phone RAM constraint.",
+    "RSS sums double-count some shared pages and include Chrome, not just app memory.",
+    "Fresh-browser recovered runs prove cold navigation after availability returns, not recovery of the same failed page."
+  ]
+}

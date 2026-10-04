@@ -1,0 +1,90 @@
+{
+  "language": "te",
+  "revision": "04e04508b535",
+  "model": {
+    "model": "facebook/mms-tts-tel",
+    "revision": "dea6807154acc01918581982dcd40a116882a14d",
+    "license": "CC-BY-NC-4.0",
+    "languageCode": "te",
+    "files": {
+      "config.json": {
+        "sha256": "48578ae63327231562a7bd95ca7d0f14d9829e0fa0596729d5fee8dd5b9a8cd9",
+        "bytes": 1641
+      },
+      "tokenizer_config.json": {
+        "sha256": "be17f308c8a31f727de568316e9bf52e7d528eaab95f2a481f0e77f6d88710be",
+        "bytes": 289
+      },
+      "vocab.json": {
+        "sha256": "92a58f888e5a0add6c7c4b6b9f2061bbf93029b0c5be8dcd5d138544b4305c51",
+        "bytes": 828
+      },
+      "special_tokens_map.json": {
+        "sha256": "abc17c5ce814eb73ef9a17d97b9348f717aeb90596526678b3c76905d471502c",
+        "bytes": 49
+      },
+      "model.safetensors": {
+        "sha256": "067ac7ad1632d214dec61bf78cd3c2921358284614f5a4063378cc1434a389cf",
+        "bytes": 145248248
+      },
+      "README.md": {
+        "sha256": "94f1ac48d177cd333f041dc41cf0043a789b4aad91dea4a7c463cf6f6dd522cc",
+        "bytes": 3975
+      }
+    }
+  },
+  "license": "CC-BY-NC-4.0",
+  "fluentReview": false,
+  "scope": "sample",
+  "entries": {
+    "homeTitle": {
+      "textHash": "7d5a327e99c5f97640dfde44d310c674a242106babab2e1ceebc581370555a1d",
+      "spoken": "మీ కుటుంబ ఖాతాలను సులభంగా కనుగొనండి.",
+      "bytes": 15038,
+      "seconds": 3.614,
+      "sha256": "0f51aee54b82ec536d9ddf33d4ec15d61eecaa4ba8944cf5f3404e72ed534013"
+    },
+    "nomineeExplain": {
+      "textHash": "ecdb1570da5d105547743049ea0206048379e96e6f4ae75e6c431ea8ca1fd53d",
+      "spoken": "ఖాతాదారు మరణించిన తర్వాత సంస్థకు క్లెయిమ్ సమర్పించగల వ్యక్తిని నామినీ అంటారు. నామినేషన్ ప్రక్రియకు సహాయపడుతుంది; చట్టబద్ధంగా ఎవరు వారసులో నిర్ణయించదు. మీరు తనిఖీ చేయకపోతే, “ఖచ్చితంగా తెలియదు” ఎంచుకోండి.",
+      "bytes": 70243,
+      "seconds": 17.418,
+      "sha256": "4d4c9a8b3038bae04dc6fd3185648c88ef1509f4a27aa2aa33202ec61a60a2aa"
+    },
+    "receiptExample": {
+      "textHash": "bc7af975f931e463095d51aa94c03c7ebecdc3df78dad0735221d667172acefa",
+      "spoken": "“మీ అభ్యర్థన అందింది” అంటే అభ్యర్థన ఇంకా పెండింగ్‌లో ఉంది.",
+      "bytes": 23107,
+      "seconds": 5.637,
+      "sha256": "911fddd81e1c9745a8e087cd01b6669d833b0bed63601ceb3064ac294905e14a"
+    },
+    "registeredExample": {
+      "textHash": "75179e3d84621322b6333edb0eb529cfcbebcadb36ba0273f1f88fbef2ab8104",
+      "spoken": "“నామినేషన్ నమోదైంది” లేదా “నామినేషన్: అవును” అనేది నమోదు జరిగినట్లు చూపిస్తుంది. అది ఈ ఖాతాను గుర్తిస్తుందో తనిఖీ చేయండి.",
+      "bytes": 43366,
+      "seconds": 10.698,
+      "sha256": "1503cdf2aea4db4d5bec5f97aa57e6b1b02e50de545c94019eeb9fe688bb3332"
+    },
+    "helpScopeText": {
+      "textHash": "48e94bdc94f2a57dfd469b5b8b8e60460facdb8e1e8ff64f0938945325a092cf",
+      "spoken": "జీవించి ఉన్న ఖాతాదారు నామినేషన్ ఏర్పాటు చేసుకోవడానికి ఈ ప్రక్రియ. ఖాతాదారు మరణిస్తే, మరణించిన ఖాతాదారుల క్లెయిమ్ లేదా ఆస్తి బదిలీ ప్రక్రియ గురించి సంస్థను అడగండి. వారి తరఫున కొత్త నామినేషన్ ప్రారంభించవద్దు.",
+      "bytes": 73986,
+      "seconds": 18.344,
+      "sha256": "1752d9793eb5032d5c6221f2e9d9c73be8f9309e550546face77b77f4038344e"
+    },
+    "passwordHelp": {
+      "textHash": "6ca81d753b29d57b7d5b7fc0e38557e99b98dc8367921b55f22415b8d545d15a",
+      "spoken": "కనీసం పన్నెండు అక్షరాలు ఉండాలి. పాస్‌వర్డ్‌ను భద్రంగా ఉంచండి; మేము దాన్ని తిరిగి పొందలేము.",
+      "bytes": 30305,
+      "seconds": 7.439,
+      "sha256": "f1949713999f97323ee64c637f71fae08e3b69b8ebfb97e5b60d33d56e8e9c44"
+    },
+    "privacyDetail": {
+      "textHash": "819b53ea68a9d29e4357582c35a65e91a8846bbe934519103ee7ae666e206ab2",
+      "spoken": "మీ జాబితా బ్రౌజర్ మెమరీలో ఉంటుంది. పేజీని మళ్లీ లోడ్ చేస్తే అది తొలగిపోతుంది. తర్వాత తిరిగి తెరవడానికి గుప్తీకరించిన ఫైల్‌ను సేవ్ చేయండి. డౌన్‌లోడ్ చేసిన ఫైళ్లు మీ పరికరంలోనే ఉంటాయి.",
+      "bytes": 65922,
+      "seconds": 16.338,
+      "sha256": "3602e3011a6b34e159d29b41b8845467bc67634921db08027d2c8fcbcfe1a087"
+    }
+  }
+}

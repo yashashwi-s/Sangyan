@@ -19,12 +19,19 @@
 .setting-switch>span{min-width:0;overflow-wrap:anywhere}.setting-switch input{flex-shrink:0}
 @media(max-width:600px){.size-control{grid-template-columns:44px minmax(0,1fr) 44px}.size-control button:first-of-type{grid-column:1}}
 
-/* Session policy: visible before leaving this private in-memory workspace. */
-.session-notice{margin:28px 0;padding:16px 18px;border-inline-start:3px solid var(--accent);background:var(--soft);font-size:.875rem;max-width:850px;overflow-wrap:anywhere}.learning-entry{margin:24px 0}.learning-entry button{display:flex;flex-direction:column;align-items:flex-start;gap:4px}.learning-entry .micro{font-weight:400}
-/* The application does not create personal-data print/export copies. */
-@media print{body>*{display:none!important}body:after{display:block;content:"Virasat is a session-only guide. Complete personal information only in your institution's official form."}}
+/* Language names stay readable at large text sizes and can be searched by either name. */
+.language-tiles [hidden]{display:none!important}
+.language-tiles a,.language-tiles button{min-width:0;display:flex;flex-direction:column;gap:.35rem;overflow-wrap:anywhere}
+.language-tiles span{font-size:.8em;font-weight:400;color:var(--muted,#655d57)}
+.language-search{display:grid;gap:.5rem;margin:1rem 0}
+.language-search input{width:100%;min-height:48px}
+.translation-notice,.audio-availability{border-inline-start:3px solid #9b513a;padding-inline-start:.75rem}
+/* Small local script fonts are requested only when their language is selected. */
+@font-face{font-family:VirasatMeetei;src:url('/fonts/noto-sans-meetei-mayek.woff2') format('woff2');font-style:normal;font-weight:400;font-display:swap;unicode-range:U+200C-200D,U+25CC,U+AAE0-AAF6,U+ABC0-ABFF}
+@font-face{font-family:VirasatOlChiki;src:url('/fonts/noto-sans-ol-chiki.woff2') format('woff2');font-style:normal;font-weight:400;font-display:swap;unicode-range:U+1C50-1C7F,U+20B9}
+html[lang="mni"] body{font-family:VirasatMeetei,system-ui,sans-serif}
+html[lang="sat"] body{font-family:VirasatOlChiki,system-ui,sans-serif}
 
-/* Keep the current decision ahead of optional account history. */
 .focused-detail{max-width:48rem;margin-inline:auto;display:grid;gap:1rem}
 .secondary-record>summary{cursor:pointer;font-weight:650;padding:.4rem}
 .secondary-record>.detail-body{padding-block-start:1rem}

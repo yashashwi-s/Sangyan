@@ -1,0 +1,90 @@
+{
+  "language": "kn",
+  "revision": "b3951082f0fb",
+  "model": {
+    "model": "facebook/mms-tts-kan",
+    "revision": "30e3c5d533e8c559c10bf0d25637fea51b95bd7c",
+    "license": "CC-BY-NC-4.0",
+    "languageCode": "kn",
+    "files": {
+      "config.json": {
+        "sha256": "69c993ad6d7f34a8ce10834fb7d70cb300a83c0f7fae63a9ad8de9eb8243cdd3",
+        "bytes": 1641
+      },
+      "tokenizer_config.json": {
+        "sha256": "0a4c6ab042637ec5a955cba6f9422046648cc48607a6a366f3d7be1f9008c091",
+        "bytes": 287
+      },
+      "vocab.json": {
+        "sha256": "56e00b687cf6c32bc603e055fe142351c16a136584bae988f333b9dc54c0c3ce",
+        "bytes": 940
+      },
+      "special_tokens_map.json": {
+        "sha256": "7537103960690fa7b742bbdc31b7df3fdf9ab7dfd0e150690b7883abd039161d",
+        "bytes": 47
+      },
+      "model.safetensors": {
+        "sha256": "12a68748b7aeab553c8b145ab2de198617644eb89e5f0b7008a2f3a7cf91a9bd",
+        "bytes": 145255928
+      },
+      "README.md": {
+        "sha256": "edf1c71711b448ce4dc23d1d7803e1e3be2d0a79a2163a960d4bf0fcbf726c1e",
+        "bytes": 3978
+      }
+    }
+  },
+  "license": "CC-BY-NC-4.0",
+  "fluentReview": false,
+  "scope": "sample",
+  "entries": {
+    "homeTitle": {
+      "textHash": "afec4dc2982e9d01615b24673bd827aaaf79b2590a1c866038ad43e1fb117761",
+      "spoken": "ನಿಮ್ಮ ಕುಟುಂಬದ ಖಾತೆಗಳನ್ನು ಹುಡುಕಲು ಸುಲಭವಾಗಿಸಿ.",
+      "bytes": 18494,
+      "seconds": 4.469,
+      "sha256": "3dbf786bcea93dd0d381e52b9798c541d783083a72effb495ee6390f75207ca2"
+    },
+    "nomineeExplain": {
+      "textHash": "39d1423dbfb863c62aba7d1347cd0869a63df49302fc9d581a262bc46c8dd395",
+      "spoken": "ನಾಮಿನಿ ಎಂದರೆ ಖಾತೆದಾರರು ಮೃತಪಟ್ಟ ನಂತರ ಸಂಸ್ಥೆಗೆ ಕ್ಲೇಮ್ ಸಲ್ಲಿಸಬಹುದಾದ ವ್ಯಕ್ತಿ. ನಾಮನಿರ್ದೇಶನವು ಪ್ರಕ್ರಿಯೆಗೆ ಸಹಾಯ ಮಾಡುತ್ತದೆ; ಕಾನೂನುಬದ್ಧವಾಗಿ ಆಸ್ತಿಗೆ ಯಾರು ವಾರಸುದಾರರು ಎಂಬುದನ್ನು ನಿರ್ಧರಿಸುವುದಿಲ್ಲ. ನೀವು ಪರಿಶೀಲಿಸದಿದ್ದರೆ, “ಖಚಿತವಾಗಿಲ್ಲ” ಆಯ್ಕೆಮಾಡಿ.",
+      "bytes": 95587,
+      "seconds": 23.754,
+      "sha256": "9a0e1d01379cf59af20567969b2910b7ad2204ad0d596d2e8d6c6369c369b28a"
+    },
+    "receiptExample": {
+      "textHash": "020c55be6a5227e9bccaccfd03913aeb2d1cba9e0ddc0bc249cc2b3ebf043340",
+      "spoken": "“ನಿಮ್ಮ ವಿನಂತಿಯನ್ನು ಸ್ವೀಕರಿಸಲಾಗಿದೆ” ಎಂದರೆ ವಿನಂತಿ ಇನ್ನೂ ಬಾಕಿಯಿದೆ.",
+      "bytes": 28387,
+      "seconds": 6.941,
+      "sha256": "fa24d30d5377db77f57ff16f8427513afe17dd009cd0bd95c0dfde984fd7c7f8"
+    },
+    "registeredExample": {
+      "textHash": "3db12747f5ca57934485b2f91d380a764a029fb347372c1943f102b0a404b2b4",
+      "spoken": "“ನಾಮನಿರ್ದೇಶನ ನೋಂದಾಯಿಸಲಾಗಿದೆ” ಅಥವಾ “ನಾಮನಿರ್ದೇಶನ: ಹೌದು” ಎನ್ನುವುದು ನೋಂದಣಿಯನ್ನು ದಾಖಲಿಸುತ್ತದೆ. ಅದು ಈ ಖಾತೆಯನ್ನು ಗುರುತಿಸುತ್ತದೆಯೇ ಎಂದು ಪರಿಶೀಲಿಸಿ.",
+      "bytes": 59494,
+      "seconds": 14.729,
+      "sha256": "3753b57786035a11d91d0c06d145cb1cb82b82e6fb05bd9b15a023cd6b305d2c"
+    },
+    "helpScopeText": {
+      "textHash": "61103c086e1ac87ec7a8bafef2d6e4134fcf88bb929749c012ba184c6149a7cb",
+      "spoken": "ಈ ಕ್ರಮವು ಜೀವಂತ ಖಾತೆದಾರರ ನಾಮನಿರ್ದೇಶನ ವ್ಯವಸ್ಥೆಗಾಗಿ. ಖಾತೆದಾರರು ಮೃತಪಟ್ಟಿದ್ದರೆ, ಮೃತ ಖಾತೆದಾರರ ಕ್ಲೇಮ್ ಅಥವಾ ಆಸ್ತಿ ವರ್ಗಾವಣೆ ಪ್ರಕ್ರಿಯೆಯನ್ನು ಸಂಸ್ಥೆಯಿಂದ ತಿಳಿದುಕೊಳ್ಳಿ. ಅವರ ಪರವಾಗಿ ಹೊಸ ನಾಮನಿರ್ದೇಶನ ಆರಂಭಿಸಬೇಡಿ.",
+      "bytes": 83682,
+      "seconds": 20.782,
+      "sha256": "d894a6376147cbf18bccada289576edd02bfbf2552ba456fb9d7ed50b65e6990"
+    },
+    "passwordHelp": {
+      "textHash": "6b8cbed0f9ac95df8fcbfc70a62e1d10d270b1376e121eaa8db51f29c33808bf",
+      "spoken": "ಕನಿಷ್ಠ ಹನ್ನೆರಡು ಅಕ್ಷರಗಳು ಇರಲಿ. ಪಾಸ್‌ವರ್ಡ್ ಅನ್ನು ಸುರಕ್ಷಿತವಾಗಿ ಇರಿಸಿ; ಅದನ್ನು ನಾವು ಮರಳಿ ಪಡೆಯಲು ಸಾಧ್ಯವಿಲ್ಲ.",
+      "bytes": 42209,
+      "seconds": 10.404,
+      "sha256": "ba54a1e3a1b3b6a1f1b16171e6f6cb8d09646d38f065fb0f6bb36d09f5a1bd89"
+    },
+    "privacyDetail": {
+      "textHash": "51ca683e9fbfb747ffa29e98ca2653fc38512bc671ae608f64f770167d4a6769",
+      "spoken": "ನಿಮ್ಮ ಪಟ್ಟಿ ಬ್ರೌಸರ್‌ನ ಮೆಮೊರಿಯಲ್ಲಿ ಇರುತ್ತದೆ. ಪುಟವನ್ನು ಮರುಲೋಡ್ ಮಾಡಿದರೆ ಅದು ಅಳಿಯುತ್ತದೆ. ನಂತರ ಮತ್ತೆ ತೆರೆಯಲು ಎನ್‌ಕ್ರಿಪ್ಟ್ ಮಾಡಿದ ಕಡತ ಉಳಿಸಿ. ಡೌನ್‌ಲೋಡ್ ಮಾಡಿದ ಕಡತಗಳು ನಿಮ್ಮ ಸಾಧನದಲ್ಲೇ ಇರುತ್ತವೆ.",
+      "bytes": 71106,
+      "seconds": 17.637,
+      "sha256": "3d29a6682f86ba40f0cbd5a13401f0288544f3319d140d84207011a0cc30e332"
+    }
+  }
+}

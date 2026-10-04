@@ -1,0 +1,29 @@
+{
+  "retrieved": "2026-10-03",
+  "licence": "SIL Open Font License 1.1",
+  "stylesheet": "https://fonts.googleapis.com/css2?family=Noto+Sans+Meetei+Mayek&family=Noto+Sans+Ol+Chiki&display=swap",
+  "fonts": [
+    {
+      "file": "noto-sans-meetei-mayek.woff2",
+      "source": "https://fonts.gstatic.com/s/notosansmeeteimayek/v20/HTxAL3QyKieByqY9eZPFweO0be7M21uSphSdhqILnmrRfJ8t_1TJ_sSV7vkuFQ.woff2",
+      "bytes": 8896,
+      "sha256": "9735094db8ac2e348b20bace6070997584e5c0f270c2779475c273affb49e9c4",
+      "weight": 400,
+      "style": "normal",
+      "unicodeRange": "U+200C-200D, U+25CC, U+AAE0-AAF6, U+ABC0-ABFF",
+      "licenceFile": "OFL-meetei-mayek.txt",
+      "licenceSource": "https://github.com/notofonts/meetei-mayek/blob/main/OFL.txt"
+    },
+    {
+      "file": "noto-sans-ol-chiki.woff2",
+      "source": "https://fonts.gstatic.com/s/notosansolchiki/v31/N0b92TJNOPt-eHmFZCdQbrL32r-4CvhzDzRwlxOQYuVALWk22_YwgGrz.woff2",
+      "bytes": 4896,
+      "sha256": "c1ebaed67588345af0dba7c6bc95f09a45ec3d81e326b035a2f584e7d5a658ea",
+      "weight": 400,
+      "style": "normal",
+      "unicodeRange": "U+1C50-1C7F, U+20B9",
+      "licenceFile": "OFL-ol-chiki.txt",
+      "licenceSource": "https://github.com/notofonts/ol-chiki/blob/main/OFL.txt"
+    }
+  ]
+}

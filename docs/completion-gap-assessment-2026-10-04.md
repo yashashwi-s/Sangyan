@@ -1,0 +1,32 @@
+# Completion-gap assessment — 4 October 2026
+
+This bounded continuation compared the current release checklist with the actual public code, private-data paths and existing evidence. CUA inventory again returned `apps: []`, `browsers: []`; no new interactive accessibility, listening or device result is claimed.
+
+Two concrete gaps were found and fixed:
+
+1. Help's audio-credit link still displayed “Meta MMS · CC BY-NC 4.0” for Nepali. It now uses the selected-language voice label and links to the detailed provider-specific credits. The credits retain fifteen Meta MMS packs and separately attributed Nepali Piper Chitwan, rather than implying one provider/licence for every language. No recording text or audio asset changed.
+2. The institution combobox's first Up Arrow selected the penultimate option. For `hdf`, that could choose the suggested HDFC Bank instead of the final explicitly typed custom option. It now starts at the last option; Down starts at the first. Enter/arrow handling ignores active IME composition (including legacy keycode 229), so committing composed text cannot prematurely choose a highlighted institution. Escape/Tab retain typed text without selecting. This follows the keyboard behavior described by the [W3C combobox pattern](https://www.w3.org/WAI/ARIA/apg/patterns/combobox/).
+
+Three regression cases execute the actual public handler with a minimal event/option surface and the real institution search: first-Up/custom selection, first-Down plus IME composition/finished Enter, and Escape/Tab preservation. This is deterministic behavior evidence, not real-browser/keyboard/IME or screen-reader certification. The complete rebuilt release gate passes **94 tests**. Local checks pass all 21 pages, 16 audio routes, 68 non-MP3 asset hashes and 15 build-only restrictions. Audio/source/model integrity and private-only encrypted-save/public-only cache tests remain passing.
+
+The startup bootstrap/locale retry code and all 5,712 recordings are unchanged by these fixes. The earlier three-repeat automatic recovery experiment and targeted 16-audio navigation measurements remain tied to their recorded source hashes. No redundant performance run was made, and no previous timing/transfer result is represented as a measurement of this newer handler/credit-label source. Production source identity is verified separately after publication.
+
+## External evidence still required
+
+| Gap | Evidence available | Exact next action |
+| --- | --- | --- |
+| Fluent translation, legal terminology and synthetic speech | Complete dictionaries, public-source hashes, phoneme/tokenizer checks, media decoding, explicit draft labels; no listening capability in this runtime | Arrange fluent readers/listeners for the whole account journey and qualified nomination-language review. Record reviewer/date/text revision and corrections, including existing Gujarati/Dogri/Maithili phonetic approximations and Nepali numbers/institution names. |
+| Final interactive accessibility | Native-control/label/focus source review and navigation-only automated accessibility results; CUA has no enabled surfaces | Provide an enabled browser surface for actual small-screen/200% reflow, keyboard focus, Urdu/Sindhi reading, manual retry and draft-retention exercises. Then run TalkBack/screen-reader checks with an appropriate device. |
+| Physical low-end and unstable-network use | Defined Chrome lab interruption/recovery, V8 heap and Chrome RSS evidence; no physical 2 GB phone claim | Test a physical 2 GB Android device with native keyboards, 50 synthetic accounts, encrypted save/restore, tab termination, denied/evicted cache and repeated outages. Capture outcomes on the real device; the V8 cap is not equivalent hardware. |
+| Five text-only language voices | Independent Nepali route is complete; remaining five exact-script/public-access findings are documented | Obtain a legitimately accessible, distributable exact-script voice for Konkani, Meitei, Sanskrit, Santali and Sindhi, or resolve the official Manipuri checkpoint alphabet/runtime. Gated Parler terms were not accepted; no shared-script substitute or bulk unverified archive was used. These routes remain unresolved, not declared impossible. |
+| Target-user usability and traffic scale | Bounded lazy assets/cache and deterministic state/data checks | Arrange representative user completion sessions and a defined traffic/load exercise; record task success, errors and resource limits. Source review does not establish these outcomes. |
+
+No further concrete privacy or unsupported-completion claim defect was identified in this bounded pass. That is a limited assessment, not proof that defects cannot exist. The checklist retains all external gates and the public draft notices remain required.
+
+## Published correction evidence
+
+Both fixes are now published at [sangyan-xi.vercel.app](https://sangyan-xi.vercel.app), deployment **`dpl_FRXZxdQMWbAxM8DAhJz25LEbMUzH`**, state **READY**, from source commit `fc402c1`. Exact public manifest: **`20d5f2041846ea1a7c7a529183cb8f858fb3be344ff26e69535bbb458b34f0b6`**. [Live verification](audits/2026-10-04-completion-gap/live-public-serving.json) passed all **21 pages, 16 full audio samples/ranges, 68 non-MP3 source hashes and 15 build-only exclusions**, including privacy headers and no cookies. [Deployment record](audits/2026-10-04-completion-gap/deployment.json), inspected READY/alias output and the 94-test release log are retained. Only static output and host configuration were staged; no model/runtime/research payload was published.
+
+## Subsequent actual browser finding
+
+The parent CUA session subsequently gained a browser, while the Sol child still had no browser surface. [Actual interactive observations](audits/2026-10-04-interactive/observations.md) cover searchable 21-language selection on the fresh deployment, required account-type error/focus, custom institution keyboard selection, 200% reading controls and one 360-pixel screen without horizontal overflow. This is limited desktop evidence. The returning production profile still displayed six languages after reload, exposing an upgrade defect that the prior HTTP hashes could not detect. [The worker update correction](service-worker-update-2026-10-04.md) implements safe activation and bounded compatibility retention; its final suite passes 100 tests. Subsequent publication/browser verification is recorded there. Fluent speech, actual phone/screen-reader, whole journey and target-user/traffic gates remain open.

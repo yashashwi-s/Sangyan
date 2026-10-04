@@ -1,0 +1,185 @@
+{
+  "sourceSha256": "378b5ab2e9fb2fc44f5865d951fe9ac55698eb4c788d45d6a8405ba35d66cbff",
+  "runs": 9,
+  "runtimeErrors": 0,
+  "warnings": [],
+  "profiles": {
+    "steady": {
+      "lcpMs": {
+        "median": 2895.811,
+        "min": 2682.903,
+        "max": 3371.425
+      },
+      "controlsReadyMs": {
+        "median": 5605.796,
+        "min": 5481.837,
+        "max": 5688.388
+      },
+      "tbtMs": {
+        "median": 29.914999999999964,
+        "min": 0,
+        "max": 44.24399999999969
+      },
+      "navigationTransferBytes": {
+        "median": 63124,
+        "min": 63124,
+        "max": 63124
+      },
+      "cls": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      },
+      "readyRuns": 3,
+      "heapPeakMiB": [
+        21.175,
+        28.423,
+        25.42
+      ],
+      "treeRssPeakMiB": [
+        1082.656,
+        1081.75,
+        1031.422
+      ],
+      "scores": [
+        {
+          "performance": 0.9,
+          "accessibility": 1,
+          "best-practices": 1,
+          "seo": 1
+        },
+        {
+          "performance": 0.84,
+          "accessibility": 1,
+          "best-practices": 1,
+          "seo": 1
+        },
+        {
+          "performance": 0.92,
+          "accessibility": 1,
+          "best-practices": 1,
+          "seo": 1
+        }
+      ]
+    },
+    "changing": {
+      "lcpMs": {
+        "median": 3052.975,
+        "min": 3005.49,
+        "max": 3331.222
+      },
+      "controlsReadyMs": null,
+      "tbtMs": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      },
+      "navigationTransferBytes": {
+        "median": 26919,
+        "min": 25197,
+        "max": 26919
+      },
+      "cls": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      },
+      "readyRuns": 0,
+      "heapPeakMiB": [
+        26.713,
+        20.07,
+        19.32
+      ],
+      "treeRssPeakMiB": [
+        1047.562,
+        1095.109,
+        1146.703
+      ],
+      "scores": [
+        {
+          "performance": 0.85,
+          "accessibility": 1,
+          "best-practices": 0.96,
+          "seo": 1
+        },
+        {
+          "performance": 0.88,
+          "accessibility": 1,
+          "best-practices": 0.96,
+          "seo": 1
+        },
+        {
+          "performance": 0.89,
+          "accessibility": 1,
+          "best-practices": 0.96,
+          "seo": 1
+        }
+      ]
+    },
+    "recovered": {
+      "lcpMs": {
+        "median": 1903.445,
+        "min": 1867.097,
+        "max": 1907.593
+      },
+      "controlsReadyMs": {
+        "median": 3854.66,
+        "min": 3841.297,
+        "max": 3918.199
+      },
+      "tbtMs": {
+        "median": 0,
+        "min": 0,
+        "max": 21.700999992370726
+      },
+      "navigationTransferBytes": {
+        "median": 63124,
+        "min": 63124,
+        "max": 63124
+      },
+      "cls": {
+        "median": 0,
+        "min": 0,
+        "max": 0
+      },
+      "readyRuns": 3,
+      "heapPeakMiB": [
+        8.564,
+        7.515,
+        26.918
+      ],
+      "treeRssPeakMiB": [
+        1194.578,
+        1282.672,
+        1170.297
+      ],
+      "scores": [
+        {
+          "performance": 0.98,
+          "accessibility": 1,
+          "best-practices": 1,
+          "seo": 1
+        },
+        {
+          "performance": 0.98,
+          "accessibility": 1,
+          "best-practices": 1,
+          "seo": 1
+        },
+        {
+          "performance": 0.98,
+          "accessibility": 1,
+          "best-practices": 1,
+          "seo": 1
+        }
+      ]
+    }
+  },
+  "mp3Requests": [],
+  "limitations": [
+    "Proxy shapes aggregate response bodies only; upload shaping, radio/DNS/TLS behaviour are not emulated.",
+    "64MiB V8 old-space cap is not a 64MiB total heap or physical phone RAM constraint.",
+    "RSS sums double-count some shared pages and include Chrome, not just app memory.",
+    "Fresh-browser recovered runs prove cold navigation after availability returns, not recovery of the same failed page."
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "source": "app/translations/guidance-en.json",
+  "sha256": "4be5416a495e87e5ffe0b3fd5f151c237e7780cbb0cbe59937a802b292cd7e6e",
+  "keyCount": 161,
+  "languageCount": 21,
+  "recordedNewGuidanceLanguages": 0,
+  "existingRecordedLanguages": 16,
+  "existingClipsPerLanguage": 357,
+  "provider": "Google public text endpoint; fixed public copy only",
+  "removedBatchPrefixes": 171
+}

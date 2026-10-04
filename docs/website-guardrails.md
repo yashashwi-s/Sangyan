@@ -1,6 +1,6 @@
 # Website guardrails — nomination journey
 
-4 October 2026. Authority: SANGYAN problem statement, pages 2–6, particularly mandatory guardrails (page 3), Track B (pages 3–4), target users and constraints (page 5). The user's instruction prohibits personal-data storage and is stricter than the brief's privacy minimum.
+4 October 2026. Authority: SANGYAN problem statement, pages 2–6, particularly mandatory guardrails (page 3), Track B (pages 3–4), target users and constraints (page 5). The integrated release preserves both the guided journey and deliberately chosen encrypted recovery, following the user's instruction to retain both feature sets.
 
 ## Product rules
 
@@ -16,11 +16,11 @@
 
 Allowed in temporary tab memory: existing minimal tracker entries, drafts, contextual choices and practice state. No PAN, full account number, passwords, OTPs, signatures, identity-document scans or real form uploads. Fictional practice uses fixed answers and collects no free text.
 
-Forbidden persistence: record databases, cookies with personal values, local/session storage of account entries (including encrypted entries), IndexedDB records, analytics, session replay, error telemetry containing form values, logs of entries, personal-data downloads or generated summaries. The on-screen family summary remains in session memory only. No application print/export controls; print CSS omits private page content. Browser/OS copying and screenshots cannot be controlled by the app.
+Personal entries remain in page memory by default. No automatic plaintext persistence, record database, analytics, replay or private-value telemetry is allowed. The owner may explicitly save authenticated encrypted recovery to this browser or a downloaded file, and deliberately import/unlock it. Family handoff is a warned plaintext export; names/nominee notes and record locations are separate opt-ins, initially unchecked. Calendar/print controls are explicit owner actions. No application sends these records to a server.
 
-Allowed persistence: validated reading preferences (bounded text size and speed; boolean appearance settings) and public code/language/audio files. No cookie is needed or set. Permission to use cookies is not a reason to create identifiers or tracking.
+Reading preferences and public code/language/audio may persist. Public caches never contain generated user exports. Existing encrypted browser copies remain until the owner expressly deletes the device copy. Never silently delete a previous save during an update.
 
-Clear all records, drafts, selections, coach progress and private dialog DOM on Clear session, pagehide and restored pageshow. Remove the known legacy encrypted browser key without reading it. Deletion is limited to that application's key; do not clear unrelated origin storage. Denied storage must not break the guide. Older downloaded copies, other origins/devices and forensic memory remnants remain outside this control. Older service-worker tabs require a deployment migration check.
+Clear removes records, drafts, selections, coach/entry state and private dialog DOM. Optional saved-device-copy deletion requires an explicit choice; downloads remain. Page departure locks clean/restorable work; unsaved work retains the existing departure warning instead of blanket erasure. Browser/OS copying, other devices and forensic remnants remain outside this control. Denied storage must not break the guide.
 
 ## Network and content safety
 
@@ -31,12 +31,12 @@ Keep CSP restricted to same-origin assets; `form-action 'none'`, no frames/objec
 ## Release evidence
 
 1. Public build and all automated tests pass.
-2. Browser exercises show practice cannot confirm accounts, receipts cannot complete nomination, contextual choices work, drafts survive internal navigation only, and reload/clear remove them.
-3. Personal persistence/import/export controls are absent; known legacy removal and preference-only writes have regression tests.
+2. Browser exercises show practice cannot confirm accounts, receipts cannot complete nomination, contextual choices work, unsaved drafts survive internal navigation, clear removes session state, and deliberately saved work can be restored after reload.
+3. Encrypted import/export, preserved legacy saves, explicit device-copy deletion and private family-export defaults have regression tests.
 4. Public worker cache scope and audio privacy regressions pass; no new private endpoint is introduced.
 5. Check keyboard focus, 320px reflow and enlarged text; inspect browser errors and run Lighthouse on the same built assets.
-6. Independent agent reviews the diff; fix actionable findings and retest affected behavior.
+6. Review the integrated diff and fix actionable findings; the user requested a single implementation agent.
 7. Before broad release, complete source/legal-language review, actual regional narration, physical-device/assistive-technology and intended-user testing. No automated score substitutes for these.
 
 ## In-context preview
-Required decision guidance belongs in the preparation flow. Extra examples and sources may be disclosed in place. Do not move essential information into a separate lesson library, infer comprehension from navigation, or infer external-form correctness from self-reported choices. Short English preview labels remain until language and audio review is complete.
+Required decision guidance belongs in the preparation flow. Extra examples and sources may be disclosed in place. Do not move essential information into a separate lesson library, infer comprehension from navigation, or infer external-form correctness from self-reported choices. All new fixed-public learning text has all 21 language packs. New learning is explicitly text-only; existing recorded instructions retain their previous scope and draft labels.

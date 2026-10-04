@@ -14,22 +14,26 @@ export function audioQueue(blocks,language,catalog=audioCatalog,dictionary=dicti
  }).filter(Boolean);
 }
 export function createReader({createAudio=()=>new Audio(),catalog=audioCatalog,getDictionary=dictionaryFor,onChange=()=>{},timeoutMs=20000}={}){
- let audio=null,queue=[],index=0,token=0,attempt=0,state='idle',rate=.9,timer=null;
+ let audio=null,queue=[],index=0,token=0,attempt=0,state='idle',rate=.9,timer=null,lastProgress=0;
  const update=(next,error='')=>{state=next;onChange({state,index,total:queue.length,text:queue[index]?.text||'',source:queue[index]?.source??null,error});};
  const clearTimer=()=>{clearTimeout(timer);timer=null;};
- const detach=()=>{clearTimer();if(audio){audio.onended=audio.onerror=audio.onwaiting=audio.onplaying=null;audio.pause();}};
+ const detach=()=>{clearTimer();if(audio){audio.onended=audio.onerror=audio.onwaiting=audio.onplaying=audio.ontimeupdate=null;audio.pause();}};
  const cancel=()=>{token++;attempt++;detach();};
  const stop=()=>{cancel();if(audio){audio.removeAttribute('src');audio.load();}queue=[];index=0;update('idle');};
- const fail=(session,error)=>{if(session!==token)return;detach();update(error?.name==='NotAllowedError'?'blocked':'error',error?.name||'network');};
+ const fail=(session,error)=>{if(session!==token||state==='paused')return;detach();update(error?.name==='NotAllowedError'?'blocked':'error',error?.name||'network');};
  const loading=session=>{if(session!==token||state==='paused')return;update('loading');clearTimer();timer=setTimeout(()=>fail(session,{name:'TimeoutError'}),timeoutMs);};
  function playCurrent(){
   const session=++token;detach();
+  // Explicit next/repeat/retry actions start a new clip even after a pause.
+  state='idle';
   if(index>=queue.length){update('finished');return;}
   try{
    audio??=createAudio();audio.preload='none';audio.playbackRate=rate;audio.preservesPitch=true;
    audio.onended=()=>{if(session!==token||state==='paused')return;clearTimer();index++;playCurrent();};
    audio.onerror=()=>fail(session,{name:'MediaError'});
    audio.onwaiting=()=>loading(session);
+   lastProgress=0;
+   audio.ontimeupdate=()=>{if(session!==token||state==='paused')return;const position=Number(audio.currentTime)||0;if(position>lastProgress){lastProgress=position;clearTimer();if(state==='loading')update('playing');}};
    audio.onplaying=()=>{if(session!==token||state==='paused')return;clearTimer();update('playing');};
    audio.src=queue[index].url;loading(session);
    // Called directly from the user's click. Reuse one element across the queue on mobile.

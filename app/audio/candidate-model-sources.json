@@ -1,0 +1,290 @@
+{
+  "gu": {
+    "model": "facebook/mms-tts-guj",
+    "revision": "b72e80a7eeca90b72e0af2e2d00b77a336ce242d",
+    "license": "CC-BY-NC-4.0",
+    "languageCode": "gu",
+    "files": {
+      "config.json": {
+        "sha256": "469fadd8556d44b2d0c08c951d244613390507aa0a02144a9af508017f37531d",
+        "bytes": 1641
+      },
+      "tokenizer_config.json": {
+        "sha256": "7c877d09111eae430f171f55fe7cc34b30f5b0e88139f3ce3e39ee05b7dfd334",
+        "bytes": 287
+      },
+      "vocab.json": {
+        "sha256": "a1c7c6c2a668132beb7f1df59e5266b10abb2e88bd1e952b056914646dd775b6",
+        "bytes": 765
+      },
+      "special_tokens_map.json": {
+        "sha256": "845f635933c404f060a1d7a2f4c4494bf4a91f8ebec99a41108778d026426dfc",
+        "bytes": 47
+      },
+      "model.safetensors": {
+        "sha256": "f1f4e01188507d3cc8526d1326a6f1c8a9b51e5fd9abe7a92b500326808a0c6a",
+        "bytes": 145244408
+      },
+      "README.md": {
+        "sha256": "b5f489a79061df7cf9fa0cf68b39ed0f30bf6d6eef91b49ed8bbd8c6001ebded",
+        "bytes": 3981
+      }
+    }
+  },
+  "pa": {
+    "model": "facebook/mms-tts-pan",
+    "revision": "45d7962e8daba724f9ff251ee3198bdb47a5f498",
+    "license": "CC-BY-NC-4.0",
+    "languageCode": "pa",
+    "files": {
+      "config.json": {
+        "sha256": "6ddfc6a127aaacaf66f30a60d2802f1f7fda486ed03b8ba9e2928691c9e6fb73",
+        "bytes": 1641
+      },
+      "tokenizer_config.json": {
+        "sha256": "5a1df0b9eefbea8dd9df6765432a658eb5272b73c0a20209c2d819a8c17a5196",
+        "bytes": 289
+      },
+      "vocab.json": {
+        "sha256": "ba643cb11b99a180ec755ce6b7d7c9338afdd110a94d490f3a5e0898118e11d4",
+        "bytes": 750
+      },
+      "special_tokens_map.json": {
+        "sha256": "dd9acab79d7160e729dffdc3d1bc1eceec8ae0e3df6271abe6bfe29e232f1e1b",
+        "bytes": 49
+      },
+      "model.safetensors": {
+        "sha256": "071db9963578edff7be6b660e9fb69bb1f2aa3596d77d632b76a7f3353373977",
+        "bytes": 145243640
+      },
+      "README.md": {
+        "sha256": "eaac372628f760230d2eee2632fbadbbe7e9dfbbbef7e538fc6c74fbf971230a",
+        "bytes": 4005
+      }
+    }
+  },
+  "kn": {
+    "model": "facebook/mms-tts-kan",
+    "revision": "30e3c5d533e8c559c10bf0d25637fea51b95bd7c",
+    "license": "CC-BY-NC-4.0",
+    "languageCode": "kn",
+    "files": {
+      "config.json": {
+        "sha256": "69c993ad6d7f34a8ce10834fb7d70cb300a83c0f7fae63a9ad8de9eb8243cdd3",
+        "bytes": 1641
+      },
+      "tokenizer_config.json": {
+        "sha256": "0a4c6ab042637ec5a955cba6f9422046648cc48607a6a366f3d7be1f9008c091",
+        "bytes": 287
+      },
+      "vocab.json": {
+        "sha256": "56e00b687cf6c32bc603e055fe142351c16a136584bae988f333b9dc54c0c3ce",
+        "bytes": 940
+      },
+      "special_tokens_map.json": {
+        "sha256": "7537103960690fa7b742bbdc31b7df3fdf9ab7dfd0e150690b7883abd039161d",
+        "bytes": 47
+      },
+      "model.safetensors": {
+        "sha256": "12a68748b7aeab553c8b145ab2de198617644eb89e5f0b7008a2f3a7cf91a9bd",
+        "bytes": 145255928
+      },
+      "README.md": {
+        "sha256": "edf1c71711b448ce4dc23d1d7803e1e3be2d0a79a2163a960d4bf0fcbf726c1e",
+        "bytes": 3978
+      }
+    }
+  },
+  "te": {
+    "model": "facebook/mms-tts-tel",
+    "revision": "dea6807154acc01918581982dcd40a116882a14d",
+    "license": "CC-BY-NC-4.0",
+    "languageCode": "te",
+    "files": {
+      "config.json": {
+        "sha256": "48578ae63327231562a7bd95ca7d0f14d9829e0fa0596729d5fee8dd5b9a8cd9",
+        "bytes": 1641
+      },
+      "tokenizer_config.json": {
+        "sha256": "be17f308c8a31f727de568316e9bf52e7d528eaab95f2a481f0e77f6d88710be",
+        "bytes": 289
+      },
+      "vocab.json": {
+        "sha256": "92a58f888e5a0add6c7c4b6b9f2061bbf93029b0c5be8dcd5d138544b4305c51",
+        "bytes": 828
+      },
+      "special_tokens_map.json": {
+        "sha256": "abc17c5ce814eb73ef9a17d97b9348f717aeb90596526678b3c76905d471502c",
+        "bytes": 49
+      },
+      "model.safetensors": {
+        "sha256": "067ac7ad1632d214dec61bf78cd3c2921358284614f5a4063378cc1434a389cf",
+        "bytes": 145248248
+      },
+      "README.md": {
+        "sha256": "94f1ac48d177cd333f041dc41cf0043a789b4aad91dea4a7c463cf6f6dd522cc",
+        "bytes": 3975
+      }
+    }
+  },
+  "ml": {
+    "model": "facebook/mms-tts-mal",
+    "revision": "893b8c6442d6a630896d1d3ac0f429094ddfae82",
+    "license": "CC-BY-NC-4.0",
+    "languageCode": "ml",
+    "files": {
+      "config.json": {
+        "sha256": "c2ad5cfc8d13df056890cd345cf1956bf2d7d61082d45e55a9353d1bab032b06",
+        "bytes": 1641
+      },
+      "tokenizer_config.json": {
+        "sha256": "c98ba555d7ab56f939e24df2815f09391219c2f29981c58cf0f13178abf6e3f0",
+        "bytes": 289
+      },
+      "vocab.json": {
+        "sha256": "eb205944291c27e577ef423b29c889f61e89e984f9c4973c6b03c372cc0809bb",
+        "bytes": 1053
+      },
+      "special_tokens_map.json": {
+        "sha256": "21de02462fa930afa9d61c402e8bf9eb3af2507ff8a6ad351edceaf71a18fbb9",
+        "bytes": 49
+      },
+      "model.safetensors": {
+        "sha256": "a97a1e677ec67e05124b799dadd66630181fe9c29beb4e590454689ff8f698c5",
+        "bytes": 145262840
+      },
+      "README.md": {
+        "sha256": "6f638e015a3023bb41fc804b5f24cb04ea40f8cf54274eb09032f971a39cb432",
+        "bytes": 3984
+      }
+    }
+  },
+  "or": {
+    "model": "facebook/mms-tts-ory",
+    "revision": "581f221219b728fab4d53efb24e18134bd1a9e28",
+    "license": "CC-BY-NC-4.0",
+    "languageCode": "or",
+    "files": {
+      "config.json": {
+        "sha256": "4375fa20fb99e7528d5b23b062b6d693d3957a640aff05cc8bc4d4e88de7f850",
+        "bytes": 1641
+      },
+      "tokenizer_config.json": {
+        "sha256": "19a0df70d9d3c92a7fd1cd1d949ba8317e827660dbca3e1f627b535187d09732",
+        "bytes": 289
+      },
+      "vocab.json": {
+        "sha256": "8f2720586286611affb7be4647545b899c91a0007fa1d2e85c5c27b66036adc6",
+        "bytes": 954
+      },
+      "special_tokens_map.json": {
+        "sha256": "68e914f54cb12e1242a59000597f873ee78c567ecf43ebc17ef47efd3ca0ffe8",
+        "bytes": 49
+      },
+      "model.safetensors": {
+        "sha256": "0bdc5d4b35d9011422e66b0fd8b45f65aa1420c937978481b1eede1db5510c6b",
+        "bytes": 145256696
+      },
+      "README.md": {
+        "sha256": "d0cf70d6b708ec197c1f111855d37c03cbc49392be2ee62fc46cd6c2a991aa30",
+        "bytes": 3969
+      }
+    }
+  },
+  "as": {
+    "model": "facebook/mms-tts-asm",
+    "revision": "c9472cc5e1ea965e4b57c147426ed826197d3ae2",
+    "license": "CC-BY-NC-4.0",
+    "languageCode": "as",
+    "files": {
+      "config.json": {
+        "sha256": "b9c234cee6a668db5c83a7358f40e9fa1a2d4ad7d6a5a904f0d6531d3e658bf1",
+        "bytes": 1641
+      },
+      "tokenizer_config.json": {
+        "sha256": "696699ade174c461f0b1effc0a50278ee2e286e90e6d54b935c5853632e7b5d7",
+        "bytes": 287
+      },
+      "vocab.json": {
+        "sha256": "10eff2c2120047752c07921cd42cc789c83cea8242f1906931f3ce3ed3d56c4c",
+        "bytes": 839
+      },
+      "special_tokens_map.json": {
+        "sha256": "845f635933c404f060a1d7a2f4c4494bf4a91f8ebec99a41108778d026426dfc",
+        "bytes": 47
+      },
+      "model.safetensors": {
+        "sha256": "f6b652b61d6dbd338ad4c2b4662e3f92b070a303d81a257607adb0103091f0a8",
+        "bytes": 145249016
+      },
+      "README.md": {
+        "sha256": "38d192764a03e509594c6b1692c9127aa024989f8bd3ed0a1c8cd12c42d1a5d8",
+        "bytes": 3981
+      }
+    }
+  },
+  "doi": {
+    "model": "facebook/mms-tts-dgo",
+    "revision": "6c7e3dbf0f2f7981383abf895de3c5b4120aafe3",
+    "license": "CC-BY-NC-4.0",
+    "languageCode": "doi",
+    "files": {
+      "config.json": {
+        "sha256": "6a6693ead8338f60cf5889109843756d9ce6633acc9c48dabe100e1b18cdaf6f",
+        "bytes": 1641
+      },
+      "tokenizer_config.json": {
+        "sha256": "6c532f3677f5d6bcdf98a62e6e8eed909f4cb216c605bde4e6a62d9d5734bd9c",
+        "bytes": 287
+      },
+      "vocab.json": {
+        "sha256": "4406df5c5cc32aee14268438c88b6db3c0ced987203bac9e4cac1c7e13e246b1",
+        "bytes": 815
+      },
+      "special_tokens_map.json": {
+        "sha256": "845f635933c404f060a1d7a2f4c4494bf4a91f8ebec99a41108778d026426dfc",
+        "bytes": 47
+      },
+      "model.safetensors": {
+        "sha256": "77abdde43c770abe54872246c8dd440605e01462dcfb7f341f576eeeb1bd0fdc",
+        "bytes": 145247480
+      },
+      "README.md": {
+        "sha256": "1d184f6bb42338fb9710c3f6f5bf2f029ad389bd080bb4fd130bdf4f3dbdebd7",
+        "bytes": 3972
+      }
+    }
+  },
+  "mai": {
+    "model": "facebook/mms-tts-mai",
+    "revision": "8607c3059206ed4c1991521e80c2b1df07b7c80e",
+    "license": "CC-BY-NC-4.0",
+    "languageCode": "mai",
+    "files": {
+      "config.json": {
+        "sha256": "b9c234cee6a668db5c83a7358f40e9fa1a2d4ad7d6a5a904f0d6531d3e658bf1",
+        "bytes": 1641
+      },
+      "tokenizer_config.json": {
+        "sha256": "c6528b929a1fc29f1b1cbef46937e64a7d6b638508a55037a6c97ed2b551f225",
+        "bytes": 287
+      },
+      "vocab.json": {
+        "sha256": "415d9e1e801c3f277dfbd1393fbd681244cc70047f9cb2c22fc4ad5cbe544d2d",
+        "bytes": 843
+      },
+      "special_tokens_map.json": {
+        "sha256": "845f635933c404f060a1d7a2f4c4494bf4a91f8ebec99a41108778d026426dfc",
+        "bytes": 47
+      },
+      "model.safetensors": {
+        "sha256": "af00259d232e39186086b4bc8c4b61384560def7db5ba196aae7d96410d05304",
+        "bytes": 145249016
+      },
+      "README.md": {
+        "sha256": "5dfd86dbc7a54ce2454315e3b4ba0453ac01fdd6c4bc32a8fb93fcf756b4ef6d",
+        "bytes": 3981
+      }
+    }
+  }
+}

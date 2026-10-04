@@ -1,9 +1,9 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import {emptyAccount,emptyTracker,validateAccount,transition,saveWorkspace,restoreWorkspace,attention,today} from '../dist/tracker.js';
-import {searchInstitutions,matchInstitution,INSTITUTIONS} from '../dist/institutions.js';
+import {searchInstitutions,matchInstitution,normalise,INSTITUTIONS} from '../dist/institutions.js';
 import {guideFor} from '../dist/guides.js';
-import {dictionaries} from '../dist/i18n.js';
+import {dictionaries} from '../scripts/dictionaries.mjs';
 const account=()=>({...emptyAccount(),type:'bank',institution:'HDFC Bank',institutionId:'hdfc-bank',holding:'sole',product:'savings'});
 test('institution search separates related companies and permits a custom bank',()=>{
  assert.equal(searchInstitutions('bank','hdf')[0].id,'hdfc-bank');
@@ -22,6 +22,20 @@ test('guide routing distinguishes deposit, joint, fund folio and demat',()=>{
  assert.equal(guideFor({...account(),institutionId:'',institution:'Custom'}).specific,false);
  assert.deepEqual(guideFor({...account(),type:'mf',mfMode:'demat'}).check,['mfDematHelp']);
  assert.ok(guideFor({...account(),type:'mf',institutionId:'hdfc-mf',mfMode:'folio'}).action.includes('hdfcMfGuide'));
+});
+test('generic search words cannot silently route a custom account to a specific institution',()=>{
+ for(const name of ['bank','state','punjab','बैंक','बँक','ایچ','डी']){
+  assert.equal(matchInstitution('bank',name),undefined,name);
+  const custom=validateAccount({...account(),institutionId:'',institution:name});
+  assert.equal(custom.institutionId,'',name);assert.equal(guideFor(custom).specific,false,name);
+ }
+ assert.equal(matchInstitution('bank','एचडीएफसी बैंक').id,'hdfc-bank');
+ assert.equal(matchInstitution('bank','એચ ડી એફ સી બેંક').id,'hdfc-bank');
+ assert.equal(matchInstitution('bank','ਐਸ ਬੀ ਆਈ').id,'sbi');
+ assert.equal(matchInstitution('mf','ఎచ్ డీ ఎఫ్ సీ'),undefined); // not the explicit HDFC spelling
+ assert.equal(matchInstitution('mf','హెచ్ డీ ఎఫ్ సీ').id,'hdfc-mf');
+ assert.equal(searchInstitutions('bank','ବ୍ୟାଙ୍କ').length>0,true);
+ assert.equal(normalise('బ్యాంక్'),'బ్యాంక్');
 });
 test('correction invalidates prior confirmation and logs the transition',()=>{
  const a=transition(account(),'confirmed',{confirmationOn:today(),recordKind:'statement',confirmationChecked:true,evidenceScope:'details'});
@@ -44,7 +58,7 @@ test('saving a family edit preserves existing confirmation, without committing t
 test('drafts can be encrypted before any account type or institution is chosen',()=>{const raw={...emptyAccount(),type:''};const data=restoreWorkspace(saveWorkspace(emptyTracker(),{account:raw,step:0},null,'ur'));assert.equal(data.draft.type,'');assert.equal(data.draft.institution,'');assert.equal(data.step,0);});
 
 
-test('every guide step and important interaction is translated in all six dictionaries',()=>{
+test('every guide step and important interaction exists in all released dictionaries',()=>{
  const keys=['openDevice','keepDevice','seeNext','unfinishedChanges','chooseFile','validFollowup','foundYes','hdfcDeposit','hdfcMfGuide','zerodhaAction'];
  for(const d of Object.values(dictionaries))for(const k of keys)assert.ok(d[k]?.trim(),k);
 });

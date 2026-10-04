@@ -1,0 +1,23 @@
+{
+  "publicUrl": "https://sangyan-xi.vercel.app",
+  "deployment": {
+    "id": "dpl_3vUSmsmsDv6g65XzHpeHX9zTmfW1",
+    "url": "https://sangyan-q1oubwilw-yashashwi-singhanias-projects.vercel.app",
+    "inspectorUrl": "https://vercel.com/yashashwi-singhanias-projects/sangyan/3vUSmsmsDv6g65XzHpeHX9zTmfW1",
+    "readyState": "READY",
+    "target": "production",
+    "deploymentApiUrl": "https://api.vercel.com/v13/deployments/dpl_3vUSmsmsDv6g65XzHpeHX9zTmfW1"
+  },
+  "readyState": "READY",
+  "aliases": [
+    "sangyan-xi.vercel.app",
+    "sangyan-yashashwi-singhanias-projects.vercel.app"
+  ],
+  "sourceCommit": "09ace00",
+  "sourceSha256": "2ff3d138bde5037a162f03063041f24a21f4f702a95ce7710c7d884431181b44",
+  "stage": "isolated app/dist + app/vercel.json + root .vercel/project.json; dist/_headers excluded",
+  "publicFiles": 5781,
+  "publicBytes": 108268821,
+  "textLanguages": 21,
+  "audioLanguages": 16
+}

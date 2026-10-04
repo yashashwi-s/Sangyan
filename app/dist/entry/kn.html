@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="kn">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#9b513a"><meta name="description" content="Check family nominations, follow the right next step, and leave a clear account record for your family.">
+<meta name="referrer" content="no-referrer"><meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' 'sha256-dj9QZEZMdkqKc/heMPW5VpUel8wDI7Ri1AsymVQsNjE='; style-src 'self'; img-src 'self' data:; worker-src 'self'; connect-src 'self'; font-src 'self'; media-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-src 'none'">
+<title>Virasat · Family nominees</title><link rel="icon" href="/favicon.svg"><link rel="stylesheet" href="/styles.css"><link rel="stylesheet" href="/nomination-coach.css">
+<link rel="modulepreload" href="/locale.js"><link rel="modulepreload" href="/locale-catalog.js"><link rel="modulepreload" href="/tracker.js"><link rel="modulepreload" href="/institutions.js"><link rel="modulepreload" href="/speech.js"><link rel="modulepreload" href="/guides.js"><link rel="modulepreload" href="/privacy.js"><link rel="modulepreload" href="/audio-catalog.js"><link rel="modulepreload" href="/main.js"><script id="startup-bootstrap">// Embedded with an exact CSP hash: recovery must work even if public modules fail.
+(()=>{
+ const key='virasat-startup-retries-v1',path=location.pathname;
+ const untouched=()=>!performance.getEntriesByName('virasat-ready').length&&!document.querySelector('form')&&location.pathname===path;
+ function start(){
+  const script=document.createElement('script');script.type='module';script.src='/main.js';
+  script.onload=()=>{try{sessionStorage.removeItem(key);}catch{}};
+  script.onerror=()=>{
+   if(!untouched())return;
+   let attempts;
+   try{const prior=JSON.parse(sessionStorage.getItem(key)||'null');attempts=prior?.path===path?prior.attempts:0;if(!Number.isInteger(attempts)||attempts<0||attempts>=2)return;sessionStorage.setItem(key,JSON.stringify({path,attempts:attempts+1}));}catch{return;}
+   setTimeout(()=>{
+    if(!untouched())return;
+    // A connected radio does not prove the server is reachable. Probe only this
+    // public asset before navigating, so a short outage keeps the native fallback.
+    const recover=async()=>{try{const response=await fetch('/main.js',{cache:'no-store',signal:AbortSignal.timeout(8000)});if(!response.ok)throw Error('Public module unavailable');if(untouched())location.reload();}catch{if(untouched())script.onerror();}};
+    if(navigator.onLine!==false){recover();return;}
+    const online=()=>{clearTimeout(expiry);window.removeEventListener('online',online);if(untouched())recover();};
+    const expiry=setTimeout(()=>window.removeEventListener('online',online),30000);
+    window.addEventListener('online',online);
+   },2000*(attempts+1));
+  };
+  document.head.append(script);
+ }
+ if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',start,{once:true});else start();
+})();
+</script>
+<link rel="preload" href="/locales/kn-31dc39546f7a.json" as="fetch" crossorigin="anonymous"></head>
+<body class="">
+<a class="skip" href="#main" hidden>Skip to main content</a>
+<header class="site-header">
+<a class="brand" href="/" aria-label="Virasat"><svg aria-hidden="true" viewBox="0 0 32 32"><path d="M16 28V5M6 9l10 9L26 9M8 21l8 7 8-7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Virasat</span></a>
+<div class="header-tools"><button type="button" disabled data-startup-disabled id="home-button" class="home-button" aria-label="ಮನೆ"><svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="m3 10 9-7 9 7M5 9v11h5v-6h4v6h5V9"/></svg></button><button type="button" disabled data-startup-disabled id="language-button" class="language-button" aria-label="ಭಾಷೆ" aria-haspopup="dialog">ಕನ್ನಡ</button><button type="button" disabled data-startup-disabled id="access-toggle" class="icon-button" aria-label="ಓದುವುದು ಮತ್ತು ಆಲಿಸುವುದು" aria-haspopup="dialog"><span aria-hidden="true">Aa</span></button></div>
+</header>
+<main id="main" class="app-shell" tabindex="-1" aria-busy="true"><div class="page-heading"><h1 dir="ltr">ನಿಮ್ಮ ಕುಟುಂಬದ ಖಾತೆಗಳನ್ನು ಹುಡುಕಲು ಸುಲಭವಾಗಿಸಿ.</h1><p dir="ltr">ಯಾರನ್ನು ನಾಮನಿರ್ದೇಶನ ಮಾಡಲಾಗಿದೆ ಎಂಬುದನ್ನು ಪರಿಶೀಲಿಸಿ. ಕಾಣೆಯಾದದ್ದನ್ನು ನೋಡಿಕೊಳ್ಳಿ. ನಿಮ್ಮ ಕುಟುಂಬಕ್ಕೆ ಸ್ಪಷ್ಟ ದಾಖಲೆಯನ್ನು ಬಿಡಿ.</p><p class="micro language-status" role="status" lang="kn" dir="ltr">…</p><a class="startup-retry" href="/kn">ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ</a></div><noscript><p>JavaScript is needed for this private, local account guide.</p></noscript><div class="startup-languages language-tiles" hidden><a href="/en" data-language="en" lang="en">English</a><a href="/hi" data-language="hi" lang="hi">हिन्दी</a><a href="/as" data-language="as" lang="as">অসমীয়া</a><a href="/bn" data-language="bn" lang="bn">বাংলা</a><a href="/doi" data-language="doi" lang="doi">डोगरी</a><a href="/gu" data-language="gu" lang="gu">ગુજરાતી</a><a href="/kn" data-language="kn" lang="kn">ಕನ್ನಡ</a><a href="/kok" data-language="kok" lang="kok">कोंकणी</a><a href="/mai" data-language="mai" lang="mai">मैथिली</a><a href="/ml" data-language="ml" lang="ml">മലയാളം</a><a href="/mni" data-language="mni" lang="mni">ꯃꯤꯇꯩꯂꯣꯟ</a><a href="/mr" data-language="mr" lang="mr">मराठी</a><a href="/ne" data-language="ne" lang="ne">नेपाली</a><a href="/or" data-language="or" lang="or">ଓଡ଼ିଆ</a><a href="/pa" data-language="pa" lang="pa">ਪੰਜਾਬੀ</a><a href="/sa" data-language="sa" lang="sa">संस्कृतम्</a><a href="/sat" data-language="sat" lang="sat">ᱥᱟᱱᱛᱟᱲᱤ</a><a href="/sd" data-language="sd" lang="sd">سنڌي</a><a href="/ta" data-language="ta" lang="ta">தமிழ்</a><a href="/te" data-language="te" lang="te">తెలుగు</a><a href="/ur" data-language="ur" lang="ur">اردو</a></div></main>
+<p id="live" class="sr-only" role="status" aria-live="polite" aria-atomic="true"></p>
+<footer hidden><button id="help" class="text-button"></button><button id="clear" class="text-button"></button></footer>
+<dialog id="language-dialog" aria-labelledby="language-title"></dialog>
+<dialog id="access-dialog" class="settings-dialog" aria-labelledby="access-title"></dialog>
+<dialog id="help-dialog" aria-labelledby="help-title"></dialog>
+<dialog id="confirm-dialog" aria-labelledby="confirm-title"></dialog>
+</body></html>

@@ -1,0 +1,186 @@
+{
+  "requestedPhase": "full",
+  "results": {
+    "gu": [
+      {
+        "phase": "preflight",
+        "exitCode": 0,
+        "seconds": 3.33,
+        "log": "/private/tmp/virasat-audio-stage/gu-preflight.log"
+      },
+      {
+        "phase": "sample",
+        "exitCode": 0,
+        "seconds": 2.4,
+        "log": "/private/tmp/virasat-audio-stage/gu-sample.log"
+      },
+      {
+        "phase": "full",
+        "exitCode": 0,
+        "seconds": 194.07,
+        "log": "/private/tmp/virasat-audio-stage/gu-full.log"
+      }
+    ],
+    "pa": [
+      {
+        "phase": "preflight",
+        "exitCode": 0,
+        "seconds": 3.14,
+        "log": "/private/tmp/virasat-audio-stage/pa-preflight.log"
+      },
+      {
+        "phase": "sample",
+        "exitCode": 0,
+        "seconds": 11.24,
+        "log": "/private/tmp/virasat-audio-stage/pa-sample.log"
+      },
+      {
+        "phase": "full",
+        "exitCode": 0,
+        "seconds": 223.19,
+        "log": "/private/tmp/virasat-audio-stage/pa-full.log"
+      }
+    ],
+    "kn": [
+      {
+        "phase": "preflight",
+        "exitCode": 0,
+        "seconds": 3.04,
+        "log": "/private/tmp/virasat-audio-stage/kn-preflight.log"
+      },
+      {
+        "phase": "sample",
+        "exitCode": 0,
+        "seconds": 16.78,
+        "log": "/private/tmp/virasat-audio-stage/kn-sample.log"
+      },
+      {
+        "phase": "full",
+        "exitCode": 0,
+        "seconds": 325.94,
+        "log": "/private/tmp/virasat-audio-stage/kn-full.log"
+      }
+    ],
+    "te": [
+      {
+        "phase": "preflight",
+        "exitCode": 0,
+        "seconds": 3.1,
+        "log": "/private/tmp/virasat-audio-stage/te-preflight.log"
+      },
+      {
+        "phase": "sample",
+        "exitCode": 0,
+        "seconds": 13.62,
+        "log": "/private/tmp/virasat-audio-stage/te-sample.log"
+      },
+      {
+        "phase": "full",
+        "exitCode": 0,
+        "seconds": 285.71,
+        "log": "/private/tmp/virasat-audio-stage/te-full.log"
+      }
+    ],
+    "ml": [
+      {
+        "phase": "preflight",
+        "exitCode": 0,
+        "seconds": 3.13,
+        "log": "/private/tmp/virasat-audio-stage/ml-preflight.log"
+      },
+      {
+        "phase": "sample",
+        "exitCode": 0,
+        "seconds": 13.59,
+        "log": "/private/tmp/virasat-audio-stage/ml-sample.log"
+      },
+      {
+        "phase": "full",
+        "exitCode": 0,
+        "seconds": 260.91,
+        "log": "/private/tmp/virasat-audio-stage/ml-full.log"
+      }
+    ],
+    "as": [
+      {
+        "phase": "preflight",
+        "exitCode": 0,
+        "seconds": 3.27,
+        "log": "/private/tmp/virasat-audio-stage/as-preflight.log"
+      },
+      {
+        "phase": "sample",
+        "exitCode": 0,
+        "seconds": 12.16,
+        "log": "/private/tmp/virasat-audio-stage/as-sample.log"
+      },
+      {
+        "phase": "full",
+        "exitCode": 0,
+        "seconds": 199.43,
+        "log": "/private/tmp/virasat-audio-stage/as-full.log"
+      }
+    ],
+    "or": [
+      {
+        "phase": "preflight",
+        "exitCode": 0,
+        "seconds": 3.19,
+        "log": "/private/tmp/virasat-audio-stage/or-preflight.log"
+      },
+      {
+        "phase": "sample",
+        "exitCode": 0,
+        "seconds": 12.32,
+        "log": "/private/tmp/virasat-audio-stage/or-sample.log"
+      },
+      {
+        "phase": "full",
+        "exitCode": 0,
+        "seconds": 250.25,
+        "log": "/private/tmp/virasat-audio-stage/or-full.log"
+      }
+    ],
+    "doi": [
+      {
+        "phase": "preflight",
+        "exitCode": 0,
+        "seconds": 3.15,
+        "log": "/private/tmp/virasat-audio-stage/doi-preflight.log"
+      },
+      {
+        "phase": "sample",
+        "exitCode": 0,
+        "seconds": 2.32,
+        "log": "/private/tmp/virasat-audio-stage/doi-sample.log"
+      },
+      {
+        "phase": "full",
+        "exitCode": 0,
+        "seconds": 208.83,
+        "log": "/private/tmp/virasat-audio-stage/doi-full.log"
+      }
+    ],
+    "mai": [
+      {
+        "phase": "preflight",
+        "exitCode": 0,
+        "seconds": 3.14,
+        "log": "/private/tmp/virasat-audio-stage/mai-preflight.log"
+      },
+      {
+        "phase": "sample",
+        "exitCode": 0,
+        "seconds": 2.33,
+        "log": "/private/tmp/virasat-audio-stage/mai-sample.log"
+      },
+      {
+        "phase": "full",
+        "exitCode": 0,
+        "seconds": 263.54,
+        "log": "/private/tmp/virasat-audio-stage/mai-full.log"
+      }
+    ]
+  },
+  "errors": {}
+}

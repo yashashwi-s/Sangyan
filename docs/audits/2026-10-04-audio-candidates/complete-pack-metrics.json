@@ -1,0 +1,97 @@
+{
+  "newPacks": {
+    "gu": {
+      "clips": 357,
+      "bytes": 5859328,
+      "seconds": 1411.58,
+      "medianBytes": 9670,
+      "maxBytes": 69192,
+      "maxSeconds": 17.15,
+      "revision": "cd14541a4c8c",
+      "fluentReview": false
+    },
+    "pa": {
+      "clips": 357,
+      "bytes": 6224224,
+      "seconds": 1503.203,
+      "medianBytes": 9950,
+      "maxBytes": 69089,
+      "maxSeconds": 17.133,
+      "revision": "ff17ff86f0db",
+      "fluentReview": false
+    },
+    "kn": {
+      "clips": 357,
+      "bytes": 9118432,
+      "seconds": 2226.879,
+      "medianBytes": 14368,
+      "maxBytes": 103745,
+      "maxSeconds": 25.792,
+      "revision": "4e612b00d4c3",
+      "fluentReview": false
+    },
+    "te": {
+      "clips": 357,
+      "bytes": 7699072,
+      "seconds": 1871.99,
+      "medianBytes": 12441,
+      "maxBytes": 87230,
+      "maxSeconds": 21.666,
+      "revision": "052e175d7ee8",
+      "fluentReview": false
+    },
+    "ml": {
+      "clips": 357,
+      "bytes": 7052128,
+      "seconds": 1710.179,
+      "medianBytes": 11010,
+      "maxBytes": 78782,
+      "maxSeconds": 19.559,
+      "revision": "d94407da8c5e",
+      "fluentReview": false
+    },
+    "as": {
+      "clips": 357,
+      "bytes": 6047104,
+      "seconds": 1458.765,
+      "medianBytes": 9565,
+      "maxBytes": 70718,
+      "maxSeconds": 17.534,
+      "revision": "b3f1d16f9df5",
+      "fluentReview": false
+    },
+    "or": {
+      "clips": 357,
+      "bytes": 6922912,
+      "seconds": 1677.969,
+      "medianBytes": 11197,
+      "maxBytes": 80316,
+      "maxSeconds": 19.924,
+      "revision": "6547b66db7fd",
+      "fluentReview": false
+    },
+    "doi": {
+      "clips": 357,
+      "bytes": 6431584,
+      "seconds": 1554.67,
+      "medianBytes": 10143,
+      "maxBytes": 74851,
+      "maxSeconds": 18.568,
+      "revision": "b99bd2867043",
+      "fluentReview": false
+    },
+    "mai": {
+      "clips": 357,
+      "bytes": 7860160,
+      "seconds": 1912.251,
+      "medianBytes": 12064,
+      "maxBytes": 97886,
+      "maxSeconds": 24.32,
+      "revision": "e57945c1c874",
+      "fluentReview": false
+    }
+  },
+  "newClips": 3213,
+  "newBytes": 63214944,
+  "auditoryReview": "Unavailable in this assistant runtime; no fluent/accent/meaning approval."
+}

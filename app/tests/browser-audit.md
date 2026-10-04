@@ -1,21 +1,37 @@
-# Browser acceptance — session-only nomination branch
+# Browser acceptance checks — current Virasat journey
 
-4 October 2026. These steps supersede older save/reopen acceptance requirements because the user explicitly prohibited personal-data persistence. Use fictional records only. Run `npm run build:public`, `npm test`, and `npm run dev` first. Record actual observations and untested items; do not infer a whole-flow pass from unit tests.
+Run against localhost with synthetic records. `npm test` verifies schema, transitions, routing, encryption and speech state; these checks cover the rendered experience. The old 2 October automation is retained in `archive/tests/` for historical comparison and is not a current test runner.
 
-1. Enter `/en` and `/`; check usable language startup and correct session-only notice. Home must not offer saved-list import. Essential privacy overrides must not play obsolete save narration.
-2. Create an account: empty type/institution errors, keyboard institution search, sole/joint and product contexts, MF folio/demat distinction. No full identifiers/OTP/documents are requested.
-3. Open **Prepare your next step** from a missing/change account. Complete the sequential decisions; there must be no lesson tabs or errors library. Check relevant inline help and fictional example. Bank, unknown MF and MF-in-demat routes must not show securities field requirements; deceased-holder selection must stop preparation.
-4. Exercise minor/adult/unsure, sole/joint consent and wrong/example answers. Corrective feedback stays beside the current action; no example changes account status. Internal back/Home preserves account-specific progress; another account must not inherit it. Context edits invalidate stale progress.
-5. Unknown → missing → preparation → submitted → awaiting. A request receipt alone cannot confirm nomination. Confirmation still requires record type, valid date and explicit user check; correction/recheck removes stale confirmation. Coach completion must never bypass these gates.
-6. Enter a synthetic partial draft and switch language/Home: draft remains within the tab session. Reload, exit/Back and Clear session: entries, drafts, private dialog contents and practice answers are gone. Inspect no saved-list, download/export, print/calendar or file/password controls exist. Unit tests verify the legacy encrypted key is deleted without reading and preference-only writes remain.
-7. Review family information on screen; exclude private notes. Toggle displayed names/location. Clear the session. Built-in browser printing should render only a generic privacy message, not records.
-8. Reading settings may persist; records may not. Check enlarged text, contrast, spacing and reset. Existing public audio can start/pause/resume/stop; navigation/language/dialog closure stops it. New English coach is text-only and labelled; no claim of six-language/audio support for that module.
-9. Inspect desktop and 320px mobile, 200% text, keyboard focus and dialog Escape. Coach English content must remain LTR when the surrounding app is Urdu. All six existing languages must retain their entry and core flow; full fluent-reader/assistive-technology review remains human work.
-10. Inspect console errors. Run Lighthouse mobile on `/en` against the current build. Keep its conditions and full results; a navigation score is not whole-app WCAG compliance or real-device validation.
-11. Retain public-only offline cache/audio regression tests, checked-in manifest integrity and shell version generation. A private value must not become a network URL, recording text, cache key or log. Review new source changes for storage/network sinks. No new record endpoints are allowed.
+1. On `/`, use keyboard to choose one of 21 native-script language buttons. No private data appears before language choice. Locale entry URLs canonicalize to `/`.
+2. Start with no selected account type. Continue shows an inline error and focuses the group. Choose bank; an empty institution is rejected. Search HDFC, SBI and a regional alias; use Down/Up, Enter, Escape, Tab. Enter a custom institution not in the list.
+3. Choose owner, holding and savings/deposit; verify HDFC deposit instructions differ from savings, and joint submission uses the branch route. Choose a mutual-fund folio vs demat; identify the broker account without duplicating its nomination task.
+4. Unknown → what found → missing → preparation → request sent → awaiting confirmation. A submitted request must not become registered. Check a blocked request and a deliberate opt-out separately.
+5. Confirmation requires record type, a real nonfuture date and an explicit registration check. A date before submission fails. Nomination status alone is distinct from checking nominee details. Changing the institution or requesting a recheck removes old confirmation.
+6. Enter partial dates and optional notes; switch through all 21 languages. Go Home, resume the draft, save it in a password-protected file, reload, and unlock the saved copy. Uncommitted form fields must not silently change the account status. Test wrong password and corrupt file through automated crypto/schema checks.
+7. Optional on-device persistence contains only an encrypted envelope, is off by default, and requires a password after reload. Saving again is explicit. Clearing session leaves downloaded files; removing the device copy affects only that copy.
+8. Add family nicknames, multiple nominee notes, last four digits and a record location. Toggle sharing controls. A private evidence note must not occur in the readable family sheet or page speech. Download readable HTML, print/PDF, and a calendar reminder.
+9. On every main view, start/pause/resume/stop speech. Use the selected language's bundled public recordings where advertised. Text-only languages show the written availability notice; there must be no device-voice requirement or English audio fallback. Opening dialogs, navigating and changing language stop old speech.
+10. Inspect 1280px desktop and 320px mobile, all languages, 200% text, contrast and spacing. All controls remain reachable; no horizontal overflow. Urdu and Sindhi have RTL text and the established left-aligned LTR page geometry. Dialog Escape restores focus to its trigger. Keyboard-only account search retains focus in the combobox.
+11. Inspect console errors and labels/description relationships. Run a fresh Lighthouse mobile navigation audit on `/en`; its score covers that rendered page, not the entire authenticated or saved-state flow.
 
-Keep synthetic-only screenshots and observations in `docs/audits/`. Do not commit real user data or claim manual scenarios that were not run. Physical low-end Android, TalkBack/VoiceOver and intended-user tests remain release gates.
+Record exact observations, limitations, source hashes and screenshots in `docs/audits/`. Browser checks are not a WCAG conformance claim or a fluent-language/accent review.
 
-12. Persona entry: unknown account type gives a concrete institution question without requiring setup. After-death orientation works without an account, separates bank/demat/folio/unknown, and gives minor/unsure users a safe independent assistance route. It never changes nomination state.
-13. Assisted nomination: select branch guidance; check institution scope, progress and primary action. Unknown context has an edit recovery; not-submitted returns to preparation without a submission. Correction reasons produce relevant questions without inventing institutional reasons.
-14. Sample isolation: start a sample family edit, leave it pending, then use guided entry to start personal setup. After confirmation, no sample pending edit or record can be resumed. Real-workspace pending edits remain available.
+## Major-checkpoint regressions
+
+- Confirming a nomination leaves family review unfinished. Review family fields, intentionally omit nominee names, and mark the review; the family sheet distinguishes omission from incomplete work. A later nomination change resets family review.
+- Save from both new setup and an existing family/confirmation form. Back and Return to my task must restore the same draft, even when another new-account draft exists.
+- An unfinished demat addition for an MF retains its source across encrypted save/unlock but never links without the holder/unit confirmation.
+- Axis FD/RD does not receive the savings path. Zerodha correction receives the modification-form route. Joint holders receive assisted guidance. Unsupported institutions remain explicit fallbacks.
+- Online/in-person route switching retains account status. The handoff save checkpoint disappears only after a deliberate successful save.
+- Sentence next/replay/previous and pause work; skip while paused must restart audible playback. Stale completion callbacks must not advance the new session. Read-along never contains input values or private account names.
+- Reopen the app to verify reading size, contrast, spacing and voice preferences persist. Account records remain locked until deliberately reopened. Reset restores reading defaults.
+
+## Bundled-audio regression checks (3 October checkpoint)
+
+- Each advertised audio language must enter playing state after Listen, without checking or installing an operating-system voice. Playback begins only after user action.
+- Main button changes Listen → Pause → Continue; previous/repeat/next keeps the matching public transcript. Stop, language change, route change and dialog dismissal stop the previous queue.
+- Read the privacy, confirmation and settings dialogs. Check no duplicate dialog-control IDs. Public validation messages are available to Listen; entered passwords, account nicknames and private notes never enter the audio queue.
+- While online, play an instruction, then make the test origin unavailable. Reload must use the public shell where service workers/storage are supported. Played audio should replay; a new instruction must offer Retry. Restore the origin and retry at the same place. Do not describe all clips as pre-downloaded.
+- At 320 px and 200% text, check every language's expanded player and the settings dialog for horizontal overflow and reachable controls. Reset temporary preferences afterwards.
+- The audio asset test must validate every advertised manifest against current copy and every MP3 checksum. Check live MIME type, CSP and byte ranges separately.
+- Fluency, accent, comprehension, physical low-end Android and actual screen-reader review remain separate human validation tasks.

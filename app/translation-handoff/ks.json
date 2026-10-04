@@ -1,0 +1,2223 @@
+{
+  "language": "ks",
+  "name": "Kashmiri",
+  "script": "Arabic",
+  "status": "not-translated-do-not-publish",
+  "instructions": "Translate each source string into the requested language. Preserve negation, nominee versus heir, submission versus registration, privacy and encrypted-file meaning. Do not use Hindi/Urdu substitutes. Keep institution names and identifiers recognisable. Return all translations nonempty; flag uncertain meanings for review.",
+  "items": [
+    {
+      "key": "nomineeYes",
+      "english": "Yes",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "nomineeNo",
+      "english": "No",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "nomineeExplain",
+      "english": "A nominee is someone the institution can receive a claim from after the holder dies. Nomination helps the process; it does not decide who legally inherits. If you have not checked, choose “Not sure”.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "day",
+      "english": "Day",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "month",
+      "english": "Month",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "year",
+      "english": "Year",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "dateExample",
+      "english": "Example: 14 / 09 / 2026 means 14 September 2026. Use the date on your record.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "submissionExample",
+      "english": "Use the day you sent the request. Example: 14 / 09 / 2026.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "statementExample",
+      "english": "A statement showing nominee names OR “Nomination: Yes”. A balance alone is not enough.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "registrationExample",
+      "english": "A bank, broker or fund letter/email confirming nomination is registered for this account. A request receipt is different.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "requiredInstitution",
+      "english": "Enter the bank, broker or fund name shown on your record.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "requiredRecord",
+      "english": "Choose the type of record you checked.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "requiredCheck",
+      "english": "Confirm that your record actually shows the nominee registered for this account.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "institutionExample",
+      "english": "For example: HDFC Bank, or the name on your statement.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "nicknameExample",
+      "english": "For example: Family savings.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "ownerExample",
+      "english": "For example: Me or Parent.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "nomineeNoteExample",
+      "english": "For example: Spouse / Anu. Nickname or relationship only.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "last4Example",
+      "english": "For example: 1234. Last four digits only.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "recordNoteExample",
+      "english": "Optional: a short note to help you find the receipt or record.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "bankLocation",
+      "english": "Use the bank name on your passbook, statement or deposit receipt.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "dematLocation",
+      "english": "Use the broker or bank on your demat statement, rather than the company whose shares you hold.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "mfLocation",
+      "english": "Use the mutual fund on your folio statement. Its registrar can help; units in demat follow the demat route.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "checkLocation",
+      "english": "Look for the nominee name or nomination status in this account’s details or latest statement.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "askInstitution",
+      "english": "If it is not shown, ask the institution: “Is nomination registered for this account? Can you confirm it in writing?”",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "keepUnknown",
+      "english": "Keep “Not sure” until you can check. If the institution confirms no nominee, choose “Not added”.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "submitKeep",
+      "english": "Submit through the institution’s official channel. Keep the dated acknowledgement or receipt.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "confirmRegistration",
+      "english": "Check a statement or written confirmation that identifies this account and records the nomination. A request receipt alone does not confirm registration.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "followRequest",
+      "english": "Use the request date and receipt reference to ask the institution whether nomination was registered.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "waitRegistration",
+      "english": "Keep this as awaiting confirmation until the registration record is available.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "hdfcPath",
+      "english": "NetBanking: Accounts → your account → Account Details → nominee/holder details.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "hdfcHolding",
+      "english": "Sole holder: add/change there. For joint holders, the bank recommends a branch visit together.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "hdfcSource",
+      "english": "HDFC Bank instructions",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "whatToDo",
+      "english": "What to do",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "home",
+      "english": "Home",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "continue",
+      "english": "Continue",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "unfinished",
+      "english": "Continue unfinished account",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "step",
+      "english": "Step",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "of",
+      "english": "of",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "homeTitle",
+      "english": "Make your family’s accounts easier to find.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "homeIntro",
+      "english": "Check who is nominated. Take care of what is missing. Leave a clear record for your family.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "typeQuestion",
+      "english": "What kind of account is it?",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "institutionQuestion",
+      "english": "Where is the account held?",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "dematDescription",
+      "english": "Shares held with a broker or bank",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "bankDescription",
+      "english": "Savings or a deposit with a bank",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "mfDescription",
+      "english": "A folio held with a mutual fund",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "nomineeNote",
+      "english": "Nominee nickname or relationship (optional)",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "nominees",
+      "english": "Nominee notes",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "missingGuide",
+      "english": "Use the institution’s nomination option or ask for its current form.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "title",
+      "english": "Your family accounts",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "intro",
+      "english": "Keep track of nominees. Take care of what’s missing.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "add",
+      "english": "Add an account",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "edit",
+      "english": "Edit account",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "emptyTitle",
+      "english": "Start with one account",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "emptyIntro",
+      "english": "Demat, bank or mutual fund. Check who is nominated, one account at a time.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "example",
+      "english": "See an example",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "sample",
+      "english": "Example family · fictional accounts",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "resume",
+      "english": "Open a saved list",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "accounts",
+      "english": "Accounts",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "needAction",
+      "english": "Needs attention",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "next",
+      "english": "Your next step",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "allTypes",
+      "english": "All accounts",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "allClear",
+      "english": "Keep these records up to date",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "type",
+      "english": "Account type",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "demat",
+      "english": "Demat",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "bank",
+      "english": "Bank deposit",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "mf",
+      "english": "Mutual fund folio",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "institution",
+      "english": "Bank, broker or fund name",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "nickname",
+      "english": "Account nickname (optional)",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "owner",
+      "english": "Family member nickname (optional)",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "last4",
+      "english": "Last four digits (optional)",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "extra",
+      "english": "Add a nickname or last four digits",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "noIds",
+      "english": "Use nicknames. Keep full account numbers, PAN and passwords out of this list.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "nomination",
+      "english": "Is a nominee registered?",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "registered",
+      "english": "Registered",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "missing",
+      "english": "Not added",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "unknown",
+      "english": "Not sure",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "reported",
+      "english": "Reported by you",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "submitted",
+      "english": "Request submitted",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "confirmed",
+      "english": "Checked in a record",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "review",
+      "english": "Check the record",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "awaiting",
+      "english": "Awaiting confirmation",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "checkedOn",
+      "english": "Last checked",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "neverChecked",
+      "english": "Not checked yet",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "update",
+      "english": "Save changes",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "back",
+      "english": "Back",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "cancel",
+      "english": "Cancel",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "open",
+      "english": "View next step",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "registerTask",
+      "english": "Add a nominee with your institution",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "checkTask",
+      "english": "Check the nomination status",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "confirmTask",
+      "english": "Check that the request was registered",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "recordTask",
+      "english": "Keep the confirmation with your records",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "dematGuide",
+      "english": "Use the broker or bank that manages this demat account. Ask for the current nomination form or its official online option.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "bankGuide",
+      "english": "Use your bank’s branch or its official nomination facility, if available online. Ask for the current deposit nomination form.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "mfGuide",
+      "english": "Use the mutual fund or its registrar’s official service centre or online option. If the units are held in demat, use the demat account’s nomination route.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "checkGuide",
+      "english": "Check the latest statement or ask the institution. A remembered nomination may need confirmation.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "receiptGuide",
+      "english": "Keep the receipt. Then check a statement or confirmation showing the nominee was actually registered.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "institutionOnly",
+      "english": "Virasat keeps your progress. Registration happens with the institution.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "source",
+      "english": "Official guidance",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "sourceNote",
+      "english": "Current form and eligibility: confirm with your institution.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "markSubmitted",
+      "english": "I submitted a request",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "markConfirmed",
+      "english": "I checked the confirmation",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "submissionDate",
+      "english": "Date submitted",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "confirmationDate",
+      "english": "Date on the record",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "recordKind",
+      "english": "What did you check?",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "choose",
+      "english": "Choose",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "statement",
+      "english": "Account / holding statement",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "registration",
+      "english": "Institution’s registration confirmation",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "recordNote",
+      "english": "Short record note (optional)",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "confirmationCheck",
+      "english": "The record shows the nomination is registered, not just that a request was received.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "progress",
+      "english": "Progress",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "evidence",
+      "english": "Your record check",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "selfReport",
+      "english": "Entered by you. Virasat has not checked institutional records.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "remove",
+      "english": "Remove account",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "removeAsk",
+      "english": "Remove this account from your list?",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "summary",
+      "english": "Family summary",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "summaryIntro",
+      "english": "Review what your family needs to know before sharing.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "summaryNotice",
+      "english": "Includes account labels, family/nominee nicknames and last four digits if added. Record notes are omitted. Share only with someone you trust.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "print",
+      "english": "Print or save PDF",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "export",
+      "english": "Download readable copy",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "save",
+      "english": "Save your progress",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "saveShort",
+      "english": "Save for later",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "saveIntro",
+      "english": "Download a locked file. Open it here with the same password when you return.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "savedFile",
+      "english": "Your .virasat file",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "password",
+      "english": "Password",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "passwordHelp",
+      "english": "At least 12 characters. Keep it safe; we cannot recover it.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "saving",
+      "english": "Protecting your list…",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "saved",
+      "english": "Encrypted file downloaded. Keep the password separately.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "restored",
+      "english": "Your list is open.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "passwordShort",
+      "english": "Use a password of 12 to 256 characters.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "cannotUnlock",
+      "english": "The password or encrypted file could not be verified.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "invalidSave",
+      "english": "This saved list is invalid or too large.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "invalidAccount",
+      "english": "Enter the institution name. Use exactly four digits if adding a reference.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "invalidDate",
+      "english": "Use a real date, no later than today. Confirmation cannot be before submission.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "submissionRequired",
+      "english": "Add the date you submitted the request.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "confirmationRequired",
+      "english": "Add the record type and date, then confirm it shows registration. A receipt alone is not enough.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "accountLimit",
+      "english": "This list can hold up to 50 accounts.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "updated",
+      "english": "Your list was updated.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "privacyHelp",
+      "english": "Privacy & help",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "privacyDetail",
+      "english": "Your list stays in browser memory. Reloading clears it. Save an encrypted file to return later. Downloads remain on your device.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "translationNotice",
+      "english": "Draft translations; fluent-reader review is pending. Official forms keep their original language.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "boundary",
+      "english": "This list does not determine inheritance rights, discover accounts or submit requests.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "clear",
+      "english": "Clear this session",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "clearAsk",
+      "english": "Clear the list from this session? Saved downloads will remain.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "clearDone",
+      "english": "This session was cleared.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "language",
+      "english": "Language",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "access",
+      "english": "Accessibility",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "textSize",
+      "english": "Text size",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "smaller",
+      "english": "Smaller text",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "larger",
+      "english": "Larger text",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "contrast",
+      "english": "High contrast",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "motion",
+      "english": "Reduce motion",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "read",
+      "english": "Listen to instructions",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "speechUnavailable",
+      "english": "This instruction’s audio is not ready. The written instructions are still here.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "close",
+      "english": "Close",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "skip",
+      "english": "Skip to main content",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "nothing",
+      "english": "No accounts in this view",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "optoutNote",
+      "english": "Not added may reflect a deliberate opt-out. Check the record and choose with the account holder.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "startCheck",
+      "english": "Check an account",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "startHelp",
+      "english": "Start with a passbook, statement or the app you already use. One account is enough to begin.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "resumeTask",
+      "english": "Continue this task",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "needsAttention",
+      "english": "Still to do",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "checkedCount",
+      "english": "Records checked",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "howWorks",
+      "english": "How this helps",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "howWorksText",
+      "english": "We help you check the right place, prepare your next step, and keep the result. Your bank, broker or fund makes the actual change.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "searchBank",
+      "english": "Search for your bank",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "searchDemat",
+      "english": "Search for your broker or bank",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "searchMf",
+      "english": "Search for your mutual fund",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "searchHelp",
+      "english": "Type a name or abbreviation. You can also enter an institution that is not listed.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "useTyped",
+      "english": "Use this name",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "suggestions",
+      "english": "Matching institutions",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "noMatches",
+      "english": "No matches. Check the spelling, or keep the name you entered.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "accountContext",
+      "english": "A little about this account",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "contextHelp",
+      "english": "These details help us show the right instructions. It is fine to be unsure.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "whose",
+      "english": "Whose account is this?",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "me",
+      "english": "Mine",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "parent",
+      "english": "A parent’s",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "familyMember",
+      "english": "Someone in my family",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "holderQuestion",
+      "english": "Is the account held alone or jointly?",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "sole",
+      "english": "One holder",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "joint",
+      "english": "Joint holders",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "bankProduct",
+      "english": "Which kind of bank account?",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "savings",
+      "english": "Savings account",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "deposit",
+      "english": "Fixed or recurring deposit",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "mfMode",
+      "english": "How are these mutual funds held?",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "folioMode",
+      "english": "A folio with the mutual fund",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "dematMode",
+      "english": "Inside a demat account",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "identifyHelp",
+      "english": "Help me recognise it",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "identifyText",
+      "english": "A fund statement usually shows a folio number and fund name. A demat statement shows a DP ID / Client ID or BO ID. If unsure, ask the provider how the units are held.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "change",
+      "english": "Needs an update",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "optout",
+      "english": "Chose not to nominate",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "blocked",
+      "english": "Needs help",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "helpCheck",
+      "english": "Help me check",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "whatFound",
+      "english": "What did you find?",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "foundYes",
+      "english": "Nomination is recorded",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "foundNo",
+      "english": "No nominee is recorded",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "foundChange",
+      "english": "The details need changing",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "foundUnknown",
+      "english": "I couldn’t find it",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "prepare",
+      "english": "Prepare the next step",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "checkFirst",
+      "english": "Check before changing anything",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "openOfficial",
+      "english": "Open official instructions",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "prepareIntro",
+      "english": "Have these ready for the institution. You do not need to enter them here.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "prepareNames",
+      "english": "The nominee’s name and relationship, as shown in their records.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "prepareMinor",
+      "english": "If a nominee is a child, check the date-of-birth and guardian sections on the current form.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "prepareAccess",
+      "english": "Your own account reference and access to the institution’s official service. Keep passwords and OTPs there only.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "jointGuide",
+      "english": "For a joint account, involve every holder. Ask the institution which signatures and channel are required before submitting.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "unknownContext",
+      "english": "Check the holder names and account type on your statement before choosing an online route. The institution can help identify them.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "hdfcSavings",
+      "english": "In HDFC NetBanking, open Accounts → select the account → Account Details → Nominee and Account Holder details.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "hdfcDeposit",
+      "english": "In HDFC NetBanking, open FD/RD → select the deposit → look for Add Nominee or Change Nominee. Check this deposit separately from your savings account.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "hdfcAction",
+      "english": "Sole holders can use Add Nominee or Change Nominee in the relevant account details. For joint holdings, use the bank’s branch route with the other holders.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "zerodhaCheck",
+      "english": "Open Zerodha Console → Account → Nominees. This nomination also covers mutual funds held in that demat account, including Coin.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "zerodhaAction",
+      "english": "Use the nomination instructions in Console. Zerodha directs joint holders and people without an Aadhaar-linked mobile to its offline form. Check current requirements on the linked help page.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "hdfcMfGuide",
+      "english": "Use HDFC Mutual Fund’s nominee-registration service page for the current request form and submission instructions. Match the folio on your statement before starting.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "mfDematHelp",
+      "english": "These units use the nomination on the demat account. Check that account with your broker or DP; do not assume a separate folio nomination is needed.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "useDemat",
+      "english": "Check the demat account",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "routeFallback",
+      "english": "We have general guidance for this institution. Confirm the exact screen or form with its official service team.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "offlineHelp",
+      "english": "Prefer visiting in person?",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "offlineText",
+      "english": "Take your account or folio reference to the branch or official service centre. Ask for nomination registration or a change, and a dated acknowledgement. Ask which holders must attend before travelling.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "askHelp",
+      "english": "A question you can ask",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "askText",
+      "english": "Please check whether nomination is registered for this account. If it is missing or needs changing, which current form or official online option should I use? Please confirm the result in writing.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "copyQuestion",
+      "english": "Copy this question",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "copied",
+      "english": "Copied",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "followup",
+      "english": "Choose a follow-up date",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "followupHelp",
+      "english": "This is your own reminder date, not an institution’s deadline. Download it to your calendar if you want an alert.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "calendar",
+      "english": "Download calendar reminder",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "followDue",
+      "english": "Review due",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "requestHelp",
+      "english": "The request needs help",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "blockedHelp",
+      "english": "Keep the institution’s response. Ask what is missing, which correction is needed, and how to resubmit. A rejected or incomplete request is not a registered nomination.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "recheck",
+      "english": "Check again",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "familyRecord",
+      "english": "Your family record",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "familyHelp",
+      "english": "Add only what will help your family recognise the account and find its records. You can leave private details out.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "recordLocation",
+      "english": "Where can your family find the record? (optional)",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "locationHelp",
+      "english": "For example: Blue folder at home. This location is included in the family sheet. Do not add passwords or full account numbers.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "addNomineeNote",
+      "english": "Add another nominee note",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "optionalDetails",
+      "english": "Family details are optional",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "notProvided",
+      "english": "Not added to this list",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "unsaved",
+      "english": "Changes not saved for later",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "savedStatus",
+      "english": "Saved to your downloaded file",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "passwordAgain",
+      "english": "Repeat password",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "passwordMismatch",
+      "english": "The passwords do not match.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "showPassword",
+      "english": "Show password",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "saveTip",
+      "english": "After downloading, look in Downloads for your .virasat file. Keep the password separately. New changes need a new save.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "evidenceScope",
+      "english": "What does the record show?",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "statusOnly",
+      "english": "It says nomination is registered",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "detailsChecked",
+      "english": "I also checked the nominee details",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "receiptExample",
+      "english": "“Your request has been received” means the request is pending.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "registeredExample",
+      "english": "“Nomination registered” or “Nomination: Yes” records registration. Check it identifies this account.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "seeEvidence",
+      "english": "What counts as confirmation?",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "fictionalExample",
+      "english": "Illustrative wording only",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "pause",
+      "english": "Pause",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "resumeAudio",
+      "english": "Continue listening",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "stop",
+      "english": "Stop",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "listening",
+      "english": "Reading the page",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "finishedAudio",
+      "english": "Finished reading",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "voice",
+      "english": "Listening",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "speed",
+      "english": "Reading speed",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "slower",
+      "english": "Slower",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "normalSpeed",
+      "english": "Natural",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "faster",
+      "english": "Faster",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "previewVoice",
+      "english": "Preview voice",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "voicePreview",
+      "english": "I will read the instructions in your language, one step at a time.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "voiceHelp",
+      "english": "Audio is included in all six languages. No voice installation is needed. Only the written instructions are played; your entries and passwords stay private.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "speechError",
+      "english": "Audio could not load. Check your connection, then tap Try again. Your place is kept.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "readingSettings",
+      "english": "Reading & listening",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "appearance",
+      "english": "Reading comfort",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "lineSpacing",
+      "english": "More space between lines",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "resetSettings",
+      "english": "Reset reading settings",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "languageHelp",
+      "english": "Change language at any time. Your work stays in place.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "removeNote",
+      "english": "Remove this note",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "optoutHelp",
+      "english": "This records the holder’s choice in this list only. Any formal opt-out must be completed with the institution. The choice can be reviewed later.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "chooseType",
+      "english": "Choose an account type to continue.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "currentRecord",
+      "english": "What is recorded now",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "history",
+      "english": "Your updates",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "reviewDate",
+      "english": "Next review",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "shareNames",
+      "english": "Include family and nominee notes",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "shareLocation",
+      "english": "Include the record location",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "shareHelp",
+      "english": "Choose what to include, then review the sheet below. The downloaded copy is not password-protected.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "helpScope",
+      "english": "Helping after someone has died?",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "helpScopeText",
+      "english": "This journey is for a living holder arranging nomination. If the holder has died, ask the institution for its deceased-holder claim or transmission process. Do not start a new nomination on their behalf.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "openDevice",
+      "english": "Open the locked copy on this device",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "keepDevice",
+      "english": "Also keep a locked copy on this device",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "deviceHelp",
+      "english": "Optional: keep a password-protected copy in this browser. You must save again after changes. On a shared device, leave this off. We never store your password.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "forgetDevice",
+      "english": "Remove the saved copy from this device",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "forgetDeviceAsk",
+      "english": "Remove this device’s locked copy? Downloaded files will remain.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "deviceUnavailable",
+      "english": "The file was downloaded, but this browser could not keep a device copy. Use the downloaded file to return.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "chooseFile",
+      "english": "Choose your saved .virasat file or the device copy.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "replaceDraft",
+      "english": "Start another account? Your unfinished account will be replaced.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "replaceList",
+      "english": "Opening another list will replace this session. Save your work first if you need it.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "validFollowup",
+      "english": "Enter a real date, or leave all three boxes empty.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "seeNext",
+      "english": "See my next step",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "unfinishedChanges",
+      "english": "Continue unfinished changes",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "chooseVoice",
+      "english": "Choose another voice",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "linked",
+      "english": "Follows the demat account",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "linkedTo",
+      "english": "Linked demat account",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "privateRecord",
+      "english": "Your private record note",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "privateRecordHelp",
+      "english": "This note is kept in your locked save, and left out of the family summary and page audio.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "readRules",
+      "english": "Read the official rules",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "beforeContinue",
+      "english": "Before you continue",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "checkConnection",
+      "english": "Check that these belong together",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "connectionHelp",
+      "english": "Use the demat statement to check that these fund units are held in this exact demat account, with the same holders. Accounts belonging to different family members do not share a nomination.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "sameHolders",
+      "english": "I checked the statement: these units and holders match this demat account.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "linkAccount",
+      "english": "Link this demat account",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "replaceChanges",
+      "english": "You have unfinished changes. Continuing replaces that draft. Cancel to return Home and finish or save it first.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "startOwnList",
+      "english": "Start my own list",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "startOwnHelp",
+      "english": "Start a fresh list for your family? This removes the fictional example from this session.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "familyPending",
+      "english": "Family details not reviewed yet",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "familyReviewed",
+      "english": "Family details reviewed",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "familyReviewCheck",
+      "english": "I reviewed what my family should see. I chose to leave any blank fields out.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "familyReviewHelp",
+      "english": "This is a separate check. A registered nomination does not tell your family where to find the account or its records.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "notIncluded",
+      "english": "Not included by choice",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "familyReadyNext",
+      "english": "Keep this sheet somewhere your trusted family member can find it. Review it when details change.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "familyRemaining",
+      "english": "Family records to review",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "onlineRoute",
+      "english": "Use online services",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "offlineRoute",
+      "english": "Get help in person",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "routeChoice",
+      "english": "How would you like to do this?",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "saveBeforeLeaving",
+      "english": "Save your place before opening the official service. Come back here to record what happened.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "offlineContact",
+      "english": "Use the institution's official help page to locate a branch or service centre. Ask whether it handles nomination for this account before travelling.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "offlineBring",
+      "english": "Ask which form, holder signatures and documents are needed. Take a statement or passbook to identify the account; keep originals with you unless the institution requires them.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "offlineAsk",
+      "english": "Ask staff to check the existing nomination first. If a change is needed, ask for a dated receipt and how to obtain the final registration record.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "scopeGeneral",
+      "english": "General guidance for this account type. We have not reviewed this institution's exact screens.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "scopeHdfc",
+      "english": "HDFC Bank: savings and FD/RD guidance; joint holders use the branch route.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "scopeSbi",
+      "english": "SBI deposit accounts. This guide covers available channels; it does not claim a tested login sequence.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "scopeAxis",
+      "english": "Axis Bank savings accounts only. FD/RD routes may differ.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "scopeZerodhaAdd",
+      "english": "Zerodha: first nominee addition. Joint accounts or unavailable Aadhaar-linked mobile access need institution assistance.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "scopeZerodhaChange",
+      "english": "Zerodha: changing existing nominee details or adding another nominee.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "scopeGroww",
+      "english": "Groww demat account. Existing mutual-fund folios can require a separate service route.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "scopeHdfcMf",
+      "english": "HDFC Mutual Fund folios. Demat-held units follow the demat account's nomination.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "scopeDematFunds",
+      "english": "First identify and check the demat account holding these units.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "scopeUnknownFunds",
+      "english": "The holding format must be identified before choosing a nomination route.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "sbiAction",
+      "english": "SBI offers deposit-account nomination through YONO, Internet Banking and branches. Choose the specific account. If the option you need is unavailable, ask a branch to register or change it using the current form.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "axisStart",
+      "english": "In Axis Internet Banking, open Services → Account Services → Update Nominee. Select the savings account, then Add New Nominee or Change Nominee.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "axisSubmit",
+      "english": "Axis's help page describes generating a request form, completing and signing it, uploading it, and confirming with the NetSecure code. If you cannot print or upload, use a branch.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "zerodhaChangeForms",
+      "english": "Open Zerodha's change instructions. Get the current nomination and account-modification forms; enter the existing and proposed nominee details as directed.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "zerodhaChangeSubmit",
+      "english": "Zerodha describes signing both forms by hand, eSigning them, and attaching them to a support ticket. Follow the current instructions; ask support for an alternative if you cannot eSign.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "growwCheck",
+      "english": "In Groww, open Profile → Account Details → Nominee Details. Check which investment or account the displayed nomination applies to.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "growwAction",
+      "english": "Use Edit Nominee for eligible demat investments and follow Groww's verification. Updating the profile does not establish that every existing mutual-fund folio changed; check those folios separately.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "voiceSetup",
+      "english": "Add a voice for this language",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "voiceSetupHelp",
+      "english": "Voice availability depends on your device and browser. Install a matching language voice, then check again. A different accent may be available in the voice list.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "androidVoice",
+      "english": "Android: Settings → Accessibility → Text-to-speech output. Choose a language; open the engine settings to install voice data.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "appleVoice",
+      "english": "Apple devices: open Accessibility settings and look for Read & Speak or Spoken Content, then Voices. Names vary by system version.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "voiceFallback",
+      "english": "If your browser still offers no voice, use your device's screen reader or read the same written guidance. Virasat will not substitute the wrong language.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "refreshVoices",
+      "english": "Check voices again",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "readingNow",
+      "english": "Reading now",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "repeatSentence",
+      "english": "Play this again",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "nextSentence",
+      "english": "Next part",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "previousSentence",
+      "english": "Previous part",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "readingPreferences",
+      "english": "Reading settings are remembered on this device. Account details are saved only when you choose Save. Reset clears these reading preferences.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "stepType",
+      "english": "Account type",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "stepInstitution",
+      "english": "Institution",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "stepContext",
+      "english": "Account details",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "stepNomination",
+      "english": "Nomination",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "savedNext",
+      "english": "Your locked copy is ready. Keep the file and password somewhere you can find again. Return to your task when you are ready.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "returnTask",
+      "english": "Return to my task",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "olderDeviceCopy",
+      "english": "The device copy was not updated. Open the downloaded file for your latest changes, or save again with the device option selected.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "haveReady",
+      "english": "Have these ready",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "audioLoading",
+      "english": "Loading audio…",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "audioRetry",
+      "english": "Try again",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "audioBlocked",
+      "english": "Tap Continue listening to play the next part.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "audioData",
+      "english": "Audio loads only when you listen. Recently played instructions can work offline on supported browsers. First-time listening needs internet.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "audioDraft",
+      "english": "These are computer-generated voices. Pronunciation is still being reviewed. Follow the written instructions if you hear a difference.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "audioStart",
+      "english": "Listen",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "audioCache",
+      "english": "Recently played audio",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "clearAudio",
+      "english": "Remove saved audio",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "audioCleared",
+      "english": "Saved audio removed. Your account list is unchanged.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "audioPrivacy",
+      "english": "Only public instructions are saved for listening again. Audio requests use this website; no entries are sent to a voice service. Hosting logs can include your IP address and requested audio files.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "searchLanguages",
+      "english": "Search languages",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "translationDraft",
+      "english": "Draft translation. Not yet checked by a fluent reviewer.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "textOnly",
+      "english": "Written guidance is available. Audio is not yet available in this language.",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "audioAvailable",
+      "english": "Written guidance and audio",
+      "translation": "",
+      "reviewNote": ""
+    },
+    {
+      "key": "noLanguages",
+      "english": "No matching language. Try its English or native name.",
+      "translation": "",
+      "reviewNote": ""
+    }
+  ]
+}

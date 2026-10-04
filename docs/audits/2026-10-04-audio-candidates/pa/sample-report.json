@@ -1,0 +1,90 @@
+{
+  "language": "pa",
+  "revision": "cfad4d1e5c40",
+  "model": {
+    "model": "facebook/mms-tts-pan",
+    "revision": "45d7962e8daba724f9ff251ee3198bdb47a5f498",
+    "license": "CC-BY-NC-4.0",
+    "languageCode": "pa",
+    "files": {
+      "config.json": {
+        "sha256": "6ddfc6a127aaacaf66f30a60d2802f1f7fda486ed03b8ba9e2928691c9e6fb73",
+        "bytes": 1641
+      },
+      "tokenizer_config.json": {
+        "sha256": "5a1df0b9eefbea8dd9df6765432a658eb5272b73c0a20209c2d819a8c17a5196",
+        "bytes": 289
+      },
+      "vocab.json": {
+        "sha256": "ba643cb11b99a180ec755ce6b7d7c9338afdd110a94d490f3a5e0898118e11d4",
+        "bytes": 750
+      },
+      "special_tokens_map.json": {
+        "sha256": "dd9acab79d7160e729dffdc3d1bc1eceec8ae0e3df6271abe6bfe29e232f1e1b",
+        "bytes": 49
+      },
+      "model.safetensors": {
+        "sha256": "071db9963578edff7be6b660e9fb69bb1f2aa3596d77d632b76a7f3353373977",
+        "bytes": 145243640
+      },
+      "README.md": {
+        "sha256": "eaac372628f760230d2eee2632fbadbbe7e9dfbbbef7e538fc6c74fbf971230a",
+        "bytes": 4005
+      }
+    }
+  },
+  "license": "CC-BY-NC-4.0",
+  "fluentReview": false,
+  "scope": "sample",
+  "entries": {
+    "homeTitle": {
+      "textHash": "9a91c6e13dc57e4abc753de9ca04cff46511de3c19c47d5d7518402e20aa3f72",
+      "spoken": "ਆਪਣੇ ਪਰਿਵਾਰ ਦੇ ਖਾਤੇ ਲੱਭਣੇ ਸੌਖੇ ਬਣਾਓ।",
+      "bytes": 12062,
+      "seconds": 2.859,
+      "sha256": "d935a41279d71e4a217735de595e6cc5507c756d5174e1aa3eb0c1913312b7be"
+    },
+    "nomineeExplain": {
+      "textHash": "5be94723c1c6acb3bd74c33f9a578ad7bcadc5d17ef255a46e7d43fd1632effd",
+      "spoken": "ਨਾਮਜ਼ਦ ਵਿਅਕਤੀ ਉਹ ਹੈ ਜਿਸ ਤੋਂ ਖਾਤਾਧਾਰਕ ਦੀ ਮੌਤ ਮਗਰੋਂ ਸੰਸਥਾ ਦਾਅਵਾ ਲੈ ਸਕਦੀ ਹੈ। ਨਾਮਜ਼ਦਗੀ ਕਾਰਵਾਈ ਵਿੱਚ ਮਦਦ ਕਰਦੀ ਹੈ; ਇਹ ਕਾਨੂੰਨੀ ਵਾਰਸ ਤੈਅ ਨਹੀਂ ਕਰਦੀ। ਜਾਂਚ ਨਾ ਕੀਤੀ ਹੋਵੇ ਤਾਂ “ਪੱਕਾ ਨਹੀਂ” ਚੁਣੋ।",
+      "bytes": 60259,
+      "seconds": 14.912,
+      "sha256": "42a820fc9e995576ed9971857f8230d8dd05cc06526a193661adfdb7dba412a5"
+    },
+    "receiptExample": {
+      "textHash": "5148109f138a5f4d71e3073e94dfcf2b5ae5fbdc9b2ed5e8c92f2ea464e5554b",
+      "spoken": "“ਤੁਹਾਡੀ ਬੇਨਤੀ ਮਿਲ ਗਈ” ਦਾ ਅਰਥ ਬੇਨਤੀ ਹਾਲੇ ਲੰਬਿਤ ਹੈ।",
+      "bytes": 15139,
+      "seconds": 3.642,
+      "sha256": "3924f5728526f7818d067b463a78777d345f57cb00d294a8942af767634b2835"
+    },
+    "registeredExample": {
+      "textHash": "d36802dc1e690e8d87008b2718df9a52b1b899aae40dcfa6b500919985601b16",
+      "spoken": "“ਨਾਮਜ਼ਦਗੀ ਦਰਜ” ਜਾਂ “ਨਾਮਜ਼ਦਗੀ: ਹਾਂ” ਦਰਜ ਹੋਣਾ ਦੱਸਦਾ ਹੈ। ਜਾਂਚੋ ਕਿ ਇਸ ਖਾਤੇ ਦੀ ਪਛਾਣ ਦਿੱਤੀ ਹੈ।",
+      "bytes": 31846,
+      "seconds": 7.806,
+      "sha256": "6d16aa4898c1c7aede4160004ab60a037c6cf6e30c17dc7a04eda7d1fb4e8dff"
+    },
+    "helpScopeText": {
+      "textHash": "5f6c3f5a2fbaa5866ab3f1c7bb0963f744f49a33d9d2003ad356b3f0da84264e",
+      "spoken": "ਇਹ ਕਾਰਵਾਈ ਜੀਵਿਤ ਧਾਰਕ ਦੀ ਨਾਮਜ਼ਦਗੀ ਲਈ ਹੈ। ਮੌਤ ਹੋ ਚੁੱਕੀ ਹੋਵੇ ਤਾਂ ਸੰਸਥਾ ਤੋਂ ਮ੍ਰਿਤ ਧਾਰਕ ਦੇ ਦਾਅਵੇ ਜਾਂ ਸੰਪਤੀ ਤਬਾਦਲੇ ਦੀ ਕਾਰਵਾਈ ਪੁੱਛੋ। ਉਸ ਵੱਲੋਂ ਨਵੀਂ ਨਾਮਜ਼ਦਗੀ ਸ਼ੁਰੂ ਨਾ ਕਰੋ।",
+      "bytes": 54114,
+      "seconds": 13.383,
+      "sha256": "b000d4d2e853a08eb420d879ff956db9fdc9bcc5912d8a18b36005874eceebaf"
+    },
+    "passwordHelp": {
+      "textHash": "50fda26206dde08160bada320f56b40c60e3fb4949b5c372361ca10aa680a7b2",
+      "spoken": "ਘੱਟੋ-ਘੱਟ ਬਾਰਾਂ ਅੱਖਰ। ਸੁਰੱਖਿਅਤ ਰੱਖੋ; ਅਸੀਂ ਮੁੜ ਪ੍ਰਾਪਤ ਨਹੀਂ ਕਰ ਸਕਦੇ।",
+      "bytes": 24449,
+      "seconds": 5.962,
+      "sha256": "ff02911a9c781acc086d8ed8a9d2799996597592154bf0b50afbc3ced9146a81"
+    },
+    "privacyDetail": {
+      "textHash": "dd98c75b8a7c0558c09e27dac23c3aff8dbcf29a7d272b7e91f2bb9f37fe3029",
+      "spoken": "ਸੂਚੀ ਬ੍ਰਾਊਜ਼ਰ ਦੀ ਮੈਮਰੀ ਵਿੱਚ ਰਹਿੰਦੀ ਹੈ। ਮੁੜ ਲੋਡ ਕਰਨ ਨਾਲ ਮਿਟ ਜਾਂਦੀ ਹੈ। ਬਾਅਦ ਵਿੱਚ ਵਾਪਸ ਆਉਣ ਲਈ ਇਨਕ੍ਰਿਪਟ ਕੀਤੀ ਫਾਈਲ ਸੰਭਾਲੋ। ਡਾਊਨਲੋਡ ਤੁਹਾਡੇ ਜੰਤਰ ਵਿੱਚ ਰਹਿੰਦੇ ਹਨ।",
+      "bytes": 48834,
+      "seconds": 12.054,
+      "sha256": "d192079584ae57ff50e21315552351a03ff49cf4ce4695b35840edbd2d602bb3"
+    }
+  }
+}

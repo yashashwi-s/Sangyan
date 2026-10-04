@@ -1,0 +1,7 @@
+{
+  "searchLanguages": "Search languages",
+  "translationDraft": "Draft translation. Not yet checked by a fluent reviewer.",
+  "textOnly": "Written guidance is available. Audio is not yet available in this language.",
+  "audioAvailable": "Written guidance and audio",
+  "noLanguages": "No matching language. Try its English or native name."
+}

@@ -1,0 +1,2540 @@
+{
+  "language": "ne",
+  "revision": "326121f13b32",
+  "model": {
+    "repo": "rhasspy/piper-voices",
+    "revision": "c10ece1aade47bb51c153c893d14e5bf8e5b7117",
+    "repoLicense": "MIT",
+    "datasetLicense": "CC0",
+    "language": "ne_NP",
+    "espeakVoice": "ne",
+    "files": [
+      {
+        "path": "MODEL_CARD",
+        "url": "https://huggingface.co/rhasspy/piper-voices/resolve/c10ece1aade47bb51c153c893d14e5bf8e5b7117/ne/ne_NP/chitwan/medium/MODEL_CARD",
+        "bytes": 276,
+        "sha256": "127e85643329612dbebd7a071dd0f69a03439ceecdec5b637ed8641379b4ba00"
+      },
+      {
+        "path": "ne_NP-chitwan-medium.onnx",
+        "url": "https://huggingface.co/rhasspy/piper-voices/resolve/c10ece1aade47bb51c153c893d14e5bf8e5b7117/ne/ne_NP/chitwan/medium/ne_NP-chitwan-medium.onnx",
+        "bytes": 62950044,
+        "sha256": "f7ba6b0927688f92717e93ca52bc06f5783ce8edc765d5f85365acef1d41822c"
+      },
+      {
+        "path": "ne_NP-chitwan-medium.onnx.json",
+        "url": "https://huggingface.co/rhasspy/piper-voices/resolve/c10ece1aade47bb51c153c893d14e5bf8e5b7117/ne/ne_NP/chitwan/medium/ne_NP-chitwan-medium.onnx.json",
+        "bytes": 5043,
+        "sha256": "18d523b03b201422d14e2892cc750a81208d2e45158a9c6a7e4e06a500930dee"
+      }
+    ]
+  },
+  "engine": "Piper 1.8.0 (GPL-3.0 build-only)",
+  "license": "MIT voice repository / CC0 dataset",
+  "fluentReview": false,
+  "auditoryReview": false,
+  "aliases": {},
+  "scope": "complete",
+  "released": true,
+  "entries": {
+    "nomineeYes": {
+      "textHash": "028a06315518e44570c0480b107ea014a1916da4111aefca5f24151b15505ca1",
+      "spoken": "हो",
+      "bytes": 4288,
+      "seconds": 0.917,
+      "sha256": "870a303803198294bff8f69f0d094947e35df893e8753222d44f323d1b51ea58"
+    },
+    "nomineeNo": {
+      "textHash": "b9d78d1b40533db824c5dd5ef3f9ee56c4e6d541fdfe7542930674127e0d6688",
+      "spoken": "छैन",
+      "bytes": 4095,
+      "seconds": 0.882,
+      "sha256": "4c3a15f739909a973d3715768281ed46bf6286e4fec41aecccf14bc42a64915e"
+    },
+    "nomineeExplain": {
+      "textHash": "02fd5b5befa621387f056ed67feb7af15ff5cd2188297dec2cfc85c17d6437cf",
+      "spoken": "मनोनित व्यक्ति भनेको खाताधारकको मृत्यु भएपछि संस्थाले दाबी स्वीकार गर्न सक्ने व्यक्ति हो। मनोनयनले प्रक्रियामा सहयोग गर्छ; यसले कानुनी उत्तराधिकारी को हो भन्ने निर्धारण गर्दैन। जाँच गर्नुभएको छैन भने “पक्का छैन” छान्नुहोस्।",
+      "bytes": 54500,
+      "seconds": 13.468,
+      "sha256": "c135b0c49007d08815c1d3dc1b33a0e8357d576ee8d22697f564688ea71b518e"
+    },
+    "day": {
+      "textHash": "08265901178f7714da4bf3cc71db693fe2accedbdbc44cac18e0d3e283347db8",
+      "spoken": "दिन",
+      "bytes": 4377,
+      "seconds": 0.94,
+      "sha256": "30ad35a354c62b6e8341f079400c56fc965acc53a6f1f4986b699919f274eac8"
+    },
+    "month": {
+      "textHash": "b76618520fdba4818c5405c659e19099d4f84cac28db88256787d902eea431c6",
+      "spoken": "महिना",
+      "bytes": 4859,
+      "seconds": 1.057,
+      "sha256": "ab6277e2120e8839734ed04233fea1860bc072593006dfcedd5fdb949e85ba9d"
+    },
+    "year": {
+      "textHash": "e24544bdad94e9262ab9b36018d40e72d8050c84d60bc95575c7339ba1236ca4",
+      "spoken": "वर्ष",
+      "bytes": 4474,
+      "seconds": 0.975,
+      "sha256": "901ebdc8ead808bc85eac4aa9b43e4f80f96137cd37a62ed26ea353ec2715cf6"
+    },
+    "dateExample": {
+      "textHash": "be3a5b7a2976b2ead158eba5a635233e190c655f17b6511b4bb94537cfc1d752",
+      "spoken": "उदाहरण: 14 / 09 / 2026 को अर्थ 14 सेप्टेम्बर 2026। आफ्नो रेकर्डमा मिति प्रयोग गर्नुहोस्।",
+      "bytes": 34625,
+      "seconds": 8.51,
+      "sha256": "fe53972aa5b798aec9d91c9b00a56a2acf56a8b523d91670805c7a0286b7dded"
+    },
+    "submissionExample": {
+      "textHash": "8bc6e0e938a95214b8d4658fcd6e6d138aeded544ce268460544508f1d23b154",
+      "spoken": "तपाईंले अनुरोध पठाउनुभएको दिन प्रयोग गर्नुहोस्। उदाहरण: 14 / 09 / 2026।",
+      "bytes": 27431,
+      "seconds": 6.711,
+      "sha256": "dd1430575b15cb07c7b82e08693e9a0992b679e5374a55e305f5fde1dde4b181"
+    },
+    "statementExample": {
+      "textHash": "81620b100f5d5b5b85cee78490bd0f86a7a46fe626fc31074dd87e84ec3549ff",
+      "spoken": "मनोनित व्यक्तिको नाम वा “मनोनयन: हो” देखाउने स्टेटमेन्ट। खाताको मौज्दात मात्र पर्याप्त हुँदैन।",
+      "bytes": 25798,
+      "seconds": 6.304,
+      "sha256": "605e2734461c60f1afb2cd67d245405dc6e6a7c366991c24456c02c18656f4d5"
+    },
+    "registrationExample": {
+      "textHash": "bd5a8270f168fc7e566fd1b087ec444fcc389781ed779dbab62f57a44b7a8dfb",
+      "spoken": "यस खातामा मनोनयन दर्ता भएको पुष्टि गर्ने बैंक, ब्रोकर वा फन्डको पत्र/इमेल। अनुरोध प्राप्त भएको रसिद यसभन्दा फरक हो।",
+      "bytes": 32041,
+      "seconds": 7.86,
+      "sha256": "157c5962cf47c48eae14f82f938458220c290c20924b59b5e88cd4b4b1164df4"
+    },
+    "requiredInstitution": {
+      "textHash": "1e53955003ca203312be93e9b2ceabe5581a68e1504a61cbd19cf0c77342b5fe",
+      "spoken": "तपाईको रेकर्डमा देखाइएको बैंक, ब्रोकर वा कोषको नाम प्रविष्ट गर्नुहोस्।",
+      "bytes": 17257,
+      "seconds": 4.168,
+      "sha256": "ec57ed28781aa89d425379cff6290bf93c5a3c1a4db37cbfa63b291fa305db52"
+    },
+    "requiredRecord": {
+      "textHash": "0afa9492efb2d0c6905accbb1bb348601b650797b3a2ce7006bac3cc4b202c28",
+      "spoken": "तपाईंले जाँच गर्नुभएको रेकर्डको प्रकार छान्नुहोस्।",
+      "bytes": 12740,
+      "seconds": 3.03,
+      "sha256": "60cb084a563cd86f60327b1d11aba52ed4015092b43266df9a5f177f567452e1"
+    },
+    "requiredCheck": {
+      "textHash": "521614e1c2262303b97852fe6f2b3f12b88f66bb7b8d581329f1cba155b53d9a",
+      "spoken": "पुष्टि गर्नुहोस् कि तपाईंको रेकर्डले वास्तवमा यस खाताको लागि दर्ता गरिएको मनोनित व्यक्तिलाई देखाउँछ।",
+      "bytes": 22915,
+      "seconds": 5.573,
+      "sha256": "6fd85392c4e1f28982408479d0c062db7ade25d6d3535931d22054b34fd91c91"
+    },
+    "institutionExample": {
+      "textHash": "e76632ce3a2b69a1324bcb4e1d5e443b8d76ea2b84448ea5b19d71c17d7352d5",
+      "spoken": "उदाहरणका लागि: HDFC बैंक, वा तपाईंको स्टेटमेन्टमा नाम।",
+      "bytes": 19368,
+      "seconds": 4.69,
+      "sha256": "f705a09fe22e838c5c6bbfff841fba8e1fcec24bcb7e29f7c16f5d67e6890b55"
+    },
+    "nicknameExample": {
+      "textHash": "0525615b47babd8cd45608e995ebe416c4930e29792afe29be86c5352ed78195",
+      "spoken": "उदाहरणका लागि: पारिवारिक बचत।",
+      "bytes": 10629,
+      "seconds": 2.496,
+      "sha256": "bb7738efe35b70068b426f80561f5e996b937f9d3be3d15e6d379fc7bb755343"
+    },
+    "ownerExample": {
+      "textHash": "c955e3e732f4784cc195d77c094a88ac041fdc3c0261efe09840e97b6e7de894",
+      "spoken": "उदाहरणका लागि: म वा अभिभावक।",
+      "bytes": 11490,
+      "seconds": 2.717,
+      "sha256": "2492dd23b96628f0b0d679281ed562783dba6eccc82309e02e7e619ad720633f"
+    },
+    "nomineeNoteExample": {
+      "textHash": "bc1439dab47310550476f66b92238a094ac6f0c96ea1f3b4b4c8d8dfb791ef7a",
+      "spoken": "उदाहरणका लागि: पति/पत्नी/अनु। उपनाम वा सम्बन्ध मात्र।",
+      "bytes": 20616,
+      "seconds": 5.016,
+      "sha256": "8cf25aa710b5673a6f1d6f399285cdad3c13cac61d8bc7c1648d5b7696ee4411"
+    },
+    "last4Example": {
+      "textHash": "57293db63a4f27addb54d81bdd5ba771fdb7c006148f33e78243c34db471f958",
+      "spoken": "उदाहरण को लागी: 1234. अन्तिम चार अंक मात्र।",
+      "bytes": 21762,
+      "seconds": 5.283,
+      "sha256": "025c99393aff74b62e3c60dc763addb51566d3af7cb9220e0a93b8590ffe1513"
+    },
+    "recordNoteExample": {
+      "textHash": "74bb046f81e778cd674d8ee84c269749f3b742aadcdba5854c2ae998bf604483",
+      "spoken": "ऐच्छिक: तपाईंलाई रसिद वा रेकर्ड फेला पार्न मद्दत गर्नको लागि छोटो नोट।",
+      "bytes": 19847,
+      "seconds": 4.807,
+      "sha256": "42cb02f200a9b43f078820c1f71a29020db04f77ec6dca3c5b5d32e10859b3c6"
+    },
+    "bankLocation": {
+      "textHash": "2809ab5e978923aca89275dc54626a8c821d965f1d99ce0dab98f65a8675e266",
+      "spoken": "आफ्नो पासबुक, स्टेटमेन्ट वा जम्मा रसिदमा बैंकको नाम प्रयोग गर्नुहोस्।",
+      "bytes": 17826,
+      "seconds": 4.319,
+      "sha256": "4e2a267752db39973b2fe797996c4dab60165049cc13c7565278e34020155e8f"
+    },
+    "dematLocation": {
+      "textHash": "8d83ee4fa2ab075c2b51537126341b19fab0224fa650dca98ac3cb7db0eff4ee",
+      "spoken": "तपाईको डिम्याट स्टेटमेन्टमा ब्रोकर वा बैंक प्रयोग गर्नुहोस्, तपाई जसको सेयर हो त्यो कम्पनीको सट्टा।",
+      "bytes": 22627,
+      "seconds": 5.515,
+      "sha256": "f3bdde1ea381bef4afd52fae801d1dbab84c76774675b6a61d06b5b6ffe2f674"
+    },
+    "mfLocation": {
+      "textHash": "f9b11f456e0c1c8b94d1132fd4b2ad2a64a8c8c63776d8564be1afde97524e35",
+      "spoken": "तपाईंको फोलियो स्टेटमेन्टमा म्युचुअल फन्ड प्रयोग गर्नुहोस्। यसको रजिस्ट्रारले मद्दत गर्न सक्छ; डिम्याटमा रहेका एकाइहरूले डिम्याट मार्ग पछ्याउँछन्।",
+      "bytes": 34912,
+      "seconds": 8.568,
+      "sha256": "2b562e0540a54a38749c30a14203ac5811c03545ec69335c9070850f9c88c0de"
+    },
+    "checkLocation": {
+      "textHash": "22ce7b69b101af08dd342243388281b3d748b089a6a63e7165d6ac86e6a0a4cc",
+      "spoken": "यस खाताको विवरण वा पछिल्लो विवरणमा मनोनित व्यक्तिको नाम वा मनोनयन स्थिति हेर्नुहोस्।",
+      "bytes": 19843,
+      "seconds": 4.818,
+      "sha256": "38b6f0de58725b52d46b22f789e36b02b1321fec31bc0f797718ea4a79fe6069"
+    },
+    "askInstitution": {
+      "textHash": "382ed50ef380908cd611e534bf83ae6f19c7eb9d284cdc529f279513f683f624",
+      "spoken": "यदि यो देखाइएको छैन भने, संस्थालाई सोध्नुहोस्: \"यस खाताको लागि मनोनयन दर्ता छ? के तपाइँ यसलाई लिखित रूपमा पुष्टि गर्न सक्नुहुन्छ?\"",
+      "bytes": 34436,
+      "seconds": 8.452,
+      "sha256": "d326c7193267ad29de1a4b5e9b64cbb3a1943ef0d062f89635751b810e5bace1"
+    },
+    "keepUnknown": {
+      "textHash": "904c6a959d352f3d037222d44a2ef55f515dba289013be3f9d75041ac4357dd6",
+      "spoken": "जाँच गर्न सक्ने बेलासम्म “पक्का छैन” राख्नुहोस्। संस्थाले मनोनित व्यक्ति नभएको पुष्टि गरे “थपिएको छैन” छान्नुहोस्।",
+      "bytes": 28577,
+      "seconds": 7.001,
+      "sha256": "26da2d43e0fc1de42508ccded5f41e7cfc370fa5f3e92e25e8f03270458b1e73"
+    },
+    "submitKeep": {
+      "textHash": "c14aef4eb7beeb585bda3df21372edebb8484adb25ea434794f4705b038a9132",
+      "spoken": "संस्थाको आधिकारिक च्यानल मार्फत पेश गर्नुहोस्। मितिको स्वीकृति वा रसिद राख्नुहोस्।",
+      "bytes": 21760,
+      "seconds": 5.283,
+      "sha256": "37f8eb1598cd2fbcd254c5b5e2fe4d5979a99514fa4458c3b025a7e43cb5edb2"
+    },
+    "confirmRegistration": {
+      "textHash": "fc46e53d3271bf59333e2e004053c4776c534659197aa1636c336d7bf0b2bcf1",
+      "spoken": "यो खाता पहिचान गर्ने र मनोनयन रेकर्ड गर्ने स्टेटमेन्ट वा लिखित पुष्टिकरण जाँच गर्नुहोस्। एक अनुरोध रसिद मात्र दर्ता पुष्टि गर्दैन।",
+      "bytes": 32905,
+      "seconds": 8.081,
+      "sha256": "bffabbf32f2d90b2b2f446191643278fdc9ed8bb8e45e7e97781102403df5e67"
+    },
+    "followRequest": {
+      "textHash": "3f9b1a676f76aff50fc371047bfaef086250cea57e2aabbce141c9468ed44cd6",
+      "spoken": "मनोनयन दर्ता गरिएको थियो कि छैन भनेर संस्थालाई सोध्न अनुरोध मिति र रसिद सन्दर्भ प्रयोग गर्नुहोस्।",
+      "bytes": 23299,
+      "seconds": 5.677,
+      "sha256": "be3e98b3ad5b7d0d5abfaba77a8d336e6bbc87ebe3518cfc903776fcf9e1d865"
+    },
+    "waitRegistration": {
+      "textHash": "fc5e224f48813372fe1d041513e8dfe2bd365472f41dd3bc503ca29a7864543f",
+      "spoken": "दर्ता रेकर्ड उपलब्ध नभएसम्म यसलाई पुष्टिकरणको प्रतीक्षाको रूपमा राख्नुहोस्।",
+      "bytes": 18502,
+      "seconds": 4.47,
+      "sha256": "072565316bc429e3e93a598e36544065410e3a4eeb3ed1c13b9ff694877c0133"
+    },
+    "hdfcPath": {
+      "textHash": "6fdf5d25812bd4b545689a9ca435515408fe09fab25af461734f3f4b637a7992",
+      "spoken": "नेटबैंकिङ: खाताहरू → तपाईंको खाता → खाता विवरणहरू → मनोनित व्यक्ति/धारक विवरणहरू।",
+      "bytes": 20606,
+      "seconds": 4.992,
+      "sha256": "0bd7c60187006b6e5956790c3cba701d798982ecac4cafb933255cb75728404d"
+    },
+    "hdfcHolding": {
+      "textHash": "34448301ad7a0228d58fdb79e5e74e33ed64dafe17999d36396f010e8dac7065",
+      "spoken": "एकमात्र होल्डर: त्यहाँ थप्नुहोस्/परिवर्तन गर्नुहोस्। संयुक्त होल्डरहरूका लागि, बैंकले सँगै शाखा भ्रमण गर्न सिफारिस गर्दछ।",
+      "bytes": 32225,
+      "seconds": 7.918,
+      "sha256": "787a56487d4935dcaa9069719476b7a5e73270c246a1d12bb7f1e57ab40d88c0"
+    },
+    "hdfcSource": {
+      "textHash": "62ab271e7e626ab97c49ce3eb7851422ef78abe0ecd3450e71fa89c75052695f",
+      "spoken": "HDFC बैंक निर्देशन",
+      "bytes": 8512,
+      "seconds": 1.985,
+      "sha256": "ca6c46c69f7a629f51cf1de57dd7e5d5f5cd85fbed4a6c35262e9dcf29c9ed0c"
+    },
+    "whatToDo": {
+      "textHash": "797c58225281a54a24820d0e80fe5b7aaddbf791d3dec432202172930edaca52",
+      "spoken": "के गर्ने",
+      "bytes": 5054,
+      "seconds": 1.126,
+      "sha256": "c84364a592632a400381b557283e2c9e50be3a289cda2697ca424a198b262091"
+    },
+    "home": {
+      "textHash": "cb024de2d7513255fd2150dae3e6119737ce78e731a9fbdd51c27aa762e03acc",
+      "spoken": "मुख्य पृष्ठ",
+      "bytes": 5626,
+      "seconds": 1.265,
+      "sha256": "4672a85de1e212b2937f07422709c0df9fa7147f0dca0d159f16f401b0e9ee7b"
+    },
+    "continue": {
+      "textHash": "27769f63d61823ec087fe620fe9e5f01863b6b0fd8ee5413fabc35a4f2117eb4",
+      "spoken": "जारी राख्नुहोस्",
+      "bytes": 6686,
+      "seconds": 1.533,
+      "sha256": "7a63c03bed834b624452d5af5eb23042a6db0d21cfa2433c9d2e1d563d7133e7"
+    },
+    "unfinished": {
+      "textHash": "645b016523713820cab54ad672e497e7dc7ea8c4dc0e58473295fec37800d01a",
+      "spoken": "अधूरा खाता जारी राख्नुहोस्",
+      "bytes": 8800,
+      "seconds": 2.043,
+      "sha256": "fe0671268efe62be6b0df4860167f4233ff1243ba1256102ea5c8f9205d1ef6d"
+    },
+    "step": {
+      "textHash": "c39fbf83f1c01960272a75a76fa488428df3868c860d64eb9298f67187a1cef5",
+      "spoken": "चरण",
+      "bytes": 4378,
+      "seconds": 0.952,
+      "sha256": "15969e7a78013d13d2e32e7c853c097cdb0d92a4c6432fa85fc379b28401f724"
+    },
+    "of": {
+      "textHash": "f83b77d307f2b93bd048aa774f9a833caa2b49c5c8b72e91fbfb71f1a8bcca90",
+      "spoken": "को",
+      "bytes": 4376,
+      "seconds": 0.94,
+      "sha256": "b53c3623e5d3dd7268d3d1cb4e8979b59ae2c9ddd05d2896862d9dbd633a2327"
+    },
+    "homeTitle": {
+      "textHash": "8a8e9b1020ec4de9e1c0757ee65056517429b52dccc51876b3317d8cb9e29bbc",
+      "spoken": "आफ्नो परिवारको खाता खोज्न सजिलो बनाउनुहोस्।",
+      "bytes": 12927,
+      "seconds": 3.088,
+      "sha256": "e58a3dbf87a7d0e5dcb360dc4e36148ee3de6d5f3a3d23cd579924febf290945"
+    },
+    "homeIntro": {
+      "textHash": "6f560fa013aa4b2e035e11c73a9adaefb322db5a701fdc7d5f8ebf8aad42be06",
+      "spoken": "मनोनित व्यक्ति को छ जाँच गर्नुहोस्। बाँकी काम पूरा गर्नुहोस्। परिवारका लागि स्पष्ट अभिलेख राख्नुहोस्।",
+      "bytes": 27711,
+      "seconds": 6.769,
+      "sha256": "8fb1f8a88aa4e65020fc7a354172fe75f86d33695f62b2a3a49c1d21bfe73ab3"
+    },
+    "typeQuestion": {
+      "textHash": "561d198b2069506f80e0de1c6b1cb97ec3e6fc47e77907e4cfa792193703aff1",
+      "spoken": "यो कस्तो खाता हो?",
+      "bytes": 6402,
+      "seconds": 1.463,
+      "sha256": "3876ec04ad4bd3c5de1678618bbd977bd6c78954167c1f7cc505cf081a09b08f"
+    },
+    "institutionQuestion": {
+      "textHash": "5d9af03896a1c00f83e2a22452d255f5504be21b2dd3b914639def6334da452b",
+      "spoken": "खाता कहाँ राखिएको छ?",
+      "bytes": 7081,
+      "seconds": 1.625,
+      "sha256": "2e0ad1b9303b3e862cdbbc20518a2ea20c381b61d6fc2ca818ecb4ddc52dc048"
+    },
+    "dematDescription": {
+      "textHash": "16d7935f978d3cf830bf3ce5e2d40b64d0db4bff3cd320f9830b0abcffa482ce",
+      "spoken": "एक दलाल वा बैंक संग राखिएको शेयर",
+      "bytes": 11206,
+      "seconds": 2.647,
+      "sha256": "54d4199652e084fe9fc392d7c616c6ae50d3c8b8496247988fd45601cf792a18"
+    },
+    "bankDescription": {
+      "textHash": "8dd72c12ea5664d6418279172a57ee312c405617d09fc1673fef95bea416b820",
+      "spoken": "बचत वा बैंकमा निक्षेप",
+      "bytes": 8037,
+      "seconds": 1.858,
+      "sha256": "754ff596349586d97b111c419a2a3e23864a8c24324b464522d78d318c0b40f9"
+    },
+    "mfDescription": {
+      "textHash": "021fddbb5fc352b8ea9a58c60ca5cf6b83d3d85cf1b38eb954e8a6698e319c2c",
+      "spoken": "म्युचुअल फण्डसँग राखिएको फोलियो",
+      "bytes": 9763,
+      "seconds": 2.299,
+      "sha256": "d6c524d32c8e8e1017032d901633c44f2593c7c1556cdadc25a5f9dfe9c1ba3b"
+    },
+    "nomineeNote": {
+      "textHash": "1cde6357e19a020a81920e734a3d029b1f2403234671298fce6dd9e924e2ba4b",
+      "spoken": "मनोनित व्यक्तिको छोटो नाम वा सम्बन्ध (वैकल्पिक)",
+      "bytes": 12641,
+      "seconds": 3.019,
+      "sha256": "021433830ee57a3b65699a4a1467dbc89f60d8c42fb1dd492373681d539f8d65"
+    },
+    "nominees": {
+      "textHash": "206033dddd5c6872316aac6bd06cb35a13851ca36b26a5baee34ff9cec92cc54",
+      "spoken": "मनोनित व्यक्तिबारे टिप्पणीहरू",
+      "bytes": 9278,
+      "seconds": 2.183,
+      "sha256": "5c799d3068cfd8ef738bb2ccabea59070bf4c3712dcfcd152d088aa9ef49d5c3"
+    },
+    "missingGuide": {
+      "textHash": "861e704a4e7d03c744c56afae964770c2fc728dae8131af4b14ec446aba36ffb",
+      "spoken": "संस्थाको मनोनयन विकल्प प्रयोग गर्नुहोस् वा यसको हालको फारम सोध्नुहोस्।",
+      "bytes": 17250,
+      "seconds": 4.156,
+      "sha256": "56e91eb2945b51d53b6a3477c27302689bc383e5bf77ac7bb6ee366ab072ea79"
+    },
+    "title": {
+      "textHash": "63a5a8823488b81b8012157c8f51ec8da7dcb147119af1bb1be37ac10937f102",
+      "spoken": "तपाईंको परिवार खाताहरू",
+      "bytes": 7835,
+      "seconds": 1.823,
+      "sha256": "e7286071d40500822c96f92de4ed6bb64f2f2ac2e19cdfa5e31570eb5d0d4dc2"
+    },
+    "intro": {
+      "textHash": "6290f75dce48b3327335f39fa4cf4472ad528cb550df15e6fd22a0518280b462",
+      "spoken": "मनोनित व्यक्तिको जानकारी राख्नुहोस्। बाँकी काम पूरा गर्नुहोस्।",
+      "bytes": 17627,
+      "seconds": 4.261,
+      "sha256": "c5a6eb2e866fb2f2d4f32f79dbb4d8913a8592637cb5988e76d7e0ad197dcb2c"
+    },
+    "add": {
+      "textHash": "4c1d3d4131a85621391531741e3cee9fc4414d5515799e7ee383bdc18bf19f3b",
+      "spoken": "खाता थप्नुहोस्",
+      "bytes": 5721,
+      "seconds": 1.289,
+      "sha256": "8876d11148a773820145c139649ec8b9f52fc9648fa6eda397a486731211a1ec"
+    },
+    "edit": {
+      "textHash": "d3052ac6ef543d55cc6bd2f69d36dc59cbfeee1cf1933aaca3e453e2f38133ab",
+      "spoken": "खाता सम्पादन गर्नुहोस्",
+      "bytes": 7258,
+      "seconds": 1.672,
+      "sha256": "6b5c44f3a179f98acb2524aa18315403c4569f3ecfb7b1cbfc2bd5aa657a7fd3"
+    },
+    "emptyTitle": {
+      "textHash": "c89e4acabe5417a6b1339108a4221e0dbc90b40da80afad0f7fadb7ab09b7026",
+      "spoken": "एउटा खाताबाट सुरु गर्नुहोस्",
+      "bytes": 9088,
+      "seconds": 2.125,
+      "sha256": "aaa623d1d62cbd970160cbcc7a561d63b988e37d269996388ffec01f384895cf"
+    },
+    "emptyIntro": {
+      "textHash": "91bb5d85c227cde9744fe06bbe49933164b4b737dcf31bb450692ed016797bd1",
+      "spoken": "डिम्याट, बैंक वा म्युचुअल फंड। कसलाई मनोनयन गरिएको छ, एक पटकमा एक खाता जाँच गर्नुहोस्।",
+      "bytes": 25696,
+      "seconds": 6.269,
+      "sha256": "a12a7e3b8be0257d4ede37b7c7dd8a4c524ff34ec38f2021e7dd37fffadeb463"
+    },
+    "example": {
+      "textHash": "b678a67586487fa08811f1409a19944259938519833d4589955770def921d97c",
+      "spoken": "एउटा उदाहरण हेर्नुहोस्",
+      "bytes": 8125,
+      "seconds": 1.881,
+      "sha256": "5d64c960bc03ca6005d78c612f078a2b70569b3dc4c8a415e498c751fb040d9d"
+    },
+    "sample": {
+      "textHash": "2659a21ad6d5480683e7ccb7010b7b79975fd1ca02117742eb518164decaad0f",
+      "spoken": "उदाहरण परिवार · काल्पनिक खाताहरू",
+      "bytes": 10332,
+      "seconds": 2.426,
+      "sha256": "e8ba3f4c3a9c7c2c99cf9f7079d3c4c108a702c22f34374532f592c7b8da63e5"
+    },
+    "resume": {
+      "textHash": "ade31cabcefd142fdf385f7569fcc9fa91dde8192e46d7491559e6b868b761fe",
+      "spoken": "सुरक्षित राखेको सूची खोल्नुहोस्",
+      "bytes": 8988,
+      "seconds": 2.09,
+      "sha256": "8d6b7ef6b25d7c1e39bcfa5c59691cc9d46cab67821d3e4a833f284f4292ad55"
+    },
+    "accounts": {
+      "textHash": "8c21e42621fe9b9dd3f5aac1ec233cbfbe2fecb79589384f28a62594e83d8604",
+      "spoken": "खाताहरू",
+      "bytes": 5054,
+      "seconds": 1.126,
+      "sha256": "3501a212f33415ea649fed2b80b320c3fd36ae7bff48ed8183d178b0be0f928f"
+    },
+    "needAction": {
+      "textHash": "ee05a008114b489be9f1dc0d8dd942050c729de4eda4da003b30407ebcfaf407",
+      "spoken": "ध्यान चाहिन्छ",
+      "bytes": 6304,
+      "seconds": 1.416,
+      "sha256": "069a787c7044decff0bab2e2637feb2e296d1cf86ff61e9ad6cd0e7308ce8484"
+    },
+    "next": {
+      "textHash": "982e9cbfce1bc1679c6050684470bb3014990e155afc5e500104d22685398186",
+      "spoken": "तपाईंको अर्को चरण",
+      "bytes": 7066,
+      "seconds": 1.625,
+      "sha256": "1c3843e43b115de71cf30ee22ea2a88c796fdef2a3673226ba45138b9e9edfd6"
+    },
+    "allTypes": {
+      "textHash": "f3b712241b59783580e27258a9bf0b32b795ab8010b2b83ba65d1158024836e6",
+      "spoken": "सबै खाताहरू",
+      "bytes": 6014,
+      "seconds": 1.347,
+      "sha256": "f964b97dc2a5387bf2e3b226b4ae748db378a3b394d35578fe7b0061c7677aab"
+    },
+    "allClear": {
+      "textHash": "f77c7bc29094b86af92fd7d2173df8b99e9cc8d5f0a2a4f93ad735569aa6beff",
+      "spoken": "यी रेकर्डहरू अद्यावधिक राख्नुहोस्",
+      "bytes": 9854,
+      "seconds": 2.322,
+      "sha256": "5f1af7db6313c6b5e1c80ff76167e5ba372184409e37789b6d72609d786af1e7"
+    },
+    "type": {
+      "textHash": "a3e24bcf6e82eda0879ceaf69a03d856c914eb6a6b252ce06852ca3b7eaec42e",
+      "spoken": "खाता प्रकार",
+      "bytes": 4570,
+      "seconds": 0.998,
+      "sha256": "0ab0999c776c0b1e453dbdabe4f746791358676464b631f00946eb95d75d523e"
+    },
+    "demat": {
+      "textHash": "1386f013de12dc97968fb3572d33749f2187b823045ff6e9a7331ca281832bb0",
+      "spoken": "डिम्याट",
+      "bytes": 4763,
+      "seconds": 1.033,
+      "sha256": "63c4aef646ee27e3fc8d693c67ac7a42c69fee3fe06241f898202e586ce5351f"
+    },
+    "bank": {
+      "textHash": "233972a32eb0846b46fe0dffa946c5aa89f1649043949ae40883c352b882f84e",
+      "spoken": "बैंक निक्षेप",
+      "bytes": 5242,
+      "seconds": 1.161,
+      "sha256": "8fdbf4dc6bdb4b744a060f10452c28ce97f6b970e52bdad0fb7deb66c1b2b920"
+    },
+    "mf": {
+      "textHash": "0df8b44f4bb48cf64e024d133072d29cef613e7a0b3e724fbecd4391e9ccce9c",
+      "spoken": "म्युचुअल फण्ड फोलियो",
+      "bytes": 7256,
+      "seconds": 1.66,
+      "sha256": "79299d9cec79066c5980760aa9cc282731075249ac23489d231545bc88e070ff"
+    },
+    "institution": {
+      "textHash": "9d45ae7befdb3c44de889457f87a845f702761829a0712f56bdfd980a08e15e5",
+      "spoken": "बैंक, ब्रोकर वा कोषको नाम",
+      "bytes": 9185,
+      "seconds": 2.159,
+      "sha256": "58c0123e712018ab13bbf249306bb436a214f1a0697c649f51747ad5c30da7c0"
+    },
+    "nickname": {
+      "textHash": "94819dec12ebf2208067195e89c43b8ea795d3132c6bbf86ad70b899b6093157",
+      "spoken": "खाता उपनाम (वैकल्पिक)",
+      "bytes": 7550,
+      "seconds": 1.73,
+      "sha256": "ea366c552e0cab16ddcb9c455f458504912a3f3257d6542131dc8aa5322f6f21"
+    },
+    "owner": {
+      "textHash": "798b89412b84f03657201f0eb311d2c7e22e842868b41b3d6f8f990ba134fc05",
+      "spoken": "परिवारको सदस्यको उपनाम (वैकल्पिक)",
+      "bytes": 10331,
+      "seconds": 2.426,
+      "sha256": "e57731366549bc4f538c59c6c0b9250b64ef92ec17a62f2fed2e4ca09f8d4a55"
+    },
+    "last4": {
+      "textHash": "dd0865c4e380f22b0dc26b60422886b9ce959e5be4d09349abe8c833202eca7f",
+      "spoken": "अन्तिम चार अंक (वैकल्पिक)",
+      "bytes": 8507,
+      "seconds": 1.974,
+      "sha256": "4d2f8ad13bb1b569224ca094e79315a025fa27b5ac77965773b758a2dbe9fd4f"
+    },
+    "extra": {
+      "textHash": "55547feba40342f82438447feccd2f11593a5cd556a40bf044ab8a82b916267e",
+      "spoken": "एउटा उपनाम वा अन्तिम चार अंकहरू थप्नुहोस्",
+      "bytes": 12635,
+      "seconds": 3.019,
+      "sha256": "9dfab826e716fb6bbb2dcec64aa659616e3a4d1c0fdbb73ec9fc66cbc99b6fed"
+    },
+    "noIds": {
+      "textHash": "23421ab306fcdceb4661d4cb776255e098ea9d7e8e4c5c13e59205328103899d",
+      "spoken": "उपनामहरू प्रयोग गर्नुहोस्। पूर्ण खाता नम्बरहरू, प्यान र पासवर्डहरू यस सूचीबाट बाहिर राख्नुहोस्।",
+      "bytes": 25307,
+      "seconds": 6.177,
+      "sha256": "3dbc618251d07a32970be86b6cc282520ba24fd57356185b90d868770c32c5cd"
+    },
+    "nomination": {
+      "textHash": "690b15f674a6d465459818bcd2aa8e1d33e4c7c9f302a55efdde814bdb2cf62a",
+      "spoken": "के मनोनित व्यक्ति दर्ता गरिएको छ?",
+      "bytes": 9760,
+      "seconds": 2.287,
+      "sha256": "fc2c5a5528d7f2914cb80ade27caca31d931e2c727756964a429224030ba8e45"
+    },
+    "registered": {
+      "textHash": "a17603b16ebc5aef995cbc228d0bdb1ad552fd149e0ec28d3cf4e4e5f22bb967",
+      "spoken": "दर्ता भएको",
+      "bytes": 5536,
+      "seconds": 1.242,
+      "sha256": "6f15eee647e9ed4200ab5c03b6ce2d8a9d18406fc17546cf9ebef710f1aaa9aa"
+    },
+    "missing": {
+      "textHash": "447fc6dc15613c6e77dd57704728c240b572faa2696a2f18eb7285a57b9eeb9b",
+      "spoken": "थपिएको छैन",
+      "bytes": 6013,
+      "seconds": 1.347,
+      "sha256": "b27e316285ffe1752b3d989bbf1dd1ff37df652c7c892b6bc762631f0e1cdbb2"
+    },
+    "unknown": {
+      "textHash": "59203e7fa8b220bd7137f48a597ee5e039dea1864c16a52e0a6236210d3c7386",
+      "spoken": "पक्का छैन",
+      "bytes": 5341,
+      "seconds": 1.196,
+      "sha256": "b69f65a14a3f41c107603dd6580805becf1f341ee54068a656318653be76e3b4"
+    },
+    "reported": {
+      "textHash": "701e21e3ccd09a62db5e7149505c5814ed51468da4d8ab363bfdd4c61c8bfad6",
+      "spoken": "तपाईंले बताएको",
+      "bytes": 6974,
+      "seconds": 1.602,
+      "sha256": "0c39a4e30d4e2beaa6153fb5335946b2529a54d9a01cf269b7cf219bb1b6532e"
+    },
+    "submitted": {
+      "textHash": "345a811542269f08a183e97a4e7c9a75b625e7c7eb11cd7ccbcdcd916ca2eedc",
+      "spoken": "अनुरोध पेश गरियो",
+      "bytes": 6975,
+      "seconds": 1.602,
+      "sha256": "0cbf56be1eac32c515bdc995357131afd245d20fc366a254dcb628188e3ca406"
+    },
+    "confirmed": {
+      "textHash": "fd7240eef1ecd5825433ab2c856f8dffd7736bc45ee8450bdb3d49f3c3a77e70",
+      "spoken": "रेकर्डमा जाँच गरियो",
+      "bytes": 7167,
+      "seconds": 1.637,
+      "sha256": "3417dde72566d495d60aefcfb26e27570d0416798a00fe005e5d956a729b2035"
+    },
+    "review": {
+      "textHash": "a59bb26895ff6bf081f8bc759751f13e2635dc05299fbfd9d5954e29ae1dd87a",
+      "spoken": "रेकर्ड जाँच गर्नुहोस्",
+      "bytes": 7356,
+      "seconds": 1.683,
+      "sha256": "feff792f18905dd6647c17da396d7cfcfddc08e9457851a86a3f13f572873a5a"
+    },
+    "awaiting": {
+      "textHash": "80eaf0b500b15f5d861cb557064fa2ffc6bbd79a0fe4e040aa609ec026ddd7e9",
+      "spoken": "पुष्टिको पर्खाइमा",
+      "bytes": 6302,
+      "seconds": 1.44,
+      "sha256": "84a5ecbd1c0eac5a923acd23c13a49b690fa9587c5096b58561e0555fff057a4"
+    },
+    "checkedOn": {
+      "textHash": "6a65816dae91c26ce7b07aaf747e84d3ab7900ae65b80ccf9f1d39b016030606",
+      "spoken": "पछिल्लो पटक जाँच गरियो",
+      "bytes": 8415,
+      "seconds": 1.95,
+      "sha256": "2d07fc426f711eb1981cb4dd15ed309debac01895cf79c36fc2b967d847bff0e"
+    },
+    "neverChecked": {
+      "textHash": "7784417d155a61617174e1d5bb2951dcb955e38fc4f6fe9e4ff2502ee6b95a37",
+      "spoken": "अझै जाँच गरिएको छैन",
+      "bytes": 8994,
+      "seconds": 2.101,
+      "sha256": "de78f5971af3c71a0dc818f3ff856e92c1797f9d1d06a0afef66e413f5f4fbfa"
+    },
+    "update": {
+      "textHash": "a1f899e30fc5faef89be7fd65d3718b0ca4e04955d293d00d55c2c2dedc59a1f",
+      "spoken": "परिवर्तनहरू बचत गर्नुहोस्",
+      "bytes": 9276,
+      "seconds": 2.171,
+      "sha256": "49c4fea79eddeccc641764c57b2c79336a965060ce2dda3150ba7bbf84e3d74c"
+    },
+    "back": {
+      "textHash": "455a9038f96b7fd2c237598787cac547e1825002b4a6040f159bd48e0bb5eb94",
+      "spoken": "पछाडि",
+      "bytes": 4570,
+      "seconds": 0.987,
+      "sha256": "50c0754c2dad1692d7c4626fd6156506ce298ddfde997280ba37851ca75804ad"
+    },
+    "cancel": {
+      "textHash": "4a1b2759bc5185aa4389ec421ac555004c1ad2184f2f2b222faf9fb22db08643",
+      "spoken": "रद्द गर्नुहोस्",
+      "bytes": 6396,
+      "seconds": 1.451,
+      "sha256": "036d863aff87e4270f19a887c59fc6271aa8f2e9ce35687d9a54b15a40660578"
+    },
+    "open": {
+      "textHash": "c63e86579c1323b33ce6cbfc4360b8d89d2479930a635d66e83ba034676a72f3",
+      "spoken": "अर्को चरण हेर्नुहोस्",
+      "bytes": 7066,
+      "seconds": 1.614,
+      "sha256": "49aa88ac057205cb0404d7a58340e16e5b11bd8822d773a2c5b2686dad943af3"
+    },
+    "registerTask": {
+      "textHash": "27b331f5b1a9e6cb59f01282481d05b3567aee4e0ee36af0ec07ec713bd0f9b2",
+      "spoken": "आफ्नो संस्था संग एक मनोनित व्यक्ति थप्नुहोस्",
+      "bytes": 12162,
+      "seconds": 2.902,
+      "sha256": "a0eafd13e9b68d153799210b2180d104257a8de0f8f251910e2aeaf106c725f6"
+    },
+    "checkTask": {
+      "textHash": "acf027c20dfe19305f0f297b6f2c97741cb98c296dfa7fc8d0991553e8af1736",
+      "spoken": "मनोनयन स्थिति जाँच गर्नुहोस्",
+      "bytes": 9279,
+      "seconds": 2.183,
+      "sha256": "8834ad000d96cfe5ab5ff9c84f6b0df8f455031428c53caea107d636e4465fb6"
+    },
+    "confirmTask": {
+      "textHash": "1c45607d0cc478d52159f7747b8a5a8f20d2c3f66e39fbd7a077c4c08bd47368",
+      "spoken": "जाँच गर्नुहोस् कि अनुरोध दर्ता गरिएको थियो",
+      "bytes": 12161,
+      "seconds": 2.891,
+      "sha256": "b1e34b4afc8d3e9d71b8df6810e21193030dca0c680d094c1457f572d93e3d41"
+    },
+    "recordTask": {
+      "textHash": "890d17a1229426e51be4be82874546aa5bda16736f8ecb11620374b8041169fd",
+      "spoken": "आफ्नो रेकर्ड संग पुष्टि राख्नुहोस्",
+      "bytes": 10336,
+      "seconds": 2.426,
+      "sha256": "ea722c5b966e1e06acd6465288f3771d088159990952047eaa5f0bbc31758461"
+    },
+    "dematGuide": {
+      "textHash": "74c03d9ff2f56ef6395bf9c61b37e9e91fd5e76094e8ae70bf4a9b0e11911ee4",
+      "spoken": "यो डिम्याट खाता व्यवस्थापन गर्ने ब्रोकर वा बैंक प्रयोग गर्नुहोस्। हालको मनोनयन फारम वा यसको आधिकारिक अनलाइन विकल्पको लागि सोध्नुहोस्।",
+      "bytes": 31456,
+      "seconds": 7.721,
+      "sha256": "69d33d6f4ef246080af9dd54eade039b5c099b7f952285c61a90126f1af8e298"
+    },
+    "bankGuide": {
+      "textHash": "25e6d18e88dfc664335940a5ca2a40fd7f7b4ac97d1205642f86a3b9c21bfd6e",
+      "spoken": "अनलाइन उपलब्ध भएमा आफ्नो बैंकको शाखा वा यसको आधिकारिक मनोनयन सुविधा प्रयोग गर्नुहोस्। हालको जम्मा मनोनयन फारमको लागि सोध्नुहोस्।",
+      "bytes": 32031,
+      "seconds": 7.86,
+      "sha256": "f6bfa4ae58db18f536b18bffb8de29f9f02ca5c0a7466f7c326e75bd44b7742a"
+    },
+    "mfGuide": {
+      "textHash": "40e1eaff6c1dceb1639f66581f1951a611d0030402096528640c09a7f552ef50",
+      "spoken": "म्युचुअल फन्ड वा यसको रजिस्ट्रारको आधिकारिक सेवा केन्द्र वा अनलाइन विकल्प प्रयोग गर्नुहोस्। यदि एकाइहरू डिम्याटमा राखिएको छ भने, डिम्याट खाताको मनोनयन मार्ग प्रयोग गर्नुहोस्।",
+      "bytes": 39325,
+      "seconds": 9.694,
+      "sha256": "1c7a31655ccb459a9f198441eb70d789750defaadd367b1a0fef772b2e2bd465"
+    },
+    "checkGuide": {
+      "textHash": "c7c7b187a37faea56a049631e354907bbd984bc28c6ddaa723a339e4e06f69bb",
+      "spoken": "पछिल्लो स्टेटमेन्ट जाँच गर्नुहोस् वा संस्थालाई सोध्नुहोस्। याद गरिएको मनोनयनलाई पुष्टि गर्न आवश्यक हुन सक्छ।",
+      "bytes": 26944,
+      "seconds": 6.594,
+      "sha256": "5ba0825b1e1dfaa60685906df375f7c4a557d5ee03ac7a690c27ee00587b0277"
+    },
+    "receiptGuide": {
+      "textHash": "4ba953dd28bdf4d0d61002ba11c4c8eae19dc6a7d7042d04bea071adc34cbee0",
+      "spoken": "रसिद राख्नुहोस्। त्यसपछि मनोनित व्यक्ति वास्तवमा दर्ता भएको देखाउने स्टेटमेन्ट वा पुष्टिकरण जाँच गर्नुहोस्।",
+      "bytes": 28482,
+      "seconds": 6.978,
+      "sha256": "0ef87f58d61d18598ab4e5beee227facc2aee5103e4b99408e7dd60b013cbcd9"
+    },
+    "institutionOnly": {
+      "textHash": "574dc891c47aa48d5789101752359aca027aee53bd2fac901aba5c1a9db6f0d2",
+      "spoken": "विरासतले तपाइको प्रगति कायम राख्छ । दर्ता संस्था संग हुन्छ।",
+      "bytes": 18213,
+      "seconds": 4.4,
+      "sha256": "ccd076700372b68240c421eaa8f74191b54f08b27226378aa4bc4f47bfb40cbf"
+    },
+    "source": {
+      "textHash": "be567f740e3dbffe4523c1b22fab77e7a99e87ef56c53061bc4280c2b9519a9e",
+      "spoken": "आधिकारिक निर्देशन",
+      "bytes": 7260,
+      "seconds": 1.672,
+      "sha256": "d3df6bcb8dbf3ee19172946a87cb777181acaac71130d70035390f9c45b96a32"
+    },
+    "sourceNote": {
+      "textHash": "b6c2053f1b82005a725e223c559fb366097fc71873ab9521acb9348ad88ee4ba",
+      "spoken": "हालको फारम र योग्यता: आफ्नो संस्थासँग पुष्टि गर्नुहोस्।",
+      "bytes": 15040,
+      "seconds": 3.622,
+      "sha256": "b7525c754285d0301a212d33e7d07e516e32db96a84313018450828ba3495590"
+    },
+    "markSubmitted": {
+      "textHash": "117c7404fc0869191a5316f4b0d3fdf3ad5db8f254af453b72708895454e84bd",
+      "spoken": "मैले अनुरोध बुझाएको छु",
+      "bytes": 8515,
+      "seconds": 1.985,
+      "sha256": "d3562d5d6ac432f461c5407b0357728e5dc7c919bc264bb3340f32a2f236c8e6"
+    },
+    "markConfirmed": {
+      "textHash": "8f5d576fee829fb12d1c7664cf786b2bd2d6d97ac920182a725a289fc7a224f7",
+      "spoken": "मैले पुष्टिकरण जाँच गरें",
+      "bytes": 8611,
+      "seconds": 1.997,
+      "sha256": "684f5c57a6e8ed5928685f6ed814941b4d745af23e49b6e1a476c234ec4311ba"
+    },
+    "submissionDate": {
+      "textHash": "20c2b40bb627f321175df5e675262dda07861eba97086be46b9aa3faba797918",
+      "spoken": "पेश गरिएको मिति",
+      "bytes": 6980,
+      "seconds": 1.602,
+      "sha256": "bc6910b0286416dfdb22238a8078c6fbd3e1aa36da0177c24a8424977833f80c"
+    },
+    "confirmationDate": {
+      "textHash": "6a0d7bb0fd96634146b5f418f025fe70a659814f89fb5019d9dd69114b3a1d07",
+      "spoken": "रेकर्डमा मिति",
+      "bytes": 6118,
+      "seconds": 1.37,
+      "sha256": "c819086b1f9df7b7b90985c616cb9a5747ed1a50be89418b6e9629cae15e4562"
+    },
+    "recordKind": {
+      "textHash": "bc77111bb2b77b2c2d2be0e2320d3ee7fe749160737b7d3ece4341934c8ee946",
+      "spoken": "तपाईंले के जाँच गर्नुभयो?",
+      "bytes": 8128,
+      "seconds": 1.881,
+      "sha256": "0cf81b8279ab49516fb451eccdeebc270972d9e5ac884cc4a49ca8931563ca1c"
+    },
+    "choose": {
+      "textHash": "e0e947c929f22d38370fe9ab770a1257ef0f92c29787eb39701dac8b9d3758b7",
+      "spoken": "छान्नुहोस्",
+      "bytes": 4956,
+      "seconds": 1.091,
+      "sha256": "1809a026de213a3d6c6f6c9155ca57d8af9081c4464246662f0dbda3b0889749"
+    },
+    "statement": {
+      "textHash": "ec676f621b03baca8213e4e54b918584f54ae913ac9cfb375592d669738deaff",
+      "spoken": "खाता / होल्डिंग स्टेटमेन्ट",
+      "bytes": 8223,
+      "seconds": 1.916,
+      "sha256": "da8c50b234dcd48d66190b7dd0ac17f131b564b70ef14a52368c76fb37ab3ee8"
+    },
+    "registration": {
+      "textHash": "11a6c53fc010173975cd16d22969f108faa06bff9f49ca9eaf3c944495d2f6a5",
+      "spoken": "संस्थाको मनोनयन दर्ता पुष्टिकरण",
+      "bytes": 10146,
+      "seconds": 2.38,
+      "sha256": "01222e1c672a043c56f2018c619d00fe869b1580e9efc541a4a6faee474a5165"
+    },
+    "recordNote": {
+      "textHash": "d1256a4b064f0de85d8c3cc3544f6edc3b248d2e84783fcab7fd10ed2be46e01",
+      "spoken": "छोटो रेकर्ड नोट (वैकल्पिक)",
+      "bytes": 8512,
+      "seconds": 1.974,
+      "sha256": "72d4a5ca57e16b40c2201d5c3900bcb651270788bbdec3cbaa07078acf0fbada"
+    },
+    "confirmationCheck": {
+      "textHash": "517718e174cb2c319beb93bc0890a4ea7fafd8e471394a9b6036646666898695",
+      "spoken": "अभिलेखले मनोनयन दर्ता भएको देखाउँछ, अनुरोध प्राप्त भएको मात्र होइन।",
+      "bytes": 21863,
+      "seconds": 5.306,
+      "sha256": "389e4a4bccc9272c248ddd7034df245dfc5e26516b6bd026279728ad009a57b3"
+    },
+    "progress": {
+      "textHash": "142675e415a422385ba7f172605e903362d3996addb74e0379746a0b3584b7cb",
+      "spoken": "प्रगति",
+      "bytes": 4862,
+      "seconds": 1.057,
+      "sha256": "2b0154a5d30459a5dff990dbee6b08267a59a5532ff0638dc5482410465bb135"
+    },
+    "evidence": {
+      "textHash": "d45097fbfcdc5d874a8f26ccb33c82c7da0ea90a95e7db779584769a1718d29a",
+      "spoken": "तपाईंको रेकर्ड जाँच",
+      "bytes": 6974,
+      "seconds": 1.602,
+      "sha256": "84e1a8dc5c8190bc249b85a1181fdc0782eeb1a4044f42fe40f2a0aa81fa65a5"
+    },
+    "selfReport": {
+      "textHash": "0bdf13693b0b826208bd03a8087f8df985459838b96d99a785cbb69fc94d4eb3",
+      "spoken": "तपाईं द्वारा प्रवेश। विरासतले संस्थागत अभिलेख जाँच गरेको छैन ।",
+      "bytes": 18304,
+      "seconds": 4.435,
+      "sha256": "a7b205b95a15aff5a27b7cbd572a444e16c0f6528b29fd56e5fb3436a64ea4bf"
+    },
+    "remove": {
+      "textHash": "7eb6052d4bf2b7e2d3d3036131877066b2decc02a99debd1cfcf368dbcb2b128",
+      "spoken": "खाता हटाउनुहोस्",
+      "bytes": 6300,
+      "seconds": 1.416,
+      "sha256": "8d206533960bf30aeaab2921f1ce1277d283849bb7e91f3cb7db6587ebf7c266"
+    },
+    "removeAsk": {
+      "textHash": "c8843a336e1ab206589907b581ffcadc1648209c4b5a6adbf5844166b7db1e6e",
+      "spoken": "आफ्नो सूचीबाट यो खाता हटाउने हो?",
+      "bytes": 9951,
+      "seconds": 2.345,
+      "sha256": "5cbcdaf4973a33523dd9bc99bd8d7c2174350c801b4c591dd014c7192b7ed9b9"
+    },
+    "summary": {
+      "textHash": "ce918473359b34cb78ee4f8bcf250a06afea8722c6bdc7c1fd6ca064e0d2687e",
+      "spoken": "पारिवारिक सारांश",
+      "bytes": 6493,
+      "seconds": 1.486,
+      "sha256": "1b532e3604d50fc2764bbf08634a0149a7c5fb5fec8149b0052ccfd6295cd873"
+    },
+    "summaryIntro": {
+      "textHash": "f4b97d717f8cc0e9a68f6a76c26da42e4a1d4df9ad74b427acaca17c19300b1c",
+      "spoken": "सेयर गर्नु अघि आफ्नो परिवारले जान्न आवश्यक पर्ने कुराहरू समीक्षा गर्नुहोस्।",
+      "bytes": 17826,
+      "seconds": 4.307,
+      "sha256": "11fceba7ded532388accc0c6737072db405fb2ce125e1c0203ac84a0482b194b"
+    },
+    "summaryNotice": {
+      "textHash": "f3713f2d958158c0c2c6200776bfba60e6e3ab8f729f9c25db6438a31a2b1ab3",
+      "spoken": "खाता लेबलहरू, परिवार/मनोनित व्यक्तिको उपनाम र अन्तिम चार अंकहरू थपिएको खण्डमा समावेश गर्दछ। रेकर्ड नोटहरू हटाइएको छ। तपाईंले विश्वास गर्ने व्यक्तिसँग मात्र साझेदारी गर्नुहोस्।",
+      "bytes": 46531,
+      "seconds": 11.494,
+      "sha256": "5df35f909bd016db4a4e69e86d15309cc5bbba14cba332c090e1752ebaa10a66"
+    },
+    "print": {
+      "textHash": "88e3201fa54c9ed0a01e5fa81ba687bb1f5bf740023ca963fd1ff7fb6a134636",
+      "spoken": "PDF प्रिन्ट गर्नुहोस् वा बचत गर्नुहोस्",
+      "bytes": 11387,
+      "seconds": 2.705,
+      "sha256": "1c9bf18179cbb8bfccc48ed8dd0ff6d385c52464c7f0e6ca14eff4e8b23a2d56"
+    },
+    "export": {
+      "textHash": "7910ada752f6479a1b3316b652322b15e28417681fc528eb5bb71bd3c359e716",
+      "spoken": "पढ्न योग्य प्रतिलिपि डाउनलोड गर्नुहोस्",
+      "bytes": 10524,
+      "seconds": 2.473,
+      "sha256": "739e4f1a3f77d778a6635c5cfe8bc4e9c0906e266f77eb32896c812fcabf3afd"
+    },
+    "save": {
+      "textHash": "59394e7fef9fcfaec1e7b4f38b9e6520a29a7c9d1495bf113dfd7070b2f5c9aa",
+      "spoken": "आफ्नो प्रगति बचत गर्नुहोस्",
+      "bytes": 9658,
+      "seconds": 2.276,
+      "sha256": "df36263500bcc7b33650f070cd5b62d37793a4170601b728dff2db6655d141d7"
+    },
+    "saveShort": {
+      "textHash": "77ea14ee19edde765eaebcfbf7119bc6eaedb7837c6f9647ab435b44e70208e7",
+      "spoken": "पछिको लागि बचत गर्नुहोस्",
+      "bytes": 8895,
+      "seconds": 2.067,
+      "sha256": "f16a9e6a7a8913edd5a40c238a7c4950680e6e87367d61c520c4e8b505dd2796"
+    },
+    "saveIntro": {
+      "textHash": "5d5a9921b758c2da4e11e09f27665905cbd2358712d3ffd000194f424b11def2",
+      "spoken": "लक गरिएको फाइल डाउनलोड गर्नुहोस्। तपाई फर्किंदा त्यही पासवर्डको साथ यहाँ खोल्नुहोस्।",
+      "bytes": 22239,
+      "seconds": 5.41,
+      "sha256": "83c02457c32e3e8e3b64a75980503400b4e039133c4891119741331df0483dd0"
+    },
+    "savedFile": {
+      "textHash": "80afd384a44d77982a79316f5c229619ea4966ef7ab3dba27090b6232b92f5e7",
+      "spoken": "तपाईंको .virasat फाइल",
+      "bytes": 6783,
+      "seconds": 1.544,
+      "sha256": "4ec277dcfed6753edfa7aef054cc920ceed846707a087fa98e181c2a55217585"
+    },
+    "password": {
+      "textHash": "dc410ce2f1688b118bd4b20e539f8ca36cb9b58f2e4ebf7166a5e116b26a325e",
+      "spoken": "पासवर्ड",
+      "bytes": 5054,
+      "seconds": 1.115,
+      "sha256": "1f587b1f57c21939aa8f3c08758b36d83f997823dba0bf013c63a3e295c9442d"
+    },
+    "passwordHelp": {
+      "textHash": "fb8bebb4fe041044606714fa9fef8a67ea38102acc433679001dc7c921486eb6",
+      "spoken": "कम्तिमा १२ वर्णहरू। यसलाई सुरक्षित राख्नुहोस्; हामी यसलाई पुन: प्राप्त गर्न सक्दैनौं।",
+      "bytes": 23586,
+      "seconds": 5.747,
+      "sha256": "537831931d8dcfb8262a5b235494819dfee8718b693d01cce9141b337a42aac5"
+    },
+    "saving": {
+      "textHash": "7ba3ce472e0c42349b03601281c437c232cf3e51184b7896e554926f06795d4e",
+      "spoken": "तपाईंको सूची सुरक्षित गर्दै...",
+      "bytes": 8604,
+      "seconds": 1.997,
+      "sha256": "332526ca4eb249634d3e15360b3a09fe655d343340ece7ce0de2dbcec920b6e3"
+    },
+    "saved": {
+      "textHash": "83b42a9818948a88faf8f1d3235be9ff0184c0e7051c537470577b3bb4fde936",
+      "spoken": "इन्क्रिप्टेड फाइल डाउनलोड गरियो। पासवर्ड अलग राख्नुहोस्।",
+      "bytes": 15707,
+      "seconds": 3.785,
+      "sha256": "42f00177fd20ad0be654ea0ece551cfcaaf6a513347da9dd79dc24b9cb6ae4c3"
+    },
+    "restored": {
+      "textHash": "dfda7c9eb88f28cd9cb9fdff3eaf382a5e5bbfad155f0fe3bc08b9aa2f6d152e",
+      "spoken": "तपाईंको सूची खुला छ।",
+      "bytes": 7646,
+      "seconds": 1.765,
+      "sha256": "fa31ecf939f54416756b7da0c12efa0239327a80b79a4f5ec891fbf4465f857c"
+    },
+    "passwordShort": {
+      "textHash": "cae74e4fb3f8d8302f490b979e0f4d1b8b0a65cc4241f3e175fd1236907a2df6",
+      "spoken": "12 देखि 256 वर्णहरूको पासवर्ड प्रयोग गर्नुहोस्।",
+      "bytes": 16867,
+      "seconds": 4.063,
+      "sha256": "dbd0879ffbdc5548359349ba3e21311bd4d2d8677a95fa251e892ce0e5979936"
+    },
+    "cannotUnlock": {
+      "textHash": "d9547c02ba9fce4a07ee065b1c755aa1d2d13b482c496edab76cc932f138b445",
+      "spoken": "पासवर्ड वा इन्क्रिप्टेड फाइल प्रमाणित गर्न सकिएन।",
+      "bytes": 12930,
+      "seconds": 3.088,
+      "sha256": "23481f8f4568885e970fc9e15a07eb95b3ab9d26ec68e0f20c77d81e4a2f29cc"
+    },
+    "invalidSave": {
+      "textHash": "d53a866fcad67bc33ebdb102ed1fad0cffed84d7127b8d3bd58cc536dd36ed57",
+      "spoken": "यो सुरक्षित गरिएको सूची अमान्य वा धेरै ठूलो छ।",
+      "bytes": 12833,
+      "seconds": 3.065,
+      "sha256": "c49608a5d7f94d8cbfec36f2429dc22d33807053c58b23cb7694c8f77afc54f1"
+    },
+    "invalidAccount": {
+      "textHash": "3d9e1fa2ab499d9659d700dee2767297789cbbce177aff0bc7d1d441384a4e53",
+      "spoken": "संस्थाको नाम प्रविष्ट गर्नुहोस्। सन्दर्भ थप्दा ठीक चार अंकहरू प्रयोग गर्नुहोस्।",
+      "bytes": 20132,
+      "seconds": 4.888,
+      "sha256": "45df5e34a562bc1e3ca3d2e65a211a1eda0f7c8c3f43b367bd30cb3d732b6852"
+    },
+    "invalidDate": {
+      "textHash": "fcb2cb179b8ee191bfca6890b3276c3f8ef7b276d0eb1aa10670a476518da601",
+      "spoken": "आजभन्दा पछिको नहुने वास्तविक मिति प्रयोग गर्नुहोस्। पुष्टिको मिति अनुरोध बुझाएको मितिभन्दा अघिको हुन सक्दैन।",
+      "bytes": 30401,
+      "seconds": 7.454,
+      "sha256": "3f9201530f25840d8e8f81c6690620262a0d7ee193a8cb1988d0a68ea059ed1a"
+    },
+    "submissionRequired": {
+      "textHash": "321bf8b1a5442c3e542b43a05efb32ed712a9122f950a1bdd4bbd4677cad4d30",
+      "spoken": "तपाईंले अनुरोध पेश गर्नुभएको मिति थप्नुहोस्।",
+      "bytes": 12456,
+      "seconds": 2.961,
+      "sha256": "f2b4782016b238ae8b30fe46df59a225c39f0917b64bfcc95707ff5f9f036362"
+    },
+    "confirmationRequired": {
+      "textHash": "c5fa9f7c91b614c8e6af02ad07159f2438b0ee6adaa404023bc0fe95b61aab69",
+      "spoken": "रेकर्ड प्रकार र मिति थप्नुहोस्, त्यसपछि पुष्टि गर्नुहोस् कि यसले दर्ता देखाउँछ। एक रसिद मात्र पर्याप्त छैन।",
+      "bytes": 28298,
+      "seconds": 6.931,
+      "sha256": "681aadae9bd0ea5f962ae0b73cc81953790133386bb2bbc46e440b616bf0cc3b"
+    },
+    "accountLimit": {
+      "textHash": "c91c577b05e0755cddf36eb87f772cd227929fb22267e6d7757347cb5fb55796",
+      "spoken": "यो सूचीले 50 खाताहरू सम्म राख्न सक्छ।",
+      "bytes": 11490,
+      "seconds": 2.728,
+      "sha256": "eb65119fe2fb229151eb99f1820377b556142d384b48d1380a985de364f7a553"
+    },
+    "updated": {
+      "textHash": "99e3b7107eee2cee3f598c40567c64dc58b2d8a39b59b15b2dd9263270abfd63",
+      "spoken": "तपाईंको सूची अद्यावधिक गरिएको थियो।",
+      "bytes": 10717,
+      "seconds": 2.543,
+      "sha256": "b9efca061145b7a83355184e3631e29f7c6e44094603b96875658efed3325aa3"
+    },
+    "privacyHelp": {
+      "textHash": "a6a4369f9e48d117f47f8656741a0a6d337b8566f9bd7c468dff721e6047c060",
+      "spoken": "गोपनीयता र मद्दत",
+      "bytes": 7169,
+      "seconds": 1.637,
+      "sha256": "86a69f135e16718d62ecca215615df11398083a59c6fbfc450d74bd15675c5fa"
+    },
+    "privacyDetail": {
+      "textHash": "7e64503bd1fbb36a2eb21cecb676a30e0b854a9346c5feabef5089408bcbe3f1",
+      "spoken": "तपाईंको सूची ब्राउजर मेमोरीमा रहन्छ। रिलोडले यसलाई खाली गर्छ। पछि फर्काउनको लागि एन्क्रिप्टेड फाइल बचत गर्नुहोस्। डाउनलोडहरू तपाईंको उपकरणमा रहन्छन्।",
+      "bytes": 41539,
+      "seconds": 10.24,
+      "sha256": "a145e927119c3be6c273c3cfdeb35a3c20a6c184876e4094721a1642abc7b76d"
+    },
+    "translationNotice": {
+      "textHash": "f179ea8e338bb3a8f0362d76765e7563325b0b364b2fbbbe4d7366f3b762af53",
+      "spoken": "अनुवादको मस्यौदा हो। यो भाषा राम्ररी जान्ने समीक्षकले अझै जाँचेका छैनन्। आधिकारिक फारम आफ्नै मूल भाषामा रहन्छन्।",
+      "bytes": 32327,
+      "seconds": 7.93,
+      "sha256": "ea5749b33b9643d21ba9f558173cbdd692d355dd1bdd6404048bdea7cf552417"
+    },
+    "boundary": {
+      "textHash": "598d5d80561a72d16bad0f7455b469f7883d86649f11fc966fe18ec65d95728d",
+      "spoken": "यो सूचीले उत्तराधिकारका हक निर्धारण गर्दैन, खाताहरू खोज्दैन र अनुरोधहरू बुझाउँदैन।",
+      "bytes": 22430,
+      "seconds": 5.468,
+      "sha256": "7ce98da327397d771499df9742aa270b09fd9aa0825d3d0a5bebb975a732529a"
+    },
+    "clear": {
+      "textHash": "a588be478979b948c75c701ffe19963bb0ed33a46727f23e6c070e0c057748f0",
+      "spoken": "यो सत्र खाली गर्नुहोस्",
+      "bytes": 7547,
+      "seconds": 1.73,
+      "sha256": "92e56c14efae5e228d1a6830f62ec1413ad2ab2027e345f84cdca623e6470034"
+    },
+    "clearAsk": {
+      "textHash": "6a879b12f091f3df93af10c9b265a1127cf81343c5dc1ceffb05fe7185449a2b",
+      "spoken": "यो सत्रबाट सूची खाली गर्ने हो? सुरक्षित गरिएका डाउनलोडहरू रहनेछन्।",
+      "bytes": 18974,
+      "seconds": 4.598,
+      "sha256": "96fb51c89deee4b68eac5d18d1be9cc740c94b5e2cd9c60b95de9b4f8ad668dd"
+    },
+    "clearDone": {
+      "textHash": "89af33e4d279e9807d509a7750876c497a82f43898bc1ca52697a9639efedf3a",
+      "spoken": "यो सत्र खाली गरियो।",
+      "bytes": 6975,
+      "seconds": 1.591,
+      "sha256": "579ec36097d009ba78ee5536098bb5131c435f2b07f96ddac69f2afe0f911459"
+    },
+    "language": {
+      "textHash": "360090ad87ed9d0db502d4bbbee9428afac7ac938e9b216ab369fb0d00bbaa71",
+      "spoken": "भाषा",
+      "bytes": 4382,
+      "seconds": 0.952,
+      "sha256": "fa38201c542228af5118dbed3e12a1fa82ae64333f4df05d6e110fedffc35aac"
+    },
+    "access": {
+      "textHash": "a75cad64093d58430ac9ee5c394e2aaf0300e27d6158148c2277591ab80eebd4",
+      "spoken": "पहुँच",
+      "bytes": 4668,
+      "seconds": 1.01,
+      "sha256": "04da882e719f1af7d4c8b25feb811b826800897297831fd60e6c3b59ea92747c"
+    },
+    "textSize": {
+      "textHash": "ac1e2ef450fad6f2fe05b625efcc00785994e428a4ccee68eb2bac85ccd04e15",
+      "spoken": "पाठ आकार",
+      "bytes": 5054,
+      "seconds": 1.115,
+      "sha256": "878636888076d5d7ab28ef91038d11d8198fdbfe6e2fa06c98bc288149db520a"
+    },
+    "smaller": {
+      "textHash": "592598e5a4676e3844a1332539a0200277f383377c9cdfc21041a7d06e195bc7",
+      "spoken": "सानो पाठ",
+      "bytes": 5053,
+      "seconds": 1.115,
+      "sha256": "3c6b08da3c99d81b2a7e87c4635df0a9fee63c6a83cdd9d746510b723249c16c"
+    },
+    "larger": {
+      "textHash": "f058220eea4c066715443cc7fe01a55e1028df3ab7ab1ffd790cee7ac09f5243",
+      "spoken": "ठूलो पाठ",
+      "bytes": 4956,
+      "seconds": 1.103,
+      "sha256": "7aea2d973462b4d63ce1eb032d147c2825f1a3b78910c5c23d2ef2ac0a6ebc11"
+    },
+    "contrast": {
+      "textHash": "4428d62c786e1e550aadc45b8bbd96ab53d8799b50c437f5e4e911fedf8cbb52",
+      "spoken": "उच्च कन्ट्रास्ट",
+      "bytes": 6302,
+      "seconds": 1.428,
+      "sha256": "01004bdb3e75707fc3b0b45d5ba34f3a97fe32351de34a644c274fc31c2ef2ee"
+    },
+    "motion": {
+      "textHash": "f314d507577a7858cdc10d31e24aca729ad2fbcc9ece9a4e6e51e9a2e496a9e6",
+      "spoken": "गति घटाउनुहोस्",
+      "bytes": 6876,
+      "seconds": 1.579,
+      "sha256": "2552b4dd16da2a71fc40498feabe07c318f4b1e3390bce975c4610cea5c51190"
+    },
+    "read": {
+      "textHash": "02df243d122c9268ad72c4032dd5b2531ca4b10b4a61cd1b0949d5d7256262a2",
+      "spoken": "निर्देशनहरू सुन्नुहोस्",
+      "bytes": 7834,
+      "seconds": 1.823,
+      "sha256": "98d8b08d361966a58387b91b650e33b48fa606c5e930c7cc80afd44f0303c5e8"
+    },
+    "speechUnavailable": {
+      "textHash": "dec991abdb6da9acf65f2480033c7aec4109d3f209d4525a07bc12dc3e4237b6",
+      "spoken": "यो निर्देशनको अडियो तयार छैन। लिखित निर्देशनहरू अझै पनि यहाँ छन्।",
+      "bytes": 20423,
+      "seconds": 4.946,
+      "sha256": "f10b1d804e230728b26c150a50acf8d8a81bf0eba2cef9b4bb03b9c9e6e8a17b"
+    },
+    "close": {
+      "textHash": "376b63fe75e7fed85dd1acfcb199f7b593bfdb1bfdc7652c2b49ad5944b797b7",
+      "spoken": "बन्द गर्नुहोस्",
+      "bytes": 6299,
+      "seconds": 1.44,
+      "sha256": "d56c644f265d04072d5744396756b4cef9918789917c451335ece6ca99a55f46"
+    },
+    "skip": {
+      "textHash": "6863676c8ffefa77e76e8c60a35d938c94d0db72b2d98b0f3eaf1593c68164d0",
+      "spoken": "मुख्य सामग्रीमा जानुहोस्",
+      "bytes": 7738,
+      "seconds": 1.8,
+      "sha256": "f3a9f1faa405baf9a740985be83e25a52393c6fee495243ad6fb1875449897de"
+    },
+    "nothing": {
+      "textHash": "8897c178045818155ebe180d4b296fc15c6c9e4d6743fbce90825979f3d95d0c",
+      "spoken": "यस दृश्यमा कुनै खाता छैन",
+      "bytes": 8605,
+      "seconds": 1.997,
+      "sha256": "ae6d907f3b98c7ff46b1a8fe756de675be7055e3c7f356e2eeb57c80924bde1c"
+    },
+    "optoutNote": {
+      "textHash": "1ffaff39e706a5f220798790592cae38520276b1258db15292903754e1316577",
+      "spoken": "“थपिएको छैन” ले जानाजानी मनोनयन नगरेको निर्णय पनि जनाउन सक्छ। अभिलेख जाँचेर खाताधारकसँगै निर्णय गर्नुहोस्।",
+      "bytes": 28864,
+      "seconds": 7.059,
+      "sha256": "2ac73cbe3d86922e6cdf0494d83958047d697775186a47e833db5c22d48423ff"
+    },
+    "startCheck": {
+      "textHash": "aa11ed6a3d3643bc97ca0ca5b080fd7409afd946c7854de474365f1d1c0cb1cc",
+      "spoken": "खाता जाँच गर्नुहोस्",
+      "bytes": 6688,
+      "seconds": 1.521,
+      "sha256": "6308127f19f1a644b923054f9f8c731b282a97ff39797b54e7653e392a21930d"
+    },
+    "startHelp": {
+      "textHash": "6619e46eaa21b0a8efcd9f6ab2cea365aa761c498848c20d5f0b1a0ffa8cfe4f",
+      "spoken": "पासबुक, स्टेटमेन्ट वा तपाईंले पहिले नै प्रयोग गर्नुभएको एपबाट सुरु गर्नुहोस्। एक खाता सुरु गर्न पर्याप्त छ।",
+      "bytes": 27711,
+      "seconds": 6.769,
+      "sha256": "679c34704028381f7d3467b6bdedec801e80aaf157d11e63a1eb3826e299dc36"
+    },
+    "resumeTask": {
+      "textHash": "9552234340924eb83fcb3c7c699f466fb934b03b60318ebbd2b0f6037c1405b1",
+      "spoken": "यो कार्य जारी राख्नुहोस्",
+      "bytes": 7648,
+      "seconds": 1.753,
+      "sha256": "0477680a62e0ed98b8773d6b5ddad9d61d1483ec37d8b093f877488cc1b6faa7"
+    },
+    "needsAttention": {
+      "textHash": "4a507c343607bfd26eef24423a8fbef5b354a60958075dea8ec2a8654583bed0",
+      "spoken": "गर्न बाँकी छ",
+      "bytes": 6596,
+      "seconds": 1.498,
+      "sha256": "d231cd392bea1b2620b176b5fb55e61096a86aa0c8f79e807fbf3cca8b0ebdd8"
+    },
+    "checkedCount": {
+      "textHash": "48997a382bae268355c728362b3e21d6a36e7edcde32d492b0a5037565bcadab",
+      "spoken": "अभिलेख जाँच गरियो",
+      "bytes": 7074,
+      "seconds": 1.614,
+      "sha256": "87847210b5fb799b4ce27bbae3a3d763fd6ddf24db7e74f1ab2743da03314154"
+    },
+    "howWorks": {
+      "textHash": "087c1b0187e942932769de4c2ffa11524b8d198acc4aa83641d613e9afd2c76a",
+      "spoken": "यसले कसरी मद्दत गर्छ",
+      "bytes": 8798,
+      "seconds": 2.043,
+      "sha256": "eef053982b70c370d781b375677564fd489735314514900b473e2b687bd0fcab"
+    },
+    "howWorksText": {
+      "textHash": "9ed23fadf2e4b4681a7c3047f56c6a3e530348799e89891c8a9a9ec40f9034af",
+      "spoken": "हामी तपाईंलाई सही ठाउँ जाँच्न, तपाईंको अर्को चरण तयार गर्न र परिणाम राख्न मद्दत गर्छौं। तपाईंको बैंक, ब्रोकर वा कोषले वास्तविक परिवर्तन गर्छ।",
+      "bytes": 35298,
+      "seconds": 8.684,
+      "sha256": "1ec6c5eef138334a178207c4a7309d843d748cd9773ba14281a88052ee514ee5"
+    },
+    "searchBank": {
+      "textHash": "880eaf26f54b29f6825c4baae60432bdc1ae6f7cd55ae82d5769d77d319b2c2d",
+      "spoken": "आफ्नो बैंक खोज्नुहोस्",
+      "bytes": 8224,
+      "seconds": 1.916,
+      "sha256": "53f4d5a369822fd751a8416867fce3b32f89d416c191ee63b6d70c0392fced72"
+    },
+    "searchDemat": {
+      "textHash": "3d17403aae983f4a2488fc9e54fb0c9b6295f7565bc7fb8e45e1b0f10ec2ac3a",
+      "spoken": "आफ्नो दलाल वा बैंक खोज्नुहोस्",
+      "bytes": 10337,
+      "seconds": 2.438,
+      "sha256": "7491f061db644ad8b8a05f33a6b5d256826385395d2fb016ef278a03393486e9"
+    },
+    "searchMf": {
+      "textHash": "a9d6a4416e8e4a7440c6e9262454d82d5a9a82b0db877cf1b9674716eb0b3668",
+      "spoken": "तपाईंको म्युचुअल फंड खोज्नुहोस्",
+      "bytes": 9182,
+      "seconds": 2.136,
+      "sha256": "fc08906b8d0d16c3f5f6a11422e624c769121cb863cb506c5829f153c3a7ba61"
+    },
+    "searchHelp": {
+      "textHash": "eb758b0e37e120c072527a1e472e517f7aff24b6096484caa0ff7b9b99343c5a",
+      "spoken": "नाम वा संक्षिप्त नाम टाइप गर्नुहोस्। तपाइँ सूचीबद्ध नगरिएको संस्था पनि प्रविष्ट गर्न सक्नुहुन्छ।",
+      "bytes": 25024,
+      "seconds": 6.118,
+      "sha256": "e641ddb37fa82c2da09db8f10845fd7fe0d25d422ef5b10af682261272d631f6"
+    },
+    "useTyped": {
+      "textHash": "220766472c5022b15079a5795f67dbf8bc1802bf0cf87594fa1ce0569221141d",
+      "spoken": "यो नाम प्रयोग गर्नुहोस्",
+      "bytes": 7742,
+      "seconds": 1.776,
+      "sha256": "44a57050562474c534a3fed6d3c52038d3a06a6d425a5a97db119b96cc43e1aa"
+    },
+    "suggestions": {
+      "textHash": "726fe2233ba5bb8d0341fbb292370ff609457043fbe559e865b71d6a0157d70f",
+      "spoken": "मिल्ने संस्थाहरू",
+      "bytes": 6785,
+      "seconds": 1.544,
+      "sha256": "38f7dcc6b1d00ec67e435c309b9faa61ff581a402bb1d77a5efc1b28ffb65f3f"
+    },
+    "noMatches": {
+      "textHash": "ef37aec28cf427d4179e2a0014eeabf43a952856c506c86a8c76ad1c930ed8cc",
+      "spoken": "कुनै मेल छैन। हिज्जे जाँच गर्नुहोस्, वा तपाईंले प्रविष्ट गर्नुभएको नाम राख्नुहोस्।",
+      "bytes": 21663,
+      "seconds": 5.271,
+      "sha256": "88d69e76d8d2c8e02c481020459c1527b552d369ac4e73a1e592fbb7db832652"
+    },
+    "accountContext": {
+      "textHash": "fc1eba82f48faa71484cd0b10d2c31c12fa614b12e159c9277c1f50579f52a3e",
+      "spoken": "यस खाताको बारेमा थोरै",
+      "bytes": 8036,
+      "seconds": 1.858,
+      "sha256": "8d47a37579f9c88942ad03e32297b14083796e618a48003d2586a42184666896"
+    },
+    "contextHelp": {
+      "textHash": "587e35ee36761e2e78ffede6814bf07f0f03ed62fc549cc74519d64cbe5bb67c",
+      "spoken": "यी विवरणले सही निर्देशन देखाउन मद्दत गर्छन्। पक्का नभए पनि हुन्छ।",
+      "bytes": 18881,
+      "seconds": 4.563,
+      "sha256": "f3291f9c7033ffea508fbb0e98b3930513e7a38a2ef4de02d40d101e6fa1d8f7"
+    },
+    "whose": {
+      "textHash": "a4fae3104da24cee65e92a43bb6a891303bf6e31008f80eff3f0496bd5a14c7d",
+      "spoken": "यो खाता कस्को हो ?",
+      "bytes": 6203,
+      "seconds": 1.393,
+      "sha256": "c0e60651bff79e60238ade9ae806db2e0592843ae136541cd8e0bf7c3f63cef7"
+    },
+    "me": {
+      "textHash": "5c0783856146f90f91e6c0e0faeb9bab1588f964fb81d40386e1d104de64c305",
+      "spoken": "मेरो",
+      "bytes": 4280,
+      "seconds": 0.929,
+      "sha256": "57c7de57f3fe1c20bb76becd89881bb7c8824aabc068eb864dfac448a3b4a555"
+    },
+    "parent": {
+      "textHash": "d3c47aaf0e71aa663914f14ba7ee36bbe299821b8afc875607bea8f2c7d3439e",
+      "spoken": "आमा वा बुबाको",
+      "bytes": 6396,
+      "seconds": 1.451,
+      "sha256": "00f0833de9c5fa5a94e406da0b6b014f8797f6792e61f65abf1be47944f44226"
+    },
+    "familyMember": {
+      "textHash": "8f403caeefc10578d22b1228f6b126b276daa65a4710e223ff5c6c75f97a98b3",
+      "spoken": "मेरो परिवारमा कोही",
+      "bytes": 7074,
+      "seconds": 1.614,
+      "sha256": "6a9e69a604c3a6c8c4bf3ff6f0c162b10164e4b6e6942b7e1d1bb9cfc5a8c288"
+    },
+    "holderQuestion": {
+      "textHash": "898973b524fa6e3f7cd347cbbde497446c3dd5c4f56ede0a7da1575c693c5d94",
+      "spoken": "खाता एक्लै राखिएको हो कि संयुक्त रूपमा?",
+      "bytes": 10148,
+      "seconds": 2.392,
+      "sha256": "b2b7278d9a8877f8d94284a2e8a9e06e46e87c5962e4673ba3fe6d52c9e9ae66"
+    },
+    "sole": {
+      "textHash": "93a6bc51fd7949602026c3e38b5a2c30fd6c280d837483c9ab5e673015beceb9",
+      "spoken": "एक खाताधारक",
+      "bytes": 5530,
+      "seconds": 1.231,
+      "sha256": "7f20c74601a9f40ec1994397b42e869c4eeecbee1aac65483e9b37e4f11dbd46"
+    },
+    "joint": {
+      "textHash": "be24c6bca6d47c5b86163e98029549d2bc8a9f9040b152948e41fba03cd833cd",
+      "spoken": "संयुक्त धारकहरू",
+      "bytes": 6587,
+      "seconds": 1.509,
+      "sha256": "3317adc006d0066ecdf17ad02d5709d19661c33a28e7a2d20e5046b0caca4421"
+    },
+    "bankProduct": {
+      "textHash": "06d8eede140fe5159042de6e59eee788ad1f87d0679abb302caf8be0555f000f",
+      "spoken": "कुन प्रकारको बैंक खाता?",
+      "bytes": 7745,
+      "seconds": 1.788,
+      "sha256": "8cfb0070bdef112b3b23392ae4296c6e430935321474ebb0c377b0c9455cf4c4"
+    },
+    "savings": {
+      "textHash": "eedfc6cae2ff51de3ad4511a24e15ee7d6f0fd81d604c0b64ce9ecdc04715164",
+      "spoken": "बचत खाता",
+      "bytes": 5341,
+      "seconds": 1.184,
+      "sha256": "5a6799ffce9b36e8a6b4bef252338d9b584ed0c6c3acef8ad74884fce2de8321"
+    },
+    "deposit": {
+      "textHash": "05652e2e407670f4a4c8a5e9a4c4330dfb128d6a2c632e3448e442940b34d7d2",
+      "spoken": "मुद्दती वा आवर्ती निक्षेप",
+      "bytes": 8029,
+      "seconds": 1.869,
+      "sha256": "03fb3414d13fc411693c68bbf50f71c41bef9e83ca4c1851e59ce72646a3d64a"
+    },
+    "mfMode": {
+      "textHash": "19cca1e75f2d179ec3075ec44c9df2d8b49e566641ba81325c4b1d3426a41639",
+      "spoken": "यी म्युचुअल फन्डहरू कसरी राखिन्छन्?",
+      "bytes": 9468,
+      "seconds": 2.229,
+      "sha256": "f245c2226805b95cb325acb0f51f61e9711076207ac977d1f385c1c2c873d1df"
+    },
+    "folioMode": {
+      "textHash": "4f16a7f1cac4922e52e2660d3858d0a253abb6fbb95239696b35b94f35818bbe",
+      "spoken": "म्युचुअल फंड संग एक फोलियो",
+      "bytes": 8895,
+      "seconds": 2.078,
+      "sha256": "fc4cf080f3bf96b497d939e27f58361dc6d08b95ccb50e381004b6763f9f0d30"
+    },
+    "dematMode": {
+      "textHash": "f704a55941325a50d7d41d3f583b2fe9a301d42b79466d034918a2c696ad8359",
+      "spoken": "डिम्याट खाता भित्र",
+      "bytes": 6975,
+      "seconds": 1.602,
+      "sha256": "a10cbb34ee355e56ea78d6a0de29a9978ebdc60faeec9f23701bff3b2a937ede"
+    },
+    "identifyHelp": {
+      "textHash": "e8fa05723400572b0da5f2ed23a4714094c52d813449462324d6dfc6d481f8dc",
+      "spoken": "मलाई यो चिन्न मद्दत गर्नुहोस्",
+      "bytes": 8418,
+      "seconds": 1.95,
+      "sha256": "ce8f823b589204488c4cd10d4a0ae842361964022b21577d2c7ae13b7bd8baaf"
+    },
+    "identifyText": {
+      "textHash": "f612a6fa12035cd47d3fb0b8b7de6127fb3ec8d47dbe0b4e4af1e8d7101fe86a",
+      "spoken": "कोष स्टेटमेन्टले सामान्यतया फोलियो नम्बर र कोषको नाम देखाउँछ। डिम्याट स्टेटमेन्टले DP ID / ग्राहक आईडी वा BO ID देखाउँछ। यदि निश्चित छैन भने, प्रदायकलाई सोध्नुहोस् कि एकाइहरू कसरी राखिन्छन्।",
+      "bytes": 49410,
+      "seconds": 12.202,
+      "sha256": "ba3f94587b940957b0c44ab9156dcbfdc30290cdeb05cb9ed9682db44eda36a5"
+    },
+    "change": {
+      "textHash": "992677fff5fe6f0c757ae9d64354912b86d041eebcc946344319c5d2e7413a42",
+      "spoken": "अपडेट चाहिन्छ",
+      "bytes": 6492,
+      "seconds": 1.486,
+      "sha256": "f0ae902478dbd2cc35359877400fa55e63c160233b8fd2c33eee1f069a5e17df"
+    },
+    "optout": {
+      "textHash": "d08f100779503033f899fc0c4f20ea65818af005829844e4d4aa55fc09b418d0",
+      "spoken": "मनोनयन नगर्ने छनौट गरे",
+      "bytes": 8316,
+      "seconds": 1.939,
+      "sha256": "3afed11f0ea6405bb5f9bbaed609b7963b8c8bb1635a76da6af5e49ba76150ee"
+    },
+    "blocked": {
+      "textHash": "ef17b9cfe4ad9866e9439c7e2d68906ef9adbca82a3c454f319c6ad2b47be88e",
+      "spoken": "मद्दत चाहिन्छ",
+      "bytes": 6397,
+      "seconds": 1.451,
+      "sha256": "a53721df178d56cdecac8f14af5214151bd68d63346e7135c22a0f365f4aa6ac"
+    },
+    "helpCheck": {
+      "textHash": "214be1e53dc491b4e80e679b4ec1e76db6cbff26ccaf25d016ce26c616bb4b52",
+      "spoken": "मलाई जाँच गर्न मद्दत गर्नुहोस्",
+      "bytes": 8991,
+      "seconds": 2.09,
+      "sha256": "ff74b185207b86673d8c74cc49bd57c1d224305e3e96163ff4ff91ff3edd878e"
+    },
+    "whatFound": {
+      "textHash": "b9c3457c85125647fb2c7efdef37dccf86cda8d481e065b822435ce19f4bc60d",
+      "spoken": "तपाईंले के फेला पार्नुभयो?",
+      "bytes": 8415,
+      "seconds": 1.962,
+      "sha256": "e29444ec913c4bdb93053b0fac3b44d209ec1c256af4f8a0689e203e725bd607"
+    },
+    "foundYes": {
+      "textHash": "8fcd0bc6ee386be871a220e06c29c058d36a5df1e13a750d81cb8e5e3fc466e0",
+      "spoken": "मनोनयन दर्ता भएको छ",
+      "bytes": 7838,
+      "seconds": 1.811,
+      "sha256": "60e11b5575436e5a3430aacbe244655c95eef28f8895b2294f8e1122ecef5983"
+    },
+    "foundNo": {
+      "textHash": "790c91503da59e757daa0427f1ec980a2656caa189b5ea4f86f512a9ed645b18",
+      "spoken": "कुनै मनोनित व्यक्ति रेकर्ड गरिएको छैन",
+      "bytes": 11389,
+      "seconds": 2.705,
+      "sha256": "510ae4dda49de3fb85a4e8166c8a576238933870795c3d258c7079ef5e6b3da4"
+    },
+    "foundChange": {
+      "textHash": "c3fa9c6fdb7e7598d68cf89aa503ccd870d92d620ea6199cd0da4fe7970e5768",
+      "spoken": "विवरणहरू परिवर्तन गर्न आवश्यक छ",
+      "bytes": 10337,
+      "seconds": 2.438,
+      "sha256": "d939f7c9eef61a83d25477a26061cdf7b1ee70f974605eb07bbe16b204d9e3e6"
+    },
+    "foundUnknown": {
+      "textHash": "701f4ea00526a4eb3da940c6ea0224261c676fea413a2ed1b8f8265cf6b27314",
+      "spoken": "मैले फेला पार्न सकिन",
+      "bytes": 7554,
+      "seconds": 1.741,
+      "sha256": "515ea1756dfc45169033dff55f150a3e7f03ae8e44a388363203f1d76d04039d"
+    },
+    "prepare": {
+      "textHash": "288b2e6cdd5a6964bbb4e31526b665aad92eda1af062ce66e4701dafe5021497",
+      "spoken": "अर्को चरण तयार गर्नुहोस्",
+      "bytes": 8509,
+      "seconds": 1.974,
+      "sha256": "72e244efa7d21c12d01b5fad0546d7254adcf54c08a893ef1f4fab94063c17aa"
+    },
+    "checkFirst": {
+      "textHash": "dc747c8c9ed1871d9cd26fc27914cb499165292774f10ba3b346c970e1c851e9",
+      "spoken": "केहि परिवर्तन गर्नु अघि जाँच गर्नुहोस्",
+      "bytes": 11296,
+      "seconds": 2.67,
+      "sha256": "51595e696e27f2c1d98a5297c61b71b6acaee68c5280563377fd6d44c69039ed"
+    },
+    "openOfficial": {
+      "textHash": "d07e4e444a9baf8e2d4b2f1ced785051ac811d7fdc707fa5fa3b2870a15d4e03",
+      "spoken": "आधिकारिक निर्देशनहरू खोल्नुहोस्",
+      "bytes": 10242,
+      "seconds": 2.403,
+      "sha256": "ec41a9f1a4978a9227e5183340f1ea90700eca9995ba72196f680303d1801ba8"
+    },
+    "prepareIntro": {
+      "textHash": "c83c91a9ddd094b6cc89d71e9d892220506f92aa8d1ead875aad3d6ee72061cc",
+      "spoken": "संस्थाको लागि यी तयार राख्नुहोस्। तपाईंले तिनीहरूलाई यहाँ प्रविष्ट गर्न आवश्यक छैन।",
+      "bytes": 22530,
+      "seconds": 5.48,
+      "sha256": "2a2f78782dc7b2383dd15712c20a6b367fec5f1f5cb02d159c10063bd4bbe9e2"
+    },
+    "prepareNames": {
+      "textHash": "bd88bc223a6385f342d25a50bd765d0b04501238bb10ec6a68fecbb74577c820",
+      "spoken": "मनोनित व्यक्तिको नाम र सम्बन्ध, तिनीहरूको रेकर्डमा देखाइए अनुसार।",
+      "bytes": 17538,
+      "seconds": 4.238,
+      "sha256": "d4a36e069c848b68bd0b532c44a367b48a5c29721ebdaeb174dca09acbf78488"
+    },
+    "prepareMinor": {
+      "textHash": "668b176164bc79177f2f21e5c5c2b68e01e91d2dc4566b051d46ffa540b7a168",
+      "spoken": "यदि मनोनित व्यक्ति बच्चा हो भने, हालको फारममा जन्म मिति र अभिभावक खण्डहरू जाँच गर्नुहोस्।",
+      "bytes": 21666,
+      "seconds": 5.259,
+      "sha256": "b340f23b1b0bf5204fd45aa38c3c49398a0a8b7ac40dff89143424dbf060b015"
+    },
+    "prepareAccess": {
+      "textHash": "9366a10ff8e408eea1727b218ad9d5742c2827ae979088557b818f820c528558",
+      "spoken": "आफ्नो खाताको सन्दर्भ र संस्थाको आधिकारिक सेवामा पहुँच तयार राख्नुहोस्। पासवर्ड र OTP त्यहीँ मात्र प्रयोग गर्नुहोस्।",
+      "bytes": 29251,
+      "seconds": 7.175,
+      "sha256": "eb4f874b7d0655c6e7670c9b9cde8c1db66e2e4baf04b3e11902c1bf8d20e4db"
+    },
+    "jointGuide": {
+      "textHash": "3b2b15ffed811a0dab9d32a2895fd3f1dfbb1432fa19dec401e44255404df966",
+      "spoken": "संयुक्त खाताको लागि, प्रत्येक धारकलाई समावेश गर्नुहोस्। पेश गर्नु अघि कुन हस्ताक्षर र च्यानल आवश्यक छ संस्थालाई सोध्नुहोस्।",
+      "bytes": 29920,
+      "seconds": 7.326,
+      "sha256": "77a9e1ef2de5700d7230493c72020b7714b4a55509cf95e685a0d6d72653cb13"
+    },
+    "unknownContext": {
+      "textHash": "f8d3583c9f9652361def1bdec67e5501c5ec78dbc4468fe2139bde5e60c0e9a4",
+      "spoken": "अनलाइन मार्ग छनौट गर्नु अघि आफ्नो स्टेटमेन्टमा धारकको नाम र खाता प्रकार जाँच गर्नुहोस्। संस्थाले तिनीहरूलाई पहिचान गर्न मद्दत गर्न सक्छ।",
+      "bytes": 33476,
+      "seconds": 8.208,
+      "sha256": "fa3b148c96630077f4b9fcb38fe0c17978a11da12a04ef3aacaf86be1b672da8"
+    },
+    "hdfcSavings": {
+      "textHash": "5275799e971356e3f25735fe00803683cd5c9d35fdc8a66e7871ee02038de94e",
+      "spoken": "HDFC नेटबैंकिङमा, खाता खोल्नुहोस् → खाता → खाता विवरणहरू → मनोनित व्यक्ति र खाता धारक विवरणहरू चयन गर्नुहोस्।",
+      "bytes": 25313,
+      "seconds": 6.177,
+      "sha256": "7f8433483d72cfa30aef563392f82e6325b930f861f31869152a7e520613d831"
+    },
+    "hdfcDeposit": {
+      "textHash": "258b68795196f51e18e1d656514c2f29b8c9fea1f5e5733c4bca38baf62260b9",
+      "spoken": "HDFC नेटबैंकिङमा, FD/RD खोल्नुहोस् → डिपोजिट चयन गर्नुहोस् → Nominee थप्नुहोस् वा Nominee परिवर्तन गर्नुहोस्। यो जम्मा तपाईंको बचत खाताबाट छुट्टै जाँच गर्नुहोस्।",
+      "bytes": 41153,
+      "seconds": 10.147,
+      "sha256": "ecab8b866f19966b100f9a6e5edc75bc8dcc79d1890e9050658505bd6ed3e856"
+    },
+    "hdfcAction": {
+      "textHash": "97678a12901f29d61c050fe65e9db967354d4501151cd1ead9bfdf900bfd3f2e",
+      "spoken": "एकल खाताधारकले सम्बन्धित खाता विवरणमा मनोनित व्यक्ति थप्ने वा बदल्ने विकल्प प्रयोग गर्न सक्छन्। संयुक्त खाताका लागि अन्य खाताधारकसँग बैंकको शाखामा जानुहोस्।",
+      "bytes": 37696,
+      "seconds": 9.265,
+      "sha256": "9c288fe048c0a664c98ff42c9c974923d1d94b0de1aeeec5f191e099f56eb444"
+    },
+    "zerodhaCheck": {
+      "textHash": "02d8ffc24444e5aa1f9d985288fdabcbd1ecb4b0ba4e299653bb6616dac67805",
+      "spoken": "Zerodha Console → खाता → मनोनित व्यक्तिहरू खोल्नुहोस्। यो मनोनयनले Coin सहित त्यस डिम्याट खातामा रहेका म्युचुअल फन्डलाई पनि समेट्छ।",
+      "bytes": 29442,
+      "seconds": 7.21,
+      "sha256": "bd0906d0a3d42dfc14d73b386461c99ccd0e2d92be27d27b929e7042c3c365f4"
+    },
+    "zerodhaAction": {
+      "textHash": "c3037bd957224d29ef5c155e15a518f2708d39af760192e6a404b8e959ff6a83",
+      "spoken": "कन्सोलमा मनोनयन निर्देशनहरू प्रयोग गर्नुहोस्। Zerodha ले संयुक्त होल्डरहरू र आधार-लिंक गरिएको मोबाइल नभएका मानिसहरूलाई यसको अफलाइन फारममा निर्देशित गर्दछ। लिङ्क गरिएको मद्दत पृष्ठमा हालका आवश्यकताहरू जाँच गर्नुहोस्।",
+      "bytes": 50755,
+      "seconds": 12.55,
+      "sha256": "f53f041ab46f88bff25b1f29cb0449725087ed14936b4220b3aa845e65fb6f69"
+    },
+    "hdfcMfGuide": {
+      "textHash": "757b75163c163a70b8a3c86c5f55cbbbf90aa7e2c64298403cfb43879771880e",
+      "spoken": "हालको अनुरोध फारम र पेस गर्ने निर्देशनहरूको लागि HDFC म्युचुअल फण्डको मनोनित व्यक्ति-दर्ता सेवा पृष्ठ प्रयोग गर्नुहोस्। सुरु गर्नु अघि आफ्नो स्टेटमेन्टमा फोलियो मिलाउनुहोस्।",
+      "bytes": 40289,
+      "seconds": 9.915,
+      "sha256": "478506dc5f1a95faada9c70ba1e3477b4b552a25d980af2f4055f7fb816b09f8"
+    },
+    "mfDematHelp": {
+      "textHash": "c55f2197f3d112f5314c1e68e2805aac6bf7e31b812e4c2959faa03ceb72a73c",
+      "spoken": "यी एकाइहरूले डिम्याट खातामा मनोनयन प्रयोग गर्छन्। आफ्नो ब्रोकर वा DP सँग त्यो खाता जाँच गर्नुहोस्; छुट्टै फोलियो मनोनयन आवश्यक छ भनी नठान्नुहोस्।",
+      "bytes": 35201,
+      "seconds": 8.649,
+      "sha256": "aa6595f44a509de4b258ec0d8e81596c5659079f05b9598273bb0fc93be6e3a5"
+    },
+    "useDemat": {
+      "textHash": "1942c76867f9d964fcb8f16d9a8ed7347ee532b15177466480b74bd5d1c63951",
+      "spoken": "डिम्याट खाता जाँच गर्नुहोस्",
+      "bytes": 8798,
+      "seconds": 2.043,
+      "sha256": "87ac973cfc51d275d5810ec6e0637b4c4ed3581c639b6cce4a94b3438dc975cd"
+    },
+    "routeFallback": {
+      "textHash": "09dbdc261ffda38d19c35012326956954e265a709e66a7743e9ad91fcce27885",
+      "spoken": "हामीसँग यस संस्थाको लागि सामान्य निर्देशन छ। यसको आधिकारिक सेवा टोलीसँग सही स्क्रिन वा फारम पुष्टि गर्नुहोस्।",
+      "bytes": 28003,
+      "seconds": 6.861,
+      "sha256": "33e5278bfc52e304a0b521a110368dad8c71cc89f56f452018421c06a37868fe"
+    },
+    "offlineHelp": {
+      "textHash": "e4b4a3bcdd7614137fb08d16dceac3bacdcddaf2ce49ff48a62be265b431f452",
+      "spoken": "व्यक्तिगत रूपमा भ्रमण गर्न मनपर्छ?",
+      "bytes": 9665,
+      "seconds": 2.264,
+      "sha256": "525ddc765728f0cf585ae74a87a541b7948986bdf79509aa33aa70f2c896f689"
+    },
+    "offlineText": {
+      "textHash": "d396b2ea0e7d55fda61f4062eac2dcf0ea773273bcdd006b7ddbd66f6c166056",
+      "spoken": "शाखा वा आधिकारिक सेवा केन्द्रमा आफ्नो खाता वा फोलियो सन्दर्भ लिनुहोस्। मनोनयन दर्ता वा परिवर्तनको लागि सोध्नुहोस्, र एक मिति स्वीकृति। यात्रा गर्नु अघि कुन धारकहरू उपस्थित हुनुपर्छ भनेर सोध्नुहोस्।",
+      "bytes": 47681,
+      "seconds": 11.761,
+      "sha256": "4cf2aa826d3e0792171e8c281e0cc49d6d066b2fe99757fc9da376822f1dba0a"
+    },
+    "askHelp": {
+      "textHash": "986981a811e1dff3ded3e0c586ca2d47c92d5a9a188f13def0596ca0b301a141",
+      "spoken": "तपाईले सोध्न सक्ने प्रश्न",
+      "bytes": 8221,
+      "seconds": 1.904,
+      "sha256": "edd3955f617586e6379956b770e978b9b10a57d95b04935a1f3f3a8a1d9ae4fd"
+    },
+    "askText": {
+      "textHash": "75b9502cb4a82ae5b328e6ddc6f62f077180bda196c062614c4dd3c9449a2ad2",
+      "spoken": "कृपया यो खाताको लागि मनोनयन दर्ता गरिएको छ कि छैन जाँच गर्नुहोस्। यदि यो हराइरहेको छ वा परिवर्तन गर्न आवश्यक छ भने, मैले कुन हालको फारम वा आधिकारिक अनलाइन विकल्प प्रयोग गर्नुपर्छ? कृपया लिखित नतिजा पुष्टि गर्नुहोस्।",
+      "bytes": 54205,
+      "seconds": 13.398,
+      "sha256": "25b225106d4b0f4ea47b43454810500b0f7aa77a8c9cc209f53f616929abef02"
+    },
+    "copyQuestion": {
+      "textHash": "a2c9208f1adfe538d44fa8f858e120dd06e5b7b1fdae541dfd31475aa1c29912",
+      "spoken": "यो प्रश्न प्रतिलिपि गर्नुहोस्",
+      "bytes": 9186,
+      "seconds": 2.136,
+      "sha256": "754ec5433ca616ed748228b508d35aa2825e2bffaad79f0176e502f4357d4b21"
+    },
+    "copied": {
+      "textHash": "5978b1daa38a50177e80ab6fc8125838822c86d65bf9619749efc7d29d92d240",
+      "spoken": "प्रतिलिपि गरियो",
+      "bytes": 6300,
+      "seconds": 1.44,
+      "sha256": "c2a5840a11a73371f338d19acae6c4d2047630f1eab2b171bab4649c8af64eaa"
+    },
+    "followup": {
+      "textHash": "299fdca392c22eb070644f857435c01b1d16211cc87cfbf0211b6c76b1945090",
+      "spoken": "फलो-अप मिति छान्नुहोस्",
+      "bytes": 7358,
+      "seconds": 1.683,
+      "sha256": "773184159db8ed05b39e751d70c0bd17ee0d8ea59daad0a7dbacd0454a946ae1"
+    },
+    "followupHelp": {
+      "textHash": "320456f4051bb878d199acc01a3264b97ea0b5ae44bf94f267d5227c8e76f308",
+      "spoken": "यो तपाईंको आफ्नै रिमाइन्डर मिति हो, संस्थाको अन्तिम मिति होइन। यदि तपाइँ अलर्ट चाहनुहुन्छ भने तपाइँको क्यालेन्डरमा डाउनलोड गर्नुहोस्।",
+      "bytes": 33666,
+      "seconds": 8.266,
+      "sha256": "239f436dc26508011712cff39cad2a1c2a81bbae111c967e35a793167370f6b3"
+    },
+    "calendar": {
+      "textHash": "8701998e558799d48ba73a6ee243d2a0859fb31556da9b7a1d258bcb67e30583",
+      "spoken": "क्यालेन्डर रिमाइन्डर डाउनलोड गर्नुहोस्",
+      "bytes": 10334,
+      "seconds": 2.438,
+      "sha256": "dba970fbe04fac89579ca5f7dd8d91901c795290d956f5d2fc9818e0d8439c00"
+    },
+    "followDue": {
+      "textHash": "5bd7509eee6d0dae6e61aec527025051763379c8fa2b841e8b0d5f62ca311f75",
+      "spoken": "बाँकी समीक्षा",
+      "bytes": 6111,
+      "seconds": 1.382,
+      "sha256": "2ebc93b827953520563e4065b40f3c66fa76587412987573ba63882f33d74031"
+    },
+    "requestHelp": {
+      "textHash": "06bbf2bf5a0d8613fca44b99986694d4006f9677ca6ad1aba6f906baad16fade",
+      "spoken": "अनुरोधलाई मद्दत चाहिन्छ",
+      "bytes": 8897,
+      "seconds": 2.078,
+      "sha256": "fc937669b0ee0a288adf97db802ae019c1c12ddc24a157965207f5f4ce0bbae7"
+    },
+    "blockedHelp": {
+      "textHash": "88d71d3805a50a800e9c7af956e53a230ad437186e6d325f48b35aa12e8f3adf",
+      "spoken": "संस्थाको प्रतिक्रिया राख्नुहोस्। के छुटेको छ, कुन सुधार आवश्यक छ, र कसरी पुन: पेस गर्ने भनेर सोध्नुहोस्। अस्वीकृत वा अपूर्ण अनुरोध दर्ता मनोनयन होइन।",
+      "bytes": 42881,
+      "seconds": 10.565,
+      "sha256": "73e1f25ded492f1e8fd63186f46599ef08dd1aca16d69d9a30da61d3a704b015"
+    },
+    "recheck": {
+      "textHash": "3e670fc1fbabfde8d27fabfded9b07e326c0d555c8ad56fe3ed7eb91632f7413",
+      "spoken": "फेरि जाँच गर्नुहोस्",
+      "bytes": 6877,
+      "seconds": 1.579,
+      "sha256": "ee46d394f9eced7e09fdf10151ebbbb71a06669d39ea899062272aadc106704c"
+    },
+    "familyRecord": {
+      "textHash": "b41d73019130087929cf28e4ce8bff9c559bcef0684b7b559d550d09a1ff1705",
+      "spoken": "तपाईंको पारिवारिक रेकर्ड",
+      "bytes": 8034,
+      "seconds": 1.858,
+      "sha256": "faab898e97d5bad1083a0a3c24b37d35c0af2bf09208d5262423613c5288eafb"
+    },
+    "familyHelp": {
+      "textHash": "62bfc5dc67a9aad099f9dfde4da8d6b6699c46f4f9b0186b10e68c82d7c8ed49",
+      "spoken": "तपाईंको परिवारलाई खाता पहिचान गर्न र यसको रेकर्ड फेला पार्न मद्दत गर्ने कुरा मात्र थप्नुहोस्। तपाईं निजी विवरण बाहिर छोड्न सक्नुहुन्छ।",
+      "bytes": 31744,
+      "seconds": 7.779,
+      "sha256": "ffa61d87706d4265649ce3b173e25798b52c339ca1df8bcef6dfae764f05704a"
+    },
+    "recordLocation": {
+      "textHash": "a94a4631c7d46baad22d05910aeb07a5c69076a25f8edbed64ae52fdc7568aaf",
+      "spoken": "तपाईंको परिवारले रेकर्ड कहाँ पाउन सक्छ? (वैकल्पिक)",
+      "bytes": 16196,
+      "seconds": 3.901,
+      "sha256": "9867d24eaedd8a2b88986125cabe437dae3fe98abfdab23d5b30963d7ee6ab57"
+    },
+    "locationHelp": {
+      "textHash": "9cf80ef713e7b1ce12d5329f3b8a9bb5cb599b0a79077dbc9393f86b4963fa18",
+      "spoken": "उदाहरण को लागी: घर मा निलो फोल्डर। यो स्थान पारिवारिक पानामा समावेश गरिएको छ। पासवर्ड वा पूरा खाता नम्बरहरू नथप्नुहोस्।",
+      "bytes": 34626,
+      "seconds": 8.499,
+      "sha256": "153ebca19f4a9c57b137031857e31be9d3088762535766e2e3fd71dadc80486f"
+    },
+    "addNomineeNote": {
+      "textHash": "83ea409f1c89a39b0096c0e6499fcbd966d0e8699328c08397d3d6ae98a05954",
+      "spoken": "अर्को मनोनित व्यक्ति नोट थप्नुहोस्",
+      "bytes": 10052,
+      "seconds": 2.368,
+      "sha256": "ee7f71d8455afec719bc1019be3a27f25260ab95c3103a625ff8261de3e22d74"
+    },
+    "optionalDetails": {
+      "textHash": "fde635c7093628a89e6c696025a01d85063ccbf24333b865c8370cf8eac5657d",
+      "spoken": "पारिवारिक विवरणहरू ऐच्छिक छन्",
+      "bytes": 9381,
+      "seconds": 2.194,
+      "sha256": "713c8abd3db696cf932a8a81d625d6d1baf8ad24364ed94a5b9505db59f80f8e"
+    },
+    "notProvided": {
+      "textHash": "09ee6b74aebd54bebdc3c811ac9cf68054f135ebbee86373c20c26c1922a7efd",
+      "spoken": "यो सूचीमा थपिएको छैन",
+      "bytes": 8513,
+      "seconds": 1.985,
+      "sha256": "b6208c053a36c3df44943cc599909989c9478d688068a202d072f802bd8e18b9"
+    },
+    "unsaved": {
+      "textHash": "d00fcd9ccdc8ae5c8c35180b3ba5ee88ea42b7ac3d1783498fb9f495472fa9e4",
+      "spoken": "परिवर्तनहरू पछिको लागि सुरक्षित गरिएको छैन",
+      "bytes": 13213,
+      "seconds": 3.158,
+      "sha256": "c3554f9d2e63979ea98cff1515d50a12791fc9935b4198911f2535b5c1a31e77"
+    },
+    "savedStatus": {
+      "textHash": "76b061bd85add2391a1c529362de117082c4c1d7d3f24c1f6116219ef810294b",
+      "spoken": "तपाईंको डाउनलोड गरिएको फाइलमा बचत गरियो",
+      "bytes": 11681,
+      "seconds": 2.763,
+      "sha256": "cbaeae52d0bd8f211de9966c09fdc63a35c9975f47f1f9da9a05beced48f1241"
+    },
+    "passwordAgain": {
+      "textHash": "43ace9eef9d5b97da28fd06d1c1a799607dcf9767d548f7327d2658b072ebde8",
+      "spoken": "पासवर्ड दोहोर्याउनुहोस्",
+      "bytes": 7939,
+      "seconds": 1.834,
+      "sha256": "faa3426de00c0626ffa5254ad3a883cdf7be153f3dc2d54a710ff69d225dbb41"
+    },
+    "passwordMismatch": {
+      "textHash": "520a9550586b870c6f3a877967465aff252c080bfc3a4726010d65e0f9bc5e57",
+      "spoken": "पासवर्डहरू मेल खाँदैनन्।",
+      "bytes": 7942,
+      "seconds": 1.846,
+      "sha256": "bd9d06f01586be18dc1db550bd3d42850bb83b7f9662c51ae0419b5b13642a08"
+    },
+    "showPassword": {
+      "textHash": "222964f11b1ff5b28dc1d6eb6b8e59692ab41570c403baf3be7f9db761beefc1",
+      "spoken": "पासवर्ड देखाउनुहोस्",
+      "bytes": 7362,
+      "seconds": 1.695,
+      "sha256": "95f82fb960160cf76a6b637cebf51e2b7f5cec2f27b59df96c606d86901450c5"
+    },
+    "saveTip": {
+      "textHash": "af11120710f323bc016491fde74330650db074d11ffe27230a024f0e729eaf83",
+      "spoken": "डाउनलोड गरिसकेपछि, आफ्नो .virasat फाइलको लागि डाउनलोडहरू हेर्नुहोस्। पासवर्ड अलग राख्नुहोस्। नयाँ परिवर्तनहरू नयाँ बचत चाहिन्छ।",
+      "bytes": 36733,
+      "seconds": 9.044,
+      "sha256": "cf8c5fed7a2d770673d088e1be44d18f1585e461cb10a6db4452148a8a9c81f1"
+    },
+    "evidenceScope": {
+      "textHash": "680ef5058e742668e090c4cc695252f7ec0ff0da56164f1f60da37d31c857a4e",
+      "spoken": "रेकर्डले के देखाउँछ?",
+      "bytes": 7267,
+      "seconds": 1.66,
+      "sha256": "2030ee8425743c129ed23e096cd1d9a3ff91a58ff7c75bf8d36d3c4d4e77116c"
+    },
+    "statusOnly": {
+      "textHash": "4fb7bdfc1828f5d1ef45d58b716f609555aea6a3e559a9682b00fc7412ca806f",
+      "spoken": "मनोनित व्यक्तिी दर्ता भएको बताउँछन्",
+      "bytes": 11200,
+      "seconds": 2.659,
+      "sha256": "3444639b359cd88758d682908c7abfc1e37bd6aaf01c00241beefa4e3fba9f37"
+    },
+    "detailsChecked": {
+      "textHash": "ab68d051489290c2cfa7ad9ad80a23e4db81d5dce0cdd833f3d4672f3a58faea",
+      "spoken": "मैले मनोनित व्यक्ति विवरणहरू पनि जाँच गरें",
+      "bytes": 12068,
+      "seconds": 2.879,
+      "sha256": "bc6710374b194f6da0a1244ac35949a38c4d971ec3acf18f022b7297ae2a2309"
+    },
+    "receiptExample": {
+      "textHash": "2d20b64b5c08729d0f6f3166f85a4ad1c2c94507421e4e9b2be284b918993d5b",
+      "spoken": "\"तपाईंको अनुरोध प्राप्त भएको छ\" को मतलब अनुरोध विचाराधीन छ।",
+      "bytes": 15716,
+      "seconds": 3.785,
+      "sha256": "df4e5f0394304489784a232b10fabd6197dc356d79e90d9e4a455dd61f5a3e5f"
+    },
+    "registeredExample": {
+      "textHash": "fc058b1bcfd105cf8e96b92d78228e2ba13022a3154e2f132a8ab335cd5664a1",
+      "spoken": "“मनोनयन दर्ता भएको” वा “मनोनयन: हो” ले दर्ता भएको देखाउँछ। यसमा यही खाताको पहिचान छ कि छैन जाँच गर्नुहोस्।",
+      "bytes": 29735,
+      "seconds": 7.279,
+      "sha256": "93ad80cadeeb40367bba565be1b4fab87835c7929bca8bfd5414de0144ef01fc"
+    },
+    "seeEvidence": {
+      "textHash": "0472c7d9353b3586033350729cce1cd3e2c47d9b1bb5b0cb72ba4d40ae5236f1",
+      "spoken": "पुष्टिकरणको रूपमा के गणना हुन्छ?",
+      "bytes": 9953,
+      "seconds": 2.345,
+      "sha256": "a8e9d01ebb969943711586d2b415b1c4be9c7cff6111398133780378826d39c2"
+    },
+    "fictionalExample": {
+      "textHash": "3e5d30e71029a34a077c70568300fd9aced441ec1c236ecbde912df7ee537d3c",
+      "spoken": "उदाहरणात्मक शब्दहरू मात्र",
+      "bytes": 9190,
+      "seconds": 2.159,
+      "sha256": "5f858f44183e05e38a28ae1be7868337aba00f6a8212a3ae80902350d61f2e95"
+    },
+    "pause": {
+      "textHash": "15df49e4bc36d135e2a78c1faddaf79f7bd7b663af6566d3d34e2248ab507da5",
+      "spoken": "विराम दिनुहोस्",
+      "bytes": 6299,
+      "seconds": 1.44,
+      "sha256": "d8826a5327bbba1cb26a6caed6cc7d30741dc8234340abd37c47f2731b9c9ae1"
+    },
+    "resumeAudio": {
+      "textHash": "4fa6ff7938d6b9a48781fbece35ba5e6bb7cbb76cb6163eb0b01f4215c8a60d9",
+      "spoken": "सुन्न जारी राख्नुहोस्",
+      "bytes": 7073,
+      "seconds": 1.614,
+      "sha256": "b70eaf1abee9e53cc41e12693c6a250679c3373f5cc8cd1a80099f2263c84bd0"
+    },
+    "stop": {
+      "textHash": "daf4020a9ad34062148626b12e402a7b473d05bbb1881459318e480e4eecaa23",
+      "spoken": "रोक्नुहोस्",
+      "bytes": 5338,
+      "seconds": 1.196,
+      "sha256": "9596d12464e502961ca3a385e8b7ece894aabdb8250960e3f623b3f1d70123f0"
+    },
+    "listening": {
+      "textHash": "9e59acdd88a1d7b814847e0331da17207c8a89f4229f193e90511ea15d5294ee",
+      "spoken": "पृष्ठ पढ्दै",
+      "bytes": 5343,
+      "seconds": 1.196,
+      "sha256": "ea048af848fe2d4c257b68e577624e2e82974e9fc6aadb1f8cdeedd384b00fb7"
+    },
+    "finishedAudio": {
+      "textHash": "1e671510886153b3f762ec89704f6a08977b479f4edb30c304d94a2d456324a9",
+      "spoken": "पढाइ सकियो",
+      "bytes": 5443,
+      "seconds": 1.207,
+      "sha256": "008d636fa5f08b367cc5a21f1283e0642acf6af8eb1ab701c3335c33db97baaa"
+    },
+    "voice": {
+      "textHash": "f23d80674e255987c11b510940493cb9f2e2a970df04661994822f365bc63a37",
+      "spoken": "सुन्दै",
+      "bytes": 4475,
+      "seconds": 0.964,
+      "sha256": "c69116c978c0e82a61b3c2a687af4e06b517b9337e8941be38dcee6403d1b942"
+    },
+    "speed": {
+      "textHash": "8b25cc6f045e16997d53f83a6fd6df6636db7559e50c6b061854e7a5c64eb223",
+      "spoken": "पढ्ने गति",
+      "bytes": 5435,
+      "seconds": 1.207,
+      "sha256": "32b7cbed0a0aca3b19d0c91e17181b3eaed1c30e8d58237624959c41004a032f"
+    },
+    "slower": {
+      "textHash": "2aea16f51ef6f71879dfac94dc3b8c1be8ea91bd6abe62c56c814d5d8f1e6648",
+      "spoken": "ढिलो",
+      "bytes": 4188,
+      "seconds": 0.906,
+      "sha256": "8e904b733759580b9fcc41137d1cef1311fa433b7125855f01c721d5faf9c35c"
+    },
+    "normalSpeed": {
+      "textHash": "b5ba677d7799e41fee0458d58b926515fe6e36090b8351b714b9c29672f583fd",
+      "spoken": "प्राकृतिक",
+      "bytes": 5153,
+      "seconds": 1.149,
+      "sha256": "4c2dfac0354b81963a54789dab4079e9b4f76ba1bc6d29c33b599140c4d3ac3e"
+    },
+    "faster": {
+      "textHash": "e2c0a163d706d28f9fc5c4671ab971b8882dd7accafd3e2848b40ea781f007b5",
+      "spoken": "छिटो",
+      "bytes": 3996,
+      "seconds": 0.848,
+      "sha256": "c70548a23b1460e7f6da809babe32c9c1c061a89ef6b4b34d22dd3ae69db7a82"
+    },
+    "previewVoice": {
+      "textHash": "22ddfa916da02e686a88a0e48e5e9893f3b823efcdb6c55555a16495d580c285",
+      "spoken": "आवाज पूर्वावलोकन गर्नुहोस्",
+      "bytes": 9090,
+      "seconds": 2.125,
+      "sha256": "4f586661ce3f656b5422a84da69b2908360e00842562e2b91e5cd19dae8983f5"
+    },
+    "voicePreview": {
+      "textHash": "624c128a479ba0423cce6290687741aa6d725462c367d2489d9314dc7fd0bc1d",
+      "spoken": "म तपाईंको भाषामा निर्देशनहरू पढ्नेछु, एक पटकमा एक कदम।",
+      "bytes": 16770,
+      "seconds": 4.052,
+      "sha256": "10092e4580246dbdd5fd80d14ba7bda014c8c0191a65efc6ce3848e36552332d"
+    },
+    "voiceHelp": {
+      "textHash": "cac7f3ad637d0d66f22613065f8dcf513e4129b03e0421c3b745ca5b6a2c73ee",
+      "spoken": "लिखित मार्गदर्शन र अडियो उपलब्ध छन्।",
+      "bytes": 11007,
+      "seconds": 2.612,
+      "sha256": "8e0c46ebff3cbd6a91f260e3e00638d041f6e7cc303a3dc4e4e6a351ccf93934"
+    },
+    "speechError": {
+      "textHash": "19e82a73bd745fcc523871ae2e6705c654b29532c606357587085c56c51299a9",
+      "spoken": "अडियो लोड गर्न सकिएन। आफ्नो जडान जाँच गर्नुहोस्, त्यसपछि फेरि प्रयास गर्नुहोस् ट्याप गर्नुहोस्। तपाईंको ठाउँ राखिएको छ।",
+      "bytes": 32417,
+      "seconds": 7.964,
+      "sha256": "6683c6d73eebceb8afb1f680d73b7b0609b656957777fdd57e2ae72ad6f4a8d1"
+    },
+    "readingSettings": {
+      "textHash": "5198124f6d3ae6ccdd0fd5304012152f6c354c2b0fecd6a8b3964ae18e245fcf",
+      "spoken": "पढ्ने र सुन्ने",
+      "bytes": 5925,
+      "seconds": 1.335,
+      "sha256": "880dab7334ef52ce9c8be3c36dd31e0b13df76c1a74ed6ba01cb850299230bbb"
+    },
+    "appearance": {
+      "textHash": "606405bd2a1055f49dd46ca20604aef30fa8c06a8045099f7bdb5a92b9ec2d60",
+      "spoken": "पढ्ने आराम",
+      "bytes": 5440,
+      "seconds": 1.219,
+      "sha256": "8d2d2ff1dd6efc6ad3213ef42787ad03f2dc694b8e3e157a5b60542e752ec8c0"
+    },
+    "lineSpacing": {
+      "textHash": "e9747fdb9d6214b57553c0fd4351aa0ece94689cf1967e56c4f3bd55b76c36bf",
+      "spoken": "रेखाहरू बीच थप खाली ठाउँ",
+      "bytes": 8513,
+      "seconds": 1.974,
+      "sha256": "bafdf0faf6d7c8365f6e19b0b7a479ea65a206afdef9a552def50c47b07ba3dd"
+    },
+    "resetSettings": {
+      "textHash": "1889c7b3e84b8889cec987af6ab8a79d3ae368e9c5d9b7c939fb1e341e171a32",
+      "spoken": "पढ्ने सेटिङहरू रिसेट गर्नुहोस्",
+      "bytes": 9379,
+      "seconds": 2.206,
+      "sha256": "cc717259308f0c294a519361bb5d635e72a90f87764b18a9a7f17e66c9135406"
+    },
+    "languageHelp": {
+      "textHash": "82211eaef684d5beca721b8ff5188c7d158ad619112ba85119e8d3936ea2ca8f",
+      "spoken": "कुनै पनि समयमा भाषा परिवर्तन गर्नुहोस्। तपाईंको काम ठाउँमा रहिरहन्छ।",
+      "bytes": 20418,
+      "seconds": 4.946,
+      "sha256": "20425e7ea1a5d78a5877a55a0d766fcf94c919294458b0c6e0a9b17361b01f0c"
+    },
+    "removeNote": {
+      "textHash": "d9516695b79bcef3bdf46afb3e0bb69d97b30aa79466e652ec7fb41d208c72a4",
+      "spoken": "यो नोट हटाउनुहोस्",
+      "bytes": 6976,
+      "seconds": 1.591,
+      "sha256": "78664b4f10988bde48b98fe1c1c1a433474aa0ea50f1cca6873ed8d2bc4528a4"
+    },
+    "optoutHelp": {
+      "textHash": "4962a2aadd92be9f86dcff12a7f3f74b299125cea3390ad72cf9a9e428d165ca",
+      "spoken": "यस सूचीमा खाताधारकको निर्णय मात्र अभिलेख गरिन्छ। मनोनयन नगर्ने औपचारिक प्रक्रिया संस्थामा पूरा गर्नुपर्छ। निर्णय पछि पुनः समीक्षा गर्न सकिन्छ।",
+      "bytes": 37792,
+      "seconds": 9.311,
+      "sha256": "575ea93ac974fbc50db5145b6b7a7a6f06a1c1b86562e9876893272b8bfb8d19"
+    },
+    "chooseType": {
+      "textHash": "e92ec81a07dd62eb4d5ef99ea1cbd5b97b22c293f923ac395f2221455e4bb983",
+      "spoken": "जारी राख्नको लागि खाता प्रकार छान्नुहोस्।",
+      "bytes": 11392,
+      "seconds": 2.705,
+      "sha256": "b7bf3226075d190612081ee0a84a48c2e9a8a5fa40670232053dd3f5f9053fc7"
+    },
+    "currentRecord": {
+      "textHash": "57e1e2242a2e353735d4a334d8ab3eb096dd415d9ee6cfc63b2a6e0585113355",
+      "spoken": "अहिले के रेकर्ड छ",
+      "bytes": 7075,
+      "seconds": 1.625,
+      "sha256": "74a035394e11b98446c5fe32764111ae9fccae36d6de70cacb7b616903d90186"
+    },
+    "history": {
+      "textHash": "9ccd9f3dd415ed1afb5b5e9c5d3e47e3e8257bc7ca2126b400a3b40a28bf968b",
+      "spoken": "तपाईंको अद्यावधिकहरू",
+      "bytes": 7741,
+      "seconds": 1.776,
+      "sha256": "1941e9115593dd31813fef9498f5ff08c5cddafca48a78fb184d82af1ee9c8ae"
+    },
+    "reviewDate": {
+      "textHash": "206513eacedb16af7a319aa9ba54a885cb29591e6ef7e0bb362705d0a789a495",
+      "spoken": "अर्को समीक्षा",
+      "bytes": 6016,
+      "seconds": 1.358,
+      "sha256": "831c11ddf06f1248f89c444ba716534497ed433613f6797c589f9ba93e486f93"
+    },
+    "shareNames": {
+      "textHash": "cd4affbda3b072d22c5d01731aa7bce543ffa2db276c760d14583f7541042972",
+      "spoken": "परिवार र मनोनित व्यक्ति नोटहरू समावेश गर्नुहोस्",
+      "bytes": 12352,
+      "seconds": 2.949,
+      "sha256": "fcd59c5b54ba9e3344421683c42cf785a5ab5bee6e44194760dd84367fb0ddd0"
+    },
+    "shareLocation": {
+      "textHash": "b2bf5cd5d0d984a3c233c9553ebd11c45de2f7c993ddd801b52532a7fc4ea315",
+      "spoken": "रेकर्ड स्थान समावेश गर्नुहोस्",
+      "bytes": 8899,
+      "seconds": 2.078,
+      "sha256": "9b00e63b5ad440dde36ffabdb52ebca4e0ea322ae7dc35d7eebae27b96e2ac39"
+    },
+    "shareHelp": {
+      "textHash": "716ac4ca3b77e48a6bb8a4976f5996903e54d95add6186cac3f970580d2c587a",
+      "spoken": "के समावेश गर्ने छनौट गर्नुहोस्, त्यसपछि तलको पानाको समीक्षा गर्नुहोस्। डाउनलोड गरिएको प्रतिलिपि पासवर्ड-सुरक्षित छैन।",
+      "bytes": 31071,
+      "seconds": 7.628,
+      "sha256": "286dd53fa0ed5c9acee987e76f4dcfc9a5c86f6be344d1a2d6ad7a3ec38108c5"
+    },
+    "helpScope": {
+      "textHash": "912a2d4f262194f98eec690bf2bdbe239779b7f6010d71ee69743fed5dc49aca",
+      "spoken": "कसैको मृत्यु भएपछि सहयोग गर्ने ?",
+      "bytes": 9759,
+      "seconds": 2.299,
+      "sha256": "0d112109b2e4cf710b8f56ac970511fe75389c36a927466914159856a1e0e989"
+    },
+    "helpScopeText": {
+      "textHash": "499ebc4ff0dcdf521ca1a435b93abd096b5bd6dda2c022119c1671f48852a1b6",
+      "spoken": "यो प्रक्रिया जीवित खाताधारकले मनोनयन मिलाउनका लागि हो। खाताधारकको मृत्यु भइसकेको छ भने संस्थालाई मृत खाताधारकको दाबी वा सम्पत्ति हस्तान्तरण प्रक्रिया सोध्नुहोस्। उहाँको तर्फबाट नयाँ मनोनयन सुरु नगर्नुहोस्।",
+      "bytes": 49411,
+      "seconds": 12.214,
+      "sha256": "bdc2b6fcc5abfbf1f18bf4d149baf4a673f1dbe452b3f5b908c4f3d626aedaa7"
+    },
+    "openDevice": {
+      "textHash": "9ce308b60cf09583b1806a8ab940542e9719082650141b2ec0981e728a34018c",
+      "spoken": "यो यन्त्रमा लक गरिएको प्रतिलिपि खोल्नुहोस्",
+      "bytes": 12064,
+      "seconds": 2.868,
+      "sha256": "a87f56cc795f043da411093e99b6da259b8b6865351135ca01cdc90c3974fbee"
+    },
+    "keepDevice": {
+      "textHash": "536da71ec533cd62f7c52321b3d07372f08077fdd146fdfbfc03b6cbe2b31e9b",
+      "spoken": "यस यन्त्रमा लक गरिएको प्रतिलिपि पनि राख्नुहोस्",
+      "bytes": 13024,
+      "seconds": 3.1,
+      "sha256": "28d35b095869c4b6238160bc3d4ec26b445eb5bf59bde307047d008664a91dc0"
+    },
+    "deviceHelp": {
+      "textHash": "1896ee706acb06e98585b3f9b7e2269ed7ec02e77288a36a6ef45956e1ce82fb",
+      "spoken": "वैकल्पिक: यस ब्राउजरमा पासवर्डले सुरक्षित प्रतिलिपि राख्नुहोस्। परिवर्तनपछि फेरि सुरक्षित गर्नुपर्छ। साझा उपकरणमा यो विकल्प बन्द राख्नुहोस्। हामी तपाईंको पासवर्ड कहिल्यै राख्दैनौँ।",
+      "bytes": 48544,
+      "seconds": 11.981,
+      "sha256": "58c128f7e97cbdb570a654d561781760133ad75a92ced4f5ed7bf4f4562448cc"
+    },
+    "forgetDevice": {
+      "textHash": "ce37b6806ee581c55345eb36521c991b734a3078f97db0a84a0306756cbc993a",
+      "spoken": "यस यन्त्रबाट सुरक्षित गरिएको प्रतिलिपि हटाउनुहोस्",
+      "bytes": 13794,
+      "seconds": 3.309,
+      "sha256": "e4f097db3dc91a1a2473e5ecf9ade7fa4df11000e491b0d90e1b231f7271f7e5"
+    },
+    "forgetDeviceAsk": {
+      "textHash": "0ff69cdbce3b0e01ae6d1949409b52119d0993d818abf4622b4f444266663d26",
+      "spoken": "यो यन्त्रको लक गरिएको प्रतिलिपि हटाउने हो? डाउनलोड गरिएका फाइलहरू रहनेछन्।",
+      "bytes": 22437,
+      "seconds": 5.468,
+      "sha256": "1b481e1dee65d7afc0916257a2bfde6aa854ce0767e16f4b7020bf5a23a54f76"
+    },
+    "deviceUnavailable": {
+      "textHash": "25c2ead1135fa3b40aa0c1bde2d6510128d3c01ecb0ae053438a301ccd40270a",
+      "spoken": "फाइल डाउनलोड भयो, तर यो ब्राउजरले यन्त्र प्रतिलिपि राख्न सकेन। फिर्ता गर्न डाउनलोड गरिएको फाइल प्रयोग गर्नुहोस्।",
+      "bytes": 28007,
+      "seconds": 6.85,
+      "sha256": "1fafbf7e02e5761da3c064cd040070d9782af4d41a2b109ad8996ca42cc26e6f"
+    },
+    "chooseFile": {
+      "textHash": "061aa0e7188ec639b28808b45e6c737c3f4633e950b67f3c3e5987e70f35b56f",
+      "spoken": "आफ्नो सुरक्षित गरिएको .virasat फाइल वा यन्त्र प्रतिलिपि छनौट गर्नुहोस्।",
+      "bytes": 17824,
+      "seconds": 4.319,
+      "sha256": "95a736fc9c0df274de141bcfc7f01fa27b1c079505e8b65af50a6fa436deb20b"
+    },
+    "replaceDraft": {
+      "textHash": "6573ab849386ecefde3ac373eb9be672df3d61bb204748c55eb5a5494021864f",
+      "spoken": "अर्को खाता सुरु गर्ने हो? तपाईंको अधूरो खाता प्रतिस्थापन गरिनेछ।",
+      "bytes": 19074,
+      "seconds": 4.621,
+      "sha256": "8e7fee4aa2ca2e29d565ed76bd652ad91f500e7a2b2004e6dfbee07fdf7e7273"
+    },
+    "replaceList": {
+      "textHash": "be53f288ef95ddab3492853b50c9bd5f7327fa5c2c13280e2c08a5b1e9fda82f",
+      "spoken": "अर्को सूची खोल्दा यो सत्र प्रतिस्थापन हुनेछ। यदि तपाईंलाई आवश्यक छ भने पहिले आफ्नो काम बचत गर्नुहोस्।",
+      "bytes": 27329,
+      "seconds": 6.687,
+      "sha256": "5f082f96ec65f2811013069dec740cdcc5a0c5db619069c75f73c3d5ac6c1f41"
+    },
+    "validFollowup": {
+      "textHash": "5569bc548ec8175223f9aefac801669a07c800bc8a845ee97c7e1a7a9cfb4ee0",
+      "spoken": "वास्तविक मिति प्रविष्ट गर्नुहोस्, वा सबै तीन बक्सहरू खाली छोड्नुहोस्।",
+      "bytes": 17731,
+      "seconds": 4.272,
+      "sha256": "2d3a0386d0ba26aee37d2b30b9e8bce1d5b80f939febcf7d3e694b6556b28b73"
+    },
+    "seeNext": {
+      "textHash": "6647d388494528b808f5357d9e8201da37f3ee9df96158db1e704448399a51bb",
+      "spoken": "मेरो अर्को चरण हेर्नुहोस्",
+      "bytes": 7933,
+      "seconds": 1.846,
+      "sha256": "66f90463c56e22a5d3983987f453cb9632159e5a3b15976bad3c02f1872cd1a5"
+    },
+    "unfinishedChanges": {
+      "textHash": "37388d133e317abde3ea68a7e6c99a24a4fea9a1e404e59124fbcc6ada4a2af5",
+      "spoken": "अधूरा परिवर्तनहरू जारी राख्नुहोस्",
+      "bytes": 10823,
+      "seconds": 2.554,
+      "sha256": "762eb27c525effe107aac5dab89cce118af6133089a2b65726746ffcdd0f1e5a"
+    },
+    "linked": {
+      "textHash": "e2e293e39c4417172dab0956f8457afb1e31e76aa14492baee92faa3ff0dac3d",
+      "spoken": "डिम्याट खाता पछ्याउनुहोस्",
+      "bytes": 8604,
+      "seconds": 1.997,
+      "sha256": "298d1c22f4ea2392550bb74b2a9740e7ab8addc412a9faa745ae427219bb7f04"
+    },
+    "linkedTo": {
+      "textHash": "4c019dbd3d4ecaf0c463e86354a523f0890e2f4098b23a1d5e37fe3c164e734b",
+      "spoken": "लिङ्क गरिएको डिम्याट खाता",
+      "bytes": 8030,
+      "seconds": 1.858,
+      "sha256": "12dbb7bccfc828def568593cd54901dcf589e94e94053ea3137a169818d048a4"
+    },
+    "privateRecord": {
+      "textHash": "04c79be050fffa3eb046759b0e1da6c5d673e3e778a8cfeb4f23596c8c8fdf6c",
+      "spoken": "तपाईंको निजी रेकर्ड नोट",
+      "bytes": 7939,
+      "seconds": 1.846,
+      "sha256": "493c21e2697c7433d80377ae99f1fc6a4b67b62433cbc7916adcf9e4e43c736c"
+    },
+    "privateRecordHelp": {
+      "textHash": "2f982be2c2c31f332bea3eebf5f58bb4d9651a6e84fce338903e7b2df7235481",
+      "spoken": "यो टिप्पणी तपाईंको लक गरिएको फाइलमा रहन्छ। यसलाई पारिवारिक सारांश र पृष्ठको अडियोमा समावेश गरिँदैन।",
+      "bytes": 27143,
+      "seconds": 6.629,
+      "sha256": "a21396192ee251318426ae88dbded45d7556e506c31fb15dc99ec4aa2c09da8b"
+    },
+    "readRules": {
+      "textHash": "1457d779f858761fdf1926a2a3b945eefe5b167e0b0a1088266ea291a8b0a0a3",
+      "spoken": "आधिकारिक नियमहरू पढ्नुहोस्",
+      "bytes": 9279,
+      "seconds": 2.171,
+      "sha256": "6a145b988e5e104ba64a0f0361e7690c35046b75af1ecf3124fb53b4dde1e847"
+    },
+    "beforeContinue": {
+      "textHash": "27e6f4979919c580adae4d2f8a38568cdf90c63d45a13bc256425bc1eecadfdb",
+      "spoken": "तपाईंले जारी राख्नु अघि",
+      "bytes": 7844,
+      "seconds": 1.811,
+      "sha256": "9e8db3704d4303da07abb8bcf499ef3f004dd1441badd28a7c1f7004cd83785b"
+    },
+    "checkConnection": {
+      "textHash": "f658b15672a5f328adc2ef3fb466608b7a23976ffbe3c50246dd75fd3fdd5881",
+      "spoken": "जाँच गर्नुहोस् कि यी सँगै छन्",
+      "bytes": 9189,
+      "seconds": 2.136,
+      "sha256": "332b6ecc51a3d9aede61598e663b146e13407fdfea0c46328ff5ef4569952f5f"
+    },
+    "connectionHelp": {
+      "textHash": "3c58ebc29e1403697cbc958a1f58e9edf169d54e25aaa715384bd3ce422f64b0",
+      "spoken": "डिम्याट स्टेटमेन्टबाट यी फन्डका एकाइहरू यही डिम्याट खातामा उही खाताधारकहरूसँग छन् भन्ने जाँच गर्नुहोस्। अलग परिवारका सदस्यका खाताले एउटै मनोनयन साझा गर्दैनन्।",
+      "bytes": 39044,
+      "seconds": 9.613,
+      "sha256": "39c4a6aa21ec8a2925820464e29c5c53eacbabf2f893c882d2ea9a80facef719"
+    },
+    "sameHolders": {
+      "textHash": "668b6730bfb0257aa334abed0b39b62ee384d316e1767eb7482d553c98ad9b17",
+      "spoken": "मैले स्टेटमेन्ट जाँच गरें: यी एकाइहरू र धारकहरू यो डिम्याट खातासँग मेल खान्छ।",
+      "bytes": 20513,
+      "seconds": 4.969,
+      "sha256": "cba5f3e3caee865c4b9789ff9b34c8a6be4d2fa333b1c1e2a1ef732127ca4224"
+    },
+    "linkAccount": {
+      "textHash": "7c664b479e1e32512d93639fb96f2ea6c9d026428b03fa6b51e86b8354fac0ce",
+      "spoken": "यो डिम्याट खाता लिङ्क गर्नुहोस्",
+      "bytes": 9089,
+      "seconds": 2.125,
+      "sha256": "104b117738d5af935b84f93dae3f89529f49284546b926306e2a1969b6ad0b8f"
+    },
+    "replaceChanges": {
+      "textHash": "c860ef94abd76faf44a30dbc80bad22fca21e06d825caf640bcf4af56a78cdaa",
+      "spoken": "तपाईंसँग अधूरा परिवर्तनहरू छन्। निरन्तरताले त्यो मस्यौदालाई प्रतिस्थापन गर्छ। घर फर्कन रद्द गर्नुहोस् र पहिले यसलाई समाप्त गर्नुहोस् वा बचत गर्नुहोस्।",
+      "bytes": 39140,
+      "seconds": 9.625,
+      "sha256": "dd038ac642330f6b19c5d90e9f5e59f4e5d454174025662ff58aa17fde1f0e87"
+    },
+    "startOwnList": {
+      "textHash": "02722a86a8bb2e78e64b3a67b46748b510b907251dffa34d5e17cb53d3df5677",
+      "spoken": "मेरो आफ्नै सूची सुरु गर्नुहोस्",
+      "bytes": 9090,
+      "seconds": 2.125,
+      "sha256": "6ff8baaee5f30abfd885f8eefd11b552fc96a19a6b91a9d254ff040ea54fe371"
+    },
+    "startOwnHelp": {
+      "textHash": "ecec2131070ef362b20e45116cb3439a0faf5f1c78625a29415420d5129399b7",
+      "spoken": "आफ्नो परिवारको लागि नयाँ सूची सुरु गर्नुहोस्? यसले यस सत्रबाट काल्पनिक उदाहरण हटाउँछ।",
+      "bytes": 23874,
+      "seconds": 5.828,
+      "sha256": "49216dc8093c2724862ef5982686b47f95c607cce09204fc8d3509ee019aaa6f"
+    },
+    "familyPending": {
+      "textHash": "47022fd470a0004586ab97f999823ce4014b64bb0dcad02fbb0b7189f0b7c5dd",
+      "spoken": "पारिवारिक विवरणहरू अझै समीक्षा गरिएको छैन",
+      "bytes": 12451,
+      "seconds": 2.972,
+      "sha256": "d3319611b0b4a8186c43c1773e7805a72b726b1618a2f5eaa16d3f021524f265"
+    },
+    "familyReviewed": {
+      "textHash": "d3117b06477ce7434d99797c5d0943fc57d9cf333a9a8250852e29e1af607b93",
+      "spoken": "परिवार विवरण समीक्षा गरियो",
+      "bytes": 8996,
+      "seconds": 2.101,
+      "sha256": "fb8aeb2e2adcc8e7a5496411e6deb9a0c01e9dc537a126e1bcfd46a11cb20b1e"
+    },
+    "familyReviewCheck": {
+      "textHash": "405f3a6bd862c9de8e27cf0f01c9dd00fdbbba7f41362b0e8a51773aa9d12160",
+      "spoken": "मैले मेरो परिवारले के हेर्नु पर्छ समीक्षा गरें। मैले कुनै पनि खाली फिल्डहरू छोड्न रोजें।",
+      "bytes": 22535,
+      "seconds": 5.492,
+      "sha256": "a3703dd0ff9e3505fc5dc70c5ebb5353ef85eeee3d85d023b86df5a482158ebe"
+    },
+    "familyReviewHelp": {
+      "textHash": "60f772844e04267a9ef7bb2e0dfb8aa94ef0de65b13d618ba674ef64d1f7139b",
+      "spoken": "यो छुट्टै जाँच हो। दर्ता गरिएको मनोनयनले तपाईंको परिवारलाई खाता वा यसको रेकर्डहरू कहाँ फेला पार्ने भनेर बताउँदैन।",
+      "bytes": 29062,
+      "seconds": 7.105,
+      "sha256": "5a7444f65d47c0a1b3bb6613e1eab2b2cee15e7cd50e0a074bbe1294566a0a71"
+    },
+    "notIncluded": {
+      "textHash": "0fd15b79d67044c6b763706450e723f6dc714af0b007bf3df7a96ec9ab26238c",
+      "spoken": "छनौट द्वारा समावेश गरिएको छैन",
+      "bytes": 10145,
+      "seconds": 2.392,
+      "sha256": "62f2ed9a91a5603d5f4386108b4bc3c130920ef1897dcd78a40d1145feabc315"
+    },
+    "familyReadyNext": {
+      "textHash": "dae3b7c9da70d65cf1f5356ed011312f370641295fe1db98e840d261e2fc0a34",
+      "spoken": "यो पाना तपाईंको विश्वसनीय परिवार सदस्यले फेला पार्न सक्ने ठाउँमा राख्नुहोस्। विवरण परिवर्तन हुँदा यसलाई समीक्षा गर्नुहोस्।",
+      "bytes": 30021,
+      "seconds": 7.361,
+      "sha256": "0204f906c2366abe3a88432ce2bf74136b544183760f7021d95a4b424c46b37e"
+    },
+    "familyRemaining": {
+      "textHash": "0f3c65174818ceed3d2ad586004c6e2bf6032e253bedd353b452ad690ff8a56d",
+      "spoken": "पारिवारिक रेकर्डहरू समीक्षा गर्न",
+      "bytes": 9861,
+      "seconds": 2.322,
+      "sha256": "67fa8697354b11e29b6c2c392938cde32208392b874d6f1d11be9b79dbddaad2"
+    },
+    "onlineRoute": {
+      "textHash": "229ed6c49f6b6baefdabbe10c3d0838147adbb4469f2303a3aaa6071677826fb",
+      "spoken": "अनलाइन सेवाहरू प्रयोग गर्नुहोस्",
+      "bytes": 9857,
+      "seconds": 2.322,
+      "sha256": "e450c94870c5593756ddb65bdd41a48dd67cb487c1209f3fe841f1436aeb18ac"
+    },
+    "offlineRoute": {
+      "textHash": "c8de94826279dbeb7fa3957986945d2c2befb15a80f7d8b431d6156aa54b77f6",
+      "spoken": "व्यक्तिगत रूपमा मद्दत प्राप्त गर्नुहोस्",
+      "bytes": 10050,
+      "seconds": 2.357,
+      "sha256": "a3d2637af7319fd7fdb9b7b74db0a3161094b026ce19462563a88aa1a6e4359a"
+    },
+    "routeChoice": {
+      "textHash": "b9d85fcaed892bff50f5dd857fd87dff658f347d0eeb406b54aa514b4857c3fa",
+      "spoken": "तपाईं यो कसरी गर्न चाहनुहुन्छ?",
+      "bytes": 9281,
+      "seconds": 2.183,
+      "sha256": "2008fc10462e7f9d9844026175ba8aa71a8d3a43accaf098ab3bd8bd5e2b7f8b"
+    },
+    "saveBeforeLeaving": {
+      "textHash": "468c5020a35806b177a6d2ea85c5e387c9e8bbe624b194b89392cd8f6458fb35",
+      "spoken": "आधिकारिक सेवा खोल्नु अघि आफ्नो स्थान सुरक्षित गर्नुहोस्। के भयो रेकर्ड गर्न यहाँ फर्कनुहोस्।",
+      "bytes": 24071,
+      "seconds": 5.875,
+      "sha256": "2a8e18c1ef655561fb475ab4363421b8df5b0c9df60d482421c893b72b7b0745"
+    },
+    "offlineContact": {
+      "textHash": "c709abcaa3d07f7105427d9c976e713c1b6ea4d9e8eaaca595262dce7e34168a",
+      "spoken": "शाखा वा सेवा केन्द्र पत्ता लगाउन संस्थाको आधिकारिक मद्दत पृष्ठ प्रयोग गर्नुहोस्। यात्रा गर्नु अघि यो खाताको लागि मनोनयन ह्यान्डल गर्छ कि भनेर सोध्नुहोस्।",
+      "bytes": 36164,
+      "seconds": 8.882,
+      "sha256": "c22d601282e91c5b7c249b6f1d6d525e38c201779fced9ca819cf309af38321f"
+    },
+    "offlineBring": {
+      "textHash": "546fa69d9c7566f0533c14cb1d646b50d307d404f0da0803464559fdcb505d59",
+      "spoken": "कुन फारम, खाताधारकका हस्ताक्षर र कागजात आवश्यक छन् सोध्नुहोस्। खाता पहिचान गर्न स्टेटमेन्ट वा पासबुक लैजानुहोस्; संस्थाले मागेको अवस्थामा बाहेक सक्कल कागजात आफैँसँग राख्नुहोस्।",
+      "bytes": 41826,
+      "seconds": 10.298,
+      "sha256": "e1019aefbbbe29bf8d6a0392ba4a4dee57188ad2e46a633f2b55fa23c38ad9ab"
+    },
+    "offlineAsk": {
+      "textHash": "562f61d9711e694e3647fd6a27faaea78466f5353380503e0f1826bbcbc4bdd7",
+      "spoken": "पहिले अवस्थित मनोनयन जाँच गर्न कर्मचारीहरूलाई सोध्नुहोस्। यदि परिवर्तन आवश्यक छ भने, मितिको रसिद र अन्तिम दर्ता रेकर्ड कसरी प्राप्त गर्ने भनेर सोध्नुहोस्।",
+      "bytes": 38752,
+      "seconds": 9.543,
+      "sha256": "80901bdb9558dc92a587c51a4725814061f3b635980261d0f890a3ab7da5dd4c"
+    },
+    "scopeGeneral": {
+      "textHash": "37809ed9c1b4893e1bd566d04e112bb0046076d4bf131dcdd633f07f6207bf41",
+      "spoken": "यस खाता प्रकारको लागि सामान्य निर्देशन। हामीले यस संस्थाको सटीक स्क्रिनहरू समीक्षा गरेका छैनौं।",
+      "bytes": 23778,
+      "seconds": 5.793,
+      "sha256": "2d32b2acb5bf6ef6a85ed376c15199c6b447148d7c48ee93ae7e7800eeea2b70"
+    },
+    "scopeHdfc": {
+      "textHash": "99597e07df529ac6c22038afabf22e038f56eb7e125cfd43c191218cb0965fa4",
+      "spoken": "HDFC बैंक: बचत र FD/RD मार्गदर्शन; संयुक्त धारकहरूले शाखा मार्ग प्रयोग गर्छन्।",
+      "bytes": 26367,
+      "seconds": 6.444,
+      "sha256": "7e7cc52d9ad503e9090376254125ac14d7696df4f9d3703c94d577779c57f540"
+    },
+    "scopeSbi": {
+      "textHash": "6dd07a6863350ff5820f7da3f55d058ad653110063adb2453ad016a5eb9fc968",
+      "spoken": "SBI जम्मा खाताहरू। यस गाइडले उपलब्ध च्यानलहरू समावेश गर्दछ; यसले परीक्षण लगइन अनुक्रम दावी गर्दैन।",
+      "bytes": 30590,
+      "seconds": 7.488,
+      "sha256": "e8a3467ecad78eb8398bb315c6d5c8275bd8807068ba0321197ebbd140600e4e"
+    },
+    "scopeAxis": {
+      "textHash": "473dab023dae441e12943eb1c68ad764f3c00a5049a56a466815d2b638f6b545",
+      "spoken": "Axis Bank बचत खाताहरू मात्र। FD/RD मार्गहरू फरक हुन सक्छन्।",
+      "bytes": 21183,
+      "seconds": 5.143,
+      "sha256": "c6d6c58de1a75259b70dd56a8ec832e2ff616e7f2452f1dbfff3dffbb57788ec"
+    },
+    "scopeZerodhaAdd": {
+      "textHash": "518943daa12e6412f465871ca6aea8721c3b69c0fc2ff329dbceea8a49a3dcd2",
+      "spoken": "Zerodha: पहिलो मनोनित व्यक्ति थप। संयुक्त खाताहरू वा अनुपलब्ध आधार-लिंक गरिएको मोबाइल पहुँचलाई संस्थाको सहयोग चाहिन्छ।",
+      "bytes": 30117,
+      "seconds": 7.372,
+      "sha256": "813f6d180cb47976bff1fc05178b8f12f21a431a894ddd5aee8184c6bfdf5bbd"
+    },
+    "scopeZerodhaChange": {
+      "textHash": "c449cede45dc4fb38f9932f1fbda9f6c1eba3e085b0792c007cd598fcf37a197",
+      "spoken": "Zerodha: अवस्थित मनोनित व्यक्ति विवरणहरू परिवर्तन गर्दै वा अर्को मनोनित व्यक्ति थप्दै।",
+      "bytes": 20232,
+      "seconds": 4.911,
+      "sha256": "ac9aa55f8e22c3a01e9ea8469371bbf35d32aefa79fcd5233146116aee23f17e"
+    },
+    "scopeGroww": {
+      "textHash": "4e1e2c9b7de716a0b4521d2836dbbafad44cec9f2399bac415e86142f229d433",
+      "spoken": "Groww डिम्याट खाता। पहिलेका म्युचुअल फन्ड फोलियोका लागि छुट्टै सेवा प्रक्रिया आवश्यक हुन सक्छ।",
+      "bytes": 23296,
+      "seconds": 5.677,
+      "sha256": "f16145eb0d32e9538095cf1d1b0dbc425aaa7a208c82f4ac4456030f5cdab6ed"
+    },
+    "scopeHdfcMf": {
+      "textHash": "6c19a67d0bd15268ca337c8c0ffe4851966df35130d39815906e2fc28dc81155",
+      "spoken": "HDFC म्युचुअल फण्ड फोलियो। डिम्याट-होल्ड एकाइहरूले डिम्याट खाताको मनोनयनलाई पछ्याउनुहोस्।",
+      "bytes": 23969,
+      "seconds": 5.84,
+      "sha256": "741122616f490b7bb95a19a264fc210fce4f5632275344d7ff4ffbc9c4997f51"
+    },
+    "scopeDematFunds": {
+      "textHash": "2e3b9a93856819c93b5dcff2df39462d035eb80a067a78be883f69ed81d1ef8d",
+      "spoken": "पहिले यी एकाइहरू भएको डिम्याट खाता पहिचान गर्नुहोस् र जाँच गर्नुहोस्।",
+      "bytes": 16581,
+      "seconds": 4.005,
+      "sha256": "dfe78b1cc8c1d4e0241a69e78aec6e64d78f64994d7c20025f7e4c688c241674"
+    },
+    "scopeUnknownFunds": {
+      "textHash": "c91b7727943ca8217b643123269e9bb04244b2a9bb2f3ba3b4c6a6b91597c5a9",
+      "spoken": "मनोनयन मार्ग छनौट गर्नु अघि होल्डिङ ढाँचा पहिचान गर्नुपर्छ।",
+      "bytes": 15815,
+      "seconds": 3.796,
+      "sha256": "cc0bb9dc22ad1a508740697698ecfeb3f98bfcd4210e9ce7ecba9a36da032e9d"
+    },
+    "sbiAction": {
+      "textHash": "f077cfa3daa1de7b917be1400d3c354cb8aeef5808d905b4041282a006ffc88e",
+      "spoken": "SBI ले YONO, इन्टरनेट बैंकिङ र शाखाहरू मार्फत जम्मा खाता मनोनयन प्रस्ताव गर्दछ। विशिष्ट खाता छान्नुहोस्। यदि तपाईलाई चाहिने विकल्प उपलब्ध छैन भने, हालको फारम प्रयोग गरी दर्ता गर्न वा परिवर्तन गर्न शाखालाई सोध्नुहोस्।",
+      "bytes": 57663,
+      "seconds": 14.257,
+      "sha256": "9a432ab3dbe4726e4d95bb7ac0415a67733511ec35fa8877a0513b9e0277c811"
+    },
+    "axisStart": {
+      "textHash": "6cf99cc2f0b02d698744f365d169c6fea3fe688a64dae34b3d1edbfb53d870a2",
+      "spoken": "Axis इन्टरनेट बैंकिङमा सेवाहरू → खाता सेवाहरू → मनोनित व्यक्ति अद्यावधिक खोल्नुहोस्। बचत खाता छान्नुहोस्, त्यसपछि नयाँ मनोनित व्यक्ति थप्नुहोस् वा मनोनित व्यक्ति बदल्नुहोस्।",
+      "bytes": 38463,
+      "seconds": 9.462,
+      "sha256": "d65189ecd7e2d1bbf435149cd549d974be72e60f0d80c4e6d77bada7fc25aa03"
+    },
+    "axisSubmit": {
+      "textHash": "3fa1979df16c0581ef0d32b465ca174b942d3943674f293e63d777536cd47321",
+      "spoken": "Axis को मद्दत पृष्ठले अनुरोध फारम उत्पन्न गर्ने, यसलाई पूरा गर्ने र हस्ताक्षर गर्ने, यसलाई अपलोड गर्ने, र NetSecure कोडसँग पुष्टि गर्ने वर्णन गर्दछ। यदि तपाइँ छाप्न वा अपलोड गर्न सक्नुहुन्न भने, शाखा प्रयोग गर्नुहोस्।",
+      "bytes": 54592,
+      "seconds": 13.502,
+      "sha256": "d46231667f4b22d352b23fb54197e7715341ee9ea8d0b535a97412b5172778fb"
+    },
+    "zerodhaChangeForms": {
+      "textHash": "97c9a56490eeda360268987bc39921492bb9204b92bc00432962770101d9f657",
+      "spoken": "Zerodha को परिवर्तन निर्देशनहरू खोल्नुहोस्। हालको मनोनयन र खाता परिमार्जन फारमहरू प्राप्त गर्नुहोस्; निर्देशित रूपमा अवस्थित र प्रस्तावित मनोनित व्यक्ति विवरणहरू प्रविष्ट गर्नुहोस्।",
+      "bytes": 41352,
+      "seconds": 10.194,
+      "sha256": "dd53f98740ea99dd3177541a8622d5a28b8fde8fe1a010287e1526cc07d19278"
+    },
+    "zerodhaChangeSubmit": {
+      "textHash": "21b00f154bef3dad221ac3e86027e69dce4877111020cadc1ba03e94ebbfe54e",
+      "spoken": "Zerodha ले दुबै फारमहरू हातले हस्ताक्षर गर्ने, तिनीहरूलाई eSigning गर्ने, र तिनीहरूलाई समर्थन टिकटमा संलग्न गर्ने वर्णन गर्दछ। हालको निर्देशनहरू पालना गर्नुहोस्; यदि तपाईं eSign गर्न सक्नुहुन्न भने वैकल्पिकको लागि समर्थन सोध्नुहोस्।",
+      "bytes": 57673,
+      "seconds": 14.257,
+      "sha256": "a87691228c267b6eec2e981aceb03f53670a14c5eaf26dbdd23a693ca76d750c"
+    },
+    "growwCheck": {
+      "textHash": "e407ac51002f8cb17a5379c0e6bae0b09c0119d0a2811a36e7a3ecf3195c6ce9",
+      "spoken": "Groww मा, प्रोफाइल → खाता विवरणहरू → मनोनित व्यक्ति विवरणहरू खोल्नुहोस्। कुन लगानी वा खातामा प्रदर्शित मनोनयन लागू हुन्छ जाँच गर्नुहोस्।",
+      "bytes": 34144,
+      "seconds": 8.394,
+      "sha256": "04ef096ff7cecb7d3178d4604b0039f76eb3f46ddd69e893dd91454a58f8d8c9"
+    },
+    "growwAction": {
+      "textHash": "554f600d10c33ab0a94907bf286740d0c720299ab0c39dbc3ec07272d819c801",
+      "spoken": "योग्य डिम्याट लगानीका लागि मनोनयन सम्पादन गर्नुहोस् र Groww को प्रमाणीकरण पछ्याउनुहोस्। प्रोफाईल अपडेट गर्दा हरेक अवस्थित म्युचुअल-फण्ड फोलियो परिवर्तन भएको कुरा स्थापित गर्दैन; ती फोलियोहरू छुट्टै जाँच गर्नुहोस्।",
+      "bytes": 48545,
+      "seconds": 11.981,
+      "sha256": "84b1f8fa377ea7adbb63d0db935312e7c588589d60792d350d18b0f782967cd9"
+    },
+    "readingNow": {
+      "textHash": "ba7630453eaacb0df80fb70beadabaa22e2c2773f708bdba6ef2f60e77fbaa14",
+      "spoken": "अहिले पढ्दै",
+      "bytes": 5536,
+      "seconds": 1.242,
+      "sha256": "02eb95efeec366dd5c43654f31cadf1762bf534e44b315d1291eac74a143dbef"
+    },
+    "repeatSentence": {
+      "textHash": "98b2bb9895583dc63016a98bcf67bf4bf2c1fc49ec9277295e1a5a33821c08a2",
+      "spoken": "यो फेरि बजाउनुहोस्",
+      "bytes": 7268,
+      "seconds": 1.66,
+      "sha256": "e2899f17420cc83bd1cca4e46f01893c325cb35f122f6577d5be10fa877ebe27"
+    },
+    "nextSentence": {
+      "textHash": "1abb6eb4ca91a2faac165d8747713e8063bd12f89721230ac7d800b4d3588b9e",
+      "spoken": "अर्को भाग",
+      "bytes": 5058,
+      "seconds": 1.126,
+      "sha256": "4b7a79ce77f6a0838b2c7485c0098f92a9487d504fe25b3a26fcc62d18af4e73"
+    },
+    "previousSentence": {
+      "textHash": "33078a7588e19f7d572ad7dab2b4572ce78d9e014701a83740668f54048a14bf",
+      "spoken": "अघिल्लो भाग",
+      "bytes": 5734,
+      "seconds": 1.277,
+      "sha256": "c95dae4b20a64742489eab70ba7d3113e33b7dc9b930b0fb52aef500f0fee35a"
+    },
+    "readingPreferences": {
+      "textHash": "c96fb49346eeb13227501238a6e148510e2632b3f14474675b2e57a9a1a8b19c",
+      "spoken": "पढ्ने सेटिङहरू यस यन्त्रमा सम्झिन्छन्। खाता विवरणहरू बचत गरिन्छ जब तपाईंले बचत चयन गर्नुभयो। रिसेटले यी पढ्ने प्राथमिकताहरू खाली गर्छ।",
+      "bytes": 37032,
+      "seconds": 9.102,
+      "sha256": "7b1cd15953e1d60b7031de65af0812b7db642aa76cf8514a6b6ae167bd2cdccc"
+    },
+    "stepType": {
+      "textHash": "a3e24bcf6e82eda0879ceaf69a03d856c914eb6a6b252ce06852ca3b7eaec42e",
+      "spoken": "खाता प्रकार",
+      "bytes": 5342,
+      "seconds": 1.184,
+      "sha256": "e2c947e35d31e3a940c6e9440d380a04c6eabf234b8d7ab8ba89998bd0e55aef"
+    },
+    "stepInstitution": {
+      "textHash": "76282c3f2e83d07f41c9082e431d060fdb68337d59edcd35e8766e1f83cfa538",
+      "spoken": "संस्था",
+      "bytes": 4869,
+      "seconds": 1.068,
+      "sha256": "1745ef25792319d4a18071da80e88d7035dde2f6175ab27bd31169fa86823ffe"
+    },
+    "stepContext": {
+      "textHash": "defda1fad25cf3bd932f02a2f5fc83d49dd2f3024896237eae2a198f02a3b83c",
+      "spoken": "खाता विवरण",
+      "bytes": 4961,
+      "seconds": 1.091,
+      "sha256": "7dfff3effd2455db76a16126536d399ab98ebf50f64d49f013335f89e4f1a2ca"
+    },
+    "stepNomination": {
+      "textHash": "e6b674cc150e877f3b05411e5f908a94fb6e50a0d8aa24690a708bec2b175a59",
+      "spoken": "मनोनयन",
+      "bytes": 5348,
+      "seconds": 1.184,
+      "sha256": "f897c1c08ccf388ef8f18ab6fc688b48a9d2d09d4858f753672359242f1c4744"
+    },
+    "savedNext": {
+      "textHash": "c17c089b44dfd60a783607751606992fef0dc372374a24d9525397fd86f385e6",
+      "spoken": "तपाईंको लक गरिएको प्रतिलिपि तयार छ। फाइल र पासवर्ड राख्नुहोस् जहाँ तपाइँ फेरि फेला पार्न सक्नुहुन्छ। तपाईं तयार हुँदा आफ्नो कार्यमा फर्कनुहोस्।",
+      "bytes": 35967,
+      "seconds": 8.835,
+      "sha256": "d0e446b848e6d3173a7a44c1e43366238cca4a93e0d7a5c9b54b4c1f13fa6d24"
+    },
+    "returnTask": {
+      "textHash": "976ba6cdc44a7129ad5aa67e980e347fe4674c7a12b99afbc122fc62b2588ff3",
+      "spoken": "मेरो कार्यमा फर्कनुहोस्",
+      "bytes": 7552,
+      "seconds": 1.73,
+      "sha256": "b7d26492cbf05fb16f8e78d0deec17252fd1c0861ab54406f3ffc87b34f91fa3"
+    },
+    "olderDeviceCopy": {
+      "textHash": "0fe791f2ec002fb9dedee439def870d489682e86d3d7b636828af4b7dcf2d6dc",
+      "spoken": "यन्त्र प्रतिलिपि अद्यावधिक गरिएको थिएन। आफ्नो भर्खरका परिवर्तनहरूको लागि डाउनलोड गरिएको फाइल खोल्नुहोस्, वा चयन गरिएको उपकरण विकल्पको साथ फेरि बचत गर्नुहोस्।",
+      "bytes": 40389,
+      "seconds": 9.938,
+      "sha256": "05552261a0336bb14e77b3fad3da68b5b99a6bf4ef13fd7033d3063140ea7b46"
+    },
+    "haveReady": {
+      "textHash": "62d38c8718984aeb91c7a477cae47cdbc366455cbf70e6d76454a6e910ae988c",
+      "spoken": "यी तयार राख्नुहोस्",
+      "bytes": 6399,
+      "seconds": 1.463,
+      "sha256": "08a7d9e1587e478bb0baff31d1f62167e6474179a847461f81962450642f4203"
+    },
+    "audioLoading": {
+      "textHash": "68479d8669babe7192331d4d81928d0a7c23df9b2983616f711923a24e47a920",
+      "spoken": "अडियो लोड गर्दै...",
+      "bytes": 6594,
+      "seconds": 1.509,
+      "sha256": "d6efb6599e4262d997de091532f83e383c5beb22a60c54ad999765a43df3b663"
+    },
+    "audioRetry": {
+      "textHash": "469032ba4aa93e5e286cdd1b18e9d615db2d5d7c5dfe96dcbe6e2f211d29f3bb",
+      "spoken": "पुन: प्रयास गर्नुहोस्",
+      "bytes": 8224,
+      "seconds": 1.904,
+      "sha256": "b9be9fa7f365c84c030073a13188d8992bc3868d896803425652f1dba5946d67"
+    },
+    "audioBlocked": {
+      "textHash": "8b93014c9c894af80916ef57aebf77004ed2fb3a6187ddc968809aa586ec1dd2",
+      "spoken": "अर्को भाग खेल्न सुन्न जारी राख्नुहोस् ट्याप गर्नुहोस्।",
+      "bytes": 13890,
+      "seconds": 3.32,
+      "sha256": "138f105190e3881345ab67a1b485639d453852fceefc359d912610ede44464a7"
+    },
+    "audioData": {
+      "textHash": "34d644acf7dd30408abb00e2b74cd1da89dd54e60a31d499683f0571b0f48ab2",
+      "spoken": "तपाईंले सुन्दा मात्र अडियो लोड हुन्छ। हालै प्ले गरिएका निर्देशनहरू समर्थित ब्राउजरहरूमा अफलाइन काम गर्न सक्छन्। पहिलो पटक सुन्न इन्टरनेट चाहिन्छ।",
+      "bytes": 36063,
+      "seconds": 8.858,
+      "sha256": "d7f67ed0d7dfbe1df60e3c3d1d50ce96ad8a6478409c2a785504a934149d3904"
+    },
+    "audioDraft": {
+      "textHash": "da3e2d7dcb47af1c6af956c056fb9c303ba71c164c9ec723834df6923354ad99",
+      "spoken": "यी कम्प्युटर-उत्पन्न आवाजहरू हुन्। उच्चारण अझै पनि समीक्षा भइरहेको छ। यदि तपाईंले फरक सुन्नुभयो भने लिखित निर्देशनहरू पालना गर्नुहोस्।",
+      "bytes": 36736,
+      "seconds": 9.044,
+      "sha256": "a12b6e58689d3f849234a28465e46331013e79bc0d404b3ce4c2fcb178470653"
+    },
+    "audioStart": {
+      "textHash": "0ee0a0cd8c840dd52fff2623cece01ac82aa8e45b7beb041eec7b4dd6a511f39",
+      "spoken": "सुन्नुहोस्",
+      "bytes": 5056,
+      "seconds": 1.126,
+      "sha256": "8d812956207c9a798bf9a2b02aa6a57a93719a00b5ad29cf602fe2be059a48eb"
+    },
+    "audioCache": {
+      "textHash": "cf92b430b23c443759448b41a884b16712149fe8a58d789679b11634e6471a77",
+      "spoken": "भर्खरै प्ले गरिएको अडियो",
+      "bytes": 8704,
+      "seconds": 2.032,
+      "sha256": "ecaf4915d7802c359f8fa2ea418a57a58c05a3d7e366c287e4545d91afbf6391"
+    },
+    "clearAudio": {
+      "textHash": "def35aa06ce5aaa96310d14aa6453671aac9ef3b7b77f5c981ef5b0efc89547f",
+      "spoken": "सुरक्षित गरिएको अडियो हटाउनुहोस्",
+      "bytes": 10144,
+      "seconds": 2.392,
+      "sha256": "8e8f7ffaeda2786332c3c0bb8afc13c62f31218efe333e408fb5b652469203de"
+    },
+    "audioCleared": {
+      "textHash": "945dc008020cd5a3fd49d8c0fbb0e864692bcb87a897d4cd577226f934818531",
+      "spoken": "सुरक्षित गरिएको अडियो हटाइयो। तपाईंको खाता सूची अपरिवर्तित छ।",
+      "bytes": 18114,
+      "seconds": 4.389,
+      "sha256": "cb190dd86cc3f3bfe93d53a51f1dcdeb25bb345863cbf05887db841c8e5dc075"
+    },
+    "audioPrivacy": {
+      "textHash": "b1e75ec2eb2e7d0e98ecf419e64d3f012cc3695aab135a6c833f0951a4db139a",
+      "spoken": "फेरि सुन्न सार्वजनिक निर्देशनहरू मात्र सुरक्षित गरिन्छ। अडियो अनुरोध यस वेबसाइटबाट गरिन्छ; तपाईंले भरेका विवरण आवाज सेवामा पठाइँदैनन्। होस्टिङ अभिलेखमा तपाईंको IP ठेगाना र मागिएका अडियो फाइलहरू हुन सक्छन्।",
+      "bytes": 54306,
+      "seconds": 13.421,
+      "sha256": "5495f88271b4638da3999bdd891fe54c0adaab1bbde08ac2942109ee6dafe15e"
+    }
+  }
+}

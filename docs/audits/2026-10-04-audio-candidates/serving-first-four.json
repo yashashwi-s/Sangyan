@@ -1,0 +1,175 @@
+{
+  "date": "2026-10-03T21:38:34.433Z",
+  "origin": "http://127.0.0.1:4173",
+  "pages": [
+    {
+      "language": "en",
+      "status": 200,
+      "localeKeys": 369
+    },
+    {
+      "language": "hi",
+      "status": 200,
+      "localeKeys": 369
+    },
+    {
+      "language": "as",
+      "status": 200,
+      "localeKeys": 369
+    },
+    {
+      "language": "bn",
+      "status": 200,
+      "localeKeys": 369
+    },
+    {
+      "language": "doi",
+      "status": 200,
+      "localeKeys": 369
+    },
+    {
+      "language": "gu",
+      "status": 200,
+      "localeKeys": 369
+    },
+    {
+      "language": "kn",
+      "status": 200,
+      "localeKeys": 369
+    },
+    {
+      "language": "kok",
+      "status": 200,
+      "localeKeys": 369
+    },
+    {
+      "language": "mai",
+      "status": 200,
+      "localeKeys": 369
+    },
+    {
+      "language": "ml",
+      "status": 200,
+      "localeKeys": 369
+    },
+    {
+      "language": "mni",
+      "status": 200,
+      "localeKeys": 369
+    },
+    {
+      "language": "mr",
+      "status": 200,
+      "localeKeys": 369
+    },
+    {
+      "language": "ne",
+      "status": 200,
+      "localeKeys": 369
+    },
+    {
+      "language": "or",
+      "status": 200,
+      "localeKeys": 369
+    },
+    {
+      "language": "pa",
+      "status": 200,
+      "localeKeys": 369
+    },
+    {
+      "language": "sa",
+      "status": 200,
+      "localeKeys": 369
+    },
+    {
+      "language": "sat",
+      "status": 200,
+      "localeKeys": 369
+    },
+    {
+      "language": "sd",
+      "status": 200,
+      "localeKeys": 369
+    },
+    {
+      "language": "ta",
+      "status": 200,
+      "localeKeys": 369
+    },
+    {
+      "language": "te",
+      "status": 200,
+      "localeKeys": 369
+    },
+    {
+      "language": "ur",
+      "status": 200,
+      "localeKeys": 369
+    }
+  ],
+  "audio": [
+    {
+      "language": "en",
+      "revision": "6ef9a3aee944",
+      "clips": 357,
+      "rangeStatus": 206
+    },
+    {
+      "language": "hi",
+      "revision": "4f32cccd402b",
+      "clips": 357,
+      "rangeStatus": 206
+    },
+    {
+      "language": "bn",
+      "revision": "caedb24a5927",
+      "clips": 357,
+      "rangeStatus": 206
+    },
+    {
+      "language": "mr",
+      "revision": "9f25a0f08652",
+      "clips": 357,
+      "rangeStatus": 206
+    },
+    {
+      "language": "ta",
+      "revision": "90759f22f698",
+      "clips": 357,
+      "rangeStatus": 206
+    },
+    {
+      "language": "ur",
+      "revision": "f99c9412fe68",
+      "clips": 357,
+      "rangeStatus": 206
+    },
+    {
+      "language": "gu",
+      "revision": "cd14541a4c8c",
+      "clips": 357,
+      "rangeStatus": 206
+    },
+    {
+      "language": "pa",
+      "revision": "ff17ff86f0db",
+      "clips": 357,
+      "rangeStatus": 206
+    },
+    {
+      "language": "kn",
+      "revision": "4e612b00d4c3",
+      "clips": 357,
+      "rangeStatus": 206
+    },
+    {
+      "language": "te",
+      "revision": "052e175d7ee8",
+      "clips": 357,
+      "rangeStatus": 206
+    }
+  ],
+  "errors": [],
+  "note": "Public HTTP integrity checks only; no account inputs, browser interaction, pronunciation or real-device assessment."
+}

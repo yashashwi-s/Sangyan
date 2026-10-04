@@ -1,0 +1,90 @@
+{
+  "language": "as",
+  "revision": "01898183f6a0",
+  "model": {
+    "model": "facebook/mms-tts-asm",
+    "revision": "c9472cc5e1ea965e4b57c147426ed826197d3ae2",
+    "license": "CC-BY-NC-4.0",
+    "languageCode": "as",
+    "files": {
+      "config.json": {
+        "sha256": "b9c234cee6a668db5c83a7358f40e9fa1a2d4ad7d6a5a904f0d6531d3e658bf1",
+        "bytes": 1641
+      },
+      "tokenizer_config.json": {
+        "sha256": "696699ade174c461f0b1effc0a50278ee2e286e90e6d54b935c5853632e7b5d7",
+        "bytes": 287
+      },
+      "vocab.json": {
+        "sha256": "10eff2c2120047752c07921cd42cc789c83cea8242f1906931f3ce3ed3d56c4c",
+        "bytes": 839
+      },
+      "special_tokens_map.json": {
+        "sha256": "845f635933c404f060a1d7a2f4c4494bf4a91f8ebec99a41108778d026426dfc",
+        "bytes": 47
+      },
+      "model.safetensors": {
+        "sha256": "f6b652b61d6dbd338ad4c2b4662e3f92b070a303d81a257607adb0103091f0a8",
+        "bytes": 145249016
+      },
+      "README.md": {
+        "sha256": "38d192764a03e509594c6b1692c9127aa024989f8bd3ed0a1c8cd12c42d1a5d8",
+        "bytes": 3981
+      }
+    }
+  },
+  "license": "CC-BY-NC-4.0",
+  "fluentReview": false,
+  "scope": "sample",
+  "entries": {
+    "homeTitle": {
+      "textHash": "d5549c977990152e2edeb456fa07bd7bbdebd141b47486c4f9ba675acef06b03",
+      "spoken": "আপোনাৰ পৰিয়ালৰ একাউণ্ট বিচাৰি পোৱাটো সহজ কৰি তোলক।",
+      "bytes": 14270,
+      "seconds": 3.418,
+      "sha256": "3ca26e5a0f73b424af82742801201aba4faa4552ceef346f0999d924136c18c5"
+    },
+    "nomineeExplain": {
+      "textHash": "536cc14399947ea71db623fd56272791aa99f0474326f522bad58a0b9e70bee7",
+      "spoken": "মনোনীত ব্যক্তি হ’ল এনে এজন ব্যক্তি যাৰ পৰা একাউণ্টধাৰীৰ মৃত্যুৰ পিছত প্ৰতিষ্ঠানে দাবী গ্ৰহণ কৰিব পাৰে। মনোনয়নে প্ৰক্ৰিয়াত সহায় কৰে; আইনগত উত্তৰাধিকাৰী কোন হ’ব সেয়া নিৰ্ধাৰণ নকৰে। পৰীক্ষা কৰা নাই যদি “নিশ্চিত নহয়” বাছক।",
+      "bytes": 60739,
+      "seconds": 15.048,
+      "sha256": "15416e89688a78d0aa8d131c172dcd0910d57ee93bafce941717c75de21bbecf"
+    },
+    "receiptExample": {
+      "textHash": "193dcacd77c55252f65f7b71a2a08349106ec7ed558b23841d574d36ec439b68",
+      "spoken": "“আপোনাৰ অনুৰোধ লাভ কৰা হৈছে” মানে অনুৰোধ বাকী আছে।",
+      "bytes": 16099,
+      "seconds": 3.866,
+      "sha256": "90daf7e1e1b29322d39366651cec473282a98d52595a1e478c9431003dd81c08"
+    },
+    "registeredExample": {
+      "textHash": "9e66fa8dad7f561164a18d3129cfb6a8cb2ebb441786583e320904c57b8de350",
+      "spoken": "“মনোনয়ন পঞ্জীয়ন কৰা” বা “মনোনয়ন: হয়” পঞ্জীয়ন ৰেকৰ্ড কৰে। ই এই একাউণ্টটো চিনাক্ত কৰে পৰীক্ষা কৰক।",
+      "bytes": 28966,
+      "seconds": 7.086,
+      "sha256": "47bb5cf14f4368163cee6cd25198054b0f587a02c07ea7c7d1d3a63d77f40330"
+    },
+    "helpScopeText": {
+      "textHash": "e6011c4503d4c71a0ffefd9684ccac9c6a2b201244c362cd208dc866a0ddf1e4",
+      "spoken": "এই প্ৰক্ৰিয়া জীৱিত একাউণ্টধাৰীৰ মনোনয়নৰ ব্যৱস্থা কৰাৰ বাবে। একাউণ্টধাৰীৰ মৃত্যু হ’লে প্ৰতিষ্ঠানক মৃত একাউণ্টধাৰীৰ দাবী বা সম্পত্তি হস্তান্তৰৰ প্ৰক্ৰিয়া সোধক। তেওঁৰ হৈ নতুন মনোনয়ন আৰম্ভ নকৰিব।",
+      "bytes": 55266,
+      "seconds": 13.662,
+      "sha256": "ab13c2dcfd2943d3a4332543838f5a258a2abd15e132d7b4cae0d32a2b45e76f"
+    },
+    "passwordHelp": {
+      "textHash": "a3b0d63ae1e9c8bb140fbc180cae92f8f1d055aed651c43cb597fd18286bdaf0",
+      "spoken": "কমেও বাৰটা আখৰ। ইয়াক সুৰক্ষিত কৰি ৰাখক; আমি ইয়াক উদ্ধাৰ কৰিব নোৱাৰো।",
+      "bytes": 19649,
+      "seconds": 4.766,
+      "sha256": "5e4c0c5007235e3acc69d4f2e800c6eeae3a71a5fcf8c6aee8add1d3b0d713b0"
+    },
+    "privacyDetail": {
+      "textHash": "7686abd29abedaeaa8e6cba824dc40d6a1d370ff475bcbf6afd493e2f2ab51f6",
+      "spoken": "আপোনাৰ তালিকা ব্ৰাউজাৰ মেম’ৰীত থাকে। পুনৰ লোড কৰিলে ইয়াক পৰিষ্কাৰ কৰা হয়। পিছত ঘূৰাই দিবলৈ এটা ইনক্ৰিপ্ট কৰা ফাইল সংৰক্ষণ কৰক। ডাউনলোডসমূহ আপোনাৰ ডিভাইচত থাকে।",
+      "bytes": 46914,
+      "seconds": 11.592,
+      "sha256": "76c462d6a61b3f200ac649dc5b444d9e1793b7f6bd9f2f65a56a00140ad0692f"
+    }
+  }
+}

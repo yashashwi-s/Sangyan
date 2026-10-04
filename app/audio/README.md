@@ -1,10 +1,10 @@
 # Bundled public instructions
 
-The app plays small MP3 recordings in English, Hindi, Bengali, Marathi, Tamil and Urdu. It never sends user text to a speech service and never depends on an installed device voice. Browser media playback and a connection for a clip's first use are required. Recently played clips are cached where service workers and browser storage work; eviction/private browsing can remove that cache.
+The app offers 21 text languages and plays small MP3 recordings in 16: English, Hindi, Bengali, Marathi, Tamil, Urdu, Gujarati, Punjabi, Kannada, Telugu, Malayalam, Assamese, Odia, Dogri, Maithili and Nepali. Konkani, Manipuri/Meitei, Sanskrit, Santali and Sindhi remain text-only. It never sends user text to a speech service and never depends on an installed device voice. Browser media playback and a connection for a clip's first use are required. Recently played clips are cached where service workers and browser storage work; eviction/private browsing can remove that cache.
 
-These are **prototype synthetic recordings, not fluent-speaker-approved voices**. Meta MMS supplies one language-specific voice per model. The English model is not an Indian-accent guarantee. Regional script coverage and explicit pronunciation spellings prevent important Latin menu labels from disappearing. Comprehension, naturalness and accent suitability need target-user listening review; an automated waveform check cannot prove them.
+These are **prototype synthetic recordings, not fluent-speaker-approved voices**. Meta MMS supplies fifteen language-specific packs; Nepali uses the separately attributed Piper Chitwan voice. The English model is not an Indian-accent guarantee. Regional script/phoneme checks prevent unsupported symbols from being silently dropped; documented phonetic aliases remain pronunciation risks. Comprehension, naturalness and accent suitability need target-user listening review; an automated waveform check cannot prove them.
 
-## Rebuild
+## Rebuild the original six MMS packs
 
 1. In an isolated Python environment install `requirements.txt`; install FFmpeg from its official distribution.
 2. Download `config.json`, `tokenizer_config.json`, `vocab.json`, `special_tokens_map.json` and `model.safetensors` from the pinned Meta model repositories/revisions in the six `recordings-*.json` files. Put each model in a directory named for its ISO code (`eng`, `hin`, `ben`, `mar`, `tam`, `urd-script_arabic`). Include `source.json` containing that report's `model` object.
@@ -18,3 +18,12 @@ Only the public dictionary is accepted by the build. Reports retain normalized s
 ## License and provenance
 
 Generated using Meta AI's [Massively Multilingual Speech](https://github.com/facebookresearch/fairseq/tree/main/examples/mms) VITS checkpoints: [English](https://huggingface.co/facebook/mms-tts-eng), [Hindi](https://huggingface.co/facebook/mms-tts-hin), [Bengali](https://huggingface.co/facebook/mms-tts-ben), [Marathi](https://huggingface.co/facebook/mms-tts-mar), [Tamil](https://huggingface.co/facebook/mms-tts-tam), [Urdu](https://huggingface.co/facebook/mms-tts-urd-script_arabic). Models are licensed **CC BY-NC 4.0**; see the linked model cards and [license](https://creativecommons.org/licenses/by-nc/4.0/). Keep this prototype and recordings non-commercial. Attribution: Vineel Pratap et al., Meta AI, *Scaling Speech Technology to 1,000+ Languages* (2023), [paper](https://arxiv.org/abs/2305.13516). Virasat supplies the instruction text, pronunciation mappings, synthesis, normalization and compression; Meta does not endorse Virasat. No person's voice was cloned for this project.
+
+## Expansion staging
+
+`export-audio-text.mjs` now defaults to all sixteen released languages, 357 fixed public strings each. The nine additional MMS packs are rebuilt with `prepare-audio-runtime.py`, `prepare-audio-models.py`, `run-audio-candidates.py`, complete validation and promotion, described in [the expansion checkpoints](../../docs/audio-expansion-plan-2026-10-04.md). Nepali has its own provider pipeline below. Candidate exports require a separate output and do not enable listening or replace released source. After all recordings match current text/model/rules, run `npm --prefix app run check:release` to verify the complete registry/catalog/credits and rebuild the offline shell. Every advertised language must have all real files; a changed label alone fails release checks.
+
+
+## Separate Nepali voice provider
+
+Nepali uses the public pinned Piper Chitwan medium voice (MIT repository metadata, CC0 dataset), distinct from the fifteen Meta MMS packs. Piper 1.8.0/GPL-3.0 is build-only. Model weights and dependencies are never public assets. The exact 357-key source, no-alias phoneme preflight, independent full MP3 validation and model/card hashes are retained. See [source/licensing/build steps and review limits](../../docs/audio-remaining-languages-2026-10-04.md). No fluent listening or semantic certification is claimed.

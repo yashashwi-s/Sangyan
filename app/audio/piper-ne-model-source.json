@@ -1,0 +1,28 @@
+{
+  "repo": "rhasspy/piper-voices",
+  "revision": "c10ece1aade47bb51c153c893d14e5bf8e5b7117",
+  "repoLicense": "MIT",
+  "datasetLicense": "CC0",
+  "language": "ne_NP",
+  "espeakVoice": "ne",
+  "files": [
+    {
+      "path": "MODEL_CARD",
+      "url": "https://huggingface.co/rhasspy/piper-voices/resolve/c10ece1aade47bb51c153c893d14e5bf8e5b7117/ne/ne_NP/chitwan/medium/MODEL_CARD",
+      "bytes": 276,
+      "sha256": "127e85643329612dbebd7a071dd0f69a03439ceecdec5b637ed8641379b4ba00"
+    },
+    {
+      "path": "ne_NP-chitwan-medium.onnx",
+      "url": "https://huggingface.co/rhasspy/piper-voices/resolve/c10ece1aade47bb51c153c893d14e5bf8e5b7117/ne/ne_NP/chitwan/medium/ne_NP-chitwan-medium.onnx",
+      "bytes": 62950044,
+      "sha256": "f7ba6b0927688f92717e93ca52bc06f5783ce8edc765d5f85365acef1d41822c"
+    },
+    {
+      "path": "ne_NP-chitwan-medium.onnx.json",
+      "url": "https://huggingface.co/rhasspy/piper-voices/resolve/c10ece1aade47bb51c153c893d14e5bf8e5b7117/ne/ne_NP/chitwan/medium/ne_NP-chitwan-medium.onnx.json",
+      "bytes": 5043,
+      "sha256": "18d523b03b201422d14e2892cc750a81208d2e45158a9c6a7e4e06a500930dee"
+    }
+  ]
+}

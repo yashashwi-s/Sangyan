@@ -1,0 +1,90 @@
+{
+  "language": "gu",
+  "revision": "cd14541a4c8c",
+  "model": {
+    "model": "facebook/mms-tts-guj",
+    "revision": "b72e80a7eeca90b72e0af2e2d00b77a336ce242d",
+    "license": "CC-BY-NC-4.0",
+    "languageCode": "gu",
+    "files": {
+      "config.json": {
+        "sha256": "469fadd8556d44b2d0c08c951d244613390507aa0a02144a9af508017f37531d",
+        "bytes": 1641
+      },
+      "tokenizer_config.json": {
+        "sha256": "7c877d09111eae430f171f55fe7cc34b30f5b0e88139f3ce3e39ee05b7dfd334",
+        "bytes": 287
+      },
+      "vocab.json": {
+        "sha256": "a1c7c6c2a668132beb7f1df59e5266b10abb2e88bd1e952b056914646dd775b6",
+        "bytes": 765
+      },
+      "special_tokens_map.json": {
+        "sha256": "845f635933c404f060a1d7a2f4c4494bf4a91f8ebec99a41108778d026426dfc",
+        "bytes": 47
+      },
+      "model.safetensors": {
+        "sha256": "f1f4e01188507d3cc8526d1326a6f1c8a9b51e5fd9abe7a92b500326808a0c6a",
+        "bytes": 145244408
+      },
+      "README.md": {
+        "sha256": "b5f489a79061df7cf9fa0cf68b39ed0f30bf6d6eef91b49ed8bbd8c6001ebded",
+        "bytes": 3981
+      }
+    }
+  },
+  "license": "CC-BY-NC-4.0",
+  "fluentReview": false,
+  "scope": "sample",
+  "entries": {
+    "homeTitle": {
+      "textHash": "b11f3ad2b79657efc772c980bdccef9347efd7858c891cf07db04a0cd3ea7d88",
+      "spoken": "તમારા પરિવારનાં ખાતાં શોધવાં સરળ બનાવો.",
+      "bytes": 12062,
+      "seconds": 2.874,
+      "sha256": "d59b643e61dbcc9932149f261cb80947a176ef5e37ed14773ff51c6076b0dece"
+    },
+    "nomineeExplain": {
+      "textHash": "efcb039e2c93772c924c9c5b60fc7a2c5c2a85af3c0465df49ca932c1c96ec14",
+      "spoken": "નોમિની એ વ્યક્તિ છે જેના પાસેથી ખાતાધારકના મૃત્યુ પછી સંસ્થા દાવો સ્વીકારી શકે છે. નોમિનેશન પ્રક્રિયામાં મદદ કરે છે; કાયદેસર વારસદાર કોણ છે તે નક્કી કરતું નથી. તપાસ ન કરી હોય તો “ખાતરી નથી” પસંદ કરો.",
+      "bytes": 65347,
+      "seconds": 16.2,
+      "sha256": "d61747b1a87edc83f8dd01fa172a12fede9f25385b13a1d76d302e81346ead0c"
+    },
+    "receiptExample": {
+      "textHash": "8fcb0ebc9d914a6be4f7f8ad1328060778e7c7923b2935ff4b6d8632c0546782",
+      "spoken": "“તમારી વિનંતી મળી છે” એટલે વિનંતી હજી બાકી છે.",
+      "bytes": 14179,
+      "seconds": 3.402,
+      "sha256": "cc37c18c7b459d4d442ce85f8c78a2a7def21ff7a511e63bb8d5c7d7da6e587f"
+    },
+    "registeredExample": {
+      "textHash": "fbd6592e612cc8d424e17a0b8d9b2b1886d110b01e94581eefeb3c7ca6103de9",
+      "spoken": "“નોમિનેશન નોંધાયેલ” અથવા “નોમિનેશન: હા” નોંધણી દર્શાવે છે. તેમાં આ ખાતાની ઓળખ છે તે તપાસો.",
+      "bytes": 29542,
+      "seconds": 7.242,
+      "sha256": "3e0161ad59c326eedac5c255ea4310e0d1b62d4fe8028806c168590531d7b724"
+    },
+    "helpScopeText": {
+      "textHash": "b2b437fdf67a49066ff64dd297d61a6cf50464cd88162fd3874fda31cd60e320",
+      "spoken": "આ પ્રક્રિયા જીવિત ધારકના નોમિનેશન માટે છે. ધારકનું મૃત્યુ થયું હોય તો સંસ્થાને મૃત ધારકનો દાવો અથવા સંપત્તિ હસ્તાંતરણની પ્રક્રિયા પૂછો. તેમના વતી નવું નોમિનેશન શરૂ ન કરો.",
+      "bytes": 49122,
+      "seconds": 12.142,
+      "sha256": "7347b4fbff32386f9a14776eb8da92db808e2db0f55129c71990299b014bc771"
+    },
+    "passwordHelp": {
+      "textHash": "ac2808fbbcb4f701995e3eb107be81d8aca72c9e1fa95cd8fe2024776ce0ed29",
+      "spoken": "ઓછામાં ઓછા બાર અક્ષર. સુરક્ષિત રાખો; અમે તેને પાછો મેળવી શકતા નથી.",
+      "bytes": 24065,
+      "seconds": 5.875,
+      "sha256": "fa2b6de9c6e50b060518a52199550239592dfa96f27a1b1de882182f5fef98fe"
+    },
+    "privacyDetail": {
+      "textHash": "2e3b39da4405751e55ada748509db2c80ad5e6d655683d072d7b41ca7d2a0f2f",
+      "spoken": "તમારી યાદી બ્રાઉઝરની મેમરીમાં રહે છે. પૃષ્ઠ ફરી લોડ કરવાથી તે મટી જાય છે. પછી પાછા આવવા એન્ક્રિપ્ટ કરેલી ફાઇલ સાચવો. ડાઉનલોડ તમારા ઉપકરણમાં રહે છે.",
+      "bytes": 45858,
+      "seconds": 11.319,
+      "sha256": "1be007fd4b1bfac6a5a194175c07044a2d8ce889d31076c6d335140440fd80e3"
+    }
+  }
+}

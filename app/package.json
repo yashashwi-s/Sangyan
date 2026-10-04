@@ -6,7 +6,10 @@
   "scripts": {
     "dev": "node server.mjs",
     "test": "node --test tests/*.test.mjs",
-    "build:public": "node scripts/build-locales.mjs"
+    "build:public": "node scripts/build-locales.mjs",
+    "build:audio": "node scripts/build-audio.mjs",
+    "check:languages": "node scripts/check-translations.mjs",
+    "check:release": "npm run build:audio && npm run build:public && npm run check:languages && npm test"
   },
   "engines": {
     "node": ">=22"

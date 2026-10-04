@@ -1,0 +1,115 @@
+{
+  "status": "incomplete-not-released",
+  "missingLanguages": [
+    "brx",
+    "ks"
+  ],
+  "humanReview": false,
+  "languagePacks": [
+    {
+      "language": "as",
+      "keys": 369,
+      "gzipBytes": 11760
+    },
+    {
+      "language": "bn",
+      "keys": 369,
+      "gzipBytes": 9837
+    },
+    {
+      "language": "doi",
+      "keys": 369,
+      "gzipBytes": 12348
+    },
+    {
+      "language": "en",
+      "keys": 369,
+      "gzipBytes": 8852
+    },
+    {
+      "language": "gu",
+      "keys": 369,
+      "gzipBytes": 10428
+    },
+    {
+      "language": "hi",
+      "keys": 369,
+      "gzipBytes": 10203
+    },
+    {
+      "language": "kn",
+      "keys": 369,
+      "gzipBytes": 11595
+    },
+    {
+      "language": "kok",
+      "keys": 369,
+      "gzipBytes": 11565
+    },
+    {
+      "language": "mai",
+      "keys": 369,
+      "gzipBytes": 12126
+    },
+    {
+      "language": "ml",
+      "keys": 369,
+      "gzipBytes": 12441
+    },
+    {
+      "language": "mni",
+      "keys": 369,
+      "gzipBytes": 11720
+    },
+    {
+      "language": "mr",
+      "keys": 369,
+      "gzipBytes": 10317
+    },
+    {
+      "language": "ne",
+      "keys": 369,
+      "gzipBytes": 11367
+    },
+    {
+      "language": "or",
+      "keys": 369,
+      "gzipBytes": 11660
+    },
+    {
+      "language": "pa",
+      "keys": 369,
+      "gzipBytes": 10393
+    },
+    {
+      "language": "sa",
+      "keys": 369,
+      "gzipBytes": 12417
+    },
+    {
+      "language": "sat",
+      "keys": 369,
+      "gzipBytes": 11363
+    },
+    {
+      "language": "sd",
+      "keys": 369,
+      "gzipBytes": 10795
+    },
+    {
+      "language": "ta",
+      "keys": 369,
+      "gzipBytes": 10600
+    },
+    {
+      "language": "te",
+      "keys": 369,
+      "gzipBytes": 11716
+    },
+    {
+      "language": "ur",
+      "keys": 369,
+      "gzipBytes": 9681
+    }
+  ]
+}

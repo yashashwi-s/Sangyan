@@ -1,0 +1,986 @@
+{
+  "date": "2026-10-04T05:17:58.543Z",
+  "runtime": "v26.0.0",
+  "platform": "darwin",
+  "architecture": "arm64",
+  "sourceSha256": "b81443b14aa9c10721a1d1d39c83887d179c2bd069782e410dff8d11bba783da",
+  "publicSha256": "3534dbf6ec4c83d827a88cd19e94ce33825945fa43aa2a62663e40070f7cc83c",
+  "server": "current app/server.mjs local preview, not production Vercel server",
+  "transport": "loopback HTTP/1.1, persistent connections, no TLS or radio",
+  "limits": {
+    "port": 4198,
+    "fanout": 4,
+    "repeats": 3,
+    "admissionMs": 5000,
+    "maxRequests": 1000,
+    "maxWireBytes": 33554432,
+    "timeoutMs": 3000,
+    "runDrainMs": 5000,
+    "globalLimitMs": 120000
+  },
+  "workload": [
+    {
+      "path": "/hi",
+      "kind": "document",
+      "range": null,
+      "sourceBytes": 6816
+    },
+    {
+      "path": "/styles.css",
+      "kind": "asset",
+      "range": null,
+      "sourceBytes": 24988
+    },
+    {
+      "path": "/favicon.svg",
+      "kind": "asset",
+      "range": null,
+      "sourceBytes": 208
+    },
+    {
+      "path": "/audio-catalog.js",
+      "kind": "asset",
+      "range": null,
+      "sourceBytes": 77406
+    },
+    {
+      "path": "/export-font.js",
+      "kind": "asset",
+      "range": null,
+      "sourceBytes": 1179
+    },
+    {
+      "path": "/guides.js",
+      "kind": "asset",
+      "range": null,
+      "sourceBytes": 3405
+    },
+    {
+      "path": "/institutions.js",
+      "kind": "asset",
+      "range": null,
+      "sourceBytes": 14962
+    },
+    {
+      "path": "/languages.js",
+      "kind": "asset",
+      "range": null,
+      "sourceBytes": 1266
+    },
+    {
+      "path": "/locale-catalog.js",
+      "kind": "asset",
+      "range": null,
+      "sourceBytes": 860
+    },
+    {
+      "path": "/locale-retry.js",
+      "kind": "asset",
+      "range": null,
+      "sourceBytes": 1178
+    },
+    {
+      "path": "/locale.js",
+      "kind": "asset",
+      "range": null,
+      "sourceBytes": 3355
+    },
+    {
+      "path": "/main.js",
+      "kind": "asset",
+      "range": null,
+      "sourceBytes": 64869
+    },
+    {
+      "path": "/privacy.js",
+      "kind": "asset",
+      "range": null,
+      "sourceBytes": 2593
+    },
+    {
+      "path": "/speech.js",
+      "kind": "asset",
+      "range": null,
+      "sourceBytes": 4090
+    },
+    {
+      "path": "/tracker.js",
+      "kind": "asset",
+      "range": null,
+      "sourceBytes": 12988
+    },
+    {
+      "path": "/locales/hi-729c30979e72.json",
+      "kind": "dictionary",
+      "range": null,
+      "sourceBytes": 48241
+    },
+    {
+      "path": "/audio/hi/4f32cccd402b/homeTitle.mp3",
+      "kind": "fullAudio",
+      "range": null,
+      "sourceBytes": 11870
+    },
+    {
+      "path": "/audio/hi/4f32cccd402b/homeIntro.mp3",
+      "kind": "fullAudio",
+      "range": null,
+      "sourceBytes": 26462
+    },
+    {
+      "path": "/audio/hi/4f32cccd402b/howWorksText.mp3",
+      "kind": "fullAudio",
+      "range": null,
+      "sourceBytes": 38657
+    },
+    {
+      "path": "/audio/hi/4f32cccd402b/homeTitle.mp3",
+      "kind": "audioRange",
+      "range": "bytes=0-1023",
+      "sourceBytes": 11870
+    }
+  ],
+  "clipDurations": [
+    {
+      "path": "/audio/hi/4f32cccd402b/homeTitle.mp3",
+      "seconds": 2.81975
+    },
+    {
+      "path": "/audio/hi/4f32cccd402b/homeIntro.mp3",
+      "seconds": 6.477625
+    },
+    {
+      "path": "/audio/hi/4f32cccd402b/howWorksText.mp3",
+      "seconds": 9.510333
+    }
+  ],
+  "requestsPerCompleteJourney": 20,
+  "runs": [
+    {
+      "repetition": 1,
+      "journeyConcurrency": 1,
+      "maxRequestConcurrency": 4,
+      "observedPeakRequests": 4,
+      "elapsedMs": 393.40099999999984,
+      "finishedJourneys": 50,
+      "partialJourneys": 0,
+      "admittedRequests": 1000,
+      "completedRequests": 1000,
+      "wireBytes": 6857800,
+      "requestsPerSecond": 2541.935582268475,
+      "completeSyntheticJourneysPerSecond": 127.09677911342376,
+      "latency": {
+        "count": 1000,
+        "p50Ms": 0.6268330000000333,
+        "p95Ms": 2.0835830000000897,
+        "p99Ms": 2.3963330000001406,
+        "maxMs": 4.534875000000056
+      },
+      "completeJourneyLatency": {
+        "count": 50,
+        "p50Ms": 7.394749999999931,
+        "p95Ms": 10.536957999999913,
+        "p99Ms": 11.001291000000037,
+        "maxMs": 11.001291000000037
+      },
+      "byKind": {
+        "document": {
+          "count": 50,
+          "p50Ms": 0.34320900000011534,
+          "p95Ms": 0.500583000000006,
+          "p99Ms": 0.5346250000000055,
+          "maxMs": 0.5346250000000055,
+          "wireBytes": 143800
+        },
+        "asset": {
+          "count": 700,
+          "p50Ms": 0.7263749999999618,
+          "p95Ms": 1.8751250000000255,
+          "p99Ms": 2.2465839999999844,
+          "maxMs": 3.488790999999992,
+          "wireBytes": 2286600
+        },
+        "dictionary": {
+          "count": 50,
+          "p50Ms": 2.130042000000003,
+          "p95Ms": 2.452291999999943,
+          "p99Ms": 4.534875000000056,
+          "maxMs": 4.534875000000056,
+          "wireBytes": 526750
+        },
+        "fullAudio": {
+          "count": 150,
+          "p50Ms": 0.24579199999993762,
+          "p95Ms": 0.36587499999996,
+          "p99Ms": 1.1723750000001019,
+          "maxMs": 1.2038330000000315,
+          "wireBytes": 3849450
+        },
+        "audioRange": {
+          "count": 50,
+          "p50Ms": 0.22354199999995217,
+          "p95Ms": 0.3389999999999418,
+          "p99Ms": 0.4151670000001104,
+          "maxMs": 0.4151670000001104,
+          "wireBytes": 51200
+        }
+      },
+      "errors": [],
+      "stopReason": "request cap",
+      "serverCpuSeconds": 0.41000000000000003,
+      "clientCpuMs": 122.142,
+      "peakSampledServerRssKiB": 84432,
+      "samples": [
+        {
+          "atMs": 2004.039959,
+          "rssKiB": 81136,
+          "sampledCpuPercent": 66.3,
+          "cumulativeCpuSeconds": 0.39,
+          "clientRssBytes": 89800704
+        },
+        {
+          "atMs": 2142.779959,
+          "rssKiB": 84432,
+          "sampledCpuPercent": 81.8,
+          "cumulativeCpuSeconds": 0.54,
+          "clientRssBytes": 90062848
+        }
+      ]
+    },
+    {
+      "repetition": 1,
+      "journeyConcurrency": 3,
+      "maxRequestConcurrency": 12,
+      "observedPeakRequests": 12,
+      "elapsedMs": 310.3725830000003,
+      "finishedJourneys": 48,
+      "partialJourneys": 3,
+      "admittedRequests": 1000,
+      "completedRequests": 1000,
+      "wireBytes": 6713461,
+      "requestsPerSecond": 3221.9340714124837,
+      "completeSyntheticJourneysPerSecond": 154.6528354277992,
+      "latency": {
+        "count": 1000,
+        "p50Ms": 2.086667000000034,
+        "p95Ms": 5.582582999999886,
+        "p99Ms": 6.634457999999995,
+        "maxMs": 9.28170799999998
+      },
+      "completeJourneyLatency": {
+        "count": 48,
+        "p50Ms": 17.13904199999979,
+        "p95Ms": 31.761916999999812,
+        "p99Ms": 31.881708999999773,
+        "maxMs": 31.881708999999773
+      },
+      "byKind": {
+        "document": {
+          "count": 51,
+          "p50Ms": 0.46537499999976717,
+          "p95Ms": 1.4229999999997744,
+          "p99Ms": 2.6282500000002074,
+          "maxMs": 2.6282500000002074,
+          "wireBytes": 146676
+        },
+        "asset": {
+          "count": 709,
+          "p50Ms": 2.3147500000000036,
+          "p95Ms": 4.954917000000023,
+          "p99Ms": 6.371708000000126,
+          "maxMs": 9.28170799999998,
+          "wireBytes": 2316481
+        },
+        "dictionary": {
+          "count": 48,
+          "p50Ms": 5.631666999999652,
+          "p95Ms": 8.304957999999715,
+          "p99Ms": 9.046749999999975,
+          "maxMs": 9.046749999999975,
+          "wireBytes": 505680
+        },
+        "fullAudio": {
+          "count": 144,
+          "p50Ms": 0.2739999999998872,
+          "p95Ms": 4.00933299999997,
+          "p99Ms": 4.744416999999885,
+          "maxMs": 6.109917000000223,
+          "wireBytes": 3695472
+        },
+        "audioRange": {
+          "count": 48,
+          "p50Ms": 0.224250000000211,
+          "p95Ms": 0.36295800000016243,
+          "p99Ms": 0.5097500000001673,
+          "maxMs": 0.5097500000001673,
+          "wireBytes": 49152
+        }
+      },
+      "errors": [],
+      "stopReason": "request cap",
+      "serverCpuSeconds": 0.37,
+      "clientCpuMs": 78.573,
+      "peakSampledServerRssKiB": 86864,
+      "samples": [
+        {
+          "atMs": 2606.553042,
+          "rssKiB": 86592,
+          "sampledCpuPercent": 81.6,
+          "cumulativeCpuSeconds": 0.84,
+          "clientRssBytes": 90718208
+        },
+        {
+          "atMs": 2659.87075,
+          "rssKiB": 86864,
+          "sampledCpuPercent": 81.6,
+          "cumulativeCpuSeconds": 0.91,
+          "clientRssBytes": 90882048
+        }
+      ]
+    },
+    {
+      "repetition": 1,
+      "journeyConcurrency": 6,
+      "maxRequestConcurrency": 24,
+      "observedPeakRequests": 24,
+      "elapsedMs": 288.94624999999996,
+      "finishedJourneys": 48,
+      "partialJourneys": 5,
+      "admittedRequests": 1000,
+      "completedRequests": 1000,
+      "wireBytes": 6692153,
+      "requestsPerSecond": 3460.8512828943103,
+      "completeSyntheticJourneysPerSecond": 166.1208615789269,
+      "latency": {
+        "count": 1000,
+        "p50Ms": 3.806999999999789,
+        "p95Ms": 8.567000000000007,
+        "p99Ms": 11.600832999999966,
+        "maxMs": 20.168707999999697
+      },
+      "completeJourneyLatency": {
+        "count": 48,
+        "p50Ms": 31.900500000000193,
+        "p95Ms": 50.557708000000275,
+        "p99Ms": 54.110749999999825,
+        "maxMs": 54.110749999999825
+      },
+      "byKind": {
+        "document": {
+          "count": 53,
+          "p50Ms": 1.538000000000011,
+          "p95Ms": 4.713833999999679,
+          "p99Ms": 5.480000000000018,
+          "maxMs": 5.480000000000018,
+          "wireBytes": 152428
+        },
+        "asset": {
+          "count": 707,
+          "p50Ms": 4.38058299999966,
+          "p95Ms": 9.37362499999972,
+          "p99Ms": 11.983083000000079,
+          "maxMs": 20.168707999999697,
+          "wireBytes": 2289421
+        },
+        "dictionary": {
+          "count": 48,
+          "p50Ms": 6.477790999999797,
+          "p95Ms": 9.58441700000003,
+          "p99Ms": 11.844916000000012,
+          "maxMs": 11.844916000000012,
+          "wireBytes": 505680
+        },
+        "fullAudio": {
+          "count": 144,
+          "p50Ms": 2.233458000000155,
+          "p95Ms": 7.4655830000001515,
+          "p99Ms": 7.876666999999998,
+          "maxMs": 8.85854100000006,
+          "wireBytes": 3695472
+        },
+        "audioRange": {
+          "count": 48,
+          "p50Ms": 0.7667499999997744,
+          "p95Ms": 2.8674999999998363,
+          "p99Ms": 3.5407500000001164,
+          "maxMs": 3.5407500000001164,
+          "wireBytes": 49152
+        }
+      },
+      "errors": [],
+      "stopReason": "request cap",
+      "serverCpuSeconds": 0.33999999999999997,
+      "clientCpuMs": 48.664,
+      "peakSampledServerRssKiB": 98096,
+      "samples": [
+        {
+          "atMs": 3120.849834,
+          "rssKiB": 98096,
+          "sampledCpuPercent": 79.3,
+          "cumulativeCpuSeconds": 1.22,
+          "clientRssBytes": 89948160
+        },
+        {
+          "atMs": 3153.112959,
+          "rssKiB": 98096,
+          "sampledCpuPercent": 79.3,
+          "cumulativeCpuSeconds": 1.25,
+          "clientRssBytes": 89948160
+        }
+      ]
+    },
+    {
+      "repetition": 2,
+      "journeyConcurrency": 3,
+      "maxRequestConcurrency": 12,
+      "observedPeakRequests": 12,
+      "elapsedMs": 303.6630829999999,
+      "finishedJourneys": 48,
+      "partialJourneys": 3,
+      "admittedRequests": 1000,
+      "completedRequests": 1000,
+      "wireBytes": 6713461,
+      "requestsPerSecond": 3293.12338569651,
+      "completeSyntheticJourneysPerSecond": 158.0699225134325,
+      "latency": {
+        "count": 1000,
+        "p50Ms": 1.9994590000001153,
+        "p95Ms": 5.340333999999984,
+        "p99Ms": 7.229166999999961,
+        "maxMs": 9.895874999999705
+      },
+      "completeJourneyLatency": {
+        "count": 48,
+        "p50Ms": 16.183542000000216,
+        "p95Ms": 32.47833300000002,
+        "p99Ms": 32.549125000000004,
+        "maxMs": 32.549125000000004
+      },
+      "byKind": {
+        "document": {
+          "count": 51,
+          "p50Ms": 0.4689579999999296,
+          "p95Ms": 1.6978340000000571,
+          "p99Ms": 2.1310410000000957,
+          "maxMs": 2.1310410000000957,
+          "wireBytes": 146676
+        },
+        "asset": {
+          "count": 709,
+          "p50Ms": 2.230583999999908,
+          "p95Ms": 4.69079099999999,
+          "p99Ms": 7.096041000000241,
+          "maxMs": 9.279708000000028,
+          "wireBytes": 2316481
+        },
+        "dictionary": {
+          "count": 48,
+          "p50Ms": 5.3784999999998035,
+          "p95Ms": 9.527999999999793,
+          "p99Ms": 9.895874999999705,
+          "maxMs": 9.895874999999705,
+          "wireBytes": 505680
+        },
+        "fullAudio": {
+          "count": 144,
+          "p50Ms": 0.2642080000000533,
+          "p95Ms": 3.8872089999999844,
+          "p99Ms": 4.847332999999708,
+          "maxMs": 6.0248750000000655,
+          "wireBytes": 3695472
+        },
+        "audioRange": {
+          "count": 48,
+          "p50Ms": 0.21662500000002183,
+          "p95Ms": 0.27870800000027884,
+          "p99Ms": 0.2816659999998592,
+          "maxMs": 0.2816659999998592,
+          "wireBytes": 49152
+        }
+      },
+      "errors": [],
+      "stopReason": "request cap",
+      "serverCpuSeconds": 0.3400000000000001,
+      "clientCpuMs": 47.476,
+      "peakSampledServerRssKiB": 98576,
+      "samples": [
+        {
+          "atMs": 3618.616084,
+          "rssKiB": 98576,
+          "sampledCpuPercent": 83.8,
+          "cumulativeCpuSeconds": 1.55,
+          "clientRssBytes": 90062848
+        },
+        {
+          "atMs": 3661.399625,
+          "rssKiB": 98576,
+          "sampledCpuPercent": 83.8,
+          "cumulativeCpuSeconds": 1.59,
+          "clientRssBytes": 90062848
+        }
+      ]
+    },
+    {
+      "repetition": 2,
+      "journeyConcurrency": 6,
+      "maxRequestConcurrency": 24,
+      "observedPeakRequests": 24,
+      "elapsedMs": 284.8330000000001,
+      "finishedJourneys": 48,
+      "partialJourneys": 6,
+      "admittedRequests": 1000,
+      "completedRequests": 1000,
+      "wireBytes": 6694888,
+      "requestsPerSecond": 3510.82915252095,
+      "completeSyntheticJourneysPerSecond": 168.51979932100562,
+      "latency": {
+        "count": 1000,
+        "p50Ms": 4.200125000000298,
+        "p95Ms": 9.644999999999982,
+        "p99Ms": 12.231375000000298,
+        "maxMs": 14.438791999999921
+      },
+      "completeJourneyLatency": {
+        "count": 48,
+        "p50Ms": 31.593459000000166,
+        "p95Ms": 47.63566600000013,
+        "p99Ms": 47.93079100000023,
+        "maxMs": 47.93079100000023
+      },
+      "byKind": {
+        "document": {
+          "count": 54,
+          "p50Ms": 1.300416000000041,
+          "p95Ms": 2.936541000000034,
+          "p99Ms": 3.057916999999634,
+          "maxMs": 3.057916999999634,
+          "wireBytes": 155304
+        },
+        "asset": {
+          "count": 706,
+          "p50Ms": 4.624084000000039,
+          "p95Ms": 9.460916999999881,
+          "p99Ms": 12.002084000000195,
+          "maxMs": 13.315999999999804,
+          "wireBytes": 2289280
+        },
+        "dictionary": {
+          "count": 48,
+          "p50Ms": 8.968541000000187,
+          "p95Ms": 13.928207999999813,
+          "p99Ms": 14.438791999999921,
+          "maxMs": 14.438791999999921,
+          "wireBytes": 505680
+        },
+        "fullAudio": {
+          "count": 144,
+          "p50Ms": 0.3938750000006621,
+          "p95Ms": 7.481999999999971,
+          "p99Ms": 9.414166000000023,
+          "maxMs": 11.804041000000325,
+          "wireBytes": 3695472
+        },
+        "audioRange": {
+          "count": 48,
+          "p50Ms": 0.36804099999972095,
+          "p95Ms": 1.382916000000023,
+          "p99Ms": 1.454957999999806,
+          "maxMs": 1.454957999999806,
+          "wireBytes": 49152
+        }
+      },
+      "errors": [],
+      "stopReason": "request cap",
+      "serverCpuSeconds": 0.33999999999999986,
+      "clientCpuMs": 51.447,
+      "peakSampledServerRssKiB": 99392,
+      "samples": [
+        {
+          "atMs": 4122.844667,
+          "rssKiB": 99312,
+          "sampledCpuPercent": 80,
+          "cumulativeCpuSeconds": 1.89,
+          "clientRssBytes": 90619904
+        },
+        {
+          "atMs": 4151.002167,
+          "rssKiB": 99392,
+          "sampledCpuPercent": 80,
+          "cumulativeCpuSeconds": 1.93,
+          "clientRssBytes": 90652672
+        }
+      ]
+    },
+    {
+      "repetition": 2,
+      "journeyConcurrency": 1,
+      "maxRequestConcurrency": 4,
+      "observedPeakRequests": 4,
+      "elapsedMs": 356.3017920000002,
+      "finishedJourneys": 50,
+      "partialJourneys": 0,
+      "admittedRequests": 1000,
+      "completedRequests": 1000,
+      "wireBytes": 6857800,
+      "requestsPerSecond": 2806.6095160138834,
+      "completeSyntheticJourneysPerSecond": 140.33047580069416,
+      "latency": {
+        "count": 1000,
+        "p50Ms": 0.518500000000131,
+        "p95Ms": 1.9746249999998327,
+        "p99Ms": 2.607332999999926,
+        "maxMs": 4.58954200000062
+      },
+      "completeJourneyLatency": {
+        "count": 50,
+        "p50Ms": 6.416250000000218,
+        "p95Ms": 9.86712499999976,
+        "p99Ms": 16.786208000000443,
+        "maxMs": 16.786208000000443
+      },
+      "byKind": {
+        "document": {
+          "count": 50,
+          "p50Ms": 0.2862909999994372,
+          "p95Ms": 0.5060419999999795,
+          "p99Ms": 1.6377500000007785,
+          "maxMs": 1.6377500000007785,
+          "wireBytes": 143800
+        },
+        "asset": {
+          "count": 700,
+          "p50Ms": 0.6147080000000642,
+          "p95Ms": 1.644916000000194,
+          "p99Ms": 2.424583999999413,
+          "maxMs": 4.174332999999933,
+          "wireBytes": 2286600
+        },
+        "dictionary": {
+          "count": 50,
+          "p50Ms": 2.0130419999995866,
+          "p95Ms": 3.081083000000035,
+          "p99Ms": 4.58954200000062,
+          "maxMs": 4.58954200000062,
+          "wireBytes": 526750
+        },
+        "fullAudio": {
+          "count": 150,
+          "p50Ms": 0.19949999999971624,
+          "p95Ms": 0.26554200000009587,
+          "p99Ms": 0.39029200000004494,
+          "maxMs": 0.3975829999999405,
+          "wireBytes": 3849450
+        },
+        "audioRange": {
+          "count": 50,
+          "p50Ms": 0.17866700000013225,
+          "p95Ms": 0.23566699999992125,
+          "p99Ms": 0.31570900000042457,
+          "maxMs": 0.31570900000042457,
+          "wireBytes": 51200
+        }
+      },
+      "errors": [],
+      "stopReason": "request cap",
+      "serverCpuSeconds": 0.3400000000000001,
+      "clientCpuMs": 53.783,
+      "peakSampledServerRssKiB": 102832,
+      "samples": [
+        {
+          "atMs": 4614.746042,
+          "rssKiB": 99552,
+          "sampledCpuPercent": 71.3,
+          "cumulativeCpuSeconds": 2.18,
+          "clientRssBytes": 90816512
+        },
+        {
+          "atMs": 4711.484209,
+          "rssKiB": 102832,
+          "sampledCpuPercent": 80.6,
+          "cumulativeCpuSeconds": 2.27,
+          "clientRssBytes": 90849280
+        }
+      ]
+    },
+    {
+      "repetition": 3,
+      "journeyConcurrency": 6,
+      "maxRequestConcurrency": 24,
+      "observedPeakRequests": 24,
+      "elapsedMs": 284.99824999999964,
+      "finishedJourneys": 48,
+      "partialJourneys": 6,
+      "admittedRequests": 1000,
+      "completedRequests": 1000,
+      "wireBytes": 6682701,
+      "requestsPerSecond": 3508.7934750476584,
+      "completeSyntheticJourneysPerSecond": 168.4220868022876,
+      "latency": {
+        "count": 1000,
+        "p50Ms": 4.124042000000372,
+        "p95Ms": 10.20733300000029,
+        "p99Ms": 12.4785839999995,
+        "maxMs": 14.649167000000489
+      },
+      "completeJourneyLatency": {
+        "count": 48,
+        "p50Ms": 31.236957999999504,
+        "p95Ms": 48.72870799999964,
+        "p99Ms": 48.80012499999975,
+        "maxMs": 48.80012499999975
+      },
+      "byKind": {
+        "document": {
+          "count": 54,
+          "p50Ms": 0.8437910000002375,
+          "p95Ms": 2.030583000000661,
+          "p99Ms": 2.780291999999463,
+          "maxMs": 2.780291999999463,
+          "wireBytes": 155304
+        },
+        "asset": {
+          "count": 706,
+          "p50Ms": 4.498000000000502,
+          "p95Ms": 9.638291000000208,
+          "p99Ms": 12.216499999999542,
+          "maxMs": 13.623792000000321,
+          "wireBytes": 2277093
+        },
+        "dictionary": {
+          "count": 48,
+          "p50Ms": 10.494125000000167,
+          "p95Ms": 14.196625000000495,
+          "p99Ms": 14.649167000000489,
+          "maxMs": 14.649167000000489,
+          "wireBytes": 505680
+        },
+        "fullAudio": {
+          "count": 144,
+          "p50Ms": 0.3885419999996884,
+          "p95Ms": 9.263750000000073,
+          "p99Ms": 9.725667000000612,
+          "maxMs": 11.601999999999862,
+          "wireBytes": 3695472
+        },
+        "audioRange": {
+          "count": 48,
+          "p50Ms": 0.30395799999951123,
+          "p95Ms": 0.381666000000223,
+          "p99Ms": 0.4165419999999358,
+          "maxMs": 0.4165419999999358,
+          "wireBytes": 49152
+        }
+      },
+      "errors": [],
+      "stopReason": "request cap",
+      "serverCpuSeconds": 0.33000000000000007,
+      "clientCpuMs": 47.603,
+      "peakSampledServerRssKiB": 113552,
+      "samples": [
+        {
+          "atMs": 5173.821334,
+          "rssKiB": 113552,
+          "sampledCpuPercent": 71.2,
+          "cumulativeCpuSeconds": 2.57,
+          "clientRssBytes": 91013120
+        },
+        {
+          "atMs": 5200.990375,
+          "rssKiB": 113552,
+          "sampledCpuPercent": 88.9,
+          "cumulativeCpuSeconds": 2.6,
+          "clientRssBytes": 91013120
+        }
+      ]
+    },
+    {
+      "repetition": 3,
+      "journeyConcurrency": 1,
+      "maxRequestConcurrency": 4,
+      "observedPeakRequests": 4,
+      "elapsedMs": 356.63916700000027,
+      "finishedJourneys": 50,
+      "partialJourneys": 0,
+      "admittedRequests": 1000,
+      "completedRequests": 1000,
+      "wireBytes": 6857800,
+      "requestsPerSecond": 2803.954507890602,
+      "completeSyntheticJourneysPerSecond": 140.1977253945301,
+      "latency": {
+        "count": 1000,
+        "p50Ms": 0.5282079999997222,
+        "p95Ms": 1.9825840000003154,
+        "p99Ms": 2.4176670000006197,
+        "maxMs": 4.477167000000009
+      },
+      "completeJourneyLatency": {
+        "count": 50,
+        "p50Ms": 6.5280420000008235,
+        "p95Ms": 9.721457999999984,
+        "p99Ms": 15.433291000000281,
+        "maxMs": 15.433291000000281
+      },
+      "byKind": {
+        "document": {
+          "count": 50,
+          "p50Ms": 0.2895830000006754,
+          "p95Ms": 0.43233300000065356,
+          "p99Ms": 1.4152500000000146,
+          "maxMs": 1.4152500000000146,
+          "wireBytes": 143800
+        },
+        "asset": {
+          "count": 700,
+          "p50Ms": 0.6280830000005153,
+          "p95Ms": 1.684957999999824,
+          "p99Ms": 2.242374999999811,
+          "maxMs": 3.8948330000002898,
+          "wireBytes": 2286600
+        },
+        "dictionary": {
+          "count": 50,
+          "p50Ms": 2.028249999999389,
+          "p95Ms": 3.0097500000001673,
+          "p99Ms": 4.477167000000009,
+          "maxMs": 4.477167000000009,
+          "wireBytes": 526750
+        },
+        "fullAudio": {
+          "count": 150,
+          "p50Ms": 0.2011659999998301,
+          "p95Ms": 0.26091600000017934,
+          "p99Ms": 0.3093330000001515,
+          "maxMs": 0.32787499999994907,
+          "wireBytes": 3849450
+        },
+        "audioRange": {
+          "count": 50,
+          "p50Ms": 0.17966700000033597,
+          "p95Ms": 0.23025000000052387,
+          "p99Ms": 0.29870800000026065,
+          "maxMs": 0.29870800000026065,
+          "wireBytes": 51200
+        }
+      },
+      "errors": [],
+      "stopReason": "request cap",
+      "serverCpuSeconds": 0.33999999999999986,
+      "clientCpuMs": 42.999,
+      "peakSampledServerRssKiB": 131872,
+      "samples": [
+        {
+          "atMs": 5664.014334,
+          "rssKiB": 125856,
+          "sampledCpuPercent": 64.2,
+          "cumulativeCpuSeconds": 2.84,
+          "clientRssBytes": 91111424
+        },
+        {
+          "atMs": 5762.325709,
+          "rssKiB": 131872,
+          "sampledCpuPercent": 76,
+          "cumulativeCpuSeconds": 2.94,
+          "clientRssBytes": 91111424
+        }
+      ]
+    },
+    {
+      "repetition": 3,
+      "journeyConcurrency": 3,
+      "maxRequestConcurrency": 12,
+      "observedPeakRequests": 12,
+      "elapsedMs": 299.00195899999926,
+      "finishedJourneys": 48,
+      "partialJourneys": 3,
+      "admittedRequests": 1000,
+      "completedRequests": 1000,
+      "wireBytes": 6718504,
+      "requestsPerSecond": 3344.4596929881736,
+      "completeSyntheticJourneysPerSecond": 160.53406526343232,
+      "latency": {
+        "count": 1000,
+        "p50Ms": 1.9928749999999127,
+        "p95Ms": 5.045374999999694,
+        "p99Ms": 6.726875000000291,
+        "maxMs": 9.337832999999591
+      },
+      "completeJourneyLatency": {
+        "count": 48,
+        "p50Ms": 16.31895799999984,
+        "p95Ms": 30.778000000000247,
+        "p99Ms": 30.87054199999966,
+        "maxMs": 30.87054199999966
+      },
+      "byKind": {
+        "document": {
+          "count": 51,
+          "p50Ms": 0.5423330000003261,
+          "p95Ms": 1.5386250000001382,
+          "p99Ms": 2.2066249999998035,
+          "maxMs": 2.2066249999998035,
+          "wireBytes": 146676
+        },
+        "asset": {
+          "count": 707,
+          "p50Ms": 2.240458000000217,
+          "p95Ms": 4.953292000000147,
+          "p99Ms": 6.466707999999926,
+          "maxMs": 8.521875000000364,
+          "wireBytes": 2299119
+        },
+        "dictionary": {
+          "count": 49,
+          "p50Ms": 4.627457999999933,
+          "p95Ms": 8.478417000000263,
+          "p99Ms": 9.337832999999591,
+          "maxMs": 9.337832999999591,
+          "wireBytes": 516215
+        },
+        "fullAudio": {
+          "count": 145,
+          "p50Ms": 0.2714169999999285,
+          "p95Ms": 3.53716600000007,
+          "p99Ms": 4.680790999999772,
+          "maxMs": 6.015374999999949,
+          "wireBytes": 3707342
+        },
+        "audioRange": {
+          "count": 48,
+          "p50Ms": 0.23908299999948213,
+          "p95Ms": 0.9655830000001515,
+          "p99Ms": 1.3768330000002607,
+          "maxMs": 1.3768330000002607,
+          "wireBytes": 49152
+        }
+      },
+      "errors": [],
+      "stopReason": "request cap",
+      "serverCpuSeconds": 0.33999999999999986,
+      "clientCpuMs": 59.05,
+      "peakSampledServerRssKiB": 131056,
+      "samples": [
+        {
+          "atMs": 6223.543542,
+          "rssKiB": 130752,
+          "sampledCpuPercent": 83.8,
+          "cumulativeCpuSeconds": 3.24,
+          "clientRssBytes": 91471872
+        },
+        {
+          "atMs": 6266.214834,
+          "rssKiB": 131056,
+          "sampledCpuPercent": 83.8,
+          "cumulativeCpuSeconds": 3.28,
+          "clientRssBytes": 91488256
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Synthetic cold asset journeys fetch document, eager assets in fanout batches of four, then three full public clips and one range. No client asset cache or playback-duration waits.",
+    "Journey concurrency and request concurrency are separately reported; these are not human users or measured financial-task sessions.",
+    "Server and load client share the same desktop host; client CPU, loopback and synchronous preview gzip can constrain results. Server/disk caches remain warm across runs.",
+    "This benchmark does not establish Vercel/CDN throughput, autoscaling, regional latency, hosting quotas, internet outages, user completion, Android memory or listening performance.",
+    "RSS is sampled for the single Node server only, includes runtime/buffers, and is not browser or physical-device memory."
+  ]
+}
