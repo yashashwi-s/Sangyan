@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-04T04:43:16.781Z",
+  "runtime": "v26.0.0",
+  "platform": "darwin",
+  "architecture": "arm64",
+  "sources": {
+    "privacy.js": "b76b4c8be7dba24b9f41b028ffdfc1e157f2b2036679e883f224ce9101b48c64",
+    "tracker.js": "dd67560a0c0aaa4c36fcc84be9e109aea0a500321ac17f8af98a0f18648dce77",
+    "languages.js": "781d570e631414f142f7ee43cd79af4df11ce3da9d8c1a51776724606827c440",
+    "institutions.js": "a7ccbdcec1a41e9b931f95831538975d8273d01b0ebb3713bc84e14bb269611a"
+  },
+  "accounts": 50,
+  "eventsPerAccount": 20,
+  "plaintextBytes": 74300,
+  "runs": [
+    {
+      "iteration": 1,
+      "sealMs": 74.11216699999999,
+      "unlockMs": 72.672709,
+      "validateMs": 1.3672499999999843,
+      "envelopeBytes": 99251
+    },
+    {
+      "iteration": 2,
+      "sealMs": 69.18483300000003,
+      "unlockMs": 70.76120800000001,
+      "validateMs": 1.1675000000000182,
+      "envelopeBytes": 99251
+    },
+    {
+      "iteration": 3,
+      "sealMs": 68.45470800000004,
+      "unlockMs": 71.736583,
+      "validateMs": 1.1797500000000127,
+      "envelopeBytes": 99251
+    }
+  ],
+  "notes": [
+    "Synthetic records only; exact decrypted workspace compared with validated original.",
+    "Node WebCrypto timings on the desktop host, three sequential runs; not browser or physical 2 GB Android evidence.",
+    "No file download/import UI, browser storage, eviction, tab termination, typing latency, network or traffic capacity measured."
+  ]
+}
