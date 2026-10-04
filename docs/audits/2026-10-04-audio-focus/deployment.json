@@ -1,0 +1,26 @@
+{
+  "status": "ok",
+  "deployment": {
+    "id": "dpl_5zH5vghmSFe5WjTXx2B8awnToBGS",
+    "url": "https://sangyan-5phhkajow-yashashwi-singhanias-projects.vercel.app",
+    "inspectorUrl": "https://vercel.com/yashashwi-singhanias-projects/sangyan/5zH5vghmSFe5WjTXx2B8awnToBGS",
+    "readyState": "READY",
+    "target": "production",
+    "deploymentApiUrl": "https://api.vercel.com/v13/deployments/dpl_5zH5vghmSFe5WjTXx2B8awnToBGS"
+  },
+  "message": "Deployment sangyan-5phhkajow-yashashwi-singhanias-projects.vercel.app ready.",
+  "next": [
+    {
+      "command": "vercel curl https://sangyan-5phhkajow-yashashwi-singhanias-projects.vercel.app",
+      "when": "Verify deployment, including when Deployment Protection is enabled"
+    },
+    {
+      "command": "vercel inspect sangyan-5phhkajow-yashashwi-singhanias-projects.vercel.app",
+      "when": "Inspect deployment"
+    },
+    {
+      "command": "vercel deploy --prod",
+      "when": "Promote to production"
+    }
+  ]
+}

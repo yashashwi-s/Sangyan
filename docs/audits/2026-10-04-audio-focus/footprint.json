@@ -1,0 +1,8 @@
+{
+  "sourceSha256": "29e8459fa5f1ce5f9ac2a6e804b780f21de2a003a6aef4da11c6f9ef9cc4ef88",
+  "publishedFiles": 5780,
+  "publishedBytes": 108272348,
+  "audioFiles": 5712,
+  "audioBytes": 106452133,
+  "note": "Public dist excludes _headers and host metadata; startup network bytes were not remeasured."
+}

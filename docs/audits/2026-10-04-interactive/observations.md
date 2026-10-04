@@ -23,3 +23,11 @@ At initial inspection HEAD was `12329d9`. The subsequent correction at `aa417ed`
 ## Remaining interactive work
 
 The existing cached-client gate upgrade is now reproduced. Inspect actual in-progress draft preservation during an update, then the remaining form flow, saved-list recovery, full dialog scrolling, keyboard traversal, RTL/native-script views and audio controls. No password/save/unlock, auditory intelligibility, physical-device, or screen-reader trial was performed in this session.
+
+## Subsequent synthetic Urdu journey and published audio focus
+
+Production institution step retained exact SBI text when changing to Urdu; translated heading/labels, draft disclosure and focus return to Language were observed. Mine/one holder/savings and default Unknown progressed to State Bank of India, Unknown/Never checked, official SBI link and institution-verification disclaimer. At 360 × 800/200%, the Urdu settings dialog wrapped, scrolled to lower controls and exposed Reset; `urdu-reading-lower-200-360.png` records it.
+
+Listen initially showed loading/read-along 1 of 11 on the Urdu record. Stop hid controls but incorrectly left focus on the document. After the `0a23c49` correction deployed at `dpl_5zH5vghmSFe5WjTXx2B8awnToBGS`, fresh-origin English Home Listen showed loading/1 of 5; Stop then focused Listen (`id=listen`). No audible playback/progression was observed or certified.
+
+Opening another production tab left the existing Urdu SBI record/view/focus unchanged; `urdu-record-retained.png` records this continuity. Hidden registration/controller inspection is outside the CUA evaluation policy; this observation is not proof of worker handover or actual in-progress draft preservation. Full save/unlock and other remaining interactive gates remain open as detailed in the [journey report](../../audio-focus-journey-2026-10-04.md).

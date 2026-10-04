@@ -13,3 +13,15 @@ At a 360 × 800 viewport and 200% reading size, the Urdu reading dialog's headin
 Publication, updated Stop-focus interaction and any draft-upgrade observation are recorded below when available. Save/unlock/file recovery, fluent reviewers/listeners, real-device/screen-reader and representative target-user/traffic trials remain separate gates unless actual evidence is added.
 
 The rebuilt release gate passes **102 tests**. Local HTTP integrity checks pass 21 language pages, 16 complete audio samples/ranges, 68 non-MP3 hashes and 15 build-only exclusions with no errors.
+
+## Published correction and real interaction
+
+Production is [sangyan-xi.vercel.app](https://sangyan-xi.vercel.app), deployment **`dpl_5zH5vghmSFe5WjTXx2B8awnToBGS`**, state **READY**, runtime commit **`0a23c49`**, [fresh deployment origin](https://sangyan-5phhkajow-yashashwi-singhanias-projects.vercel.app). Exact public manifest **`29e8459fa5f1ce5f9ac2a6e804b780f21de2a003a6aef4da11c6f9ef9cc4ef88`**. [Live verification](audits/2026-10-04-audio-focus/live-public-serving.json) passes 21 pages, 16 complete homeTitle MP3 hashes/ranges, 68 non-MP3 public hashes and 15 build-only exclusions, including privacy headers/no cookies. All recordings are unchanged and retain their earlier complete local decode/hash validation.
+
+On the fresh deployed origin, the parent selected English on Home, pressed Listen, observed loading/read-along 1 of 5, then pressed Stop. Accessibility focus was then **Listen (`id=listen`)**, verifying the correction in the real browser. This proves the Stop focus result and visible controls; it does not prove audible playback or progression.
+
+After opening another production tab, the preserved Urdu SBI record remained in the same view with the same focus and displayed record. [Record-continuity screenshot](audits/2026-10-04-interactive/urdu-record-retained.png) retains the observed result. CUA permits visible UI inspection rather than hidden worker-registration evaluation, so this is **observed record continuity after opening a new tab**, not proof of controller activation/handover or an in-progress draft upgrade. No additional private fields were entered.
+
+Remaining gates are actual in-progress draft upgrade, full save/unlock/file recovery, native IME and whole-journey keyboard/screen-reader checks, fluent text/listening review, physical-device/outage/target-user/traffic trials, and lawful viable voices for the five text-only languages. No new model research or unrelated runtime changes were made.
+
+Final public footprint is 5,780 files / 108,272,348 bytes, including 5,712 MP3s / 106,452,133 bytes. [Footprint record](audits/2026-10-04-audio-focus/footprint.json). Current startup transfer/timings were not remeasured.
