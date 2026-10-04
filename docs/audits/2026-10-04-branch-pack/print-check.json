@@ -1,0 +1,142 @@
+{
+  "checkedAt": "2026-10-04T14:33:05.103Z",
+  "fixture": "Fictional joint demat account; securities thumb-impression and joint-holder guidance included",
+  "engine": "Desktop Chrome for Testing 138.0.7204.183",
+  "paper": "A4, 12 mm margins, no browser header/footer",
+  "languagePacks": 21,
+  "outputsPerPack": 4,
+  "standalone": true,
+  "rows": [
+    {
+      "language": "en",
+      "htmlBytes": 4239,
+      "gzipBodyBytes": 1723,
+      "pages": 1
+    },
+    {
+      "language": "hi",
+      "htmlBytes": 6198,
+      "gzipBodyBytes": 2098,
+      "pages": 1
+    },
+    {
+      "language": "bn",
+      "htmlBytes": 6200,
+      "gzipBodyBytes": 2089,
+      "pages": 1
+    },
+    {
+      "language": "mr",
+      "htmlBytes": 6063,
+      "gzipBodyBytes": 2062,
+      "pages": 1
+    },
+    {
+      "language": "ta",
+      "htmlBytes": 7245,
+      "gzipBodyBytes": 2146,
+      "pages": 1
+    },
+    {
+      "language": "ur",
+      "htmlBytes": 5103,
+      "gzipBodyBytes": 2011,
+      "pages": 1
+    },
+    {
+      "language": "as",
+      "htmlBytes": 6693,
+      "gzipBodyBytes": 2242,
+      "pages": 1
+    },
+    {
+      "language": "doi",
+      "htmlBytes": 6590,
+      "gzipBodyBytes": 2204,
+      "pages": 1
+    },
+    {
+      "language": "gu",
+      "htmlBytes": 6096,
+      "gzipBodyBytes": 2113,
+      "pages": 1
+    },
+    {
+      "language": "kn",
+      "htmlBytes": 6874,
+      "gzipBodyBytes": 2180,
+      "pages": 1
+    },
+    {
+      "language": "kok",
+      "htmlBytes": 6383,
+      "gzipBodyBytes": 2105,
+      "pages": 1
+    },
+    {
+      "language": "mai",
+      "htmlBytes": 6502,
+      "gzipBodyBytes": 2208,
+      "pages": 1
+    },
+    {
+      "language": "ml",
+      "htmlBytes": 7311,
+      "gzipBodyBytes": 2257,
+      "pages": 1
+    },
+    {
+      "language": "mni",
+      "htmlBytes": 23495,
+      "gzipBodyBytes": 14092,
+      "pages": 1
+    },
+    {
+      "language": "ne",
+      "htmlBytes": 6689,
+      "gzipBodyBytes": 2176,
+      "pages": 1
+    },
+    {
+      "language": "or",
+      "htmlBytes": 6792,
+      "gzipBodyBytes": 2242,
+      "pages": 1
+    },
+    {
+      "language": "pa",
+      "htmlBytes": 6162,
+      "gzipBodyBytes": 2107,
+      "pages": 1
+    },
+    {
+      "language": "sa",
+      "htmlBytes": 7039,
+      "gzipBodyBytes": 2255,
+      "pages": 1
+    },
+    {
+      "language": "sat",
+      "htmlBytes": 17815,
+      "gzipBodyBytes": 9645,
+      "pages": 1
+    },
+    {
+      "language": "sd",
+      "htmlBytes": 5196,
+      "gzipBodyBytes": 2072,
+      "pages": 1
+    },
+    {
+      "language": "te",
+      "htmlBytes": 6883,
+      "gzipBodyBytes": 2238,
+      "pages": 1
+    }
+  ],
+  "notes": [
+    "PDF page count is measured on this synthetic printed fixture. Browser print settings, fonts, labels and later copy can change pagination.",
+    "Language fluency and physical printer behaviour have not been tested.",
+    "HTML bytes include embedded script-specific fonts where needed; gzip is hypothetical body compression and is not local download transfer."
+  ]
+}

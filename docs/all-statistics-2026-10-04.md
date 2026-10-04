@@ -91,27 +91,27 @@ Reviewed 4 October 2026. The public product page is `app/dist/stats.html`; the c
 
 ## Languages
 
-- English (English): 684 public keys; 667 clips.
-- Hindi (हिन्दी): 684 public keys; 667 clips.
-- Assamese (অসমীয়া): 684 public keys; 667 clips.
-- Bengali (বাংলা): 684 public keys; 667 clips.
-- Dogri (डोगरी): 684 public keys; 667 clips.
-- Gujarati (ગુજરાતી): 684 public keys; 667 clips.
-- Kannada (ಕನ್ನಡ): 684 public keys; 667 clips.
-- Konkani (कोंकणी): 684 public keys; text only.
-- Maithili (मैथिली): 684 public keys; 667 clips.
-- Malayalam (മലയാളം): 684 public keys; 667 clips.
-- Manipuri · Meitei (ꯃꯤꯇꯩꯂꯣꯟ): 684 public keys; text only.
-- Marathi (मराठी): 684 public keys; 667 clips.
-- Nepali (नेपाली): 684 public keys; 667 clips.
-- Odia (ଓଡ଼ିଆ): 684 public keys; 667 clips.
-- Punjabi (ਪੰਜਾਬੀ): 684 public keys; 667 clips.
-- Sanskrit (संस्कृतम्): 684 public keys; text only.
-- Santali (ᱥᱟᱱᱛᱟᱲᱤ): 684 public keys; text only.
-- Sindhi (سنڌي): 684 public keys; text only.
-- Tamil (தமிழ்): 684 public keys; 667 clips.
-- Telugu (తెలుగు): 684 public keys; 667 clips.
-- Urdu (اردو): 684 public keys; 667 clips.
+- English (English): 691 public keys; 667 clips.
+- Hindi (हिन्दी): 691 public keys; 667 clips.
+- Assamese (অসমীয়া): 691 public keys; 667 clips.
+- Bengali (বাংলা): 691 public keys; 667 clips.
+- Dogri (डोगरी): 691 public keys; 667 clips.
+- Gujarati (ગુજરાતી): 691 public keys; 667 clips.
+- Kannada (ಕನ್ನಡ): 691 public keys; 667 clips.
+- Konkani (कोंकणी): 691 public keys; text only.
+- Maithili (मैथिली): 691 public keys; 667 clips.
+- Malayalam (മലയാളം): 691 public keys; 667 clips.
+- Manipuri · Meitei (ꯃꯤꯇꯩꯂꯣꯟ): 691 public keys; text only.
+- Marathi (मराठी): 691 public keys; 667 clips.
+- Nepali (नेपाली): 691 public keys; 667 clips.
+- Odia (ଓଡ଼ିଆ): 691 public keys; 667 clips.
+- Punjabi (ਪੰਜਾਬੀ): 691 public keys; 667 clips.
+- Sanskrit (संस्कृतम्): 691 public keys; text only.
+- Santali (ᱥᱟᱱᱛᱟᱲᱤ): 691 public keys; text only.
+- Sindhi (سنڌي): 691 public keys; text only.
+- Tamil (தமிழ்): 691 public keys; 667 clips.
+- Telugu (తెలుగు): 691 public keys; 667 clips.
+- Urdu (اردو): 691 public keys; 667 clips.
 
 ## Public observations
 
@@ -167,6 +167,10 @@ Measured public snapshot: ba43e3703ffae66e90633cca7b6a170f75241be1509bdf436982fe
 ## Latest journey review
 167 release checks passed; 0 failures. Three cold Hindi starts in desktop Chrome 138.0.7204.183 on macOS arm64: median 2.82 seconds; 111342 bytes each; CLS 0 each. Response-body shaping: 384 kbps, 200 ms fixed latency; viewport 360 × 800; CPU 8×; V8 old space 64 MiB. Matching physical phone untested. Source SHA-256: 625f2a7e7c7516b12fc4444fdab53807b4871751d821c68226e37682081699eb.
 Full method: [journey review](journey-reaudit-2026-10-04.md).
+
+## Branch visit pack
+Four preparation outputs in one account-specific pack: where to go, what to bring, what to ask and what confirmation to keep. Available in 21 text languages; browser print/save PDF and script-free, offline-readable HTML download. Private notes and nominee names excluded.
+21/21 translated joint-account fixtures fit on one A4 page in desktop Chrome 138, 12 mm margins, headers off. Full HTML downloads including embedded fonts: 4239–23495 bytes. This checks layout, not language fluency or institutional acceptance.
 
 ## Product, reading and encryption limits
 Three account categories; four bank nominee notes or three securities nominee notes per account (prototype recording limits). Text size 90–200%; primary controls 44 CSS pixels minimum; listening speeds 0.75× / 0.9× / 1.05×. One-year personal review; 15-day receipt-based SCORES reminders with separate stages. AES-256-GCM, PBKDF2-SHA256 with 600,000 iterations; password length 12–256 characters; password not retained or recoverable.

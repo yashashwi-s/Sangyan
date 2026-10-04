@@ -1,0 +1,138 @@
+{
+  "measuredAt": "2026-10-04T14:29:29.985Z",
+  "runtime": "v26.0.0",
+  "fixture": "Fictional bank account with a reviewed route; 100 serial document generations per language",
+  "rows": [
+    {
+      "language": "en",
+      "htmlBodyBytes": 3794,
+      "gzipBodyBytes": 1566,
+      "meanGenerationMs": 0.015878340000000008
+    },
+    {
+      "language": "hi",
+      "htmlBodyBytes": 5248,
+      "gzipBodyBytes": 1870,
+      "meanGenerationMs": 0.007320830000000029
+    },
+    {
+      "language": "bn",
+      "htmlBodyBytes": 5195,
+      "gzipBodyBytes": 1843,
+      "meanGenerationMs": 0.0067108299999999585
+    },
+    {
+      "language": "mr",
+      "htmlBodyBytes": 5168,
+      "gzipBodyBytes": 1834,
+      "meanGenerationMs": 0.006386249999999904
+    },
+    {
+      "language": "ta",
+      "htmlBodyBytes": 6091,
+      "gzipBodyBytes": 1889,
+      "meanGenerationMs": 0.006406669999999935
+    },
+    {
+      "language": "ur",
+      "htmlBodyBytes": 4440,
+      "gzipBodyBytes": 1801,
+      "meanGenerationMs": 0.007778330000000011
+    },
+    {
+      "language": "as",
+      "htmlBodyBytes": 5744,
+      "gzipBodyBytes": 2024,
+      "meanGenerationMs": 0.005664170000000013
+    },
+    {
+      "language": "doi",
+      "htmlBodyBytes": 5683,
+      "gzipBodyBytes": 1979,
+      "meanGenerationMs": 0.005616669999999999
+    },
+    {
+      "language": "gu",
+      "htmlBodyBytes": 5223,
+      "gzipBodyBytes": 1879,
+      "meanGenerationMs": 0.006035839999999979
+    },
+    {
+      "language": "kn",
+      "htmlBodyBytes": 5906,
+      "gzipBodyBytes": 1954,
+      "meanGenerationMs": 0.006443750000000108
+    },
+    {
+      "language": "kok",
+      "htmlBodyBytes": 5513,
+      "gzipBodyBytes": 1907,
+      "meanGenerationMs": 0.005856670000000008
+    },
+    {
+      "language": "mai",
+      "htmlBodyBytes": 5631,
+      "gzipBodyBytes": 1995,
+      "meanGenerationMs": 0.006139580000000109
+    },
+    {
+      "language": "ml",
+      "htmlBodyBytes": 6290,
+      "gzipBodyBytes": 2040,
+      "meanGenerationMs": 0.005132089999999891
+    },
+    {
+      "language": "mni",
+      "htmlBodyBytes": 6122,
+      "gzipBodyBytes": 2060,
+      "meanGenerationMs": 0.005004579999999948
+    },
+    {
+      "language": "ne",
+      "htmlBodyBytes": 5720,
+      "gzipBodyBytes": 1956,
+      "meanGenerationMs": 0.004975830000000059
+    },
+    {
+      "language": "or",
+      "htmlBodyBytes": 5825,
+      "gzipBodyBytes": 1998,
+      "meanGenerationMs": 0.005217919999999907
+    },
+    {
+      "language": "pa",
+      "htmlBodyBytes": 5266,
+      "gzipBodyBytes": 1881,
+      "meanGenerationMs": 0.004472080000000034
+    },
+    {
+      "language": "sa",
+      "htmlBodyBytes": 6031,
+      "gzipBodyBytes": 2019,
+      "meanGenerationMs": 0.007316670000000016
+    },
+    {
+      "language": "sat",
+      "htmlBodyBytes": 5741,
+      "gzipBodyBytes": 1891,
+      "meanGenerationMs": 0.004459589999999878
+    },
+    {
+      "language": "sd",
+      "htmlBodyBytes": 4581,
+      "gzipBodyBytes": 1861,
+      "meanGenerationMs": 0.00398959000000005
+    },
+    {
+      "language": "te",
+      "htmlBodyBytes": 5952,
+      "gzipBodyBytes": 2010,
+      "meanGenerationMs": 0.004412499999999966
+    }
+  ],
+  "notes": [
+    "Desktop Node local string-generation time; not mobile latency, browser rendering or a user-completion result.",
+    "HTML bytes exclude script-specific font embedding in two languages; full download sizes are in the print register.",
+    "Gzip arithmetic is optional hypothetical compression; downloaded HTML is uncompressed."
+  ]
+}

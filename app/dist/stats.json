@@ -383,7 +383,7 @@
         "native": "English",
         "name": "English",
         "audio": true,
-        "dictionaryKeys": 684,
+        "dictionaryKeys": 691,
         "clips": 667
       },
       {
@@ -391,7 +391,7 @@
         "native": "हिन्दी",
         "name": "Hindi",
         "audio": true,
-        "dictionaryKeys": 684,
+        "dictionaryKeys": 691,
         "clips": 667
       },
       {
@@ -399,7 +399,7 @@
         "native": "অসমীয়া",
         "name": "Assamese",
         "audio": true,
-        "dictionaryKeys": 684,
+        "dictionaryKeys": 691,
         "clips": 667
       },
       {
@@ -407,7 +407,7 @@
         "native": "বাংলা",
         "name": "Bengali",
         "audio": true,
-        "dictionaryKeys": 684,
+        "dictionaryKeys": 691,
         "clips": 667
       },
       {
@@ -415,7 +415,7 @@
         "native": "डोगरी",
         "name": "Dogri",
         "audio": true,
-        "dictionaryKeys": 684,
+        "dictionaryKeys": 691,
         "clips": 667
       },
       {
@@ -423,7 +423,7 @@
         "native": "ગુજરાતી",
         "name": "Gujarati",
         "audio": true,
-        "dictionaryKeys": 684,
+        "dictionaryKeys": 691,
         "clips": 667
       },
       {
@@ -431,7 +431,7 @@
         "native": "ಕನ್ನಡ",
         "name": "Kannada",
         "audio": true,
-        "dictionaryKeys": 684,
+        "dictionaryKeys": 691,
         "clips": 667
       },
       {
@@ -439,7 +439,7 @@
         "native": "कोंकणी",
         "name": "Konkani",
         "audio": false,
-        "dictionaryKeys": 684,
+        "dictionaryKeys": 691,
         "clips": 0
       },
       {
@@ -447,7 +447,7 @@
         "native": "मैथिली",
         "name": "Maithili",
         "audio": true,
-        "dictionaryKeys": 684,
+        "dictionaryKeys": 691,
         "clips": 667
       },
       {
@@ -455,7 +455,7 @@
         "native": "മലയാളം",
         "name": "Malayalam",
         "audio": true,
-        "dictionaryKeys": 684,
+        "dictionaryKeys": 691,
         "clips": 667
       },
       {
@@ -463,7 +463,7 @@
         "native": "ꯃꯤꯇꯩꯂꯣꯟ",
         "name": "Manipuri · Meitei",
         "audio": false,
-        "dictionaryKeys": 684,
+        "dictionaryKeys": 691,
         "clips": 0
       },
       {
@@ -471,7 +471,7 @@
         "native": "मराठी",
         "name": "Marathi",
         "audio": true,
-        "dictionaryKeys": 684,
+        "dictionaryKeys": 691,
         "clips": 667
       },
       {
@@ -479,7 +479,7 @@
         "native": "नेपाली",
         "name": "Nepali",
         "audio": true,
-        "dictionaryKeys": 684,
+        "dictionaryKeys": 691,
         "clips": 667
       },
       {
@@ -487,7 +487,7 @@
         "native": "ଓଡ଼ିଆ",
         "name": "Odia",
         "audio": true,
-        "dictionaryKeys": 684,
+        "dictionaryKeys": 691,
         "clips": 667
       },
       {
@@ -495,7 +495,7 @@
         "native": "ਪੰਜਾਬੀ",
         "name": "Punjabi",
         "audio": true,
-        "dictionaryKeys": 684,
+        "dictionaryKeys": 691,
         "clips": 667
       },
       {
@@ -503,7 +503,7 @@
         "native": "संस्कृतम्",
         "name": "Sanskrit",
         "audio": false,
-        "dictionaryKeys": 684,
+        "dictionaryKeys": 691,
         "clips": 0
       },
       {
@@ -511,7 +511,7 @@
         "native": "ᱥᱟᱱᱛᱟᱲᱤ",
         "name": "Santali",
         "audio": false,
-        "dictionaryKeys": 684,
+        "dictionaryKeys": 691,
         "clips": 0
       },
       {
@@ -519,7 +519,7 @@
         "native": "سنڌي",
         "name": "Sindhi",
         "audio": false,
-        "dictionaryKeys": 684,
+        "dictionaryKeys": 691,
         "clips": 0
       },
       {
@@ -527,7 +527,7 @@
         "native": "தமிழ்",
         "name": "Tamil",
         "audio": true,
-        "dictionaryKeys": 684,
+        "dictionaryKeys": 691,
         "clips": 667
       },
       {
@@ -535,7 +535,7 @@
         "native": "తెలుగు",
         "name": "Telugu",
         "audio": true,
-        "dictionaryKeys": 684,
+        "dictionaryKeys": 691,
         "clips": 667
       },
       {
@@ -543,7 +543,7 @@
         "native": "اردو",
         "name": "Urdu",
         "audio": true,
-        "dictionaryKeys": 684,
+        "dictionaryKeys": 691,
         "clips": 667
       }
     ],
@@ -557,7 +557,292 @@
       "Sindhi"
     ],
     "totalClips": 10672,
-    "paperGuides": 21
+    "paperGuides": 21,
+    "branchPack": {
+      "outputsPerPack": 4,
+      "textLanguages": 21,
+      "standaloneDownload": true,
+      "printEvidence": {
+        "checkedAt": "2026-10-04T14:33:05.103Z",
+        "fixture": "Fictional joint demat account; securities thumb-impression and joint-holder guidance included",
+        "engine": "Desktop Chrome for Testing 138.0.7204.183",
+        "paper": "A4, 12 mm margins, no browser header/footer",
+        "languagePacks": 21,
+        "outputsPerPack": 4,
+        "standalone": true,
+        "rows": [
+          {
+            "language": "en",
+            "htmlBytes": 4239,
+            "gzipBodyBytes": 1723,
+            "pages": 1
+          },
+          {
+            "language": "hi",
+            "htmlBytes": 6198,
+            "gzipBodyBytes": 2098,
+            "pages": 1
+          },
+          {
+            "language": "bn",
+            "htmlBytes": 6200,
+            "gzipBodyBytes": 2089,
+            "pages": 1
+          },
+          {
+            "language": "mr",
+            "htmlBytes": 6063,
+            "gzipBodyBytes": 2062,
+            "pages": 1
+          },
+          {
+            "language": "ta",
+            "htmlBytes": 7245,
+            "gzipBodyBytes": 2146,
+            "pages": 1
+          },
+          {
+            "language": "ur",
+            "htmlBytes": 5103,
+            "gzipBodyBytes": 2011,
+            "pages": 1
+          },
+          {
+            "language": "as",
+            "htmlBytes": 6693,
+            "gzipBodyBytes": 2242,
+            "pages": 1
+          },
+          {
+            "language": "doi",
+            "htmlBytes": 6590,
+            "gzipBodyBytes": 2204,
+            "pages": 1
+          },
+          {
+            "language": "gu",
+            "htmlBytes": 6096,
+            "gzipBodyBytes": 2113,
+            "pages": 1
+          },
+          {
+            "language": "kn",
+            "htmlBytes": 6874,
+            "gzipBodyBytes": 2180,
+            "pages": 1
+          },
+          {
+            "language": "kok",
+            "htmlBytes": 6383,
+            "gzipBodyBytes": 2105,
+            "pages": 1
+          },
+          {
+            "language": "mai",
+            "htmlBytes": 6502,
+            "gzipBodyBytes": 2208,
+            "pages": 1
+          },
+          {
+            "language": "ml",
+            "htmlBytes": 7311,
+            "gzipBodyBytes": 2257,
+            "pages": 1
+          },
+          {
+            "language": "mni",
+            "htmlBytes": 23495,
+            "gzipBodyBytes": 14092,
+            "pages": 1
+          },
+          {
+            "language": "ne",
+            "htmlBytes": 6689,
+            "gzipBodyBytes": 2176,
+            "pages": 1
+          },
+          {
+            "language": "or",
+            "htmlBytes": 6792,
+            "gzipBodyBytes": 2242,
+            "pages": 1
+          },
+          {
+            "language": "pa",
+            "htmlBytes": 6162,
+            "gzipBodyBytes": 2107,
+            "pages": 1
+          },
+          {
+            "language": "sa",
+            "htmlBytes": 7039,
+            "gzipBodyBytes": 2255,
+            "pages": 1
+          },
+          {
+            "language": "sat",
+            "htmlBytes": 17815,
+            "gzipBodyBytes": 9645,
+            "pages": 1
+          },
+          {
+            "language": "sd",
+            "htmlBytes": 5196,
+            "gzipBodyBytes": 2072,
+            "pages": 1
+          },
+          {
+            "language": "te",
+            "htmlBytes": 6883,
+            "gzipBodyBytes": 2238,
+            "pages": 1
+          }
+        ],
+        "notes": [
+          "PDF page count is measured on this synthetic printed fixture. Browser print settings, fonts, labels and later copy can change pagination.",
+          "Language fluency and physical printer behaviour have not been tested.",
+          "HTML bytes include embedded script-specific fonts where needed; gzip is hypothetical body compression and is not local download transfer."
+        ]
+      },
+      "generationEvidence": {
+        "measuredAt": "2026-10-04T14:29:29.985Z",
+        "runtime": "v26.0.0",
+        "fixture": "Fictional bank account with a reviewed route; 100 serial document generations per language",
+        "rows": [
+          {
+            "language": "en",
+            "htmlBodyBytes": 3794,
+            "gzipBodyBytes": 1566,
+            "meanGenerationMs": 0.015878340000000008
+          },
+          {
+            "language": "hi",
+            "htmlBodyBytes": 5248,
+            "gzipBodyBytes": 1870,
+            "meanGenerationMs": 0.007320830000000029
+          },
+          {
+            "language": "bn",
+            "htmlBodyBytes": 5195,
+            "gzipBodyBytes": 1843,
+            "meanGenerationMs": 0.0067108299999999585
+          },
+          {
+            "language": "mr",
+            "htmlBodyBytes": 5168,
+            "gzipBodyBytes": 1834,
+            "meanGenerationMs": 0.006386249999999904
+          },
+          {
+            "language": "ta",
+            "htmlBodyBytes": 6091,
+            "gzipBodyBytes": 1889,
+            "meanGenerationMs": 0.006406669999999935
+          },
+          {
+            "language": "ur",
+            "htmlBodyBytes": 4440,
+            "gzipBodyBytes": 1801,
+            "meanGenerationMs": 0.007778330000000011
+          },
+          {
+            "language": "as",
+            "htmlBodyBytes": 5744,
+            "gzipBodyBytes": 2024,
+            "meanGenerationMs": 0.005664170000000013
+          },
+          {
+            "language": "doi",
+            "htmlBodyBytes": 5683,
+            "gzipBodyBytes": 1979,
+            "meanGenerationMs": 0.005616669999999999
+          },
+          {
+            "language": "gu",
+            "htmlBodyBytes": 5223,
+            "gzipBodyBytes": 1879,
+            "meanGenerationMs": 0.006035839999999979
+          },
+          {
+            "language": "kn",
+            "htmlBodyBytes": 5906,
+            "gzipBodyBytes": 1954,
+            "meanGenerationMs": 0.006443750000000108
+          },
+          {
+            "language": "kok",
+            "htmlBodyBytes": 5513,
+            "gzipBodyBytes": 1907,
+            "meanGenerationMs": 0.005856670000000008
+          },
+          {
+            "language": "mai",
+            "htmlBodyBytes": 5631,
+            "gzipBodyBytes": 1995,
+            "meanGenerationMs": 0.006139580000000109
+          },
+          {
+            "language": "ml",
+            "htmlBodyBytes": 6290,
+            "gzipBodyBytes": 2040,
+            "meanGenerationMs": 0.005132089999999891
+          },
+          {
+            "language": "mni",
+            "htmlBodyBytes": 6122,
+            "gzipBodyBytes": 2060,
+            "meanGenerationMs": 0.005004579999999948
+          },
+          {
+            "language": "ne",
+            "htmlBodyBytes": 5720,
+            "gzipBodyBytes": 1956,
+            "meanGenerationMs": 0.004975830000000059
+          },
+          {
+            "language": "or",
+            "htmlBodyBytes": 5825,
+            "gzipBodyBytes": 1998,
+            "meanGenerationMs": 0.005217919999999907
+          },
+          {
+            "language": "pa",
+            "htmlBodyBytes": 5266,
+            "gzipBodyBytes": 1881,
+            "meanGenerationMs": 0.004472080000000034
+          },
+          {
+            "language": "sa",
+            "htmlBodyBytes": 6031,
+            "gzipBodyBytes": 2019,
+            "meanGenerationMs": 0.007316670000000016
+          },
+          {
+            "language": "sat",
+            "htmlBodyBytes": 5741,
+            "gzipBodyBytes": 1891,
+            "meanGenerationMs": 0.004459589999999878
+          },
+          {
+            "language": "sd",
+            "htmlBodyBytes": 4581,
+            "gzipBodyBytes": 1861,
+            "meanGenerationMs": 0.00398959000000005
+          },
+          {
+            "language": "te",
+            "htmlBodyBytes": 5952,
+            "gzipBodyBytes": 2010,
+            "meanGenerationMs": 0.004412499999999966
+          }
+        ],
+        "notes": [
+          "Desktop Node local string-generation time; not mobile latency, browser rendering or a user-completion result.",
+          "HTML bytes exclude script-specific font embedding in two languages; full download sizes are in the print register.",
+          "Gzip arithmetic is optional hypothetical compression; downloaded HTML is uncompressed."
+        ]
+      }
+    }
   },
   "publicEvidence": {
     "reviewed_on": "2026-10-04",
