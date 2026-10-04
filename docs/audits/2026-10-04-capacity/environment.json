@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-04T05:17:52.040Z",
+  "host": {
+    "model": "MacBook Air (Mac14,2)",
+    "chip": "Apple M2",
+    "cpuCores": 8,
+    "performanceCores": 4,
+    "efficiencyCores": 4,
+    "physicalMemory": "8 GB",
+    "os": "macOS 27.0.1",
+    "architecture": "arm64",
+    "runtime": "v26.0.0"
+  },
+  "availability": {
+    "adbVersion": "37.0.1-15733141",
+    "connectedAndroidDevices": 0,
+    "androidEmulatorBinaryFound": false,
+    "xcodeSimulatorAvailable": false,
+    "xcodeSelection": "/Library/Developer/CommandLineTools",
+    "physicalDeviceBenchmarkPerformed": false
+  },
+  "privacy": "Known SDK paths and read-only connected-device inventory only; no serials, personal records, debug authorization, app installation or device state changes."
+}

@@ -39,3 +39,7 @@ The user's revised focus accepts current language support. [The Track B pass](tr
 This privacy/recovery correction is now production READY at `dpl_udenZ93DNyPCH6sS7h5gU475ztzw`, runtime `07bab9c`; final live integrity checks pass 21/16/68/15 with no errors. The exact public manifest and separately qualified local source manifest are recorded in [the report](track-b-privacy-usability-scale-2026-10-04.md).
 
 The parent also observed the fresh deployed example's two sharing options unchecked, names adding/removing preview rows only by choice, and Clear's Cancel preserving all three records and restoring focus to Clear. This is limited actual browser privacy/usability evidence; no actual device-copy deletion or file save/import trial is claimed. See the report's final observation record.
+
+### Current-release measured navigation and local capacity
+
+[New exact-source measurements](capacity-lowend-evidence-2026-10-04.md) record 3/3 controls-ready at 5.568–5.695 seconds under 160 kbps/800 ms and 8× host CPU slowdown, 65,174-byte navigation transfer and zero startup MP3s. Nine bounded local-serving windows completed 157,164 requests with zero observed errors at up to 24 simultaneous requests. Actual Android inventory found no connected device; these are desktop/local measurements, not physical 2 GB Android or production CDN capacity claims. Runtime/deployment remain unchanged.

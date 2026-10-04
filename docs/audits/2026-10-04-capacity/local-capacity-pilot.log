@@ -1,0 +1,9 @@
+{"repetition":1,"journeyConcurrency":1,"requests":1000,"finishedJourneys":50,"p95Ms":2.0835830000000897,"errors":0,"stopReason":"request cap"}
+{"repetition":1,"journeyConcurrency":3,"requests":1000,"finishedJourneys":48,"p95Ms":5.582582999999886,"errors":0,"stopReason":"request cap"}
+{"repetition":1,"journeyConcurrency":6,"requests":1000,"finishedJourneys":48,"p95Ms":8.567000000000007,"errors":0,"stopReason":"request cap"}
+{"repetition":2,"journeyConcurrency":3,"requests":1000,"finishedJourneys":48,"p95Ms":5.340333999999984,"errors":0,"stopReason":"request cap"}
+{"repetition":2,"journeyConcurrency":6,"requests":1000,"finishedJourneys":48,"p95Ms":9.644999999999982,"errors":0,"stopReason":"request cap"}
+{"repetition":2,"journeyConcurrency":1,"requests":1000,"finishedJourneys":50,"p95Ms":1.9746249999998327,"errors":0,"stopReason":"request cap"}
+{"repetition":3,"journeyConcurrency":6,"requests":1000,"finishedJourneys":48,"p95Ms":10.20733300000029,"errors":0,"stopReason":"request cap"}
+{"repetition":3,"journeyConcurrency":1,"requests":1000,"finishedJourneys":50,"p95Ms":1.9825840000003154,"errors":0,"stopReason":"request cap"}
+{"repetition":3,"journeyConcurrency":3,"requests":1000,"finishedJourneys":48,"p95Ms":5.045374999999694,"errors":0,"stopReason":"request cap"}
