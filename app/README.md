@@ -1,39 +1,42 @@
 # Virasat browser prototype
 
-A private family nominee tracker for demat accounts, bank deposits and mutual fund folios. `dist/` holds authored static code plus generated, checked-in language packs and entry pages. No application dependency installation is needed.
+Static, session-only nomination tracker with a contextual form companion. `dist/` contains authored assets and generated language entry pages. Node.js 22+; no application dependency installation.
 
 ```sh
 npm run build:public
-npm run dev
 npm test
+npm run dev
 ```
 
-Preview: `http://127.0.0.1:4173/`. The first visit offers six languages. Locale entry URLs immediately show translated introductory text, load only the chosen dictionary, and canonicalize to `/`. Modern ES modules, Web Crypto and native dialog support are required.
+Preview: `http://127.0.0.1:4173/`. Generate public assets after editing JS, CSS, HTML or worker files. The builder hashes the complete public shell and emits language entry pages; no model runs in the browser.
 
-## Current journey
+## Functionality
 
-Four-stage account setup → local institution search → account-specific context → check/preparation → request submitted → user checks registration evidence → family record → deliberate readable handoff and encrypted resume.
+Account setup → institutional check → guided preparation alongside the official form → reported submission → user checks registration evidence → in-session family review.
 
-The search directory has 36 banks, 14 brokers/DP labels and 25 mutual funds. It is not an exhaustive institutional registry. Reviewed routes cover HDFC Bank, SBI deposit-service channels, Axis savings, Zerodha first-addition versus correction, Groww demat and HDFC MF folios. Each route states its applicability; joint holders get assisted guidance. General fallbacks are labelled. Bank and securities rules are separate; mutual funds in demat follow their linked demat nomination, subject to the user's account/holding check.
+The companion is the preparation journey itself. Short explanations, relevant warnings and optional fictional examples accompany each decision. Minor-nominee guidance appears only for that situation. There is no separate lesson or errors library. Reported receipt, correction and confirmation have different next actions. Companion navigation and examples cannot change account records; explicit outcome actions hand back to the existing tracker checks. Bank deposits, securities folios, demat-held funds, unknown contexts and deceased-holder requests receive distinct routing. This is a companion to an external official form, not an official form, automatic verification or a guarantee of acceptance.
 
-Registration status, request receipt, and the user's review of nominee details are separate observations. No automatic verification or institutional submission occurs. Rechecking or changing account context invalidates stale confirmation. Personal follow-up dates can be exported to a calendar.
+The directory and existing reviewed provider routes remain: HDFC Bank, SBI deposit channels, Axis savings, Zerodha first addition versus correction, Groww demat and HDFC MF folios. Directory inclusion does not imply detailed route coverage. Official sources and scope stay alongside guidance. Submission, registration and family review are separate observations; institution/context changes invalidate stale checks.
 
-Family nicknames, optional last four digits, multiple nominee notes and record location have a dedicated form. Family review is recorded separately from nomination confirmation; omitted details can be intentional. Changes to nomination invalidate the previous family review. A readable HTML/print/PDF summary has sharing controls and excludes private evidence notes. It is not password-protected.
+## Strict session-only privacy
 
-Encrypted `.virasat` saves include account records, incomplete new-account setup, an unfinished existing-account form, language and the originating fund for an unfinished demat-account addition. Returning from Save restores the correct form draft. Optional device storage contains only the encrypted envelope; it is off until requested. The application does not store the password or make automatic cloud requests. Changes require an explicit new save. Old schema-2 tracker files migrate to schema 3.
+No personal-data storage, uploads, save/import/export or app print/calendar controls. State and drafts exist only in memory and clear on reload, exit or Clear session. Back-forward cache restoration also clears state. Startup removes `virasat-locked-workspace-v1`, the older encrypted device copy, without reading/decrypting it. It cannot remove earlier user downloads, copies elsewhere or forensic/browser/OS traces.
 
-All six interface dictionaries are drafts: English, Hindi, Bengali, Marathi, Tamil and Urdu. Switching language preserves the current form. Urdu uses RTL text with the established left-aligned LTR page layout. Date fields normalize supported regional numerals. Every main view and help/confirmation dialog offers bundled audio of public guidance, with one Listen/Pause/Continue button, speed control, replay/skip, matching text and recoverable loading/network states. All six languages use build-time recordings; users need no installed speech voices. Private entered values cannot become audio requests. Public instructions load on demand and previously played clips can replay offline in supported browsers. Chosen text packs are cached for offline use; an uncached language needs a connection and offers a readable retry without changing the form. A service worker caches the public shell and limits audio storage to 12 MiB / 256 files. First-use audio needs a connection; storage restrictions and browser eviction can remove offline copies. See [audio generation, provenance and review limits](audio/README.md). The reading dialog supports 90–200% text, contrast, spacing and reduced motion. These non-sensitive reading preferences are remembered locally; Reset restores defaults.
+`virasat-reading-settings-v1` is the only application preference write: validated text size, speech speed and boolean appearance settings. No cookies, analytics, account database, remote speech service or user-derived URLs. The service worker caches only public allowlisted assets and public recordings, never account content. The app cannot stop a person taking a screenshot or copying visible text. Hosting providers may log ordinary requests; deployment log retention must be reviewed separately.
 
-## Verification
+Old crypto/schema helpers/tests remain for historical regression coverage. They are not wired into the public UI. This privacy policy supersedes the 3 October save/reopen requirements.
 
-`npm test` runs the current, shared/background and audio release checks. Browser acceptance steps are in [tests/browser-audit.md](tests/browser-audit.md); the previous-flow automation is archived and not a current runner. See the [low-bandwidth audit](../docs/low-bandwidth-audit-2026-10-03.md) for before/after data costs, network/CPU stress results and outstanding real-device tests, and the [audio checkpoint](../docs/audio-checkpoint-2026-10-03.md), fresh Lighthouse report, screenshots and exact limitations. None is a WCAG conformance claim, a fluent-language review or evidence of target-user completion.
+## Language / accessibility handoff
 
-## Security and hosting
+The established tracker uses six draft dictionaries and recorded public instructions. The coach is a marked English text-only preview; its `lang="en"` content must not inherit Urdu text direction. Essential policy overrides have six draft translations and are excluded from old audio lookup. Keep the coach API (`createNominationCoach`, `render`, `handle`, `reset`) separate from tracker mutations. Coordinate reviewed translations and recordings with the parallel accessibility branch. Do not silently call an English lesson translated or narrated.
 
-Static files only. No analytics, third-party fonts, uploads, automatic account lookup or hidden plaintext account persistence. AES-256-GCM and PBKDF2-SHA256 (600,000 iterations), random salt/nonce, authenticated envelope version, bounded file sizes and schema validation protect saved copies. A forgotten password cannot be recovered. Downloaded files remain until the user deletes them; session clearing is not forensic erasure.
+Reading settings, keyboard focus, regional digits and public audio caching remain. New lesson controls use semantic buttons/checkboxes, visible focus and responsive layouts. Physical low-end Android, TalkBack/VoiceOver, fluent-language review and target-user completion remain release gates.
 
-Production uses the existing Vercel `sangyan` project at **https://sangyan-xi.vercel.app**. Root directory: `app`. `vercel.json` serves `dist/`, preserves six locale entry routes and applies CSP/framing/MIME/referrer/permissions restrictions. Deploy only the authored static output and hosting configuration; research, archive and tests are not public assets. The older `.openai` manifest is historical and is not the current host.
+## Verification and hosting
 
-The product does not discover accounts, authenticate records, adjudicate succession, allocate inheritance or process deceased-customer claims. Bank lockers and safe custody are outside the tracked deposit types. First-use audio connectivity, fluent-language and accent review, real screen-reader/low-end-device use and provider-specific coverage remain explicit limits.
+Run `npm test`, then [browser acceptance](tests/browser-audit.md). The current plan is [three-persona improvements](../docs/persona-improvements-2026-10-04.md), with evidence in `docs/audits/2026-10-04-personas/`. The full suite includes historical crypto/domain cases; report current feature evidence separately.
 
-Run `npm run build:public` after editing public copy, HTML, CSS, JavaScript or the worker. It validates effective dictionaries, generates content-addressed JSON and localized entry pages, and derives an offline shell revision from the complete public shell. No model or frontend dependency is installed. `npm test` checks locale/audio consistency and recovery. Public non-versioned files revalidate with ETags; hashed language packs and audio are immutable. Do not add private records or generated user exports to these caches.
+Existing production: **https://sangyan-xi.vercel.app**, Vercel project `sangyan`, root `app`, output `dist`. This branch has not been deployed. Preserve CSP, no-referrer, framing, MIME and permissions protections. Do not publish research, tests, audit artifacts or private records. Existing worker-controlled tabs may use the previous release until closed; review rollout before claiming the production site uses the no-storage policy.
+
+## Assisted entry and claim orientation
+`journey-entry.js` supplies fixed-choice, account-free starting help and separate after-death orientation. Its setup intent can open nomination setup only in the living-holder path. Claims never emit nomination submission/confirmation intents. Clear its state with all session data. New branch preference, context-edit recovery and correction-specific questions remain in `nomination-coach.js`.

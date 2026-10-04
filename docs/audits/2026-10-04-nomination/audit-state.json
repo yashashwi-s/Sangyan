@@ -1,0 +1,95 @@
+{
+  "baseCommit": "7ed33dd",
+  "scores": {
+    "performance": 99,
+    "accessibility": 100,
+    "best-practices": 100,
+    "seo": 100,
+    "agentic-browsing": 100
+  },
+  "lighthouseVersion": "13.5.0",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/154.0.0.0 Safari/537.36",
+  "fetchTime": "2026-10-03T19:41:45.661Z",
+  "settings": {
+    "output": [
+      "json"
+    ],
+    "maxWaitForFcp": 30000,
+    "maxWaitForLoad": 45000,
+    "pauseAfterFcpMs": 1000,
+    "pauseAfterLoadMs": 1000,
+    "networkQuietThresholdMs": 1000,
+    "cpuQuietThresholdMs": 1000,
+    "formFactor": "mobile",
+    "throttling": {
+      "rttMs": 150,
+      "throughputKbps": 1638.4,
+      "requestLatencyMs": 562.5,
+      "downloadThroughputKbps": 1474.5600000000002,
+      "uploadThroughputKbps": 675,
+      "cpuSlowdownMultiplier": 4
+    },
+    "throttlingMethod": "simulate",
+    "screenEmulation": {
+      "mobile": true,
+      "width": 412,
+      "height": 823,
+      "deviceScaleFactor": 1.75,
+      "disabled": false
+    },
+    "emulatedUserAgent": "Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Mobile Safari/537.36",
+    "auditMode": false,
+    "gatherMode": false,
+    "clearStorageTypes": [
+      "file_systems",
+      "shader_cache",
+      "service_workers",
+      "cache_storage"
+    ],
+    "disableStorageReset": false,
+    "debugNavigation": false,
+    "channel": "cli",
+    "usePassiveGathering": false,
+    "disableFullPageScreenshot": false,
+    "skipAboutBlank": false,
+    "blankPage": "about:blank",
+    "ignoreStatusCode": false,
+    "locale": "en-US",
+    "blockedUrlPatterns": null,
+    "additionalTraceCategories": null,
+    "extraHeaders": null,
+    "precomputedLanternData": null,
+    "onlyAudits": null,
+    "onlyCategories": null,
+    "skipAudits": null
+  },
+  "hashes": {
+    "app/dist/main.js": "4c549593e7c8e284b704be10a9fa15e59759620cba4da17682b4353b1adfc419",
+    "app/dist/nomination-coach.js": "4603f7976cba8e806fcbc54600d93149f85c9f75992ca0005478b00b5ad51394",
+    "app/dist/nomination-coach.css": "778e896584af1f4b407374953d4eee2480d131de796a2b1795c93a7fe7cb67a5",
+    "app/dist/session-policy.js": "1da8f820006def19baae37b143d602110225ff4b45061ebea3a4a835c0392d3f",
+    "app/dist/sw.js": "852e04869ac67a88cc7df9dd62532ddac0283f3b0475a14baad52da0d9881c94",
+    "app/dist/styles.css": "513bce7e24d6d21800c8cc0c0d4bc9bc2b5d7cfc51d77996c9496c1ad166aea7",
+    "app/dist/index.html": "c594c41addab3306e3a27921bf3895b56eddb0494e3297824aa4c0665ad2abef"
+  },
+  "observedBrowserChecks": [
+    "Fictional practice wrong/correct feedback; real account remained Not added",
+    "Three-field rehearsal completed with explicit practice-only feedback",
+    "Checklist changes count once and keeps checkbox focus",
+    "Submission date and synthetic note result in Awaiting confirmation",
+    "Reload returns to empty state; no saved-list/import/export controls",
+    "Rejected-request troubleshooting offers correction next steps",
+    "Deceased route suppresses nomination learning steps",
+    "Bank route does not receive securities field requirements",
+    "Six languages switch during coach at 320px/200% without horizontal overflow; coach remains en/ltr",
+    "No captured warning/error console entries in checked flow"
+  ],
+  "notClaimed": [
+    "Independent legal/translation review",
+    "Physical Android or TalkBack/VoiceOver",
+    "Human comprehension validation",
+    "Dynamic browser network/storage canary tracing",
+    "All manual checklist scenarios",
+    "Production deployment or hosting logs review"
+  ]
+}

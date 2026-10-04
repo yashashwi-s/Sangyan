@@ -1,0 +1,8 @@
+{
+  "app/dist/main.js": "5bb40abc5674162f083a4ad617bb7cbf861c15c7407f4a1a7c3f16f5fd76d418",
+  "app/dist/nomination-coach.js": "254ca8f8dd5ff7b0be34ec6eaa9aca8d1fe33b33a71d95a9788dba48c3a2f99a",
+  "app/dist/nomination-coach.css": "0fe997a19c1c10e53c68e13684fb04b3f35727e4aa0dfb7a03bc246edd8e6f87",
+  "app/dist/session-policy.js": "6bc615d01eaad01867c9ce3a1b09d72be1d58cdb9fa35cedabc75f78bddf2dac",
+  "app/dist/styles.css": "d215ed5ff700e6570fa617f5703ea339baa48a3ea601e723a5d76312e70b77ab",
+  "app/dist/sw.js": "517db7d7deaf2fea0502049860a9c355cef89ede3956370f73c4b24dcfbb5171"
+}

@@ -1,56 +1,42 @@
-# Virasat — Family accounts and nominees
+# Virasat — understand and prepare nomination
 
-**Current prototype: 2 October 2026.** Virasat follows the supplied Track B brief's **Nominee & Family Wealth Tracker** direction. One focused journey helps a family list demat accounts, bank deposits and mutual fund folios, notice missing or uncertain nominations, and follow one request through to a record check.
+**Functionality branch, 4 October 2026.** Virasat follows SANGYAN Track B's Nominee & Family Wealth Tracker direction. It helps a living account holder or authorised helper understand nomination, identify the appropriate institutional route, prepare a request and distinguish receipt from registration. The authoritative brief is [the supplied problem statement](references/problem-statement.pdf).
 
-The authoritative brief is the supplied [SANGYAN problem statement](references/problem-statement.pdf). Earlier securities-history and transmission research is preserved as background; it does not define the current product journey.
+## Current journey
 
-## Working journey
+1. Choose a language. Use **Help me get started** if account types are unfamiliar, or **Help after someone has died** for separate, account-free claim orientation. Otherwise identify the account type, institution, holding context and nomination status in four setup stages.
+2. Check the existing nomination, then prepare alongside the institution’s official form in one guided journey.
+3. Choose online guidance or branch/service-centre assistance, then work through the account reference, nominee particulars, applicable minor details and consent. Each decision includes a short explanation and optional inline help or a fictional example. No separate lesson tabs or common-errors library.
+4. Use the account-specific official route; banking and securities guidance stay separate. Unknown contexts, demat-held funds and deceased-holder situations are redirected before form guidance.
+5. Choose the response actually received: receipt, correction, confirmation or uncertainty. A receipt never confirms registration; a claimed confirmation still goes through the existing evidence/date checks.
+6. Review secondary account and family information on demand during this session. Companion choices remain temporary and cannot independently mutate registration status.
 
-1. Choose English, Hindi, Bengali, Marathi, Tamil or Urdu. The first screen contains only the language question and tiles.
-2. Answer three short questions: account type, institution and nominee status. Home exits the current step and offers the unfinished account when you return. The last question explains what a nominee means and offers Yes/No/Not sure. Optional family/account nicknames, nominee nickname or relationship, and last four digits can be added later through Edit account. Full account numbers, PAN, passwords and identity documents are not requested.
-3. Open a missing or uncertain account and follow its institution-specific next task. A visible checklist explains what to check, what to ask and what confirms registration. Official sources stay alongside the task; HDFC Bank deposit accounts have a narrowly verified NetBanking hint.
-4. Record that a request was submitted. This leaves registration unconfirmed.
-5. Check a statement or institution confirmation that actually records nomination. A receipt alone does not satisfy this step. This remains the user's reported record check; Virasat does not authenticate it.
-6. Review a family summary or save a password-encrypted `.virasat` file to resume later.
+See the [three-persona gap analysis and reviewed plan](docs/persona-improvements-2026-10-04.md). Claims guidance is bounded orientation, not filing or entitlement determination.
 
-This build has no death intake, inheritance decision, portfolio calculator, prices, grievance filing, IEPF claims, account discovery or live institutional submission. A nominee flag does not determine inheritance rights.
+## No personal-data persistence
 
-## Run and check
+Account entries and unfinished drafts exist only in this tab's memory. Reload, page exit and Clear session reset them, including when the browser restores a back-forward cache page. **Personal save, import, export, print and calendar controls have been removed.** The app deletes its known legacy encrypted browser copy on startup without reading/decrypting it. Previously downloaded files and other devices are outside the app's control.
+
+Only bounded, non-sensitive reading preferences and public code, language and audio files may persist. The app sets no cookies and has no analytics, record server, account uploads, document intake or remote speech synthesis. Full account numbers, PAN, passwords, OTPs and identity documents must not be entered. Memory reset is not forensic erasure; the host can retain ordinary static-request logs. See [guardrails](docs/website-guardrails.md).
+
+## Run and verify
+
+Node.js 22+; no application dependencies to install.
 
 ```sh
-npm --prefix app run dev
+npm --prefix app run build:public
 npm --prefix app test
+npm --prefix app run dev
 ```
 
-The existing preview runs at `http://127.0.0.1:4173/`. Language switching stays on `/`, uses native-script labels, and preserves the current list and unfinished ordinary form edits. Old locale entry links are canonicalized to `/` by the preview. Urdu glyphs read right to left within inline text; all blocks keep the same left alignment and layout order as English.
+Preview: `http://127.0.0.1:4173/`. Run the [browser acceptance checklist](app/tests/browser-audit.md) after functional changes. Current verification evidence and remaining release gates are in [the in-context preview audit](docs/audits/2026-10-04-in-context/observations.md). The earlier [branch checkpoint](docs/nomination-expansion-2026-10-04.md) describes the superseded library layout. Build generation must run after every public asset change so offline clients receive a consistent shell.
 
-See [app instructions](app/README.md), [current build plan](docs/build-plan.md), and [recorded implementation checks](docs/implementation-checks.md).
+## Language and accessibility integration
 
-## Boundaries that matter
+The existing six-language tracker and bundled recordings remain. The **new coach is explicitly an English text-only preview**, isolated in `app/dist/nomination-coach.js` and its stylesheet for integration with the parallel language/accessibility branch. Essential session-policy notices have six draft translations in `session-policy.js`. New/overridden text is not falsely matched to old audio. Translation, narration, fluent-reader and real assistive-technology review remain release work. Existing automated scores are not accessibility certification.
 
-- **Local preparation:** no account login, case server, database, analytics, automatic uploads or case persistence in browser storage. Reload clears the session. Downloaded files remain on the user's device.
-- **Encrypted resume:** explicit local download using AES-256-GCM, PBKDF2-SHA256 with 600,000 iterations, random salt/nonce and authenticated version data. Passwords are not recoverable. Browser memory release is not forensic erasure.
-- **Deliberate sharing:** the plaintext summary preview discloses institution labels, family/nominee nicknames and optional last four digits. Private free-text record notes are omitted. Share only deliberately.
-- **Evidence states:** reported by the user, request submitted, and registration checked in a record are separate. None is automated institutional verification.
-- **Current guidance:** demat/MF nomination guidance uses SEBI's 29 May 2026 circular, effective 1 September 2026. Bank deposits use the Banking Companies (Nomination) Rules, 2025. Actual forms and eligibility are confirmed with the institution. These are different regimes; the app does not impose one universal document checklist.
-- **Languages:** six complete draft interface dictionaries; fluent-reader and legal-language review remain pending. No approved fluency claim. Official forms are not translated.
-- **Accessibility:** keyboard entry, visible focus, text-size A−/A+, contrast, reduced motion and optional device-local voice. The design targets WCAG 2.2 AA; human assistive-technology review remains a release gate.
+## Boundaries
 
-No recovery, financial saving, legal compliance certification, institutional acceptance or performance guarantee is claimed. Actual local Lighthouse reports and their tested conditions are recorded in [implementation checks](docs/implementation-checks.md).
+No buy/sell/hold advice, predictions, returns-based nudges, broker promotion, commissions or paid upsells. No automated institutional verification, legal entitlement determination, nomination submission or deceased-holder claim processing. No guaranteed acceptance, timelines, financial savings or recovery claims. Nomination status does not decide inheritance rights.
 
-## Repository guide
-
-| Path | Purpose |
-|---|---|
-| [app/](app/README.md) | Current Virasat interface, tracker logic and checks |
-| [Track B](docs/track-b.md) | Current selected direction and original brief analysis |
-| [Nomination guidance](docs/nomination-guidance.md) | Source locators, current scope and limitations |
-| [Implementation checks](docs/implementation-checks.md) | Observed verification and untested limits |
-| [Background problem research](docs/problem.md) | Earlier acquisition-history thesis |
-| [Background technical research](docs/technical-research.md) | Earlier reconstruction research model |
-| [Background validation](docs/validation.md) | Earlier candidate directions and validation gaps |
-| [Background inheritance research](docs/inheritance.md) | Earlier transmission research |
-| [Evidence register](docs/evidence-register.md) | Prior research claim register |
-| [Sources](references/sources.md) | Prior annotated source catalogue |
-
-Original research documents retain their dated context and evidence labels. Their earlier scope recommendations are superseded by the current focused product choice above.
+The existing production URL is documented in [app/README.md](app/README.md); this branch is not a production deployment. Older research/audits describe earlier versions and are not current behavior specifications. Crypto/schema tests remain historical regression coverage, not evidence that personal-data saving is enabled.

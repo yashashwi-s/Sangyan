@@ -18,3 +18,15 @@
 /* Long regional labels must wrap before pushing their controls off a small screen. */
 .setting-switch>span{min-width:0;overflow-wrap:anywhere}.setting-switch input{flex-shrink:0}
 @media(max-width:600px){.size-control{grid-template-columns:44px minmax(0,1fr) 44px}.size-control button:first-of-type{grid-column:1}}
+
+/* Session policy: visible before leaving this private in-memory workspace. */
+.session-notice{margin:28px 0;padding:16px 18px;border-inline-start:3px solid var(--accent);background:var(--soft);font-size:.875rem;max-width:850px;overflow-wrap:anywhere}.learning-entry{margin:24px 0}.learning-entry button{display:flex;flex-direction:column;align-items:flex-start;gap:4px}.learning-entry .micro{font-weight:400}
+/* The application does not create personal-data print/export copies. */
+@media print{body>*{display:none!important}body:after{display:block;content:"Virasat is a session-only guide. Complete personal information only in your institution's official form."}}
+
+/* Keep the current decision ahead of optional account history. */
+.focused-detail{max-width:48rem;margin-inline:auto;display:grid;gap:1rem}
+.secondary-record>summary{cursor:pointer;font-weight:650;padding:.4rem}
+.secondary-record>.detail-body{padding-block-start:1rem}
+.session-notice>p{margin-block:0 .35rem}
+.session-notice details{font-size:.9em}

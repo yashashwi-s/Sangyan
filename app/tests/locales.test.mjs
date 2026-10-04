@@ -1,3 +1,4 @@
+import {sessionText} from '../dist/session-policy.js';
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
@@ -34,6 +35,6 @@ test('entry HTML gives a usable language choice before JavaScript and avoids all
 test('all regional entry pages show current text, preload only their own pack and expose no private values',async()=>{
  const config=JSON.parse(await readFile(new URL('../vercel.json',import.meta.url)));assert.equal(config.rewrites[0].destination,'/entry/:locale.html');
  for(const [language,path] of Object.entries(localeCatalog)){
-  const html=await readFile(new URL(`../dist/entry/${language}.html`,import.meta.url),'utf8');assert.ok(html.includes(dictionaries[language].homeTitle));assert.ok(html.includes(dictionaries[language].homeIntro));assert.ok(html.includes(`href="${path}" as="fetch"`));assert.equal((html.match(/as="fetch"/g)||[]).length,1);assert.ok(html.includes('aria-busy="true"'));assert.ok(!html.includes('input type="text"'));
+  const html=await readFile(new URL(`../dist/entry/${language}.html`,import.meta.url),'utf8');assert.ok(html.includes(dictionaries[language].homeTitle));assert.ok(html.includes(sessionText(language,'homeIntro')));assert.ok(html.includes(`href="${path}" as="fetch"`));assert.equal((html.match(/as="fetch"/g)||[]).length,1);assert.ok(html.includes('aria-busy="true"'));assert.ok(!html.includes('input type="text"'));
  }
 });
