@@ -10,6 +10,10 @@ import {audioCatalog} from '../dist/audio-catalog.js';
 const [baseArg,outputArg]=process.argv.slice(2);
 if(!baseArg||!outputArg)throw Error('Supply a public origin and evidence path');
 const root=resolve(new URL('../dist/',import.meta.url).pathname),manifest=await sourceManifest(root);
+// Hosting configuration is applied by Vercel, not published as a static asset.
+manifest.files=manifest.files.filter(file=>file.path!=='_headers');
+manifest.sha256=createHash('sha256').update(JSON.stringify(manifest.files)).digest('hex');
+const expectedKeys=Object.keys(JSON.parse(await readFile(resolve(root,'.'+localeCatalog.en),'utf8'))).sort();
 const base=new URL(baseArg),result={date:new Date().toISOString(),origin:base.origin,sourceSha256:manifest.sha256,pages:[],audio:[],assets:[],excludedPaths:[],errors:[],note:'Public HTTP integrity checks only; all non-MP3 public assets and one complete homeTitle MP3 per audio language are compared with local SHA-256. Remaining MP3s have local full-pack integrity/decode validation, not individual live download verification. No account inputs, browser interaction, pronunciation or real-device assessment.'};
 if(!['http:','https:'].includes(base.protocol)||base.username||base.password||base.search)throw Error('Supply an origin without credentials/query');
 const request=path=>fetch(new URL(path,base),{credentials:'omit',signal:AbortSignal.timeout(20000)});
@@ -31,7 +35,7 @@ for(const [language] of languageInfo)try{
  const localPage=await readFile(resolve(root,'entry',language+'.html'));
  require(hash(Buffer.from(page))===hash(localPage),'Entry source differs from local release');
  const pack=await request(localeCatalog[language]),packBytes=Buffer.from(await pack.arrayBuffer()),dictionary=JSON.parse(packBytes);
- require(pack.status===200&&Object.keys(dictionary).length===369&&dictionary.translationDraft&&dictionary.textOnly&&dictionary.audioAvailable,'Incomplete public dictionary');
+ require(pack.status===200&&JSON.stringify(Object.keys(dictionary).sort())===JSON.stringify(expectedKeys)&&dictionary.translationDraft&&dictionary.textOnly&&dictionary.audioAvailable,'Incomplete public dictionary');
  require(pack.headers.get('cache-control')?.includes('immutable'),'Locale not immutable');
  privacy(pack);
  require(hash(packBytes)===hash(await readFile(resolve(root,'.'+localeCatalog[language]))),'Locale source differs from local release');

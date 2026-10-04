@@ -1,0 +1,16 @@
+{
+  "id": "dpl_6To8sieUKFx9ekPmm2fGTddSUUWb",
+  "url": "sangyan-agqsr51xj-yashashwi-singhanias-projects.vercel.app",
+  "target": "production",
+  "readyState": "READY",
+  "createdAt": 1791095618847,
+  "aliases": [
+    "sangyan-xi.vercel.app",
+    "sangyan-yashashwi-singhanias-projects.vercel.app"
+  ],
+  "mainCommit": "1820001eabcafbaf3e21c44161f337ee46868da6",
+  "integrationCommit": "c8b33087371081dc56a4a4c5a0f7584faca253a6",
+  "sourceSha256": "9d8a7b0a852145124a373d598409e9a2bd0dd30dbc1fd5b32e42af758384b0d9",
+  "publication": "isolated public output and hosting configuration only",
+  "mergePR": "https://github.com/yashashwi-s/Sangyan/pull/2"
+}
