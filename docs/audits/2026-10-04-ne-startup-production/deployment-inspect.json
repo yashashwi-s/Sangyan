@@ -1,0 +1,108 @@
+{
+  "id": "dpl_3vUSmsmsDv6g65XzHpeHX9zTmfW1",
+  "name": "sangyan",
+  "url": "sangyan-q1oubwilw-yashashwi-singhanias-projects.vercel.app",
+  "target": "production",
+  "readyState": "READY",
+  "createdAt": 1791083218479,
+  "aliases": [
+    "sangyan-xi.vercel.app",
+    "sangyan-yashashwi-singhanias-projects.vercel.app"
+  ],
+  "builds": [
+    {
+      "id": "bld_5o5agpbkw",
+      "deploymentId": "dpl_3vUSmsmsDv6g65XzHpeHX9zTmfW1",
+      "entrypoint": ".",
+      "readyState": "READY",
+      "readyStateAt": 1791083218400,
+      "createdAt": 1791083218400,
+      "createdIn": "sfo1",
+      "use": "@vercel/vc-build",
+      "config": {
+        "installCommand": "",
+        "buildCommand": "",
+        "outputDirectory": "dist",
+        "nodeVersion": "24.x",
+        "projectCreatedAt": 1790941360896,
+        "vercelConfig": {
+          "$schema": "https://openapi.vercel.sh/vercel.json",
+          "framework": null,
+          "buildCommand": "",
+          "installCommand": "",
+          "outputDirectory": "dist",
+          "trailingSlash": false,
+          "rewrites": [
+            {
+              "source": "/:locale(en|hi|as|bn|doi|gu|kn|kok|mai|ml|mni|mr|ne|or|pa|sa|sat|sd|ta|te|ur)",
+              "destination": "/entry/:locale.html"
+            }
+          ],
+          "headers": [
+            {
+              "source": "/(.*)",
+              "headers": [
+                {
+                  "key": "X-Content-Type-Options",
+                  "value": "nosniff"
+                },
+                {
+                  "key": "Referrer-Policy",
+                  "value": "no-referrer"
+                },
+                {
+                  "key": "X-Frame-Options",
+                  "value": "DENY"
+                },
+                {
+                  "key": "Permissions-Policy",
+                  "value": "camera=(), microphone=(), geolocation=()"
+                },
+                {
+                  "key": "Cross-Origin-Opener-Policy",
+                  "value": "same-origin"
+                },
+                {
+                  "key": "Cache-Control",
+                  "value": "public, max-age=0, must-revalidate"
+                },
+                {
+                  "key": "Content-Security-Policy",
+                  "value": "default-src 'none'; script-src 'self' 'sha256-dj9QZEZMdkqKc/heMPW5VpUel8wDI7Ri1AsymVQsNjE='; style-src 'self'; img-src 'self' data:; worker-src 'self'; connect-src 'self'; font-src 'self'; media-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-src 'none'; frame-ancestors 'none'"
+                }
+              ]
+            },
+            {
+              "source": "/audio/(.*)",
+              "headers": [
+                {
+                  "key": "Cache-Control",
+                  "value": "public, max-age=31536000, immutable"
+                },
+                {
+                  "key": "Content-Type",
+                  "value": "audio/mpeg"
+                }
+              ]
+            },
+            {
+              "source": "/locales/(.*)",
+              "headers": [
+                {
+                  "key": "Cache-Control",
+                  "value": "public, max-age=31536000, immutable"
+                }
+              ]
+            }
+          ],
+          "name": "sangyan",
+          "version": 2
+        }
+      },
+      "middleware": [],
+      "output": [],
+      "fingerprint": null
+    }
+  ],
+  "contextName": "yashashwi-singhanias-projects"
+}

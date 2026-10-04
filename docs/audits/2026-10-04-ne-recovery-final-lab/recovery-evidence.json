@@ -1,0 +1,144 @@
+{
+  "sourceSha256": "2ff3d138bde5037a162f03063041f24a21f4f702a95ce7710c7d884431181b44",
+  "scope": "One targeted navigation per network profile on integrated final source; navigation-only Chrome; recovery includes bounded public probe and one automatic pre-form reload; no user input/manual retry automation.",
+  "runs": [
+    {
+      "id": "steady-1",
+      "readyFromFirstNavigationMs": 5659.06,
+      "automaticReloadCount": 0,
+      "chromeErrorPageCount": 0,
+      "publicProbeRequests": [
+        {
+          "event": "request",
+          "run": "steady-1",
+          "path": "/main.js",
+          "atMs": 2502,
+          "bytes": 18046,
+          "status": 200,
+          "outcome": "complete",
+          "endMs": 4660
+        },
+        {
+          "event": "request",
+          "run": "steady-1",
+          "path": "/main.js",
+          "atMs": 7275,
+          "bytes": 0,
+          "status": 304,
+          "outcome": "complete",
+          "endMs": 8077
+        }
+      ],
+      "mp3Requests": 0,
+      "totalProxyBytes": 66566,
+      "lcpMs": 3306.779,
+      "tbtMs": 26.371999992370547,
+      "runtimeError": null,
+      "warnings": []
+    },
+    {
+      "id": "changing-1",
+      "readyFromFirstNavigationMs": 14779.683,
+      "automaticReloadCount": 1,
+      "chromeErrorPageCount": 0,
+      "publicProbeRequests": [
+        {
+          "event": "request",
+          "run": "changing-1",
+          "path": "/main.js",
+          "atMs": 2714,
+          "bytes": 0,
+          "status": null,
+          "outcome": "offline-after-latency"
+        },
+        {
+          "event": "request",
+          "run": "changing-1",
+          "path": "/main.js",
+          "atMs": 3716,
+          "bytes": 0,
+          "status": null,
+          "outcome": "offline-before-request"
+        },
+        {
+          "event": "request",
+          "run": "changing-1",
+          "path": "/main.js",
+          "atMs": 5734,
+          "bytes": 0,
+          "status": null,
+          "outcome": "offline-before-request"
+        },
+        {
+          "event": "request",
+          "run": "changing-1",
+          "path": "/main.js",
+          "atMs": 9746,
+          "bytes": 16163,
+          "status": 200,
+          "outcome": "client-aborted"
+        },
+        {
+          "event": "request",
+          "run": "changing-1",
+          "path": "/main.js",
+          "atMs": 12498,
+          "bytes": 18046,
+          "status": 200,
+          "outcome": "complete",
+          "endMs": 14044
+        },
+        {
+          "event": "request",
+          "run": "changing-1",
+          "path": "/main.js",
+          "atMs": 16025,
+          "bytes": 0,
+          "status": 304,
+          "outcome": "complete",
+          "endMs": 16628
+        }
+      ],
+      "mp3Requests": 0,
+      "totalProxyBytes": 83730,
+      "lcpMs": 1868.119,
+      "tbtMs": 0,
+      "runtimeError": null,
+      "warnings": []
+    },
+    {
+      "id": "recovered-1",
+      "readyFromFirstNavigationMs": 3825.731,
+      "automaticReloadCount": 0,
+      "chromeErrorPageCount": 0,
+      "publicProbeRequests": [
+        {
+          "event": "request",
+          "run": "recovered-1",
+          "path": "/main.js",
+          "atMs": 1698,
+          "bytes": 18046,
+          "status": 200,
+          "outcome": "complete",
+          "endMs": 3128
+        },
+        {
+          "event": "request",
+          "run": "recovered-1",
+          "path": "/main.js",
+          "atMs": 5080,
+          "bytes": 0,
+          "status": 304,
+          "outcome": "complete",
+          "endMs": 5682
+        }
+      ],
+      "mp3Requests": 0,
+      "totalProxyBytes": 66566,
+      "lcpMs": 1910.662,
+      "tbtMs": 0,
+      "runtimeError": null,
+      "warnings": []
+    }
+  ]
+}

@@ -1,4 +1,6 @@
-# Published draft release review
+# Historical 15-audio published draft release review
+
+The later 21-text/16-audio release and bounded startup fix are recorded in the [current release review](nepali-startup-release-2026-10-04.md). Evidence below remains tied to the earlier deployment.
 
 Date: 4 October 2026. Virasat's release scope is **21 text languages: English plus 20 scheduled languages, excluding Bodo and Kashmiri**. Fifteen languages have complete bundled draft guidance recordings; Nepali, Konkani, Manipuri/Meitei, Sanskrit, Santali and Sindhi remain text-only. Structural completeness means 369 nonempty public dictionary strings per language and 357 validated public guidance clips per advertised audio language. It is not a fluent translation or pronunciation approval.
 
