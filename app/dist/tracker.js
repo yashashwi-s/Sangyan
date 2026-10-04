@@ -4,6 +4,10 @@ export const SOURCES=Object.freeze({reviewedOn:'2026-10-03',sebi:'https://www.se
 export const TYPES=['demat','bank','mf'];
 export const NOMINATION=['registered','missing','unknown','change','optout'];
 export const REVIEW=['reported','submitted','confirmed','blocked'];
+// Decimal digits used by the released scripts; saved dates/last-four values stay ASCII.
+// Preserve other characters so validation, rather than coercion, decides whether they are valid.
+const decimalZeros=[0x0660,0x06f0,0x0966,0x09e6,0x0a66,0x0ae6,0x0b66,0x0be6,0x0c66,0x0ce6,0x0d66,0x1c50];
+export function normaliseDigits(text){return text.replace(/\p{Nd}/gu,char=>{const point=char.codePointAt(0),zero=decimalZeros.find(start=>point>=start&&point<start+10);return zero===undefined?char:String(point-zero);});}
 export function today(){const d=new Date();return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;}
 export function validDate(value,future=false){if(value==='')return true;if(!/^\d{4}-\d{2}-\d{2}$/.test(value))return false;const date=new Date(value+'T00:00:00Z');return Number.isFinite(date.getTime())&&date.toISOString().slice(0,10)===value&&(future||value<=today());}
 export function emptyTracker(){return {schema:3,product:'virasat',synthetic:false,accounts:[]};}

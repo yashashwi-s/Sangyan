@@ -1,7 +1,7 @@
 import {exportFont} from './export-font.js';
 import {isRTL,audioLanguages} from './languages.js';
 import {languages,translate,loadLanguage,keepLanguageOffline,loadingText,retryText} from './locale.js';
-import {emptyTracker,emptyAccount,sampleTracker,validateAccount,attention,orderedAccounts,counts,transition,saveWorkspace,restoreWorkspace,today,validDate,SOURCES} from './tracker.js';
+import {emptyTracker,emptyAccount,sampleTracker,validateAccount,attention,orderedAccounts,counts,transition,saveWorkspace,restoreWorkspace,today,validDate,normaliseDigits,SOURCES} from './tracker.js';
 import {searchInstitutions,matchInstitution,institutionById} from './institutions.js';
 import {guideFor} from './guides.js';
 import {createReader} from './speech.js';
@@ -106,7 +106,6 @@ function draw(focus=true){
 function showError(id,key){const el=document.getElementById(id);if(el){el.textContent=t(key);el.setAttribute('data-speak','');}}
 function clearErrors(){main.querySelectorAll('.error').forEach(e=>e.textContent='');main.querySelectorAll('[aria-invalid]').forEach(e=>e.removeAttribute('aria-invalid'));}
 function invalid(name,key){showError(document.getElementById('account-'+name+'-error')?'account-'+name+'-error':name+'-error',key);const input=$('#account-'+name)||$(`[data-date-name="${name}"]`)||$(`[name="${name}"]`);if(input){input.setAttribute('aria-invalid','true');input.focus();}else showError('form-error',key);}
-function normaliseDigits(text){return text.replace(/[०-९০-৯٠-٩۰-۹]/g,c=>String(c.charCodeAt(0)-(c>='०'&&c<='९'?0x966:c>='০'&&c<='৯'?0x9e6:c>='٠'&&c<='٩'?0x660:0x6f0)));}
 function readDates(){for(const [name,parts] of Object.entries(draft?._dateParts||{})){const {year,month,day}=parts;draft[name]=[year,month,day].every(v=>v==='')?'':`${year.padStart(4,'0')}-${month.padStart(2,'0')}-${day.padStart(2,'0')}`;}}
 function bindInstitution(){
  const input=$('#account-institution'),list=$('#institution-results');let results=[],active=-1;
