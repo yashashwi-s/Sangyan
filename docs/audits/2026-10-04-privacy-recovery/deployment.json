@@ -1,0 +1,26 @@
+{
+  "status": "ok",
+  "deployment": {
+    "id": "dpl_udenZ93DNyPCH6sS7h5gU475ztzw",
+    "url": "https://sangyan-gk5qzcfh6-yashashwi-singhanias-projects.vercel.app",
+    "inspectorUrl": "https://vercel.com/yashashwi-singhanias-projects/sangyan/udenZ93DNyPCH6sS7h5gU475ztzw",
+    "readyState": "READY",
+    "target": "production",
+    "deploymentApiUrl": "https://api.vercel.com/v13/deployments/dpl_udenZ93DNyPCH6sS7h5gU475ztzw"
+  },
+  "message": "Deployment sangyan-gk5qzcfh6-yashashwi-singhanias-projects.vercel.app ready.",
+  "next": [
+    {
+      "command": "vercel curl https://sangyan-gk5qzcfh6-yashashwi-singhanias-projects.vercel.app",
+      "when": "Verify deployment, including when Deployment Protection is enabled"
+    },
+    {
+      "command": "vercel inspect sangyan-gk5qzcfh6-yashashwi-singhanias-projects.vercel.app --cwd /private/tmp/virasat-privacy-recovery-production",
+      "when": "Inspect deployment"
+    },
+    {
+      "command": "vercel deploy --prod --cwd /private/tmp/virasat-privacy-recovery-production",
+      "when": "Promote to production"
+    }
+  ]
+}
