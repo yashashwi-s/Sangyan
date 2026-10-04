@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-04T04:59:47.255Z",
+  "fileCount": 5781,
+  "totalSize": 108276004,
+  "ignored": [
+    ".vercel"
+  ],
+  "sourceSha256": "b81443b14aa9c10721a1d1d39c83887d179c2bd069782e410dff8d11bba783da",
+  "publicSha256": "3534dbf6ec4c83d827a88cd19e94ce33825945fa43aa2a62663e40070f7cc83c",
+  "publicFiles": 5780,
+  "publicBytes": 108274127,
+  "stageMatchesLocalPublic": true,
+  "allowedInputs": [
+    "app/dist/** excluding _headers",
+    "app/vercel.json"
+  ],
+  "note": "Dry-run inputs and exact staged public comparison; no deployment success inferred."
+}
