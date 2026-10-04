@@ -1,0 +1,90 @@
+{
+  "language": "ne",
+  "revision": "326121f13b32",
+  "model": {
+    "repo": "rhasspy/piper-voices",
+    "revision": "c10ece1aade47bb51c153c893d14e5bf8e5b7117",
+    "repoLicense": "MIT",
+    "datasetLicense": "CC0",
+    "language": "ne_NP",
+    "espeakVoice": "ne",
+    "files": [
+      {
+        "path": "MODEL_CARD",
+        "url": "https://huggingface.co/rhasspy/piper-voices/resolve/c10ece1aade47bb51c153c893d14e5bf8e5b7117/ne/ne_NP/chitwan/medium/MODEL_CARD",
+        "bytes": 276,
+        "sha256": "127e85643329612dbebd7a071dd0f69a03439ceecdec5b637ed8641379b4ba00"
+      },
+      {
+        "path": "ne_NP-chitwan-medium.onnx",
+        "url": "https://huggingface.co/rhasspy/piper-voices/resolve/c10ece1aade47bb51c153c893d14e5bf8e5b7117/ne/ne_NP/chitwan/medium/ne_NP-chitwan-medium.onnx",
+        "bytes": 62950044,
+        "sha256": "f7ba6b0927688f92717e93ca52bc06f5783ce8edc765d5f85365acef1d41822c"
+      },
+      {
+        "path": "ne_NP-chitwan-medium.onnx.json",
+        "url": "https://huggingface.co/rhasspy/piper-voices/resolve/c10ece1aade47bb51c153c893d14e5bf8e5b7117/ne/ne_NP/chitwan/medium/ne_NP-chitwan-medium.onnx.json",
+        "bytes": 5043,
+        "sha256": "18d523b03b201422d14e2892cc750a81208d2e45158a9c6a7e4e06a500930dee"
+      }
+    ]
+  },
+  "engine": "Piper 1.8.0 (GPL-3.0 build-only)",
+  "license": "MIT voice repository / CC0 dataset",
+  "fluentReview": false,
+  "auditoryReview": false,
+  "aliases": {},
+  "scope": "sample",
+  "released": false,
+  "entries": {
+    "homeTitle": {
+      "textHash": "8a8e9b1020ec4de9e1c0757ee65056517429b52dccc51876b3317d8cb9e29bbc",
+      "spoken": "आफ्नो परिवारको खाता खोज्न सजिलो बनाउनुहोस्।",
+      "bytes": 12927,
+      "seconds": 3.088,
+      "sha256": "e58a3dbf87a7d0e5dcb360dc4e36148ee3de6d5f3a3d23cd579924febf290945"
+    },
+    "nomineeExplain": {
+      "textHash": "02fd5b5befa621387f056ed67feb7af15ff5cd2188297dec2cfc85c17d6437cf",
+      "spoken": "मनोनित व्यक्ति भनेको खाताधारकको मृत्यु भएपछि संस्थाले दाबी स्वीकार गर्न सक्ने व्यक्ति हो। मनोनयनले प्रक्रियामा सहयोग गर्छ; यसले कानुनी उत्तराधिकारी को हो भन्ने निर्धारण गर्दैन। जाँच गर्नुभएको छैन भने “पक्का छैन” छान्नुहोस्।",
+      "bytes": 54500,
+      "seconds": 13.468,
+      "sha256": "c135b0c49007d08815c1d3dc1b33a0e8357d576ee8d22697f564688ea71b518e"
+    },
+    "receiptExample": {
+      "textHash": "2d20b64b5c08729d0f6f3166f85a4ad1c2c94507421e4e9b2be284b918993d5b",
+      "spoken": "\"तपाईंको अनुरोध प्राप्त भएको छ\" को मतलब अनुरोध विचाराधीन छ।",
+      "bytes": 15716,
+      "seconds": 3.785,
+      "sha256": "df4e5f0394304489784a232b10fabd6197dc356d79e90d9e4a455dd61f5a3e5f"
+    },
+    "registeredExample": {
+      "textHash": "fc058b1bcfd105cf8e96b92d78228e2ba13022a3154e2f132a8ab335cd5664a1",
+      "spoken": "“मनोनयन दर्ता भएको” वा “मनोनयन: हो” ले दर्ता भएको देखाउँछ। यसमा यही खाताको पहिचान छ कि छैन जाँच गर्नुहोस्।",
+      "bytes": 29735,
+      "seconds": 7.279,
+      "sha256": "93ad80cadeeb40367bba565be1b4fab87835c7929bca8bfd5414de0144ef01fc"
+    },
+    "helpScopeText": {
+      "textHash": "499ebc4ff0dcdf521ca1a435b93abd096b5bd6dda2c022119c1671f48852a1b6",
+      "spoken": "यो प्रक्रिया जीवित खाताधारकले मनोनयन मिलाउनका लागि हो। खाताधारकको मृत्यु भइसकेको छ भने संस्थालाई मृत खाताधारकको दाबी वा सम्पत्ति हस्तान्तरण प्रक्रिया सोध्नुहोस्। उहाँको तर्फबाट नयाँ मनोनयन सुरु नगर्नुहोस्।",
+      "bytes": 49411,
+      "seconds": 12.214,
+      "sha256": "bdc2b6fcc5abfbf1f18bf4d149baf4a673f1dbe452b3f5b908c4f3d626aedaa7"
+    },
+    "passwordHelp": {
+      "textHash": "fb8bebb4fe041044606714fa9fef8a67ea38102acc433679001dc7c921486eb6",
+      "spoken": "कम्तिमा १२ वर्णहरू। यसलाई सुरक्षित राख्नुहोस्; हामी यसलाई पुन: प्राप्त गर्न सक्दैनौं।",
+      "bytes": 23586,
+      "seconds": 5.747,
+      "sha256": "537831931d8dcfb8262a5b235494819dfee8718b693d01cce9141b337a42aac5"
+    },
+    "privacyDetail": {
+      "textHash": "7e64503bd1fbb36a2eb21cecb676a30e0b854a9346c5feabef5089408bcbe3f1",
+      "spoken": "तपाईंको सूची ब्राउजर मेमोरीमा रहन्छ। रिलोडले यसलाई खाली गर्छ। पछि फर्काउनको लागि एन्क्रिप्टेड फाइल बचत गर्नुहोस्। डाउनलोडहरू तपाईंको उपकरणमा रहन्छन्।",
+      "bytes": 41539,
+      "seconds": 10.24,
+      "sha256": "a145e927119c3be6c273c3cfdeb35a3c20a6c184876e4094721a1642abc7b76d"
+    }
+  }
+}

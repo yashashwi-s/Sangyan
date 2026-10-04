@@ -34,9 +34,10 @@ test('published audio coverage and model credits match each actual language mani
  const coverage=page.match(/<p id="audio-language-coverage">(.*?)<\/p>/)[1];
  for(const language of audioLanguages){
   const report=JSON.parse(await readFile(new URL(`../audio/recordings-${language}.json`,import.meta.url)));
-  assert.ok(links.includes(`${report.model.model}/tree/${report.model.revision}`),language);
+  assert.ok(links.includes(`${report.model.repo||report.model.model}/tree/${report.model.revision}${language==='ne'?'/ne/ne_NP/chitwan/medium':''}`),language);
   assert.ok(coverage.includes(languageInfo.find(([code])=>code===language)[2]),language);
  }
  assert.ok(page.includes('have not yet passed fluent-speaker checks'));
  assert.ok(page.includes('CC BY-NC 4.0'));
+ if(audioLanguages.includes('ne')){assert.ok(page.includes('Piper Chitwan'));assert.ok(page.includes('CC0'));assert.ok(page.includes('GPL-3.0'));}
 });

@@ -63,7 +63,7 @@ await Promise.all(Array.from({length:4},async()=>{
  }catch(error){result.errors.push({path:file.path,error:String(error)});}}
 }));
 result.assets.sort((a,b)=>a.path.localeCompare(b.path));
-for(const path of ['/audio/public-text.json','/audio/candidates.json','/translations/en.json','/translation-handoff/README.md','/scripts/build-audio.mjs','/tests/locales.test.mjs','/.vercel/project.json','/vercel.json','/server.mjs','/_headers','/package.json'])try{
+for(const path of ['/audio/public-text.json','/audio/candidates.json','/audio/piper-ne-model-source.json','/audio/recordings-ne.json','/audio/piper-requirements-lock.txt','/translations/en.json','/translation-handoff/README.md','/scripts/build-audio.mjs','/scripts/generate-piper-ne.py','/tests/locales.test.mjs','/.vercel/project.json','/vercel.json','/server.mjs','/_headers','/package.json'])try{
  const response=await request(path);require(response.status===404,'Build-only or hosting metadata is publicly served');result.excludedPaths.push({path,status:response.status});
 }catch(error){result.errors.push({path,error:String(error)});}
 const out=resolve(outputArg);await mkdir(dirname(out),{recursive:true});await writeFile(out,JSON.stringify(result,null,2)+'\n');

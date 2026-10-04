@@ -1,3 +1,5 @@
+Current continuation: [Nepali independent provider and remaining five-language findings](audio-remaining-languages-2026-10-04.md). The nine-MMS checkpoints below remain historical; the integrated build now contains 16 draft audio languages.
+
 # Audio expansion checkpoint — 4 October 2026
 
 The current release scope is 21 written languages: English plus 20 scheduled languages, excluding Bodo and Kashmiri. The locally integrated release now has fifteen bundled draft recording languages: English, Hindi, Bengali, Marathi, Tamil, Urdu, Gujarati, Punjabi, Kannada, Telugu, Malayalam, Assamese, Odia, Dogri and Maithili. All nine added packs are complete and technically validated; no fluent/accent/meaning approval is claimed. Candidate model availability is not released audio coverage. All existing voices and translations remain drafts pending fluent-reader/listener review.

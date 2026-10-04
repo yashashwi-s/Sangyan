@@ -22,3 +22,8 @@ Generated using Meta AI's [Massively Multilingual Speech](https://github.com/fac
 ## Expansion staging
 
 The release currently has 21 written languages and six audio languages. `export-audio-text.mjs` defaults to the six released languages. For another supported text language, use a separate output, for example `node app/scripts/export-audio-text.mjs --language gu --output /private/tmp/virasat-gu-audio-public.json`. A candidate export never enables listening or replaces the released source. See [the verified expansion plan](../../docs/audio-expansion-plan-2026-10-04.md) for model/script/licence checks and the remaining synthesis/pronunciation steps.
+
+
+## Separate Nepali voice provider
+
+Nepali uses the public pinned Piper Chitwan medium voice (MIT repository metadata, CC0 dataset), distinct from the fifteen Meta MMS packs. Piper 1.8.0/GPL-3.0 is build-only. Model weights and dependencies are never public assets. The exact 357-key source, no-alias phoneme preflight, independent full MP3 validation and model/card hashes are retained. See [source/licensing/build steps and review limits](../../docs/audio-remaining-languages-2026-10-04.md). No fluent listening or semantic certification is claimed.

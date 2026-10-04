@@ -1,0 +1,16 @@
+{
+  "language": "ne",
+  "revision": "326121f13b32",
+  "clips": 357,
+  "bytes": 5672197,
+  "mp3Seconds": 1365.167859,
+  "minSeconds": 0.847542,
+  "maxSeconds": 14.257958,
+  "failures": [],
+  "allClipsDecoded": true,
+  "allSourcesMatch": true,
+  "aliases": {},
+  "fluentReview": false,
+  "auditoryReview": false,
+  "promoted": true
+}

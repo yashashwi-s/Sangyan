@@ -3,9 +3,35 @@
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#9b513a"><meta name="description" content="Check family nominations, follow the right next step, and leave a clear account record for your family.">
-<meta name="referrer" content="no-referrer"><meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; worker-src 'self'; connect-src 'self'; font-src 'self'; media-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-src 'none'">
+<meta name="referrer" content="no-referrer"><meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self' 'sha256-dj9QZEZMdkqKc/heMPW5VpUel8wDI7Ri1AsymVQsNjE='; style-src 'self'; img-src 'self' data:; worker-src 'self'; connect-src 'self'; font-src 'self'; media-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-src 'none'">
 <title>Virasat · Family nominees</title><link rel="icon" href="/favicon.svg"><link rel="stylesheet" href="/styles.css">
-<link rel="modulepreload" href="/locale.js"><link rel="modulepreload" href="/locale-catalog.js"><link rel="modulepreload" href="/tracker.js"><link rel="modulepreload" href="/institutions.js"><link rel="modulepreload" href="/speech.js"><link rel="modulepreload" href="/guides.js"><link rel="modulepreload" href="/privacy.js"><link rel="modulepreload" href="/audio-catalog.js"><script type="module" src="/main.js"></script>
+<link rel="modulepreload" href="/locale.js"><link rel="modulepreload" href="/locale-catalog.js"><link rel="modulepreload" href="/tracker.js"><link rel="modulepreload" href="/institutions.js"><link rel="modulepreload" href="/speech.js"><link rel="modulepreload" href="/guides.js"><link rel="modulepreload" href="/privacy.js"><link rel="modulepreload" href="/audio-catalog.js"><link rel="modulepreload" href="/main.js"><script id="startup-bootstrap">// Embedded with an exact CSP hash: recovery must work even if public modules fail.
+(()=>{
+ const key='virasat-startup-retries-v1',path=location.pathname;
+ const untouched=()=>!performance.getEntriesByName('virasat-ready').length&&!document.querySelector('form')&&location.pathname===path;
+ function start(){
+  const script=document.createElement('script');script.type='module';script.src='/main.js';
+  script.onload=()=>{try{sessionStorage.removeItem(key);}catch{}};
+  script.onerror=()=>{
+   if(!untouched())return;
+   let attempts;
+   try{const prior=JSON.parse(sessionStorage.getItem(key)||'null');attempts=prior?.path===path?prior.attempts:0;if(!Number.isInteger(attempts)||attempts<0||attempts>=2)return;sessionStorage.setItem(key,JSON.stringify({path,attempts:attempts+1}));}catch{return;}
+   setTimeout(()=>{
+    if(!untouched())return;
+    // A connected radio does not prove the server is reachable. Probe only this
+    // public asset before navigating, so a short outage keeps the native fallback.
+    const recover=async()=>{try{const response=await fetch('/main.js',{cache:'no-store',signal:AbortSignal.timeout(8000)});if(!response.ok)throw Error('Public module unavailable');if(untouched())location.reload();}catch{if(untouched())script.onerror();}};
+    if(navigator.onLine!==false){recover();return;}
+    const online=()=>{clearTimeout(expiry);window.removeEventListener('online',online);if(untouched())recover();};
+    const expiry=setTimeout(()=>window.removeEventListener('online',online),30000);
+    window.addEventListener('online',online);
+   },2000*(attempts+1));
+  };
+  document.head.append(script);
+ }
+ if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',start,{once:true});else start();
+})();
+</script>
 <link rel="preload" href="/locales/ml-93dd7a548a91.json" as="fetch" crossorigin="anonymous"></head>
 <body class="">
 <a class="skip" href="#main" hidden>Skip to main content</a>
