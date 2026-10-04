@@ -1,0 +1,26 @@
+{
+  "productCommit": "6aba77637981158cd778ce6d5d496ec9bbddd270",
+  "productionUrl": "https://sangyan-xi.vercel.app",
+  "deploymentUrl": "https://sangyan-fvufrnox0-yashashwi-singhanias-projects.vercel.app",
+  "deploymentId": "dpl_EvJvfZkLyJxbxJmqYsiMdvQRtbnh",
+  "state": "READY",
+  "hostingPlan": "hobby",
+  "route": "existing GitHub production integration",
+  "releaseTests": {
+    "passed": 169,
+    "failed": 0
+  },
+  "liveAssetChecks": {
+    "passed": 109,
+    "failed": 0,
+    "scope": "21 language entries, current locale packs and paper guides, eight key public files, 32 representative base/supplemental audio files across 16 listening languages, and six formerly missing nominee-choice clips in Maithili/Hindi/English"
+  },
+  "browserCheck": {
+    "language": "mai",
+    "origin": "https://sangyan-xi.vercel.app",
+    "result": "Playing state observed from real media event; Pause, Stop, Repeat and Next controls displayed with the current reading highlight.",
+    "screenshot": "live-maithili-playing.jpg",
+    "existingCache": "The previously used browser needed one reload after the new public service worker activated. This was not a fresh-browser startup test."
+  },
+  "deferred": "Reopening progress and unfinished-task discovery were not changed in this final pass."
+}

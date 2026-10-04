@@ -11,3 +11,9 @@ The MITRA referral now uses the MF Central MITRA entry link. Paper securities no
 Progress after reopening and unfinished-task behaviour were explicitly deferred and received no further changes in this final pass.
 
 Deployment uses the existing GitHub production integration for Sangyan on the existing Hobby plan. Live verification is recorded separately after the deployment reaches READY.
+
+## Published verification
+
+Production deployment `dpl_EvJvfZkLyJxbxJmqYsiMdvQRtbnh` reached READY for product commit `6aba77637981158cd778ce6d5d496ec9bbddd270`. All 109 live checks returned the expected release bytes, including representative base and supplemental audio in all 16 listening languages, all 21 language entry/pack/paper routes, and the six formerly missing English, Hindi and Maithili nominee-choice clips. This is representative live audio coverage, not a request to every one of the 10,672 recordings. The complete recording inventory passed local integrity verification.
+
+Maithili playback was then observed on production with reading highlights and playback controls. The browser had previously visited the production origin and needed one reload after activation of the new public service worker; fresh-browser startup was not inferred from this observation. The verification record and screenshot are in `docs/audits/2026-10-04-final-audio/`.
