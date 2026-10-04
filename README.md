@@ -1,6 +1,6 @@
 # Virasat — Family accounts and nominees
 
-**Published draft: 4 October 2026.** Virasat follows the supplied Track B brief's **Nominee & Family Wealth Tracker** direction. One focused journey helps a family list demat accounts, bank deposits and mutual fund folios, notice missing or uncertain nominations, and follow one request through to a record check. The live site is [sangyan-xi.vercel.app](https://sangyan-xi.vercel.app). See the [current release review](docs/bharat-release-review-2026-10-04.md) for exact coverage, verification and unresolved human/device evidence.
+**Published draft: 4 October 2026.** Virasat follows the supplied Track B brief's **Nominee & Family Wealth Tracker** direction. One focused journey helps a family list demat accounts, bank deposits and mutual fund folios, notice missing or uncertain nominations, and follow one request through to a record check. The live site is [sangyan-xi.vercel.app](https://sangyan-xi.vercel.app). See the [current release review](docs/completion-gap-assessment-2026-10-04.md) for exact coverage, verification and unresolved human/device evidence.
 
 The authoritative brief is the supplied [SANGYAN problem statement](references/problem-statement.pdf). Earlier securities-history and transmission research is preserved as background; it does not define the current product journey.
 
@@ -36,7 +36,7 @@ See [app instructions](app/README.md), [current build plan](docs/build-plan.md),
 - **Languages/audio:** 21 complete draft dictionaries and 16 complete synthetic draft guidance packs, downloaded only on request. Konkani, Manipuri/Meitei, Sanskrit, Santali and Sindhi are text-only. Fluent-reader, legal-language and voice review remain pending. Official forms are not translated; no device speech voice or cloud account-data service is required. Fifteen MMS packs use CC BY-NC 4.0; Nepali uses the public Piper Chitwan voice (MIT repository, CC0 dataset). The project remains non-commercial.
 - **Accessibility:** keyboard controls, visible focus, 90–200% text, contrast, spacing, reduced motion and optional bundled public guidance. Automated/source checks do not certify WCAG/GIGW conformance. Final interactive/screen-reader and physical-device review remain unverified.
 
-No financial saving, legal compliance certification, institutional acceptance or performance guarantee is claimed. The [final-source performance report](docs/bharat-performance-final-2026-10-04.md) records exact lab conditions and failed interrupted startups. The [acceptance checklist](docs/bharat-release-checklist.md) separates passing technical/live checks from fluent, interactive and physical-device gaps. Earlier implementation reports remain dated historical evidence.
+No financial saving, legal compliance certification, institutional acceptance or performance guarantee is claimed. The [historical performance report](docs/bharat-performance-final-2026-10-04.md) and [subsequent automatic recovery evidence](docs/startup-recovery-2026-10-04.md) retain exact measured source hashes; the later keyboard/credit-label correction has not been timed. The [acceptance checklist](docs/bharat-release-checklist.md) separates passing technical/live checks from fluent, interactive and physical-device gaps. Earlier implementation reports remain dated historical evidence.
 
 ## Repository guide
 

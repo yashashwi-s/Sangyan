@@ -22,3 +22,7 @@ The startup bootstrap/locale retry code and all 5,712 recordings are unchanged b
 | Target-user usability and traffic scale | Bounded lazy assets/cache and deterministic state/data checks | Arrange representative user completion sessions and a defined traffic/load exercise; record task success, errors and resource limits. Source review does not establish these outcomes. |
 
 No further concrete privacy or unsupported-completion claim defect was identified in this bounded pass. That is a limited assessment, not proof that defects cannot exist. The checklist retains all external gates and the public draft notices remain required.
+
+## Published correction evidence
+
+Both fixes are now published at [sangyan-xi.vercel.app](https://sangyan-xi.vercel.app), deployment **`dpl_FRXZxdQMWbAxM8DAhJz25LEbMUzH`**, state **READY**, from source commit `fc402c1`. Exact public manifest: **`20d5f2041846ea1a7c7a529183cb8f858fb3be344ff26e69535bbb458b34f0b6`**. [Live verification](audits/2026-10-04-completion-gap/live-public-serving.json) passed all **21 pages, 16 full audio samples/ranges, 68 non-MP3 source hashes and 15 build-only exclusions**, including privacy headers and no cookies. [Deployment record](audits/2026-10-04-completion-gap/deployment.json), inspected READY/alias output and the 94-test release log are retained. Only static output and host configuration were staged; no model/runtime/research payload was published.
