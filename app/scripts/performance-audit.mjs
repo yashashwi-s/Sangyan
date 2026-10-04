@@ -10,7 +10,7 @@ import {createAuditServers,sourceManifest,profiles} from './performance-network.
 const exec=promisify(execFile);
 const [snapshotArg,outArg,language='hi',runsArg='3',profileArg='steady,changing,recovered']=process.argv.slice(2);
 const selectedProfiles=profileArg.split(',');
-if(!selectedProfiles.length||new Set(selectedProfiles).size!==selectedProfiles.length||selectedProfiles.some(p=>!['steady','changing','recovered'].includes(p)))throw Error('Select defined steady, changing or recovered profiles');
+if(!selectedProfiles.length||new Set(selectedProfiles).size!==selectedProfiles.length||selectedProfiles.some(p=>!['umts3g','fast3g','steady','changing','recovered'].includes(p)))throw Error('Select defined umts3g, fast3g, steady, changing or recovered profiles');
 if(!Number.isInteger(Number(runsArg))||Number(runsArg)<1||Number(runsArg)>3)throw Error('Use one to three bounded repetitions');
 if(!snapshotArg||!outArg)throw Error('Supply a frozen public snapshot and output directory');
 const snapshot=resolve(snapshotArg),out=resolve(outArg),runtime=process.env.VIRASAT_AUDIT_TOOLS||'/private/tmp/virasat-audit-tools';
@@ -32,7 +32,7 @@ try{
   for(const profile of selectedProfiles)for(let iteration=1;iteration<=Number(runsArg);iteration++){
     const id=`${profile}-${iteration}`;
     // A new Chrome process and user directory give every navigation a cold browser.
-    const chrome=await chromeLauncher.launch({chromeFlags:flags,logLevel:'silent'});
+    const chrome=await chromeLauncher.launch({chromePath:process.env.VIRASAT_CHROME_PATH,chromeFlags:flags,logLevel:'silent'});
     servers.reset(profile,id);
     const timer=setInterval(()=>sampleTree(chrome.pid,id),500);await sampleTree(chrome.pid,id);
     try{
@@ -44,7 +44,7 @@ try{
       const trace=result.artifacts.Trace?.traceEvents||[];
       const heapSamples=trace.filter(e=>typeof e.args?.data?.jsHeapSizeUsed==='number').map(e=>({traceTimestampUs:e.ts,pid:e.pid,usedBytes:e.args.data.jsHeapSizeUsed}));
       const ready=trace.filter(e=>e.name==='virasat-ready').map(e=>({traceTimestampUs:e.ts,category:e.cat}));
-      const summary={id,profile,iteration,url:lhr.finalDisplayedUrl,lighthouseVersion:lhr.lighthouseVersion,chromeVersion:lhr.environment?.hostUserAgent,runtimeError:lhr.runtimeError||null,warnings:lhr.runWarnings,scores:Object.fromEntries(Object.entries(lhr.categories).map(([k,v])=>[k,v.score])),lcpMs:a['largest-contentful-paint']?.numericValue,fcpMs:a['first-contentful-paint']?.numericValue,tbtMs:a['total-blocking-time']?.numericValue,cls:a['cumulative-layout-shift']?.numericValue,navigationTransferBytes:a['total-byte-weight']?.numericValue,controlsReadyMs:a['user-timings']?.details?.items?.find(item=>item.name==='virasat-ready')?.startTime??null,readyMarks:ready,heap:{v8OldSpaceCapMiB:64,traceSampleCount:heapSamples.length,maxObservedUsedBytes:heapSamples.length?Math.max(...heapSamples.map(s=>s.usedBytes)):null,samples:heapSamples}};
+      const summary={id,profile,iteration,url:lhr.finalDisplayedUrl,lighthouseVersion:lhr.lighthouseVersion,chromeVersion:lhr.environment?.hostUserAgent,hostBenchmarkIndex:lhr.environment?.benchmarkIndex,runtimeError:lhr.runtimeError||null,warnings:lhr.runWarnings,scores:Object.fromEntries(Object.entries(lhr.categories).map(([k,v])=>[k,v.score])),lcpMs:a['largest-contentful-paint']?.numericValue,fcpMs:a['first-contentful-paint']?.numericValue,tbtMs:a['total-blocking-time']?.numericValue,cls:a['cumulative-layout-shift']?.numericValue,navigationTransferBytes:a['total-byte-weight']?.numericValue,controlsReadyMs:a['user-timings']?.details?.items?.find(item=>item.name==='virasat-ready')?.startTime??null,readyMarks:ready,heap:{v8OldSpaceCapMiB:64,traceSampleCount:heapSamples.length,maxObservedUsedBytes:heapSamples.length?Math.max(...heapSamples.map(s=>s.usedBytes)):null,samples:heapSamples}};
       summaries.push(summary);console.log(JSON.stringify({id,lcpMs:summary.lcpMs,tbtMs:summary.tbtMs,scores:summary.scores,runtimeError:summary.runtimeError}));
     }catch(error){summaries.push({id,profile,iteration,error:String(error)});console.log(JSON.stringify({id,error:String(error)}));}
     finally{clearInterval(timer);await sampleTree(chrome.pid,id);await chrome.kill();await new Promise(r=>setTimeout(r,500));}

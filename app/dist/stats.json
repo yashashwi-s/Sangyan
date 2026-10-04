@@ -1,0 +1,1802 @@
+{
+  "reviewedOn": "2026-10-04",
+  "product": "Virasat",
+  "coverage": {
+    "institutions": 75,
+    "groups": [
+      {
+        "type": "bank",
+        "label": "Banks",
+        "items": [
+          {
+            "id": "hdfc-bank",
+            "name": "HDFC Bank"
+          },
+          {
+            "id": "sbi",
+            "name": "State Bank of India"
+          },
+          {
+            "id": "icici-bank",
+            "name": "ICICI Bank"
+          },
+          {
+            "id": "axis-bank",
+            "name": "Axis Bank"
+          },
+          {
+            "id": "pnb",
+            "name": "Punjab National Bank"
+          },
+          {
+            "id": "bank-of-baroda",
+            "name": "Bank of Baroda"
+          },
+          {
+            "id": "canara-bank",
+            "name": "Canara Bank"
+          },
+          {
+            "id": "union-bank",
+            "name": "Union Bank of India"
+          },
+          {
+            "id": "bank-of-india",
+            "name": "Bank of India"
+          },
+          {
+            "id": "bank-of-maharashtra",
+            "name": "Bank of Maharashtra"
+          },
+          {
+            "id": "central-bank",
+            "name": "Central Bank of India"
+          },
+          {
+            "id": "indian-bank",
+            "name": "Indian Bank"
+          },
+          {
+            "id": "iob",
+            "name": "Indian Overseas Bank"
+          },
+          {
+            "id": "uco",
+            "name": "UCO Bank"
+          },
+          {
+            "id": "punjab-sind",
+            "name": "Punjab & Sind Bank"
+          },
+          {
+            "id": "kotak",
+            "name": "Kotak Mahindra Bank"
+          },
+          {
+            "id": "idfc",
+            "name": "IDFC FIRST Bank"
+          },
+          {
+            "id": "indusind",
+            "name": "IndusInd Bank"
+          },
+          {
+            "id": "yes",
+            "name": "YES Bank"
+          },
+          {
+            "id": "federal",
+            "name": "Federal Bank"
+          },
+          {
+            "id": "idbi",
+            "name": "IDBI Bank"
+          },
+          {
+            "id": "rbl",
+            "name": "RBL Bank"
+          },
+          {
+            "id": "south-indian",
+            "name": "South Indian Bank"
+          },
+          {
+            "id": "karur-vysya",
+            "name": "Karur Vysya Bank"
+          },
+          {
+            "id": "karnataka",
+            "name": "Karnataka Bank"
+          },
+          {
+            "id": "city-union",
+            "name": "City Union Bank"
+          },
+          {
+            "id": "dcb",
+            "name": "DCB Bank"
+          },
+          {
+            "id": "dhanlaxmi",
+            "name": "Dhanlaxmi Bank"
+          },
+          {
+            "id": "jammu-kashmir",
+            "name": "Jammu & Kashmir Bank"
+          },
+          {
+            "id": "tmb",
+            "name": "Tamilnad Mercantile Bank"
+          },
+          {
+            "id": "au",
+            "name": "AU Small Finance Bank"
+          },
+          {
+            "id": "ujjivan",
+            "name": "Ujjivan Small Finance Bank"
+          },
+          {
+            "id": "equitas",
+            "name": "Equitas Small Finance Bank"
+          },
+          {
+            "id": "hsbc",
+            "name": "HSBC India"
+          },
+          {
+            "id": "standard-chartered",
+            "name": "Standard Chartered Bank"
+          },
+          {
+            "id": "dbs",
+            "name": "DBS Bank India"
+          }
+        ]
+      },
+      {
+        "type": "demat",
+        "label": "Brokers / DP labels",
+        "items": [
+          {
+            "id": "zerodha",
+            "name": "Zerodha"
+          },
+          {
+            "id": "groww",
+            "name": "Groww"
+          },
+          {
+            "id": "angel",
+            "name": "Angel One"
+          },
+          {
+            "id": "upstox",
+            "name": "Upstox"
+          },
+          {
+            "id": "icici-direct",
+            "name": "ICICI Direct"
+          },
+          {
+            "id": "hdfc-securities",
+            "name": "HDFC Securities"
+          },
+          {
+            "id": "kotak-securities",
+            "name": "Kotak Securities"
+          },
+          {
+            "id": "motilal",
+            "name": "Motilal Oswal"
+          },
+          {
+            "id": "sbi-securities",
+            "name": "SBI Securities"
+          },
+          {
+            "id": "5paisa",
+            "name": "5paisa"
+          },
+          {
+            "id": "iifl",
+            "name": "IIFL Securities"
+          },
+          {
+            "id": "dhan",
+            "name": "Dhan"
+          },
+          {
+            "id": "geojit",
+            "name": "Geojit"
+          },
+          {
+            "id": "sharekhan",
+            "name": "Sharekhan"
+          }
+        ]
+      },
+      {
+        "type": "mf",
+        "label": "Mutual funds",
+        "items": [
+          {
+            "id": "hdfc-mf",
+            "name": "HDFC Mutual Fund"
+          },
+          {
+            "id": "sbi-mf",
+            "name": "SBI Mutual Fund"
+          },
+          {
+            "id": "icici-mf",
+            "name": "ICICI Prudential Mutual Fund"
+          },
+          {
+            "id": "axis-mf",
+            "name": "Axis Mutual Fund"
+          },
+          {
+            "id": "kotak-mf",
+            "name": "Kotak Mahindra Mutual Fund"
+          },
+          {
+            "id": "nippon-mf",
+            "name": "Nippon India Mutual Fund"
+          },
+          {
+            "id": "aditya-mf",
+            "name": "Aditya Birla Sun Life Mutual Fund"
+          },
+          {
+            "id": "uti-mf",
+            "name": "UTI Mutual Fund"
+          },
+          {
+            "id": "dsp-mf",
+            "name": "DSP Mutual Fund"
+          },
+          {
+            "id": "tata-mf",
+            "name": "Tata Mutual Fund"
+          },
+          {
+            "id": "mirae-mf",
+            "name": "Mirae Asset Mutual Fund"
+          },
+          {
+            "id": "ppfas",
+            "name": "PPFAS Mutual Fund"
+          },
+          {
+            "id": "franklin-mf",
+            "name": "Franklin Templeton Mutual Fund"
+          },
+          {
+            "id": "hsbc-mf",
+            "name": "HSBC Mutual Fund"
+          },
+          {
+            "id": "quant-mf",
+            "name": "quant Mutual Fund"
+          },
+          {
+            "id": "quantum-mf",
+            "name": "Quantum Mutual Fund"
+          },
+          {
+            "id": "bandhan-mf",
+            "name": "Bandhan Mutual Fund"
+          },
+          {
+            "id": "edelweiss-mf",
+            "name": "Edelweiss Mutual Fund"
+          },
+          {
+            "id": "motilal-mf",
+            "name": "Motilal Oswal Mutual Fund"
+          },
+          {
+            "id": "canara-mf",
+            "name": "Canara Robeco Mutual Fund"
+          },
+          {
+            "id": "invesco-mf",
+            "name": "Invesco Mutual Fund"
+          },
+          {
+            "id": "sundaram-mf",
+            "name": "Sundaram Mutual Fund"
+          },
+          {
+            "id": "lic-mf",
+            "name": "LIC Mutual Fund"
+          },
+          {
+            "id": "union-mf",
+            "name": "Union Mutual Fund"
+          },
+          {
+            "id": "bajaj-mf",
+            "name": "Bajaj Finserv Mutual Fund"
+          }
+        ]
+      }
+    ],
+    "curatedInstitutions": [
+      "hdfc-bank",
+      "sbi",
+      "axis-bank",
+      "zerodha",
+      "groww",
+      "hdfc-mf"
+    ],
+    "guideReferenceCount": 7,
+    "guideReferences": {
+      "hdfc": {
+        "url": "https://www.hdfc.bank.in/need-help/net-banking-faqs",
+        "scope": "scopeHdfc",
+        "reviewedOn": "2026-10-03"
+      },
+      "sbi": {
+        "url": "https://sbi.bank.in/web/personal-banking/nomination-facility",
+        "scope": "scopeSbi",
+        "reviewedOn": "2026-10-03",
+        "supporting": [
+          "https://sbi.bank.in/documents/17826/35696/Annual%2BReport%2BFY2025.pdf"
+        ]
+      },
+      "axis": {
+        "url": "https://application.axis.bank.in/webforms/axis-support/sub-issues/sub-issues/Bank-SB-update-11.aspx",
+        "scope": "scopeAxis",
+        "reviewedOn": "2026-10-03"
+      },
+      "zerodha": {
+        "url": "https://support.zerodha.com/category/your-zerodha-account/nomination-process/articles/add-nominee-online-zerodha",
+        "scope": "scopeZerodhaAdd",
+        "reviewedOn": "2026-10-03"
+      },
+      "zerodhaChange": {
+        "url": "https://support.zerodha.com/category/your-zerodha-account/nomination-process/articles/add-modify-or-remove-nominee",
+        "scope": "scopeZerodhaChange",
+        "reviewedOn": "2026-10-03"
+      },
+      "groww": {
+        "url": "https://groww.in/help/stocks%2C-f%26o%2C-ipo-%26-mtf/searchable/how-can-i-change-my-nominee-on-groww--62",
+        "scope": "scopeGroww",
+        "reviewedOn": "2026-10-03"
+      },
+      "hdfcmf": {
+        "url": "https://www.hdfcfund.com/services/registration-of-nominee",
+        "scope": "scopeHdfcMf",
+        "reviewedOn": "2026-10-04",
+        "formUrl": "https://files.hdfcfund.com/s3fs-public/2026-08/Nomination%20Registration%20Form%20310826%20V1%20(Revised).pdf",
+        "formEffectiveOn": "2026-09-01",
+        "supporting": [
+          "https://www.hdfcfund.com/services/forms"
+        ]
+      }
+    },
+    "languages": [
+      {
+        "code": "en",
+        "native": "English",
+        "name": "English",
+        "audio": true,
+        "dictionaryKeys": 684,
+        "clips": 667
+      },
+      {
+        "code": "hi",
+        "native": "हिन्दी",
+        "name": "Hindi",
+        "audio": true,
+        "dictionaryKeys": 684,
+        "clips": 667
+      },
+      {
+        "code": "as",
+        "native": "অসমীয়া",
+        "name": "Assamese",
+        "audio": true,
+        "dictionaryKeys": 684,
+        "clips": 667
+      },
+      {
+        "code": "bn",
+        "native": "বাংলা",
+        "name": "Bengali",
+        "audio": true,
+        "dictionaryKeys": 684,
+        "clips": 667
+      },
+      {
+        "code": "doi",
+        "native": "डोगरी",
+        "name": "Dogri",
+        "audio": true,
+        "dictionaryKeys": 684,
+        "clips": 667
+      },
+      {
+        "code": "gu",
+        "native": "ગુજરાતી",
+        "name": "Gujarati",
+        "audio": true,
+        "dictionaryKeys": 684,
+        "clips": 667
+      },
+      {
+        "code": "kn",
+        "native": "ಕನ್ನಡ",
+        "name": "Kannada",
+        "audio": true,
+        "dictionaryKeys": 684,
+        "clips": 667
+      },
+      {
+        "code": "kok",
+        "native": "कोंकणी",
+        "name": "Konkani",
+        "audio": false,
+        "dictionaryKeys": 684,
+        "clips": 0
+      },
+      {
+        "code": "mai",
+        "native": "मैथिली",
+        "name": "Maithili",
+        "audio": true,
+        "dictionaryKeys": 684,
+        "clips": 667
+      },
+      {
+        "code": "ml",
+        "native": "മലയാളം",
+        "name": "Malayalam",
+        "audio": true,
+        "dictionaryKeys": 684,
+        "clips": 667
+      },
+      {
+        "code": "mni",
+        "native": "ꯃꯤꯇꯩꯂꯣꯟ",
+        "name": "Manipuri · Meitei",
+        "audio": false,
+        "dictionaryKeys": 684,
+        "clips": 0
+      },
+      {
+        "code": "mr",
+        "native": "मराठी",
+        "name": "Marathi",
+        "audio": true,
+        "dictionaryKeys": 684,
+        "clips": 667
+      },
+      {
+        "code": "ne",
+        "native": "नेपाली",
+        "name": "Nepali",
+        "audio": true,
+        "dictionaryKeys": 684,
+        "clips": 667
+      },
+      {
+        "code": "or",
+        "native": "ଓଡ଼ିଆ",
+        "name": "Odia",
+        "audio": true,
+        "dictionaryKeys": 684,
+        "clips": 667
+      },
+      {
+        "code": "pa",
+        "native": "ਪੰਜਾਬੀ",
+        "name": "Punjabi",
+        "audio": true,
+        "dictionaryKeys": 684,
+        "clips": 667
+      },
+      {
+        "code": "sa",
+        "native": "संस्कृतम्",
+        "name": "Sanskrit",
+        "audio": false,
+        "dictionaryKeys": 684,
+        "clips": 0
+      },
+      {
+        "code": "sat",
+        "native": "ᱥᱟᱱᱛᱟᱲᱤ",
+        "name": "Santali",
+        "audio": false,
+        "dictionaryKeys": 684,
+        "clips": 0
+      },
+      {
+        "code": "sd",
+        "native": "سنڌي",
+        "name": "Sindhi",
+        "audio": false,
+        "dictionaryKeys": 684,
+        "clips": 0
+      },
+      {
+        "code": "ta",
+        "native": "தமிழ்",
+        "name": "Tamil",
+        "audio": true,
+        "dictionaryKeys": 684,
+        "clips": 667
+      },
+      {
+        "code": "te",
+        "native": "తెలుగు",
+        "name": "Telugu",
+        "audio": true,
+        "dictionaryKeys": 684,
+        "clips": 667
+      },
+      {
+        "code": "ur",
+        "native": "اردو",
+        "name": "Urdu",
+        "audio": true,
+        "dictionaryKeys": 684,
+        "clips": 667
+      }
+    ],
+    "textLanguages": 21,
+    "audioLanguages": 16,
+    "textOnlyLanguages": [
+      "Konkani",
+      "Manipuri · Meitei",
+      "Sanskrit",
+      "Santali",
+      "Sindhi"
+    ],
+    "totalClips": 10672,
+    "paperGuides": 21
+  },
+  "publicEvidence": {
+    "reviewed_on": "2026-10-04",
+    "purpose": "Public context for Virasat Track B reassessment. None of these observations measures Virasat outcomes or calibrates its hypothetical funnel.",
+    "sources": [
+      {
+        "id": "TB01",
+        "title": "SEBI Investor Survey 2025 main report",
+        "publisher": "SEBI / Kantar",
+        "date": "2026-01-20",
+        "url": "https://www.sebi.gov.in/sebi_data/attachdocs/jan-2026/1768910470286.pdf",
+        "locator": "Printed pp.75,78; Tables 11.1,12.2",
+        "access": "Full downloaded PDF; both tables visually inspected",
+        "archive": "public-2026-10-04/sebi-investor-survey-2025.pdf"
+      },
+      {
+        "id": "TB02",
+        "title": "Depositor Education and Awareness Fund, Lok Sabha Q298",
+        "publisher": "Ministry of Finance; RBI inputs",
+        "date": "2026-02-02",
+        "url": "https://sansad.in/getFile/loksabhaquestions/annex/187/AU298_jSe8xE.pdf?source=pqals",
+        "locator": "PDF pp.1-2; parts (a), (e)",
+        "access": "Official PDF text inspected"
+      },
+      {
+        "id": "TB03",
+        "title": "Case study on IEPFA",
+        "publisher": "Economic Advisory Council to the Prime Minister",
+        "date": "2026-05",
+        "url": "https://eacpm.gov.in/wp-content/uploads/2026/05/Case-study-on-IEPFA.pdf",
+        "locator": "PDF pp.17-18, section IV and Table 1",
+        "access": "Full downloaded PDF; Table 1 visually inspected",
+        "archive": "public-2026-10-04/eacpm-iepf-reforms-may-2026.pdf"
+      },
+      {
+        "id": "TB04",
+        "title": "Equity derivatives comparative study",
+        "publisher": "SEBI",
+        "date": "2025-07-07",
+        "url": "https://www.sebi.gov.in/sebi_data/attachdocs/jul-2025/1751900271726.pdf",
+        "locator": "PDF p.6, paras 17-18 and Table 11",
+        "access": "Official PDF text inspected"
+      },
+      {
+        "id": "TB05",
+        "title": "SCORES complaints as on August 31, 2026",
+        "publisher": "SEBI",
+        "date": "2026-09-10",
+        "url": "https://www.sebi.gov.in/sebi_data/attachdocs/sep-2026/1789035133464.pdf",
+        "locator": "PDF pp.1-2; table, footnote and workflow",
+        "access": "Full downloaded PDF; table visually inspected",
+        "archive": "public-2026-10-04/scores-august-2026.pdf"
+      },
+      {
+        "id": "TB06",
+        "title": "Modified nomination norms",
+        "publisher": "SEBI",
+        "date": "2026-05-29",
+        "effective_on": "2026-09-01",
+        "url": "https://www.sebi.gov.in/sebi_data/attachdocs/jun-2026/1780397706130.pdf",
+        "locator": "Clauses 4-10,13,15 and Annexures A-B",
+        "access": "Official PDF text inspected"
+      },
+      {
+        "id": "TB07",
+        "title": "MFCentral services and nominee workflow",
+        "publisher": "CAMS / KFintech; corroborating ET Money provider help",
+        "date": null,
+        "url": "https://www.mfcentral.com/",
+        "supporting_url": "https://www.etmoney.com/help/account/profile/i-want-to-update-my-nominee",
+        "locator": "Services overview; ET Money steps 1-3",
+        "access": "Public provider pages; no authenticated transaction tested"
+      },
+      {
+        "id": "TB08",
+        "title": "UDGAM FAQ",
+        "publisher": "RBI",
+        "date": null,
+        "url": "https://www.rbi.org.in/commonman/Upload/English/FAQs/PDFs/FAQonUDGAMPortal.pdf",
+        "locator": "Questions 1,2,5",
+        "access": "Official PDF text inspected; Q2 coverage explicitly dated March 4,2024"
+      },
+      {
+        "id": "TB09",
+        "title": "Integrated IEPFA Portal 2.0 roadmap",
+        "publisher": "Ministry of Corporate Affairs / PIB",
+        "date": "2026-08-07",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2296238&lang=1&reg=48",
+        "locator": "Features and implementation roadmap",
+        "access": "Official page inspected; announcement, not proof of rollout"
+      },
+      {
+        "id": "TB10",
+        "title": "Your Money, Your Right",
+        "publisher": "Ministry of Finance / PIB Research",
+        "date": "2025-12-26",
+        "url": "https://www.pib.gov.in/PressNoteDetails.aspx?ModuleId=3&NoteId=156739&id=156739&lang=1&reg=1",
+        "locator": "Tracing portals; district facilitation; indicative scale",
+        "access": "Official page inspected; indicative bank estimate not substituted for dated DEA balance"
+      },
+      {
+        "id": "TB11",
+        "title": "Nomination education page",
+        "publisher": "SEBI Investor",
+        "date": null,
+        "url": "https://investor.sebi.gov.in/market-nomination.html",
+        "locator": "Deadline/freezing paragraph",
+        "access": "Current page inspected; stale June 2024 statement conflicts with later framework; excluded from current rule guidance"
+      },
+      {
+        "id": "TB12",
+        "title": "SCORES official workflow",
+        "publisher": "SEBI",
+        "date": null,
+        "url": "https://scores.sebi.gov.in/",
+        "locator": "About SCORES; seek review; technical assistance",
+        "access": "Official page inspected; dynamic undated counters excluded"
+      }
+    ],
+    "facts": [
+      {
+        "id": "F01",
+        "metric": "Grievance mechanism awareness",
+        "value": 0.06,
+        "unit": "proportion",
+        "period": "2025 survey",
+        "population": "National main sample, 53,357 households",
+        "source": "TB01",
+        "locator": "Table 12.2, printed p.78",
+        "limit": "Includes SCORES, helplines and regional offices. Not nomination failure prevalence."
+      },
+      {
+        "id": "F02",
+        "metric": "Grievance awareness among investors",
+        "value": 0.2,
+        "unit": "proportion",
+        "period": "2025 survey",
+        "population": "Investor segment of main sample",
+        "source": "TB01",
+        "locator": "Table 12.2, printed p.78",
+        "limit": "Not a completion or complaint success rate."
+      },
+      {
+        "id": "F03",
+        "metric": "English education preference",
+        "value": 0.05,
+        "unit": "proportion",
+        "period": "2025 survey",
+        "population": "National main sample, 53,357 households",
+        "source": "TB01",
+        "locator": "Table 11.1, printed p.75",
+        "limit": "Preference for investor education content, not English literacy."
+      },
+      {
+        "id": "F04",
+        "metric": "Hindi education preference",
+        "value": 0.47,
+        "unit": "proportion",
+        "period": "2025 survey",
+        "population": "National main sample, 53,357 households",
+        "source": "TB01",
+        "locator": "Table 11.1, printed p.75",
+        "limit": "Rounded survey percentage, not app uptake."
+      },
+      {
+        "id": "F05",
+        "metric": "Regional education preference",
+        "value": 0.47,
+        "unit": "proportion",
+        "period": "2025 survey",
+        "population": "National main sample, 53,357 households",
+        "source": "TB01",
+        "locator": "Printed p.75, narrative and Table 11.1",
+        "limit": "Rounded summary; table categories can differ by rounding. About 1% no preference."
+      },
+      {
+        "id": "F06",
+        "metric": "Unclaimed deposits with DEA Fund",
+        "value": 74580.25,
+        "unit": "INR crore",
+        "period": "2025-03-31",
+        "population": "Deposits held in RBI DEA Fund",
+        "source": "TB02",
+        "locator": "Part (a), PDF p.1",
+        "limit": "Stock, not annual loss. No share attributable to missing nomination established."
+      },
+      {
+        "id": "F07",
+        "metric": "IEPFA applications approved",
+        "value": 57570,
+        "unit": "applications",
+        "period": "Oct2025-Mar2026",
+        "population": "Applications processed during period, includes backlog",
+        "source": "TB03",
+        "locator": "Table 1, PDF p.18",
+        "limit": "Table says approved; p.17 prose calls this processed. Use table categories."
+      },
+      {
+        "id": "F08",
+        "metric": "IEPFA applications rejected",
+        "value": 19050,
+        "unit": "applications",
+        "period": "Oct2025-Mar2026",
+        "population": "Applications processed during period, includes backlog",
+        "source": "TB03",
+        "locator": "Table 1, PDF p.18",
+        "limit": "Reasons not given. Not attributable to nominee errors or avoidable by Virasat."
+      },
+      {
+        "id": "F09",
+        "metric": "IEPFA applications processed",
+        "value": 76620,
+        "unit": "applications",
+        "period": "Oct2025-Mar2026",
+        "population": "Approvals plus rejections, includes backlog",
+        "source": "TB03",
+        "locator": "Table 1, PDF p.18",
+        "limit": "Not the same cohort as 36,097 newly filed forms. Do not divide approvals by new filings."
+      },
+      {
+        "id": "F10",
+        "metric": "IEPFA applications pending",
+        "value": 26510,
+        "unit": "applications",
+        "period": "FY2025-26 year-end",
+        "population": "Pending applications at period end",
+        "source": "TB03",
+        "locator": "Table 1, PDF p.18",
+        "limit": "End-period stock, not confirmed pending as of October 2026."
+      },
+      {
+        "id": "F11",
+        "metric": "Equity derivatives loss makers",
+        "value": 0.91,
+        "unit": "proportion",
+        "period": "FY2024-25",
+        "population": "96 lakh unique traders across 13 leading brokers",
+        "source": "TB04",
+        "locator": "Paras 17-18 and Table 11, PDF p.6",
+        "limit": "Praveen context. Nomination tool cannot attribute prevented trading losses."
+      },
+      {
+        "id": "F12",
+        "metric": "Equity derivatives aggregate net loss",
+        "value": 105603,
+        "unit": "INR crore",
+        "period": "FY2024-25",
+        "population": "Same 13-broker study, after transaction costs",
+        "source": "TB04",
+        "locator": "Para 18 and Table 11, PDF p.6",
+        "limit": "Aggregate net loss, not sum of gross losses of loss-making traders or addressable Virasat value."
+      },
+      {
+        "id": "F13",
+        "metric": "SCORES complaints received",
+        "value": 5919,
+        "unit": "complaints",
+        "period": "August2026",
+        "population": "SCORES received during month",
+        "source": "TB05",
+        "locator": "Column B, PDF p.1",
+        "limit": "All categories, not nomination-specific."
+      },
+      {
+        "id": "F14",
+        "metric": "SCORES complaints disposed",
+        "value": 5661,
+        "unit": "complaints",
+        "period": "August2026",
+        "population": "SCORES disposed during month, includes earlier cases",
+        "source": "TB05",
+        "locator": "Column C, PDF p.1",
+        "limit": "Disposal does not establish claimant satisfaction or remedy. Different cohort from receipts."
+      },
+      {
+        "id": "F15",
+        "metric": "SCORES complaints pending",
+        "value": 6210,
+        "unit": "complaints",
+        "period": "2026-08-31",
+        "population": "Entities, designated bodies, SEBI and investors awaiting review",
+        "source": "TB05",
+        "locator": "Column D and footnote, PDF p.1",
+        "limit": "Includes ATR submitted and investor review window. Not all overdue."
+      },
+      {
+        "id": "F16",
+        "metric": "SCORES entity ATR average time",
+        "value": 10,
+        "unit": "days",
+        "period": "August2026",
+        "population": "Entity time to provide Action Taken Report",
+        "source": "TB05",
+        "locator": "Column E, PDF p.1",
+        "limit": "Mean time to ATR, not median end-to-end resolution or guaranteed time saved."
+      }
+    ]
+  },
+  "impact": {
+    "realUserTrials": 0,
+    "measuredAppOutcomes": null,
+    "moneyRecovered": null,
+    "visitsAvoided": null,
+    "scenario": {
+      "classification": "Illustrative assumptions only; no measured app impact",
+      "eligibleCases": 1000,
+      "windowDays": 90,
+      "usualConfirmationRate": 0.4,
+      "startRate": 0.9,
+      "correctRouteRate": 0.9,
+      "submissionRate": 0.85,
+      "confirmationRate": 0.9,
+      "usualFamilyReadyRate": 0.4,
+      "appFamilyReadyRate": 0.75,
+      "usualEffortMinutes": 90,
+      "appEffortMinutes": 60,
+      "confirmed": 619.65,
+      "additionalConfirmed": 219.64999999999998,
+      "familyReady": 464.73749999999995,
+      "additionalFamilyReady": 304.73749999999995,
+      "effortHoursSaved": 500,
+      "downsideAdditionalConfirmedAt50Percent": -55.75
+    }
+  },
+  "deviceTarget": {
+    "text": "Device target: all app functions on an eight-year-old Android phone with 2 GB RAM and a 3G connection.",
+    "status": "Design target — not verified on a matching physical phone",
+    "reason": "No matching phone or real-device account is available. Desktop CPU/heap limits and mobile viewports do not reproduce phone age, total RAM or Android behaviour."
+  },
+  "technicalEvidence": {
+    "snapshot": "Babulal build before the evidence-page addition",
+    "sourceSha256": "2b255a132d85daaa9ea915c463e9d3328de6e3cdde07da47d82dc1ff00857491",
+    "releaseTestsPassed": 160,
+    "coldRuns": 12,
+    "profiles": [
+      {
+        "profile": "fast3g",
+        "network": [
+          {
+            "atMs": 0,
+            "downKbps": 1600,
+            "latencyMs": 150,
+            "online": true
+          }
+        ],
+        "medianReadyMs": 1809.691,
+        "readyMs": [
+          2276.916,
+          1809.691,
+          1742.501
+        ],
+        "transferBytes": [
+          106698,
+          106698,
+          106698
+        ]
+      },
+      {
+        "profile": "steady",
+        "network": [
+          {
+            "atMs": 0,
+            "downKbps": 160,
+            "latencyMs": 800,
+            "online": true
+          }
+        ],
+        "medianReadyMs": 7860.478,
+        "readyMs": [
+          7985.744,
+          7756.715,
+          7860.478
+        ],
+        "transferBytes": [
+          106698,
+          106698,
+          106698
+        ]
+      },
+      {
+        "profile": "changing",
+        "network": [
+          {
+            "atMs": 0,
+            "downKbps": 256,
+            "latencyMs": 600,
+            "online": true
+          },
+          {
+            "atMs": 1000,
+            "downKbps": 96,
+            "latencyMs": 1000,
+            "online": true
+          },
+          {
+            "atMs": 3000,
+            "downKbps": 0,
+            "latencyMs": 0,
+            "online": false
+          },
+          {
+            "atMs": 6000,
+            "downKbps": 128,
+            "latencyMs": 900,
+            "online": true
+          },
+          {
+            "atMs": 12000,
+            "downKbps": 256,
+            "latencyMs": 600,
+            "online": true
+          }
+        ],
+        "medianReadyMs": 5530.953,
+        "readyMs": [
+          5547.023,
+          5410.952,
+          5530.953
+        ],
+        "transferBytes": [
+          131873,
+          133044,
+          132602
+        ]
+      },
+      {
+        "profile": "recovered",
+        "network": [
+          {
+            "atMs": 0,
+            "downKbps": 256,
+            "latencyMs": 600,
+            "online": true
+          }
+        ],
+        "medianReadyMs": 5579.399,
+        "readyMs": [
+          5579.399,
+          5534.09,
+          5605.551
+        ],
+        "transferBytes": [
+          106698,
+          106698,
+          106698
+        ]
+      }
+    ],
+    "maxSampledJsHeapBytes": 30002132,
+    "cpuSlowdown": 8,
+    "v8OldSpaceCapMiB": 64,
+    "delivery": {
+      "date": "2026-10-04T12:01:55.665Z",
+      "sourceSha256": "2b255a132d85daaa9ea915c463e9d3328de6e3cdde07da47d82dc1ff00857491",
+      "publicSha256": "2b255a132d85daaa9ea915c463e9d3328de6e3cdde07da47d82dc1ff00857491",
+      "publicFiles": 10764,
+      "publicBytes": 238855244,
+      "audioFiles": 10672,
+      "audioBytes": 235603115,
+      "eagerModules": [
+        "audio-catalog.js",
+        "audio-support-catalog.js",
+        "complaint-review.js",
+        "export-font.js",
+        "guidance-copy.js",
+        "guides.js",
+        "institutions.js",
+        "journey-entry.js",
+        "languages.js",
+        "locale-catalog.js",
+        "locale-retry.js",
+        "locale.js",
+        "main.js",
+        "nomination-coach.js",
+        "privacy.js",
+        "resilience.js",
+        "speech.js",
+        "tracker.js"
+      ],
+      "routes": [
+        {
+          "language": "en",
+          "fileCount": 22,
+          "bodyBytes": 423306,
+          "perFileGzipBytes": 91761
+        },
+        {
+          "language": "hi",
+          "fileCount": 22,
+          "bodyBytes": 485185,
+          "perFileGzipBytes": 97576
+        },
+        {
+          "language": "bn",
+          "fileCount": 22,
+          "bodyBytes": 489499,
+          "perFileGzipBytes": 96992
+        },
+        {
+          "language": "mr",
+          "fileCount": 22,
+          "bodyBytes": 483716,
+          "perFileGzipBytes": 97553
+        },
+        {
+          "language": "ta",
+          "fileCount": 22,
+          "bodyBytes": 514901,
+          "perFileGzipBytes": 98818
+        },
+        {
+          "language": "ur",
+          "fileCount": 22,
+          "bodyBytes": 452156,
+          "perFileGzipBytes": 95217
+        },
+        {
+          "language": "as",
+          "fileCount": 22,
+          "bodyBytes": 499281,
+          "perFileGzipBytes": 98999
+        },
+        {
+          "language": "doi",
+          "fileCount": 22,
+          "bodyBytes": 497768,
+          "perFileGzipBytes": 100301
+        },
+        {
+          "language": "gu",
+          "fileCount": 22,
+          "bodyBytes": 484778,
+          "perFileGzipBytes": 97479
+        },
+        {
+          "language": "kn",
+          "fileCount": 22,
+          "bodyBytes": 508263,
+          "perFileGzipBytes": 98933
+        },
+        {
+          "language": "kok",
+          "fileCount": 22,
+          "bodyBytes": 491111,
+          "perFileGzipBytes": 98741
+        },
+        {
+          "language": "mai",
+          "fileCount": 22,
+          "bodyBytes": 490476,
+          "perFileGzipBytes": 99548
+        },
+        {
+          "language": "ml",
+          "fileCount": 22,
+          "bodyBytes": 523999,
+          "perFileGzipBytes": 100553
+        },
+        {
+          "language": "mni",
+          "fileCount": 23,
+          "bodyBytes": 520013,
+          "perFileGzipBytes": 109281
+        },
+        {
+          "language": "ne",
+          "fileCount": 22,
+          "bodyBytes": 500697,
+          "perFileGzipBytes": 98386
+        },
+        {
+          "language": "or",
+          "fileCount": 22,
+          "bodyBytes": 502175,
+          "perFileGzipBytes": 98746
+        },
+        {
+          "language": "pa",
+          "fileCount": 22,
+          "bodyBytes": 486048,
+          "perFileGzipBytes": 97604
+        },
+        {
+          "language": "sa",
+          "fileCount": 22,
+          "bodyBytes": 506681,
+          "perFileGzipBytes": 100520
+        },
+        {
+          "language": "sat",
+          "fileCount": 23,
+          "bodyBytes": 505346,
+          "perFileGzipBytes": 103718
+        },
+        {
+          "language": "sd",
+          "fileCount": 22,
+          "bodyBytes": 454086,
+          "perFileGzipBytes": 96238
+        },
+        {
+          "language": "te",
+          "fileCount": 22,
+          "bodyBytes": 503797,
+          "perFileGzipBytes": 98995
+        }
+      ],
+      "scenarios": [
+        {
+          "coldSessions": 1000,
+          "hindiAppGzipGB": 0.097576,
+          "oneMiBAudioEachGB": 1.048576,
+          "tenMiBAudioEachGB": 10.48576
+        },
+        {
+          "coldSessions": 100000,
+          "hindiAppGzipGB": 9.7576,
+          "oneMiBAudioEachGB": 104.8576,
+          "tenMiBAudioEachGB": 1048.576
+        },
+        {
+          "coldSessions": 1000000,
+          "hindiAppGzipGB": 97.576,
+          "oneMiBAudioEachGB": 1048.576,
+          "tenMiBAudioEachGB": 10485.76
+        }
+      ],
+      "browserBounds": {
+        "accounts": 50,
+        "eventsPerAccount": 20,
+        "supportEventsPerAccount": 20,
+        "plaintextSaveBytes": 1048576,
+        "importBytes": 2097152,
+        "publicShellCacheBodyBytes": 8388608,
+        "audioCacheBodyBytes": 12582912,
+        "audioCacheEntries": 256
+      },
+      "notes": [
+        "Body/gzip inventory only: not browser network transfer or timing; no throughput/load test performed.",
+        "App bodies include one selected dictionary/font and static eager modules, excluding service-worker installation, headers, TLS, retries and compression negotiation.",
+        "Scenario arithmetic assumes independent cold sessions and zero browser-cache reuse; optional audio volume is an explicit assumption, not measured behavior.",
+        "CDN cache hits can reduce origin work but do not imply zero delivery cost. Provider rates/quotas and request counts must be applied separately.",
+        "Browser cache response-body ceilings exclude metadata, browser memory and retained unsaved drafts."
+      ]
+    },
+    "audioPaper": {
+      "date": "2026-10-04T12:07:47.128Z",
+      "rows": [
+        {
+          "language": "en",
+          "name": "home",
+          "keys": [
+            "plainHomeTitle",
+            "plainHomeIntro",
+            "plainHomeTypes",
+            "plainNomineeMeaning"
+          ],
+          "clips": [
+            {
+              "path": "/audio/en/support-495d91d61066/plainHomeTitle.mp3",
+              "bytes": 12451
+            },
+            {
+              "path": "/audio/en/support-495d91d61066/plainHomeIntro.mp3",
+              "bytes": 26371
+            },
+            {
+              "path": "/audio/en/support-495d91d61066/plainHomeTypes.mp3",
+              "bytes": 22147
+            },
+            {
+              "path": "/audio/en/support-495d91d61066/plainNomineeMeaning.mp3",
+              "bytes": 36456
+            }
+          ],
+          "bytes": 97425
+        },
+        {
+          "language": "en",
+          "name": "sixStepCoreWithChildExplanation",
+          "keys": [
+            "plainCoachTitle",
+            "plainCoachIntro",
+            "plainFormTitle",
+            "plainFormHelp",
+            "plainReferenceTitle",
+            "plainReferenceHelp",
+            "plainPersonTitle",
+            "plainPersonHelp",
+            "plainMinorTitle",
+            "plainMinorHelp",
+            "plainMinorSecurities",
+            "plainSubmitTitle",
+            "plainSubmitHelp",
+            "plainPrivacy",
+            "plainResponseTitle",
+            "plainResponseHelp",
+            "plainReceiptMeaning"
+          ],
+          "clips": [
+            {
+              "path": "/audio/en/support-495d91d61066/plainCoachTitle.mp3",
+              "bytes": 10244
+            },
+            {
+              "path": "/audio/en/support-495d91d61066/plainCoachIntro.mp3",
+              "bytes": 18692
+            },
+            {
+              "path": "/audio/en/support-495d91d61066/plainFormTitle.mp3",
+              "bytes": 6787
+            },
+            {
+              "path": "/audio/en/support-495d91d61066/plainFormHelp.mp3",
+              "bytes": 16578
+            },
+            {
+              "path": "/audio/en/support-495d91d61066/plainReferenceTitle.mp3",
+              "bytes": 8712
+            },
+            {
+              "path": "/audio/en/support-495d91d61066/plainReferenceHelp.mp3",
+              "bytes": 32711
+            },
+            {
+              "path": "/audio/en/support-495d91d61066/plainPersonTitle.mp3",
+              "bytes": 10341
+            },
+            {
+              "path": "/audio/en/support-495d91d61066/plainPersonHelp.mp3",
+              "bytes": 20324
+            },
+            {
+              "path": "/audio/en/support-495d91d61066/plainMinorTitle.mp3",
+              "bytes": 8708
+            },
+            {
+              "path": "/audio/en/support-495d91d61066/plainMinorHelp.mp3",
+              "bytes": 33091
+            },
+            {
+              "path": "/audio/en/support-495d91d61066/plainMinorSecurities.mp3",
+              "bytes": 30121
+            },
+            {
+              "path": "/audio/en/support-495d91d61066/plainSubmitTitle.mp3",
+              "bytes": 9189
+            },
+            {
+              "path": "/audio/en/support-495d91d61066/plainSubmitHelp.mp3",
+              "bytes": 28868
+            },
+            {
+              "path": "/audio/en/support-495d91d61066/plainPrivacy.mp3",
+              "bytes": 11489
+            },
+            {
+              "path": "/audio/en/support-495d91d61066/plainResponseTitle.mp3",
+              "bytes": 7655
+            },
+            {
+              "path": "/audio/en/support-495d91d61066/plainResponseHelp.mp3",
+              "bytes": 26854
+            },
+            {
+              "path": "/audio/en/support-495d91d61066/plainReceiptMeaning.mp3",
+              "bytes": 23208
+            }
+          ],
+          "bytes": 303572
+        },
+        {
+          "language": "hi",
+          "name": "home",
+          "keys": [
+            "plainHomeTitle",
+            "plainHomeIntro",
+            "plainHomeTypes",
+            "plainNomineeMeaning"
+          ],
+          "clips": [
+            {
+              "path": "/audio/hi/support-34e011f57feb/plainHomeTitle.mp3",
+              "bytes": 17539
+            },
+            {
+              "path": "/audio/hi/support-34e011f57feb/plainHomeIntro.mp3",
+              "bytes": 32611
+            },
+            {
+              "path": "/audio/hi/support-34e011f57feb/plainHomeTypes.mp3",
+              "bytes": 26947
+            },
+            {
+              "path": "/audio/hi/support-34e011f57feb/plainNomineeMeaning.mp3",
+              "bytes": 41736
+            }
+          ],
+          "bytes": 118833
+        },
+        {
+          "language": "hi",
+          "name": "sixStepCoreWithChildExplanation",
+          "keys": [
+            "plainCoachTitle",
+            "plainCoachIntro",
+            "plainFormTitle",
+            "plainFormHelp",
+            "plainReferenceTitle",
+            "plainReferenceHelp",
+            "plainPersonTitle",
+            "plainPersonHelp",
+            "plainMinorTitle",
+            "plainMinorHelp",
+            "plainMinorSecurities",
+            "plainSubmitTitle",
+            "plainSubmitHelp",
+            "plainPrivacy",
+            "plainResponseTitle",
+            "plainResponseHelp",
+            "plainReceiptMeaning"
+          ],
+          "clips": [
+            {
+              "path": "/audio/hi/support-34e011f57feb/plainCoachTitle.mp3",
+              "bytes": 14372
+            },
+            {
+              "path": "/audio/hi/support-34e011f57feb/plainCoachIntro.mp3",
+              "bytes": 23492
+            },
+            {
+              "path": "/audio/hi/support-34e011f57feb/plainFormTitle.mp3",
+              "bytes": 8131
+            },
+            {
+              "path": "/audio/hi/support-34e011f57feb/plainFormHelp.mp3",
+              "bytes": 21762
+            },
+            {
+              "path": "/audio/hi/support-34e011f57feb/plainReferenceTitle.mp3",
+              "bytes": 9000
+            },
+            {
+              "path": "/audio/hi/support-34e011f57feb/plainReferenceHelp.mp3",
+              "bytes": 40007
+            },
+            {
+              "path": "/audio/hi/support-34e011f57feb/plainPersonTitle.mp3",
+              "bytes": 18309
+            },
+            {
+              "path": "/audio/hi/support-34e011f57feb/plainPersonHelp.mp3",
+              "bytes": 29348
+            },
+            {
+              "path": "/audio/hi/support-34e011f57feb/plainMinorTitle.mp3",
+              "bytes": 9092
+            },
+            {
+              "path": "/audio/hi/support-34e011f57feb/plainMinorHelp.mp3",
+              "bytes": 37987
+            },
+            {
+              "path": "/audio/hi/support-34e011f57feb/plainMinorSecurities.mp3",
+              "bytes": 36073
+            },
+            {
+              "path": "/audio/hi/support-34e011f57feb/plainSubmitTitle.mp3",
+              "bytes": 8805
+            },
+            {
+              "path": "/audio/hi/support-34e011f57feb/plainSubmitHelp.mp3",
+              "bytes": 39524
+            },
+            {
+              "path": "/audio/hi/support-34e011f57feb/plainPrivacy.mp3",
+              "bytes": 13505
+            },
+            {
+              "path": "/audio/hi/support-34e011f57feb/plainResponseTitle.mp3",
+              "bytes": 7175
+            },
+            {
+              "path": "/audio/hi/support-34e011f57feb/plainResponseHelp.mp3",
+              "bytes": 33862
+            },
+            {
+              "path": "/audio/hi/support-34e011f57feb/plainReceiptMeaning.mp3",
+              "bytes": 33384
+            }
+          ],
+          "bytes": 383828
+        }
+      ],
+      "paper": [
+        {
+          "language": "en",
+          "bodyBytes": 3547,
+          "gzipBytes": 1595
+        },
+        {
+          "language": "hi",
+          "bodyBytes": 8059,
+          "gzipBytes": 2308
+        },
+        {
+          "language": "bn",
+          "bodyBytes": 8350,
+          "gzipBytes": 2296
+        },
+        {
+          "language": "mr",
+          "bodyBytes": 7726,
+          "gzipBytes": 2263
+        },
+        {
+          "language": "ta",
+          "bodyBytes": 10227,
+          "gzipBytes": 2398
+        },
+        {
+          "language": "ur",
+          "bodyBytes": 5662,
+          "gzipBytes": 2131
+        },
+        {
+          "language": "as",
+          "bodyBytes": 8339,
+          "gzipBytes": 2383
+        },
+        {
+          "language": "doi",
+          "bodyBytes": 8116,
+          "gzipBytes": 2386
+        },
+        {
+          "language": "gu",
+          "bodyBytes": 7604,
+          "gzipBytes": 2234
+        },
+        {
+          "language": "kn",
+          "bodyBytes": 8646,
+          "gzipBytes": 2301
+        },
+        {
+          "language": "kok",
+          "bodyBytes": 7723,
+          "gzipBytes": 2269
+        },
+        {
+          "language": "mai",
+          "bodyBytes": 7538,
+          "gzipBytes": 2319
+        },
+        {
+          "language": "ml",
+          "bodyBytes": 9502,
+          "gzipBytes": 2401
+        },
+        {
+          "language": "mni",
+          "bodyBytes": 8942,
+          "gzipBytes": 2310
+        },
+        {
+          "language": "ne",
+          "bodyBytes": 8437,
+          "gzipBytes": 2243
+        },
+        {
+          "language": "or",
+          "bodyBytes": 8569,
+          "gzipBytes": 2362
+        },
+        {
+          "language": "pa",
+          "bodyBytes": 7863,
+          "gzipBytes": 2303
+        },
+        {
+          "language": "sa",
+          "bodyBytes": 8569,
+          "gzipBytes": 2338
+        },
+        {
+          "language": "sat",
+          "bodyBytes": 8256,
+          "gzipBytes": 2205
+        },
+        {
+          "language": "sd",
+          "bodyBytes": 5467,
+          "gzipBytes": 2104
+        },
+        {
+          "language": "te",
+          "bodyBytes": 8456,
+          "gzipBytes": 2326
+        }
+      ],
+      "notes": [
+        "Exact file-body arithmetic for the listed fixed clips; not a measured complete user task or typical listening behaviour.",
+        "Cold listening adds these bytes only when the user requests these clips; HTTP headers, range retries and audio playback latency are excluded.",
+        "No private account entries are present in these paths or recordings."
+      ]
+    },
+    "workspace": {
+      "date": "2026-10-04T11:52:06.573Z",
+      "runtime": "v26.0.0",
+      "platform": "darwin",
+      "architecture": "arm64",
+      "sources": {
+        "privacy.js": "b76b4c8be7dba24b9f41b028ffdfc1e157f2b2036679e883f224ce9101b48c64",
+        "tracker.js": "f08f30f1a92913a6aed6be4f57532ece3c5fdd0b2d79f112ba629fb58f21d0f6",
+        "nomination-coach.js": "380693c530f8fef40f7e16239d144a926891cb0d643f9c85beb96debdc7dc982",
+        "languages.js": "781d570e631414f142f7ee43cd79af4df11ce3da9d8c1a51776724606827c440",
+        "institutions.js": "a7ccbdcec1a41e9b931f95831538975d8273d01b0ebb3713bc84e14bb269611a"
+      },
+      "accounts": 50,
+      "eventsPerAccount": 20,
+      "supportEventsPerAccount": 20,
+      "learningCheckpoints": 50,
+      "plaintextBytes": 542316,
+      "runs": [
+        {
+          "iteration": 1,
+          "sealMs": 186.11491700000002,
+          "unlockMs": 169.39966700000002,
+          "validateMs": 3.7000000000000455,
+          "envelopeBytes": 723275
+        },
+        {
+          "iteration": 2,
+          "sealMs": 209.78929199999993,
+          "unlockMs": 172.76258300000006,
+          "validateMs": 5.087292000000048,
+          "envelopeBytes": 723275
+        },
+        {
+          "iteration": 3,
+          "sealMs": 324.22895900000015,
+          "unlockMs": 160.41174999999998,
+          "validateMs": 5.390666999999894,
+          "envelopeBytes": 723275
+        }
+      ],
+      "notes": [
+        "Synthetic records only; exact decrypted workspace compared with validated original.",
+        "Node WebCrypto timings on the desktop host, three sequential runs; not browser or physical 2 GB Android evidence.",
+        "No file download/import UI, browser storage, eviction, tab termination, typing latency, network or traffic capacity measured."
+      ]
+    },
+    "localRequestCount": 99802,
+    "localRequestErrors": 0,
+    "supplementDecode": {
+      "clips": 4960,
+      "languages": 16,
+      "decodeFailures": [],
+      "elapsedSeconds": 52.51,
+      "fluentReview": false,
+      "note": "Every bundled supplemental MP3 fully decoded by FFmpeg; technical integrity does not prove pronunciation or comprehension."
+    },
+    "olderEngine": {
+      "browser": "Desktop Google Chrome for Testing 138.0.7204.183, macOS arm64",
+      "sourceSha256": "ba43e3703ffae66e90633cca7b6a170f75241be1509bdf436982fe8f250f613f",
+      "profile": {
+        "downKbps": 384,
+        "latencyMs": 200,
+        "cpuSlowdown": 8,
+        "v8OldSpaceCapMiB": 64
+      },
+      "coreRuns": [
+        {
+          "iteration": 1,
+          "runtimeError": null,
+          "reportReceived": true,
+          "passed": 52,
+          "failed": 0,
+          "coreCompleteMs": 17080.159
+        },
+        {
+          "iteration": 2,
+          "runtimeError": null,
+          "reportReceived": true,
+          "passed": 52,
+          "failed": 0,
+          "coreCompleteMs": 17102.866
+        },
+        {
+          "iteration": 3,
+          "runtimeError": null,
+          "reportReceived": true,
+          "passed": 52,
+          "failed": 0,
+          "coreCompleteMs": 17156.198
+        }
+      ],
+      "coreScope": "52 exported-logic and API checks in each of three runs; not full rendered UI or actual Android",
+      "navigation": [
+        {
+          "id": "umts3g-1",
+          "readyMs": 2896.701,
+          "transferBytes": 106738,
+          "runtimeError": null
+        },
+        {
+          "id": "umts3g-2",
+          "readyMs": 2530.58,
+          "transferBytes": 106738,
+          "runtimeError": null
+        },
+        {
+          "id": "umts3g-3",
+          "readyMs": 2950.055,
+          "transferBytes": 106738,
+          "runtimeError": null
+        }
+      ],
+      "medianReadyMs": 2896.701,
+      "physicalDevice": false
+    },
+    "latestJourneyReview": {
+      "date": "2026-10-04T13:24:34.606Z",
+      "sourceSha256": "625f2a7e7c7516b12fc4444fdab53807b4871751d821c68226e37682081699eb",
+      "release": {
+        "passed": 167,
+        "failed": 0
+      },
+      "browser": "Desktop Chrome 138.0.7204.183 on macOS arm64",
+      "language": "hi",
+      "network": [
+        {
+          "atMs": 0,
+          "downKbps": 384,
+          "latencyMs": 200,
+          "online": true
+        }
+      ],
+      "cpuSlowdown": 8,
+      "v8OldSpaceCapMiB": 64,
+      "medianReadyMs": 2817.691,
+      "navigation": [
+        {
+          "id": "umts3g-1",
+          "readyMs": 2817.691,
+          "transferBytes": 111342,
+          "cls": 0,
+          "scores": {
+            "performance": 0.98,
+            "accessibility": 1,
+            "best-practices": 1,
+            "seo": 1
+          },
+          "runtimeError": null
+        },
+        {
+          "id": "umts3g-2",
+          "readyMs": 3027.766,
+          "transferBytes": 111342,
+          "cls": 0,
+          "scores": {
+            "performance": 0.97,
+            "accessibility": 1,
+            "best-practices": 1,
+            "seo": 1
+          },
+          "runtimeError": null
+        },
+        {
+          "id": "umts3g-3",
+          "readyMs": 2600.903,
+          "transferBytes": 111342,
+          "cls": 0,
+          "scores": {
+            "performance": 1,
+            "accessibility": 1,
+            "best-practices": 1,
+            "seo": 1
+          },
+          "runtimeError": null
+        }
+      ],
+      "physicalDevice": false
+    }
+  },
+  "toolResearch": [
+    {
+      "name": "BrowserStack Live real devices",
+      "url": "https://www.browserstack.com/docs/live/network/network-simulation",
+      "note": "Real-device network simulation requires an eligible account/plan; exact old 2 GB handset availability must be confirmed. No session was run."
+    },
+    {
+      "name": "Android official emulator",
+      "url": "https://developer.android.com/studio/run/emulator-commandline",
+      "note": "Virtual RAM and UMTS/3G network settings; useful Android compatibility evidence, not a physical handset performance result. No emulator test was run."
+    },
+    {
+      "name": "WebPageTest",
+      "url": "https://github.com/catchpoint/WebPageTest.docs/blob/main/src/webpagetest-faqs.md",
+      "note": "Current mobile FAQ recommends browser emulation. A mobile viewport alone cannot verify 2 GB hardware."
+    },
+    {
+      "name": "LambdaTest / TestMu network testing",
+      "url": "https://www.lambdatest.com/support/docs/network-throttling/",
+      "note": "Network profiles for supported test environments; verify device, account and plan capabilities before claiming a real-phone result."
+    },
+    {
+      "name": "Google Chrome for Testing",
+      "url": "https://github.com/GoogleChromeLabs/chrome-for-testing",
+      "note": "Pinned older desktop Chrome can validate that engine; it cannot establish Android or total-phone memory performance."
+    }
+  ],
+  "productLimits": {
+    "accountCategories": 3,
+    "nomineeNotesPerBankAccount": 4,
+    "nomineeNotesPerSecuritiesAccount": 3,
+    "readingTextPercent": {
+      "min": 90,
+      "max": 200
+    },
+    "minimumControlCssPixels": 44,
+    "publicListeningSpeeds": [
+      0.75,
+      0.9,
+      1.05
+    ],
+    "personalReviewYears": 1,
+    "scoresReceiptReviewReminderDays": 15,
+    "encryption": "AES-256-GCM",
+    "keyDerivation": "PBKDF2-SHA256",
+    "keyDerivationIterations": 600000,
+    "passwordCharacters": {
+      "min": 12,
+      "max": 256
+    },
+    "plaintextSaveBytes": 1048576,
+    "importBytes": 2097152,
+    "note": "Prototype limits and reminder behaviour, not proof of legal eligibility or institutional action."
+  }
+}

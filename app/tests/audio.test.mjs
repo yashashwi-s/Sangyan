@@ -5,7 +5,7 @@ import {dictionaries} from '../scripts/dictionaries.mjs';
 import {audioLanguages,languageInfo} from '../dist/languages.js';
 const catalog=Object.fromEntries(audioLanguages.map(lang=>[lang,{revision:'012345abcdef',keys:Object.keys(dictionaries[lang])}]));
 function setup(play=()=>Promise.resolve()){
- const events=[],audio={pause(){this.pauses=(this.pauses||0)+1;},load(){},removeAttribute(){this.src='';},play(){this.plays=(this.plays||0)+1;return play();}};
+ const events=[],audio={pause(){this.pauses=(this.pauses||0)+1;},load(){this.loads=(this.loads||0)+1;},removeAttribute(){this.src='';},play(){this.plays=(this.plays||0)+1;return play();}};
  const reader=createReader({createAudio:()=>audio,catalog,getDictionary:language=>dictionaries[language],onChange:e=>events.push(e)});
  return {audio,reader,events};
 }
@@ -35,7 +35,7 @@ test('a rejected mobile autoplay becomes an explicit continue action',async()=>{
 });
 test('network errors keep the same part and retry its public file',()=>{
  const {reader,audio,events}=setup();reader.start([{text:dictionaries.en.homeTitle},{text:dictionaries.en.homeIntro}]);reader.next();const url=audio.src;
- audio.onerror();assert.equal(reader.state,'error');assert.equal(events.at(-1).index,1);reader.retry();assert.equal(audio.src,url);reader.stop();
+ audio.onerror();assert.equal(reader.state,'error');assert.equal(events.at(-1).index,1);const loads=audio.loads;reader.retry();assert.equal(audio.src,url);assert.equal(audio.loads,loads+1);audio.onplaying();assert.equal(reader.state,'playing');reader.stop();
 });
 test('stopping or changing language cancels late play failures and completions',async()=>{
  let reject;const {reader,audio}=setup(()=>new Promise((_,r)=>reject=r));reader.start(dictionaries.en.homeTitle);const stale=audio.onended,oldReject=reject;

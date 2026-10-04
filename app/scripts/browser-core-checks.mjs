@@ -1,0 +1,51 @@
+// Browser-runtime tests of exported application logic. No form automation or real records.
+import * as tracker from '/tracker.js';
+import {sealCase,openCase} from '/privacy.js';
+import {guideFor} from '/guides.js';
+import {INSTITUTIONS,matchInstitution,searchInstitutions} from '/institutions.js';
+import {createSupport,SUPPORT_SOURCES,annualReviewDate} from '/resilience.js';
+import {reviewReminder} from '/complaint-review.js';
+import {createNominationCoach,coachRoute} from '/nomination-coach.js';
+import {createJourneyEntry} from '/journey-entry.js';
+import {createLocaleStore} from '/locale.js';
+import {languageInfo,audioLanguages} from '/languages.js';
+import {audioQueue,createReader} from '/speech.js';
+import {scaleWorkspace} from '/runtime-fixture.mjs';
+const checks=[];
+const assert=(v,message='Assertion failed')=>{if(!v)throw Error(message);};
+const equal=(a,b)=>assert(JSON.stringify(a)===JSON.stringify(b),'Values differ');
+const rejects=async f=>{let rejected=false;try{await f();}catch{rejected=true;}assert(rejected,'Expected rejection');};
+async function test(name,f){const at=performance.now();try{await f();checks.push({name,passed:true,ms:performance.now()-at});}catch(error){checks.push({name,passed:false,ms:performance.now()-at,error:String(error)});}}
+const account=type=>({...tracker.emptyAccount(),type,institution:'Fictional '+type,holding:'sole',product:'savings',mfMode:'folio',owner:'@me'});
+const action=(instance,namespace,kind,value='')=>instance.handle({closest:()=>({dataset:{[namespace+'Action']:kind,[namespace+'Value']:value}})});
+for(const [name,probe] of Object.entries({structuredClone:()=>typeof structuredClone==='function',ObjectHasOwn:()=>typeof Object.hasOwn==='function',ArrayAt:()=>[].at(-1)===undefined,ReplaceAll:()=>''.replaceAll('x','y')==='',RandomUUID:()=>typeof crypto.randomUUID==='function',WebCrypto:()=>Boolean(crypto.subtle),NativeDialog:()=>typeof HTMLDialogElement.prototype.showModal==='function',AbortController:()=>typeof AbortController==='function',BlobDownload:()=>('download' in document.createElement('a'))&&typeof URL.createObjectURL==='function',MP3Capability:()=>Boolean(new Audio().canPlayType('audio/mpeg')),ServiceWorkerAPI:()=>('serviceWorker' in navigator),CacheStorageAPI:()=>('caches' in window)}))await test('Required API: '+name,()=>assert(probe()));
+for(const type of tracker.TYPES)await test('Nomination lifecycle: '+type,()=>{
+ const a=account(type),missing=tracker.transition(a,'missing');assert(missing.review==='reported');
+ const sent=tracker.transition(missing,'submitted',{submittedOn:tracker.today()});assert(sent.review==='submitted'&&sent.confirmationOn==='');
+ const confirmed=tracker.transition(sent,'confirmed',{recordKind:'statement',confirmationOn:tracker.today(),confirmationChecked:true,evidenceScope:'details',intendedChecks:{account:true,names:true,other:true}});assert(confirmed.review==='confirmed'&&confirmed.evidenceScope==='details');assert(tracker.transition(confirmed,'recheck').review==='reported');
+});
+await test('Validation rejects bad dates and oversized private fields',async()=>{assert(!tracker.validDate('2026-02-30'));await rejects(()=>tracker.validateAccount({...account('mf'),supportCase:{reason:'x'.repeat(321)}}));await rejects(()=>tracker.validateAccount({...account('mf'),last4:'12345'}));});
+await test('Blocked, opt-out and change remain distinct',()=>{for(const kind of ['blocked','optout','change'])assert(tracker.attention(tracker.transition(account('demat'),kind))===kind);});
+await test('Exact institution identity and custom fallback',()=>{assert(INSTITUTIONS.length===75);assert(matchInstitution('bank','bank')===undefined);assert(matchInstitution('bank','hdfc').id==='hdfc-bank');assert(searchInstitutions('bank','sbi').some(x=>x.id==='sbi'));});
+await test('Six curated providers and the correction route',()=>{
+ for(const [id,type,extra] of [['hdfc-bank','bank',{}],['sbi','bank',{}],['axis-bank','bank',{}],['zerodha','demat',{}],['groww','demat',{}],['hdfc-mf','mf',{}]])assert(guideFor({...account(type),institutionId:id,...extra}).specific);
+ assert(guideFor({...account('demat'),institutionId:'zerodha',nomination:'change'}).id==='zerodhaChange');assert(!guideFor({...account('bank'),institutionId:'axis-bank',product:'deposit'}).specific);
+});
+await test('Both SCORES review stages and expiry',()=>{const a=account('mf');a.supportEvents=[{kind:'entity-atr',on:'2026-10-01'}];assert(reviewReminder(a,'2026-10-04').stage==='first');assert(reviewReminder(a,'2026-10-17').state==='expired');a.supportEvents.push({kind:'body-atr',on:'2026-10-02'});assert(reviewReminder(a,'2026-10-04').stage==='second');assert(reviewReminder({...a,type:'bank'},'2026-10-04')===null);});
+await test('Private correction details excluded from family handover',()=>{const a=account('mf');a.supportCase.reason='Fictional private reason';a.evidenceLocation='Fictional private evidence';const t={...tracker.emptyTracker(),accounts:[a]};const saved=tracker.restoreWorkspace(tracker.saveWorkspace(t));assert(saved.tracker.accounts[0].supportCase.reason===a.supportCase.reason);assert(!JSON.stringify(tracker.familySummary(t)).includes('Fictional private'));});
+await test('Family readiness requires all helper checks',()=>{const a={...account('bank'),familyReviewedOn:tracker.today(),handoff:{find:true,next:true,access:false,on:tracker.today()}};assert(tracker.validateAccount(a).handoff.on==='');a.handoff.access=true;assert(tracker.validateAccount(a).handoff.on===tracker.today());assert(tracker.transition(a,'recheck').handoff.on==='');});
+await test('Leap-year review reminder',()=>equal(annualReviewDate('2024-02-29'),'2025-02-28'));
+await test('Guided learning preserves its checkpoint',()=>{const a=account('demat'),c=createNominationCoach();c.render(a);action(c,'coach','next');const payload=tracker.saveWorkspace({...tracker.emptyTracker(),accounts:[a]},null,null,'hi','2026-10-04',c.snapshot([a]));const restored=tracker.restoreWorkspace(payload),again=createNominationCoach();again.restore(restored.learning,restored.tracker.accounts);assert(again.render(restored.tracker.accounts[0]).includes('Step 2 of 6'));equal(['bank','securities','demat-linked','unknown'],[coachRoute(account('bank')),coachRoute(account('demat')),coachRoute({...account('mf'),mfMode:'demat'}),coachRoute({...account('mf'),mfMode:'unknown'})]);});
+await test('Entry orientation chooses bank, demat and folio',()=>{for(const type of tracker.TYPES){const s=createJourneyEntry();action(s,'entry','living');assert(action(s,'entry','kind',type)==='setup-'+type);}});
+const store=createLocaleStore();
+for(const [code] of languageInfo)await test('Language and public-audio routing: '+code,async()=>{const d=await store.load(code);assert(Object.keys(d).length===679);const q=audioQueue([{text:d.plainHomeTitle},{text:'Fictional private value 991122'}],code,undefined,d);assert(q.length===(audioLanguages.includes(code)?1:0));assert(!q.some(x=>x.url.includes('991122')));});
+await test('Old-holding referrals and separate bank complaints',()=>{const s=createSupport(),d=store.get('en'),t=k=>d[k];for(const [kind,link] of [['shares',SUPPORT_SOURCES.iepf],['mf',SUPPORT_SOURCES.mitra],['bank',SUPPORT_SOURCES.udgam]]){s.start('unclaimed');action(s,'support','kind',kind);assert(s.render(t).includes(link));}s.start('complaint');action(s,'support','kind','bank');assert(!s.render(t).includes(SUPPORT_SOURCES.scores));});
+await test('Audio controls state machine (mock media element)',()=>{const d=store.get('en'),audio={play(){return Promise.resolve();},pause(){},load(){},removeAttribute(){}},r=createReader({createAudio:()=>audio,getDictionary:()=>d});assert(r.start([{text:d.plainHomeTitle}],{language:'en'}));audio.onplaying();assert(r.state==='playing');r.pause();assert(r.state==='paused');r.resume();r.next();r.repeat();r.previous();r.stop();assert(r.state==='idle');});
+let maximum;
+await test('Maximum synthetic workspace: 50 accounts and retained drafts',()=>{maximum=scaleWorkspace();const r=tracker.restoreWorkspace(maximum);assert(r.tracker.accounts.length===50);assert(r.tracker.accounts.every(a=>a.events.length===20&&a.supportEvents.length===20));assert(r.draft._contextStep===1&&r.editor.account.last4==='12');});
+await test('Maximum workspace encrypted round trip in this browser',async()=>{const cipher=await sealCase(maximum,'fictional browser fixture password'),opened=await openCase(cipher,'fictional browser fixture password');equal(opened,maximum);checks[checks.length-1].envelopeBytes=new TextEncoder().encode(cipher).length;});
+await test('Wrong password and malformed envelope rejected',async()=>{const cipher=await sealCase({synthetic:true},'fictional browser fixture password');await rejects(()=>openCase(cipher,'fictional wrong password'));await rejects(()=>openCase('{}','fictional browser fixture password'));});
+await test('Browser storage round trip (fictional test key)',()=>{const key='virasat-runtime-synthetic-probe';localStorage.setItem(key,'synthetic');assert(localStorage.getItem(key)==='synthetic');localStorage.removeItem(key);});
+const report={date:new Date().toISOString(),userAgent:navigator.userAgent,platform:navigator.platform,physicalDevice:false,scope:'Exported application logic and API probes; not full rendered-UI acceptance, actual Android, real audio playback, downloads, print, screen-reader or physical-phone performance.',checks,passed:checks.filter(x=>x.passed).length,failed:checks.filter(x=>!x.passed).length,maximumPlaintextBytes:new TextEncoder().encode(JSON.stringify(maximum)).length,heap:performance.memory?{usedJsHeapSize:performance.memory.usedJSHeapSize,totalJsHeapSize:performance.memory.totalJSHeapSize,jsHeapSizeLimit:performance.memory.jsHeapSizeLimit}:null};
+document.querySelector('pre').textContent=JSON.stringify(report,null,2);performance.mark('browser-core-checks-complete');
+await fetch(document.querySelector('pre').dataset.endpoint,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(report)});

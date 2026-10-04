@@ -51,7 +51,7 @@ test('old files migrate; unfinished forms never become confirmed accounts',()=>{
  assert.throws(()=>restoreWorkspace({...saved,editor:{...saved.editor,account:{...raw,id:'not-present'}}}),/invalidSave/);
 });
 test('saving a family edit preserves existing confirmation, without committing the edit',()=>{
- const confirmed=transition(account(),'confirmed',{confirmationOn:today(),recordKind:'statement',confirmationChecked:true,evidenceScope:'details'});
+ const confirmed=transition(account(),'confirmed',{confirmationOn:today(),recordKind:'statement',confirmationChecked:true,evidenceScope:'details',intendedChecks:{account:true,names:true,other:true}});
  const c={...emptyTracker(),accounts:[confirmed]};const restore=restoreWorkspace(saveWorkspace(c,null,{view:'family',mode:'edit',step:0,account:{...confirmed,recordLocation:'Blue folder'}},'en'));
  assert.equal(restore.editor.account.review,'confirmed');assert.equal(restore.editor.account.evidenceScope,'details');assert.equal(restore.tracker.accounts[0].recordLocation,'');assert.equal(validateAccount(restore.editor.account).recordLocation,'Blue folder');
 });

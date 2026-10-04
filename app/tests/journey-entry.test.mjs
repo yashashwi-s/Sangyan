@@ -1,7 +1,9 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFile} from 'node:fs/promises';
-import {createJourneyEntry,LEGAL_HELP} from '../dist/journey-entry.js';
+import {createJourneyEntry as createEntry,LEGAL_HELP} from '../dist/journey-entry.js';
+const plain=JSON.parse(await readFile(new URL('../translations/resilience-en.json',import.meta.url)));
+const createJourneyEntry=()=>{const c=createEntry(),render=c.render;return {...c,render:()=>render(k=>plain[k]||k)};};
 const act=(c,action,value='')=>c.handle({closest:()=>({dataset:{entryAction:action,entryValue:value}})});
 test('claim orientation covers every account route and assistance context without tracker intents',()=>{
  for(const kind of ['bank','demat','mf','unknown'])for(const age of ['adult','minor','unsure']){
@@ -16,8 +18,11 @@ test('claim orientation covers every account route and assistance context withou
 test('living holder can identify account without storing details and unknown route never guesses',()=>{
  for(const kind of ['bank','demat','mf','unknown']){const c=createJourneyEntry();act(c,'living');act(c,'kind',kind);assert.equal(act(c,'continue'),kind==='unknown'?false:'setup-'+kind);}
 });
+test('paper shares lead to old-holding identification instead of being treated as demat',()=>{
+ const c=createJourneyEntry();act(c,'living');assert.equal(act(c,'kind','paper-shares'),'old-shares');c.reset();assert.equal(act(c,'kind','paper-shares'),false);
+});
 test('back and reset remove choices and switching situation cannot carry claim authority',()=>{
- const c=createJourneyEntry();c.startClaim();act(c,'kind','bank');act(c,'age','minor');act(c,'back');assert.match(c.render(),/child or an adult/);act(c,'back');assert.match(c.render(),/right place/);assert.equal(act(c,'age','adult'),false);c.reset();assert.match(c.render(),/What do you need/);assert.equal(act(c,'kind','malicious'),false);assert.equal(c.handle(null),false);
+ const c=createJourneyEntry();c.startClaim();act(c,'kind','bank');act(c,'age','minor');act(c,'back');assert.match(c.render(),/child or an adult/);act(c,'back');assert.match(c.render(),/Choose the paper/);assert.equal(act(c,'age','adult'),false);c.reset();assert.match(c.render(),/Who is this account/);assert.equal(act(c,'kind','malicious'),false);assert.equal(c.handle(null),false);
 });
 test('orientation has no personal-input or persistence/network sinks and app clears its state',async()=>{
  const source=await readFile(new URL('../dist/journey-entry.js',import.meta.url),'utf8');

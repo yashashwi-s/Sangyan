@@ -9,7 +9,7 @@ export const GUIDE_REFERENCES=Object.freeze({
  zerodha:{url:SOURCES.zerodha,scope:'scopeZerodhaAdd',reviewedOn:'2026-10-03'},
  zerodhaChange:{url:'https://support.zerodha.com/category/your-zerodha-account/nomination-process/articles/add-modify-or-remove-nominee',scope:'scopeZerodhaChange',reviewedOn:'2026-10-03'},
  groww:{url:'https://groww.in/help/stocks%2C-f%26o%2C-ipo-%26-mtf/searchable/how-can-i-change-my-nominee-on-groww--62',scope:'scopeGroww',reviewedOn:'2026-10-03'},
- hdfcmf:{url:SOURCES.hdfcmf,scope:'scopeHdfcMf',reviewedOn:'2026-10-03'}
+ hdfcmf:{url:SOURCES.hdfcmf,scope:'scopeHdfcMf',reviewedOn:'2026-10-04',formUrl:'https://files.hdfcfund.com/s3fs-public/2026-08/Nomination%20Registration%20Form%20310826%20V1%20(Revised).pdf',formEffectiveOn:'2026-09-01',supporting:['https://www.hdfcfund.com/services/forms']}
 });
 export function guideFor(a){
  const base={check:['checkLocation','askInstitution'],action:[a.type+'Guide','submitKeep'],offline:['offlineContact','offlineBring','offlineAsk','submitKeep'],url:a.type==='bank'?SOURCES.bank:SOURCES.sebi,label:'source',specific:false,scope:'scopeGeneral',reviewedOn:SOURCES.reviewedOn};

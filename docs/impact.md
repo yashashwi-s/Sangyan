@@ -1,5 +1,7 @@
 # Quantifiable impact without inflated claims
 
+**Current-product update — 4 October 2026:** The calculations below concern the earlier acquisition-history/transmission research. They do not quantify Virasat's nominee tracker. Use the [Track B reassessment and potential-impact model](track-b-reassessment-2026-10-04.md) for the current product. There are no real-user or institutional Virasat outcomes. The full EAC-PM PDF is now checked: Table 1 labels 57,570 as **approved**, with 76,620 processed in Oct2025–Mar2026; the indexed-only caveat below is historical.
+
 ## Three categories that must remain separate
 
 | Category | Evidence | Appropriate use |

@@ -9,16 +9,18 @@ import {gunzipSync} from 'node:zlib';
 import {performance} from 'node:perf_hooks';
 import {sourceManifest} from './performance-network.mjs';
 import {localeCatalog} from '../dist/locale-catalog.js';
-import {audioCatalog} from '../dist/audio-catalog.js';
-const exec=promisify(execFile),root=resolve('app/dist'),output=resolve(process.argv[2]||'docs/audits/2026-10-04-capacity/local-capacity.json');
+import {supportAudioCatalog} from '../dist/audio-support-catalog.js';
+const exec=promisify(execFile),root=resolve(process.argv[4]||'app/dist'),output=resolve(process.argv[2]||'docs/audits/2026-10-04-capacity/local-capacity.json');
 const port=4198,host='127.0.0.1',language='hi',fanout=4,repeats=3,admissionMs=5000,maxRequests=20000,maxWireBytes=128*1024*1024,timeoutMs=3000,runDrainMs=5000,globalLimitMs=120000;
-const inventory=JSON.parse(await readFile(resolve('docs/audits/2026-10-04-privacy-recovery/delivery-scale.json'),'utf8'));
+const inventory=JSON.parse(await readFile(resolve(process.argv[3]||'docs/audits/2026-10-04-privacy-recovery/delivery-scale.json'),'utf8'));
 const manifest=await sourceManifest(root);if(manifest.sha256!==inventory.sourceSha256)throw Error('Rebuild the current delivery inventory before benchmarking');
+// The preview serves app/dist. Verify every frozen public file still matches it.
+for(const file of manifest.files)if(createHash('sha256').update(await readFile(resolve('app/dist',file.path))).digest('hex')!==file.sha256)throw Error('Frozen public release differs from preview: '+file.path);
 const moduleFiles=inventory.eagerModules;
 const resource=(path,kind,range=null)=>({path,kind,range});
 const documentResource=resource('/hi','document');
 const assets=['/styles.css','/favicon.svg',...moduleFiles.map(f=>'/'+f),localeCatalog[language]].map(path=>resource(path,path.startsWith('/locales/')?'dictionary':'asset'));
-const clips=['homeTitle','homeIntro','howWorksText'].map(key=>resource(`/audio/${language}/${audioCatalog[language].revision}/${key}.mp3`,'fullAudio'));
+const clips=['plainHomeTitle','plainHomeIntro','plainNomineeMeaning'].map(key=>resource(`/audio/${language}/${supportAudioCatalog[language].revision}/${key}.mp3`,'fullAudio'));
 const range=resource(clips[0].path,'audioRange','bytes=0-1023'),workload=[documentResource,...assets,...clips,range];
 const durations=[];for(const clip of clips){const {stdout}=await exec('/opt/homebrew/bin/ffprobe',['-v','error','-show_entries','format=duration','-of','default=noprint_wrappers=1:nokey=1',resolve(root,clip.path.slice(1))]);durations.push({path:clip.path,seconds:Number(stdout.trim())});}
 const agent=new http.Agent({keepAlive:true,maxSockets:24,maxTotalSockets:24}),server=spawn(process.execPath,[resolve('app/server.mjs')],{env:{...process.env,PORT:String(port)},stdio:['ignore','pipe','pipe']});

@@ -1,0 +1,363 @@
+{
+  "date": "2026-10-04T12:07:47.128Z",
+  "rows": [
+    {
+      "language": "en",
+      "name": "home",
+      "keys": [
+        "plainHomeTitle",
+        "plainHomeIntro",
+        "plainHomeTypes",
+        "plainNomineeMeaning"
+      ],
+      "clips": [
+        {
+          "path": "/audio/en/support-495d91d61066/plainHomeTitle.mp3",
+          "bytes": 12451
+        },
+        {
+          "path": "/audio/en/support-495d91d61066/plainHomeIntro.mp3",
+          "bytes": 26371
+        },
+        {
+          "path": "/audio/en/support-495d91d61066/plainHomeTypes.mp3",
+          "bytes": 22147
+        },
+        {
+          "path": "/audio/en/support-495d91d61066/plainNomineeMeaning.mp3",
+          "bytes": 36456
+        }
+      ],
+      "bytes": 97425
+    },
+    {
+      "language": "en",
+      "name": "sixStepCoreWithChildExplanation",
+      "keys": [
+        "plainCoachTitle",
+        "plainCoachIntro",
+        "plainFormTitle",
+        "plainFormHelp",
+        "plainReferenceTitle",
+        "plainReferenceHelp",
+        "plainPersonTitle",
+        "plainPersonHelp",
+        "plainMinorTitle",
+        "plainMinorHelp",
+        "plainMinorSecurities",
+        "plainSubmitTitle",
+        "plainSubmitHelp",
+        "plainPrivacy",
+        "plainResponseTitle",
+        "plainResponseHelp",
+        "plainReceiptMeaning"
+      ],
+      "clips": [
+        {
+          "path": "/audio/en/support-495d91d61066/plainCoachTitle.mp3",
+          "bytes": 10244
+        },
+        {
+          "path": "/audio/en/support-495d91d61066/plainCoachIntro.mp3",
+          "bytes": 18692
+        },
+        {
+          "path": "/audio/en/support-495d91d61066/plainFormTitle.mp3",
+          "bytes": 6787
+        },
+        {
+          "path": "/audio/en/support-495d91d61066/plainFormHelp.mp3",
+          "bytes": 16578
+        },
+        {
+          "path": "/audio/en/support-495d91d61066/plainReferenceTitle.mp3",
+          "bytes": 8712
+        },
+        {
+          "path": "/audio/en/support-495d91d61066/plainReferenceHelp.mp3",
+          "bytes": 32711
+        },
+        {
+          "path": "/audio/en/support-495d91d61066/plainPersonTitle.mp3",
+          "bytes": 10341
+        },
+        {
+          "path": "/audio/en/support-495d91d61066/plainPersonHelp.mp3",
+          "bytes": 20324
+        },
+        {
+          "path": "/audio/en/support-495d91d61066/plainMinorTitle.mp3",
+          "bytes": 8708
+        },
+        {
+          "path": "/audio/en/support-495d91d61066/plainMinorHelp.mp3",
+          "bytes": 33091
+        },
+        {
+          "path": "/audio/en/support-495d91d61066/plainMinorSecurities.mp3",
+          "bytes": 30121
+        },
+        {
+          "path": "/audio/en/support-495d91d61066/plainSubmitTitle.mp3",
+          "bytes": 9189
+        },
+        {
+          "path": "/audio/en/support-495d91d61066/plainSubmitHelp.mp3",
+          "bytes": 28868
+        },
+        {
+          "path": "/audio/en/support-495d91d61066/plainPrivacy.mp3",
+          "bytes": 11489
+        },
+        {
+          "path": "/audio/en/support-495d91d61066/plainResponseTitle.mp3",
+          "bytes": 7655
+        },
+        {
+          "path": "/audio/en/support-495d91d61066/plainResponseHelp.mp3",
+          "bytes": 26854
+        },
+        {
+          "path": "/audio/en/support-495d91d61066/plainReceiptMeaning.mp3",
+          "bytes": 23208
+        }
+      ],
+      "bytes": 303572
+    },
+    {
+      "language": "hi",
+      "name": "home",
+      "keys": [
+        "plainHomeTitle",
+        "plainHomeIntro",
+        "plainHomeTypes",
+        "plainNomineeMeaning"
+      ],
+      "clips": [
+        {
+          "path": "/audio/hi/support-34e011f57feb/plainHomeTitle.mp3",
+          "bytes": 17539
+        },
+        {
+          "path": "/audio/hi/support-34e011f57feb/plainHomeIntro.mp3",
+          "bytes": 32611
+        },
+        {
+          "path": "/audio/hi/support-34e011f57feb/plainHomeTypes.mp3",
+          "bytes": 26947
+        },
+        {
+          "path": "/audio/hi/support-34e011f57feb/plainNomineeMeaning.mp3",
+          "bytes": 41736
+        }
+      ],
+      "bytes": 118833
+    },
+    {
+      "language": "hi",
+      "name": "sixStepCoreWithChildExplanation",
+      "keys": [
+        "plainCoachTitle",
+        "plainCoachIntro",
+        "plainFormTitle",
+        "plainFormHelp",
+        "plainReferenceTitle",
+        "plainReferenceHelp",
+        "plainPersonTitle",
+        "plainPersonHelp",
+        "plainMinorTitle",
+        "plainMinorHelp",
+        "plainMinorSecurities",
+        "plainSubmitTitle",
+        "plainSubmitHelp",
+        "plainPrivacy",
+        "plainResponseTitle",
+        "plainResponseHelp",
+        "plainReceiptMeaning"
+      ],
+      "clips": [
+        {
+          "path": "/audio/hi/support-34e011f57feb/plainCoachTitle.mp3",
+          "bytes": 14372
+        },
+        {
+          "path": "/audio/hi/support-34e011f57feb/plainCoachIntro.mp3",
+          "bytes": 23492
+        },
+        {
+          "path": "/audio/hi/support-34e011f57feb/plainFormTitle.mp3",
+          "bytes": 8131
+        },
+        {
+          "path": "/audio/hi/support-34e011f57feb/plainFormHelp.mp3",
+          "bytes": 21762
+        },
+        {
+          "path": "/audio/hi/support-34e011f57feb/plainReferenceTitle.mp3",
+          "bytes": 9000
+        },
+        {
+          "path": "/audio/hi/support-34e011f57feb/plainReferenceHelp.mp3",
+          "bytes": 40007
+        },
+        {
+          "path": "/audio/hi/support-34e011f57feb/plainPersonTitle.mp3",
+          "bytes": 18309
+        },
+        {
+          "path": "/audio/hi/support-34e011f57feb/plainPersonHelp.mp3",
+          "bytes": 29348
+        },
+        {
+          "path": "/audio/hi/support-34e011f57feb/plainMinorTitle.mp3",
+          "bytes": 9092
+        },
+        {
+          "path": "/audio/hi/support-34e011f57feb/plainMinorHelp.mp3",
+          "bytes": 37987
+        },
+        {
+          "path": "/audio/hi/support-34e011f57feb/plainMinorSecurities.mp3",
+          "bytes": 36073
+        },
+        {
+          "path": "/audio/hi/support-34e011f57feb/plainSubmitTitle.mp3",
+          "bytes": 8805
+        },
+        {
+          "path": "/audio/hi/support-34e011f57feb/plainSubmitHelp.mp3",
+          "bytes": 39524
+        },
+        {
+          "path": "/audio/hi/support-34e011f57feb/plainPrivacy.mp3",
+          "bytes": 13505
+        },
+        {
+          "path": "/audio/hi/support-34e011f57feb/plainResponseTitle.mp3",
+          "bytes": 7175
+        },
+        {
+          "path": "/audio/hi/support-34e011f57feb/plainResponseHelp.mp3",
+          "bytes": 33862
+        },
+        {
+          "path": "/audio/hi/support-34e011f57feb/plainReceiptMeaning.mp3",
+          "bytes": 33384
+        }
+      ],
+      "bytes": 383828
+    }
+  ],
+  "paper": [
+    {
+      "language": "en",
+      "bodyBytes": 3547,
+      "gzipBytes": 1595
+    },
+    {
+      "language": "hi",
+      "bodyBytes": 8059,
+      "gzipBytes": 2308
+    },
+    {
+      "language": "bn",
+      "bodyBytes": 8350,
+      "gzipBytes": 2296
+    },
+    {
+      "language": "mr",
+      "bodyBytes": 7726,
+      "gzipBytes": 2263
+    },
+    {
+      "language": "ta",
+      "bodyBytes": 10227,
+      "gzipBytes": 2398
+    },
+    {
+      "language": "ur",
+      "bodyBytes": 5662,
+      "gzipBytes": 2131
+    },
+    {
+      "language": "as",
+      "bodyBytes": 8339,
+      "gzipBytes": 2383
+    },
+    {
+      "language": "doi",
+      "bodyBytes": 8116,
+      "gzipBytes": 2386
+    },
+    {
+      "language": "gu",
+      "bodyBytes": 7604,
+      "gzipBytes": 2234
+    },
+    {
+      "language": "kn",
+      "bodyBytes": 8646,
+      "gzipBytes": 2301
+    },
+    {
+      "language": "kok",
+      "bodyBytes": 7723,
+      "gzipBytes": 2269
+    },
+    {
+      "language": "mai",
+      "bodyBytes": 7538,
+      "gzipBytes": 2319
+    },
+    {
+      "language": "ml",
+      "bodyBytes": 9502,
+      "gzipBytes": 2401
+    },
+    {
+      "language": "mni",
+      "bodyBytes": 8942,
+      "gzipBytes": 2310
+    },
+    {
+      "language": "ne",
+      "bodyBytes": 8437,
+      "gzipBytes": 2243
+    },
+    {
+      "language": "or",
+      "bodyBytes": 8569,
+      "gzipBytes": 2362
+    },
+    {
+      "language": "pa",
+      "bodyBytes": 7863,
+      "gzipBytes": 2303
+    },
+    {
+      "language": "sa",
+      "bodyBytes": 8569,
+      "gzipBytes": 2338
+    },
+    {
+      "language": "sat",
+      "bodyBytes": 8256,
+      "gzipBytes": 2205
+    },
+    {
+      "language": "sd",
+      "bodyBytes": 5467,
+      "gzipBytes": 2104
+    },
+    {
+      "language": "te",
+      "bodyBytes": 8456,
+      "gzipBytes": 2326
+    }
+  ],
+  "notes": [
+    "Exact file-body arithmetic for the listed fixed clips; not a measured complete user task or typical listening behaviour.",
+    "Cold listening adds these bytes only when the user requests these clips; HTTP headers, range retries and audio playback latency are excluded.",
+    "No private account entries are present in these paths or recordings."
+  ]
+}

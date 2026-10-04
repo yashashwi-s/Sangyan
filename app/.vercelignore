@@ -5,7 +5,7 @@ server.mjs
 README.md
 THIRD_PARTY.md
 vendor-lock.json
-audio
+/audio/
 translations
 translation-handoff
 scripts

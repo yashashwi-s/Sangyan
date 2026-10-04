@@ -26,14 +26,14 @@ test('cancelled family export failure does not write a stale retry message into 
 function sessionSurface(storageFails=false){
  const dialogs=[{open:true,innerHTML:'Fictional private institution',close(){this.open=false;}},{open:false,innerHTML:'Fictional private nominee'}],controls={},messages=[];
  const main={removeAttribute(){},focus(){}};
- const ui={generation:5,languageRequest:2,coach:{reset(){}},entry:{reset(){}},reader:{stop(){}},current:{accounts:[{institution:'Fictional private institution'}]},selected:'private-account',unfinished:{account:{owner:'Fictional owner'}},pendingEditor:{account:{recordNote:'Fictional note'}},pendingDematSource:'private-account',draft:{last4:'1234'},step:3,editorMode:'edit',returnView:'confirm',routeMode:'offline',dirty:true,savedFile:true,shareNames:true,shareLocation:true,dialogOrigin:{},live:{textContent:'Fictional private message'},main,view:'detail',deviceCopy:true,deviceKey:'test-device',emptyTracker:()=>({accounts:[]}),document:{querySelectorAll:()=>dialogs},draw(){},announce:k=>messages.push(k),openDialog(){return dialogs[0];},dialogHead:()=>'',copy:()=>'',button:()=>'',t:x=>x,$:key=>controls[key],localStorage:{removeItem(){if(storageFails)throw Error('denied');ui.removed=true;}}};
+ const ui={generation:5,languageRequest:2,navigation:{reset(){}},coach:{reset(){}},entry:{reset(){}},support:{reset(){}},restoredRecord:true,lastSavedOn:'2026-10-01',reader:{stop(){}},current:{accounts:[{institution:'Fictional private institution'}]},selected:'private-account',unfinished:{account:{owner:'Fictional owner'}},pendingEditor:{account:{recordNote:'Fictional note'}},pendingDematSource:'private-account',draft:{last4:'1234'},step:3,editorMode:'edit',returnView:'confirm',routeMode:'offline',dirty:true,savedFile:true,shareNames:true,shareLocation:true,dialogOrigin:{},live:{textContent:'Fictional private message'},main,view:'detail',deviceCopy:true,deviceKey:'test-device',emptyTracker:()=>({accounts:[]}),document:{querySelectorAll:()=>dialogs},draw(){},announce:k=>messages.push(k),openDialog(){return dialogs[0];},dialogHead:()=>'',copy:()=>'',button:()=>'',t:x=>x,$:key=>controls[key],localStorage:{removeItem(){if(storageFails)throw Error('denied');ui.removed=true;}}};
  vm.createContext(ui);vm.runInContext(extract('function clearSession(){',"$('#clear').onclick="),ui);
  return {ui,dialogs,controls,messages};
 }
 test('session clearing erases decrypted records, drafts, selected IDs and all dialog DOM, resetting sharing choices',()=>{
  const {ui,dialogs}=sessionSurface();ui.clearSession();
  for(const key of ['draft','unfinished','pendingEditor','dialogOrigin'])assert.equal(ui[key],null);
- assert.equal(ui.current.accounts.length,0);assert.equal(ui.selected,'');assert.equal(ui.pendingDematSource,'');assert.equal(ui.live.textContent,'');assert.equal(ui.view,'home');assert.equal(ui.dirty,false);assert.equal(ui.savedFile,false);assert.equal(ui.shareNames,false);assert.equal(ui.shareLocation,false);assert.equal(ui.generation,6);assert.equal(ui.languageRequest,3);assert.equal(ui.deviceCopy,true);
+ assert.equal(ui.current.accounts.length,0);assert.equal(ui.selected,'');assert.equal(ui.pendingDematSource,'');assert.equal(ui.live.textContent,'');assert.equal(ui.view,'home');assert.equal(ui.restoredRecord,false);assert.equal(ui.lastSavedOn,'');assert.equal(ui.dirty,false);assert.equal(ui.savedFile,false);assert.equal(ui.shareNames,false);assert.equal(ui.shareLocation,false);assert.equal(ui.generation,6);assert.equal(ui.languageRequest,3);assert.equal(ui.deviceCopy,true);
  assert.ok(dialogs.every(d=>!d.open&&d.innerHTML===''));
  assert.match(source,/window\.addEventListener\('pagehide',leaveSession\)/);
  assert.match(source,/savedFile=false,shareNames=false,shareLocation=false/);
@@ -46,7 +46,7 @@ test('clear confirmation removes a device envelope only by explicit choice and r
 });
 function vaultSurface(){
  const crypto=deferred(),submit={disabled:false,isConnected:true},status={},controls={'#password':{value:'fictional password long enough'},'#password-repeat':{value:'fictional password long enough'},'#vault-status':status};let seals=0;
- const ui={generation:3,view:'save',clearErrors(){},$:key=>controls[key],showError(){},t:x=>x,current:{accounts:[]},unfinished:null,pendingEditor:null,lang:'en',saveWorkspace:()=>({synthetic:true}),sealCase(){seals++;return crypto.promise;},document:{},form:{querySelector:()=>submit}};
+ const ui={generation:3,view:'save',navigation:{reset(){}},coach:{snapshot(){return [];}},clearErrors(){},$:key=>controls[key],showError(id,key){ui.lastError={id,key};},t:x=>x,current:{accounts:[]},unfinished:null,pendingEditor:null,lang:'en',today:()=> '2026-10-04',saveWorkspace:()=>({synthetic:true}),sealCase(){seals++;return crypto.promise;},document:{},form:{querySelector:()=>submit}};
  vm.createContext(ui);vm.runInContext(extract('async function handleVault(form){',"main.addEventListener('input'"),ui);
  return {ui,crypto,submit,status,get seals(){return seals;}};
 }
@@ -61,9 +61,9 @@ test('page departure clears saved decrypted state but preserves unsaved work and
 
 test('actual vault import retains live work on corrupt input and restores 50 accounts despite unavailable saved language',async()=>{
  const {ui,status}=vaultSurface(),original={accounts:[{id:'existing-fictional-record'}]},editor={account:{id:'existing-fictional-record',last4:'12'}};
- Object.assign(ui,{view:'resume',current:original,pendingEditor:editor,restoreWorkspace,openCase,loadLanguage:async()=>{throw Error('offline');},keepLanguageOffline(){},draw(){},announce(){},savedFile:false,pendingDematSource:'',draft:null,shareNames:true,shareLocation:true});
+ Object.assign(ui,{coach:{restore(){}},view:'resume',current:original,pendingEditor:editor,restoreWorkspace,openCase,loadLanguage:async()=>{throw Error('offline');},keepLanguageOffline(){},draw(){},announce(){},savedFile:false,pendingDematSource:'',draft:null,shareNames:true,shareLocation:true});
  const controls={};ui.$=key=>controls[key];controls['#password']={value:'fictional password long enough'};controls['#vault-status']=status;controls['#saved-file']={files:[{size:4,text:async()=>'oops'}]};
- await ui.handleVault(ui.form);assert.equal(status.textContent,'invalidSave');assert.equal(ui.current,original);assert.equal(ui.pendingEditor,editor);assert.equal(ui.view,'resume');
+ await ui.handleVault(ui.form);assert.equal(ui.lastError.id,'saved-file-error');assert.equal(ui.lastError.key,'invalidSave');assert.equal(ui.current,original);assert.equal(ui.pendingEditor,editor);assert.equal(ui.view,'resume');
  const workspace=scaleWorkspace(),sealed=await sealCase(workspace,controls['#password'].value);controls['#saved-file'].files=[{size:sealed.length,text:async()=>sealed}];
  await ui.handleVault(ui.form);assert.equal(ui.current.accounts.length,50);assert.equal(ui.lang,'en');assert.equal(ui.unfinished.account.owner,workspace.draft.owner);assert.equal(ui.pendingEditor.account.last4,'12');assert.equal(ui.view,'home');assert.equal(ui.savedFile,true);assert.equal(ui.shareNames,false);assert.equal(ui.shareLocation,false);
 });

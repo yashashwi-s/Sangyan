@@ -15,6 +15,10 @@ function setup(audioBytes=8,network=null){
 test('installation caches the public shell without preloading any audio or user values',async()=>{
  const env=setup();await env.install();const shell=[...env.stores.values()][0];assert.ok(shell.has('/index.html'));assert.ok(shell.has('/audio-catalog.js'));assert.ok([...shell.keys()].every(k=>!k.includes('.mp3')));assert.equal(env.calls.length,0);
 });
+test('the chosen paper fallback is retained offline without downloading every language or intercepting private URLs',async()=>{
+ const env=setup();await env.install();const pending=[];env.handlers.message({data:{type:'cache-language',language:'hi'},waitUntil:p=>pending.push(p)});await Promise.all(pending);assert.ok(env.calls.some(r=>new URL(r.url).pathname==='/paper/hi.html'));assert.ok(!env.calls.some(r=>new URL(r.url).pathname==='/paper/en.html'));
+ env.setOffline();assert.ok(await env.request('/paper/hi.html'));assert.equal(await env.request('/paper/xx.html'),undefined);assert.equal(await env.request('/paper/hi.html?private=value'),undefined);
+});
 test('played audio is available offline, with valid media byte ranges',async()=>{
  const env=setup();const path='/audio/hi/012345abcdef/homeTitle.mp3';const first=await env.request(path);assert.equal(first.status,200);assert.equal(env.calls.length,1);env.setOffline();const again=await env.request(path,{headers:{Range:'bytes=2-5'}});assert.equal(again.status,206);assert.equal(again.headers.get('Content-Range'),'bytes 2-5/8');assert.deepEqual([...new Uint8Array(await again.arrayBuffer())],[2,3,4,5]);assert.equal(env.calls.length,1);
  const suffix=await env.request(path,{headers:{Range:'bytes=-2'}});assert.deepEqual([...new Uint8Array(await suffix.arrayBuffer())],[6,7]);const invalid=await env.request(path,{headers:{Range:'bytes=99-100'}});assert.equal(invalid.status,416);
@@ -119,4 +123,9 @@ test('the public-shell byte ceiling defers an upgrade rather than deleting a liv
  env.stores.set('virasat-shell-live-predecessor',previous);env.setClients(['unfinished-form']);
  await assert.rejects(env.install(),/upgrade deferred/);assert.equal(env.activations,0);
  assert.ok(env.stores.has('virasat-shell-live-predecessor'));assert.equal(env.stores.size,1);
+});
+test('fixed supplemental guidance clips share the same bounded offline cache and range handling',async()=>{
+ const env=setup(),path='/audio/hi/support-012345abcdef/tipsHelp.mp3';
+ assert.equal((await env.request(path)).status,200);env.setOffline();const range=await env.request(path,{headers:{Range:'bytes=2-5'}});assert.equal(range.status,206);assert.equal(range.headers.get('Content-Range'),'bytes 2-5/8');
+ assert.equal(await env.request(path+'?note=Fictional'),undefined);assert.equal(await env.request('/audio/kok/support-012345abcdef/tipsHelp.mp3'),undefined);
 });

@@ -310,6 +310,8 @@ Research cut-off: **1 October 2026**. The access field distinguishes full/releva
 - Read here: Table 1 and section IV.
 - Use / limitation: Recent improvement counterevidence. Prose/table wording differs on processed versus approved; use labelled table categories.
 
+Update 4 October 2026: the full PDF was downloaded and Table 1 visually inspected. It reports **76,620 processed, 57,570 approved and 19,050 rejected** in October2025–March2026; pending at year-end26,510. The earlier access limitation is resolved. See [archived PDF](public-2026-10-04/eacpm-iepf-reforms-may-2026.pdf) and [current Track B evidence](track-b-public-evidence-2026-10-04.json). These are institutional results, not Virasat outcomes, and the paper's backlog forecast is not confirmed as of October.
+
 ## S029
 
 **[CDSL periodic statistics: August 2026](https://www.cdslindia.com/Downloads/Publications/Periodic%20Stats/August%20-2026.pdf)**
@@ -836,4 +838,3 @@ Research cut-off: **1 October 2026**. The access field distinguishes full/releva
 - Access: relevant_page_sections
 - Read here: Problem Statement 2: Agentic Compliance, especially Expected Outcome; other track descriptions.
 - Use / limitation: Evidence of this event’s stated expectations; does not override Sangyan’s supplied rubric or establish winner quality.
-

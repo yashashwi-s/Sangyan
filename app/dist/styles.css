@@ -38,3 +38,89 @@ html[lang="sat"] body{font-family:VirasatOlChiki,system-ui,sans-serif}
 .secondary-record>.detail-body{padding-block-start:1rem}
 .session-notice>p{margin-block:0 .35rem}
 .session-notice details{font-size:.9em}
+
+/* Persona journeys remain readable at narrow widths and with larger text. */
+.support-menu {margin-block:1rem}
+.support-menu .coach-options {display:flex;flex-wrap:wrap;gap:.75rem}
+.support-guide,.support-record-card {padding:clamp(1rem,3vw,1.8rem);border:1px solid var(--line,#ccc);border-radius:1rem;margin-block:1rem;min-width:0}
+.support-guide .coach-options {display:flex;flex-wrap:wrap;gap:.75rem;margin-block:1rem}
+.support-guide fieldset,.handoff-fields {min-width:0;border:0;padding:0;margin-block:1.5rem}
+.support-guide legend,.handoff-fields legend {font-weight:600}
+.support-guide button {white-space:normal;min-height:44px;text-align:start;max-width:100%}
+.handoff-fields .check-field {margin-block:1rem}
+.field textarea {width:100%;max-width:100%;box-sizing:border-box;font:inherit;line-height:1.6;padding:.75rem;border:1px solid var(--line,#777);border-radius:.5rem;resize:vertical;min-height:6rem;color:inherit;background:var(--paper,#fff)}
+.complaint-preview {white-space:pre-wrap;overflow-wrap:anywhere;font:inherit;unicode-bidi:plaintext;padding:1rem;border:1px solid var(--line,#ccc);border-radius:.75rem}
+.restored-notice {padding:1rem;border-inline-start:4px solid var(--accent,#85432f)}
+.support-record-card p,.support-guide p,.event-list li {overflow-wrap:anywhere}
+@media print {.support-record-card {display:none}}
+
+.support-guide [dir=rtl],.support-record-card [dir=rtl],.handoff-fields [dir=rtl] {text-align:start}
+.field textarea:focus-visible {outline:2px solid var(--focus);outline-offset:4px}
+/* Keep the main action readable; explanations remain available on demand. */
+.support-choice {display:flex;align-items:center;flex-wrap:wrap;gap:.75rem;margin-block:0 1rem}
+.support-choice p {margin:0;flex:1}
+.support-guide blockquote,.nomination-coach blockquote {margin-inline:0;padding:1rem;border-inline-start:3px solid var(--accent);background:var(--soft);overflow-wrap:anywhere}
+.step-explanation>.detail-body {padding-block:.8rem}
+.support-record-card>summary {font-weight:600;min-height:44px}
+.nomination-coach .coach-preview {max-width:42rem;font-size:.9rem}
+.entry-choices>div {min-width:0}
+.entry-choices button {width:100%;text-align:start}
+
+/* Readable default help, native keyboard focus and a clear way back to an error. */
+.help,.micro,.listen-button,.status-pill,.review-due {font-size:.9375rem}
+.error-summary {border:3px solid #9a2922;padding:1rem;margin-block:0 1.5rem;max-width:48rem}
+.error-summary h2 {margin-bottom:.5rem}
+.error-summary a {color:#9a2922;font-weight:600}
+.error-summary:focus {outline:3px solid var(--focus);outline-offset:3px}
+details>summary {min-height:44px;padding-block:.6rem}
+.check-field {min-height:44px}
+input[type=checkbox],input[type=radio] {min-width:22px;min-height:22px;flex-shrink:0}
+@supports not (height:100dvh) {dialog {max-height:calc(100vh - 40px)}}
+@media(max-width:400px){.header-tools{flex-wrap:wrap;justify-content:flex-end}.date-parts{grid-template-columns:minmax(0,1fr) minmax(0,1fr) minmax(0,1.4fr);gap:.6rem}.size-control{min-width:0}.brand{flex-shrink:0}}
+/* Enlarged labels need a full row, including at 200% text size on a narrow screen. */
+.choice-options label>span{min-width:0;overflow-wrap:anywhere}
+@media(max-width:400px){.choice-options label{flex-basis:100%;min-width:0;max-width:100%}}
+
+/* A light, local-only visual system. No remote fonts, image downloads or animation. */
+:root{--bg:#faf8f1;--ink:#263d34;--muted:#5e665e;--line:#d7dacf;--soft:#eef1e8;--focus:#654020;--surface:#fffdf8}
+.site-header{background:var(--surface);min-height:80px}
+.brand{letter-spacing:-.045em}.brand svg{color:#8b623b}
+button{border-radius:10px;font-weight:600}
+.primary{box-shadow:0 3px 0 #172c2214}
+.primary:hover{background:#365c4c;border-color:#365c4c}
+.secondary{background:var(--surface)}
+.listen-button{color:var(--ink);border-color:var(--line);border-radius:100px;padding:.55rem .85rem;font-weight:500;background:var(--surface)}
+.listen-button svg{width:19px;height:19px;color:var(--accent)}
+.listen-bar{gap:.5rem;margin-top:1.1rem}
+.listen-bar .text-button{padding-inline:.5rem}
+.home-welcome{display:grid;grid-template-columns:minmax(0,1.8fr) minmax(0,1fr);align-items:center;gap:2.5rem;padding-block:.75rem 2rem}
+.welcome-content{min-width:0}.welcome-content h1{font-size:clamp(2.1rem,4.2vw,3.25rem);line-height:1.14;letter-spacing:-.045em;max-width:19ch;margin-bottom:1.3rem}
+.welcome-content .page-heading{margin-bottom:1.8rem}
+.welcome-content .page-heading>p{max-width:38rem;font-size:1.0625rem}
+.welcome-content .home-actions{align-items:stretch;gap:.7rem;margin:0 0 1.5rem}
+.welcome-content .primary{padding:.9rem 1.25rem;min-height:52px}
+.welcome-content .start-help{margin:0 0 1rem}
+.welcome-alternatives{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem 1.4rem;margin-top:.8rem}
+.welcome-alternatives a{display:inline-flex;align-items:center;min-height:44px;font-size:.9375rem;gap:.4rem}
+.welcome-art{min-width:0}.welcome-art svg{width:100%;height:auto;max-width:320px;margin-inline:auto}
+.app-shell[data-view=home]>details{max-width:none;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding-inline:1.1rem;margin-top:1rem}
+.nomination-coach,.support-guide{box-shadow:0 4px 18px #263d3406;background:var(--surface)}
+.entry-choices{display:grid;gap:.75rem;margin-block:1.5rem}
+.entry-choices button{padding:1rem 1.1rem;min-height:58px;border-color:var(--line);background:var(--surface);text-align:start}
+.entry-choices button:hover{background:var(--soft);border-color:var(--ink)}
+.coach-options button{min-height:50px}.coach-options button[aria-pressed=true]{background:var(--soft)}
+.form-flow,.narrow-card{min-width:0}
+.choice-options label{border-radius:10px}.choice-options label:has(input:checked),.type-options label:has(input:checked){background:var(--soft);border-color:var(--ink)}
+input[type=radio],input[type=checkbox]{accent-color:var(--ink)}
+.account-list{border:1px solid var(--line);border-radius:16px;background:var(--surface);padding:0 1.4rem;margin-block:1.5rem}
+.account-list .account-row:last-child{border-bottom:0}.next-task{border-radius:16px;background:#edf2e8}
+.account-symbol{color:var(--ink)}
+.task-card{padding:1.5rem;border:1px solid var(--line);border-radius:16px;background:var(--surface)}
+.summary-card{padding:0 1.4rem;border:1px solid var(--line);border-radius:16px;background:var(--surface)}
+.save-complete{padding:1.2rem;border:1px solid var(--line);border-radius:12px;background:var(--soft)}
+.save-notice{border-radius:12px}
+.high-contrast .primary{background:#000;border-color:#000;color:#fff}.high-contrast .secondary,.high-contrast .listen-button{background:#fff;color:#000}
+.high-contrast .next-task,.high-contrast .save-complete{background:#fff;border:2px solid #000}.high-contrast .welcome-art{display:none}
+@media(max-width:760px){.home-welcome{grid-template-columns:1fr;gap:0;padding-block:0 1rem}.welcome-art{display:none}.welcome-content h1{font-size:2.2rem;max-width:22ch}.welcome-content .page-heading{margin-bottom:1.3rem}.welcome-content .home-actions{margin-bottom:1.2rem}}
+@media(max-width:480px){.welcome-content h1{font-size:1.95rem;line-height:1.18}.welcome-content .home-actions{flex-direction:column}.welcome-content .home-actions button{text-align:center;width:100%}.welcome-content .page-heading>p{font-size:1rem}.task-card{padding:1.1rem}.account-list,.summary-card{padding-inline:1rem}.welcome-alternatives{gap:.3rem 1rem}.app-shell[data-view=home]>details{padding-inline:.9rem}}
+@media print{.summary-card{border:0;padding:0;background:#fff}.welcome-art{display:none}.primary{box-shadow:none}}

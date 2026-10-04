@@ -1,19 +1,22 @@
 import {dictionaryFor} from './locale.js';
 import {audioCatalog} from './audio-catalog.js';
+import {supportAudioCatalog} from './audio-support-catalog.js';
+export const recordedPublicCatalog=Object.fromEntries(Object.entries(audioCatalog).map(([lang,base])=>[lang,{...base,supplement:supportAudioCatalog[lang]}]));
 
 // Public dictionary matches only. Neither arbitrary text nor user entries can become a URL.
 export const normalizeSpeech=text=>String(text).replace(/[↗→]/g,'').replace(/\s+/gu,' ').trim();
-export function audioQueue(blocks,language,catalog=audioCatalog,dictionary=dictionaryFor(language)){
+export function audioQueue(blocks,language,catalog=recordedPublicCatalog,dictionary=dictionaryFor(language)){
  const release=catalog[language];
  if(!release||!dictionary)return [];
- const keys=new Map(release.keys.filter(key=>Object.hasOwn(dictionary,key)).map(key=>[normalizeSpeech(dictionary[key]),key]));
+ const keys=new Map();
+ for(const part of [release,release.supplement].filter(Boolean))for(const key of part.keys)if(Object.hasOwn(dictionary,key))keys.set(normalizeSpeech(dictionary[key]),{key,revision:part.revision});
  return blocks.map(block=>{
-  const key=keys.get(normalizeSpeech(block.text));
-  if(!key||!release.keys.includes(key))return null;
-  return {text:dictionary[key],source:block.source??null,url:`/audio/${language}/${release.revision}/${key}.mp3`};
+  const match=keys.get(normalizeSpeech(block.text));
+  if(!match)return null;const {key,revision}=match;
+  return {text:dictionary[key],source:block.source??null,url:`/audio/${language}/${revision}/${key}.mp3`};
  }).filter(Boolean);
 }
-export function createReader({createAudio=()=>new Audio(),catalog=audioCatalog,getDictionary=dictionaryFor,onChange=()=>{},timeoutMs=20000}={}){
+export function createReader({createAudio=()=>new Audio(),catalog=recordedPublicCatalog,getDictionary=dictionaryFor,onChange=()=>{},timeoutMs=20000}={}){
  let audio=null,queue=[],index=0,token=0,attempt=0,state='idle',rate=.9,timer=null,lastProgress=0;
  const update=(next,error='')=>{state=next;onChange({state,index,total:queue.length,text:queue[index]?.text||'',source:queue[index]?.source??null,error});};
  const clearTimer=()=>{clearTimeout(timer);timer=null;};
@@ -35,7 +38,9 @@ export function createReader({createAudio=()=>new Audio(),catalog=audioCatalog,g
    lastProgress=0;
    audio.ontimeupdate=()=>{if(session!==token||state==='paused')return;const position=Number(audio.currentTime)||0;if(position>lastProgress){lastProgress=position;clearTimer();if(state==='loading')update('playing');}};
    audio.onplaying=()=>{if(session!==token||state==='paused')return;clearTimer();update('playing');};
-   audio.src=queue[index].url;loading(session);
+   audio.src=queue[index].url;
+   // Reset a failed resource even when Retry selects the same URL.
+   audio.load();loading(session);
    // Called directly from the user's click. Reuse one element across the queue on mobile.
    const playId=++attempt,started=audio.play();started?.catch(error=>{if(playId===attempt)fail(session,error);});
   }catch(error){fail(session,error);}

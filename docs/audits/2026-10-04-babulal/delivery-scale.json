@@ -1,0 +1,194 @@
+{
+  "date": "2026-10-04T12:01:55.665Z",
+  "sourceSha256": "2b255a132d85daaa9ea915c463e9d3328de6e3cdde07da47d82dc1ff00857491",
+  "publicSha256": "2b255a132d85daaa9ea915c463e9d3328de6e3cdde07da47d82dc1ff00857491",
+  "publicFiles": 10764,
+  "publicBytes": 238855244,
+  "audioFiles": 10672,
+  "audioBytes": 235603115,
+  "eagerModules": [
+    "audio-catalog.js",
+    "audio-support-catalog.js",
+    "complaint-review.js",
+    "export-font.js",
+    "guidance-copy.js",
+    "guides.js",
+    "institutions.js",
+    "journey-entry.js",
+    "languages.js",
+    "locale-catalog.js",
+    "locale-retry.js",
+    "locale.js",
+    "main.js",
+    "nomination-coach.js",
+    "privacy.js",
+    "resilience.js",
+    "speech.js",
+    "tracker.js"
+  ],
+  "routes": [
+    {
+      "language": "en",
+      "fileCount": 22,
+      "bodyBytes": 423306,
+      "perFileGzipBytes": 91761
+    },
+    {
+      "language": "hi",
+      "fileCount": 22,
+      "bodyBytes": 485185,
+      "perFileGzipBytes": 97576
+    },
+    {
+      "language": "bn",
+      "fileCount": 22,
+      "bodyBytes": 489499,
+      "perFileGzipBytes": 96992
+    },
+    {
+      "language": "mr",
+      "fileCount": 22,
+      "bodyBytes": 483716,
+      "perFileGzipBytes": 97553
+    },
+    {
+      "language": "ta",
+      "fileCount": 22,
+      "bodyBytes": 514901,
+      "perFileGzipBytes": 98818
+    },
+    {
+      "language": "ur",
+      "fileCount": 22,
+      "bodyBytes": 452156,
+      "perFileGzipBytes": 95217
+    },
+    {
+      "language": "as",
+      "fileCount": 22,
+      "bodyBytes": 499281,
+      "perFileGzipBytes": 98999
+    },
+    {
+      "language": "doi",
+      "fileCount": 22,
+      "bodyBytes": 497768,
+      "perFileGzipBytes": 100301
+    },
+    {
+      "language": "gu",
+      "fileCount": 22,
+      "bodyBytes": 484778,
+      "perFileGzipBytes": 97479
+    },
+    {
+      "language": "kn",
+      "fileCount": 22,
+      "bodyBytes": 508263,
+      "perFileGzipBytes": 98933
+    },
+    {
+      "language": "kok",
+      "fileCount": 22,
+      "bodyBytes": 491111,
+      "perFileGzipBytes": 98741
+    },
+    {
+      "language": "mai",
+      "fileCount": 22,
+      "bodyBytes": 490476,
+      "perFileGzipBytes": 99548
+    },
+    {
+      "language": "ml",
+      "fileCount": 22,
+      "bodyBytes": 523999,
+      "perFileGzipBytes": 100553
+    },
+    {
+      "language": "mni",
+      "fileCount": 23,
+      "bodyBytes": 520013,
+      "perFileGzipBytes": 109281
+    },
+    {
+      "language": "ne",
+      "fileCount": 22,
+      "bodyBytes": 500697,
+      "perFileGzipBytes": 98386
+    },
+    {
+      "language": "or",
+      "fileCount": 22,
+      "bodyBytes": 502175,
+      "perFileGzipBytes": 98746
+    },
+    {
+      "language": "pa",
+      "fileCount": 22,
+      "bodyBytes": 486048,
+      "perFileGzipBytes": 97604
+    },
+    {
+      "language": "sa",
+      "fileCount": 22,
+      "bodyBytes": 506681,
+      "perFileGzipBytes": 100520
+    },
+    {
+      "language": "sat",
+      "fileCount": 23,
+      "bodyBytes": 505346,
+      "perFileGzipBytes": 103718
+    },
+    {
+      "language": "sd",
+      "fileCount": 22,
+      "bodyBytes": 454086,
+      "perFileGzipBytes": 96238
+    },
+    {
+      "language": "te",
+      "fileCount": 22,
+      "bodyBytes": 503797,
+      "perFileGzipBytes": 98995
+    }
+  ],
+  "scenarios": [
+    {
+      "coldSessions": 1000,
+      "hindiAppGzipGB": 0.097576,
+      "oneMiBAudioEachGB": 1.048576,
+      "tenMiBAudioEachGB": 10.48576
+    },
+    {
+      "coldSessions": 100000,
+      "hindiAppGzipGB": 9.7576,
+      "oneMiBAudioEachGB": 104.8576,
+      "tenMiBAudioEachGB": 1048.576
+    },
+    {
+      "coldSessions": 1000000,
+      "hindiAppGzipGB": 97.576,
+      "oneMiBAudioEachGB": 1048.576,
+      "tenMiBAudioEachGB": 10485.76
+    }
+  ],
+  "browserBounds": {
+    "accounts": 50,
+    "eventsPerAccount": 20,
+    "supportEventsPerAccount": 20,
+    "plaintextSaveBytes": 1048576,
+    "importBytes": 2097152,
+    "publicShellCacheBodyBytes": 8388608,
+    "audioCacheBodyBytes": 12582912,
+    "audioCacheEntries": 256
+  },
+  "notes": [
+    "Body/gzip inventory only: not browser network transfer or timing; no throughput/load test performed.",
+    "App bodies include one selected dictionary/font and static eager modules, excluding service-worker installation, headers, TLS, retries and compression negotiation.",
+    "Scenario arithmetic assumes independent cold sessions and zero browser-cache reuse; optional audio volume is an explicit assumption, not measured behavior.",
+    "CDN cache hits can reduce origin work but do not imply zero delivery cost. Provider rates/quotas and request counts must be applied separately.",
+    "Browser cache response-body ceilings exclude metadata, browser memory and retained unsaved drafts."
+  ]
+}

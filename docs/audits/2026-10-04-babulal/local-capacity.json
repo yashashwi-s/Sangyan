@@ -1,0 +1,2230 @@
+{
+  "date": "2026-10-04T12:02:52.233Z",
+  "runtime": "v26.0.0",
+  "platform": "darwin",
+  "architecture": "arm64",
+  "sourceSha256": "2b255a132d85daaa9ea915c463e9d3328de6e3cdde07da47d82dc1ff00857491",
+  "publicSha256": "2b255a132d85daaa9ea915c463e9d3328de6e3cdde07da47d82dc1ff00857491",
+  "server": "current app/server.mjs local preview, not production Vercel server",
+  "transport": "loopback HTTP/1.1, persistent connections, no TLS or radio",
+  "limits": {
+    "port": 4198,
+    "fanout": 4,
+    "repeats": 3,
+    "admissionMs": 5000,
+    "maxRequests": 20000,
+    "maxWireBytes": 134217728,
+    "timeoutMs": 3000,
+    "runDrainMs": 5000,
+    "globalLimitMs": 120000
+  },
+  "workload": [
+    {
+      "path": "/hi",
+      "kind": "document",
+      "range": null,
+      "sourceBytes": 7302,
+      "expectedWireBytes": 3030
+    },
+    {
+      "path": "/styles.css",
+      "kind": "asset",
+      "range": null,
+      "sourceBytes": 28882,
+      "expectedWireBytes": 7272
+    },
+    {
+      "path": "/favicon.svg",
+      "kind": "asset",
+      "range": null,
+      "sourceBytes": 208,
+      "expectedWireBytes": 208
+    },
+    {
+      "path": "/audio-catalog.js",
+      "kind": "asset",
+      "range": null,
+      "sourceBytes": 77406,
+      "expectedWireBytes": 2941
+    },
+    {
+      "path": "/audio-support-catalog.js",
+      "kind": "asset",
+      "range": null,
+      "sourceBytes": 81493,
+      "expectedWireBytes": 3381
+    },
+    {
+      "path": "/complaint-review.js",
+      "kind": "asset",
+      "range": null,
+      "sourceBytes": 1229,
+      "expectedWireBytes": 639
+    },
+    {
+      "path": "/export-font.js",
+      "kind": "asset",
+      "range": null,
+      "sourceBytes": 1179,
+      "expectedWireBytes": 609
+    },
+    {
+      "path": "/guidance-copy.js",
+      "kind": "asset",
+      "range": null,
+      "sourceBytes": 12667,
+      "expectedWireBytes": 4469
+    },
+    {
+      "path": "/guides.js",
+      "kind": "asset",
+      "range": null,
+      "sourceBytes": 3609,
+      "expectedWireBytes": 1368
+    },
+    {
+      "path": "/institutions.js",
+      "kind": "asset",
+      "range": null,
+      "sourceBytes": 14962,
+      "expectedWireBytes": 5075
+    },
+    {
+      "path": "/journey-entry.js",
+      "kind": "asset",
+      "range": null,
+      "sourceBytes": 6881,
+      "expectedWireBytes": 2977
+    },
+    {
+      "path": "/languages.js",
+      "kind": "asset",
+      "range": null,
+      "sourceBytes": 1266,
+      "expectedWireBytes": 805
+    },
+    {
+      "path": "/locale-catalog.js",
+      "kind": "asset",
+      "range": null,
+      "sourceBytes": 860,
+      "expectedWireBytes": 408
+    },
+    {
+      "path": "/locale-retry.js",
+      "kind": "asset",
+      "range": null,
+      "sourceBytes": 1178,
+      "expectedWireBytes": 701
+    },
+    {
+      "path": "/locale.js",
+      "kind": "asset",
+      "range": null,
+      "sourceBytes": 3355,
+      "expectedWireBytes": 1580
+    },
+    {
+      "path": "/main.js",
+      "kind": "asset",
+      "range": null,
+      "sourceBytes": 79727,
+      "expectedWireBytes": 22822
+    },
+    {
+      "path": "/nomination-coach.js",
+      "kind": "asset",
+      "range": null,
+      "sourceBytes": 19074,
+      "expectedWireBytes": 6419
+    },
+    {
+      "path": "/privacy.js",
+      "kind": "asset",
+      "range": null,
+      "sourceBytes": 2593,
+      "expectedWireBytes": 1071
+    },
+    {
+      "path": "/resilience.js",
+      "kind": "asset",
+      "range": null,
+      "sourceBytes": 6323,
+      "expectedWireBytes": 2419
+    },
+    {
+      "path": "/speech.js",
+      "kind": "asset",
+      "range": null,
+      "sourceBytes": 4418,
+      "expectedWireBytes": 1719
+    },
+    {
+      "path": "/tracker.js",
+      "kind": "asset",
+      "range": null,
+      "sourceBytes": 16332,
+      "expectedWireBytes": 5034
+    },
+    {
+      "path": "/locales/hi-58f6c01ffc49.json",
+      "kind": "dictionary",
+      "range": null,
+      "sourceBytes": 114241,
+      "expectedWireBytes": 22662
+    },
+    {
+      "path": "/audio/hi/support-34e011f57feb/plainHomeTitle.mp3",
+      "kind": "fullAudio",
+      "range": null,
+      "sourceBytes": 17539,
+      "expectedWireBytes": 17539
+    },
+    {
+      "path": "/audio/hi/support-34e011f57feb/plainHomeIntro.mp3",
+      "kind": "fullAudio",
+      "range": null,
+      "sourceBytes": 32611,
+      "expectedWireBytes": 32611
+    },
+    {
+      "path": "/audio/hi/support-34e011f57feb/plainNomineeMeaning.mp3",
+      "kind": "fullAudio",
+      "range": null,
+      "sourceBytes": 41736,
+      "expectedWireBytes": 41736
+    },
+    {
+      "path": "/audio/hi/support-34e011f57feb/plainHomeTitle.mp3",
+      "kind": "audioRange",
+      "range": "bytes=0-1023",
+      "sourceBytes": 17539,
+      "expectedWireBytes": 1024
+    }
+  ],
+  "clipDurations": [
+    {
+      "path": "/audio/hi/support-34e011f57feb/plainHomeTitle.mp3",
+      "seconds": 4.230958
+    },
+    {
+      "path": "/audio/hi/support-34e011f57feb/plainHomeIntro.mp3",
+      "seconds": 8.011
+    },
+    {
+      "path": "/audio/hi/support-34e011f57feb/plainNomineeMeaning.mp3",
+      "seconds": 10.295125
+    }
+  ],
+  "requestsPerCompleteJourney": 26,
+  "runs": [
+    {
+      "repetition": 1,
+      "journeyConcurrency": 1,
+      "maxRequestConcurrency": 4,
+      "observedPeakRequests": 4,
+      "elapsedMs": 5000.746000000001,
+      "finishedJourneys": 407,
+      "partialJourneys": 1,
+      "admissionWindowMs": 5000,
+      "drainMs": 0.7460000000010041,
+      "reservedWireBytes": 77558065,
+      "admittedRequests": 10587,
+      "completedRequests": 10587,
+      "wireBytes": 77558065,
+      "requestsPerSecond": 2117.084131047647,
+      "completeSyntheticJourneysPerSecond": 81.38785693174576,
+      "latency": {
+        "count": 10587,
+        "p50Ms": 0.6056250000001455,
+        "p95Ms": 2.59375,
+        "p99Ms": 4.46520799999962,
+        "maxMs": 7.5359159999998155
+      },
+      "completeJourneyLatency": {
+        "count": 407,
+        "p50Ms": 11.850958000000901,
+        "p95Ms": 14.750165999999808,
+        "p99Ms": 18.05425000000014,
+        "maxMs": 26.7647079999997
+      },
+      "byKind": {
+        "document": {
+          "count": 408,
+          "p50Ms": 0.3211250000003929,
+          "p95Ms": 0.5148749999998472,
+          "p99Ms": 0.8737919999994119,
+          "maxMs": 3.00512499999968,
+          "wireBytes": 1236240
+        },
+        "asset": {
+          "count": 8144,
+          "p50Ms": 0.6857920000002196,
+          "p95Ms": 2.3290409999990516,
+          "p99Ms": 2.6932080000005953,
+          "maxMs": 4.513957999999548,
+          "wireBytes": 29284021
+        },
+        "dictionary": {
+          "count": 407,
+          "p50Ms": 4.3038329999999405,
+          "p95Ms": 5.131207999999788,
+          "p99Ms": 6.01641600000039,
+          "maxMs": 7.5359159999998155,
+          "wireBytes": 9223434
+        },
+        "fullAudio": {
+          "count": 1221,
+          "p50Ms": 0.2196249999997235,
+          "p95Ms": 0.383084000000963,
+          "p99Ms": 0.634541999999783,
+          "maxMs": 2.8787499999998545,
+          "wireBytes": 37397602
+        },
+        "audioRange": {
+          "count": 407,
+          "p50Ms": 0.18829200000072888,
+          "p95Ms": 0.3136670000003505,
+          "p99Ms": 0.5360829999990528,
+          "maxMs": 1.1516670000000886,
+          "wireBytes": 416768
+        }
+      },
+      "errors": [],
+      "stopReason": "admission window",
+      "serverCpuSeconds": 5.1,
+      "clientCpuMs": 696.627,
+      "peakSampledServerRssKiB": 138272,
+      "samples": [
+        {
+          "atMs": 6866.198834,
+          "rssKiB": 74368,
+          "sampledCpuPercent": 65.2,
+          "cumulativeCpuSeconds": 0.44,
+          "clientRssBytes": 71548928
+        },
+        {
+          "atMs": 7115.743125,
+          "rssKiB": 81872,
+          "sampledCpuPercent": 89.9,
+          "cumulativeCpuSeconds": 0.69,
+          "clientRssBytes": 73596928
+        },
+        {
+          "atMs": 7368.272959,
+          "rssKiB": 82208,
+          "sampledCpuPercent": 95.5,
+          "cumulativeCpuSeconds": 0.95,
+          "clientRssBytes": 73695232
+        },
+        {
+          "atMs": 7616.268167,
+          "rssKiB": 84112,
+          "sampledCpuPercent": 99,
+          "cumulativeCpuSeconds": 1.22,
+          "clientRssBytes": 73531392
+        },
+        {
+          "atMs": 7866.07275,
+          "rssKiB": 89536,
+          "sampledCpuPercent": 101.7,
+          "cumulativeCpuSeconds": 1.47,
+          "clientRssBytes": 73744384
+        },
+        {
+          "atMs": 8115.849709,
+          "rssKiB": 94160,
+          "sampledCpuPercent": 100.4,
+          "cumulativeCpuSeconds": 1.73,
+          "clientRssBytes": 73859072
+        },
+        {
+          "atMs": 8365.729167,
+          "rssKiB": 94624,
+          "sampledCpuPercent": 102.4,
+          "cumulativeCpuSeconds": 1.98,
+          "clientRssBytes": 73940992
+        },
+        {
+          "atMs": 8616.247084,
+          "rssKiB": 93936,
+          "sampledCpuPercent": 103,
+          "cumulativeCpuSeconds": 2.24,
+          "clientRssBytes": 66682880
+        },
+        {
+          "atMs": 8865.795167,
+          "rssKiB": 93936,
+          "sampledCpuPercent": 101.3,
+          "cumulativeCpuSeconds": 2.49,
+          "clientRssBytes": 66977792
+        },
+        {
+          "atMs": 9115.756,
+          "rssKiB": 95952,
+          "sampledCpuPercent": 102.6,
+          "cumulativeCpuSeconds": 2.74,
+          "clientRssBytes": 67698688
+        },
+        {
+          "atMs": 9366.716209,
+          "rssKiB": 96224,
+          "sampledCpuPercent": 99.4,
+          "cumulativeCpuSeconds": 3,
+          "clientRssBytes": 66224128
+        },
+        {
+          "atMs": 9616.542959,
+          "rssKiB": 100736,
+          "sampledCpuPercent": 101.4,
+          "cumulativeCpuSeconds": 3.25,
+          "clientRssBytes": 65748992
+        },
+        {
+          "atMs": 9866.643167,
+          "rssKiB": 108704,
+          "sampledCpuPercent": 99.1,
+          "cumulativeCpuSeconds": 3.5,
+          "clientRssBytes": 62308352
+        },
+        {
+          "atMs": 10116.692625,
+          "rssKiB": 110880,
+          "sampledCpuPercent": 101.9,
+          "cumulativeCpuSeconds": 3.75,
+          "clientRssBytes": 61833216
+        },
+        {
+          "atMs": 10367.934625,
+          "rssKiB": 123344,
+          "sampledCpuPercent": 99.5,
+          "cumulativeCpuSeconds": 4,
+          "clientRssBytes": 61685760
+        },
+        {
+          "atMs": 10617.748959,
+          "rssKiB": 133200,
+          "sampledCpuPercent": 98.5,
+          "cumulativeCpuSeconds": 4.26,
+          "clientRssBytes": 58032128
+        },
+        {
+          "atMs": 10868.267209,
+          "rssKiB": 133360,
+          "sampledCpuPercent": 101.2,
+          "cumulativeCpuSeconds": 4.51,
+          "clientRssBytes": 58212352
+        },
+        {
+          "atMs": 11118.079917,
+          "rssKiB": 138160,
+          "sampledCpuPercent": 100.6,
+          "cumulativeCpuSeconds": 4.77,
+          "clientRssBytes": 58212352
+        },
+        {
+          "atMs": 11367.911042,
+          "rssKiB": 138272,
+          "sampledCpuPercent": 103.6,
+          "cumulativeCpuSeconds": 5.03,
+          "clientRssBytes": 58540032
+        },
+        {
+          "atMs": 11610.024584,
+          "rssKiB": 138272,
+          "sampledCpuPercent": 101.2,
+          "cumulativeCpuSeconds": 5.27,
+          "clientRssBytes": 58720256
+        }
+      ]
+    },
+    {
+      "repetition": 1,
+      "journeyConcurrency": 3,
+      "maxRequestConcurrency": 12,
+      "observedPeakRequests": 12,
+      "elapsedMs": 5006.208665999999,
+      "finishedJourneys": 432,
+      "partialJourneys": 2,
+      "admissionWindowMs": 5000,
+      "drainMs": 6.20866599999863,
+      "reservedWireBytes": 82499426,
+      "admittedRequests": 11276,
+      "completedRequests": 11276,
+      "wireBytes": 82499426,
+      "requestsPerSecond": 2252.403116270744,
+      "completeSyntheticJourneysPerSecond": 86.29284730657692,
+      "latency": {
+        "count": 11276,
+        "p50Ms": 2.16675000000032,
+        "p95Ms": 7.208458999999493,
+        "p99Ms": 10.718000000000757,
+        "maxMs": 57.65366699999868
+      },
+      "completeJourneyLatency": {
+        "count": 432,
+        "p50Ms": 31.9129580000008,
+        "p95Ms": 49.08374999999978,
+        "p99Ms": 75.3890420000007,
+        "maxMs": 103.17112500000076
+      },
+      "byKind": {
+        "document": {
+          "count": 434,
+          "p50Ms": 1.0377499999995052,
+          "p95Ms": 4.957125000000815,
+          "p99Ms": 8.810209000001123,
+          "maxMs": 10.73804200000086,
+          "wireBytes": 1315020
+        },
+        "asset": {
+          "count": 8680,
+          "p50Ms": 2.28466600000138,
+          "p95Ms": 6.796916999999667,
+          "p99Ms": 9.576584000000366,
+          "maxMs": 32.76733299999978,
+          "wireBytes": 31211978
+        },
+        "dictionary": {
+          "count": 434,
+          "p50Ms": 6.613291000001482,
+          "p95Ms": 12.834458000001177,
+          "p99Ms": 22.865791000000172,
+          "maxMs": 57.65366699999868,
+          "wireBytes": 9835308
+        },
+        "fullAudio": {
+          "count": 1296,
+          "p50Ms": 0.9644159999988915,
+          "p95Ms": 6.071667000000161,
+          "p99Ms": 10.377999999998792,
+          "maxMs": 43.658417000000554,
+          "wireBytes": 39694752
+        },
+        "audioRange": {
+          "count": 432,
+          "p50Ms": 0.8556669999998121,
+          "p95Ms": 4.749583000000712,
+          "p99Ms": 7.096750000000611,
+          "maxMs": 8.22045799999978,
+          "wireBytes": 442368
+        }
+      },
+      "errors": [],
+      "stopReason": "admission window",
+      "serverCpuSeconds": 5.51,
+      "clientCpuMs": 833.859,
+      "peakSampledServerRssKiB": 165552,
+      "samples": [
+        {
+          "atMs": 12082.766125,
+          "rssKiB": 138272,
+          "sampledCpuPercent": 75.7,
+          "cumulativeCpuSeconds": 5.55,
+          "clientRssBytes": 63045632
+        },
+        {
+          "atMs": 12332.708125,
+          "rssKiB": 138384,
+          "sampledCpuPercent": 98.7,
+          "cumulativeCpuSeconds": 5.84,
+          "clientRssBytes": 63176704
+        },
+        {
+          "atMs": 12583.88075,
+          "rssKiB": 139344,
+          "sampledCpuPercent": 106.3,
+          "cumulativeCpuSeconds": 6.12,
+          "clientRssBytes": 59703296
+        },
+        {
+          "atMs": 12834.212334,
+          "rssKiB": 138848,
+          "sampledCpuPercent": 108.2,
+          "cumulativeCpuSeconds": 6.4,
+          "clientRssBytes": 58900480
+        },
+        {
+          "atMs": 13083.109625,
+          "rssKiB": 125616,
+          "sampledCpuPercent": 90.9,
+          "cumulativeCpuSeconds": 6.61,
+          "clientRssBytes": 53280768
+        },
+        {
+          "atMs": 13336.803125,
+          "rssKiB": 121536,
+          "sampledCpuPercent": 92.9,
+          "cumulativeCpuSeconds": 6.84,
+          "clientRssBytes": 53772288
+        },
+        {
+          "atMs": 13586.117875,
+          "rssKiB": 116768,
+          "sampledCpuPercent": 95.1,
+          "cumulativeCpuSeconds": 7.09,
+          "clientRssBytes": 53657600
+        },
+        {
+          "atMs": 13833.76725,
+          "rssKiB": 111584,
+          "sampledCpuPercent": 97.5,
+          "cumulativeCpuSeconds": 7.34,
+          "clientRssBytes": 56016896
+        },
+        {
+          "atMs": 14085.392167,
+          "rssKiB": 135952,
+          "sampledCpuPercent": 108,
+          "cumulativeCpuSeconds": 7.64,
+          "clientRssBytes": 56836096
+        },
+        {
+          "atMs": 14334.689292,
+          "rssKiB": 124304,
+          "sampledCpuPercent": 109.6,
+          "cumulativeCpuSeconds": 7.92,
+          "clientRssBytes": 56705024
+        },
+        {
+          "atMs": 14586.614084,
+          "rssKiB": 124080,
+          "sampledCpuPercent": 106.6,
+          "cumulativeCpuSeconds": 8.18,
+          "clientRssBytes": 57311232
+        },
+        {
+          "atMs": 14834.098375,
+          "rssKiB": 132592,
+          "sampledCpuPercent": 112.7,
+          "cumulativeCpuSeconds": 8.47,
+          "clientRssBytes": 59097088
+        },
+        {
+          "atMs": 15084.28425,
+          "rssKiB": 136784,
+          "sampledCpuPercent": 118.9,
+          "cumulativeCpuSeconds": 8.78,
+          "clientRssBytes": 59392000
+        },
+        {
+          "atMs": 15333.674959,
+          "rssKiB": 137008,
+          "sampledCpuPercent": 117.3,
+          "cumulativeCpuSeconds": 9.07,
+          "clientRssBytes": 59588608
+        },
+        {
+          "atMs": 15584.922709,
+          "rssKiB": 155600,
+          "sampledCpuPercent": 114.4,
+          "cumulativeCpuSeconds": 9.35,
+          "clientRssBytes": 58392576
+        },
+        {
+          "atMs": 15834.421584,
+          "rssKiB": 160672,
+          "sampledCpuPercent": 112.6,
+          "cumulativeCpuSeconds": 9.63,
+          "clientRssBytes": 63094784
+        },
+        {
+          "atMs": 16083.886875,
+          "rssKiB": 165552,
+          "sampledCpuPercent": 113.3,
+          "cumulativeCpuSeconds": 9.93,
+          "clientRssBytes": 70303744
+        },
+        {
+          "atMs": 16333.849584,
+          "rssKiB": 163600,
+          "sampledCpuPercent": 113.6,
+          "cumulativeCpuSeconds": 10.21,
+          "clientRssBytes": 76333056
+        },
+        {
+          "atMs": 16584.457917,
+          "rssKiB": 163040,
+          "sampledCpuPercent": 113.5,
+          "cumulativeCpuSeconds": 10.5,
+          "clientRssBytes": 79282176
+        },
+        {
+          "atMs": 16837.259292,
+          "rssKiB": 163104,
+          "sampledCpuPercent": 113.9,
+          "cumulativeCpuSeconds": 10.78,
+          "clientRssBytes": 79708160
+        },
+        {
+          "atMs": 16837.333375,
+          "rssKiB": 163104,
+          "sampledCpuPercent": 113.9,
+          "cumulativeCpuSeconds": 10.78,
+          "clientRssBytes": 79708160
+        }
+      ]
+    },
+    {
+      "repetition": 1,
+      "journeyConcurrency": 6,
+      "maxRequestConcurrency": 24,
+      "observedPeakRequests": 24,
+      "elapsedMs": 5005.5795830000025,
+      "finishedJourneys": 413,
+      "partialJourneys": 6,
+      "admissionWindowMs": 5000,
+      "drainMs": 5.579583000002458,
+      "reservedWireBytes": 78985393,
+      "admittedRequests": 10811,
+      "completedRequests": 10811,
+      "wireBytes": 78985393,
+      "requestsPerSecond": 2159.789854648685,
+      "completeSyntheticJourneysPerSecond": 82.5079280334758,
+      "latency": {
+        "count": 10811,
+        "p50Ms": 5.248458000001847,
+        "p95Ms": 15.071917000001122,
+        "p99Ms": 24.69587500000125,
+        "maxMs": 64.40024999999878
+      },
+      "completeJourneyLatency": {
+        "count": 413,
+        "p50Ms": 63.6163340000021,
+        "p95Ms": 120.57645899999989,
+        "p99Ms": 157.18558400000256,
+        "maxMs": 174.31075000000055
+      },
+      "byKind": {
+        "document": {
+          "count": 419,
+          "p50Ms": 2.1925830000000133,
+          "p95Ms": 7.548375000002125,
+          "p99Ms": 12.076916000001802,
+          "maxMs": 17.315957999999227,
+          "wireBytes": 1269570
+        },
+        "asset": {
+          "count": 8324,
+          "p50Ms": 5.5289169999996375,
+          "p95Ms": 14.228291999999783,
+          "p99Ms": 23.130291000001307,
+          "maxMs": 64.40024999999878,
+          "wireBytes": 29911775
+        },
+        "dictionary": {
+          "count": 414,
+          "p50Ms": 12.888332999998966,
+          "p95Ms": 26.00404200000048,
+          "p99Ms": 41.6049579999999,
+          "maxMs": 55.64150000000154,
+          "wireBytes": 9382068
+        },
+        "fullAudio": {
+          "count": 1241,
+          "p50Ms": 3.5846659999988333,
+          "p95Ms": 15.441499999997177,
+          "p99Ms": 27.12654200000179,
+          "maxMs": 48.85216700000092,
+          "wireBytes": 37999068
+        },
+        "audioRange": {
+          "count": 413,
+          "p50Ms": 1.1627919999991718,
+          "p95Ms": 7.4762919999993755,
+          "p99Ms": 10.939125000000786,
+          "maxMs": 13.98554200000217,
+          "wireBytes": 422912
+        }
+      },
+      "errors": [],
+      "stopReason": "admission window",
+      "serverCpuSeconds": 5.130000000000001,
+      "clientCpuMs": 870.121,
+      "peakSampledServerRssKiB": 163536,
+      "samples": [
+        {
+          "atMs": 17309.5585,
+          "rssKiB": 163440,
+          "sampledCpuPercent": 81.8,
+          "cumulativeCpuSeconds": 11.06,
+          "clientRssBytes": 84508672
+        },
+        {
+          "atMs": 17558.653667,
+          "rssKiB": 163408,
+          "sampledCpuPercent": 100.9,
+          "cumulativeCpuSeconds": 11.34,
+          "clientRssBytes": 84541440
+        },
+        {
+          "atMs": 17810.242292,
+          "rssKiB": 163536,
+          "sampledCpuPercent": 107.9,
+          "cumulativeCpuSeconds": 11.63,
+          "clientRssBytes": 84623360
+        },
+        {
+          "atMs": 18060.883,
+          "rssKiB": 163424,
+          "sampledCpuPercent": 110,
+          "cumulativeCpuSeconds": 11.91,
+          "clientRssBytes": 84623360
+        },
+        {
+          "atMs": 18310.910875,
+          "rssKiB": 163504,
+          "sampledCpuPercent": 111.7,
+          "cumulativeCpuSeconds": 12.19,
+          "clientRssBytes": 85245952
+        },
+        {
+          "atMs": 18560.937459,
+          "rssKiB": 159760,
+          "sampledCpuPercent": 105.5,
+          "cumulativeCpuSeconds": 12.45,
+          "clientRssBytes": 82886656
+        },
+        {
+          "atMs": 18812.669375,
+          "rssKiB": 160016,
+          "sampledCpuPercent": 105.8,
+          "cumulativeCpuSeconds": 12.72,
+          "clientRssBytes": 83279872
+        },
+        {
+          "atMs": 19071.215959,
+          "rssKiB": 153168,
+          "sampledCpuPercent": 90.3,
+          "cumulativeCpuSeconds": 12.92,
+          "clientRssBytes": 80248832
+        },
+        {
+          "atMs": 19315.390792,
+          "rssKiB": 133072,
+          "sampledCpuPercent": 86.9,
+          "cumulativeCpuSeconds": 13.14,
+          "clientRssBytes": 77971456
+        },
+        {
+          "atMs": 19565.804209,
+          "rssKiB": 113936,
+          "sampledCpuPercent": 79,
+          "cumulativeCpuSeconds": 13.33,
+          "clientRssBytes": 72941568
+        },
+        {
+          "atMs": 19814.395542,
+          "rssKiB": 106512,
+          "sampledCpuPercent": 93.4,
+          "cumulativeCpuSeconds": 13.59,
+          "clientRssBytes": 65372160
+        },
+        {
+          "atMs": 20073.465917,
+          "rssKiB": 105376,
+          "sampledCpuPercent": 94.7,
+          "cumulativeCpuSeconds": 13.83,
+          "clientRssBytes": 63799296
+        },
+        {
+          "atMs": 20323.7585,
+          "rssKiB": 116352,
+          "sampledCpuPercent": 87.6,
+          "cumulativeCpuSeconds": 14.03,
+          "clientRssBytes": 65224704
+        },
+        {
+          "atMs": 20569.807875,
+          "rssKiB": 98112,
+          "sampledCpuPercent": 86.5,
+          "cumulativeCpuSeconds": 14.26,
+          "clientRssBytes": 68665344
+        },
+        {
+          "atMs": 20817.256209,
+          "rssKiB": 115872,
+          "sampledCpuPercent": 102.5,
+          "cumulativeCpuSeconds": 14.54,
+          "clientRssBytes": 70451200
+        },
+        {
+          "atMs": 21065.992292,
+          "rssKiB": 126576,
+          "sampledCpuPercent": 108.7,
+          "cumulativeCpuSeconds": 14.81,
+          "clientRssBytes": 73678848
+        },
+        {
+          "atMs": 21315.807834,
+          "rssKiB": 128608,
+          "sampledCpuPercent": 107.6,
+          "cumulativeCpuSeconds": 15.09,
+          "clientRssBytes": 72908800
+        },
+        {
+          "atMs": 21566.84075,
+          "rssKiB": 128896,
+          "sampledCpuPercent": 108.4,
+          "cumulativeCpuSeconds": 15.36,
+          "clientRssBytes": 72646656
+        },
+        {
+          "atMs": 21816.043542,
+          "rssKiB": 128816,
+          "sampledCpuPercent": 108.1,
+          "cumulativeCpuSeconds": 15.63,
+          "clientRssBytes": 72712192
+        },
+        {
+          "atMs": 22065.951584,
+          "rssKiB": 125760,
+          "sampledCpuPercent": 109.9,
+          "cumulativeCpuSeconds": 15.91,
+          "clientRssBytes": 72171520
+        }
+      ]
+    },
+    {
+      "repetition": 2,
+      "journeyConcurrency": 3,
+      "maxRequestConcurrency": 12,
+      "observedPeakRequests": 12,
+      "elapsedMs": 5003.699208000002,
+      "finishedJourneys": 391,
+      "partialJourneys": 3,
+      "admissionWindowMs": 5000,
+      "drainMs": 3.6992080000018177,
+      "reservedWireBytes": 74624975,
+      "admittedRequests": 10209,
+      "completedRequests": 10209,
+      "wireBytes": 74624975,
+      "requestsPerSecond": 2040.2905082059433,
+      "completeSyntheticJourneysPerSecond": 78.14218715922459,
+      "latency": {
+        "count": 10209,
+        "p50Ms": 2.379000000000815,
+        "p95Ms": 8.38524999999936,
+        "p99Ms": 13.168665999997756,
+        "maxMs": 46.87254199999734
+      },
+      "completeJourneyLatency": {
+        "count": 391,
+        "p50Ms": 33.090000000000146,
+        "p95Ms": 66.81433299999844,
+        "p99Ms": 92.2200840000005,
+        "maxMs": 97.31133299999783
+      },
+      "byKind": {
+        "document": {
+          "count": 394,
+          "p50Ms": 1.409750000002532,
+          "p95Ms": 5.494457999997394,
+          "p99Ms": 9.124959000000672,
+          "maxMs": 15.516999999999825,
+          "wireBytes": 1193820
+        },
+        "asset": {
+          "count": 7860,
+          "p50Ms": 2.5024999999986903,
+          "p95Ms": 7.752124999999069,
+          "p99Ms": 11.626374999999825,
+          "maxMs": 29.472375000001193,
+          "wireBytes": 28242503
+        },
+        "dictionary": {
+          "count": 391,
+          "p50Ms": 7.113333000001148,
+          "p95Ms": 15.560333000001265,
+          "p99Ms": 25.882999999997992,
+          "maxMs": 46.87254199999734,
+          "wireBytes": 8860842
+        },
+        "fullAudio": {
+          "count": 1173,
+          "p50Ms": 1.2122920000001614,
+          "p95Ms": 8.111708000000363,
+          "p99Ms": 14.014500000001135,
+          "maxMs": 45.030000000002474,
+          "wireBytes": 35927426
+        },
+        "audioRange": {
+          "count": 391,
+          "p50Ms": 0.8851660000000265,
+          "p95Ms": 4.970832999999402,
+          "p99Ms": 8.87774999999965,
+          "maxMs": 16.01691700000083,
+          "wireBytes": 400384
+        }
+      },
+      "errors": [],
+      "stopReason": "admission window",
+      "serverCpuSeconds": 5.100000000000001,
+      "clientCpuMs": 910.501,
+      "peakSampledServerRssKiB": 135216,
+      "samples": [
+        {
+          "atMs": 22543.100917,
+          "rssKiB": 130416,
+          "sampledCpuPercent": 78.7,
+          "cumulativeCpuSeconds": 16.18,
+          "clientRssBytes": 80134144
+        },
+        {
+          "atMs": 22795.037209,
+          "rssKiB": 133648,
+          "sampledCpuPercent": 100.2,
+          "cumulativeCpuSeconds": 16.48,
+          "clientRssBytes": 81346560
+        },
+        {
+          "atMs": 23046.538917,
+          "rssKiB": 135216,
+          "sampledCpuPercent": 107,
+          "cumulativeCpuSeconds": 16.75,
+          "clientRssBytes": 82198528
+        },
+        {
+          "atMs": 23304.313417,
+          "rssKiB": 134240,
+          "sampledCpuPercent": 107.5,
+          "cumulativeCpuSeconds": 17.02,
+          "clientRssBytes": 78561280
+        },
+        {
+          "atMs": 23548.332,
+          "rssKiB": 108176,
+          "sampledCpuPercent": 85.4,
+          "cumulativeCpuSeconds": 17.2,
+          "clientRssBytes": 69042176
+        },
+        {
+          "atMs": 23798.646,
+          "rssKiB": 127264,
+          "sampledCpuPercent": 97.6,
+          "cumulativeCpuSeconds": 17.47,
+          "clientRssBytes": 72908800
+        },
+        {
+          "atMs": 24048.141209,
+          "rssKiB": 106272,
+          "sampledCpuPercent": 94.8,
+          "cumulativeCpuSeconds": 17.69,
+          "clientRssBytes": 66387968
+        },
+        {
+          "atMs": 24297.068667,
+          "rssKiB": 116112,
+          "sampledCpuPercent": 92.9,
+          "cumulativeCpuSeconds": 17.91,
+          "clientRssBytes": 71122944
+        },
+        {
+          "atMs": 24554.3795,
+          "rssKiB": 119264,
+          "sampledCpuPercent": 100.1,
+          "cumulativeCpuSeconds": 18.17,
+          "clientRssBytes": 69500928
+        },
+        {
+          "atMs": 24799.032125,
+          "rssKiB": 115456,
+          "sampledCpuPercent": 101.7,
+          "cumulativeCpuSeconds": 18.43,
+          "clientRssBytes": 68763648
+        },
+        {
+          "atMs": 25047.687375,
+          "rssKiB": 130112,
+          "sampledCpuPercent": 109.1,
+          "cumulativeCpuSeconds": 18.72,
+          "clientRssBytes": 68960256
+        },
+        {
+          "atMs": 25299.206,
+          "rssKiB": 133392,
+          "sampledCpuPercent": 112.4,
+          "cumulativeCpuSeconds": 19.01,
+          "clientRssBytes": 75972608
+        },
+        {
+          "atMs": 25547.9655,
+          "rssKiB": 131696,
+          "sampledCpuPercent": 109,
+          "cumulativeCpuSeconds": 19.28,
+          "clientRssBytes": 75431936
+        },
+        {
+          "atMs": 25798.241959,
+          "rssKiB": 131184,
+          "sampledCpuPercent": 110,
+          "cumulativeCpuSeconds": 19.56,
+          "clientRssBytes": 75284480
+        },
+        {
+          "atMs": 26048.330125,
+          "rssKiB": 133920,
+          "sampledCpuPercent": 110.9,
+          "cumulativeCpuSeconds": 19.84,
+          "clientRssBytes": 74350592
+        },
+        {
+          "atMs": 26299.848292,
+          "rssKiB": 122224,
+          "sampledCpuPercent": 97.9,
+          "cumulativeCpuSeconds": 20.05,
+          "clientRssBytes": 70746112
+        },
+        {
+          "atMs": 26549.481459,
+          "rssKiB": 126656,
+          "sampledCpuPercent": 96.5,
+          "cumulativeCpuSeconds": 20.3,
+          "clientRssBytes": 69124096
+        },
+        {
+          "atMs": 26800.003584,
+          "rssKiB": 122112,
+          "sampledCpuPercent": 103.9,
+          "cumulativeCpuSeconds": 20.57,
+          "clientRssBytes": 70156288
+        },
+        {
+          "atMs": 27050.961334,
+          "rssKiB": 105456,
+          "sampledCpuPercent": 94.2,
+          "cumulativeCpuSeconds": 20.8,
+          "clientRssBytes": 64471040
+        },
+        {
+          "atMs": 27295.535375,
+          "rssKiB": 119664,
+          "sampledCpuPercent": 93.4,
+          "cumulativeCpuSeconds": 21.01,
+          "clientRssBytes": 63979520
+        }
+      ]
+    },
+    {
+      "repetition": 2,
+      "journeyConcurrency": 6,
+      "maxRequestConcurrency": 24,
+      "observedPeakRequests": 24,
+      "elapsedMs": 5007.328958000002,
+      "finishedJourneys": 484,
+      "partialJourneys": 6,
+      "admissionWindowMs": 5000,
+      "drainMs": 7.328958000001876,
+      "reservedWireBytes": 92642637,
+      "admittedRequests": 12678,
+      "completedRequests": 12678,
+      "wireBytes": 92642637,
+      "requestsPerSecond": 2531.8887786960518,
+      "completeSyntheticJourneysPerSecond": 96.65831904786947,
+      "latency": {
+        "count": 12678,
+        "p50Ms": 4.9053749999984575,
+        "p95Ms": 11.829499999999825,
+        "p99Ms": 16.208457999997336,
+        "maxMs": 26.13683300000048
+      },
+      "completeJourneyLatency": {
+        "count": 484,
+        "p50Ms": 61.15941699999894,
+        "p95Ms": 66.37679199999911,
+        "p99Ms": 73.04641600000105,
+        "maxMs": 79.92304100000183
+      },
+      "byKind": {
+        "document": {
+          "count": 490,
+          "p50Ms": 2.77612500000032,
+          "p95Ms": 7.200291000001016,
+          "p99Ms": 10.805249999997613,
+          "maxMs": 13.673166000000492,
+          "wireBytes": 1484700
+        },
+        "asset": {
+          "count": 9764,
+          "p50Ms": 5.018040999999357,
+          "p95Ms": 11.621416000001773,
+          "p99Ms": 15.575958999997965,
+          "maxMs": 26.13683300000048,
+          "wireBytes": 35106541
+        },
+        "dictionary": {
+          "count": 485,
+          "p50Ms": 9.374791999998706,
+          "p95Ms": 18.424666999999317,
+          "p99Ms": 23.490499999999884,
+          "maxMs": 25.801833000001352,
+          "wireBytes": 10991070
+        },
+        "fullAudio": {
+          "count": 1455,
+          "p50Ms": 4.450584000001982,
+          "p95Ms": 10.995208999996976,
+          "p99Ms": 15.760958000002574,
+          "maxMs": 21.001541000001453,
+          "wireBytes": 44564710
+        },
+        "audioRange": {
+          "count": 484,
+          "p50Ms": 2.793792000000394,
+          "p95Ms": 9.064916999999696,
+          "p99Ms": 11.443540999996912,
+          "maxMs": 15.258708000001207,
+          "wireBytes": 495616
+        }
+      },
+      "errors": [],
+      "stopReason": "admission window",
+      "serverCpuSeconds": 5.699999999999999,
+      "clientCpuMs": 899.847,
+      "peakSampledServerRssKiB": 136096,
+      "samples": [
+        {
+          "atMs": 27774.869125,
+          "rssKiB": 110816,
+          "sampledCpuPercent": 83.8,
+          "cumulativeCpuSeconds": 21.31,
+          "clientRssBytes": 79855616
+        },
+        {
+          "atMs": 28026.834417,
+          "rssKiB": 124688,
+          "sampledCpuPercent": 100.7,
+          "cumulativeCpuSeconds": 21.59,
+          "clientRssBytes": 79511552
+        },
+        {
+          "atMs": 28274.794834,
+          "rssKiB": 134160,
+          "sampledCpuPercent": 107.7,
+          "cumulativeCpuSeconds": 21.87,
+          "clientRssBytes": 77299712
+        },
+        {
+          "atMs": 28525.976709,
+          "rssKiB": 134848,
+          "sampledCpuPercent": 110.6,
+          "cumulativeCpuSeconds": 22.15,
+          "clientRssBytes": 78348288
+        },
+        {
+          "atMs": 28776.077625,
+          "rssKiB": 135456,
+          "sampledCpuPercent": 112.2,
+          "cumulativeCpuSeconds": 22.44,
+          "clientRssBytes": 79151104
+        },
+        {
+          "atMs": 29026.333709,
+          "rssKiB": 135728,
+          "sampledCpuPercent": 110.5,
+          "cumulativeCpuSeconds": 22.71,
+          "clientRssBytes": 77938688
+        },
+        {
+          "atMs": 29276.606625,
+          "rssKiB": 136032,
+          "sampledCpuPercent": 112.4,
+          "cumulativeCpuSeconds": 23,
+          "clientRssBytes": 78381056
+        },
+        {
+          "atMs": 29526.456792,
+          "rssKiB": 136080,
+          "sampledCpuPercent": 112.5,
+          "cumulativeCpuSeconds": 23.28,
+          "clientRssBytes": 77463552
+        },
+        {
+          "atMs": 29776.464,
+          "rssKiB": 136096,
+          "sampledCpuPercent": 112.9,
+          "cumulativeCpuSeconds": 23.57,
+          "clientRssBytes": 78102528
+        },
+        {
+          "atMs": 30027.047084,
+          "rssKiB": 135968,
+          "sampledCpuPercent": 113,
+          "cumulativeCpuSeconds": 23.86,
+          "clientRssBytes": 78135296
+        },
+        {
+          "atMs": 30276.885375,
+          "rssKiB": 136000,
+          "sampledCpuPercent": 114.1,
+          "cumulativeCpuSeconds": 24.14,
+          "clientRssBytes": 78151680
+        },
+        {
+          "atMs": 30526.316959,
+          "rssKiB": 136000,
+          "sampledCpuPercent": 113.7,
+          "cumulativeCpuSeconds": 24.43,
+          "clientRssBytes": 78151680
+        },
+        {
+          "atMs": 30776.058834,
+          "rssKiB": 136016,
+          "sampledCpuPercent": 114.1,
+          "cumulativeCpuSeconds": 24.71,
+          "clientRssBytes": 78151680
+        },
+        {
+          "atMs": 31026.564834,
+          "rssKiB": 135936,
+          "sampledCpuPercent": 113.8,
+          "cumulativeCpuSeconds": 25,
+          "clientRssBytes": 77234176
+        },
+        {
+          "atMs": 31276.831,
+          "rssKiB": 135936,
+          "sampledCpuPercent": 113.9,
+          "cumulativeCpuSeconds": 25.28,
+          "clientRssBytes": 77266944
+        },
+        {
+          "atMs": 31525.858084,
+          "rssKiB": 135936,
+          "sampledCpuPercent": 113.6,
+          "cumulativeCpuSeconds": 25.57,
+          "clientRssBytes": 77971456
+        },
+        {
+          "atMs": 31776.439917,
+          "rssKiB": 135936,
+          "sampledCpuPercent": 114.3,
+          "cumulativeCpuSeconds": 25.86,
+          "clientRssBytes": 80871424
+        },
+        {
+          "atMs": 32029.421834,
+          "rssKiB": 135888,
+          "sampledCpuPercent": 114.1,
+          "cumulativeCpuSeconds": 26.14,
+          "clientRssBytes": 80871424
+        },
+        {
+          "atMs": 32277.09725,
+          "rssKiB": 135920,
+          "sampledCpuPercent": 113.3,
+          "cumulativeCpuSeconds": 26.42,
+          "clientRssBytes": 80855040
+        },
+        {
+          "atMs": 32526.165334,
+          "rssKiB": 135984,
+          "sampledCpuPercent": 113.7,
+          "cumulativeCpuSeconds": 26.71,
+          "clientRssBytes": 80822272
+        },
+        {
+          "atMs": 32529.8885,
+          "rssKiB": 135984,
+          "sampledCpuPercent": 113.7,
+          "cumulativeCpuSeconds": 26.71,
+          "clientRssBytes": 80822272
+        }
+      ]
+    },
+    {
+      "repetition": 2,
+      "journeyConcurrency": 1,
+      "maxRequestConcurrency": 4,
+      "observedPeakRequests": 4,
+      "elapsedMs": 5000.367125000001,
+      "finishedJourneys": 405,
+      "partialJourneys": 1,
+      "admissionWindowMs": 5000,
+      "drainMs": 0.3671250000006694,
+      "reservedWireBytes": 77178275,
+      "admittedRequests": 10537,
+      "completedRequests": 10537,
+      "wireBytes": 77178275,
+      "requestsPerSecond": 2107.245275515645,
+      "completeSyntheticJourneysPerSecond": 80.99405301165761,
+      "latency": {
+        "count": 10537,
+        "p50Ms": 0.6011250000010477,
+        "p95Ms": 2.6083330000037677,
+        "p99Ms": 4.522250000001804,
+        "maxMs": 7.644750000006752
+      },
+      "completeJourneyLatency": {
+        "count": 405,
+        "p50Ms": 11.799292000003334,
+        "p95Ms": 15.407666999999492,
+        "p99Ms": 19.02666599999793,
+        "maxMs": 23.310291000001598
+      },
+      "byKind": {
+        "document": {
+          "count": 406,
+          "p50Ms": 0.3222500000047148,
+          "p95Ms": 0.46729200000118,
+          "p99Ms": 0.705415999997058,
+          "maxMs": 2.211166000000958,
+          "wireBytes": 1230180
+        },
+        "asset": {
+          "count": 8106,
+          "p50Ms": 0.6814999999987776,
+          "p95Ms": 2.3473339999982272,
+          "p99Ms": 2.8114580000037677,
+          "maxMs": 7.2384170000004815,
+          "wireBytes": 29141435
+        },
+        "dictionary": {
+          "count": 405,
+          "p50Ms": 4.353125000001455,
+          "p95Ms": 5.273832999999286,
+          "p99Ms": 6.7945420000032755,
+          "maxMs": 7.644750000006752,
+          "wireBytes": 9178110
+        },
+        "fullAudio": {
+          "count": 1215,
+          "p50Ms": 0.22704199999861885,
+          "p95Ms": 0.3535829999964335,
+          "p99Ms": 0.7623329999987618,
+          "maxMs": 2.6904579999973066,
+          "wireBytes": 37213830
+        },
+        "audioRange": {
+          "count": 405,
+          "p50Ms": 0.1937919999982114,
+          "p95Ms": 0.3103750000009313,
+          "p99Ms": 0.5062919999982114,
+          "maxMs": 1.2232090000034077,
+          "wireBytes": 414720
+        }
+      },
+      "errors": [],
+      "stopReason": "admission window",
+      "serverCpuSeconds": 4.899999999999999,
+      "clientCpuMs": 774.163,
+      "peakSampledServerRssKiB": 136096,
+      "samples": [
+        {
+          "atMs": 33004.934959,
+          "rssKiB": 135904,
+          "sampledCpuPercent": 69.5,
+          "cumulativeCpuSeconds": 26.96,
+          "clientRssBytes": 83361792
+        },
+        {
+          "atMs": 33253.621834,
+          "rssKiB": 135616,
+          "sampledCpuPercent": 86.7,
+          "cumulativeCpuSeconds": 27.21,
+          "clientRssBytes": 83329024
+        },
+        {
+          "atMs": 33504.233042,
+          "rssKiB": 135648,
+          "sampledCpuPercent": 94.6,
+          "cumulativeCpuSeconds": 27.46,
+          "clientRssBytes": 83410944
+        },
+        {
+          "atMs": 33752.942584,
+          "rssKiB": 135648,
+          "sampledCpuPercent": 97.3,
+          "cumulativeCpuSeconds": 27.71,
+          "clientRssBytes": 83410944
+        },
+        {
+          "atMs": 34002.935834,
+          "rssKiB": 135408,
+          "sampledCpuPercent": 98.6,
+          "cumulativeCpuSeconds": 27.96,
+          "clientRssBytes": 83443712
+        },
+        {
+          "atMs": 34252.953584,
+          "rssKiB": 135408,
+          "sampledCpuPercent": 98.3,
+          "cumulativeCpuSeconds": 28.2,
+          "clientRssBytes": 83443712
+        },
+        {
+          "atMs": 34504.924167,
+          "rssKiB": 136064,
+          "sampledCpuPercent": 101.9,
+          "cumulativeCpuSeconds": 28.47,
+          "clientRssBytes": 83443712
+        },
+        {
+          "atMs": 34754.116125,
+          "rssKiB": 136096,
+          "sampledCpuPercent": 99.8,
+          "cumulativeCpuSeconds": 28.71,
+          "clientRssBytes": 83542016
+        },
+        {
+          "atMs": 35004.043542,
+          "rssKiB": 136048,
+          "sampledCpuPercent": 98.8,
+          "cumulativeCpuSeconds": 28.96,
+          "clientRssBytes": 81051648
+        },
+        {
+          "atMs": 35253.985834,
+          "rssKiB": 136048,
+          "sampledCpuPercent": 98.4,
+          "cumulativeCpuSeconds": 29.21,
+          "clientRssBytes": 80986112
+        },
+        {
+          "atMs": 35504.12575,
+          "rssKiB": 136048,
+          "sampledCpuPercent": 98.4,
+          "cumulativeCpuSeconds": 29.45,
+          "clientRssBytes": 80936960
+        },
+        {
+          "atMs": 35759.223584,
+          "rssKiB": 123728,
+          "sampledCpuPercent": 94.6,
+          "cumulativeCpuSeconds": 29.68,
+          "clientRssBytes": 72073216
+        },
+        {
+          "atMs": 36005.886292,
+          "rssKiB": 123888,
+          "sampledCpuPercent": 93.3,
+          "cumulativeCpuSeconds": 29.92,
+          "clientRssBytes": 69943296
+        },
+        {
+          "atMs": 36257.667375,
+          "rssKiB": 118096,
+          "sampledCpuPercent": 95.1,
+          "cumulativeCpuSeconds": 30.16,
+          "clientRssBytes": 74514432
+        },
+        {
+          "atMs": 36509.520792,
+          "rssKiB": 121568,
+          "sampledCpuPercent": 95.9,
+          "cumulativeCpuSeconds": 30.4,
+          "clientRssBytes": 74891264
+        },
+        {
+          "atMs": 36757.578334,
+          "rssKiB": 125264,
+          "sampledCpuPercent": 97.2,
+          "cumulativeCpuSeconds": 30.65,
+          "clientRssBytes": 74006528
+        },
+        {
+          "atMs": 37006.999834,
+          "rssKiB": 126800,
+          "sampledCpuPercent": 97.6,
+          "cumulativeCpuSeconds": 30.89,
+          "clientRssBytes": 70402048
+        },
+        {
+          "atMs": 37257.5745,
+          "rssKiB": 127328,
+          "sampledCpuPercent": 97.3,
+          "cumulativeCpuSeconds": 31.14,
+          "clientRssBytes": 67485696
+        },
+        {
+          "atMs": 37507.46275,
+          "rssKiB": 124416,
+          "sampledCpuPercent": 96.3,
+          "cumulativeCpuSeconds": 31.38,
+          "clientRssBytes": 68272128
+        },
+        {
+          "atMs": 37751.701042,
+          "rssKiB": 127152,
+          "sampledCpuPercent": 95.6,
+          "cumulativeCpuSeconds": 31.61,
+          "clientRssBytes": 71696384
+        }
+      ]
+    },
+    {
+      "repetition": 3,
+      "journeyConcurrency": 6,
+      "maxRequestConcurrency": 24,
+      "observedPeakRequests": 24,
+      "elapsedMs": 5013.320207999997,
+      "finishedJourneys": 426,
+      "partialJourneys": 6,
+      "admissionWindowMs": 5000,
+      "drainMs": 13.320207999997365,
+      "reservedWireBytes": 81424208,
+      "admittedRequests": 11162,
+      "completedRequests": 11162,
+      "wireBytes": 81424208,
+      "requestsPerSecond": 2226.4685950417165,
+      "completeSyntheticJourneysPerSecond": 84.97362672350576,
+      "latency": {
+        "count": 11162,
+        "p50Ms": 5.330291999998735,
+        "p95Ms": 14.900625000002037,
+        "p99Ms": 21.22149999999965,
+        "maxMs": 114.83641599999828
+      },
+      "completeJourneyLatency": {
+        "count": 426,
+        "p50Ms": 63.364542000002984,
+        "p95Ms": 109.37262499999633,
+        "p99Ms": 181.29599999999482,
+        "maxMs": 186.66466699999728
+      },
+      "byKind": {
+        "document": {
+          "count": 432,
+          "p50Ms": 1.8460829999967245,
+          "p95Ms": 5.403707999998005,
+          "p99Ms": 7.517999999996391,
+          "maxMs": 8.446041999995941,
+          "wireBytes": 1308960
+        },
+        "asset": {
+          "count": 8600,
+          "p50Ms": 5.597625000002154,
+          "p95Ms": 14.330165999999736,
+          "p99Ms": 20.120584000003873,
+          "maxMs": 107.70637500000157,
+          "wireBytes": 30881576
+        },
+        "dictionary": {
+          "count": 426,
+          "p50Ms": 12.622833000001265,
+          "p95Ms": 22.870332999998936,
+          "p99Ms": 46.54608300000109,
+          "maxMs": 114.83641599999828,
+          "wireBytes": 9654012
+        },
+        "fullAudio": {
+          "count": 1278,
+          "p50Ms": 4.302332999999635,
+          "p95Ms": 15.048000000002503,
+          "p99Ms": 21.102082999997947,
+          "maxMs": 107.27212499999587,
+          "wireBytes": 39143436
+        },
+        "audioRange": {
+          "count": 426,
+          "p50Ms": 1.300083000001905,
+          "p95Ms": 8.423041999994894,
+          "p99Ms": 16.623375000002852,
+          "maxMs": 23.842541999998502,
+          "wireBytes": 436224
+        }
+      },
+      "errors": [],
+      "stopReason": "admission window",
+      "serverCpuSeconds": 5.230000000000004,
+      "clientCpuMs": 919.416,
+      "peakSampledServerRssKiB": 133488,
+      "samples": [
+        {
+          "atMs": 38226.3395,
+          "rssKiB": 131936,
+          "sampledCpuPercent": 67,
+          "cumulativeCpuSeconds": 31.88,
+          "clientRssBytes": 81395712
+        },
+        {
+          "atMs": 38477.073,
+          "rssKiB": 130960,
+          "sampledCpuPercent": 93.3,
+          "cumulativeCpuSeconds": 32.16,
+          "clientRssBytes": 81690624
+        },
+        {
+          "atMs": 38727.488042,
+          "rssKiB": 133296,
+          "sampledCpuPercent": 104.7,
+          "cumulativeCpuSeconds": 32.44,
+          "clientRssBytes": 80248832
+        },
+        {
+          "atMs": 38978.59375,
+          "rssKiB": 128640,
+          "sampledCpuPercent": 109.2,
+          "cumulativeCpuSeconds": 32.72,
+          "clientRssBytes": 79200256
+        },
+        {
+          "atMs": 39227.976334,
+          "rssKiB": 131296,
+          "sampledCpuPercent": 108.8,
+          "cumulativeCpuSeconds": 32.99,
+          "clientRssBytes": 85393408
+        },
+        {
+          "atMs": 39477.261459,
+          "rssKiB": 131984,
+          "sampledCpuPercent": 109.2,
+          "cumulativeCpuSeconds": 33.27,
+          "clientRssBytes": 85327872
+        },
+        {
+          "atMs": 39732.658125,
+          "rssKiB": 124160,
+          "sampledCpuPercent": 102.7,
+          "cumulativeCpuSeconds": 33.51,
+          "clientRssBytes": 83787776
+        },
+        {
+          "atMs": 39977.473959,
+          "rssKiB": 117776,
+          "sampledCpuPercent": 102.8,
+          "cumulativeCpuSeconds": 33.78,
+          "clientRssBytes": 83230720
+        },
+        {
+          "atMs": 40227.194875,
+          "rssKiB": 124656,
+          "sampledCpuPercent": 108.2,
+          "cumulativeCpuSeconds": 34.06,
+          "clientRssBytes": 84656128
+        },
+        {
+          "atMs": 40476.931209,
+          "rssKiB": 129360,
+          "sampledCpuPercent": 111.7,
+          "cumulativeCpuSeconds": 34.34,
+          "clientRssBytes": 83804160
+        },
+        {
+          "atMs": 40729.696334,
+          "rssKiB": 133488,
+          "sampledCpuPercent": 111.1,
+          "cumulativeCpuSeconds": 34.62,
+          "clientRssBytes": 83853312
+        },
+        {
+          "atMs": 40977.139459,
+          "rssKiB": 118912,
+          "sampledCpuPercent": 107.7,
+          "cumulativeCpuSeconds": 34.88,
+          "clientRssBytes": 74530816
+        },
+        {
+          "atMs": 41229.300834,
+          "rssKiB": 125376,
+          "sampledCpuPercent": 105.6,
+          "cumulativeCpuSeconds": 35.15,
+          "clientRssBytes": 76513280
+        },
+        {
+          "atMs": 41477.074417,
+          "rssKiB": 125568,
+          "sampledCpuPercent": 108.2,
+          "cumulativeCpuSeconds": 35.43,
+          "clientRssBytes": 73842688
+        },
+        {
+          "atMs": 41727.085625,
+          "rssKiB": 131504,
+          "sampledCpuPercent": 107.7,
+          "cumulativeCpuSeconds": 35.7,
+          "clientRssBytes": 89161728
+        },
+        {
+          "atMs": 41978.129875,
+          "rssKiB": 132320,
+          "sampledCpuPercent": 111.6,
+          "cumulativeCpuSeconds": 35.98,
+          "clientRssBytes": 90914816
+        },
+        {
+          "atMs": 42232.479834,
+          "rssKiB": 132784,
+          "sampledCpuPercent": 108.5,
+          "cumulativeCpuSeconds": 36.25,
+          "clientRssBytes": 88834048
+        },
+        {
+          "atMs": 42489.890417,
+          "rssKiB": 127712,
+          "sampledCpuPercent": 104.3,
+          "cumulativeCpuSeconds": 36.48,
+          "clientRssBytes": 78200832
+        },
+        {
+          "atMs": 42732.289334,
+          "rssKiB": 82768,
+          "sampledCpuPercent": 81.5,
+          "cumulativeCpuSeconds": 36.62,
+          "clientRssBytes": 70254592
+        },
+        {
+          "atMs": 42985.652375,
+          "rssKiB": 91264,
+          "sampledCpuPercent": 77,
+          "cumulativeCpuSeconds": 36.84,
+          "clientRssBytes": 70762496
+        },
+        {
+          "atMs": 42988.067625,
+          "rssKiB": 91264,
+          "sampledCpuPercent": 77,
+          "cumulativeCpuSeconds": 36.84,
+          "clientRssBytes": 70762496
+        }
+      ]
+    },
+    {
+      "repetition": 3,
+      "journeyConcurrency": 1,
+      "maxRequestConcurrency": 4,
+      "observedPeakRequests": 4,
+      "elapsedMs": 5000.232917000001,
+      "finishedJourneys": 391,
+      "partialJourneys": 1,
+      "admissionWindowMs": 5000,
+      "drainMs": 0.23291700000117999,
+      "reservedWireBytes": 74567876,
+      "admittedRequests": 10187,
+      "completedRequests": 10187,
+      "wireBytes": 74567876,
+      "requestsPerSecond": 2037.3050954018186,
+      "completeSyntheticJourneysPerSecond": 78.19635734780711,
+      "latency": {
+        "count": 10187,
+        "p50Ms": 0.6129169999985606,
+        "p95Ms": 2.7083329999950365,
+        "p99Ms": 4.690291999999317,
+        "maxMs": 11.376208000001498
+      },
+      "completeJourneyLatency": {
+        "count": 391,
+        "p50Ms": 11.93620799999917,
+        "p95Ms": 16.72587499999645,
+        "p99Ms": 25.244290999995428,
+        "maxMs": 31.531000000002678
+      },
+      "byKind": {
+        "document": {
+          "count": 392,
+          "p50Ms": 0.3241249999991851,
+          "p95Ms": 0.5689999999958673,
+          "p99Ms": 1.1881659999999101,
+          "maxMs": 2.821624999996857,
+          "wireBytes": 1187760
+        },
+        "asset": {
+          "count": 7840,
+          "p50Ms": 0.6852910000015981,
+          "p95Ms": 2.3468750000029104,
+          "p99Ms": 3.0181250000023283,
+          "maxMs": 8.229666999999608,
+          "wireBytes": 28191464
+        },
+        "dictionary": {
+          "count": 391,
+          "p50Ms": 4.3836670000018785,
+          "p95Ms": 5.514083000001847,
+          "p99Ms": 8.169290999998339,
+          "maxMs": 11.376208000001498,
+          "wireBytes": 8860842
+        },
+        "fullAudio": {
+          "count": 1173,
+          "p50Ms": 0.2294160000019474,
+          "p95Ms": 0.5072910000017146,
+          "p99Ms": 1.2785420000000158,
+          "maxMs": 2.403833999997005,
+          "wireBytes": 35927426
+        },
+        "audioRange": {
+          "count": 391,
+          "p50Ms": 0.19320799999695737,
+          "p95Ms": 0.3541669999976875,
+          "p99Ms": 1.0447500000009313,
+          "maxMs": 7.99816699999792,
+          "wireBytes": 400384
+        }
+      },
+      "errors": [],
+      "stopReason": "admission window",
+      "serverCpuSeconds": 4.819999999999993,
+      "clientCpuMs": 821.436,
+      "peakSampledServerRssKiB": 132016,
+      "samples": [
+        {
+          "atMs": 43505.630292,
+          "rssKiB": 81120,
+          "sampledCpuPercent": 48.5,
+          "cumulativeCpuSeconds": 37.05,
+          "clientRssBytes": 47366144
+        },
+        {
+          "atMs": 43755.929292,
+          "rssKiB": 94784,
+          "sampledCpuPercent": 74.3,
+          "cumulativeCpuSeconds": 37.29,
+          "clientRssBytes": 66174976
+        },
+        {
+          "atMs": 44006.296209,
+          "rssKiB": 115744,
+          "sampledCpuPercent": 88.6,
+          "cumulativeCpuSeconds": 37.53,
+          "clientRssBytes": 72581120
+        },
+        {
+          "atMs": 44257.512125,
+          "rssKiB": 123696,
+          "sampledCpuPercent": 95.1,
+          "cumulativeCpuSeconds": 37.78,
+          "clientRssBytes": 76169216
+        },
+        {
+          "atMs": 44507.058792,
+          "rssKiB": 127328,
+          "sampledCpuPercent": 96.1,
+          "cumulativeCpuSeconds": 38.02,
+          "clientRssBytes": 83869696
+        },
+        {
+          "atMs": 44756.813709,
+          "rssKiB": 124080,
+          "sampledCpuPercent": 96,
+          "cumulativeCpuSeconds": 38.25,
+          "clientRssBytes": 80248832
+        },
+        {
+          "atMs": 45006.770209,
+          "rssKiB": 124864,
+          "sampledCpuPercent": 95,
+          "cumulativeCpuSeconds": 38.49,
+          "clientRssBytes": 84934656
+        },
+        {
+          "atMs": 45255.992417,
+          "rssKiB": 129632,
+          "sampledCpuPercent": 94,
+          "cumulativeCpuSeconds": 38.73,
+          "clientRssBytes": 86327296
+        },
+        {
+          "atMs": 45507.483334,
+          "rssKiB": 129648,
+          "sampledCpuPercent": 96,
+          "cumulativeCpuSeconds": 38.97,
+          "clientRssBytes": 91127808
+        },
+        {
+          "atMs": 45756.131542,
+          "rssKiB": 131744,
+          "sampledCpuPercent": 96.4,
+          "cumulativeCpuSeconds": 39.22,
+          "clientRssBytes": 91602944
+        },
+        {
+          "atMs": 46006.158625,
+          "rssKiB": 131408,
+          "sampledCpuPercent": 98.7,
+          "cumulativeCpuSeconds": 39.46,
+          "clientRssBytes": 90619904
+        },
+        {
+          "atMs": 46255.9125,
+          "rssKiB": 131968,
+          "sampledCpuPercent": 98.8,
+          "cumulativeCpuSeconds": 39.71,
+          "clientRssBytes": 89587712
+        },
+        {
+          "atMs": 46507.308625,
+          "rssKiB": 132016,
+          "sampledCpuPercent": 98.7,
+          "cumulativeCpuSeconds": 39.96,
+          "clientRssBytes": 85524480
+        },
+        {
+          "atMs": 46755.943375,
+          "rssKiB": 129904,
+          "sampledCpuPercent": 98.2,
+          "cumulativeCpuSeconds": 40.2,
+          "clientRssBytes": 90570752
+        },
+        {
+          "atMs": 47006.272542,
+          "rssKiB": 131920,
+          "sampledCpuPercent": 99.2,
+          "cumulativeCpuSeconds": 40.45,
+          "clientRssBytes": 90750976
+        },
+        {
+          "atMs": 47257.32525,
+          "rssKiB": 131952,
+          "sampledCpuPercent": 98.4,
+          "cumulativeCpuSeconds": 40.7,
+          "clientRssBytes": 90750976
+        },
+        {
+          "atMs": 47506.644625,
+          "rssKiB": 131728,
+          "sampledCpuPercent": 98.6,
+          "cumulativeCpuSeconds": 40.95,
+          "clientRssBytes": 89997312
+        },
+        {
+          "atMs": 47757.519584,
+          "rssKiB": 131952,
+          "sampledCpuPercent": 98.4,
+          "cumulativeCpuSeconds": 41.2,
+          "clientRssBytes": 89604096
+        },
+        {
+          "atMs": 48007.827042,
+          "rssKiB": 131952,
+          "sampledCpuPercent": 98.8,
+          "cumulativeCpuSeconds": 41.45,
+          "clientRssBytes": 89702400
+        },
+        {
+          "atMs": 48236.604209,
+          "rssKiB": 131952,
+          "sampledCpuPercent": 96.5,
+          "cumulativeCpuSeconds": 41.66,
+          "clientRssBytes": 87310336
+        }
+      ]
+    },
+    {
+      "repetition": 3,
+      "journeyConcurrency": 3,
+      "maxRequestConcurrency": 12,
+      "observedPeakRequests": 12,
+      "elapsedMs": 5003.059499999996,
+      "finishedJourneys": 473,
+      "partialJourneys": 3,
+      "admissionWindowMs": 5000,
+      "drainMs": 3.059499999995751,
+      "reservedWireBytes": 90360043,
+      "admittedRequests": 12355,
+      "completedRequests": 12355,
+      "wireBytes": 90360043,
+      "requestsPerSecond": 2469.4889197300195,
+      "completeSyntheticJourneysPerSecond": 94.54214965862397,
+      "latency": {
+        "count": 12355,
+        "p50Ms": 2.00304199999664,
+        "p95Ms": 6.807791999999608,
+        "p99Ms": 9.231082999998762,
+        "maxMs": 13.353750000002037
+      },
+      "completeJourneyLatency": {
+        "count": 473,
+        "p50Ms": 30.954749999997148,
+        "p95Ms": 35.82170800000313,
+        "p99Ms": 39.7711249999993,
+        "maxMs": 41.06966599999578
+      },
+      "byKind": {
+        "document": {
+          "count": 476,
+          "p50Ms": 0.8820419999974547,
+          "p95Ms": 4.7242499999993015,
+          "p99Ms": 6.057874999998603,
+          "maxMs": 8.55754199999501,
+          "wireBytes": 1442280
+        },
+        "asset": {
+          "count": 9512,
+          "p50Ms": 2.1378330000006827,
+          "p95Ms": 6.304374999999709,
+          "p99Ms": 8.87129200000345,
+          "maxMs": 12.776000000005297,
+          "wireBytes": 34212006
+        },
+        "dictionary": {
+          "count": 474,
+          "p50Ms": 6.562957999994978,
+          "p95Ms": 12.48020899999392,
+          "p99Ms": 12.898332999997365,
+          "maxMs": 13.353750000002037,
+          "wireBytes": 10741788
+        },
+        "fullAudio": {
+          "count": 1420,
+          "p50Ms": 0.8360420000026352,
+          "p95Ms": 5.324916000005032,
+          "p99Ms": 8.664209000002302,
+          "maxMs": 9.756291999998211,
+          "wireBytes": 43479617
+        },
+        "audioRange": {
+          "count": 473,
+          "p50Ms": 0.5005410000012489,
+          "p95Ms": 4.8729999999995925,
+          "p99Ms": 5.915666000000783,
+          "maxMs": 8.49791600000026,
+          "wireBytes": 484352
+        }
+      },
+      "errors": [],
+      "stopReason": "admission window",
+      "serverCpuSeconds": 5.6100000000000065,
+      "clientCpuMs": 1088.246,
+      "peakSampledServerRssKiB": 133600,
+      "samples": [
+        {
+          "atMs": 48709.078459,
+          "rssKiB": 132112,
+          "sampledCpuPercent": 75.6,
+          "cumulativeCpuSeconds": 41.95,
+          "clientRssBytes": 98975744
+        },
+        {
+          "atMs": 48959.263959,
+          "rssKiB": 132112,
+          "sampledCpuPercent": 98.1,
+          "cumulativeCpuSeconds": 42.23,
+          "clientRssBytes": 98926592
+        },
+        {
+          "atMs": 49211.437584,
+          "rssKiB": 133264,
+          "sampledCpuPercent": 107,
+          "cumulativeCpuSeconds": 42.51,
+          "clientRssBytes": 99237888
+        },
+        {
+          "atMs": 49459.633667,
+          "rssKiB": 133248,
+          "sampledCpuPercent": 110.6,
+          "cumulativeCpuSeconds": 42.8,
+          "clientRssBytes": 99368960
+        },
+        {
+          "atMs": 49710.016209,
+          "rssKiB": 133392,
+          "sampledCpuPercent": 112.1,
+          "cumulativeCpuSeconds": 43.08,
+          "clientRssBytes": 99565568
+        },
+        {
+          "atMs": 49958.945959,
+          "rssKiB": 133408,
+          "sampledCpuPercent": 113.4,
+          "cumulativeCpuSeconds": 43.36,
+          "clientRssBytes": 99680256
+        },
+        {
+          "atMs": 50209.330917,
+          "rssKiB": 133408,
+          "sampledCpuPercent": 113.4,
+          "cumulativeCpuSeconds": 43.65,
+          "clientRssBytes": 99680256
+        },
+        {
+          "atMs": 50459.388834,
+          "rssKiB": 133408,
+          "sampledCpuPercent": 112.6,
+          "cumulativeCpuSeconds": 43.93,
+          "clientRssBytes": 97550336
+        },
+        {
+          "atMs": 50710.72225,
+          "rssKiB": 133472,
+          "sampledCpuPercent": 111.9,
+          "cumulativeCpuSeconds": 44.21,
+          "clientRssBytes": 92700672
+        },
+        {
+          "atMs": 50960.030709,
+          "rssKiB": 133472,
+          "sampledCpuPercent": 113.2,
+          "cumulativeCpuSeconds": 44.5,
+          "clientRssBytes": 92209152
+        },
+        {
+          "atMs": 51209.140834,
+          "rssKiB": 133600,
+          "sampledCpuPercent": 112.5,
+          "cumulativeCpuSeconds": 44.78,
+          "clientRssBytes": 90931200
+        },
+        {
+          "atMs": 51459.433542,
+          "rssKiB": 133072,
+          "sampledCpuPercent": 111.9,
+          "cumulativeCpuSeconds": 45.06,
+          "clientRssBytes": 90554368
+        },
+        {
+          "atMs": 51711.917917,
+          "rssKiB": 132640,
+          "sampledCpuPercent": 113.3,
+          "cumulativeCpuSeconds": 45.35,
+          "clientRssBytes": 90013696
+        },
+        {
+          "atMs": 51961.431084,
+          "rssKiB": 132640,
+          "sampledCpuPercent": 112.3,
+          "cumulativeCpuSeconds": 45.63,
+          "clientRssBytes": 90030080
+        },
+        {
+          "atMs": 52211.7685,
+          "rssKiB": 132528,
+          "sampledCpuPercent": 111.6,
+          "cumulativeCpuSeconds": 45.9,
+          "clientRssBytes": 87998464
+        },
+        {
+          "atMs": 52461.318292,
+          "rssKiB": 132512,
+          "sampledCpuPercent": 109.4,
+          "cumulativeCpuSeconds": 46.18,
+          "clientRssBytes": 87883776
+        },
+        {
+          "atMs": 52711.751167,
+          "rssKiB": 132528,
+          "sampledCpuPercent": 111.3,
+          "cumulativeCpuSeconds": 46.45,
+          "clientRssBytes": 88031232
+        },
+        {
+          "atMs": 52964.643084,
+          "rssKiB": 132112,
+          "sampledCpuPercent": 110.5,
+          "cumulativeCpuSeconds": 46.73,
+          "clientRssBytes": 86458368
+        },
+        {
+          "atMs": 53213.223542,
+          "rssKiB": 131936,
+          "sampledCpuPercent": 108.7,
+          "cumulativeCpuSeconds": 47,
+          "clientRssBytes": 85655552
+        },
+        {
+          "atMs": 53459.07125,
+          "rssKiB": 131952,
+          "sampledCpuPercent": 109.5,
+          "cumulativeCpuSeconds": 47.27,
+          "clientRssBytes": 84033536
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "Synthetic cold asset journeys fetch document, eager assets in fanout batches of four, then three full public clips and one range. No client asset cache or playback-duration waits.",
+    "Journey concurrency and request concurrency are separately reported; these are not human users or measured financial-task sessions.",
+    "Server and load client share the same desktop host; client CPU, loopback and synchronous preview gzip can constrain results. Server/disk caches remain warm across runs.",
+    "This benchmark does not establish Vercel/CDN throughput, autoscaling, regional latency, hosting quotas, internet outages, user completion, Android memory or listening performance.",
+    "RSS is sampled for the single Node server only, includes runtime/buffers, and is not browser or physical-device memory."
+  ]
+}

@@ -21,8 +21,23 @@ for(const [code,dictionary] of Object.entries(dictionaries)){
  dictionaries[code]={...dictionary,...coverage};
 }
 
+const fixedKeys={};
+function validateFixed(kind,code,copy){const keys=Object.keys(copy).sort();if(code==='en')fixedKeys[kind]=keys;if(JSON.stringify(keys)!==JSON.stringify(fixedKeys[kind])||Object.values(copy).some(v=>typeof v!=='string'||!v.trim()||/<\/?[a-z]/i.test(v)||v.includes('\ufffd')||v.includes('\n')))throw Error(`Invalid fixed public ${kind} translation: ${code}`);}
+
 // Guided learning is fixed public copy, merged into every effective language pack.
 for(const [code,dictionary] of Object.entries(dictionaries)){
  const guidance=JSON.parse(await readFile(new URL(`../translations/guidance-${code}.json`,import.meta.url),'utf8'));
- dictionaries[code]={...dictionary,...guidance};
+ validateFixed('guidance',code,guidance);dictionaries[code]={...dictionary,...guidance};
+}
+
+// Persona support is fixed build-time public text, loaded only in the selected pack.
+for(const [code,dictionary] of Object.entries(dictionaries)){
+ const support=JSON.parse(await readFile(new URL(`../translations/resilience-${code}.json`,import.meta.url),'utf8'));
+ validateFixed('support',code,support);dictionaries[code]={...dictionary,...support};
+}
+
+// Fixed usability and offline-signing notices are text-only draft labels.
+for(const [code,dictionary] of Object.entries(dictionaries)){
+ const usability=JSON.parse(await readFile(new URL(`../translations/usability-${code}.json`,import.meta.url),'utf8'));
+ validateFixed('usability',code,usability);dictionaries[code]={...dictionary,...usability};
 }

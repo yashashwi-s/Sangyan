@@ -45,7 +45,7 @@ for(const lang of audioLanguages){
  const directory=new URL(`dist/audio/${lang}/${report.revision}/`,root);
  for(const file of await readdir(directory))if(file.endsWith('.json'))await rm(new URL(file,directory));
  // Older generated revisions are not part of this release.
- for(const revision of await readdir(new URL(`dist/audio/${lang}/`,root)))if(revision!==report.revision)await rm(new URL(`dist/audio/${lang}/${revision}/`,root),{recursive:true});
+ for(const revision of await readdir(new URL(`dist/audio/${lang}/`,root)))if(revision!==report.revision&&!revision.startsWith('support-'))await rm(new URL(`dist/audio/${lang}/${revision}/`,root),{recursive:true});
 }
 await writeFile(new URL('dist/audio-catalog.js',root),'// Generated from verified public copy and bundled recordings.\nexport const audioCatalog='+JSON.stringify(catalog)+';\n');
 // Human-readable coverage and attribution must agree with actual checked files.

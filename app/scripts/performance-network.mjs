@@ -7,6 +7,8 @@ import {createHash} from 'node:crypto';
 import {performance} from 'node:perf_hooks';
 
 export const profiles = {
+  umts3g: [{atMs:0,downKbps:384,latencyMs:200,online:true}],
+  fast3g: [{atMs:0,downKbps:1600,latencyMs:150,online:true}],
   steady: [{atMs:0,downKbps:160,latencyMs:800,online:true}],
   changing: [
     {atMs:0,downKbps:256,latencyMs:600,online:true},
@@ -18,7 +20,7 @@ export const profiles = {
   recovered: [{atMs:0,downKbps:256,latencyMs:600,online:true}],
   offline: [{atMs:0,downKbps:0,latencyMs:0,online:false}]
 };
-const types={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.svg':'image/svg+xml','.json':'application/json','.mp3':'audio/mpeg','.woff2':'font/woff2','.txt':'text/plain; charset=utf-8'};
+const types={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.mjs':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.svg':'image/svg+xml','.json':'application/json','.mp3':'audio/mpeg','.woff2':'font/woff2','.txt':'text/plain; charset=utf-8'};
 const sleep=ms=>new Promise(r=>setTimeout(r,ms));
 const listen=server=>new Promise(r=>server.listen(0,'127.0.0.1',()=>r(server.address().port)));
 

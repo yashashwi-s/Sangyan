@@ -12,7 +12,7 @@ test('all 21 packs contain the exact new guided-copy scope with no missing-value
 test('new guide uses fixed public lookup and escapes translations without changing action attributes or official links',()=>{
  const entry=createJourneyEntry(),html=entry.render(),translated=localizeGuidance(html,'ur',()=>'<translated & text>');assert.match(translated,/lang="ur"/);assert.match(translated,/&lt;translated &amp; text&gt;/);assert.match(translated,/data-entry-action="living"/);assert.doesNotMatch(translated,/What do you need help with/);
  const coach=createNominationCoach(),rendered=localizeGuidance(coach.render({id:'fictional',type:'bank',holding:'sole'},{url:'https://example.org'}),'hi',()=> 'अनुवाद');assert.match(rendered,/href="https:\/\/example.org\/"/);assert.match(rendered,/data-coach-action="next"/);assert.doesNotMatch(rendered,/Start with the correct official form/);
- assert.equal(guidanceSource['New guided learning: text guidance. Existing recorded instructions are available separately.'],'guidance157');
+ assert.equal(guidanceSource['A receipt establishes submission only. Registration confirmation may show status without nominee particulars; check only what the evidence supports.'],'guidance004');
 });
 test('private-looking arbitrary provider content is preserved locally and never passed to a translator',()=>{
  const calls=[],html='<p>PRIVATE CANARY 1234</p>';assert.equal(localizeGuidance(html,'hi',(...args)=>{calls.push(args);return ''; }),html);assert.equal(calls.length,0);

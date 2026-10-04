@@ -6,10 +6,11 @@
   "scripts": {
     "dev": "node server.mjs",
     "test": "node --test tests/*.test.mjs",
-    "build:public": "node scripts/build-locales.mjs",
+    "build:public": "node scripts/build-paper-guides.mjs && node scripts/build-locales.mjs && node scripts/build-stats.mjs",
     "build:audio": "node scripts/build-audio.mjs",
     "check:languages": "node scripts/check-translations.mjs",
-    "check:release": "npm run build:audio && npm run build:public && npm run check:languages && npm test"
+    "build:support-audio": "node scripts/build-support-audio.mjs",
+    "check:release": "npm run build:support-audio && npm run build:audio && npm run build:public && npm run check:languages && npm test"
   },
   "engines": {
     "node": ">=22"

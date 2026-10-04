@@ -4,6 +4,8 @@
 
 The user selected the brief’s Nominee & Family Wealth Tracker direction: a family account list across demat, bank deposits and mutual fund folios, missing nominations, an institution-specific next task, and progress through submitted request to a checked registration record. This focused choice supersedes the earlier securities-history and transmission journey recommendations below. See the [current build plan](build-plan.md).
 
+The [4 October reassessment](track-b-reassessment-2026-10-04.md) reviews the current prototype against all three personas, current public services and evidence. It identifies the remaining institution and family-handover gaps, and documents an editable potential-impact model. No real-user or institutional outcomes have been measured.
+
 The analysis below is preserved as background from the earlier research direction.
 
 ## Authoritative problem statement

@@ -1,0 +1,25 @@
+// Runs browser-native core checks, not DOM/form automation. Test files never ship.
+import {readFile,writeFile,mkdir,cp,mkdtemp} from 'node:fs/promises';
+import {resolve} from 'node:path';
+import http from 'node:http';
+import {pathToFileURL} from 'node:url';
+import {gzipSync} from 'node:zlib';
+import {createAuditServers,sourceManifest} from './performance-network.mjs';
+const [rootArg,outArg,chromePath]=process.argv.slice(2);if(!rootArg||!outArg||!chromePath)throw Error('Supply frozen public snapshot, output and pinned Chrome binary');
+const root=resolve(rootArg),out=resolve(outArg),testRoot=await mkdtemp('/private/tmp/virasat-core-check-');await mkdir(out,{recursive:true});await cp(root,testRoot,{recursive:true});
+const publicManifest=await sourceManifest(root),results=[];
+const collector=http.createServer(async(req,res)=>{res.setHeader('Access-Control-Allow-Origin','*');res.setHeader('Access-Control-Allow-Headers','Content-Type');if(req.method==='OPTIONS'){res.writeHead(204);res.end();return;}if(req.method!=='POST'||req.url!=='/synthetic-results'){res.writeHead(404);res.end();return;}const chunks=[];let bytes=0;for await(const c of req){bytes+=c.length;if(bytes>1048576){res.writeHead(413);res.end();return;}chunks.push(c);}try{const data=JSON.parse(Buffer.concat(chunks));if(data.physicalDevice!==false||!Array.isArray(data.checks))throw Error('Not synthetic evidence');results.push(data);res.writeHead(200);res.end('Recorded');}catch{res.writeHead(400);res.end();}});
+await new Promise(r=>collector.listen(0,'127.0.0.1',r));const endpoint=`http://127.0.0.1:${collector.address().port}/synthetic-results`;
+await cp(new URL('./browser-core-checks.mjs',import.meta.url),testRoot+'/runtime-check.mjs');
+await writeFile(testRoot+'/runtime-fixture.mjs',(await readFile(new URL('../tests/workspace-scale-fixture.mjs',import.meta.url),'utf8')).replaceAll("'../dist/","'/"));
+await writeFile(testRoot+'/runtime-check.html',`<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Fictional browser core checks</title></head><body><h1>Browser core checks — fictional records only</h1><p>No institution requests are sent. This is not a physical-device test.</p><pre data-endpoint="${endpoint}">Checking…</pre><script type="module" src="/runtime-check.mjs"></script></body></html>`);
+const runtime=process.env.VIRASAT_AUDIT_TOOLS||'/private/tmp/virasat-audit-tools';const {default:lighthouse}=await import(pathToFileURL(resolve(runtime,'node_modules/lighthouse/core/index.js')));const launcher=await import(pathToFileURL(resolve(runtime,'node_modules/chrome-launcher/dist/index.js')));const servers=await createAuditServers(testRoot),runs=[];
+try{for(let iteration=1;iteration<=3;iteration++){
+ const before=results.length;servers.reset('umts3g',`core-${iteration}`);const chrome=await launcher.launch({chromePath,chromeFlags:['--headless=new','--disable-gpu','--js-flags=--max-old-space-size=64'],logLevel:'silent'});
+ try{const r=await lighthouse(servers.url+'/runtime-check.html',{port:chrome.port,logLevel:'error',onlyCategories:['performance'],throttlingMethod:'devtools',maxWaitForLoad:90000,maxWaitForFcp:45000},{extends:'lighthouse:default',settings:{throttlingMethod:'devtools',throttling:{cpuSlowdownMultiplier:8,requestLatencyMs:0,downloadThroughputKbps:0,uploadThroughputKbps:0},screenEmulation:{mobile:true,width:360,height:800,deviceScaleFactor:1,disabled:false}}});
+  for(let n=0;results.length===before&&n<40;n++)await new Promise(x=>setTimeout(x,250));
+  const report=results[before]||null;await writeFile(`${out}/core-${iteration}.json`,JSON.stringify(report,null,2));await writeFile(`${out}/core-${iteration}.lhr.json`,JSON.stringify(r.lhr,null,2));await writeFile(`${out}/core-${iteration}.trace.json.gz`,gzipSync(JSON.stringify(r.artifacts.Trace)));runs.push({iteration,runtimeError:r.lhr.runtimeError||null,reportReceived:Boolean(report),passed:report?.passed,failed:report?.failed,coreCompleteMs:r.lhr.audits['user-timings']?.details?.items?.find(x=>x.name==='browser-core-checks-complete')?.startTime??null});console.log(runs.at(-1));
+ }finally{await chrome.kill();}
+}
+ await writeFile(`${out}/network.json`,JSON.stringify(servers.log,null,2));await writeFile(`${out}/summary.json`,JSON.stringify({date:new Date().toISOString(),publicSourceSha256:publicManifest.sha256,publicManifest,chromePath,profile:{downKbps:384,latencyMs:200,cpuSlowdown:8,v8OldSpaceCapMiB:64},physicalDevice:false,runs,notes:['Only exported app logic and API probes; no full UI, real audio, file picker, browser download, print, Android or hardware certification.','Response-body-only proxy; fixed latency; not full cellular UMTS or uplink simulation.','Test runner and results collector are local-only and absent from the released app.']},null,2));if(runs.some(x=>x.runtimeError||!x.reportReceived||x.failed))process.exitCode=1;
+}finally{await servers.close();collector.closeAllConnections();await new Promise(r=>collector.close(r));}

@@ -333,10 +333,10 @@
       "publisher": "Economic Advisory Council to the Prime Minister",
       "published_or_period": "2026-05",
       "source_type": "official_working_paper",
-      "access": "indexed_extract_only_full_fetch_failed",
-      "locator": "Table 1 and section IV.",
-      "note": "Recent improvement counterevidence. Prose/table wording differs on processed versus approved; use labelled table categories.",
-      "reviewed_on": "2026-10-01"
+      "access": "full_pdf_downloaded_table_visually_checked",
+      "locator": "Section IV, PDF pp. 17–18; Table 1 on p. 18.",
+      "note": "Updated 2026-10-04: full fetch now succeeds; archived at references/public-2026-10-04/eacpm-iepf-reforms-may-2026.pdf. Table labels 76,620 processed = 57,570 approved + 19,050 rejected for Oct 2025–Mar 2026, including backlog. Prose calls 57,570 processed; use the table categories. New filings are not the approvals denominator; projected backlog clearance is not verified October clearance.",
+      "reviewed_on": "2026-10-04"
     },
     {
       "id": "S029",

@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-04T11:52:06.573Z",
+  "runtime": "v26.0.0",
+  "platform": "darwin",
+  "architecture": "arm64",
+  "sources": {
+    "privacy.js": "b76b4c8be7dba24b9f41b028ffdfc1e157f2b2036679e883f224ce9101b48c64",
+    "tracker.js": "f08f30f1a92913a6aed6be4f57532ece3c5fdd0b2d79f112ba629fb58f21d0f6",
+    "nomination-coach.js": "380693c530f8fef40f7e16239d144a926891cb0d643f9c85beb96debdc7dc982",
+    "languages.js": "781d570e631414f142f7ee43cd79af4df11ce3da9d8c1a51776724606827c440",
+    "institutions.js": "a7ccbdcec1a41e9b931f95831538975d8273d01b0ebb3713bc84e14bb269611a"
+  },
+  "accounts": 50,
+  "eventsPerAccount": 20,
+  "supportEventsPerAccount": 20,
+  "learningCheckpoints": 50,
+  "plaintextBytes": 542316,
+  "runs": [
+    {
+      "iteration": 1,
+      "sealMs": 186.11491700000002,
+      "unlockMs": 169.39966700000002,
+      "validateMs": 3.7000000000000455,
+      "envelopeBytes": 723275
+    },
+    {
+      "iteration": 2,
+      "sealMs": 209.78929199999993,
+      "unlockMs": 172.76258300000006,
+      "validateMs": 5.087292000000048,
+      "envelopeBytes": 723275
+    },
+    {
+      "iteration": 3,
+      "sealMs": 324.22895900000015,
+      "unlockMs": 160.41174999999998,
+      "validateMs": 5.390666999999894,
+      "envelopeBytes": 723275
+    }
+  ],
+  "notes": [
+    "Synthetic records only; exact decrypted workspace compared with validated original.",
+    "Node WebCrypto timings on the desktop host, three sequential runs; not browser or physical 2 GB Android evidence.",
+    "No file download/import UI, browser storage, eviction, tab termination, typing latency, network or traffic capacity measured."
+  ]
+}

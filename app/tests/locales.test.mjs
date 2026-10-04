@@ -9,7 +9,7 @@ import {dictionaries} from '../scripts/dictionaries.mjs';
 test('each small language pack matches all current public copy and its immutable address',async()=>{
  for(const [language,path] of Object.entries(localeCatalog)){
   const data=await readFile(new URL('../dist'+path,import.meta.url));assert.deepEqual(JSON.parse(data),dictionaries[language]);
-  assert.ok(path.includes(createHash('sha256').update(data).digest('hex').slice(0,12)));assert.ok(gzipSync(data).length<24000);
+  assert.ok(path.includes(createHash('sha256').update(data).digest('hex').slice(0,12)));assert.ok(gzipSync(data).length<28000,'Selected-language public copy budget: 28 kB gzip');
  }
 });
 test('choosing a language fetches only that language once and reuses concurrent loads',async()=>{
@@ -34,7 +34,7 @@ test('entry HTML gives a usable language choice before JavaScript and avoids all
 test('all regional entry pages show current text, preload only their own pack and expose no private values',async()=>{
  const config=JSON.parse(await readFile(new URL('../vercel.json',import.meta.url)));assert.equal(config.rewrites[0].destination,'/entry/:locale.html');
  for(const [language,path] of Object.entries(localeCatalog)){
-  const html=await readFile(new URL(`../dist/entry/${language}.html`,import.meta.url),'utf8');assert.ok(html.includes(dictionaries[language].homeTitle));assert.ok(html.includes(dictionaries[language].homeIntro));assert.ok(html.includes(`href="${path}" as="fetch"`));assert.equal((html.match(/as="fetch"/g)||[]).length,1);assert.ok(html.includes('aria-busy="true"'));assert.ok(html.includes(`class="startup-retry" href="/${language}"`));assert.ok(!html.includes('input type="text"'));
+  const html=await readFile(new URL(`../dist/entry/${language}.html`,import.meta.url),'utf8');assert.ok(html.includes(dictionaries[language].plainHomeTitle));assert.ok(html.includes(dictionaries[language].plainHomeIntro));assert.ok(html.includes(`href="${path}" as="fetch"`));assert.equal((html.match(/as="fetch"/g)||[]).length,1);assert.ok(html.includes('aria-busy="true"'));assert.ok(html.includes(`class="startup-retry" href="/${language}"`));assert.ok(!html.includes('input type="text"'));
  }
 });
 test('the release contains exactly English plus 20 scheduled languages and excludes deferred languages',async()=>{

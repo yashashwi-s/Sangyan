@@ -41,3 +41,9 @@ test('published audio coverage and model credits match each actual language mani
  assert.ok(page.includes('CC BY-NC 4.0'));
  if(audioLanguages.includes('ne')){assert.ok(page.includes('Piper Chitwan'));assert.ok(page.includes('CC0'));assert.ok(page.includes('GPL-3.0'));}
 });
+test('deployment excludes authoring audio without excluding released MP3 assets',async()=>{
+ const ignore=await readFile(new URL('../.vercelignore',import.meta.url),'utf8');
+ assert.ok(ignore.split(/\r?\n/).includes('/audio/'));
+ assert.ok(!ignore.split(/\r?\n/).includes('audio'));
+ assert.ok(!ignore.includes('dist/audio'));
+});
