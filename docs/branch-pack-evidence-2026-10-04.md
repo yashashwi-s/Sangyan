@@ -17,3 +17,7 @@ Downloads omit owner and nominee names, private notes, complaint details and doc
 Evidence: [release checks](audits/2026-10-04-branch-pack/release-check.txt), [print checks](audits/2026-10-04-branch-pack/print-check.json), [generation inventory](audits/2026-10-04-branch-pack/generation-check.json), [desktop](audits/2026-10-04-branch-pack/desktop.jpg), [320px view](audits/2026-10-04-branch-pack/mobile-320.jpg).
 
 Coverage and print numbers are also published in the public statistics page and JSON register. No real-user completion, avoided-visit, recovery or target-phone outcome is inferred from these checks.
+
+## Publication verification
+
+Published at https://sangyan-xi.vercel.app from product commit `94582b34ef06b8db7b0fef3076e383450687f19f`. All 110 production probes matched the local release: branch-pack module, core app, 21 language entry pages and dictionaries, 21 paper guides and representative audio including formerly missing paths. The live fictional-bank pack opened and downloaded successfully; the final downloaded HTML was 3789 bytes with four sections and the fictional-example label. [Live probes](audits/2026-10-04-branch-pack/live-verification.json), [download check](audits/2026-10-04-branch-pack/download-check.json), [production preview](audits/2026-10-04-branch-pack/production.jpg).
