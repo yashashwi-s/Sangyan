@@ -2,11 +2,11 @@
 
 Parent CUA session gained browser access; the Sol child session still reported no browser surfaces. These are limited desktop browser observations, not phone, screen-reader or fluent-language certification.
 
-## Returning-user defect (unresolved)
+## Returning-user defect (corrected and gate upgrade observed)
 
-On `https://sangyan-xi.vercel.app/`, an existing browser profile displayed the older six-language gate. Selecting English and opening Language also showed only six choices, without search. A deliberate reload returned to the same six-language gate. The fresh deployment origin `https://sangyan-g8j6vt61e-yashashwi-singhanias-projects.vercel.app/` displayed the full searchable 21-language gate. This is consistent with a stale service-worker shell; exact worker lifecycle diagnosis remains pending. Do not assume the public HTTP hash checks prove returning-client upgrades.
+On `https://sangyan-xi.vercel.app/`, an existing browser profile displayed the older six-language gate. Selecting English and opening Language also showed only six choices, without search. A deliberate reload returned to the same six-language gate. The fresh deployment origin `https://sangyan-g8j6vt61e-yashashwi-singhanias-projects.vercel.app/` displayed the full searchable 21-language gate. This is consistent with a stale service-worker shell; the worker source lacked activation of waiting updates. Do not assume the public HTTP hash checks prove returning-client upgrades.
 
-The assigned Sol agent hit its usage limit before implementing a fix. At inspection HEAD was `12329d9`; no runtime edits were left behind. Preserve unfinished forms when designing activation/reload behavior. Do not clear user storage as a workaround.
+At initial inspection HEAD was `12329d9`. The subsequent correction at `aa417ed` safely activates completely installed updates and preserves unknown old pages without forced navigation. After production deployment `dpl_5b8c5B6LRn9AkHvZHSMB31KrB4KQ`, the preserved production tab still showed six languages on its first deliberate reload. After allowing installation to complete, its second deliberate reload showed all 21 choices and Search languages. No storage clearing or tab closing was performed. `returning-client-updated.png` records the updated gate. This trial contained only the gate: it did **not** demonstrate preservation of an in-progress private form during upgrade; that behavior has deterministic safety tests and still needs a real browser trial.
 
 ## Observed successful interactions on the fresh origin
 
@@ -22,4 +22,4 @@ The assigned Sol agent hit its usage limit before implementing a fix. At inspect
 
 ## Remaining interactive work
 
-Complete the safe returning-user update fix and reproduce upgrade with an existing cached client. Then inspect remaining form flow, saved-list recovery, full dialog scrolling, keyboard traversal, RTL/native-script views and audio controls. No password/save/unlock, auditory intelligibility, physical-device, or screen-reader trial was performed in this session.
+The existing cached-client gate upgrade is now reproduced. Inspect actual in-progress draft preservation during an update, then the remaining form flow, saved-list recovery, full dialog scrolling, keyboard traversal, RTL/native-script views and audio controls. No password/save/unlock, auditory intelligibility, physical-device, or screen-reader trial was performed in this session.

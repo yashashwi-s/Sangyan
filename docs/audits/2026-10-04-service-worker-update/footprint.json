@@ -1,0 +1,8 @@
+{
+  "sourceSha256": "e76dc999b05621c5288f28e228922090cfeb1462d316b0080c2bfae71673df16",
+  "publishedFiles": 5780,
+  "publishedBytes": 108272168,
+  "audioFiles": 5712,
+  "audioBytes": 106452133,
+  "note": "Public dist only; excludes dist/_headers and host project/config metadata. Startup network bytes were not remeasured for this manifest."
+}
