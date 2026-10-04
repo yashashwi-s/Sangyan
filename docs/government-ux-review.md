@@ -19,12 +19,12 @@ Reviewed 3 October 2026. This is a design review of the private Virasat prototyp
 | Understand what is saved | Explain unsaved draft, encrypted saved file/device copy and readable family sheet in context | Interrupted save/reopen, wrong password and tab eviction on Android |
 | Recover from lost connectivity | Keep current text and in-memory draft; expose a retry for an uncached language or audio; identify external official links | Whole journey during repeated radio/network changes; offline cache eviction |
 | Read on a small screen or listen | 44px controls, wrapping labels, text size/spacing/contrast settings, complete on-screen instructions and optional listening | Physical small-screen keyboard, TalkBack, 200% text, human comprehension |
-| Trust the recordings | Put entry privacy, optional download, replay/clearing and synthetic-voice limitations before detailed model credits | Fluent pronunciation/accent review of six bundled voices |
+| Trust the recordings | Put entry privacy, optional download, replay/clearing and synthetic-voice limitations before detailed model credits | Fluent pronunciation/accent review of the fifteen current bundled draft voices |
 | Know the product boundary | Avoid government branding or claims that this record changes a bank nomination; link official institution instructions | Review each institution's current rules and language-specific legal wording |
 
 ## Audio page changes
 
-`app/dist/audio-credits.html` now groups the page into private entries, listening/storage, synthetic voices, and model credits. It requires no JavaScript. Attribution to Meta MMS, Vineel Pratap and colleagues, the research paper, all six original model links, CC BY-NC 4.0, non-commercial use, no endorsement and the changes made by Virasat remain present. The page clearly states that text coverage and audio coverage differ, and that fluent-speaker validation is outstanding. Privacy disclosure still includes hosting request logs and bounded browser audio storage. The English-only status is explicit; the page does not pretend to be a translated 22-language legal disclosure.
+`app/dist/audio-credits.html` groups the page into private entries, listening/storage, synthetic voices, and model credits. It requires no JavaScript. Attribution to Meta MMS, Vineel Pratap and colleagues, the research paper, the six original and nine added pinned model links, CC BY-NC 4.0, non-commercial use, no endorsement and the changes made by Virasat remain present. The page clearly states that text coverage and audio coverage differ, and that fluent-speaker validation is outstanding. Privacy disclosure still includes hosting request logs and bounded browser audio storage. The English-only status is explicit; the page does not pretend to be a translated 21-language legal disclosure.
 
 ## Review gates
 
@@ -39,7 +39,7 @@ The app's help and listening settings now show availability for the selected lan
 
 The same continuation re-read the current [SEBI nomination circular](https://www.sebi.gov.in/sebi_data/attachdocs/jun-2026/1780397706130.pdf), the nomination sections of [HDFC NetBanking FAQs](https://www.hdfc.bank.in/need-help/net-banking-faqs), and [Zerodha correction instructions](https://support.zerodha.com/category/your-zerodha-account/nomination-process/articles/add-modify-or-remove-nominee). Within those inspected routes, the app continues to separate a request receipt from a registration record, single from joint-holder guidance, and initial nomination from correction. This is a source check of public guidance, not a tested logged-in provider journey or legal opinion.
 
-CUA returned an empty browser/app inventory in this continuation. The current additions therefore have automated/source and media checks but no new interactive browser observation. All 81 automated release checks passed. Mobile keyboards, large-text reflow, physical low-memory devices, screen readers, fluent listening and independent task-completion studies remain separate evidence gaps.
+CUA returned an empty browser/app inventory in this continuation and again at the final publication review. The current additions therefore have automated/source and media checks but no new interactive browser observation. All 84 final release checks passed, including native decimal input with preserved leading zeros. The [published release review](bharat-release-review-2026-10-04.md) records the final live privacy/source checks. Mobile keyboards, large-text reflow, physical low-memory devices, screen readers, fluent listening and independent task-completion studies remain separate evidence gaps.
 
 
 ### Native institution identity correction

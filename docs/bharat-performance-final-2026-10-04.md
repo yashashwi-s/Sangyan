@@ -1,8 +1,8 @@
 # Final-source Bharat performance evidence
 
-Date: 4 October 2026. The measured public snapshot contains **21 text languages and 15 complete draft audio languages**. Its SHA-256 manifest identifier is `a8849e795a78f588106d08e24a5c3650d53402515c80e4bea054175f3a6d0e05`; every public file matched the integrated release at commit `78913e0`. Measurements below apply to this exact source. The [3 October report](bharat-performance-evidence.md) is separate historical interim evidence.
+Date: 4 October 2026. The measured and published public snapshot contains **21 text languages and 15 complete draft audio languages**. Its SHA-256 manifest identifier is `378b5ab2e9fb2fc44f5865d951fe9ac55698eb4c788d45d6a8405ba35d66cbff`; every public file matched the corrected release at commit `7d9d350`. Measurements below apply to this exact source. The [3 October report](bharat-performance-evidence.md) and [earlier 4 October measurement](audits/2026-10-04-final-lab/compact-evidence.json) are separate historical source evidence. The repeated final run includes the native-script numeral correction.
 
-The nine Lighthouse navigation runs opened `/hi`, with three fresh Chrome processes and cold profiles per network condition. They did not enter private information, complete account tasks, save a draft, switch languages or play audio. [Raw results](audits/2026-10-04-final-lab/summary.json), [compact metrics](audits/2026-10-04-final-lab/compact-evidence.json), the [source manifest](audits/2026-10-04-final-lab/source-manifest.json), compressed traces, network logs and process-memory samples are retained together.
+The nine Lighthouse navigation runs opened `/hi`, with three fresh Chrome processes and cold profiles per network condition. They did not enter private information, complete account tasks, save a draft, switch languages or play audio. [Raw results](audits/2026-10-04-published-lab/summary.json), [compact metrics](audits/2026-10-04-published-lab/compact-evidence.json), the [source manifest](audits/2026-10-04-published-lab/source-manifest.json), compressed traces, network logs and process-memory samples are retained together. All 68 non-MP3 public assets were individually compared against production, alongside all native entry routes and a complete MP3 sample per audio language; see [live checks](audits/2026-10-04-production/live-public-serving.json).
 
 ## Conditions
 
@@ -16,12 +16,12 @@ All nine audits completed without Lighthouse runtime errors or warnings. A compl
 
 | Median (range), three runs per profile | Steady severe | Changing with outage | Recovered cold |
 |---|---:|---:|---:|
-| Largest contentful paint | 2.689 s (2.624–2.857) | 3.115 s (2.947–3.151) | 1.883 s (1.864–1.895) |
-| Controls ready, `virasat-ready` | 5.556 s (5.371–5.608), 3/3 | **Absent, 0/3** | 3.842 s (3.791–3.870), 3/3 |
-| Total blocking time | 2.56 ms (0–30.16) | 0 ms | 0 ms (0–13.63) |
+| Largest contentful paint | 2.896 s (2.683–3.371) | 3.053 s (3.005–3.331) | 1.903 s (1.867–1.908) |
+| Controls ready, `virasat-ready` | 5.606 s (5.482–5.688), 3/3 | **Absent, 0/3** | 3.855 s (3.841–3.918), 3/3 |
+| Total blocking time | 29.91 ms (0–44.24) | 0 ms | 0 ms (0–21.70) |
 | Layout shift | 0 | 0 | 0 |
-| Navigation transfer | 62,975 bytes | 26,647 bytes, incomplete startup | 62,975 bytes |
-| Lighthouse performance score | 92 (90–92) | 88 (87–89), incomplete startup | 98 |
+| Navigation transfer | 63,124 bytes | 26,919 bytes (25,197–26,919), incomplete startup | 63,124 bytes |
+| Lighthouse performance score | 90 (84–92) | 88 (85–89), incomplete startup | 98 |
 
 Automated accessibility and SEO scores were 100 throughout. Best-practices scores were 96 during interruption and 100 otherwise. These scores do not certify accessibility, legal correctness, translation understanding or completion of a financial task. Lower transfer during interruption is a failed download, not a performance improvement. TBT is not a field typing-latency or INP measurement.
 
@@ -35,8 +35,8 @@ Trace heap counters and operating-system Chrome process-tree RSS samples measure
 
 | Per-run observed peak, MiB | Steady severe | Changing with outage | Recovered cold |
 |---|---|---|---|
-| Trace `jsHeapSizeUsed` | 7.540 / 7.383 / 17.563 | 26.321 / 19.820 / 13.160 | 29.417 / 19.503 / 14.504 |
-| Chrome process-tree RSS sum | 1,111.719 / 1,240.375 / 1,334.219 | 1,036.516 / 1,089.328 / 1,135.297 | 1,217.703 / 1,202.906 / 1,279.516 |
+| Trace `jsHeapSizeUsed` | 21.175 / 28.423 / 25.420 | 26.713 / 20.070 / 19.320 | 8.564 / 7.515 / 26.918 |
+| Chrome process-tree RSS sum | 1,082.656 / 1,081.750 / 1,031.422 | 1,047.562 / 1,095.109 / 1,146.703 | 1,194.578 / 1,282.672 / 1,170.297 |
 
 The substantial browser RSS is retained rather than presenting only the smaller heap number. Neither a 64 MiB old-space setting nor these diagnostic desktop samples establish performance on a physical 2 GB Android phone. Physical-device testing still needs TalkBack, large text, the on-screen keyboard, save/unlock with many accounts, optional audio, background termination and repeated connectivity interruptions.
 
@@ -48,6 +48,6 @@ Use the checked-in `app/scripts/performance-audit.mjs` runner with a frozen copy
 node app/scripts/performance-audit.mjs SNAPSHOT OUTPUT_DIRECTORY hi 3
 ```
 
-The final public directory contains 5,424 files totaling 102,549,227 bytes (97.799 MiB); the largest file is 150,069 bytes. This is server-side release storage, not the navigation download above. Deployment staging must exclude build-only models, Python dependencies, translation/audio source reports, tests and audit traces. Confirm the hosting upload limit and actual deployment packaging before publishing; no quota failure has been observed in this continuation.
+The final public directory contains 5,424 files totaling 102,549,565 bytes (97.799 MiB); the largest file is 150,069 bytes. All 5,355 MP3 recordings total **100,779,936 bytes** across fifteen languages. This is server-side release storage, not each person's download: successful Hindi navigation transferred **63,124 bytes**, with **zero MP3 requests**. The isolated deployment excluded build-only models, Python dependencies, translation/audio source reports, tests and audit traces. Vercel accepted the supported compressed CLI archive (reported upload 85.1 MB), extracted 5,424 public/configuration files, completed the static build and assigned the production alias. No hosting upload-limit failure occurred.
 
-The current release passes 82 automated checks and all 21 text routes/15 audio languages passed local HTTP checks, including MP3 partial-content delivery. Translation and synthetic voice disclosures remain necessary. New audio packs have complete technical integrity/decoding evidence; no fluent-reviewer or auditory intelligibility signoff was obtained. Final interactive browser checks and deployed-source verification remain separate release work.
+The current release passes 84 automated checks and all 21 text routes/15 audio languages passed live HTTP checks, including MP3 partial-content delivery, privacy headers and exact source comparisons. Production is [sangyan-xi.vercel.app](https://sangyan-xi.vercel.app), deployment `dpl_8kpj7QruDcaAro3KT4VF6s37u3iC`; [deployment evidence](audits/2026-10-04-production/deployment.json) records the ready status and source identifier. Translation and synthetic voice disclosures remain necessary. New audio packs have complete technical integrity/decoding evidence; no fluent-reviewer or auditory intelligibility signoff was obtained. Final interactive browser checks remain separate human evidence.

@@ -1,0 +1,367 @@
+
+> virasat-private-prototype@0.1.0 check:release
+> npm run build:audio && npm run build:public && npm run check:languages && npm test
+
+
+> virasat-private-prototype@0.1.0 build:audio
+> node scripts/build-audio.mjs
+
+{
+  en: { clips: 357, megabytes: '6.02' },
+  hi: { clips: 357, megabytes: '5.80' },
+  bn: { clips: 357, megabytes: '6.39' },
+  mr: { clips: 357, megabytes: '5.89' },
+  ta: { clips: 357, megabytes: '6.59' },
+  ur: { clips: 357, megabytes: '6.87' },
+  gu: { clips: 357, megabytes: '5.86' },
+  pa: { clips: 357, megabytes: '6.22' },
+  kn: { clips: 357, megabytes: '9.12' },
+  te: { clips: 357, megabytes: '7.70' },
+  ml: { clips: 357, megabytes: '7.05' },
+  as: { clips: 357, megabytes: '6.05' },
+  or: { clips: 357, megabytes: '6.92' },
+  doi: { clips: 357, megabytes: '6.43' },
+  mai: { clips: 357, megabytes: '7.86' }
+}
+
+> virasat-private-prototype@0.1.0 build:public
+> node scripts/build-locales.mjs
+
+{
+  en: '/locales/en-69f898325f91.json',
+  hi: '/locales/hi-729c30979e72.json',
+  bn: '/locales/bn-5dc3a9ba7a68.json',
+  mr: '/locales/mr-9dcacfe106de.json',
+  ta: '/locales/ta-f3adac6c3f33.json',
+  ur: '/locales/ur-9cb8986a4389.json',
+  as: '/locales/as-4f1639ed7b4d.json',
+  doi: '/locales/doi-5beee18ca319.json',
+  gu: '/locales/gu-5ef3ea83683d.json',
+  kn: '/locales/kn-5f4e6f143fae.json',
+  kok: '/locales/kok-88dc693ca2f3.json',
+  mai: '/locales/mai-aa9afab63080.json',
+  ml: '/locales/ml-93dd7a548a91.json',
+  mni: '/locales/mni-6e76edf9e2a6.json',
+  ne: '/locales/ne-26337c478850.json',
+  or: '/locales/or-192dee23f416.json',
+  pa: '/locales/pa-952ef2b3d3b5.json',
+  sa: '/locales/sa-a84820b2ac51.json',
+  sat: '/locales/sat-d6d4c1a6297e.json',
+  sd: '/locales/sd-2e652eab9e39.json',
+  te: '/locales/te-982c3fa72bc1.json'
+}
+
+> virasat-private-prototype@0.1.0 check:languages
+> node scripts/check-translations.mjs
+
+{
+  "note": "Structural completeness only. Unchanged names/numbers can be intentional; fluent review is still required.",
+  "languages": [
+    {
+      "code": "en",
+      "name": "English",
+      "nativeName": "English",
+      "keys": 369,
+      "gzipBytes": 8871,
+      "audio": true,
+      "humanReviewed": false,
+      "unchangedEnglish": 364
+    },
+    {
+      "code": "hi",
+      "name": "Hindi",
+      "nativeName": "हिन्दी",
+      "keys": 369,
+      "gzipBytes": 10535,
+      "audio": true,
+      "humanReviewed": false,
+      "unchangedEnglish": 0
+    },
+    {
+      "code": "as",
+      "name": "Assamese",
+      "nativeName": "অসমীয়া",
+      "keys": 369,
+      "gzipBytes": 12178,
+      "audio": true,
+      "humanReviewed": false,
+      "unchangedEnglish": 0
+    },
+    {
+      "code": "bn",
+      "name": "Bengali",
+      "nativeName": "বাংলা",
+      "keys": 369,
+      "gzipBytes": 10175,
+      "audio": true,
+      "humanReviewed": false,
+      "unchangedEnglish": 0
+    },
+    {
+      "code": "doi",
+      "name": "Dogri",
+      "nativeName": "डोगरी",
+      "keys": 369,
+      "gzipBytes": 12851,
+      "audio": true,
+      "humanReviewed": false,
+      "unchangedEnglish": 0
+    },
+    {
+      "code": "gu",
+      "name": "Gujarati",
+      "nativeName": "ગુજરાતી",
+      "keys": 369,
+      "gzipBytes": 10824,
+      "audio": true,
+      "humanReviewed": false,
+      "unchangedEnglish": 0
+    },
+    {
+      "code": "kn",
+      "name": "Kannada",
+      "nativeName": "ಕನ್ನಡ",
+      "keys": 369,
+      "gzipBytes": 12196,
+      "audio": true,
+      "humanReviewed": false,
+      "unchangedEnglish": 0
+    },
+    {
+      "code": "kok",
+      "name": "Konkani",
+      "nativeName": "कोंकणी",
+      "keys": 369,
+      "gzipBytes": 12096,
+      "audio": false,
+      "humanReviewed": false,
+      "unchangedEnglish": 0
+    },
+    {
+      "code": "mai",
+      "name": "Maithili",
+      "nativeName": "मैथिली",
+      "keys": 369,
+      "gzipBytes": 12578,
+      "audio": true,
+      "humanReviewed": false,
+      "unchangedEnglish": 0
+    },
+    {
+      "code": "ml",
+      "name": "Malayalam",
+      "nativeName": "മലയാളം",
+      "keys": 369,
+      "gzipBytes": 12990,
+      "audio": true,
+      "humanReviewed": false,
+      "unchangedEnglish": 0
+    },
+    {
+      "code": "mni",
+      "name": "Manipuri · Meitei",
+      "nativeName": "ꯃꯤꯇꯩꯂꯣꯟ",
+      "keys": 369,
+      "gzipBytes": 12762,
+      "audio": false,
+      "humanReviewed": false,
+      "unchangedEnglish": 0
+    },
+    {
+      "code": "mr",
+      "name": "Marathi",
+      "nativeName": "मराठी",
+      "keys": 369,
+      "gzipBytes": 10670,
+      "audio": true,
+      "humanReviewed": false,
+      "unchangedEnglish": 0
+    },
+    {
+      "code": "ne",
+      "name": "Nepali",
+      "nativeName": "नेपाली",
+      "keys": 369,
+      "gzipBytes": 11896,
+      "audio": false,
+      "humanReviewed": false,
+      "unchangedEnglish": 0
+    },
+    {
+      "code": "or",
+      "name": "Odia",
+      "nativeName": "ଓଡ଼ିଆ",
+      "keys": 369,
+      "gzipBytes": 12038,
+      "audio": true,
+      "humanReviewed": false,
+      "unchangedEnglish": 0
+    },
+    {
+      "code": "pa",
+      "name": "Punjabi",
+      "nativeName": "ਪੰਜਾਬੀ",
+      "keys": 369,
+      "gzipBytes": 10745,
+      "audio": true,
+      "humanReviewed": false,
+      "unchangedEnglish": 0
+    },
+    {
+      "code": "sa",
+      "name": "Sanskrit",
+      "nativeName": "संस्कृतम्",
+      "keys": 369,
+      "gzipBytes": 13040,
+      "audio": false,
+      "humanReviewed": false,
+      "unchangedEnglish": 0
+    },
+    {
+      "code": "sat",
+      "name": "Santali",
+      "nativeName": "ᱥᱟᱱᱛᱟᱲᱤ",
+      "keys": 369,
+      "gzipBytes": 12002,
+      "audio": false,
+      "humanReviewed": false,
+      "unchangedEnglish": 0
+    },
+    {
+      "code": "sd",
+      "name": "Sindhi",
+      "nativeName": "سنڌي",
+      "keys": 369,
+      "gzipBytes": 10999,
+      "audio": false,
+      "humanReviewed": false,
+      "unchangedEnglish": 0
+    },
+    {
+      "code": "ta",
+      "name": "Tamil",
+      "nativeName": "தமிழ்",
+      "keys": 369,
+      "gzipBytes": 11247,
+      "audio": true,
+      "humanReviewed": false,
+      "unchangedEnglish": 0
+    },
+    {
+      "code": "te",
+      "name": "Telugu",
+      "nativeName": "తెలుగు",
+      "keys": 369,
+      "gzipBytes": 12208,
+      "audio": true,
+      "humanReviewed": false,
+      "unchangedEnglish": 0
+    },
+    {
+      "code": "ur",
+      "name": "Urdu",
+      "nativeName": "اردو",
+      "keys": 369,
+      "gzipBytes": 9733,
+      "audio": true,
+      "humanReviewed": false,
+      "unchangedEnglish": 0
+    }
+  ]
+}
+
+> virasat-private-prototype@0.1.0 test
+> node --test tests/*.test.mjs
+
+✔ every advertised audio language has actual current recordings for all exported public text (2736.339833ms)
+✔ audio deployment permits same-origin media without exposing a synthesis endpoint (1.063167ms)
+✔ published audio coverage and model credits match each actual language manifest (7.601292ms)
+✔ installation caches the public shell without preloading any audio or user values (69.264042ms)
+✔ played audio is available offline, with valid media byte ranges (9.670708ms)
+✔ offline audio support follows the checked release registry and excludes text-only languages (10.925333ms)
+✔ cached shell supports all language entry routes without intercepting private or external requests (0.97825ms)
+✔ recent audio cache stays bounded by entry count (107.530125ms)
+✔ audio cache evicts old files at the byte budget even below its entry limit (748.766042ms)
+✔ a cold media range starts streaming before its complete body arrives (5.157041ms)
+✔ a short media probe is not cached as if it were a complete playable clip (0.580083ms)
+✔ audio cache bookkeeping does not reread every stored response for every new clip (31.511541ms)
+✔ only a selected language is prepared for offline use (0.748083ms)
+✔ denied cache storage does not block the app or network audio (0.598333ms)
+✔ selected uncommon-script fonts remain available offline without preloading other languages (0.551458ms)
+✔ an app update preserves unchanged selected language and script assets, excluding obsolete copy (1.089792ms)
+✔ candidate model provenance pins distinct language codes, non-commercial licence and safe model files (1.955583ms)
+✔ every fixed public number and Latin token has an explicit unreviewed candidate pronunciation (5.810041ms)
+✔ public audio export can stage every supported language without accepting private text or changing released coverage (21.345875ms)
+✔ candidate command requires a separate output and rejects unsupported languages before writing (517.94225ms)
+✔ recorded instruction playback works for every advertised language without a speech synthesis API (16.642166ms)
+✔ private values and unknown languages never become audio URLs (2.974667ms)
+✔ pausing while loading, resuming and replaying preserve the selected part (1.116083ms)
+✔ a rejected mobile autoplay becomes an explicit continue action (1.16675ms)
+✔ network errors keep the same part and retry its public file (0.796584ms)
+✔ stopping or changing language cancels late play failures and completions (1.896083ms)
+✔ playback uses one audio element, preserves pitch and ends cleanly (1.038125ms)
+✔ slow connections stop waiting and expose retry instead of spinning forever (27.809042ms)
+✔ a delayed play rejection caused by pause cannot overwrite a later resume (0.913709ms)
+✔ a late media error cannot replace an intentional pause (1.125958ms)
+✔ real playback progress clears a buffering timeout on constrained browsers (63.166ms)
+✔ next and repeat from pause start a new clip with an accurate playback state (0.899958ms)
+✔ issuer event conserves cost and quantity in the synthetic case (1.774667ms)
+✔ optional purchase and holding records do not add claim conditions (0.125666ms)
+✔ history-only flow does not ask for inheritance documents (2.163833ms)
+✔ a dispute or unknown nominee cannot enter the supported route (0.431625ms)
+✔ cost without a source remains unknown and history requires the holding reference (0.099083ms)
+✔ fractional quantities, intervening trades and malformed money do not produce invented results (0.160084ms)
+✔ credit requires identity and movement evidence before comparing quantities (0.105333ms)
+✔ changing the basis invalidates an earlier credit result (0.072833ms)
+✔ saved case schema validates all route gates and strips arbitrary properties (1.209166ms)
+✔ summary omits filenames, personal source text and original files (0.400334ms)
+✔ encryption round trip, wrong password and ciphertext alteration (513.808708ms)
+✔ malicious encryption parameters and oversized input are rejected before decryption (0.137ms)
+✔ every selectable language has all interface keys (1.035416ms)
+✔ family HTML embeds the selected script font without transmitting family content (61.323875ms)
+✔ other languages need no font download and missing fonts fail explicitly (0.536875ms)
+✔ text and JSON intake keep source text without executing it (3.585583ms)
+✔ unsupported, mismatched, empty, oversized and malformed files are rejected (3.50475ms)
+✔ content hash finds duplicates with different filenames (10.396542ms)
+✔ cancelled intake produces no readable record (1.687042ms)
+✔ institution search separates related companies and permits a custom bank (14.601458ms)
+✔ guide routing distinguishes deposit, joint, fund folio and demat (4.419583ms)
+✔ generic search words cannot silently route a custom account to a specific institution (17.34475ms)
+✔ correction invalidates prior confirmation and logs the transition (1.173666ms)
+✔ old files migrate; unfinished forms never become confirmed accounts (0.488583ms)
+✔ saving a family edit preserves existing confirmation, without committing the edit (0.232042ms)
+✔ drafts can be encrypted before any account type or institution is chosen (0.135625ms)
+✔ every guide step and important interaction exists in all released dictionaries (0.229459ms)
+✔ fund units linked to a demat account do not create a second nomination task (0.191417ms)
+✔ provider guidance keeps product limits and separates first addition from correction (0.133125ms)
+✔ family review is separate from nomination and is invalidated by a correction (0.179417ms)
+✔ saving an unfinished demat account preserves the originating fund without linking early (0.201875ms)
+✔ all guide routes and fallback steps exist in every language (39.110833ms)
+✔ each small language pack matches all current public copy and its immutable address (92.69675ms)
+✔ choosing a language fetches only that language once and reuses concurrent loads (47.3875ms)
+✔ a failed language download can be retried without losing the current language (1.927667ms)
+✔ unknown languages and malformed downloads are rejected without poisoning the cache (0.608208ms)
+✔ entry HTML gives a usable language choice before JavaScript and avoids all-language preloads (6.448125ms)
+✔ all regional entry pages show current text, preload only their own pack and expose no private values (6.553333ms)
+✔ the release contains exactly English plus 20 scheduled languages and excludes deferred languages (4.593583ms)
+✔ saved work can restore every registered language without changing account content (14.160166ms)
+✔ translation source snapshot stays aligned with current public English instructions (1.240291ms)
+✔ local script-font files match their recorded source hashes and small download budgets (1.4775ms)
+✔ every published language has a native retry label before its full pack loads (0.227166ms)
+✔ regional date and last-four input preserves numeric value through validation and saved drafts (9.740292ms)
+✔ digit normalization does not turn letters or non-decimal numerals into a valid identifier (0.442ms)
+✔ nominee tracker prioritizes missing/unknown records without inventing verification (7.137125ms)
+✔ submitting a request leaves nomination unconfirmed (1.287958ms)
+✔ a receipt alone cannot mark nomination confirmed (0.217708ms)
+✔ invalid/future confirmation dates and long identifiers are rejected (0.24775ms)
+✔ schema rejects duplicate accounts and unknown status; resets stale confirmation when reported (0.218833ms)
+✔ family summary is deliberate plaintext handoff and omits record notes (0.194542ms)
+✔ encrypted nominee list roundtrips, rejects wrong password and authenticates tampering (349.584ms)
+ℹ tests 84
+ℹ suites 0
+ℹ pass 84
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3008.585459

@@ -1,0 +1,46 @@
+{
+  "id": "dpl_8kpj7QruDcaAro3KT4VF6s37u3iC",
+  "url": "sangyan-cj3vgd7k3-yashashwi-singhanias-projects.vercel.app",
+  "target": "production",
+  "readyState": "READY",
+  "createdAt": 1791079915825,
+  "aliases": [
+    "sangyan-xi.vercel.app",
+    "sangyan-yashashwi-singhanias-projects.vercel.app"
+  ],
+  "productionUrl": "https://sangyan-xi.vercel.app",
+  "sourceCommit": "7d9d350",
+  "sourceSha256": "378b5ab2e9fb2fc44f5865d951fe9ac55698eb4c788d45d6a8405ba35d66cbff",
+  "verifiedAt": "2026-10-04T02:13:38.145Z",
+  "textLanguages": 21,
+  "audioLanguages": 15,
+  "audioClips": 5355,
+  "newAudioClips": 3213,
+  "textOnlyLanguages": [
+    "ne",
+    "kok",
+    "mni",
+    "sa",
+    "sat",
+    "sd"
+  ],
+  "automatedTests": 84,
+  "browserInventory": {
+    "apps": [],
+    "browsers": []
+  },
+  "nativeScriptInputCorrection": true,
+  "humanTranslationReviewed": false,
+  "humanAudioReviewed": false,
+  "liveChecks": {
+    "nativePages": 21,
+    "audioRangeAndCompleteSamples": 15,
+    "nonMp3SourceHashes": 68,
+    "excluded404Paths": 11,
+    "errors": []
+  },
+  "totalRecordingBytes": 100779936,
+  "startupNavigationTransferBytes": 63124,
+  "publicDirectoryBytes": 102549565,
+  "liveAudioVerificationScope": "15 complete homeTitle files and matching partial-content ranges; all5355files validated locally, other5340not individually downloaded from production"
+}

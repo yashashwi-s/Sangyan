@@ -1,0 +1,3142 @@
+[
+  {
+    "event": "reset",
+    "run": "steady-1",
+    "profile": "steady",
+    "phases": [
+      {
+        "atMs": 0,
+        "downKbps": 160,
+        "latencyMs": 800,
+        "online": true
+      }
+    ]
+  },
+  {
+    "event": "navigation-start",
+    "run": "steady-1"
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/hi",
+    "atMs": 0,
+    "bytes": 1962,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 836
+  },
+  {
+    "event": "phase",
+    "run": "steady-1",
+    "atMs": 0,
+    "n": 0,
+    "downKbps": 160,
+    "latencyMs": 800,
+    "online": true
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/styles.css",
+    "atMs": 899,
+    "bytes": 6325,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 2580
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/locale.js",
+    "atMs": 899,
+    "bytes": 1380,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 1928
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/locale-catalog.js",
+    "atMs": 900,
+    "bytes": 408,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 1720
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/tracker.js",
+    "atMs": 900,
+    "bytes": 4207,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 2477
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/institutions.js",
+    "atMs": 900,
+    "bytes": 5075,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 2559
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/speech.js",
+    "atMs": 900,
+    "bytes": 1615,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 2136
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/guides.js",
+    "atMs": 1721,
+    "bytes": 1270,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 2646
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/privacy.js",
+    "atMs": 1929,
+    "bytes": 1071,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 2773
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/audio-catalog.js",
+    "atMs": 2137,
+    "bytes": 2878,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 3006
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/main.js",
+    "atMs": 2477,
+    "bytes": 18046,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 4620
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/locales/hi-729c30979e72.json",
+    "atMs": 2560,
+    "bytes": 10535,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 4425
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/export-font.js",
+    "atMs": 4625,
+    "bytes": 609,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 5463
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/languages.js",
+    "atMs": 4625,
+    "bytes": 803,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 5442
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/locale-retry.js",
+    "atMs": 4626,
+    "bytes": 701,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 5442
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/sw.js",
+    "atMs": 5556,
+    "bytes": 2693,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 6422
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/favicon.svg",
+    "atMs": 5673,
+    "bytes": 208,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 6486
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/index.html",
+    "atMs": 6430,
+    "bytes": 1881,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 7274
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/styles.css",
+    "atMs": 6430,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 7232
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/favicon.svg",
+    "atMs": 6486,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 7288
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/main.js",
+    "atMs": 7234,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 8036
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/export-font.js",
+    "atMs": 7274,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 8074
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/favicon.svg",
+    "atMs": 7288,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 8089
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/locale.js",
+    "atMs": 8037,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 8838
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/locale-retry.js",
+    "atMs": 8075,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 8877
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/languages.js",
+    "atMs": 8089,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 8889
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/locale-catalog.js",
+    "atMs": 8839,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 9640
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/tracker.js",
+    "atMs": 8877,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 9678
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/institutions.js",
+    "atMs": 8890,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 9691
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/guides.js",
+    "atMs": 9641,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 10442
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/privacy.js",
+    "atMs": 9679,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 10481
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/speech.js",
+    "atMs": 9692,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 10493
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/audio-catalog.js",
+    "atMs": 10443,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 11245
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/audio-credits.html",
+    "atMs": 10482,
+    "bytes": 2393,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 11335
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/robots.txt",
+    "atMs": 18767,
+    "bytes": 9,
+    "status": 404,
+    "outcome": "complete",
+    "endMs": 19583
+  },
+  {
+    "event": "request",
+    "run": "steady-1",
+    "path": "/sw.js",
+    "atMs": 19594,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 20402
+  },
+  {
+    "event": "reset",
+    "run": "steady-2",
+    "profile": "steady",
+    "phases": [
+      {
+        "atMs": 0,
+        "downKbps": 160,
+        "latencyMs": 800,
+        "online": true
+      }
+    ]
+  },
+  {
+    "event": "navigation-start",
+    "run": "steady-2"
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/hi",
+    "atMs": 0,
+    "bytes": 1962,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 828
+  },
+  {
+    "event": "phase",
+    "run": "steady-2",
+    "atMs": 0,
+    "n": 0,
+    "downKbps": 160,
+    "latencyMs": 800,
+    "online": true
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/styles.css",
+    "atMs": 906,
+    "bytes": 6325,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 2638
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/locale.js",
+    "atMs": 906,
+    "bytes": 1380,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 1835
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/locale-catalog.js",
+    "atMs": 907,
+    "bytes": 408,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 1748
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/tracker.js",
+    "atMs": 907,
+    "bytes": 4207,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 2512
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/institutions.js",
+    "atMs": 907,
+    "bytes": 5075,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 2554
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/speech.js",
+    "atMs": 907,
+    "bytes": 1615,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 2048
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/guides.js",
+    "atMs": 1749,
+    "bytes": 1270,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 2682
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/privacy.js",
+    "atMs": 1836,
+    "bytes": 1071,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 2703
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/audio-catalog.js",
+    "atMs": 2048,
+    "bytes": 2878,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 2915
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/main.js",
+    "atMs": 2512,
+    "bytes": 18046,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 4669
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/locales/hi-729c30979e72.json",
+    "atMs": 2554,
+    "bytes": 10535,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 4413
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/export-font.js",
+    "atMs": 4675,
+    "bytes": 609,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 5487
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/languages.js",
+    "atMs": 4675,
+    "bytes": 803,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 5487
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/locale-retry.js",
+    "atMs": 4675,
+    "bytes": 701,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 5509
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/sw.js",
+    "atMs": 5606,
+    "bytes": 2693,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 6471
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/favicon.svg",
+    "atMs": 5759,
+    "bytes": 208,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 6575
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/index.html",
+    "atMs": 6479,
+    "bytes": 1881,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 7317
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/styles.css",
+    "atMs": 6479,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 7282
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/favicon.svg",
+    "atMs": 6575,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 7378
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/main.js",
+    "atMs": 7283,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 8111
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/export-font.js",
+    "atMs": 7318,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 8128
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/favicon.svg",
+    "atMs": 7379,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 8180
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/locale.js",
+    "atMs": 8127,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 8928
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/locale-retry.js",
+    "atMs": 8139,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 8940
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/languages.js",
+    "atMs": 8182,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 8984
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/locale-catalog.js",
+    "atMs": 8930,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 9730
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/tracker.js",
+    "atMs": 8941,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 9743
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/institutions.js",
+    "atMs": 8985,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 9788
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/guides.js",
+    "atMs": 9731,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 10533
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/privacy.js",
+    "atMs": 9743,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 10544
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/speech.js",
+    "atMs": 9789,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 10590
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/audio-catalog.js",
+    "atMs": 10534,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 11335
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/audio-credits.html",
+    "atMs": 10545,
+    "bytes": 2393,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 11393
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/robots.txt",
+    "atMs": 18690,
+    "bytes": 9,
+    "status": 404,
+    "outcome": "complete",
+    "endMs": 19509
+  },
+  {
+    "event": "request",
+    "run": "steady-2",
+    "path": "/sw.js",
+    "atMs": 19521,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 20325
+  },
+  {
+    "event": "reset",
+    "run": "steady-3",
+    "profile": "steady",
+    "phases": [
+      {
+        "atMs": 0,
+        "downKbps": 160,
+        "latencyMs": 800,
+        "online": true
+      }
+    ]
+  },
+  {
+    "event": "navigation-start",
+    "run": "steady-3"
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/hi",
+    "atMs": 0,
+    "bytes": 1962,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 835
+  },
+  {
+    "event": "phase",
+    "run": "steady-3",
+    "atMs": 0,
+    "n": 0,
+    "downKbps": 160,
+    "latencyMs": 800,
+    "online": true
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/styles.css",
+    "atMs": 849,
+    "bytes": 6325,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 2553
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/locale.js",
+    "atMs": 849,
+    "bytes": 1380,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 1789
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/locale-catalog.js",
+    "atMs": 849,
+    "bytes": 408,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 1683
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/tracker.js",
+    "atMs": 849,
+    "bytes": 4207,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 2401
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/institutions.js",
+    "atMs": 850,
+    "bytes": 5075,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 2530
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/speech.js",
+    "atMs": 850,
+    "bytes": 1615,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 2005
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/guides.js",
+    "atMs": 1683,
+    "bytes": 1270,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 2595
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/privacy.js",
+    "atMs": 1789,
+    "bytes": 1071,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 2635
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/audio-catalog.js",
+    "atMs": 2005,
+    "bytes": 2878,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 2889
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/main.js",
+    "atMs": 2401,
+    "bytes": 18046,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 4554
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/locales/hi-729c30979e72.json",
+    "atMs": 2531,
+    "bytes": 10535,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 4424
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/export-font.js",
+    "atMs": 4561,
+    "bytes": 609,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 5365
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/languages.js",
+    "atMs": 4561,
+    "bytes": 803,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 5388
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/locale-retry.js",
+    "atMs": 4561,
+    "bytes": 701,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 5365
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/sw.js",
+    "atMs": 5471,
+    "bytes": 2693,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 6320
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/favicon.svg",
+    "atMs": 5518,
+    "bytes": 208,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 6341
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/index.html",
+    "atMs": 6323,
+    "bytes": 1881,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 7167
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/styles.css",
+    "atMs": 6323,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 7126
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/favicon.svg",
+    "atMs": 6341,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 7144
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/main.js",
+    "atMs": 7127,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 7929
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/favicon.svg",
+    "atMs": 7144,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 7945
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/export-font.js",
+    "atMs": 7168,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 7968
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/locale.js",
+    "atMs": 7930,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 8731
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/locale-retry.js",
+    "atMs": 7946,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 8749
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/languages.js",
+    "atMs": 7969,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 8769
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/locale-catalog.js",
+    "atMs": 8732,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 9533
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/tracker.js",
+    "atMs": 8749,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 9552
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/institutions.js",
+    "atMs": 8770,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 9572
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/guides.js",
+    "atMs": 9534,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 10336
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/privacy.js",
+    "atMs": 9553,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 10354
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/speech.js",
+    "atMs": 9573,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 10375
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/audio-catalog.js",
+    "atMs": 10337,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 11139
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/audio-credits.html",
+    "atMs": 10354,
+    "bytes": 2393,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 11211
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/robots.txt",
+    "atMs": 18830,
+    "bytes": 9,
+    "status": 404,
+    "outcome": "complete",
+    "endMs": 19643
+  },
+  {
+    "event": "request",
+    "run": "steady-3",
+    "path": "/sw.js",
+    "atMs": 19667,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 20476
+  },
+  {
+    "event": "reset",
+    "run": "changing-1",
+    "profile": "changing",
+    "phases": [
+      {
+        "atMs": 0,
+        "downKbps": 256,
+        "latencyMs": 600,
+        "online": true
+      },
+      {
+        "atMs": 1000,
+        "downKbps": 96,
+        "latencyMs": 1000,
+        "online": true
+      },
+      {
+        "atMs": 3000,
+        "downKbps": 0,
+        "latencyMs": 0,
+        "online": false
+      },
+      {
+        "atMs": 6000,
+        "downKbps": 128,
+        "latencyMs": 900,
+        "online": true
+      },
+      {
+        "atMs": 12000,
+        "downKbps": 256,
+        "latencyMs": 600,
+        "online": true
+      }
+    ]
+  },
+  {
+    "event": "navigation-start",
+    "run": "changing-1"
+  },
+  {
+    "event": "request",
+    "run": "changing-1",
+    "path": "/hi",
+    "atMs": 0,
+    "bytes": 1962,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 641
+  },
+  {
+    "event": "phase",
+    "run": "changing-1",
+    "atMs": 0,
+    "n": 0,
+    "downKbps": 256,
+    "latencyMs": 600,
+    "online": true
+  },
+  {
+    "event": "request",
+    "run": "changing-1",
+    "path": "/styles.css",
+    "atMs": 722,
+    "bytes": 6293,
+    "status": 200,
+    "outcome": "outage-interrupted-response",
+    "endMs": 3001
+  },
+  {
+    "event": "request",
+    "run": "changing-1",
+    "path": "/locale.js",
+    "atMs": 723,
+    "bytes": 1380,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 1901
+  },
+  {
+    "event": "request",
+    "run": "changing-1",
+    "path": "/locale-catalog.js",
+    "atMs": 723,
+    "bytes": 408,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 1521
+  },
+  {
+    "event": "request",
+    "run": "changing-1",
+    "path": "/tracker.js",
+    "atMs": 723,
+    "bytes": 4207,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 2725
+  },
+  {
+    "event": "request",
+    "run": "changing-1",
+    "path": "/institutions.js",
+    "atMs": 724,
+    "bytes": 5075,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 2914
+  },
+  {
+    "event": "request",
+    "run": "changing-1",
+    "path": "/speech.js",
+    "atMs": 724,
+    "bytes": 1615,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 2027
+  },
+  {
+    "event": "phase",
+    "run": "changing-1",
+    "atMs": 1000,
+    "n": 1,
+    "downKbps": 96,
+    "latencyMs": 1000,
+    "online": true
+  },
+  {
+    "event": "request",
+    "run": "changing-1",
+    "path": "/guides.js",
+    "atMs": 1522,
+    "bytes": 1270,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 2914
+  },
+  {
+    "event": "request",
+    "run": "changing-1",
+    "path": "/privacy.js",
+    "atMs": 1902,
+    "bytes": 517,
+    "status": 200,
+    "outcome": "outage-interrupted-response",
+    "endMs": 3001
+  },
+  {
+    "event": "request",
+    "run": "changing-1",
+    "path": "/audio-catalog.js",
+    "atMs": 2027,
+    "bytes": 0,
+    "status": null,
+    "outcome": "offline-after-latency"
+  },
+  {
+    "event": "request",
+    "run": "changing-1",
+    "path": "/main.js",
+    "atMs": 2725,
+    "bytes": 0,
+    "status": null,
+    "outcome": "offline-after-latency"
+  },
+  {
+    "event": "request",
+    "run": "changing-1",
+    "path": "/locales/hi-729c30979e72.json",
+    "atMs": 2915,
+    "bytes": 0,
+    "status": null,
+    "outcome": "offline-after-latency"
+  },
+  {
+    "event": "phase",
+    "run": "changing-1",
+    "atMs": 3000,
+    "n": 2,
+    "downKbps": 0,
+    "latencyMs": 0,
+    "online": false
+  },
+  {
+    "event": "request",
+    "run": "changing-1",
+    "path": "/audio-catalog.js",
+    "atMs": 3029,
+    "bytes": 0,
+    "status": null,
+    "outcome": "offline-before-request"
+  },
+  {
+    "event": "request",
+    "run": "changing-1",
+    "path": "/audio-catalog.js",
+    "atMs": 3030,
+    "bytes": 0,
+    "status": null,
+    "outcome": "offline-before-request"
+  },
+  {
+    "event": "request",
+    "run": "changing-1",
+    "path": "/main.js",
+    "atMs": 3726,
+    "bytes": 0,
+    "status": null,
+    "outcome": "offline-before-request"
+  },
+  {
+    "event": "request",
+    "run": "changing-1",
+    "path": "/favicon.svg",
+    "atMs": 3736,
+    "bytes": 0,
+    "status": null,
+    "outcome": "offline-before-request"
+  },
+  {
+    "event": "request",
+    "run": "changing-1",
+    "path": "/locales/hi-729c30979e72.json",
+    "atMs": 3917,
+    "bytes": 0,
+    "status": null,
+    "outcome": "offline-before-request"
+  },
+  {
+    "event": "phase",
+    "run": "changing-1",
+    "atMs": 6000,
+    "n": 3,
+    "downKbps": 128,
+    "latencyMs": 900,
+    "online": true
+  },
+  {
+    "event": "phase",
+    "run": "changing-1",
+    "atMs": 12000,
+    "n": 4,
+    "downKbps": 256,
+    "latencyMs": 600,
+    "online": true
+  },
+  {
+    "event": "request",
+    "run": "changing-1",
+    "path": "/styles.css",
+    "atMs": 15092,
+    "bytes": 6325,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 15843
+  },
+  {
+    "event": "request",
+    "run": "changing-1",
+    "path": "/robots.txt",
+    "atMs": 15887,
+    "bytes": 9,
+    "status": 404,
+    "outcome": "complete",
+    "endMs": 16514
+  },
+  {
+    "event": "reset",
+    "run": "changing-2",
+    "profile": "changing",
+    "phases": [
+      {
+        "atMs": 0,
+        "downKbps": 256,
+        "latencyMs": 600,
+        "online": true
+      },
+      {
+        "atMs": 1000,
+        "downKbps": 96,
+        "latencyMs": 1000,
+        "online": true
+      },
+      {
+        "atMs": 3000,
+        "downKbps": 0,
+        "latencyMs": 0,
+        "online": false
+      },
+      {
+        "atMs": 6000,
+        "downKbps": 128,
+        "latencyMs": 900,
+        "online": true
+      },
+      {
+        "atMs": 12000,
+        "downKbps": 256,
+        "latencyMs": 600,
+        "online": true
+      }
+    ]
+  },
+  {
+    "event": "navigation-start",
+    "run": "changing-2"
+  },
+  {
+    "event": "request",
+    "run": "changing-2",
+    "path": "/hi",
+    "atMs": 0,
+    "bytes": 1962,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 632
+  },
+  {
+    "event": "phase",
+    "run": "changing-2",
+    "atMs": 0,
+    "n": 0,
+    "downKbps": 256,
+    "latencyMs": 600,
+    "online": true
+  },
+  {
+    "event": "request",
+    "run": "changing-2",
+    "path": "/styles.css",
+    "atMs": 643,
+    "bytes": 6325,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 2912
+  },
+  {
+    "event": "request",
+    "run": "changing-2",
+    "path": "/locale.js",
+    "atMs": 643,
+    "bytes": 1380,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 1818
+  },
+  {
+    "event": "request",
+    "run": "changing-2",
+    "path": "/locale-catalog.js",
+    "atMs": 644,
+    "bytes": 408,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 1411
+  },
+  {
+    "event": "request",
+    "run": "changing-2",
+    "path": "/tracker.js",
+    "atMs": 644,
+    "bytes": 4207,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 2641
+  },
+  {
+    "event": "request",
+    "run": "changing-2",
+    "path": "/institutions.js",
+    "atMs": 644,
+    "bytes": 5075,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 2827
+  },
+  {
+    "event": "request",
+    "run": "changing-2",
+    "path": "/speech.js",
+    "atMs": 644,
+    "bytes": 1615,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 1944
+  },
+  {
+    "event": "phase",
+    "run": "changing-2",
+    "atMs": 1000,
+    "n": 1,
+    "downKbps": 96,
+    "latencyMs": 1000,
+    "online": true
+  },
+  {
+    "event": "request",
+    "run": "changing-2",
+    "path": "/guides.js",
+    "atMs": 1411,
+    "bytes": 1270,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 2827
+  },
+  {
+    "event": "request",
+    "run": "changing-2",
+    "path": "/privacy.js",
+    "atMs": 1819,
+    "bytes": 1071,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 2952
+  },
+  {
+    "event": "request",
+    "run": "changing-2",
+    "path": "/audio-catalog.js",
+    "atMs": 1944,
+    "bytes": 651,
+    "status": 200,
+    "outcome": "outage-interrupted-response",
+    "endMs": 3015
+  },
+  {
+    "event": "request",
+    "run": "changing-2",
+    "path": "/main.js",
+    "atMs": 2641,
+    "bytes": 0,
+    "status": null,
+    "outcome": "offline-after-latency"
+  },
+  {
+    "event": "request",
+    "run": "changing-2",
+    "path": "/locales/hi-729c30979e72.json",
+    "atMs": 2828,
+    "bytes": 0,
+    "status": null,
+    "outcome": "offline-after-latency"
+  },
+  {
+    "event": "phase",
+    "run": "changing-2",
+    "atMs": 3000,
+    "n": 2,
+    "downKbps": 0,
+    "latencyMs": 0,
+    "online": false
+  },
+  {
+    "event": "request",
+    "run": "changing-2",
+    "path": "/main.js",
+    "atMs": 3642,
+    "bytes": 0,
+    "status": null,
+    "outcome": "offline-before-request"
+  },
+  {
+    "event": "request",
+    "run": "changing-2",
+    "path": "/main.js",
+    "atMs": 3642,
+    "bytes": 0,
+    "status": null,
+    "outcome": "offline-before-request"
+  },
+  {
+    "event": "request",
+    "run": "changing-2",
+    "path": "/main.js",
+    "atMs": 3643,
+    "bytes": 0,
+    "status": null,
+    "outcome": "offline-before-request"
+  },
+  {
+    "event": "request",
+    "run": "changing-2",
+    "path": "/main.js",
+    "atMs": 3643,
+    "bytes": 0,
+    "status": null,
+    "outcome": "offline-before-request"
+  },
+  {
+    "event": "request",
+    "run": "changing-2",
+    "path": "/favicon.svg",
+    "atMs": 3649,
+    "bytes": 0,
+    "status": null,
+    "outcome": "offline-before-request"
+  },
+  {
+    "event": "request",
+    "run": "changing-2",
+    "path": "/locales/hi-729c30979e72.json",
+    "atMs": 3829,
+    "bytes": 0,
+    "status": null,
+    "outcome": "offline-before-request"
+  },
+  {
+    "event": "phase",
+    "run": "changing-2",
+    "atMs": 6000,
+    "n": 3,
+    "downKbps": 128,
+    "latencyMs": 900,
+    "online": true
+  },
+  {
+    "event": "phase",
+    "run": "changing-2",
+    "atMs": 12000,
+    "n": 4,
+    "downKbps": 256,
+    "latencyMs": 600,
+    "online": true
+  },
+  {
+    "event": "request",
+    "run": "changing-2",
+    "path": "/styles.css",
+    "atMs": 14955,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 15561
+  },
+  {
+    "event": "request",
+    "run": "changing-2",
+    "path": "/robots.txt",
+    "atMs": 15599,
+    "bytes": 9,
+    "status": 404,
+    "outcome": "complete",
+    "endMs": 16210
+  },
+  {
+    "event": "reset",
+    "run": "changing-3",
+    "profile": "changing",
+    "phases": [
+      {
+        "atMs": 0,
+        "downKbps": 256,
+        "latencyMs": 600,
+        "online": true
+      },
+      {
+        "atMs": 1000,
+        "downKbps": 96,
+        "latencyMs": 1000,
+        "online": true
+      },
+      {
+        "atMs": 3000,
+        "downKbps": 0,
+        "latencyMs": 0,
+        "online": false
+      },
+      {
+        "atMs": 6000,
+        "downKbps": 128,
+        "latencyMs": 900,
+        "online": true
+      },
+      {
+        "atMs": 12000,
+        "downKbps": 256,
+        "latencyMs": 600,
+        "online": true
+      }
+    ]
+  },
+  {
+    "event": "navigation-start",
+    "run": "changing-3"
+  },
+  {
+    "event": "request",
+    "run": "changing-3",
+    "path": "/hi",
+    "atMs": 0,
+    "bytes": 1962,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 628
+  },
+  {
+    "event": "phase",
+    "run": "changing-3",
+    "atMs": 0,
+    "n": 0,
+    "downKbps": 256,
+    "latencyMs": 600,
+    "online": true
+  },
+  {
+    "event": "request",
+    "run": "changing-3",
+    "path": "/styles.css",
+    "atMs": 639,
+    "bytes": 6325,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 2885
+  },
+  {
+    "event": "request",
+    "run": "changing-3",
+    "path": "/locale.js",
+    "atMs": 639,
+    "bytes": 1380,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 1803
+  },
+  {
+    "event": "request",
+    "run": "changing-3",
+    "path": "/locale-catalog.js",
+    "atMs": 640,
+    "bytes": 408,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 1408
+  },
+  {
+    "event": "request",
+    "run": "changing-3",
+    "path": "/tracker.js",
+    "atMs": 640,
+    "bytes": 4207,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 2629
+  },
+  {
+    "event": "request",
+    "run": "changing-3",
+    "path": "/institutions.js",
+    "atMs": 640,
+    "bytes": 5075,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 2885
+  },
+  {
+    "event": "request",
+    "run": "changing-3",
+    "path": "/speech.js",
+    "atMs": 640,
+    "bytes": 1615,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 1930
+  },
+  {
+    "event": "phase",
+    "run": "changing-3",
+    "atMs": 1000,
+    "n": 1,
+    "downKbps": 96,
+    "latencyMs": 1000,
+    "online": true
+  },
+  {
+    "event": "request",
+    "run": "changing-3",
+    "path": "/guides.js",
+    "atMs": 1409,
+    "bytes": 1270,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 2819
+  },
+  {
+    "event": "request",
+    "run": "changing-3",
+    "path": "/privacy.js",
+    "atMs": 1803,
+    "bytes": 1071,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 2948
+  },
+  {
+    "event": "request",
+    "run": "changing-3",
+    "path": "/audio-catalog.js",
+    "atMs": 1930,
+    "bytes": 623,
+    "status": 200,
+    "outcome": "outage-interrupted-response",
+    "endMs": 3011
+  },
+  {
+    "event": "request",
+    "run": "changing-3",
+    "path": "/main.js",
+    "atMs": 2629,
+    "bytes": 0,
+    "status": null,
+    "outcome": "offline-after-latency"
+  },
+  {
+    "event": "request",
+    "run": "changing-3",
+    "path": "/locales/hi-729c30979e72.json",
+    "atMs": 2820,
+    "bytes": 0,
+    "status": null,
+    "outcome": "offline-after-latency"
+  },
+  {
+    "event": "phase",
+    "run": "changing-3",
+    "atMs": 3000,
+    "n": 2,
+    "downKbps": 0,
+    "latencyMs": 0,
+    "online": false
+  },
+  {
+    "event": "request",
+    "run": "changing-3",
+    "path": "/main.js",
+    "atMs": 3632,
+    "bytes": 0,
+    "status": null,
+    "outcome": "offline-before-request"
+  },
+  {
+    "event": "request",
+    "run": "changing-3",
+    "path": "/main.js",
+    "atMs": 3632,
+    "bytes": 0,
+    "status": null,
+    "outcome": "offline-before-request"
+  },
+  {
+    "event": "request",
+    "run": "changing-3",
+    "path": "/main.js",
+    "atMs": 3632,
+    "bytes": 0,
+    "status": null,
+    "outcome": "offline-before-request"
+  },
+  {
+    "event": "request",
+    "run": "changing-3",
+    "path": "/main.js",
+    "atMs": 3632,
+    "bytes": 0,
+    "status": null,
+    "outcome": "offline-before-request"
+  },
+  {
+    "event": "request",
+    "run": "changing-3",
+    "path": "/favicon.svg",
+    "atMs": 3638,
+    "bytes": 0,
+    "status": null,
+    "outcome": "offline-before-request"
+  },
+  {
+    "event": "request",
+    "run": "changing-3",
+    "path": "/locales/hi-729c30979e72.json",
+    "atMs": 3821,
+    "bytes": 0,
+    "status": null,
+    "outcome": "offline-before-request"
+  },
+  {
+    "event": "phase",
+    "run": "changing-3",
+    "atMs": 6000,
+    "n": 3,
+    "downKbps": 128,
+    "latencyMs": 900,
+    "online": true
+  },
+  {
+    "event": "phase",
+    "run": "changing-3",
+    "atMs": 12000,
+    "n": 4,
+    "downKbps": 256,
+    "latencyMs": 600,
+    "online": true
+  },
+  {
+    "event": "request",
+    "run": "changing-3",
+    "path": "/styles.css",
+    "atMs": 14904,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 15510
+  },
+  {
+    "event": "request",
+    "run": "changing-3",
+    "path": "/robots.txt",
+    "atMs": 15543,
+    "bytes": 9,
+    "status": 404,
+    "outcome": "complete",
+    "endMs": 16151
+  },
+  {
+    "event": "reset",
+    "run": "recovered-1",
+    "profile": "recovered",
+    "phases": [
+      {
+        "atMs": 0,
+        "downKbps": 256,
+        "latencyMs": 600,
+        "online": true
+      }
+    ]
+  },
+  {
+    "event": "navigation-start",
+    "run": "recovered-1"
+  },
+  {
+    "event": "request",
+    "run": "recovered-1",
+    "path": "/hi",
+    "atMs": 0,
+    "bytes": 1962,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 653
+  },
+  {
+    "event": "phase",
+    "run": "recovered-1",
+    "atMs": 0,
+    "n": 0,
+    "downKbps": 256,
+    "latencyMs": 600,
+    "online": true
+  },
+  {
+    "event": "request",
+    "run": "recovered-1",
+    "path": "/styles.css",
+    "atMs": 666,
+    "bytes": 6325,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 1789
+  },
+  {
+    "event": "request",
+    "run": "recovered-1",
+    "path": "/locale.js",
+    "atMs": 666,
+    "bytes": 1380,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 1368
+  },
+  {
+    "event": "request",
+    "run": "recovered-1",
+    "path": "/locale-catalog.js",
+    "atMs": 666,
+    "bytes": 408,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 1283
+  },
+  {
+    "event": "request",
+    "run": "recovered-1",
+    "path": "/tracker.js",
+    "atMs": 666,
+    "bytes": 4207,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 1767
+  },
+  {
+    "event": "request",
+    "run": "recovered-1",
+    "path": "/institutions.js",
+    "atMs": 667,
+    "bytes": 5075,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 1767
+  },
+  {
+    "event": "request",
+    "run": "recovered-1",
+    "path": "/speech.js",
+    "atMs": 667,
+    "bytes": 1615,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 1452
+  },
+  {
+    "event": "request",
+    "run": "recovered-1",
+    "path": "/guides.js",
+    "atMs": 1284,
+    "bytes": 1270,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 1914
+  },
+  {
+    "event": "request",
+    "run": "recovered-1",
+    "path": "/privacy.js",
+    "atMs": 1369,
+    "bytes": 1071,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 2000
+  },
+  {
+    "event": "request",
+    "run": "recovered-1",
+    "path": "/audio-catalog.js",
+    "atMs": 1453,
+    "bytes": 2878,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 2107
+  },
+  {
+    "event": "request",
+    "run": "recovered-1",
+    "path": "/main.js",
+    "atMs": 1767,
+    "bytes": 18046,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 3184
+  },
+  {
+    "event": "request",
+    "run": "recovered-1",
+    "path": "/locales/hi-729c30979e72.json",
+    "atMs": 1767,
+    "bytes": 10535,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 2935
+  },
+  {
+    "event": "request",
+    "run": "recovered-1",
+    "path": "/export-font.js",
+    "atMs": 3190,
+    "bytes": 609,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 3802
+  },
+  {
+    "event": "request",
+    "run": "recovered-1",
+    "path": "/languages.js",
+    "atMs": 3191,
+    "bytes": 803,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 3802
+  },
+  {
+    "event": "request",
+    "run": "recovered-1",
+    "path": "/locale-retry.js",
+    "atMs": 3192,
+    "bytes": 701,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 3802
+  },
+  {
+    "event": "request",
+    "run": "recovered-1",
+    "path": "/sw.js",
+    "atMs": 3885,
+    "bytes": 2693,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 4540
+  },
+  {
+    "event": "request",
+    "run": "recovered-1",
+    "path": "/favicon.svg",
+    "atMs": 3992,
+    "bytes": 208,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 4603
+  },
+  {
+    "event": "request",
+    "run": "recovered-1",
+    "path": "/index.html",
+    "atMs": 4548,
+    "bytes": 1881,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 5183
+  },
+  {
+    "event": "request",
+    "run": "recovered-1",
+    "path": "/styles.css",
+    "atMs": 4549,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 5151
+  },
+  {
+    "event": "request",
+    "run": "recovered-1",
+    "path": "/favicon.svg",
+    "atMs": 4604,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 5205
+  },
+  {
+    "event": "request",
+    "run": "recovered-1",
+    "path": "/main.js",
+    "atMs": 5152,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 5755
+  },
+  {
+    "event": "request",
+    "run": "recovered-1",
+    "path": "/export-font.js",
+    "atMs": 5184,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 5785
+  },
+  {
+    "event": "request",
+    "run": "recovered-1",
+    "path": "/favicon.svg",
+    "atMs": 5205,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 5808
+  },
+  {
+    "event": "request",
+    "run": "recovered-1",
+    "path": "/locale.js",
+    "atMs": 5756,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 6358
+  },
+  {
+    "event": "request",
+    "run": "recovered-1",
+    "path": "/locale-retry.js",
+    "atMs": 5785,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 6386
+  },
+  {
+    "event": "request",
+    "run": "recovered-1",
+    "path": "/languages.js",
+    "atMs": 5808,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 6410
+  },
+  {
+    "event": "request",
+    "run": "recovered-1",
+    "path": "/locale-catalog.js",
+    "atMs": 6359,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 6960
+  },
+  {
+    "event": "request",
+    "run": "recovered-1",
+    "path": "/tracker.js",
+    "atMs": 6386,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 6987
+  },
+  {
+    "event": "request",
+    "run": "recovered-1",
+    "path": "/institutions.js",
+    "atMs": 6410,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 7013
+  },
+  {
+    "event": "request",
+    "run": "recovered-1",
+    "path": "/guides.js",
+    "atMs": 6961,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 7564
+  },
+  {
+    "event": "request",
+    "run": "recovered-1",
+    "path": "/privacy.js",
+    "atMs": 6988,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 7590
+  },
+  {
+    "event": "request",
+    "run": "recovered-1",
+    "path": "/speech.js",
+    "atMs": 7014,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 7615
+  },
+  {
+    "event": "request",
+    "run": "recovered-1",
+    "path": "/audio-catalog.js",
+    "atMs": 7564,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 8166
+  },
+  {
+    "event": "request",
+    "run": "recovered-1",
+    "path": "/audio-credits.html",
+    "atMs": 7590,
+    "bytes": 2393,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 8243
+  },
+  {
+    "event": "request",
+    "run": "recovered-1",
+    "path": "/robots.txt",
+    "atMs": 16360,
+    "bytes": 9,
+    "status": 404,
+    "outcome": "complete",
+    "endMs": 16976
+  },
+  {
+    "event": "request",
+    "run": "recovered-1",
+    "path": "/sw.js",
+    "atMs": 16996,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 17601
+  },
+  {
+    "event": "reset",
+    "run": "recovered-2",
+    "profile": "recovered",
+    "phases": [
+      {
+        "atMs": 0,
+        "downKbps": 256,
+        "latencyMs": 600,
+        "online": true
+      }
+    ]
+  },
+  {
+    "event": "navigation-start",
+    "run": "recovered-2"
+  },
+  {
+    "event": "request",
+    "run": "recovered-2",
+    "path": "/hi",
+    "atMs": 0,
+    "bytes": 1962,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 646
+  },
+  {
+    "event": "phase",
+    "run": "recovered-2",
+    "atMs": 0,
+    "n": 0,
+    "downKbps": 256,
+    "latencyMs": 600,
+    "online": true
+  },
+  {
+    "event": "request",
+    "run": "recovered-2",
+    "path": "/styles.css",
+    "atMs": 654,
+    "bytes": 6325,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 1736
+  },
+  {
+    "event": "request",
+    "run": "recovered-2",
+    "path": "/locale.js",
+    "atMs": 654,
+    "bytes": 1380,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 1363
+  },
+  {
+    "event": "request",
+    "run": "recovered-2",
+    "path": "/locale-catalog.js",
+    "atMs": 655,
+    "bytes": 408,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 1257
+  },
+  {
+    "event": "request",
+    "run": "recovered-2",
+    "path": "/tracker.js",
+    "atMs": 655,
+    "bytes": 4207,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 1759
+  },
+  {
+    "event": "request",
+    "run": "recovered-2",
+    "path": "/institutions.js",
+    "atMs": 655,
+    "bytes": 5075,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 1759
+  },
+  {
+    "event": "request",
+    "run": "recovered-2",
+    "path": "/speech.js",
+    "atMs": 655,
+    "bytes": 1615,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 1487
+  },
+  {
+    "event": "request",
+    "run": "recovered-2",
+    "path": "/guides.js",
+    "atMs": 1258,
+    "bytes": 1270,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 1884
+  },
+  {
+    "event": "request",
+    "run": "recovered-2",
+    "path": "/privacy.js",
+    "atMs": 1364,
+    "bytes": 1071,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 1989
+  },
+  {
+    "event": "request",
+    "run": "recovered-2",
+    "path": "/audio-catalog.js",
+    "atMs": 1487,
+    "bytes": 2878,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 2137
+  },
+  {
+    "event": "request",
+    "run": "recovered-2",
+    "path": "/main.js",
+    "atMs": 1737,
+    "bytes": 18046,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 3159
+  },
+  {
+    "event": "request",
+    "run": "recovered-2",
+    "path": "/locales/hi-729c30979e72.json",
+    "atMs": 1759,
+    "bytes": 10535,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 2971
+  },
+  {
+    "event": "request",
+    "run": "recovered-2",
+    "path": "/export-font.js",
+    "atMs": 3164,
+    "bytes": 609,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 3771
+  },
+  {
+    "event": "request",
+    "run": "recovered-2",
+    "path": "/languages.js",
+    "atMs": 3164,
+    "bytes": 803,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 3771
+  },
+  {
+    "event": "request",
+    "run": "recovered-2",
+    "path": "/locale-retry.js",
+    "atMs": 3165,
+    "bytes": 701,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 3771
+  },
+  {
+    "event": "request",
+    "run": "recovered-2",
+    "path": "/sw.js",
+    "atMs": 3856,
+    "bytes": 2693,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 4510
+  },
+  {
+    "event": "request",
+    "run": "recovered-2",
+    "path": "/favicon.svg",
+    "atMs": 3891,
+    "bytes": 208,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 4510
+  },
+  {
+    "event": "request",
+    "run": "recovered-2",
+    "path": "/favicon.svg",
+    "atMs": 4511,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 5111
+  },
+  {
+    "event": "request",
+    "run": "recovered-2",
+    "path": "/index.html",
+    "atMs": 4513,
+    "bytes": 1881,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 5143
+  },
+  {
+    "event": "request",
+    "run": "recovered-2",
+    "path": "/styles.css",
+    "atMs": 4513,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 5114
+  },
+  {
+    "event": "request",
+    "run": "recovered-2",
+    "path": "/favicon.svg",
+    "atMs": 5112,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 5712
+  },
+  {
+    "event": "request",
+    "run": "recovered-2",
+    "path": "/main.js",
+    "atMs": 5115,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 5717
+  },
+  {
+    "event": "request",
+    "run": "recovered-2",
+    "path": "/export-font.js",
+    "atMs": 5143,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 5744
+  },
+  {
+    "event": "request",
+    "run": "recovered-2",
+    "path": "/locale.js",
+    "atMs": 5713,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 6314
+  },
+  {
+    "event": "request",
+    "run": "recovered-2",
+    "path": "/locale-retry.js",
+    "atMs": 5718,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 6319
+  },
+  {
+    "event": "request",
+    "run": "recovered-2",
+    "path": "/languages.js",
+    "atMs": 5744,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 6347
+  },
+  {
+    "event": "request",
+    "run": "recovered-2",
+    "path": "/locale-catalog.js",
+    "atMs": 6315,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 6916
+  },
+  {
+    "event": "request",
+    "run": "recovered-2",
+    "path": "/tracker.js",
+    "atMs": 6319,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 6921
+  },
+  {
+    "event": "request",
+    "run": "recovered-2",
+    "path": "/institutions.js",
+    "atMs": 6348,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 6949
+  },
+  {
+    "event": "request",
+    "run": "recovered-2",
+    "path": "/guides.js",
+    "atMs": 6917,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 7519
+  },
+  {
+    "event": "request",
+    "run": "recovered-2",
+    "path": "/privacy.js",
+    "atMs": 6922,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 7523
+  },
+  {
+    "event": "request",
+    "run": "recovered-2",
+    "path": "/speech.js",
+    "atMs": 6949,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 7552
+  },
+  {
+    "event": "request",
+    "run": "recovered-2",
+    "path": "/audio-catalog.js",
+    "atMs": 7520,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 8123
+  },
+  {
+    "event": "request",
+    "run": "recovered-2",
+    "path": "/audio-credits.html",
+    "atMs": 7523,
+    "bytes": 2393,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 8168
+  },
+  {
+    "event": "request",
+    "run": "recovered-2",
+    "path": "/robots.txt",
+    "atMs": 16249,
+    "bytes": 9,
+    "status": 404,
+    "outcome": "complete",
+    "endMs": 16873
+  },
+  {
+    "event": "request",
+    "run": "recovered-2",
+    "path": "/sw.js",
+    "atMs": 16883,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 17485
+  },
+  {
+    "event": "reset",
+    "run": "recovered-3",
+    "profile": "recovered",
+    "phases": [
+      {
+        "atMs": 0,
+        "downKbps": 256,
+        "latencyMs": 600,
+        "online": true
+      }
+    ]
+  },
+  {
+    "event": "navigation-start",
+    "run": "recovered-3"
+  },
+  {
+    "event": "request",
+    "run": "recovered-3",
+    "path": "/hi",
+    "atMs": 0,
+    "bytes": 1962,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 636
+  },
+  {
+    "event": "phase",
+    "run": "recovered-3",
+    "atMs": 0,
+    "n": 0,
+    "downKbps": 256,
+    "latencyMs": 600,
+    "online": true
+  },
+  {
+    "event": "request",
+    "run": "recovered-3",
+    "path": "/styles.css",
+    "atMs": 645,
+    "bytes": 6325,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 1780
+  },
+  {
+    "event": "request",
+    "run": "recovered-3",
+    "path": "/locale.js",
+    "atMs": 645,
+    "bytes": 1380,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 1351
+  },
+  {
+    "event": "request",
+    "run": "recovered-3",
+    "path": "/locale-catalog.js",
+    "atMs": 645,
+    "bytes": 408,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 1267
+  },
+  {
+    "event": "request",
+    "run": "recovered-3",
+    "path": "/tracker.js",
+    "atMs": 646,
+    "bytes": 4207,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 1719
+  },
+  {
+    "event": "request",
+    "run": "recovered-3",
+    "path": "/institutions.js",
+    "atMs": 646,
+    "bytes": 5075,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 1739
+  },
+  {
+    "event": "request",
+    "run": "recovered-3",
+    "path": "/speech.js",
+    "atMs": 646,
+    "bytes": 1615,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 1481
+  },
+  {
+    "event": "request",
+    "run": "recovered-3",
+    "path": "/guides.js",
+    "atMs": 1268,
+    "bytes": 1270,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 1904
+  },
+  {
+    "event": "request",
+    "run": "recovered-3",
+    "path": "/privacy.js",
+    "atMs": 1351,
+    "bytes": 1071,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 1989
+  },
+  {
+    "event": "request",
+    "run": "recovered-3",
+    "path": "/audio-catalog.js",
+    "atMs": 1482,
+    "bytes": 2878,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 2138
+  },
+  {
+    "event": "request",
+    "run": "recovered-3",
+    "path": "/main.js",
+    "atMs": 1720,
+    "bytes": 18046,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 3136
+  },
+  {
+    "event": "request",
+    "run": "recovered-3",
+    "path": "/locales/hi-729c30979e72.json",
+    "atMs": 1740,
+    "bytes": 10535,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 2965
+  },
+  {
+    "event": "request",
+    "run": "recovered-3",
+    "path": "/export-font.js",
+    "atMs": 3141,
+    "bytes": 609,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 3758
+  },
+  {
+    "event": "request",
+    "run": "recovered-3",
+    "path": "/languages.js",
+    "atMs": 3141,
+    "bytes": 803,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 3758
+  },
+  {
+    "event": "request",
+    "run": "recovered-3",
+    "path": "/locale-retry.js",
+    "atMs": 3142,
+    "bytes": 701,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 3758
+  },
+  {
+    "event": "request",
+    "run": "recovered-3",
+    "path": "/sw.js",
+    "atMs": 3838,
+    "bytes": 2693,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 4488
+  },
+  {
+    "event": "request",
+    "run": "recovered-3",
+    "path": "/favicon.svg",
+    "atMs": 3877,
+    "bytes": 208,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 4488
+  },
+  {
+    "event": "request",
+    "run": "recovered-3",
+    "path": "/favicon.svg",
+    "atMs": 4489,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 5090
+  },
+  {
+    "event": "request",
+    "run": "recovered-3",
+    "path": "/index.html",
+    "atMs": 4491,
+    "bytes": 1881,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 5116
+  },
+  {
+    "event": "request",
+    "run": "recovered-3",
+    "path": "/styles.css",
+    "atMs": 4491,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 5093
+  },
+  {
+    "event": "request",
+    "run": "recovered-3",
+    "path": "/favicon.svg",
+    "atMs": 5091,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 5691
+  },
+  {
+    "event": "request",
+    "run": "recovered-3",
+    "path": "/main.js",
+    "atMs": 5093,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 5695
+  },
+  {
+    "event": "request",
+    "run": "recovered-3",
+    "path": "/export-font.js",
+    "atMs": 5116,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 5719
+  },
+  {
+    "event": "request",
+    "run": "recovered-3",
+    "path": "/locale.js",
+    "atMs": 5692,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 6293
+  },
+  {
+    "event": "request",
+    "run": "recovered-3",
+    "path": "/locale-retry.js",
+    "atMs": 5695,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 6296
+  },
+  {
+    "event": "request",
+    "run": "recovered-3",
+    "path": "/languages.js",
+    "atMs": 5720,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 6321
+  },
+  {
+    "event": "request",
+    "run": "recovered-3",
+    "path": "/locale-catalog.js",
+    "atMs": 6294,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 6896
+  },
+  {
+    "event": "request",
+    "run": "recovered-3",
+    "path": "/tracker.js",
+    "atMs": 6296,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 6897
+  },
+  {
+    "event": "request",
+    "run": "recovered-3",
+    "path": "/institutions.js",
+    "atMs": 6322,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 6924
+  },
+  {
+    "event": "request",
+    "run": "recovered-3",
+    "path": "/guides.js",
+    "atMs": 6897,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 7498
+  },
+  {
+    "event": "request",
+    "run": "recovered-3",
+    "path": "/privacy.js",
+    "atMs": 6898,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 7498
+  },
+  {
+    "event": "request",
+    "run": "recovered-3",
+    "path": "/speech.js",
+    "atMs": 6925,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 7525
+  },
+  {
+    "event": "request",
+    "run": "recovered-3",
+    "path": "/audio-credits.html",
+    "atMs": 7499,
+    "bytes": 2393,
+    "status": 200,
+    "outcome": "complete",
+    "endMs": 8161
+  },
+  {
+    "event": "request",
+    "run": "recovered-3",
+    "path": "/audio-catalog.js",
+    "atMs": 7499,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 8100
+  },
+  {
+    "event": "request",
+    "run": "recovered-3",
+    "path": "/robots.txt",
+    "atMs": 16278,
+    "bytes": 9,
+    "status": 404,
+    "outcome": "complete",
+    "endMs": 16903
+  },
+  {
+    "event": "request",
+    "run": "recovered-3",
+    "path": "/sw.js",
+    "atMs": 16917,
+    "bytes": 0,
+    "status": 304,
+    "outcome": "complete",
+    "endMs": 17524
+  }
+]

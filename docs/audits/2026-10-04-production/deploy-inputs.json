@@ -1,0 +1,22 @@
+{
+  "framework": {
+    "name": "Other",
+    "slug": null
+  },
+  "fileCount": 5424,
+  "totalSize": 102550932,
+  "ignoredCount": 1,
+  "ignored": [
+    ".vercel"
+  ],
+  "directories": [
+    {
+      "path": "app",
+      "fileCount": 5424,
+      "size": 102550932
+    }
+  ],
+  "rootDirectory": "app",
+  "publicOnly": true,
+  "excluded": "dist/_headers, build-only scripts/translations/audio manifests, tests, research, model/runtime dependencies"
+}

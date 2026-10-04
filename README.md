@@ -1,17 +1,17 @@
 # Virasat — Family accounts and nominees
 
-**Current prototype: 2 October 2026.** Virasat follows the supplied Track B brief's **Nominee & Family Wealth Tracker** direction. One focused journey helps a family list demat accounts, bank deposits and mutual fund folios, notice missing or uncertain nominations, and follow one request through to a record check.
+**Published draft: 4 October 2026.** Virasat follows the supplied Track B brief's **Nominee & Family Wealth Tracker** direction. One focused journey helps a family list demat accounts, bank deposits and mutual fund folios, notice missing or uncertain nominations, and follow one request through to a record check. The live site is [sangyan-xi.vercel.app](https://sangyan-xi.vercel.app). See the [current release review](docs/bharat-release-review-2026-10-04.md) for exact coverage, verification and unresolved human/device evidence.
 
 The authoritative brief is the supplied [SANGYAN problem statement](references/problem-statement.pdf). Earlier securities-history and transmission research is preserved as background; it does not define the current product journey.
 
 ## Working journey
 
-1. Choose English, Hindi, Bengali, Marathi, Tamil or Urdu. The first screen contains only the language question and tiles.
-2. Answer three short questions: account type, institution and nominee status. Home exits the current step and offers the unfinished account when you return. The last question explains what a nominee means and offers Yes/No/Not sure. Optional family/account nicknames, nominee nickname or relationship, and last four digits can be added later through Edit account. Full account numbers, PAN, passwords and identity documents are not requested.
+1. Choose one of 21 text languages: English plus 20 scheduled languages, excluding Bodo and Kashmiri. Search native or English names. Fifteen languages have optional bundled draft audio; six explain that written guidance is available without recordings.
+2. Answer four short stages: account type, institution, holding/product context and nominee status. Home exits the current step and offers the unfinished account when you return. The last question explains what a nominee means and offers known/unknown/missing/change/opt-out choices. Optional family/account nicknames, nominee notes and last four digits have a dedicated family record. Full account numbers, PAN, institutional passwords and identity documents are not requested. A locally chosen password protects saved copies.
 3. Open a missing or uncertain account and follow its institution-specific next task. A visible checklist explains what to check, what to ask and what confirms registration. Official sources stay alongside the task; HDFC Bank deposit accounts have a narrowly verified NetBanking hint.
 4. Record that a request was submitted. This leaves registration unconfirmed.
 5. Check a statement or institution confirmation that actually records nomination. A receipt alone does not satisfy this step. This remains the user's reported record check; Virasat does not authenticate it.
-6. Review a family summary or save a password-encrypted `.virasat` file to resume later.
+6. Review family details separately, deliberately choose what to include in a readable family sheet, or save a password-encrypted `.virasat` file to resume the list and unfinished forms later.
 
 This build has no death intake, inheritance decision, portfolio calculator, prices, grievance filing, IEPF claims, account discovery or live institutional submission. A nominee flag does not determine inheritance rights.
 
@@ -19,24 +19,24 @@ This build has no death intake, inheritance decision, portfolio calculator, pric
 
 ```sh
 npm --prefix app run dev
-npm --prefix app test
+npm --prefix app run check:release
 ```
 
-The existing preview runs at `http://127.0.0.1:4173/`. Language switching stays on `/`, uses native-script labels, and preserves the current list and unfinished ordinary form edits. Old locale entry links are canonicalized to `/` by the preview. Urdu glyphs read right to left within inline text; all blocks keep the same left alignment and layout order as English.
+The preview runs at `http://127.0.0.1:4173/`. Language switching stays on `/`, uses native-script labels, and preserves the current list and unfinished form edits. Locale entry links are canonicalized to `/` by the preview. Urdu and Sindhi text reads right to left while retaining the established page geometry. Native decimal date/last-four input preserves numeric value and leading zeros.
 
 See [app instructions](app/README.md), [current build plan](docs/build-plan.md), and [recorded implementation checks](docs/implementation-checks.md).
 
 ## Boundaries that matter
 
-- **Local preparation:** no account login, case server, database, analytics, automatic uploads or case persistence in browser storage. Reload clears the session. Downloaded files remain on the user's device.
+- **Local preparation:** no account login, case server, database, analytics, automatic uploads or plaintext account persistence. Optional device storage contains only an encrypted saved envelope. Reload clears the unlocked session; reopening requires the password. Downloaded files remain on the user's device.
 - **Encrypted resume:** explicit local download using AES-256-GCM, PBKDF2-SHA256 with 600,000 iterations, random salt/nonce and authenticated version data. Passwords are not recoverable. Browser memory release is not forensic erasure.
 - **Deliberate sharing:** the plaintext summary preview discloses institution labels, family/nominee nicknames and optional last four digits. Private free-text record notes are omitted. Share only deliberately.
 - **Evidence states:** reported by the user, request submitted, and registration checked in a record are separate. None is automated institutional verification.
 - **Current guidance:** demat/MF nomination guidance uses SEBI's 29 May 2026 circular, effective 1 September 2026. Bank deposits use the Banking Companies (Nomination) Rules, 2025. Actual forms and eligibility are confirmed with the institution. These are different regimes; the app does not impose one universal document checklist.
-- **Languages:** six complete draft interface dictionaries; fluent-reader and legal-language review remain pending. No approved fluency claim. Official forms are not translated.
-- **Accessibility:** keyboard entry, visible focus, text-size A−/A+, contrast, reduced motion and optional device-local voice. The design targets WCAG 2.2 AA; human assistive-technology review remains a release gate.
+- **Languages/audio:** 21 complete draft dictionaries and 15 complete synthetic draft guidance packs, downloaded only on request. Nepali, Konkani, Manipuri/Meitei, Sanskrit, Santali and Sindhi are text-only. Fluent-reader, legal-language and voice review remain pending. Official forms are not translated; no device speech voice or cloud account-data service is required. Bundled MMS audio is restricted to non-commercial use under CC BY-NC 4.0.
+- **Accessibility:** keyboard controls, visible focus, 90–200% text, contrast, spacing, reduced motion and optional bundled public guidance. Automated/source checks do not certify WCAG/GIGW conformance. Final interactive/screen-reader and physical-device review remain unverified.
 
-No recovery, financial saving, legal compliance certification, institutional acceptance or performance guarantee is claimed. Actual local Lighthouse reports and their tested conditions are recorded in [implementation checks](docs/implementation-checks.md).
+No financial saving, legal compliance certification, institutional acceptance or performance guarantee is claimed. The [final-source performance report](docs/bharat-performance-final-2026-10-04.md) records exact lab conditions and failed interrupted startups. The [acceptance checklist](docs/bharat-release-checklist.md) separates passing technical/live checks from fluent, interactive and physical-device gaps. Earlier implementation reports remain dated historical evidence.
 
 ## Repository guide
 
