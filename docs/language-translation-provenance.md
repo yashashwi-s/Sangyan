@@ -2,6 +2,8 @@
 
 Date: 2026-10-03. Every non-English pack remains a draft. A fluent reader has not signed off on the complete account journey, institution guidance, privacy wording, accessibility labels, or audio pronunciation. Native script, nonempty text, and matching keys are structural checks; they do not establish linguistic or legal accuracy.
 
+4 October editorial continuation: Nepali `voiceHelp` was changed by the assistant to “लिखित मार्गदर्शन र अडियो उपलब्ध छन्।” after its actual complete audio pack was integrated. The precise public source and recording hashes were regenerated; this short availability correction has not received fluent-reader signoff. Current scope is 21 text / 16 audio languages, with five text-only languages; earlier build/translation provenance below remains historical.
+
 ## Source and data handling
 
 The 364 effective English interface strings were compared with the publicly deployed dictionaries at [sangyan-xi.vercel.app](https://sangyan-xi.vercel.app/). Public `virasat-copy.js`, `journey-copy.js`, and `audio-copy.js` were merged in the same order as the site's `i18n.js`. All 364 local source keys and values matched that public English dictionary, with zero unmatched strings. The deployed [English locale](https://sangyan-xi.vercel.app/locales/en-03602502de66.json) was also available.
